@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#667eea">
+    <title>雅思词汇真经</title>
+    <link rel="manifest" href="manifest.json">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 15px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+
+        /* 顶部状态栏 */
+        .status-bar {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        .status-bar h1 {
+            color: #667eea;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+        .stat-item { text-align: center; }
+        .stat-number {
+            font-size: 28px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        /* 更新提示 */
+        .update-banner {
+            background: #28a745;
+            color: white;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            text-align: center;
+            display: none;
+        }
+        .update-banner.show { display: block; }
+
+        /* 分类标签 */
+        .category-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            overflow-x: auto;
+            padding: 5px;
+        }
+        .tab {
+            padding: 10px 20px;
+            background: white;
+            border: 2px solid #667eea;
+            border-radius: 20px;
+            cursor: pointer;
+            white-space: nowrap;
+            font-size: 14px;
+            color: #667eea;
+        }
+        .tab.active {
+            background: #667eea;
+            color: white;
+        }
+
+        /* 单词卡片 */
+        .word-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        .word-header {
+            text-align: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .word-title {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 8px;
+        }
+        .phonetic {
+            font-size: 18px;
+            color: #666;
+        }
+        .core-state-section {
+            background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .core-icon {
+            font-size: 64px;
+            margin-bottom: 15px;
+            display: block;
+        }
+        .core-state-title {
+            font-size: 14px;
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .core-state-text {
+            font-size: 20px;
+            color: #333;
+            font-weight: 600;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .core-elements {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 15px;
+            text-align: left;
+        }
+        .core-elements-title {
+            font-size: 13px;
+            color: #667eea;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .core-element {
+            font-size: 14px;
+            color: #666;
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        .core-element:before {
+            content: "•";
+            position: absolute;
+            left: 5px;
+            color: #667eea;
+        }
+        .scenes-section { margin-top: 20px; }
+        .section-title {
+            font-size: 16px;
+            color: #667eea;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .scene-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .scene-emoji {
+            font-size: 36px;
+            margin-right: 15px;
+            min-width: 50px;
+            text-align: center;
+        }
+        .scene-content { flex: 1; }
+        .scene-phrase {
+            font-size: 16px;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        .scene-note {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.4;
+        }
+        .collocations {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .collocation-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .chinese-check {
+            background: #fff3cd;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #856404;
+        }
+        .chinese-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .category-badge {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 12px;
+            margin-bottom: 15px;
+        }
+
+        /* 操作按钮 */
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .btn {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            flex: 1;
+            max-width: 150px;
+        }
+        .btn-know { background: #28a745; color: white; }
+        .btn-unknown { background: #dc3545; color: white; }
+        .btn-skip { background: #6c757d; color: white; }
+
+        /* 加载提示 */
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: white;
+            font-size: 18px;
+        }
+
+        /* 空状态 */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 更新提示 -->
+        <div class="update-banner" id="updateBanner">
+            ✨ 发现新版本！点击更新
+        </div>
+
+        <!-- 顶部状态栏 -->
+        <div class="status-bar">
+            <h1>📚 雅思词汇真经</h1>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-number" id="totalWords">0</div>
+                    <div class="stat-label">总词汇</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="learnedWords">0</div>
+                    <div class="stat-label">已学习</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" id="streakDays">0</div>
+                    <div class="stat-label">连续天数</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 分类标签 -->
+        <div class="category-tabs">
+            <div class="tab active" onclick="switchCategory('all')">全部</div>
+            <div class="tab" onclick="switchCategory('A')">🎯 核心状态词</div>
+            <div class="tab" onclick="switchCategory('S')">🧭 空间关系词</div>
+            <div class="tab" onclick="switchCategory('R')">🌳 词根词族</div>
+            <div class="tab" onclick="switchCategory('C')">🔗 固定搭配</div>
+            <div class="tab" onclick="switchCategory('I')">👁️ 识别词</div>
+        </div>
+
+        <!-- 单词卡片容器 -->
+        <div id="wordCardContainer">
+            <div class="loading">加载中...</div>
+        </div>
+    </div>
+
+    <script>
+        // 注册Service Worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js')
+                .then(reg => {
+                    console.log('Service Worker 注册成功');
+
+                    // 检查更新
+                    reg.addEventListener('updatefound', () => {
+                        const newWorker = reg.installing;
+                        newWorker.addEventListener('statechange', () => {
+                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                // 显示更新提示
+                                document.getElementById('updateBanner').classList.add('show');
+                            }
+                        });
+                    });
+                })
+                .catch(err => console.log('Service Worker 注册失败:', err));
+        }
+
+        // 点击更新
+        document.getElementById('updateBanner').addEventListener('click', () => {
+            navigator.serviceWorker.controller.postMessage({ action: 'skipWaiting' });
+            window.location.reload();
+        });
+
+        // 全局变量
+        let allWords = { A: [], S: [], R: [], C: [], I: [] };
+        let currentIndex = 0;
+        let currentCategory = 'all';
+        let filteredWords = [];
+
+        // 初始化
+        async function init() {
+            try {
+                // 加载所有数据
+                const [coreWords, spatialWords, rootFamilies, collocations, recognitionWords] = await Promise.all([
+                    fetch('data/core_words.json').then(r => r.json()),
+                    fetch('data/spatial_words.json').then(r => r.json()),
+                    fetch('data/root_families.json').then(r => r.json()),
+                    fetch('data/collocations.json').then(r => r.json()),
+                    fetch('data/recognition_words.json').then(r => r.json())
+                ]);
+
+                allWords.A = coreWords;
+                allWords.S = spatialWords;
+                allWords.R = rootFamilies;
+                allWords.C = collocations;
+                allWords.I = recognitionWords;
+
+                filteredWords = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
+
+                // 更新统计
+                document.getElementById('totalWords').textContent = filteredWords.length;
+
+                loadWord();
+            } catch (error) {
+                console.error('加载失败:', error);
+                document.getElementById('wordCardContainer').innerHTML =
+                    '<div class="empty-state"><h2>⚠️ 加载失败</h2><p>请检查网络连接</p></div>';
+            }
+        }
+
+        // 切换分类
+        function switchCategory(category) {
+            currentCategory = category;
+            currentIndex = 0;
+
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            if (category === 'all') {
+                filteredWords = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
+            } else {
+                filteredWords = allWords[category] || [];
+            }
+
+            loadWord();
+        }
+
+        // 加载单词
+        function loadWord() {
+            const container = document.getElementById('wordCardContainer');
+
+            if (filteredWords.length === 0) {
+                container.innerHTML = '<div class="empty-state"><h2>🎉 恭喜！</h2><p>该分类下的单词已学习完毕</p></div>';
+                return;
+            }
+
+            if (currentIndex >= filteredWords.length) {
+                currentIndex = 0;
+            }
+
+            const word = filteredWords[currentIndex];
+
+            // 根据分类显示不同内容
+            if (word.category === 'R') {
+                container.innerHTML = renderRootFamily(word);
+            } else if (word.category === 'C') {
+                container.innerHTML = renderCollocation(word);
+            } else if (word.category === 'I') {
+                container.innerHTML = renderRecognition(word);
+            } else {
+                container.innerHTML = renderCoreWord(word);
+            }
+        }
+
+        // 渲染核心状态词
+        function renderCoreWord(word) {
+            return `
+                <div class="word-card">
+                    <span class="category-badge">🎯 核心状态词</span>
+                    <div class="word-header">
+                        <div class="word-title">${word.word}</div>
+                        <div class="phonetic">${word.phonetic} ${word.pos}</div>
+                    </div>
+                    <div class="core-state-section">
+                        <span class="core-icon">${word.core_emoji}</span>
+                        <div class="core-state-title">核心状态</div>
+                        <div class="core-state-text">${word.core_state}</div>
+                    </div>
+                    <div class="scenes-section">
+                        <div class="section-title">📍 场景延伸</div>
+                        ${word.scenes.map(s => `
+                            <div class="scene-item">
+                                <div class="scene-emoji">${s.emoji}</div>
+                                <div class="scene-content">
+                                    <div class="scene-phrase">${s.phrase}</div>
+                                    <div class="scene-note">${s.note}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="section-title">🔗 雅思搭配</div>
+                    <div class="collocations">
+                        ${word.collocations.map(c => `<span class="collocation-tag">${c}</span>`).join('')}
+                    </div>
+                    <div class="chinese-check">
+                        <div class="chinese-label">💡 中文核对</div>
+                        <div>${word.chinese}</div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
+                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
+                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 渲染词根词族
+        function renderRootFamily(word) {
+            return `
+                <div class="word-card">
+                    <span class="category-badge">🌳 词根词族</span>
+                    <div class="word-header">
+                        <div class="word-title">${word.root}</div>
+                    </div>
+                    <div class="core-state-section">
+                        <span class="core-icon">${word.core_emoji}</span>
+                        <div class="core-state-title">核心画面</div>
+                        <div class="core-state-text">${word.core_image}</div>
+                    </div>
+                    <div class="scenes-section">
+                        <div class="section-title">📚 词族成员</div>
+                        ${word.members.map(m => `
+                            <div class="scene-item">
+                                <div class="scene-emoji">${m.emoji}</div>
+                                <div class="scene-content">
+                                    <div class="scene-phrase">${m.word}</div>
+                                    <div class="scene-note">${m.note}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="section-title">🔗 高频搭配</div>
+                    <div class="collocations">
+                        ${word.collocations.map(c => `<span class="collocation-tag">${c}</span>`).join('')}
+                    </div>
+                    <div class="chinese-check">
+                        <div class="chinese-label">💡 中文核对</div>
+                        <div>${word.chinese}</div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
+                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
+                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 渲染固定搭配
+        function renderCollocation(word) {
+            return `
+                <div class="word-card">
+                    <span class="category-badge">🔗 固定搭配</span>
+                    <div class="word-header">
+                        <div class="word-title">${word.phrase}</div>
+                    </div>
+                    <div class="core-state-section">
+                        <span class="core-icon">${word.core_emoji}</span>
+                        <div class="core-state-title">核心关系</div>
+                        <div class="core-state-text">${word.core_relation}</div>
+                    </div>
+                    <div class="scenes-section">
+                        <div class="section-title">📍 场景延伸</div>
+                        ${word.scenes.map(s => `
+                            <div class="scene-item">
+                                <div class="scene-emoji">${s.emoji}</div>
+                                <div class="scene-content">
+                                    <div class="scene-phrase">${s.phrase}</div>
+                                    <div class="scene-note">${s.note}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="section-title">🔗 相关搭配</div>
+                    <div class="collocations">
+                        ${word.collocations.map(c => `<span class="collocation-tag">${c}</span>`).join('')}
+                    </div>
+                    <div class="chinese-check">
+                        <div class="chinese-label">💡 中文核对</div>
+                        <div>${word.chinese}</div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
+                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
+                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 渲染识别词
+        function renderRecognition(word) {
+            return `
+                <div class="word-card">
+                    <span class="category-badge">👁️ 识别词</span>
+                    <div class="word-header">
+                        <div class="word-title">${word.word}</div>
+                        <div class="phonetic">${word.phonetic} ${word.pos}</div>
+                    </div>
+                    <div class="core-state-section">
+                        <span class="core-icon">${word.emoji}</span>
+                        <div class="core-state-text">${word.chinese}</div>
+                        <div style="margin-top: 10px; font-size: 14px; color: #667eea;">【${word.topic}】</div>
+                    </div>
+                    <div class="action-buttons">
+                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
+                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
+                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 标记单词
+        function markWord(status) {
+            const word = filteredWords[currentIndex];
+            const today = new Date().toISOString().slice(0, 10);
+
+            let data = JSON.parse(localStorage.getItem('ieltsData') || '{}');
+            if (!data[today]) {
+                data[today] = { learned: [], review: [] };
+            }
+
+            if (status === 'know') {
+                if (!data[today].learned.includes(word.id)) {
+                    data[today].learned.push(word.id);
+                }
+            } else if (status === 'unknown') {
+                if (!data[today].review.includes(word.id)) {
+                    data[today].review.push(word.id);
+                }
+            }
+
+            localStorage.setItem('ieltsData', JSON.stringify(data));
+
+            currentIndex++;
+            loadWord();
+            updateStats();
+        }
+
+        // 更新统计
+        function updateStats() {
+            let data = JSON.parse(localStorage.getItem('ieltsData') || '{}');
+            let totalLearned = 0;
+            Object.values(data).forEach(day => {
+                if (day.learned) totalLearned += day.learned.length;
+            });
+            document.getElementById('learnedWords').textContent = totalLearned;
+        }
+
+        // 页面加载时初始化
+        window.onload = init;
+    </script>
+</body>
+</html>
