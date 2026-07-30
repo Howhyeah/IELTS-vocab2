@@ -1,0 +1,152 @@
+[
+  {
+    "id": "contribute_to",
+    "phrase": "contribute to",
+    "core_relation": "像把水滴汇入大海一样促成",
+    "core_emoji": "💧🌊",
+    "category": "C",
+    "scenes": [
+      {"emoji": "🌍", "phrase": "contribute to climate change", "note": "水滴汇入气候大海｜导致气候变化"},
+      {"emoji": "📚", "phrase": "contribute to knowledge", "note": "水滴汇入知识大海｜贡献知识"},
+      {"emoji": "💰", "phrase": "contribute to economy", "note": "水滴汇入经济大海｜促进经济"},
+      {"emoji": "🤝", "phrase": "contribute to society", "note": "水滴汇入社会大海｜贡献社会"}
+    ],
+    "collocations": ["contribute to development", "contribute to success", "contribute to problem"],
+    "chinese": "导致；促成；贡献"
+  },
+  {
+    "id": "result_in",
+    "phrase": "result in",
+    "core_relation": "像种子长成大树一样导致",
+    "core_emoji": "🌱🌳",
+    "category": "C",
+    "scenes": [
+      {"emoji": "🌱", "phrase": "result in growth", "note": "种子长成大树｜导致增长"},
+      {"emoji": "💥", "phrase": "result in failure", "note": "种子长成枯树｜导致失败"},
+      {"emoji": "🎉", "phrase": "result in success", "note": "种子长成大树｜导致成功"},
+      {"emoji": "🔄", "phrase": "result in change", "note": "种子长成新树｜导致变化"}
+    ],
+    "collocations": ["result in loss", "result in damage", "result in improvement"],
+    "chinese": "导致；结果是"
+  },
+  {
+    "id": "result_from",
+    "phrase": "result from",
+    "core_relation": "像果实来自花朵一样源于",
+    "core_emoji": "🌸🍎",
+    "category": "C",
+    "scenes": [
+      {"emoji": "🌸", "phrase": "result from effort", "note": "果实来自努力之花｜源于努力"},
+      {"emoji": "🌸", "phrase": "result from mistake", "note": "果实来自错误之花｜源于错误"},
+      {"emoji": "🌸", "phrase": "result from change", "note": "果实来自变化之花｜源于变化"},
+      {"emoji": "🌸", "phrase": "result from pollution", "note": "果实来自污染之花｜源于污染"}
+    ],
+    "collocations": ["result from lack", "result from experience", "result from environment"],
+    "chinese": "源于；由...造成"
+  },
+  {
+    "id": "be_exposed_to",
+    "phrase": "be exposed to",
+    "core_relation": "像皮肤暴露在阳光下",
+    "core_emoji": "☀️🧴",
+    "category": "C",
+    "scenes": [
+      {"emoji": "☀️", "phrase": "be exposed to sunlight", "note": "皮肤暴露在阳光下｜暴露在阳光下"},
+      {"emoji": "🦠", "phrase": "be exposed to virus", "note": "身体暴露在病毒中｜接触病毒"},
+      {"emoji": "📚", "phrase": "be exposed to ideas", "note": "思想暴露在新观念中｜接触新观念"},
+      {"emoji": "🌫️", "phrase": "be exposed to pollution", "note": "身体暴露在污染中｜暴露在污染中"}
+    ],
+    "collocations": ["be exposed to risk", "be exposed to danger", "be exposed to culture"],
+    "chinese": "暴露于；接触"
+  },
+  {
+    "id": "be_responsible_for",
+    "phrase": "be responsible for",
+    "core_relation": "像船长对船负责一样",
+    "core_emoji": "👨‍✈️🚢",
+    "category": "C",
+    "scenes": [
+      {"emoji": "🚢", "phrase": "be responsible for ship", "note": "船长对船负责｜对船负责"},
+      {"emoji": "👨‍👩‍👧‍👦", "phrase": "be responsible for family", "note": "家长对家庭负责｜对家庭负责"},
+      {"emoji": "💼", "phrase": "be responsible for project", "note": "经理对项目负责｜对项目负责"},
+      {"emoji": "🌍", "phrase": "be responsible for environment", "note": "人类对环境负责｜对环境负责"}
+    ],
+    "collocations": ["be responsible for safety", "be responsible for quality", "be responsible for results"],
+    "chinese": "对...负责"
+  },
+  {
+    "id": "be_associated_with",
+    "phrase": "be associated with",
+    "core_relation": "像链条一样连接",
+    "core_emoji": "🔗⛓️",
+    "category": "C",
+    "scenes": [
+      {"emoji": "🔗", "phrase": "be associated with health", "note": "链条连接健康｜与健康相关"},
+      {"emoji": "🔗", "phrase": "be associated with wealth", "note": "链条连接财富｜与财富相关"},
+      {"emoji": "🔗", "phrase": "be associated with risk", "note": "链条连接风险｜与风险相关"},
+      {"emoji": "🔗", "phrase": "be associated with success", "note": "链条连接成功｜与成功相关"}
+    ],
+    "collocations": ["be associated with disease", "be associated with happiness", "be associated with stress"],
+    "chinese": "与...相关"
+  },
+  {
+    "id": "have_access_to",
+    "phrase": "have access to",
+    "core_relation": "像钥匙打开门一样获得",
+    "core_emoji": "🔑🚪",
+    "category": "C",
+    "scenes": [
+      {"emoji": "🔑", "phrase": "have access to information", "note": "钥匙打开信息门｜获得信息"},
+      {"emoji": "🔑", "phrase": "have access to education", "note": "钥匙打开教育门｜获得教育"},
+      {"emoji": "🔑", "phrase": "have access to resources", "note": "钥匙打开资源门｜获得资源"},
+      {"emoji": "🔑", "phrase": "have access to technology", "note": "钥匙打开技术门｜获得技术"}
+    ],
+    "collocations": ["have access to internet", "have access to healthcare", "have access to data"],
+    "chinese": "获得；使用"
+  },
+  {
+    "id": "in_response_to",
+    "phrase": "in response to",
+    "core_relation": "像回声回应声音一样",
+    "core_emoji": "📢🔊",
+    "category": "C",
+    "scenes": [
+      {"emoji": "📢", "phrase": "in response to question", "note": "回声回应问题｜回应问题"},
+      {"emoji": "📢", "phrase": "in response to demand", "note": "回声回应需求｜回应需求"},
+      {"emoji": "📢", "phrase": "in response to crisis", "note": "回声回应危机｜应对危机"},
+      {"emoji": "📢", "phrase": "in response to change", "note": "回声回应变化｜应对变化"}
+    ],
+    "collocations": ["in response to request", "in response to pressure", "in response to criticism"],
+    "chinese": "回应；应对"
+  },
+  {
+    "id": "in_terms_of",
+    "phrase": "in terms of",
+    "core_relation": "像从不同角度看问题",
+    "core_emoji": "👁️📐",
+    "category": "C",
+    "scenes": [
+      {"emoji": "💰", "phrase": "in terms of cost", "note": "从成本角度看｜就成本而言"},
+      {"emoji": "⏰", "phrase": "in terms of time", "note": "从时间角度看｜就时间而言"},
+      {"emoji": "📊", "phrase": "in terms of quality", "note": "从质量角度看｜就质量而言"},
+      {"emoji": "🌍", "phrase": "in terms of environment", "note": "从环境角度看｜就环境而言"}
+    ],
+    "collocations": ["in terms of efficiency", "in terms of safety", "in terms of development"],
+    "chinese": "就...而言；从...角度"
+  },
+  {
+    "id": "have_impact_on",
+    "phrase": "have an impact on",
+    "core_relation": "像石头投入水中产生涟漪",
+    "core_emoji": "🪨💧",
+    "category": "C",
+    "scenes": [
+      {"emoji": "🌍", "phrase": "have impact on environment", "note": "石头投入环境水中｜对环境影响"},
+      {"emoji": "📚", "phrase": "have impact on education", "note": "石头投入教育水中｜对教育影响"},
+      {"emoji": "💼", "phrase": "have impact on economy", "note": "石头投入经济水中｜对经济影响"},
+      {"emoji": "👥", "phrase": "have impact on society", "note": "石头投入社会水中｜对社会影响"}
+    ],
+    "collocations": ["have impact on health", "have impact on development", "have impact on future"],
+    "chinese": "对...有影响"
+  }
+]
