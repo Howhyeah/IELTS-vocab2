@@ -1,0 +1,146 @@
+[
+  {
+    "id": "through",
+    "word": "through",
+    "phonetic": "/θruː/",
+    "pos": "prep./adv.",
+    "category": "S",
+    "core_state": "像地铁穿过隧道一样从内部穿过",
+    "core_emoji": "🚇🌲",
+    "scenes": [
+      {"emoji": "🌲", "phrase": "walk through forest", "note": "从森林内部穿过｜穿过森林"},
+      {"emoji": "🚇", "phrase": "go through tunnel", "note": "从隧道内部穿过｜穿过隧道"},
+      {"emoji": "📖", "phrase": "read through book", "note": "从书的开头读到结尾｜通读书籍"},
+      {"emoji": "💪", "phrase": "get through difficulty", "note": "从困难中穿过｜度过困难"}
+    ],
+    "collocations": ["go through", "see through", "break through"],
+    "chinese": "穿过；通过；完成",
+    "tags": ["S", "W"]
+  },
+  {
+    "id": "across",
+    "word": "across",
+    "phonetic": "/əˈkrɒs/",
+    "pos": "prep./adv.",
+    "category": "S",
+    "core_state": "像过桥一样从一边到另一边",
+    "core_emoji": "🌉➡️",
+    "scenes": [
+      {"emoji": "🌉", "phrase": "walk across bridge", "note": "从桥的一边走到另一边｜过桥"},
+      {"emoji": "🏊", "phrase": "swim across river", "note": "从河的一边游到另一边｜游过河"},
+      {"emoji": "🛣️", "phrase": "across the road", "note": "从路的一边到另一边｜过马路"},
+      {"emoji": "🌍", "phrase": "across the world", "note": "从世界一边到另一边｜遍及世界"}
+    ],
+    "collocations": ["across from", "come across", "get across"],
+    "chinese": "穿过；横过；在对面",
+    "tags": ["S", "W"]
+  },
+  {
+    "id": "beyond",
+    "word": "beyond",
+    "phonetic": "/bɪˈjɒnd/",
+    "pos": "prep./adv.",
+    "category": "S",
+    "core_state": "像越过边界线一样超出",
+    "core_emoji": "🚧➡️",
+    "scenes": [
+      {"emoji": "🏔️", "phrase": "beyond the mountain", "note": "越过山的边界｜在山那边"},
+      {"emoji": "🧠", "phrase": "beyond imagination", "note": "越过想象的边界｜超出想象"},
+      {"emoji": "⏰", "phrase": "beyond the deadline", "note": "越过截止日期的边界｜超过期限"},
+      {"emoji": "💰", "phrase": "beyond my budget", "note": "越过预算的边界｜超出预算"}
+    ],
+    "collocations": ["beyond doubt", "beyond control", "beyond reach"],
+    "chinese": "超越；在...之外；超出",
+    "tags": ["S", "W"]
+  },
+  {
+    "id": "within",
+    "word": "within",
+    "phonetic": "/wɪˈðɪn/",
+    "pos": "prep./adv.",
+    "category": "S",
+    "core_state": "像在圆圈内部一样在范围内",
+    "core_emoji": "⭕📍",
+    "scenes": [
+      {"emoji": "🏠", "phrase": "within the house", "note": "在房子内部｜在房子里"},
+      {"emoji": "⏰", "phrase": "within an hour", "note": "在一小时范围内｜一小时内"},
+      {"emoji": "💰", "phrase": "within budget", "note": "在预算范围内｜预算内"},
+      {"emoji": "🎯", "phrase": "within reach", "note": "在伸手可及范围内｜够得着"}
+    ],
+    "collocations": ["within limits", "within reason", "within walking distance"],
+    "chinese": "在...之内；在范围内",
+    "tags": ["S", "W"]
+  },
+  {
+    "id": "against",
+    "word": "against",
+    "phonetic": "/əˈɡenst/",
+    "pos": "prep.",
+    "category": "S",
+    "core_state": "像两股力量相互顶住",
+    "core_emoji": "⚔️💪",
+    "scenes": [
+      {"emoji": "🧱", "phrase": "lean against wall", "note": "身体顶住墙｜靠墙"},
+      {"emoji": "⚔️", "phrase": "fight against enemy", "note": "力量顶住敌人｜对抗敌人"},
+      {"emoji": "🌊", "phrase": "swim against current", "note": "力量顶住水流｜逆流游泳"},
+      {"emoji": "⚖️", "phrase": "against the law", "note": "顶住法律｜违反法律"}
+    ],
+    "collocations": ["against the rules", "against nature", "against time"],
+    "chinese": "反对；靠着；违反",
+    "tags": ["S", "W"]
+  },
+  {
+    "id": "towards",
+    "word": "towards",
+    "phonetic": "/təˈwɔːdz/",
+    "pos": "prep.",
+    "category": "S",
+    "core_state": "像箭头指向目标方向",
+    "core_emoji": "➡️🎯",
+    "scenes": [
+      {"emoji": "🚶", "phrase": "walk towards station", "note": "箭头指向车站｜走向车站"},
+      {"emoji": "💰", "phrase": "save towards house", "note": "箭头指向买房目标｜为买房存钱"},
+      {"emoji": "🎓", "phrase": "work towards degree", "note": "箭头指向学位目标｜为学位努力"},
+      {"emoji": "🌍", "phrase": "towards the future", "note": "箭头指向未来｜朝向未来"}
+    ],
+    "collocations": ["towards the end", "attitude towards", "move towards"],
+    "chinese": "朝向；对于；接近",
+    "tags": ["S", "W"]
+  },
+  {
+    "id": "underlying",
+    "word": "underlying",
+    "phonetic": "/ˌʌndəˈlaɪɪŋ/",
+    "pos": "adj.",
+    "category": "S",
+    "core_state": "像地基一样在下方支撑",
+    "core_emoji": "🏗️⬇️",
+    "scenes": [
+      {"emoji": "🏗️", "phrase": "underlying structure", "note": "地基在下方支撑｜底层结构"},
+      {"emoji": "🧠", "phrase": "underlying cause", "note": "原因在下方支撑｜根本原因"},
+      {"emoji": "📊", "phrase": "underlying trend", "note": "趋势在下方支撑｜潜在趋势"},
+      {"emoji": "💭", "phrase": "underlying message", "note": "信息在下方支撑｜潜在信息"}
+    ],
+    "collocations": ["underlying principle", "underlying assumption", "underlying issue"],
+    "chinese": "潜在的；根本的；在下面的",
+    "tags": ["S", "W"]
+  },
+  {
+    "id": "overall",
+    "word": "overall",
+    "phonetic": "/ˌəʊvərˈɔːl/",
+    "pos": "adj./adv.",
+    "category": "S",
+    "core_state": "像俯视全景一样总体",
+    "core_emoji": "👁️📊",
+    "scenes": [
+      {"emoji": "📊", "phrase": "overall performance", "note": "俯视整体表现｜总体表现"},
+      {"emoji": "🌍", "phrase": "overall situation", "note": "俯视整体情况｜总体情况"},
+      {"emoji": "📈", "phrase": "overall trend", "note": "俯视整体趋势｜总体趋势"},
+      {"emoji": "💯", "phrase": "overall score", "note": "俯视整体分数｜总分"}
+    ],
+    "collocations": ["overall effect", "overall quality", "overall view"],
+    "chinese": "总体的；全面的；总的来说",
+    "tags": ["S", "W"]
+  }
+]
