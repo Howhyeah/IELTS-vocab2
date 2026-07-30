@@ -1,0 +1,3029 @@
+[
+  {
+    "id": "maintain",
+    "word": "maintain",
+    "phonetic": "/meɪnˈteɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "用双手稳稳托住一个摇晃的天平，不让它倒下",
+    "core_emoji": "🤲⚖️",
+    "scenes": [
+      {
+        "emoji": "⚖️",
+        "phrase": "maintain balance",
+        "note": "天平两端保持水平｜保持平衡"
+      },
+      {
+        "emoji": "🛣️",
+        "phrase": "maintain roads",
+        "note": "工人持续修补路面｜维护道路"
+      },
+      {
+        "emoji": "📏",
+        "phrase": "maintain standards",
+        "note": "标尺始终不降低｜维持标准"
+      },
+      {
+        "emoji": "💬",
+        "phrase": "maintain that...",
+        "note": "坚持自己的观点不动摇｜坚持认为"
+      }
+    ],
+    "collocations": [
+      "maintain public health",
+      "maintain quality",
+      "maintain stability"
+    ],
+    "chinese": "保持；维持；维护；坚持认为",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "sustain",
+    "word": "sustain",
+    "phonetic": "/səˈsteɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像柱子一样持续支撑着重物，不让它倒塌",
+    "core_emoji": "🏛️💪",
+    "scenes": [
+      {
+        "emoji": "🌱",
+        "phrase": "sustain life",
+        "note": "持续提供养分让生命延续｜维持生命"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "sustain growth",
+        "note": "让增长曲线持续向上｜维持增长"
+      },
+      {
+        "emoji": "💥",
+        "phrase": "sustain damage",
+        "note": "承受着损伤继续站立｜遭受破坏"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "sustainable development",
+        "note": "让发展像大树一样持续生长｜可持续发展"
+      }
+    ],
+    "collocations": [
+      "sustain economic growth",
+      "sustain life",
+      "sustainable energy"
+    ],
+    "chinese": "维持；支撑；承受；可持续的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "decline",
+    "word": "decline",
+    "phonetic": "/dɪˈklaɪn/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像滑梯一样持续向下滑落",
+    "core_emoji": "📉🛝",
+    "scenes": [
+      {
+        "emoji": "📊",
+        "phrase": "decline in population",
+        "note": "人口曲线持续向下｜人口减少"
+      },
+      {
+        "emoji": "💼",
+        "phrase": "decline an offer",
+        "note": "礼貌地摆手拒绝｜婉拒"
+      },
+      {
+        "emoji": "🏭",
+        "phrase": "industrial decline",
+        "note": "工厂烟囱越来越少｜工业衰落"
+      },
+      {
+        "emoji": "📉",
+        "phrase": "on the decline",
+        "note": "正在向下滑落中｜在衰退"
+      }
+    ],
+    "collocations": [
+      "decline steadily",
+      "decline sharply",
+      "decline an invitation"
+    ],
+    "chinese": "下降；衰退；拒绝；衰落",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "consume",
+    "word": "consume",
+    "phonetic": "/kənˈsjuːm/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像火焰一样完全吞噬掉",
+    "core_emoji": "🔥👄",
+    "scenes": [
+      {
+        "emoji": "🍔",
+        "phrase": "consume food",
+        "note": "大口吃完整个汉堡｜消耗食物"
+      },
+      {
+        "emoji": "⛽",
+        "phrase": "consume fuel",
+        "note": "油箱指针快速下降｜消耗燃料"
+      },
+      {
+        "emoji": "⏰",
+        "phrase": "consume time",
+        "note": "时间沙漏快速流完｜消耗时间"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "consume resources",
+        "note": "资源库被完全掏空｜消耗资源"
+      }
+    ],
+    "collocations": [
+      "consume energy",
+      "consume goods",
+      "consumer society"
+    ],
+    "chinese": "消耗；消费；吃；耗尽",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "release",
+    "word": "release",
+    "phonetic": "/rɪˈliːs/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "打开笼子让鸟儿飞向天空",
+    "core_emoji": "🕊️🔓",
+    "scenes": [
+      {
+        "emoji": "💨",
+        "phrase": "release gas",
+        "note": "气球松开嘴让气体喷出｜释放气体"
+      },
+      {
+        "emoji": "📰",
+        "phrase": "release news",
+        "note": "按下发布按钮让新闻传播｜发布新闻"
+      },
+      {
+        "emoji": "🎬",
+        "phrase": "release a film",
+        "note": "电影胶片开始转动放映｜发行电影"
+      },
+      {
+        "emoji": "🕊️",
+        "phrase": "release prisoners",
+        "note": "打开牢门让囚犯走出｜释放囚犯"
+      }
+    ],
+    "collocations": [
+      "release energy",
+      "release pressure",
+      "release a report"
+    ],
+    "chinese": "释放；发布；发行；放出",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "conduct",
+    "word": "conduct",
+    "phonetic": "/kənˈdʌkt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像指挥家挥动指挥棒引导整个乐团",
+    "core_emoji": "🎼👨‍🎤",
+    "scenes": [
+      {
+        "emoji": "🔬",
+        "phrase": "conduct research",
+        "note": "科学家引导实验一步步进行｜进行研究"
+      },
+      {
+        "emoji": "🎼",
+        "phrase": "conduct an orchestra",
+        "note": "指挥棒挥动引导音乐｜指挥乐队"
+      },
+      {
+        "emoji": "⚡",
+        "phrase": "conduct electricity",
+        "note": "电流像水流一样通过｜导电"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "conduct a survey",
+        "note": "引导受访者填写问卷｜进行调查"
+      }
+    ],
+    "collocations": [
+      "conduct an experiment",
+      "conduct business",
+      "conduct oneself"
+    ],
+    "chinese": "进行；指挥；导电；引导",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "issue",
+    "word": "issue",
+    "phonetic": "/ˈɪʃuː/",
+    "pos": "n./v.",
+    "category": "A",
+    "core_state": "像泉水从源头涌出",
+    "core_emoji": "⛲📤",
+    "scenes": [
+      {
+        "emoji": "📄",
+        "phrase": "issue a statement",
+        "note": "打印机吐出正式声明｜发表声明"
+      },
+      {
+        "emoji": "🎫",
+        "phrase": "issue tickets",
+        "note": "售票机吐出一张张票｜发票"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "environmental issues",
+        "note": "地球冒出一个个问题泡泡｜环境问题"
+      },
+      {
+        "emoji": "📖",
+        "phrase": "the latest issue",
+        "note": "杂志架上最新一期｜最新刊"
+      }
+    ],
+    "collocations": [
+      "issue a warning",
+      "issue a passport",
+      "social issues"
+    ],
+    "chinese": "问题；发行；发布；期号",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "available",
+    "word": "available",
+    "phonetic": "/əˈveɪləbl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像绿灯亮起表示可以通行",
+    "core_emoji": "✅🟢",
+    "scenes": [
+      {
+        "emoji": "🛒",
+        "phrase": "available in stores",
+        "note": "货架上商品亮着绿灯｜有货"
+      },
+      {
+        "emoji": "👨‍💼",
+        "phrase": "available for interview",
+        "note": "日程表上显示空闲｜有空"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "available resources",
+        "note": "资源库门打开着｜可用资源"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "available online",
+        "note": "网页上显示可点击｜在线可用"
+      }
+    ],
+    "collocations": [
+      "readily available",
+      "available for",
+      "available to"
+    ],
+    "chinese": "可用的；有空的；可获得的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "deteriorate",
+    "word": "deteriorate",
+    "phonetic": "/dɪˈtɪəriəreɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像苹果从新鲜到腐烂的过程",
+    "core_emoji": "🍎➡️🍏",
+    "scenes": [
+      {
+        "emoji": "🏥",
+        "phrase": "health deteriorate",
+        "note": "健康指标持续下降｜健康恶化"
+      },
+      {
+        "emoji": "🌤️",
+        "phrase": "weather deteriorate",
+        "note": "晴天逐渐变成暴风雨｜天气变坏"
+      },
+      {
+        "emoji": "🏚️",
+        "phrase": "building deteriorate",
+        "note": "新楼逐渐变成危楼｜建筑破败"
+      },
+      {
+        "emoji": "📉",
+        "phrase": "situation deteriorate",
+        "note": "情况曲线持续向下｜情况恶化"
+      }
+    ],
+    "collocations": [
+      "deteriorate rapidly",
+      "deteriorating condition",
+      "deteriorating health"
+    ],
+    "chinese": "恶化；变坏；退化",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "aggravate",
+    "word": "aggravate",
+    "phonetic": "/ˈæɡrəveɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像在伤口上撒盐让疼痛加剧",
+    "core_emoji": "🧂🤕",
+    "scenes": [
+      {
+        "emoji": "🤕",
+        "phrase": "aggravate the pain",
+        "note": "疼痛指数直线上升｜加重疼痛"
+      },
+      {
+        "emoji": "🌫️",
+        "phrase": "aggravate pollution",
+        "note": "雾霾浓度越来越高｜加重污染"
+      },
+      {
+        "emoji": "😤",
+        "phrase": "aggravate the problem",
+        "note": "问题雪球越滚越大｜使问题更严重"
+      },
+      {
+        "emoji": "💢",
+        "phrase": "aggravate tension",
+        "note": "紧张气氛越来越浓｜加剧紧张"
+      }
+    ],
+    "collocations": [
+      "aggravate the situation",
+      "aggravate symptoms",
+      "aggravate conflict"
+    ],
+    "chinese": "加重；使恶化；激怒",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "degrade",
+    "word": "degrade",
+    "phonetic": "/dɪˈɡreɪd/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像从楼梯上一步步走下来",
+    "core_emoji": "⬇️🪜",
+    "scenes": [
+      {
+        "emoji": "🌱",
+        "phrase": "degrade soil",
+        "note": "肥沃土壤变成贫瘠土地｜使土壤退化"
+      },
+      {
+        "emoji": "🏭",
+        "phrase": "degrade the environment",
+        "note": "绿水青山变成荒山｜使环境退化"
+      },
+      {
+        "emoji": "👤",
+        "phrase": "degrade oneself",
+        "note": "自己走下台阶｜自贬"
+      },
+      {
+        "emoji": "📉",
+        "phrase": "degrade performance",
+        "note": "性能指标持续下降｜使性能下降"
+      }
+    ],
+    "collocations": [
+      "degrade quality",
+      "environmentally degrading",
+      "degrade over time"
+    ],
+    "chinese": "使降级；使退化；贬低",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "upgrade",
+    "word": "upgrade",
+    "phonetic": "/ʌpˈɡreɪd/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像坐电梯从一楼升到顶楼",
+    "core_emoji": "⬆️🛗",
+    "scenes": [
+      {
+        "emoji": "💻",
+        "phrase": "upgrade software",
+        "note": "软件版本号向上跳｜升级软件"
+      },
+      {
+        "emoji": "✈️",
+        "phrase": "upgrade to first class",
+        "note": "从经济舱升到头等舱｜升舱"
+      },
+      {
+        "emoji": "🏠",
+        "phrase": "upgrade facilities",
+        "note": "旧设备换成新设备｜升级设备"
+      },
+      {
+        "emoji": "📱",
+        "phrase": "upgrade your phone",
+        "note": "旧手机换成新手机｜换新手机"
+      }
+    ],
+    "collocations": [
+      "upgrade system",
+      "upgrade skills",
+      "free upgrade"
+    ],
+    "chinese": "升级；提升；改善",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "erode",
+    "word": "erode",
+    "phonetic": "/ɪˈrəʊd/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像海浪一点点冲刷掉沙滩",
+    "core_emoji": "🌊🏖️",
+    "scenes": [
+      {
+        "emoji": "🏔️",
+        "phrase": "erode the coastline",
+        "note": "海岸线一点点后退｜侵蚀海岸"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "erode savings",
+        "note": "存款数字一点点减少｜侵蚀储蓄"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "erode confidence",
+        "note": "信心大厦一点点倒塌｜侵蚀信心"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "wind erode rocks",
+        "note": "岩石被风一点点磨平｜风化岩石"
+      }
+    ],
+    "collocations": [
+      "erode away",
+      "soil erosion",
+      "erode support"
+    ],
+    "chinese": "侵蚀；腐蚀；逐渐削弱",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "thaw",
+    "word": "thaw",
+    "phonetic": "/θɔː/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像冰块在阳光下慢慢融化",
+    "core_emoji": "🧊☀️",
+    "scenes": [
+      {
+        "emoji": "❄️",
+        "phrase": "thaw frozen food",
+        "note": "冷冻食品慢慢变软｜解冻"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "thaw in spring",
+        "note": "冰雪在春天融化｜冰雪融化"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "thaw relations",
+        "note": "冰冷关系慢慢变暖｜关系解冻"
+      },
+      {
+        "emoji": "🧊",
+        "phrase": "thaw out",
+        "note": "冰块完全化成水｜完全解冻"
+      }
+    ],
+    "collocations": [
+      "thaw out",
+      "spring thaw",
+      "thawing relations"
+    ],
+    "chinese": "解冻；融化；缓和",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "chill",
+    "word": "chill",
+    "phonetic": "/tʃɪl/",
+    "pos": "v./n./adj.",
+    "category": "A",
+    "core_state": "像冷风吹过让人打寒颤",
+    "core_emoji": "🥶💨",
+    "scenes": [
+      {
+        "emoji": "🍷",
+        "phrase": "chill wine",
+        "note": "酒瓶放进冰桶｜冰镇酒"
+      },
+      {
+        "emoji": "🥶",
+        "phrase": "feel a chill",
+        "note": "冷风吹过脊背发凉｜打寒战"
+      },
+      {
+        "emoji": "😌",
+        "phrase": "chill out",
+        "note": "躺在沙发上完全放松｜放松"
+      },
+      {
+        "emoji": "🌬️",
+        "phrase": "chill wind",
+        "note": "冷风像刀子一样｜寒风"
+      }
+    ],
+    "collocations": [
+      "chill out",
+      "catch a chill",
+      "chilly weather"
+    ],
+    "chinese": "使变冷；寒冷；放松",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "freeze",
+    "word": "freeze",
+    "phonetic": "/friːz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像水瞬间变成冰块",
+    "core_emoji": "💧➡️🧊",
+    "scenes": [
+      {
+        "emoji": "💧",
+        "phrase": "water freeze",
+        "note": "水滴瞬间凝固成冰｜水结冰"
+      },
+      {
+        "emoji": "🥶",
+        "phrase": "freeze to death",
+        "note": "人冻成冰雕｜冻死"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "freeze assets",
+        "note": "资产被冰封不能动｜冻结资产"
+      },
+      {
+        "emoji": "🖼️",
+        "phrase": "freeze frame",
+        "note": "画面突然定格｜冻结帧"
+      }
+    ],
+    "collocations": [
+      "freeze over",
+      "freeze up",
+      "freezing point"
+    ],
+    "chinese": "冻结；结冰；冻僵",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "frigid",
+    "word": "frigid",
+    "phonetic": "/ˈfrɪdʒɪd/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像北极一样极度寒冷",
+    "core_emoji": "🥶❄️",
+    "scenes": [
+      {
+        "emoji": "❄️",
+        "phrase": "frigid weather",
+        "note": "温度计显示零下40度｜严寒"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "frigid water",
+        "note": "水温接近冰点｜冰冷的水"
+      },
+      {
+        "emoji": "😐",
+        "phrase": "frigid response",
+        "note": "回应像冰一样冷｜冷淡回应"
+      },
+      {
+        "emoji": "🧊",
+        "phrase": "frigid zone",
+        "note": "地球两端的冰冻区域｜寒带"
+      }
+    ],
+    "collocations": [
+      "frigid temperatures",
+      "frigid air",
+      "frigid climate"
+    ],
+    "chinese": "严寒的；冷淡的；寒冷的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "tremble",
+    "word": "tremble",
+    "phonetic": "/ˈtrembl/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像树叶在风中快速抖动",
+    "core_emoji": "🍃💨",
+    "scenes": [
+      {
+        "emoji": "🥶",
+        "phrase": "tremble with cold",
+        "note": "冷得全身快速抖动｜因冷颤抖"
+      },
+      {
+        "emoji": "😨",
+        "phrase": "tremble with fear",
+        "note": "怕得双腿快速抖动｜因怕颤抖"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "ground tremble",
+        "note": "大地像筛子一样抖动｜大地颤抖"
+      },
+      {
+        "emoji": "🎤",
+        "phrase": "voice tremble",
+        "note": "声音像波浪一样抖动｜声音颤抖"
+      }
+    ],
+    "collocations": [
+      "tremble with",
+      "trembling hands",
+      "trembling voice"
+    ],
+    "chinese": "颤抖；发抖；震动",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "shiver",
+    "word": "shiver",
+    "phonetic": "/ˈʃɪvə(r)/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像电流通过全身引起抖动",
+    "core_emoji": "⚡🥶",
+    "scenes": [
+      {
+        "emoji": "🥶",
+        "phrase": "shiver with cold",
+        "note": "冷得像电流通过全身｜寒战"
+      },
+      {
+        "emoji": "😱",
+        "phrase": "shiver down spine",
+        "note": "电流从脊背窜下｜毛骨悚然"
+      },
+      {
+        "emoji": "🌬️",
+        "phrase": "shiver in the wind",
+        "note": "在风中像叶子一样抖｜寒风中颤抖"
+      },
+      {
+        "emoji": "😨",
+        "phrase": "shiver with fear",
+        "note": "怕得像触电一样抖｜恐惧颤抖"
+      }
+    ],
+    "collocations": [
+      "shiver with cold",
+      "give me shivers",
+      "shivering fit"
+    ],
+    "chinese": "发抖；寒战；颤抖",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "stormy",
+    "word": "stormy",
+    "phonetic": "/ˈstɔːmi/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像海上掀起巨浪的暴风雨",
+    "core_emoji": "⛈️🌊",
+    "scenes": [
+      {
+        "emoji": "⛈️",
+        "phrase": "stormy weather",
+        "note": "天空电闪雷鸣下暴雨｜暴风雨天气"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "stormy sea",
+        "note": "海浪像山一样高｜风暴海"
+      },
+      {
+        "emoji": "💑",
+        "phrase": "stormy relationship",
+        "note": "关系像暴风雨一样激烈｜动荡关系"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "stormy debate",
+        "note": "辩论像暴风雨一样激烈｜激烈辩论"
+      }
+    ],
+    "collocations": [
+      "stormy night",
+      "stormy conditions",
+      "stormy period"
+    ],
+    "chinese": "暴风雨的；激烈的；动荡的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "sprinkle",
+    "word": "sprinkle",
+    "phonetic": "/ˈsprɪŋkl/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像撒盐一样少量分散",
+    "core_emoji": "🧂✨",
+    "scenes": [
+      {
+        "emoji": "🧂",
+        "phrase": "sprinkle salt",
+        "note": "盐粒像雪花一样落下｜撒盐"
+      },
+      {
+        "emoji": "🌧️",
+        "phrase": "sprinkle rain",
+        "note": "雨滴像珍珠一样稀疏｜下小雨"
+      },
+      {
+        "emoji": "🌸",
+        "phrase": "sprinkle flowers",
+        "note": "花瓣像星星一样散布｜撒花"
+      },
+      {
+        "emoji": "💧",
+        "phrase": "sprinkle water",
+        "note": "水珠像钻石一样散落｜洒水"
+      }
+    ],
+    "collocations": [
+      "sprinkle with",
+      "light sprinkle",
+      "sprinkle on"
+    ],
+    "chinese": "撒；洒；下小雨",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "forecast",
+    "word": "forecast",
+    "phonetic": "/ˈfɔːkɑːst/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像水晶球预测未来",
+    "core_emoji": "🔮📊",
+    "scenes": [
+      {
+        "emoji": "🌤️",
+        "phrase": "weather forecast",
+        "note": "水晶球显示明天天气｜天气预报"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "sales forecast",
+        "note": "水晶球显示销售趋势｜销售预测"
+      },
+      {
+        "emoji": "🔮",
+        "phrase": "forecast the future",
+        "note": "水晶球显示未来画面｜预测未来"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "economic forecast",
+        "note": "水晶球显示经济走势｜经济预测"
+      }
+    ],
+    "collocations": [
+      "forecast accurately",
+      "weather forecast",
+      "forecast growth"
+    ],
+    "chinese": "预测；预报；预见",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "peak",
+    "word": "peak",
+    "phonetic": "/piːk/",
+    "pos": "n./v./adj.",
+    "category": "A",
+    "core_state": "像山峰的最高点",
+    "core_emoji": "⛰️🔝",
+    "scenes": [
+      {
+        "emoji": "⛰️",
+        "phrase": "mountain peak",
+        "note": "山的最高点插入云端｜山峰"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "peak performance",
+        "note": "表现达到最高点｜巅峰状态"
+      },
+      {
+        "emoji": "🕐",
+        "phrase": "peak hours",
+        "note": "人流量达到最高点｜高峰时段"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "reach peak",
+        "note": "曲线到达最高点｜达到峰值"
+      }
+    ],
+    "collocations": [
+      "peak season",
+      "peak time",
+      "at its peak"
+    ],
+    "chinese": "顶峰；高峰；达到顶点",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "mount",
+    "word": "mount",
+    "phonetic": "/maʊnt/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像爬楼梯一步步向上",
+    "core_emoji": "⬆️🪜",
+    "scenes": [
+      {
+        "emoji": "🐎",
+        "phrase": "mount a horse",
+        "note": "踩着台阶上马｜上马"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "mounting pressure",
+        "note": "压力像爬楼梯一样上升｜增加的压力"
+      },
+      {
+        "emoji": "🖼️",
+        "phrase": "mount a picture",
+        "note": "把画挂在墙上｜挂画"
+      },
+      {
+        "emoji": "⛰️",
+        "phrase": "Mount Everest",
+        "note": "世界最高山峰｜珠穆朗玛峰"
+      }
+    ],
+    "collocations": [
+      "mount up",
+      "mount an exhibition",
+      "mounting concern"
+    ],
+    "chinese": "登上；增加；安装；山",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "range",
+    "word": "range",
+    "phonetic": "/reɪndʒ/",
+    "pos": "n./v.",
+    "category": "A",
+    "core_state": "像一排连绵的山脉",
+    "core_emoji": "🏔️📏",
+    "scenes": [
+      {
+        "emoji": "🏔️",
+        "phrase": "mountain range",
+        "note": "山峰像波浪一样连绵｜山脉"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "price range",
+        "note": "价格从低到高排列｜价格范围"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "range of options",
+        "note": "选项像菜单一样排列｜选择范围"
+      },
+      {
+        "emoji": "🔫",
+        "phrase": "shooting range",
+        "note": "靶子排成一排｜射击场"
+      }
+    ],
+    "collocations": [
+      "wide range",
+      "range from...to",
+      "within range"
+    ],
+    "chinese": "范围；系列；山脉；排列",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "slope",
+    "word": "slope",
+    "phonetic": "/sləʊp/",
+    "pos": "n./v.",
+    "category": "A",
+    "core_state": "像滑梯一样倾斜",
+    "core_emoji": "🛝⛷️",
+    "scenes": [
+      {
+        "emoji": "⛷️",
+        "phrase": "ski slope",
+        "note": "滑雪者从斜坡滑下｜滑雪坡"
+      },
+      {
+        "emoji": "🏔️",
+        "phrase": "mountain slope",
+        "note": "山坡像滑梯一样倾斜｜山坡"
+      },
+      {
+        "emoji": "📉",
+        "phrase": "gentle slope",
+        "note": "斜坡像滑梯一样平缓｜缓坡"
+      },
+      {
+        "emoji": "🛣️",
+        "phrase": "slope down",
+        "note": "道路像滑梯一样向下｜下坡"
+      }
+    ],
+    "collocations": [
+      "steep slope",
+      "slope upwards",
+      "on a slope"
+    ],
+    "chinese": "斜坡；倾斜；坡度",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "overlook",
+    "word": "overlook",
+    "phonetic": "/ˌəʊvəˈlʊk/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像站在高处往下看",
+    "core_emoji": "👀🏞️",
+    "scenes": [
+      {
+        "emoji": "🏞️",
+        "phrase": "overlook the valley",
+        "note": "站在山顶俯瞰山谷｜俯瞰山谷"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "overlook details",
+        "note": "像没看见一样忽略细节｜忽视细节"
+      },
+      {
+        "emoji": "🏨",
+        "phrase": "room overlook sea",
+        "note": "房间窗户对着大海｜海景房"
+      },
+      {
+        "emoji": "✅",
+        "phrase": "overlook mistakes",
+        "note": "像没看见一样原谅错误｜忽略错误"
+      }
+    ],
+    "collocations": [
+      "overlook the fact",
+      "overlook the importance",
+      "overlook the view"
+    ],
+    "chinese": "俯瞰；忽视；忽略",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "inevitable",
+    "word": "inevitable",
+    "phonetic": "/ɪnˈevɪtəbl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像重力一样无法避免",
+    "core_emoji": "🔒⏳",
+    "scenes": [
+      {
+        "emoji": "⏳",
+        "phrase": "inevitable result",
+        "note": "结果像重力一样必然发生｜必然结果"
+      },
+      {
+        "emoji": "🔄",
+        "phrase": "inevitable change",
+        "note": "变化像重力一样必然发生｜必然变化"
+      },
+      {
+        "emoji": "💀",
+        "phrase": "inevitable death",
+        "note": "死亡像重力一样必然发生｜必然死亡"
+      },
+      {
+        "emoji": "📉",
+        "phrase": "inevitable decline",
+        "note": "衰退像重力一样必然发生｜必然衰退"
+      }
+    ],
+    "collocations": [
+      "seem inevitable",
+      "inevitable consequence",
+      "inevitable outcome"
+    ],
+    "chinese": "不可避免的；必然的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "irreversible",
+    "word": "irreversible",
+    "phonetic": "/ˌɪrɪˈvɜːsəbl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像时间一样无法倒流",
+    "core_emoji": "🔒⏰",
+    "scenes": [
+      {
+        "emoji": "🌍",
+        "phrase": "irreversible damage",
+        "note": "损害像时间一样无法倒流｜不可逆损害"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "irreversible brain damage",
+        "note": "脑损伤像时间一样无法倒流｜永久性脑损伤"
+      },
+      {
+        "emoji": "🔄",
+        "phrase": "irreversible process",
+        "note": "过程像时间一样无法倒流｜不可逆过程"
+      },
+      {
+        "emoji": "💔",
+        "phrase": "irreversible decision",
+        "note": "决定像时间一样无法倒流｜无法撤销的决定"
+      }
+    ],
+    "collocations": [
+      "irreversible change",
+      "irreversible effects",
+      "irreversible harm"
+    ],
+    "chinese": "不可逆的；无法挽回的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "irregularly",
+    "word": "irregularly",
+    "phonetic": "/ɪˈreɡjələli/",
+    "pos": "adv.",
+    "category": "A",
+    "core_state": "像心跳一样不规律",
+    "core_emoji": "📊💓",
+    "scenes": [
+      {
+        "emoji": "📅",
+        "phrase": "irregularly scheduled",
+        "note": "安排像心跳一样不规律｜不定期安排"
+      },
+      {
+        "emoji": "💓",
+        "phrase": "heart beat irregularly",
+        "note": "心跳像打鼓一样不规律｜心律不齐"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "irregularly shaped",
+        "note": "形状像拼图一样不规则｜不规则形状"
+      },
+      {
+        "emoji": "🕐",
+        "phrase": "irregularly updated",
+        "note": "更新像心跳一样不规律｜不规律更新"
+      }
+    ],
+    "collocations": [
+      "irregularly spaced",
+      "irregularly occurring",
+      "irregularly distributed"
+    ],
+    "chinese": "不规律地；不定期地",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "inappropriate",
+    "word": "inappropriate",
+    "phonetic": "/ˌɪnəˈprəʊpriət/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像穿错衣服参加正式场合",
+    "core_emoji": "❌👔",
+    "scenes": [
+      {
+        "emoji": "👔",
+        "phrase": "inappropriate clothing",
+        "note": "穿睡衣参加婚礼｜不适当服装"
+      },
+      {
+        "emoji": "💬",
+        "phrase": "inappropriate language",
+        "note": "在正式场合说脏话｜不适当语言"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "inappropriate behavior",
+        "note": "在图书馆大声喧哗｜不适当行为"
+      },
+      {
+        "emoji": "⏰",
+        "phrase": "inappropriate timing",
+        "note": "在葬礼上讲笑话｜不合时宜"
+      }
+    ],
+    "collocations": [
+      "completely inappropriate",
+      "highly inappropriate",
+      "inappropriate for"
+    ],
+    "chinese": "不适当的；不合适的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "abnormal",
+    "word": "abnormal",
+    "phonetic": "/æbˈnɔːml/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像警报器响起表示异常",
+    "core_emoji": "⚠️🚨",
+    "scenes": [
+      {
+        "emoji": "🩺",
+        "phrase": "abnormal cells",
+        "note": "细胞像警报一样异常｜异常细胞"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "abnormal temperature",
+        "note": "温度计显示异常高温｜异常温度"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "abnormal behavior",
+        "note": "行为像警报一样异常｜异常行为"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "abnormal results",
+        "note": "结果像警报一样异常｜异常结果"
+      }
+    ],
+    "collocations": [
+      "abnormal growth",
+      "abnormal development",
+      "abnormal conditions"
+    ],
+    "chinese": "异常的；不正常的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "muddy",
+    "word": "muddy",
+    "phonetic": "/ˈmʌdi/",
+    "pos": "adj./v.",
+    "category": "A",
+    "core_state": "像雨后的泥地一样泥泞",
+    "core_emoji": "🟤🥾",
+    "scenes": [
+      {
+        "emoji": "🥾",
+        "phrase": "muddy boots",
+        "note": "靴子沾满泥巴｜泥泞的靴子"
+      },
+      {
+        "emoji": "🛣️",
+        "phrase": "muddy road",
+        "note": "道路像泥潭一样｜泥泞的路"
+      },
+      {
+        "emoji": "💧",
+        "phrase": "muddy water",
+        "note": "水像泥汤一样浑浊｜浑浊的水"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "muddy colors",
+        "note": "颜色像泥水一样浑浊｜浑浊的颜色"
+      }
+    ],
+    "collocations": [
+      "muddy ground",
+      "muddy conditions",
+      "get muddy"
+    ],
+    "chinese": "泥泞的；浑浊的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "rural",
+    "word": "rural",
+    "phonetic": "/ˈrʊərəl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像田野一样乡村化",
+    "core_emoji": "🌾🏡",
+    "scenes": [
+      {
+        "emoji": "🌾",
+        "phrase": "rural areas",
+        "note": "田野和农舍组成乡村｜乡村地区"
+      },
+      {
+        "emoji": "🏡",
+        "phrase": "rural life",
+        "note": "生活像田野一样宁静｜乡村生活"
+      },
+      {
+        "emoji": "🚜",
+        "phrase": "rural economy",
+        "note": "经济像拖拉机一样朴实｜农村经济"
+      },
+      {
+        "emoji": "🏫",
+        "phrase": "rural school",
+        "note": "学校像田野一样简单｜乡村学校"
+      }
+    ],
+    "collocations": [
+      "rural development",
+      "rural community",
+      "rural population"
+    ],
+    "chinese": "乡村的；农村的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "remote",
+    "word": "remote",
+    "phonetic": "/rɪˈməʊt/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像遥远的岛屿一样偏远",
+    "core_emoji": "🏝️📡",
+    "scenes": [
+      {
+        "emoji": "🏝️",
+        "phrase": "remote island",
+        "note": "岛屿像天涯海角一样远｜偏远岛屿"
+      },
+      {
+        "emoji": "🏔️",
+        "phrase": "remote mountain",
+        "note": "山区像天边一样远｜偏远山区"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "remote work",
+        "note": "工作像隔着屏幕一样远｜远程工作"
+      },
+      {
+        "emoji": "📡",
+        "phrase": "remote control",
+        "note": "控制像隔着距离一样｜遥控器"
+      }
+    ],
+    "collocations": [
+      "remote area",
+      "remote location",
+      "remote access"
+    ],
+    "chinese": "遥远的；偏远的；远程的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "desolate",
+    "word": "desolate",
+    "phonetic": "/ˈdesələt/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像沙漠一样荒凉",
+    "core_emoji": "🏜️😔",
+    "scenes": [
+      {
+        "emoji": "🏜️",
+        "phrase": "desolate desert",
+        "note": "沙漠像无人区一样荒凉｜荒凉沙漠"
+      },
+      {
+        "emoji": "🏚️",
+        "phrase": "desolate building",
+        "note": "建筑像鬼城一样荒凉｜废弃建筑"
+      },
+      {
+        "emoji": "😔",
+        "phrase": "desolate feeling",
+        "note": "感觉像沙漠一样荒凉｜凄凉感觉"
+      },
+      {
+        "emoji": "🌵",
+        "phrase": "desolate landscape",
+        "note": "景观像沙漠一样荒凉｜荒凉景观"
+      }
+    ],
+    "collocations": [
+      "desolate place",
+      "desolate area",
+      "desolate region"
+    ],
+    "chinese": "荒凉的；凄凉的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "distant",
+    "word": "distant",
+    "phonetic": "/ˈdɪstənt/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像望远镜里的星星一样遥远",
+    "core_emoji": "🔭⭐",
+    "scenes": [
+      {
+        "emoji": "⭐",
+        "phrase": "distant star",
+        "note": "星星像钻石一样遥远｜遥远的星星"
+      },
+      {
+        "emoji": "👨‍👩‍👧‍👦",
+        "phrase": "distant relative",
+        "note": "亲戚像远方一样疏远｜远亲"
+      },
+      {
+        "emoji": "🔭",
+        "phrase": "distant future",
+        "note": "未来像星星一样遥远｜遥远未来"
+      },
+      {
+        "emoji": "🏔️",
+        "phrase": "distant mountain",
+        "note": "山像天边一样遥远｜远山"
+      }
+    ],
+    "collocations": [
+      "distant past",
+      "distant memory",
+      "distant place"
+    ],
+    "chinese": "遥远的；远处的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "adjacent",
+    "word": "adjacent",
+    "phonetic": "/əˈdʒeɪsnt/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像邻居一样紧挨着",
+    "core_emoji": "🔗🏠",
+    "scenes": [
+      {
+        "emoji": "🏠",
+        "phrase": "adjacent building",
+        "note": "建筑像邻居一样挨着｜邻近建筑"
+      },
+      {
+        "emoji": "🛣️",
+        "phrase": "adjacent road",
+        "note": "道路像邻居一样挨着｜邻近道路"
+      },
+      {
+        "emoji": "🏞️",
+        "phrase": "adjacent land",
+        "note": "土地像邻居一样挨着｜邻近土地"
+      },
+      {
+        "emoji": "🏨",
+        "phrase": "adjacent room",
+        "note": "房间像邻居一样挨着｜邻近房间"
+      }
+    ],
+    "collocations": [
+      "adjacent to",
+      "adjacent area",
+      "adjacent property"
+    ],
+    "chinese": "邻近的；相邻的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "toxic",
+    "word": "toxic",
+    "phonetic": "/ˈtɒksɪk/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像毒药一样有害",
+    "core_emoji": "☠️🧪",
+    "scenes": [
+      {
+        "emoji": "☠️",
+        "phrase": "toxic chemicals",
+        "note": "化学品像毒药一样危险｜有毒化学品"
+      },
+      {
+        "emoji": "💨",
+        "phrase": "toxic gas",
+        "note": "气体像毒气一样危险｜有毒气体"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "toxic waste",
+        "note": "废物像毒药一样危险｜有毒废物"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "toxic relationship",
+        "note": "关系像毒药一样有害｜有毒关系"
+      }
+    ],
+    "collocations": [
+      "toxic substance",
+      "toxic environment",
+      "toxic effects"
+    ],
+    "chinese": "有毒的；有害的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "pollute",
+    "word": "pollute",
+    "phonetic": "/pəˈluːt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像墨水滴入清水",
+    "core_emoji": "🏭💧",
+    "scenes": [
+      {
+        "emoji": "🏭",
+        "phrase": "pollute air",
+        "note": "空气像被墨水染黑｜污染空气"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "pollute water",
+        "note": "水像被墨水染黑｜污染水"
+      },
+      {
+        "emoji": "🌱",
+        "phrase": "pollute soil",
+        "note": "土壤像被墨水染黑｜污染土壤"
+      },
+      {
+        "emoji": "🏙️",
+        "phrase": "pollute environment",
+        "note": "环境像被墨水染黑｜污染环境"
+      }
+    ],
+    "collocations": [
+      "pollute the environment",
+      "pollute the atmosphere",
+      "pollute the ocean"
+    ],
+    "chinese": "污染；弄脏",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "contaminate",
+    "word": "contaminate",
+    "phonetic": "/kənˈtæmɪneɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像细菌污染纯净物",
+    "core_emoji": "🦠🧪",
+    "scenes": [
+      {
+        "emoji": "💧",
+        "phrase": "contaminate water",
+        "note": "水像被细菌污染｜污染水"
+      },
+      {
+        "emoji": "🍎",
+        "phrase": "contaminate food",
+        "note": "食物像被细菌污染｜污染食物"
+      },
+      {
+        "emoji": "🧪",
+        "phrase": "contaminate sample",
+        "note": "样本像被细菌污染｜污染样本"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "contaminate environment",
+        "note": "环境像被细菌污染｜污染环境"
+      }
+    ],
+    "collocations": [
+      "contaminate with",
+      "contaminated water",
+      "contaminated food"
+    ],
+    "chinese": "污染；弄脏；使不纯",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "border",
+    "word": "border",
+    "phonetic": "/ˈbɔːdə(r)/",
+    "pos": "n./v.",
+    "category": "A",
+    "core_state": "像国境线一样分隔",
+    "core_emoji": "🚧🗺️",
+    "scenes": [
+      {
+        "emoji": "🗺️",
+        "phrase": "national border",
+        "note": "国境线像分界线｜国界"
+      },
+      {
+        "emoji": "🌸",
+        "phrase": "flower border",
+        "note": "花边像边缘线｜花边"
+      },
+      {
+        "emoji": "🚧",
+        "phrase": "border control",
+        "note": "边境像检查站｜边境控制"
+      },
+      {
+        "emoji": "🏞️",
+        "phrase": "border area",
+        "note": "边境像缓冲区｜边境地区"
+      }
+    ],
+    "collocations": [
+      "border on",
+      "cross the border",
+      "border line"
+    ],
+    "chinese": "边界；边境；边缘",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "margin",
+    "word": "margin",
+    "phonetic": "/ˈmɑːdʒɪn/",
+    "pos": "n.",
+    "category": "A",
+    "core_state": "像书页边缘的空白",
+    "core_emoji": "📏📄",
+    "scenes": [
+      {
+        "emoji": "📄",
+        "phrase": "page margin",
+        "note": "书页边缘的空白｜页边距"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "profit margin",
+        "note": "利润像边缘空间｜利润率"
+      },
+      {
+        "emoji": "🗳️",
+        "phrase": "win by margin",
+        "note": "胜利像边缘优势｜以优势获胜"
+      },
+      {
+        "emoji": "📏",
+        "phrase": "narrow margin",
+        "note": "边缘像细线一样窄｜窄边"
+      }
+    ],
+    "collocations": [
+      "wide margin",
+      "margin of error",
+      "margin for improvement"
+    ],
+    "chinese": "边缘；余地；利润",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "fringe",
+    "word": "fringe",
+    "phonetic": "/frɪndʒ/",
+    "pos": "n./adj.",
+    "category": "A",
+    "core_state": "像刘海一样在边缘",
+    "core_emoji": "💇🎭",
+    "scenes": [
+      {
+        "emoji": "💇",
+        "phrase": "hair fringe",
+        "note": "刘海像头发边缘｜刘海"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "fringe theatre",
+        "note": "剧场像边缘地带｜边缘剧场"
+      },
+      {
+        "emoji": "🏙️",
+        "phrase": "fringe area",
+        "note": "地区像边缘地带｜边缘地区"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "fringe group",
+        "note": "群体像边缘地带｜边缘群体"
+      }
+    ],
+    "collocations": [
+      "fringe benefits",
+      "fringe elements",
+      "on the fringe"
+    ],
+    "chinese": "边缘；外围；刘海",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "crack",
+    "word": "crack",
+    "phonetic": "/kræk/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像鸡蛋壳破裂",
+    "core_emoji": "🥚🔨",
+    "scenes": [
+      {
+        "emoji": "🥚",
+        "phrase": "crack an egg",
+        "note": "鸡蛋壳像玻璃一样碎｜打破鸡蛋"
+      },
+      {
+        "emoji": "🧊",
+        "phrase": "ice crack",
+        "note": "冰面像玻璃一样裂｜冰裂"
+      },
+      {
+        "emoji": "🔨",
+        "phrase": "crack the code",
+        "note": "密码像锁一样被打开｜破解密码"
+      },
+      {
+        "emoji": "😄",
+        "phrase": "crack a joke",
+        "note": "笑话像炸弹一样引爆笑声｜讲笑话"
+      }
+    ],
+    "collocations": [
+      "crack down",
+      "crack open",
+      "crack under pressure"
+    ],
+    "chinese": "破裂；裂缝；破解",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "gap",
+    "word": "gap",
+    "phonetic": "/ɡæp/",
+    "pos": "n.",
+    "category": "A",
+    "core_state": "像牙齿之间的缝隙",
+    "core_emoji": "🕳️🦷",
+    "scenes": [
+      {
+        "emoji": "🦷",
+        "phrase": "gap between teeth",
+        "note": "牙齿之间像有缝隙｜牙缝"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "generation gap",
+        "note": "代际之间像有鸿沟｜代沟"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "income gap",
+        "note": "收入之间像有鸿沟｜收入差距"
+      },
+      {
+        "emoji": "🕳️",
+        "phrase": "fill the gap",
+        "note": "像填补缝隙一样｜填补缺口"
+      }
+    ],
+    "collocations": [
+      "bridge the gap",
+      "gap year",
+      "widen the gap"
+    ],
+    "chinese": "缺口；差距；间隙",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "splendid",
+    "word": "splendid",
+    "phonetic": "/ˈsplendɪd/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像皇宫一样辉煌",
+    "core_emoji": "✨🏰",
+    "scenes": [
+      {
+        "emoji": "🏰",
+        "phrase": "splendid palace",
+        "note": "宫殿像黄金一样辉煌｜壮丽宫殿"
+      },
+      {
+        "emoji": "🌅",
+        "phrase": "splendid view",
+        "note": "景色像画一样壮丽｜壮丽景色"
+      },
+      {
+        "emoji": "👑",
+        "phrase": "splendid achievement",
+        "note": "成就像皇冠一样辉煌｜辉煌成就"
+      },
+      {
+        "emoji": "🎉",
+        "phrase": "splendid performance",
+        "note": "表演像烟花一样精彩｜精彩表演"
+      }
+    ],
+    "collocations": [
+      "splendid isolation",
+      "splendid opportunity",
+      "splendid success"
+    ],
+    "chinese": "壮丽的；辉煌的；极好的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "grand",
+    "word": "grand",
+    "phonetic": "/ɡrænd/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像大教堂一样宏伟",
+    "core_emoji": "🏛️👑",
+    "scenes": [
+      {
+        "emoji": "🏛️",
+        "phrase": "grand building",
+        "note": "建筑像教堂一样宏伟｜宏伟建筑"
+      },
+      {
+        "emoji": "🎹",
+        "phrase": "grand piano",
+        "note": "钢琴像国王一样大气｜三角钢琴"
+      },
+      {
+        "emoji": "🎉",
+        "phrase": "grand opening",
+        "note": "开幕像庆典一样盛大｜盛大开幕"
+      },
+      {
+        "emoji": "👴",
+        "phrase": "grand total",
+        "note": "总数像国王一样权威｜总计"
+      }
+    ],
+    "collocations": [
+      "grand scale",
+      "grand design",
+      "grand prize"
+    ],
+    "chinese": "宏伟的；盛大的；总的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "magnificent",
+    "word": "magnificent",
+    "phonetic": "/mæɡˈnɪfɪsnt/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像城堡一样壮丽",
+    "core_emoji": "🏰✨",
+    "scenes": [
+      {
+        "emoji": "🏰",
+        "phrase": "magnificent castle",
+        "note": "城堡像童话一样壮丽｜壮丽城堡"
+      },
+      {
+        "emoji": "🌄",
+        "phrase": "magnificent view",
+        "note": "景色像画一样壮丽｜壮丽景色"
+      },
+      {
+        "emoji": "🦅",
+        "phrase": "magnificent bird",
+        "note": "鸟像凤凰一样壮丽｜壮丽的鸟"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "magnificent architecture",
+        "note": "建筑像艺术品一样壮丽｜宏伟建筑"
+      }
+    ],
+    "collocations": [
+      "magnificent sight",
+      "magnificent scenery",
+      "magnificent work"
+    ],
+    "chinese": "壮丽的；宏伟的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "dramatic",
+    "word": "dramatic",
+    "phonetic": "/drəˈmætɪk/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像戏剧一样夸张",
+    "core_emoji": "🎭📈",
+    "scenes": [
+      {
+        "emoji": "📈",
+        "phrase": "dramatic increase",
+        "note": "增长像戏剧一样夸张｜急剧增长"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "dramatic performance",
+        "note": "表演像戏剧一样精彩｜戏剧性表演"
+      },
+      {
+        "emoji": "🌪️",
+        "phrase": "dramatic change",
+        "note": "变化像戏剧一样夸张｜巨大变化"
+      },
+      {
+        "emoji": "🎬",
+        "phrase": "dramatic effect",
+        "note": "效果像戏剧一样震撼｜戏剧性效果"
+      }
+    ],
+    "collocations": [
+      "dramatic improvement",
+      "dramatic shift",
+      "dramatic impact"
+    ],
+    "chinese": "戏剧性的；巨大的；引人注目的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "barren",
+    "word": "barren",
+    "phonetic": "/ˈbærən/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像沙漠一样贫瘠",
+    "core_emoji": "🏜️🌵",
+    "scenes": [
+      {
+        "emoji": "🏜️",
+        "phrase": "barren land",
+        "note": "土地像沙漠一样贫瘠｜贫瘠土地"
+      },
+      {
+        "emoji": "🌵",
+        "phrase": "barren desert",
+        "note": "沙漠像无人区一样贫瘠｜贫瘠沙漠"
+      },
+      {
+        "emoji": "🌱",
+        "phrase": "barren soil",
+        "note": "土壤像沙漠一样贫瘠｜贫瘠土壤"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "barren of ideas",
+        "note": "思想像沙漠一样贫瘠｜缺乏想法"
+      }
+    ],
+    "collocations": [
+      "barren landscape",
+      "barren ground",
+      "barren region"
+    ],
+    "chinese": "贫瘠的；不毛的；荒芜的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "fertile",
+    "word": "fertile",
+    "phonetic": "/ˈfɜːtaɪl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像黑土地一样肥沃",
+    "core_emoji": "🌱🌾",
+    "scenes": [
+      {
+        "emoji": "🌾",
+        "phrase": "fertile soil",
+        "note": "土壤像黑土地一样肥沃｜肥沃土壤"
+      },
+      {
+        "emoji": "🌱",
+        "phrase": "fertile land",
+        "note": "土地像黑土地一样肥沃｜肥沃土地"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "fertile imagination",
+        "note": "想象力像黑土地一样丰富｜丰富想象力"
+      },
+      {
+        "emoji": "👶",
+        "phrase": "fertile years",
+        "note": "年龄像黑土地一样多产｜生育年龄"
+      }
+    ],
+    "collocations": [
+      "fertile ground",
+      "fertile area",
+      "fertile region"
+    ],
+    "chinese": "肥沃的；多产的；丰富的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "fertilise",
+    "word": "fertilise",
+    "phonetic": "/ˈfɜːtəlaɪz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像给植物喂营养",
+    "core_emoji": "🌱💧",
+    "scenes": [
+      {
+        "emoji": "🌱",
+        "phrase": "fertilise soil",
+        "note": "给土壤像喂营养一样｜给土壤施肥"
+      },
+      {
+        "emoji": "🌸",
+        "phrase": "fertilise flowers",
+        "note": "给花像喂营养一样｜给花授粉"
+      },
+      {
+        "emoji": "🥚",
+        "phrase": "fertilise egg",
+        "note": "给卵像喂营养一样｜使卵受精"
+      },
+      {
+        "emoji": "🌾",
+        "phrase": "fertilise crops",
+        "note": "给作物像喂营养一样｜给作物施肥"
+      }
+    ],
+    "collocations": [
+      "fertilise the land",
+      "fertilise plants",
+      "artificially fertilise"
+    ],
+    "chinese": "施肥；授粉；使受精",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "evaporate",
+    "word": "evaporate",
+    "phonetic": "/ɪˈvæpəreɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像水变成水蒸气消失",
+    "core_emoji": "💧💨",
+    "scenes": [
+      {
+        "emoji": "💧",
+        "phrase": "water evaporate",
+        "note": "水像变魔术一样消失｜水蒸发"
+      },
+      {
+        "emoji": "☀️",
+        "phrase": "sun evaporate water",
+        "note": "太阳像魔术师一样让水消失｜太阳蒸发水"
+      },
+      {
+        "emoji": "💨",
+        "phrase": "evaporate quickly",
+        "note": "像变魔术一样快速消失｜快速蒸发"
+      },
+      {
+        "emoji": "😶‍🌫️",
+        "phrase": "evaporate into air",
+        "note": "像变魔术一样消失在空气中｜蒸发到空气中"
+      }
+    ],
+    "collocations": [
+      "evaporate completely",
+      "evaporate slowly",
+      "evaporate off"
+    ],
+    "chinese": "蒸发；消失；挥发",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "cycle",
+    "word": "cycle",
+    "phonetic": "/ˈsaɪkl/",
+    "pos": "n./v.",
+    "category": "A",
+    "core_state": "像车轮一样循环转动",
+    "core_emoji": "🔄🚴",
+    "scenes": [
+      {
+        "emoji": "🔄",
+        "phrase": "water cycle",
+        "note": "水像车轮一样循环｜水循环"
+      },
+      {
+        "emoji": "🚴",
+        "phrase": "ride a cycle",
+        "note": "自行车像车轮一样转动｜骑自行车"
+      },
+      {
+        "emoji": "📅",
+        "phrase": "life cycle",
+        "note": "生命像车轮一样循环｜生命周期"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "carbon cycle",
+        "note": "碳像车轮一样循环｜碳循环"
+      }
+    ],
+    "collocations": [
+      "cycle through",
+      "business cycle",
+      "cycle path"
+    ],
+    "chinese": "循环；周期；自行车",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "precipitate",
+    "word": "precipitate",
+    "phonetic": "/prɪˈsɪpɪteɪt/",
+    "pos": "v./adj./n.",
+    "category": "A",
+    "core_state": "像雨水突然降落",
+    "core_emoji": "🌧️⚗️",
+    "scenes": [
+      {
+        "emoji": "🌧️",
+        "phrase": "precipitate rain",
+        "note": "雨水像突然降落｜形成降雨"
+      },
+      {
+        "emoji": "⚗️",
+        "phrase": "precipitate crystals",
+        "note": "晶体像突然降落｜沉淀晶体"
+      },
+      {
+        "emoji": "💥",
+        "phrase": "precipitate crisis",
+        "note": "危机像突然降落｜引发危机"
+      },
+      {
+        "emoji": "🏃",
+        "phrase": "precipitate action",
+        "note": "行动像突然降落｜仓促行动"
+      }
+    ],
+    "collocations": [
+      "precipitate a crisis",
+      "precipitate change",
+      "chemical precipitate"
+    ],
+    "chinese": "使沉淀；引发；仓促的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "circulate",
+    "word": "circulate",
+    "phonetic": "/ˈsɜːkjəleɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像血液在全身循环",
+    "core_emoji": "🔄🩸",
+    "scenes": [
+      {
+        "emoji": "🩸",
+        "phrase": "blood circulate",
+        "note": "血液像河流一样循环｜血液循环"
+      },
+      {
+        "emoji": "💨",
+        "phrase": "air circulate",
+        "note": "空气像河流一样循环｜空气流通"
+      },
+      {
+        "emoji": "📰",
+        "phrase": "circulate news",
+        "note": "新闻像河流一样传播｜传播新闻"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "circulate money",
+        "note": "货币像河流一样流通｜货币流通"
+      }
+    ],
+    "collocations": [
+      "circulate freely",
+      "circulate information",
+      "circulate widely"
+    ],
+    "chinese": "循环；流通；传播",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "drip",
+    "word": "drip",
+    "phonetic": "/drɪp/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像水龙头滴水",
+    "core_emoji": "💧🚰",
+    "scenes": [
+      {
+        "emoji": "💧",
+        "phrase": "water drip",
+        "note": "水像珍珠一样滴下｜滴水"
+      },
+      {
+        "emoji": "🚰",
+        "phrase": "dripping tap",
+        "note": "水龙头像流泪一样滴水｜滴水的水龙头"
+      },
+      {
+        "emoji": "🩸",
+        "phrase": "blood drip",
+        "note": "血像珍珠一样滴下｜滴血"
+      },
+      {
+        "emoji": "☔",
+        "phrase": "drip dry",
+        "note": "像滴水一样晾干｜滴干"
+      }
+    ],
+    "collocations": [
+      "drip with",
+      "drip feed",
+      "drip coffee"
+    ],
+    "chinese": "滴下；滴水；滴",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "drain",
+    "word": "drain",
+    "phonetic": "/dreɪn/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像水池排水",
+    "core_emoji": "🕳️🛁",
+    "scenes": [
+      {
+        "emoji": "🕳️",
+        "phrase": "drain water",
+        "note": "水像被吸走一样排出｜排水"
+      },
+      {
+        "emoji": "🛁",
+        "phrase": "drain the bath",
+        "note": "浴缸像被吸走一样排空｜排干浴缸"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "drain resources",
+        "note": "资源像被吸走一样耗尽｜耗尽资源"
+      },
+      {
+        "emoji": "😓",
+        "phrase": "drain energy",
+        "note": "精力像被吸走一样耗尽｜耗尽精力"
+      }
+    ],
+    "collocations": [
+      "drain away",
+      "drain off",
+      "brain drain"
+    ],
+    "chinese": "排水；耗尽；下水道",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "drown",
+    "word": "drown",
+    "phonetic": "/draʊn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像沉入水底",
+    "core_emoji": "🌊😵",
+    "scenes": [
+      {
+        "emoji": "🌊",
+        "phrase": "drown in water",
+        "note": "人像石头一样沉入水底｜溺水"
+      },
+      {
+        "emoji": "🎵",
+        "phrase": "drown in music",
+        "note": "人像沉入音乐海洋｜沉浸在音乐中"
+      },
+      {
+        "emoji": "😢",
+        "phrase": "drown sorrows",
+        "note": "人像沉入酒中消愁｜借酒消愁"
+      },
+      {
+        "emoji": "📢",
+        "phrase": "drown out noise",
+        "note": "声音像沉入水底消失｜淹没噪音"
+      }
+    ],
+    "collocations": [
+      "drown out",
+      "drown in",
+      "nearly drown"
+    ],
+    "chinese": "淹没；溺死；沉浸",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "blow",
+    "word": "blow",
+    "phonetic": "/bləʊ/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像风一样吹动",
+    "core_emoji": "💨🌬️",
+    "scenes": [
+      {
+        "emoji": "💨",
+        "phrase": "wind blow",
+        "note": "风像手一样推动｜风吹"
+      },
+      {
+        "emoji": "🎈",
+        "phrase": "blow up balloon",
+        "note": "气球像被手吹大｜吹气球"
+      },
+      {
+        "emoji": "💥",
+        "phrase": "blow up building",
+        "note": "建筑像被手炸毁｜炸毁建筑"
+      },
+      {
+        "emoji": "🕯️",
+        "phrase": "blow out candle",
+        "note": "蜡烛像被手吹灭｜吹灭蜡烛"
+      }
+    ],
+    "collocations": [
+      "blow away",
+      "blow up",
+      "blow out"
+    ],
+    "chinese": "吹；打击；爆炸",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "puff",
+    "word": "puff",
+    "phonetic": "/pʌf/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像轻轻吹气",
+    "core_emoji": "💨🚬",
+    "scenes": [
+      {
+        "emoji": "🚬",
+        "phrase": "puff cigarette",
+        "note": "烟像轻轻吹出｜吸烟"
+      },
+      {
+        "emoji": "💨",
+        "phrase": "puff of smoke",
+        "note": "烟像轻轻吹出｜一缕烟"
+      },
+      {
+        "emoji": "🧁",
+        "phrase": "cream puff",
+        "note": "泡芙像轻轻吹大｜奶油泡芙"
+      },
+      {
+        "emoji": "😤",
+        "phrase": "puff and pant",
+        "note": "喘气像轻轻吹气｜气喘吁吁"
+      }
+    ],
+    "collocations": [
+      "puff out",
+      "puff up",
+      "puff of air"
+    ],
+    "chinese": "轻吹；喷出；泡芙",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "gush",
+    "word": "gush",
+    "phonetic": "/ɡʌʃ/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像喷泉一样涌出",
+    "core_emoji": "⛲💦",
+    "scenes": [
+      {
+        "emoji": "⛲",
+        "phrase": "water gush",
+        "note": "水像喷泉一样涌出｜水涌出"
+      },
+      {
+        "emoji": "🩸",
+        "phrase": "blood gush",
+        "note": "血像喷泉一样涌出｜血涌出"
+      },
+      {
+        "emoji": "🛢️",
+        "phrase": "oil gush",
+        "note": "油像喷泉一样涌出｜油涌出"
+      },
+      {
+        "emoji": "😍",
+        "phrase": "gush with praise",
+        "note": "赞美像喷泉一样涌出｜滔滔不绝赞美"
+      }
+    ],
+    "collocations": [
+      "gush out",
+      "gush forth",
+      "gush of water"
+    ],
+    "chinese": "涌出；喷出；滔滔不绝",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "dense",
+    "word": "dense",
+    "phonetic": "/dens/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像森林一样密集",
+    "core_emoji": "🌲🌳",
+    "scenes": [
+      {
+        "emoji": "🌲",
+        "phrase": "dense forest",
+        "note": "森林像墙一样密集｜密林"
+      },
+      {
+        "emoji": "🏙️",
+        "phrase": "dense population",
+        "note": "人口像蚂蚁一样密集｜密集人口"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "dense text",
+        "note": "文本像墙一样密集｜密集文本"
+      },
+      {
+        "emoji": "🌫️",
+        "phrase": "dense fog",
+        "note": "雾像墙一样密集｜浓雾"
+      }
+    ],
+    "collocations": [
+      "dense smoke",
+      "dense crowd",
+      "dense material"
+    ],
+    "chinese": "密集的；浓密的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "intensity",
+    "word": "intensity",
+    "phonetic": "/ɪnˈtensəti/",
+    "pos": "n.",
+    "category": "A",
+    "core_state": "像火焰一样强烈",
+    "core_emoji": "🔥💪",
+    "scenes": [
+      {
+        "emoji": "💪",
+        "phrase": "high intensity",
+        "note": "强度像火焰一样高｜高强度"
+      },
+      {
+        "emoji": "🏋️",
+        "phrase": "intensity training",
+        "note": "训练像火焰一样强烈｜强度训练"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "heat intensity",
+        "note": "热像火焰一样强烈｜热强度"
+      },
+      {
+        "emoji": "😤",
+        "phrase": "emotional intensity",
+        "note": "情感像火焰一样强烈｜情感强度"
+      }
+    ],
+    "collocations": [
+      "increase intensity",
+      "intensity of light",
+      "intensity of feeling"
+    ],
+    "chinese": "强度；强烈；紧张",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "intensive",
+    "word": "intensive",
+    "phonetic": "/ɪnˈtensɪv/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像放大镜聚焦一样集中",
+    "core_emoji": "🎯🔍",
+    "scenes": [
+      {
+        "emoji": "📚",
+        "phrase": "intensive course",
+        "note": "课程像放大镜一样集中｜强化课程"
+      },
+      {
+        "emoji": "🏥",
+        "phrase": "intensive care",
+        "note": "护理像放大镜一样集中｜重症监护"
+      },
+      {
+        "emoji": "🌾",
+        "phrase": "intensive farming",
+        "note": "农业像放大镜一样集中｜集约农业"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "intensive research",
+        "note": "研究像放大镜一样集中｜深入研究"
+      }
+    ],
+    "collocations": [
+      "intensive training",
+      "intensive study",
+      "intensive production"
+    ],
+    "chinese": "集中的；强化的；密集的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "emerge",
+    "word": "emerge",
+    "phonetic": "/ɪˈmɜːdʒ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "像太阳从云层中出现",
+    "core_emoji": "🌅☀️",
+    "scenes": [
+      {
+        "emoji": "🌅",
+        "phrase": "sun emerge",
+        "note": "太阳像从云层中钻出｜太阳出现"
+      },
+      {
+        "emoji": "🦋",
+        "phrase": "butterfly emerge",
+        "note": "蝴蝶像从茧中钻出｜蝴蝶出现"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "emerge from crisis",
+        "note": "像从危机中钻出｜从危机中出现"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "emerge as leader",
+        "note": "像从人群中钻出成为领导者｜成为领导者"
+      }
+    ],
+    "collocations": [
+      "emerge from",
+      "emerge as",
+      "newly emerge"
+    ],
+    "chinese": "出现；浮现；显露",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "flash",
+    "word": "flash",
+    "phonetic": "/flæʃ/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像闪电一样快速",
+    "core_emoji": "⚡📸",
+    "scenes": [
+      {
+        "emoji": "⚡",
+        "phrase": "lightning flash",
+        "note": "闪电像剑一样快速｜闪电"
+      },
+      {
+        "emoji": "📸",
+        "phrase": "camera flash",
+        "note": "闪光像剑一样快速｜相机闪光"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "flash of inspiration",
+        "note": "灵感像剑一样快速｜灵感闪现"
+      },
+      {
+        "emoji": "🚨",
+        "phrase": "flash warning",
+        "note": "警告像剑一样快速｜闪光警告"
+      }
+    ],
+    "collocations": [
+      "flash by",
+      "flash across",
+      "in a flash"
+    ],
+    "chinese": "闪光；闪现；迅速",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "float",
+    "word": "float",
+    "phonetic": "/fləʊt/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "像气球一样漂浮",
+    "core_emoji": "🎈☁️",
+    "scenes": [
+      {
+        "emoji": "🎈",
+        "phrase": "balloon float",
+        "note": "气球像云一样漂浮｜气球漂浮"
+      },
+      {
+        "emoji": "🛶",
+        "phrase": "boat float",
+        "note": "船像云一样漂浮｜船漂浮"
+      },
+      {
+        "emoji": "☁️",
+        "phrase": "cloud float",
+        "note": "云像气球一样漂浮｜云漂浮"
+      },
+      {
+        "emoji": "💭",
+        "phrase": "idea float",
+        "note": "想法像云一样浮现｜想法浮现"
+      }
+    ],
+    "collocations": [
+      "float on",
+      "float around",
+      "float in the air"
+    ],
+    "chinese": "漂浮；浮动；飘浮",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "surrounding",
+    "word": "surrounding",
+    "phonetic": "/səˈraʊndɪŋ/",
+    "pos": "adj./n.",
+    "category": "A",
+    "core_state": "像被圆圈包围",
+    "core_emoji": "🔄🏞️",
+    "scenes": [
+      {
+        "emoji": "🏞️",
+        "phrase": "surrounding area",
+        "note": "地区像被圆圈包围｜周围地区"
+      },
+      {
+        "emoji": "🌲",
+        "phrase": "surrounding forest",
+        "note": "森林像被圆圈包围｜周围森林"
+      },
+      {
+        "emoji": "🏘️",
+        "phrase": "surrounding buildings",
+        "note": "建筑像被圆圈包围｜周围建筑"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "surrounding environment",
+        "note": "环境像被圆圈包围｜周围环境"
+      }
+    ],
+    "collocations": [
+      "surrounding countryside",
+      "surrounding walls",
+      "surrounding circumstances"
+    ],
+    "chinese": "周围的；附近的",
+    "tags": [
+      "A"
+    ]
+  },
+  {
+    "id": "condition",
+    "word": "condition",
+    "phonetic": "/kənˈdɪʃn/",
+    "pos": "n./v.",
+    "category": "A",
+    "core_state": "像身体状况一样",
+    "core_emoji": "📋🏥",
+    "scenes": [
+      {
+        "emoji": "🏥",
+        "phrase": "medical condition",
+        "note": "状况像身体一样｜医疗状况"
+      },
+      {
+        "emoji": "🏠",
+        "phrase": "living condition",
+        "note": "状况像生活一样｜生活条件"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "terms and conditions",
+        "note": "条款像条件一样｜条款和条件"
+      },
+      {
+        "emoji": "🌤️",
+        "phrase": "weather condition",
+        "note": "状况像天气一样｜天气状况"
+      }
+    ],
+    "collocations": [
+      "in good condition",
+      "working condition",
+      "condition of use"
+    ],
+    "chinese": "条件；状态；状况",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "situation",
+    "word": "situation",
+    "phonetic": "/ˌsɪtʃuˈeɪʃn/",
+    "pos": "n.",
+    "category": "A",
+    "core_state": "像棋局一样的情况",
+    "core_emoji": "🎭♟️",
+    "scenes": [
+      {
+        "emoji": "🎭",
+        "phrase": "current situation",
+        "note": "情况像棋局一样｜当前情况"
+      },
+      {
+        "emoji": "💼",
+        "phrase": "work situation",
+        "note": "情况像棋局一样｜工作情况"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "global situation",
+        "note": "情况像棋局一样｜全球形势"
+      },
+      {
+        "emoji": "😰",
+        "phrase": "difficult situation",
+        "note": "情况像棋局一样困难｜困难处境"
+      }
+    ],
+    "collocations": [
+      "economic situation",
+      "political situation",
+      "improve the situation"
+    ],
+    "chinese": "情况；形势；处境",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "natural",
+    "word": "natural",
+    "phonetic": "/ˈnætʃrəl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像大自然一样天然",
+    "core_emoji": "🌿🌳",
+    "scenes": [
+      {
+        "emoji": "🌿",
+        "phrase": "natural environment",
+        "note": "环境像大自然一样｜自然环境"
+      },
+      {
+        "emoji": "🍎",
+        "phrase": "natural food",
+        "note": "食品像大自然一样｜天然食品"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "natural behavior",
+        "note": "行为像大自然一样｜自然行为"
+      },
+      {
+        "emoji": "🎵",
+        "phrase": "natural talent",
+        "note": "才能像大自然一样｜天赋"
+      }
+    ],
+    "collocations": [
+      "natural resources",
+      "natural disaster",
+      "natural selection"
+    ],
+    "chinese": "自然的；天然的；天赋的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "artificial",
+    "word": "artificial",
+    "phonetic": "/ˌɑːtɪˈfɪʃl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像机器人一样人工",
+    "core_emoji": "🤖🦾",
+    "scenes": [
+      {
+        "emoji": "🤖",
+        "phrase": "artificial intelligence",
+        "note": "智能像机器人一样｜人工智能"
+      },
+      {
+        "emoji": "🌸",
+        "phrase": "artificial flowers",
+        "note": "花像机器人一样｜人造花"
+      },
+      {
+        "emoji": "🦷",
+        "phrase": "artificial teeth",
+        "note": "牙齿像机器人一样｜假牙"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "artificial light",
+        "note": "光像机器人一样｜人造光"
+      }
+    ],
+    "collocations": [
+      "artificial sweetener",
+      "artificial lake",
+      "artificial heart"
+    ],
+    "chinese": "人工的；人造的；假的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "synthetic",
+    "word": "synthetic",
+    "phonetic": "/sɪnˈθetɪk/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "像化学合成一样",
+    "core_emoji": "🧪⚗️",
+    "scenes": [
+      {
+        "emoji": "🧪",
+        "phrase": "synthetic materials",
+        "note": "材料像化学合成一样｜合成材料"
+      },
+      {
+        "emoji": "👕",
+        "phrase": "synthetic fabric",
+        "note": "纤维像化学合成一样｜合成纤维"
+      },
+      {
+        "emoji": "💊",
+        "phrase": "synthetic drugs",
+        "note": "药物像化学合成一样｜合成药物"
+      },
+      {
+        "emoji": "🧬",
+        "phrase": "synthetic biology",
+        "note": "生物学像化学合成一样｜合成生物学"
+      }
+    ],
+    "collocations": [
+      "synthetic rubber",
+      "synthetic fiber",
+      "synthetic products"
+    ],
+    "chinese": "合成的；人造的",
+    "tags": [
+      "A"
+    ]
+  }
+]
