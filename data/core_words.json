@@ -3101,4 +3101,174 @@
     ],
     "underlying_relation": "多种独立成分 → 人工合并融合 → 生成自然界不存在的新材料。"
   }
+，
+[
+  {
+    "id": "destructive",
+    "word": "destructive",
+    "phonetic": "/dɪˈstrʌktɪv/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "一种内在具备的能力或倾向，一旦发挥作用，就会对目标造成损毁或伤害，损毁是它必然导致的结果。",
+    "underlying_relation": "内在破坏能力 → 作用于目标 → 目标受损/毁坏。",
+    "core_emoji": "🔨💥",
+    "scenes": [
+      {
+        "emoji": "🌊",
+        "phrase": "destructive storm",
+        "note": "风暴破坏力巨大｜毁灭性的风暴"
+      },
+      {
+        "emoji": "💊",
+        "phrase": "destructive habit",
+        "note": "习惯持续损害健康｜有害的习惯"
+      },
+      {
+        "emoji": "🔥",
+        "phrase": "destructive fire",
+        "note": "火势具有毁灭性｜毁灭性的火灾"
+      },
+      {
+        "emoji": "💬",
+        "phrase": "destructive criticism",
+        "note": "批评带有打击性，不具建设性｜破坏性的批评"
+      }
+    ],
+    "collocations": [
+      "highly destructive",
+      "destructive behaviour",
+      "destructive power"
+    ],
+    "chinese": "破坏性的；毁灭性的；有害的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "endanger",
+    "word": "endanger",
+    "phonetic": "/ɪnˈdeɪndʒə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "某个原本处于安全状态的对象，因为外部行为的介入，被置入了随时可能受到伤害的危险境地。",
+    "underlying_relation": "安全状态 → 外部行为介入 → 转为危险境地（暴露在潜在伤害之下）。",
+    "core_emoji": "🛡️<span style=\"color:#e53935;font-weight:bold\">→</span>⚠️",
+    "scenes": [
+      {
+        "emoji": "🐘",
+        "phrase": "endanger wildlife",
+        "note": "猎杀行为让野生动物濒危｜危害野生动物"
+      },
+      {
+        "emoji": "🚗",
+        "phrase": "endanger lives",
+        "note": "危险驾驶让生命处于危险｜危及生命"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "endanger the environment",
+        "note": "污染行为让环境陷入危险｜危害环境"
+      },
+      {
+        "emoji": "💼",
+        "phrase": "endanger one's career",
+        "note": "行为让职业生涯陷入危险｜危及职业生涯"
+      }
+    ],
+    "collocations": [
+      "endangered species",
+      "endanger public health",
+      "endanger security"
+    ],
+    "chinese": "危及；使遭受危险",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "jeopardise",
+    "word": "jeopardise",
+    "phonetic": "/dʒɪˈpɑːdaɪz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "某个原本稳固或有把握的东西（比如生命、机会、地位），因为某个行为或决定，被置于可能失去或落空的风险之中。",
+    "underlying_relation": "稳固/有把握的东西 → 冒险行为介入 → 面临失去/落空的风险。",
+    "core_emoji": "🎯<span style=\"color:#e53935;font-weight:bold\">→</span>❌",
+    "scenes": [
+      {
+        "emoji": "🎓",
+        "phrase": "jeopardise one's future",
+        "note": "决定让未来的机会落空｜危及未来"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "jeopardise the deal",
+        "note": "一句失言让交易面临失败｜危及交易"
+      },
+      {
+        "emoji": "🏆",
+        "phrase": "jeopardise the chance of winning",
+        "note": "失误让获胜的把握落空｜危及获胜机会"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "jeopardise the relationship",
+        "note": "行为让关系面临破裂｜危及关系"
+      }
+    ],
+    "collocations": [
+      "jeopardise safety",
+      "jeopardise negotiations",
+      "seriously jeopardise"
+    ],
+    "chinese": "危及；使受到威胁（多用于抽象事物）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "erupt",
+    "word": "erupt",
+    "phonetic": "/ɪˈrʌpt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "长期在内部积压的压力或能量，突然冲破外层的束缚，猛烈地向外喷射出来。",
+    "underlying_relation": "内部积压的压力 → 冲破外层束缚 → 猛烈向外喷出。",
+    "core_emoji": "🌋💥",
+    "scenes": [
+      {
+        "emoji": "🌋",
+        "phrase": "volcano erupts",
+        "note": "火山突然喷发｜火山爆发"
+      },
+      {
+        "emoji": "😡",
+        "phrase": "erupt in anger",
+        "note": "压抑的情绪突然爆发｜情绪爆发"
+      },
+      {
+        "emoji": "👊",
+        "phrase": "violence erupts",
+        "note": "冲突突然激烈爆发｜暴力爆发"
+      },
+      {
+        "emoji": "🎉",
+        "phrase": "the crowd erupts",
+        "note": "人群突然爆发出欢呼｜人群爆发欢呼"
+      }
+    ],
+    "collocations": [
+      "erupt into violence",
+      "erupt suddenly",
+      "tension erupts"
+    ],
+    "chinese": "爆发；喷发；突然发生",
+    "tags": [
+      "A",
+      "W"
+    ]
+  }
 ]
