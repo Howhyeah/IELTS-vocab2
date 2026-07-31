@@ -11028,5 +11028,1615 @@
     "chinese": "闲聊，流言蜚语",
     "topic": "生活",
     "emoji": "🗣️"
+  },
+  {
+    "id": "rumour",
+    "word": "rumour",
+    "phonetic": "/ˈruːmə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "谣言，传闻",
+    "topic": "描述",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "consensus",
+    "word": "consensus",
+    "phonetic": "/kənˈsensəs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "共识",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "feast",
+    "word": "feast",
+    "phonetic": "/fiːst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "盛宴",
+    "topic": "生活",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "programme",
+    "word": "programme",
+    "phonetic": "/ˈprəʊɡræm/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "节目；方案",
+    "topic": "媒体",
+    "emoji": "📺"
+  },
+  {
+    "id": "programmer",
+    "word": "programmer",
+    "phonetic": "/ˈprəʊɡræmə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "程序设计员",
+    "topic": "职业",
+    "emoji": "💻"
+  },
+  {
+    "id": "rehearsal",
+    "word": "rehearsal",
+    "phonetic": "/rɪˈhɜːsl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "排练",
+    "topic": "艺术",
+    "emoji": "🎭"
+  },
+  {
+    "id": "perform",
+    "word": "perform",
+    "phonetic": "/pəˈfɔːm/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "表演，演出",
+    "topic": "艺术",
+    "emoji": "🎤"
+  },
+  {
+    "id": "imitate",
+    "word": "imitate",
+    "phonetic": "/ˈɪmɪteɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "模仿，效仿",
+    "topic": "描述",
+    "emoji": "🎭"
+  },
+  {
+    "id": "mimic",
+    "word": "mimic",
+    "phonetic": "/ˈmɪmɪk/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "模仿，戏仿",
+    "topic": "描述",
+    "emoji": "🎭"
+  },
+  {
+    "id": "circus",
+    "word": "circus",
+    "phonetic": "/ˈsɜːkəs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "马戏团",
+    "topic": "艺术",
+    "emoji": "🎪"
+  },
+  {
+    "id": "drama",
+    "word": "drama",
+    "phonetic": "/ˈdrɑːmə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "戏剧",
+    "topic": "艺术",
+    "emoji": "🎭"
+  },
+  {
+    "id": "concert",
+    "word": "concert",
+    "phonetic": "/ˈkɒnsət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "音乐会",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "musicale",
+    "word": "musicale",
+    "phonetic": "/ˌmjuːzɪˈkɑːl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "社交音乐会",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "concertmaster",
+    "word": "concertmaster",
+    "phonetic": "/ˈkɒnsətmɑːstə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "首席小提琴手",
+    "topic": "职业",
+    "emoji": "🎻"
+  },
+  {
+    "id": "symphony",
+    "word": "symphony",
+    "phonetic": "/ˈsɪmfəni/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "交响乐",
+    "topic": "艺术",
+    "emoji": "🎼"
+  },
+  {
+    "id": "orchestra",
+    "word": "orchestra",
+    "phonetic": "/ˈɔːkɪstrə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "管弦乐队",
+    "topic": "艺术",
+    "emoji": "🎻"
+  },
+  {
+    "id": "ballet",
+    "word": "ballet",
+    "phonetic": "/ˈbæleɪ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "芭蕾舞",
+    "topic": "艺术",
+    "emoji": "🩰"
+  },
+  {
+    "id": "opera",
+    "word": "opera",
+    "phonetic": "/ˈɒprə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "歌剧",
+    "topic": "艺术",
+    "emoji": "🎭"
+  },
+  {
+    "id": "comedy",
+    "word": "comedy",
+    "phonetic": "/ˈkɒmədi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "喜剧",
+    "topic": "艺术",
+    "emoji": "😂"
+  },
+  {
+    "id": "tragedy",
+    "word": "tragedy",
+    "phonetic": "/ˈtrædʒədi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "悲剧",
+    "topic": "艺术",
+    "emoji": "😢"
+  },
+  {
+    "id": "animation",
+    "word": "animation",
+    "phonetic": "/ˌænɪˈmeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "动画片",
+    "topic": "媒体",
+    "emoji": "🎬"
+  },
+  {
+    "id": "x_rated",
+    "word": "X-rated",
+    "phonetic": "/eks ˈreɪtɪd/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "X级的，限制级的",
+    "topic": "描述",
+    "emoji": "🔞"
+  },
+  {
+    "id": "artistic",
+    "word": "artistic",
+    "phonetic": "/ɑːˈtɪstɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "艺术的",
+    "topic": "艺术",
+    "emoji": "🎨"
+  },
+  {
+    "id": "craftsman",
+    "word": "craftsman",
+    "phonetic": "/ˈkrɑːftsmən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工匠，工艺师",
+    "topic": "职业",
+    "emoji": "🛠️"
+  },
+  {
+    "id": "craft",
+    "word": "craft",
+    "phonetic": "/krɑːft/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "工艺；精心制作",
+    "topic": "艺术",
+    "emoji": "🧵"
+  },
+  {
+    "id": "role",
+    "word": "role",
+    "phonetic": "/rəʊl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "角色；作用",
+    "topic": "描述",
+    "emoji": "🎭"
+  },
+  {
+    "id": "scene",
+    "word": "scene",
+    "phonetic": "/siːn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "景色；场面",
+    "topic": "描述",
+    "emoji": "🎬"
+  },
+  {
+    "id": "stage",
+    "word": "stage",
+    "phonetic": "/steɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "舞台；阶段",
+    "topic": "艺术",
+    "emoji": "🎭"
+  },
+  {
+    "id": "gallery",
+    "word": "gallery",
+    "phonetic": "/ˈɡæləri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "美术馆",
+    "topic": "艺术",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "exhibition",
+    "word": "exhibition",
+    "phonetic": "/ˌeksɪˈbɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "展览",
+    "topic": "艺术",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "aesthetic",
+    "word": "aesthetic",
+    "phonetic": "/iːsˈθetɪk/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "审美的；审美观",
+    "topic": "艺术",
+    "emoji": "🎨"
+  },
+  {
+    "id": "select",
+    "word": "select",
+    "phonetic": "/sɪˈlekt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "选择，挑选",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "opt",
+    "word": "opt",
+    "phonetic": "/ɒpt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "选择",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "photographic",
+    "word": "photographic",
+    "phonetic": "/ˌfəʊtəˈɡræfɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "摄影的",
+    "topic": "艺术",
+    "emoji": "📷"
+  },
+  {
+    "id": "portrait",
+    "word": "portrait",
+    "phonetic": "/ˈpɔːtrət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "肖像，半身画像",
+    "topic": "艺术",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "sculpture",
+    "word": "sculpture",
+    "phonetic": "/ˈskʌlptʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "雕塑",
+    "topic": "艺术",
+    "emoji": "🗿"
+  },
+  {
+    "id": "draw",
+    "word": "draw",
+    "phonetic": "/drɔː/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "画；拉，拔出",
+    "topic": "艺术",
+    "emoji": "✏️"
+  },
+  {
+    "id": "depict",
+    "word": "depict",
+    "phonetic": "/dɪˈpɪkt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "描述，描绘",
+    "topic": "描述",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "describe",
+    "word": "describe",
+    "phonetic": "/dɪˈskraɪb/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "描述，形容",
+    "topic": "描述",
+    "emoji": "💬"
+  },
+  {
+    "id": "carve",
+    "word": "carve",
+    "phonetic": "/kɑːv/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "雕刻；切下",
+    "topic": "艺术",
+    "emoji": "🔨"
+  },
+  {
+    "id": "musical",
+    "word": "musical",
+    "phonetic": "/ˈmjuːzɪkl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "音乐的，悦耳的",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "lyric",
+    "word": "lyric",
+    "phonetic": "/ˈlɪrɪk/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "抒情诗；抒情的",
+    "topic": "文学",
+    "emoji": "📜"
+  },
+  {
+    "id": "solo",
+    "word": "solo",
+    "phonetic": "/ˈsəʊləʊ/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "独奏，独唱",
+    "topic": "艺术",
+    "emoji": "🎤"
+  },
+  {
+    "id": "rhythm",
+    "word": "rhythm",
+    "phonetic": "/ˈrɪðəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "节奏，韵律",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "rhythmical",
+    "word": "rhythmical",
+    "phonetic": "/ˈrɪðmɪkl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有节奏的",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "tone",
+    "word": "tone",
+    "phonetic": "/təʊn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "音色，声调",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "tune",
+    "word": "tune",
+    "phonetic": "/tjuːn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "曲调；调试",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "disc",
+    "word": "disc",
+    "phonetic": "/dɪsk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "光碟，唱片",
+    "topic": "科技",
+    "emoji": "💿"
+  },
+  {
+    "id": "violin",
+    "word": "violin",
+    "phonetic": "/ˌvaɪəˈlɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "小提琴",
+    "topic": "艺术",
+    "emoji": "🎻"
+  },
+  {
+    "id": "cello",
+    "word": "cello",
+    "phonetic": "/ˈtʃeləʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大提琴",
+    "topic": "艺术",
+    "emoji": "🎻"
+  },
+  {
+    "id": "harmonica",
+    "word": "harmonica",
+    "phonetic": "/hɑːˈmɒnɪkə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "口琴",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "trumpet",
+    "word": "trumpet",
+    "phonetic": "/ˈtrʌmpɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "喇叭，小号",
+    "topic": "艺术",
+    "emoji": "🎺"
+  },
+  {
+    "id": "flute",
+    "word": "flute",
+    "phonetic": "/fluːt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "长笛",
+    "topic": "艺术",
+    "emoji": "🎵"
+  },
+  {
+    "id": "simulative",
+    "word": "simulative",
+    "phonetic": "/ˈsɪmjuleɪtɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "模拟的，假装的",
+    "topic": "描述",
+    "emoji": "🎮"
+  },
+  {
+    "id": "competition",
+    "word": "competition",
+    "phonetic": "/ˌkɒmpəˈtɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "竞争，比赛",
+    "topic": "体育",
+    "emoji": "🏆"
+  },
+  {
+    "id": "compete",
+    "word": "compete",
+    "phonetic": "/kəmˈpiːt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "竞争",
+    "topic": "体育",
+    "emoji": "🏃"
+  },
+  {
+    "id": "tournament",
+    "word": "tournament",
+    "phonetic": "/ˈtʊənəmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "锦标赛",
+    "topic": "体育",
+    "emoji": "🏆"
+  },
+  {
+    "id": "sponsor",
+    "word": "sponsor",
+    "phonetic": "/ˈspɒnsə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "赞助人；发起",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "sponsorship",
+    "word": "sponsorship",
+    "phonetic": "/ˈspɒnsəʃɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "资助",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "patron",
+    "word": "patron",
+    "phonetic": "/ˈpeɪtrən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "赞助人；顾客",
+    "topic": "商业",
+    "emoji": "🤝"
+  },
+  {
+    "id": "athlete",
+    "word": "athlete",
+    "phonetic": "/ˈæθliːt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "运动员",
+    "topic": "体育",
+    "emoji": "🏃"
+  },
+  {
+    "id": "athletics",
+    "word": "athletics",
+    "phonetic": "/æθˈletɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "体育运动，田径",
+    "topic": "体育",
+    "emoji": "🏃"
+  },
+  {
+    "id": "champion",
+    "word": "champion",
+    "phonetic": "/ˈtʃæmpiən/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "冠军；支持",
+    "topic": "体育",
+    "emoji": "🏆"
+  },
+  {
+    "id": "spectator",
+    "word": "spectator",
+    "phonetic": "/spekˈteɪtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "观众",
+    "topic": "体育",
+    "emoji": "👀"
+  },
+  {
+    "id": "volunteer",
+    "word": "volunteer",
+    "phonetic": "/ˌvɒlənˈtɪə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "志愿者；自愿做",
+    "topic": "描述",
+    "emoji": "🙋"
+  },
+  {
+    "id": "fame",
+    "word": "fame",
+    "phonetic": "/feɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "名声",
+    "topic": "描述",
+    "emoji": "🌟"
+  },
+  {
+    "id": "well_known",
+    "word": "well-known",
+    "phonetic": "/wel ˈnəʊn/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "众所周知的",
+    "topic": "描述",
+    "emoji": "🌟"
+  },
+  {
+    "id": "energetic",
+    "word": "energetic",
+    "phonetic": "/ˌenəˈdʒetɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "充满活力的",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "vigorous",
+    "word": "vigorous",
+    "phonetic": "/ˈvɪɡərəs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "充满活力的",
+    "topic": "描述",
+    "emoji": "💪"
+  },
+  {
+    "id": "stadium",
+    "word": "stadium",
+    "phonetic": "/ˈsteɪdiəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "体育场",
+    "topic": "体育",
+    "emoji": "🏟️"
+  },
+  {
+    "id": "exercise",
+    "word": "exercise",
+    "phonetic": "/ˈeksəsaɪz/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "运动；锻炼",
+    "topic": "体育",
+    "emoji": "🏋️"
+  },
+  {
+    "id": "indoor",
+    "word": "indoor",
+    "phonetic": "/ˈɪndɔː(r)/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "室内的",
+    "topic": "描述",
+    "emoji": "🏠"
+  },
+  {
+    "id": "outdoor",
+    "word": "outdoor",
+    "phonetic": "/ˈaʊtdɔː(r)/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "户外的",
+    "topic": "描述",
+    "emoji": "🏞️"
+  },
+  {
+    "id": "mobile",
+    "word": "mobile",
+    "phonetic": "/ˈməʊbaɪl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "可移动的，流动的",
+    "topic": "描述",
+    "emoji": "📱"
+  },
+  {
+    "id": "movement",
+    "word": "movement",
+    "phonetic": "/ˈmuːvmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "移动，活动",
+    "topic": "描述",
+    "emoji": "🏃"
+  },
+  {
+    "id": "sprawl",
+    "word": "sprawl",
+    "phonetic": "/sprɔːl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "伸开四肢坐着；延伸",
+    "topic": "描述",
+    "emoji": "🛋️"
+  },
+  {
+    "id": "stretch",
+    "word": "stretch",
+    "phonetic": "/stretʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "伸展，伸长",
+    "topic": "体育",
+    "emoji": "🤸"
+  },
+  {
+    "id": "strain",
+    "word": "strain",
+    "phonetic": "/streɪn/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "拉紧；拉伤",
+    "topic": "体育",
+    "emoji": "😣"
+  },
+  {
+    "id": "chess",
+    "word": "chess",
+    "phonetic": "/tʃes/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "国际象棋",
+    "topic": "体育",
+    "emoji": "♟️"
+  },
+  {
+    "id": "badminton",
+    "word": "badminton",
+    "phonetic": "/ˈbædmɪntən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "羽毛球",
+    "topic": "体育",
+    "emoji": "🏸"
+  },
+  {
+    "id": "billiards",
+    "word": "billiards",
+    "phonetic": "/ˈbɪliədz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "台球",
+    "topic": "体育",
+    "emoji": "🎱"
+  },
+  {
+    "id": "soccer",
+    "word": "soccer",
+    "phonetic": "/ˈsɒkə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "足球",
+    "topic": "体育",
+    "emoji": "⚽"
+  },
+  {
+    "id": "tennis",
+    "word": "tennis",
+    "phonetic": "/ˈtenɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "网球",
+    "topic": "体育",
+    "emoji": "🎾"
+  },
+  {
+    "id": "volleyball",
+    "word": "volleyball",
+    "phonetic": "/ˈvɒlibɔːl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "排球",
+    "topic": "体育",
+    "emoji": "🏐"
+  },
+  {
+    "id": "hockey",
+    "word": "hockey",
+    "phonetic": "/ˈhɒki/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "曲棍球，冰球",
+    "topic": "体育",
+    "emoji": "🏒"
+  },
+  {
+    "id": "kick",
+    "word": "kick",
+    "phonetic": "/kɪk/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "踢",
+    "topic": "体育",
+    "emoji": "🦵"
+  },
+  {
+    "id": "knock",
+    "word": "knock",
+    "phonetic": "/nɒk/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "敲，击，撞",
+    "topic": "描述",
+    "emoji": "👊"
+  },
+  {
+    "id": "flip",
+    "word": "flip",
+    "phonetic": "/flɪp/",
+    "pos": "v./adj.",
+    "category": "I",
+    "chinese": "掷；随便的",
+    "topic": "描述",
+    "emoji": "🔄"
+  },
+  {
+    "id": "pitch",
+    "word": "pitch",
+    "phonetic": "/pɪtʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "投，投球",
+    "topic": "体育",
+    "emoji": "⚾"
+  },
+  {
+    "id": "throw",
+    "word": "throw",
+    "phonetic": "/θrəʊ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "投，掷，抛",
+    "topic": "体育",
+    "emoji": "🤾"
+  },
+  {
+    "id": "toss",
+    "word": "toss",
+    "phonetic": "/tɒs/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "扔，掷",
+    "topic": "描述",
+    "emoji": "🪙"
+  },
+  {
+    "id": "slide",
+    "word": "slide",
+    "phonetic": "/slaɪd/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "滑动；逐渐降低",
+    "topic": "描述",
+    "emoji": "🛝"
+  },
+  {
+    "id": "slip",
+    "word": "slip",
+    "phonetic": "/slɪp/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "滑跌，溜",
+    "topic": "描述",
+    "emoji": "🧊"
+  },
+  {
+    "id": "glide",
+    "word": "glide",
+    "phonetic": "/ɡlaɪd/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "滑动，掠过",
+    "topic": "描述",
+    "emoji": "🪂"
+  },
+  {
+    "id": "tumble",
+    "word": "tumble",
+    "phonetic": "/ˈtʌmbl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "摔倒，滚下",
+    "topic": "描述",
+    "emoji": "🤸"
+  },
+  {
+    "id": "ski",
+    "word": "ski",
+    "phonetic": "/skiː/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "滑雪",
+    "topic": "体育",
+    "emoji": "⛷️"
+  },
+  {
+    "id": "skate",
+    "word": "skate",
+    "phonetic": "/skeɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "滑冰",
+    "topic": "体育",
+    "emoji": "⛸️"
+  },
+  {
+    "id": "cycling",
+    "word": "cycling",
+    "phonetic": "/ˈsaɪklɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "骑自行车运动",
+    "topic": "体育",
+    "emoji": "🚴"
+  },
+  {
+    "id": "cyclist",
+    "word": "cyclist",
+    "phonetic": "/ˈsaɪklɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "骑自行车的人",
+    "topic": "职业",
+    "emoji": "🚴"
+  },
+  {
+    "id": "dive",
+    "word": "dive",
+    "phonetic": "/daɪv/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "跳水；潜水",
+    "topic": "体育",
+    "emoji": "🤿"
+  },
+  {
+    "id": "jump",
+    "word": "jump",
+    "phonetic": "/dʒʌmp/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "跳",
+    "topic": "体育",
+    "emoji": "🦘"
+  },
+  {
+    "id": "leap",
+    "word": "leap",
+    "phonetic": "/liːp/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "跳跃",
+    "topic": "体育",
+    "emoji": "🤸"
+  },
+  {
+    "id": "hop",
+    "word": "hop",
+    "phonetic": "/hɒp/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "单脚跳，齐足跳",
+    "topic": "体育",
+    "emoji": "🐰"
+  },
+  {
+    "id": "bounce",
+    "word": "bounce",
+    "phonetic": "/baʊns/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "反弹，弹起",
+    "topic": "体育",
+    "emoji": "🏀"
+  },
+  {
+    "id": "tent",
+    "word": "tent",
+    "phonetic": "/tent/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "帐篷",
+    "topic": "生活",
+    "emoji": "⛺"
+  },
+  {
+    "id": "camp",
+    "word": "camp",
+    "phonetic": "/kæmp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "营地，阵营",
+    "topic": "生活",
+    "emoji": "🏕️"
+  },
+  {
+    "id": "picnic",
+    "word": "picnic",
+    "phonetic": "/ˈpɪknɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "野餐",
+    "topic": "生活",
+    "emoji": "🧺"
+  },
+  {
+    "id": "hunt",
+    "word": "hunt",
+    "phonetic": "/hʌnt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "打猎，搜寻",
+    "topic": "描述",
+    "emoji": "🏹"
+  },
+  {
+    "id": "race",
+    "word": "race",
+    "phonetic": "/reɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "赛跑；种族",
+    "topic": "体育",
+    "emoji": "🏃"
+  },
+  {
+    "id": "marathon",
+    "word": "marathon",
+    "phonetic": "/ˈmærəθən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "马拉松",
+    "topic": "体育",
+    "emoji": "🏃"
+  },
+  {
+    "id": "pedestrian",
+    "word": "pedestrian",
+    "phonetic": "/pəˈdestriən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "行人",
+    "topic": "生活",
+    "emoji": "🚶"
+  },
+  {
+    "id": "pace",
+    "word": "pace",
+    "phonetic": "/peɪs/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "步速；踱步",
+    "topic": "描述",
+    "emoji": "👣"
+  },
+  {
+    "id": "step",
+    "word": "step",
+    "phonetic": "/step/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "步伐，步骤",
+    "topic": "描述",
+    "emoji": "👣"
+  },
+  {
+    "id": "footstep",
+    "word": "footstep",
+    "phonetic": "/ˈfʊtstep/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "脚步声",
+    "topic": "描述",
+    "emoji": "👣"
+  },
+  {
+    "id": "excursion",
+    "word": "excursion",
+    "phonetic": "/ɪkˈskɜːʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "远足，短程旅行",
+    "topic": "生活",
+    "emoji": "🚌"
+  },
+  {
+    "id": "cruise",
+    "word": "cruise",
+    "phonetic": "/kruːz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "以平稳速度行驶",
+    "topic": "生活",
+    "emoji": "🚢"
+  },
+  {
+    "id": "trip",
+    "word": "trip",
+    "phonetic": "/trɪp/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "旅行；绊倒",
+    "topic": "生活",
+    "emoji": "✈️"
+  },
+  {
+    "id": "vocation",
+    "word": "vocation",
+    "phonetic": "/vəˈkeɪʃn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "职业；休假",
+    "topic": "描述",
+    "emoji": "💼"
+  },
+  {
+    "id": "hike",
+    "word": "hike",
+    "phonetic": "/haɪk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "徒步旅行",
+    "topic": "生活",
+    "emoji": "🥾"
+  },
+  {
+    "id": "jog",
+    "word": "jog",
+    "phonetic": "/dʒɒɡ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "慢跑",
+    "topic": "体育",
+    "emoji": "🏃"
+  },
+  {
+    "id": "jogger",
+    "word": "jogger",
+    "phonetic": "/ˈdʒɒɡə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "慢跑锻炼的人",
+    "topic": "体育",
+    "emoji": "🏃"
+  },
+  {
+    "id": "stride",
+    "word": "stride",
+    "phonetic": "/straɪd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "大步走，阔步行走",
+    "topic": "描述",
+    "emoji": "🚶"
+  },
+  {
+    "id": "wander",
+    "word": "wander",
+    "phonetic": "/ˈwɒndə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "闲逛，漫步",
+    "topic": "描述",
+    "emoji": "🚶"
+  },
+  {
+    "id": "limb",
+    "word": "limb",
+    "phonetic": "/lɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "肢；树枝",
+    "topic": "生物",
+    "emoji": "🦵"
+  },
+  {
+    "id": "pull",
+    "word": "pull",
+    "phonetic": "/pʊl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "拉，拖，扯",
+    "topic": "描述",
+    "emoji": "🤚"
+  },
+  {
+    "id": "drag",
+    "word": "drag",
+    "phonetic": "/dræɡ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "拖，拉，拽",
+    "topic": "描述",
+    "emoji": "🤚"
+  },
+  {
+    "id": "bend",
+    "word": "bend",
+    "phonetic": "/bend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "俯身，弯曲",
+    "topic": "描述",
+    "emoji": "🙇"
+  },
+  {
+    "id": "bow",
+    "word": "bow",
+    "phonetic": "/baʊ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "鞠躬",
+    "topic": "描述",
+    "emoji": "🙇"
+  },
+  {
+    "id": "stuff",
+    "word": "stuff",
+    "phonetic": "/stʌf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "东西；原料",
+    "topic": "描述",
+    "emoji": "📦"
+  },
+  {
+    "id": "item",
+    "word": "item",
+    "phonetic": "/ˈaɪtəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "一件物品",
+    "topic": "描述",
+    "emoji": "📦"
+  },
+  {
+    "id": "merchandise",
+    "word": "merchandise",
+    "phonetic": "/ˈmɜːtʃəndaɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "商品",
+    "topic": "商业",
+    "emoji": "🛍️"
+  },
+  {
+    "id": "souvenir",
+    "word": "souvenir",
+    "phonetic": "/ˌsuːvəˈnɪə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "纪念品",
+    "topic": "生活",
+    "emoji": "🎁"
+  },
+  {
+    "id": "artefact",
+    "word": "artefact",
+    "phonetic": "/ˈɑːtɪfækt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "人造物品；手工艺品",
+    "topic": "文化",
+    "emoji": "🏺"
+  },
+  {
+    "id": "material",
+    "word": "material",
+    "phonetic": "/məˈtɪəriəl/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "材料；物质的",
+    "topic": "描述",
+    "emoji": "🧵"
+  },
+  {
+    "id": "raw",
+    "word": "raw",
+    "phonetic": "/rɔː/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "天然的，未加工的",
+    "topic": "描述",
+    "emoji": "🥩"
+  },
+  {
+    "id": "raw_material",
+    "word": "raw material",
+    "phonetic": "/rɔː məˈtɪəriəl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "原材料",
+    "topic": "商业",
+    "emoji": "🪵"
+  },
+  {
+    "id": "necessity",
+    "word": "necessity",
+    "phonetic": "/nəˈsesəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "必需品",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "necessary",
+    "word": "necessary",
+    "phonetic": "/ˈnesəsəri/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "必需的，必要的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "outfit",
+    "word": "outfit",
+    "phonetic": "/ˈaʊtfɪt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "全套服装/装备",
+    "topic": "生活",
+    "emoji": "👔"
+  },
+  {
+    "id": "kit",
+    "word": "kit",
+    "phonetic": "/kɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "成套工具",
+    "topic": "生活",
+    "emoji": "🧰"
+  },
+  {
+    "id": "utensil",
+    "word": "utensil",
+    "phonetic": "/juːˈtensl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "用具，器皿",
+    "topic": "生活",
+    "emoji": "🍴"
+  },
+  {
+    "id": "garbage",
+    "word": "garbage",
+    "phonetic": "/ˈɡɑːbɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "垃圾",
+    "topic": "环境",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "rubbish",
+    "word": "rubbish",
+    "phonetic": "/ˈrʌbɪʃ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "垃圾，废弃物",
+    "topic": "环境",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "trash",
+    "word": "trash",
+    "phonetic": "/træʃ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "垃圾",
+    "topic": "环境",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "reuse",
+    "word": "reuse",
+    "phonetic": "/riːˈjuːz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "再次使用",
+    "topic": "环境",
+    "emoji": "♻️"
+  },
+  {
+    "id": "litter",
+    "word": "litter",
+    "phonetic": "/ˈlɪtə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "垃圾；乱丢东西",
+    "topic": "环境",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "waste",
+    "word": "waste",
+    "phonetic": "/weɪst/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "废物；浪费",
+    "topic": "环境",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "junk",
+    "word": "junk",
+    "phonetic": "/dʒʌŋk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "无用的东西",
+    "topic": "环境",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "landfill",
+    "word": "landfill",
+    "phonetic": "/ˈlændfɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "垃圾填埋地",
+    "topic": "环境",
+    "emoji": "🏔️"
+  },
+  {
+    "id": "sewerage",
+    "word": "sewerage",
+    "phonetic": "/ˈsuːərɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "排水系统",
+    "topic": "科学",
+    "emoji": "🚰"
+  },
+  {
+    "id": "detergent",
+    "word": "detergent",
+    "phonetic": "/dɪˈtɜːdʒənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "洗涤剂",
+    "topic": "生活",
+    "emoji": "🧴"
+  },
+  {
+    "id": "lotion",
+    "word": "lotion",
+    "phonetic": "/ˈləʊʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "洁肤乳，润肤乳",
+    "topic": "生活",
+    "emoji": "🧴"
+  },
+  {
+    "id": "shampoo",
+    "word": "shampoo",
+    "phonetic": "/ʃæmˈpuː/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "洗发剂",
+    "topic": "生活",
+    "emoji": "🧴"
+  },
+  {
+    "id": "soap",
+    "word": "soap",
+    "phonetic": "/səʊp/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "肥皂",
+    "topic": "生活",
+    "emoji": "🧼"
+  },
+  {
+    "id": "tub",
+    "word": "tub",
+    "phonetic": "/tʌb/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "桶，浴缸",
+    "topic": "生活",
+    "emoji": "🛁"
+  },
+  {
+    "id": "plug",
+    "word": "plug",
+    "phonetic": "/plʌɡ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "塞子；插头",
+    "topic": "生活",
+    "emoji": "🔌"
+  },
+  {
+    "id": "tap",
+    "word": "tap",
+    "phonetic": "/tæp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "旋塞，龙头",
+    "topic": "生活",
+    "emoji": "🚰"
+  },
+  {
+    "id": "pipe",
+    "word": "pipe",
+    "phonetic": "/paɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "管子，管道",
+    "topic": "生活",
+    "emoji": "🚰"
+  },
+  {
+    "id": "pipeline",
+    "word": "pipeline",
+    "phonetic": "/ˈpaɪplaɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "管道，管线",
+    "topic": "科学",
+    "emoji": "🛢️"
+  },
+  {
+    "id": "tube",
+    "word": "tube",
+    "phonetic": "/tjuːb/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "管；地铁",
+    "topic": "生活",
+    "emoji": "🚇"
+  },
+  {
+    "id": "broom",
+    "word": "broom",
+    "phonetic": "/bruːm/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "扫帚",
+    "topic": "生活",
+    "emoji": "🧹"
   }
 ]
