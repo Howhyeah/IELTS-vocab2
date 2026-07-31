@@ -8088,5 +8088,1295 @@
     "chinese": "比较",
     "topic": "描述",
     "emoji": "⚖️"
+  },
+  {
+    "id": "contrast",
+    "word": "contrast",
+    "phonetic": "/ˈkɒntrɑːst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "对比，明显差异",
+    "topic": "描述",
+    "emoji": "⚫"
+  },
+  {
+    "id": "contradiction",
+    "word": "contradiction",
+    "phonetic": "/ˌkɒntrəˈdɪkʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "矛盾，不一致",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "disagree",
+    "word": "disagree",
+    "phonetic": "/ˌdɪsəˈɡriː/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "有分歧，不同意",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "differ",
+    "word": "differ",
+    "phonetic": "/ˈdɪfə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "不同",
+    "topic": "描述",
+    "emoji": "🔀"
+  },
+  {
+    "id": "diverse",
+    "word": "diverse",
+    "phonetic": "/daɪˈvɜːs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "多种多样的",
+    "topic": "描述",
+    "emoji": "🌈"
+  },
+  {
+    "id": "nuance",
+    "word": "nuance",
+    "phonetic": "/ˈnjuːɑːns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "细微差别",
+    "topic": "描述",
+    "emoji": "🎨"
+  },
+  {
+    "id": "inductive",
+    "word": "inductive",
+    "phonetic": "/ɪnˈdʌktɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "归纳的",
+    "topic": "学科",
+    "emoji": "🧩"
+  },
+  {
+    "id": "detail",
+    "word": "detail",
+    "phonetic": "/ˈdiːteɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "细节",
+    "topic": "描述",
+    "emoji": "🔍"
+  },
+  {
+    "id": "thorough",
+    "word": "thorough",
+    "phonetic": "/ˈθʌrə/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "彻底的，详尽的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "example",
+    "word": "example",
+    "phonetic": "/ɪɡˈzɑːmpl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "例子",
+    "topic": "描述",
+    "emoji": "📌"
+  },
+  {
+    "id": "instance",
+    "word": "instance",
+    "phonetic": "/ˈɪnstəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "实例，情况",
+    "topic": "描述",
+    "emoji": "📌"
+  },
+  {
+    "id": "prove",
+    "word": "prove",
+    "phonetic": "/pruːv/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "证明；结果是",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "decide",
+    "word": "decide",
+    "phonetic": "/dɪˈsaɪd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "决定",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "survey",
+    "word": "survey",
+    "phonetic": "/ˈsɜːveɪ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "调查，民意调查",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "research",
+    "word": "research",
+    "phonetic": "/rɪˈsɜːtʃ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "调查，研究",
+    "topic": "学科",
+    "emoji": "🔬"
+  },
+  {
+    "id": "observe",
+    "word": "observe",
+    "phonetic": "/əbˈzɜːv/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "观察，注意到",
+    "topic": "描述",
+    "emoji": "👀"
+  },
+  {
+    "id": "inquire",
+    "word": "inquire",
+    "phonetic": "/ɪnˈkwaɪə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "询问，调查",
+    "topic": "描述",
+    "emoji": "❓"
+  },
+  {
+    "id": "query",
+    "word": "query",
+    "phonetic": "/ˈkwɪəri/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "疑问，询问",
+    "topic": "描述",
+    "emoji": "❓"
+  },
+  {
+    "id": "questionnaire",
+    "word": "questionnaire",
+    "phonetic": "/ˌkwestʃəˈneə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "调查问卷",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "accomplish",
+    "word": "accomplish",
+    "phonetic": "/əˈkʌmplɪʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "达到，完成",
+    "topic": "描述",
+    "emoji": "🏁"
+  },
+  {
+    "id": "attain",
+    "word": "attain",
+    "phonetic": "/əˈteɪn/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "获得，达到",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "credit",
+    "word": "credit",
+    "phonetic": "/ˈkredɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "信任；学分；赊购",
+    "topic": "描述",
+    "emoji": "💳"
+  },
+  {
+    "id": "score",
+    "word": "score",
+    "phonetic": "/skɔː(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "得分，成绩",
+    "topic": "教育",
+    "emoji": "🎯"
+  },
+  {
+    "id": "mark",
+    "word": "mark",
+    "phonetic": "/mɑːk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "分数；标记",
+    "topic": "教育",
+    "emoji": "📊"
+  },
+  {
+    "id": "grade",
+    "word": "grade",
+    "phonetic": "/ɡreɪd/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "等级，成绩",
+    "topic": "教育",
+    "emoji": "📊"
+  },
+  {
+    "id": "rank",
+    "word": "rank",
+    "phonetic": "/ræŋk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "等级，排列",
+    "topic": "描述",
+    "emoji": "🏅"
+  },
+  {
+    "id": "row",
+    "word": "row",
+    "phonetic": "/rəʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "排，行",
+    "topic": "描述",
+    "emoji": "📏"
+  },
+  {
+    "id": "queue",
+    "word": "queue",
+    "phonetic": "/kjuː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "队列，排队",
+    "topic": "生活",
+    "emoji": "🚶"
+  },
+  {
+    "id": "praise",
+    "word": "praise",
+    "phonetic": "/preɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "赞扬",
+    "topic": "描述",
+    "emoji": "👏"
+  },
+  {
+    "id": "feedback",
+    "word": "feedback",
+    "phonetic": "/ˈfiːdbæk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "反馈",
+    "topic": "描述",
+    "emoji": "💬"
+  },
+  {
+    "id": "fellowship",
+    "word": "fellowship",
+    "phonetic": "/ˈfeləʊʃɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "研究生奖学金",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "scholarship",
+    "word": "scholarship",
+    "phonetic": "/ˈskɒləʃɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "奖学金；学问",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "reward",
+    "word": "reward",
+    "phonetic": "/rɪˈwɔːd/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "报答，奖赏",
+    "topic": "描述",
+    "emoji": "🏆"
+  },
+  {
+    "id": "award",
+    "word": "award",
+    "phonetic": "/əˈwɔːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "奖，奖品",
+    "topic": "描述",
+    "emoji": "🏆"
+  },
+  {
+    "id": "prize",
+    "word": "prize",
+    "phonetic": "/praɪz/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "奖赏",
+    "topic": "描述",
+    "emoji": "🏆"
+  },
+  {
+    "id": "fee",
+    "word": "fee",
+    "phonetic": "/fiː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "酬金，费用",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "illustrate",
+    "word": "illustrate",
+    "phonetic": "/ˈɪləstreɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "说明；给…加插图",
+    "topic": "描述",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "technology",
+    "word": "technology",
+    "phonetic": "/tekˈnɒlədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "技术",
+    "topic": "科技",
+    "emoji": "💻"
+  },
+  {
+    "id": "technique",
+    "word": "technique",
+    "phonetic": "/tekˈniːk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "技巧，技术",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "polytechnic",
+    "word": "polytechnic",
+    "phonetic": "/ˌpɒliˈteknɪk/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "理工学院",
+    "topic": "教育",
+    "emoji": "🏫"
+  },
+  {
+    "id": "engineer",
+    "word": "engineer",
+    "phonetic": "/ˌendʒɪˈnɪə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工程师",
+    "topic": "职业",
+    "emoji": "👷"
+  },
+  {
+    "id": "mechanic",
+    "word": "mechanic",
+    "phonetic": "/məˈkænɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "技工，机修工",
+    "topic": "职业",
+    "emoji": "🔧"
+  },
+  {
+    "id": "advance",
+    "word": "advance",
+    "phonetic": "/ədˈvɑːns/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "发展，前进",
+    "topic": "描述",
+    "emoji": "🚀"
+  },
+  {
+    "id": "breakthrough",
+    "word": "breakthrough",
+    "phonetic": "/ˈbreɪkθruː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "突破",
+    "topic": "科技",
+    "emoji": "💥"
+  },
+  {
+    "id": "gizmo",
+    "word": "gizmo",
+    "phonetic": "/ˈɡɪzməʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "小装置",
+    "topic": "科技",
+    "emoji": "🔧"
+  },
+  {
+    "id": "patent",
+    "word": "patent",
+    "phonetic": "/ˈpeɪtnt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "专利",
+    "topic": "科技",
+    "emoji": "📜"
+  },
+  {
+    "id": "invent",
+    "word": "invent",
+    "phonetic": "/ɪnˈvent/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "发明，创造",
+    "topic": "科技",
+    "emoji": "💡"
+  },
+  {
+    "id": "domain",
+    "word": "domain",
+    "phonetic": "/dəˈmeɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "领域；领地",
+    "topic": "描述",
+    "emoji": "🌐"
+  },
+  {
+    "id": "realm",
+    "word": "realm",
+    "phonetic": "/relm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "领域",
+    "topic": "描述",
+    "emoji": "🌐"
+  },
+  {
+    "id": "foundation",
+    "word": "foundation",
+    "phonetic": "/faʊnˈdeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "基础，地基；基金会",
+    "topic": "描述",
+    "emoji": "🏗️"
+  },
+  {
+    "id": "focus",
+    "word": "focus",
+    "phonetic": "/ˈfəʊkəs/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "焦点；集中",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "usage",
+    "word": "usage",
+    "phonetic": "/ˈjuːsɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "使用，用法",
+    "topic": "描述",
+    "emoji": "📖"
+  },
+  {
+    "id": "tester",
+    "word": "tester",
+    "phonetic": "/ˈtestə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "测试仪，测试员",
+    "topic": "职业",
+    "emoji": "🧪"
+  },
+  {
+    "id": "appliance",
+    "word": "appliance",
+    "phonetic": "/əˈplaɪəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "家用器具",
+    "topic": "生活",
+    "emoji": "🔌"
+  },
+  {
+    "id": "device",
+    "word": "device",
+    "phonetic": "/dɪˈvaɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "装置，设备",
+    "topic": "科技",
+    "emoji": "📱"
+  },
+  {
+    "id": "facility",
+    "word": "facility",
+    "phonetic": "/fəˈsɪləti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "设备；便利",
+    "topic": "描述",
+    "emoji": "🏢"
+  },
+  {
+    "id": "equipment",
+    "word": "equipment",
+    "phonetic": "/ɪˈkwɪpmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "设备",
+    "topic": "描述",
+    "emoji": "🛠️"
+  },
+  {
+    "id": "instrument",
+    "word": "instrument",
+    "phonetic": "/ˈɪnstrəmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "仪器；乐器",
+    "topic": "描述",
+    "emoji": "🎻"
+  },
+  {
+    "id": "tool",
+    "word": "tool",
+    "phonetic": "/tuːl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工具",
+    "topic": "描述",
+    "emoji": "🔨"
+  },
+  {
+    "id": "gauge",
+    "word": "gauge",
+    "phonetic": "/ɡeɪdʒ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "测量仪器；测量",
+    "topic": "科学",
+    "emoji": "📏"
+  },
+  {
+    "id": "measure",
+    "word": "measure",
+    "phonetic": "/ˈmeʒə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "测量；措施",
+    "topic": "描述",
+    "emoji": "📏"
+  },
+  {
+    "id": "calculate",
+    "word": "calculate",
+    "phonetic": "/ˈkælkjuleɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "计算",
+    "topic": "数学",
+    "emoji": "🧮"
+  },
+  {
+    "id": "compute",
+    "word": "compute",
+    "phonetic": "/kəmˈpjuːt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "计算，估计",
+    "topic": "数学",
+    "emoji": "🧮"
+  },
+  {
+    "id": "count",
+    "word": "count",
+    "phonetic": "/kaʊnt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "计算",
+    "topic": "数学",
+    "emoji": "🔢"
+  },
+  {
+    "id": "evaluate",
+    "word": "evaluate",
+    "phonetic": "/ɪˈvæljueɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "评价，评估",
+    "topic": "描述",
+    "emoji": "📊"
+  },
+  {
+    "id": "byproduct",
+    "word": "byproduct",
+    "phonetic": "/ˈbaɪprɒdʌkt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "副产品",
+    "topic": "商业",
+    "emoji": "📦"
+  },
+  {
+    "id": "auxiliary",
+    "word": "auxiliary",
+    "phonetic": "/ɔːɡˈzɪliəri/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "辅助的，备用的",
+    "topic": "描述",
+    "emoji": "🔧"
+  },
+  {
+    "id": "versatile",
+    "word": "versatile",
+    "phonetic": "/ˈvɜːsətaɪl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "多功能的",
+    "topic": "描述",
+    "emoji": "🔀"
+  },
+  {
+    "id": "add",
+    "word": "add",
+    "phonetic": "/æd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "添加，附加",
+    "topic": "描述",
+    "emoji": "➕"
+  },
+  {
+    "id": "assemble",
+    "word": "assemble",
+    "phonetic": "/əˈsembl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "集合，组装",
+    "topic": "描述",
+    "emoji": "🔧"
+  },
+  {
+    "id": "gather",
+    "word": "gather",
+    "phonetic": "/ˈɡæðə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "聚集，采集",
+    "topic": "描述",
+    "emoji": "👥"
+  },
+  {
+    "id": "optics",
+    "word": "optics",
+    "phonetic": "/ˈɒptɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "光学",
+    "topic": "科学",
+    "emoji": "🔬"
+  },
+  {
+    "id": "microscope",
+    "word": "microscope",
+    "phonetic": "/ˈmaɪkrəskəʊp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "显微镜",
+    "topic": "科学",
+    "emoji": "🔬"
+  },
+  {
+    "id": "lens",
+    "word": "lens",
+    "phonetic": "/lenz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "透镜，镜头",
+    "topic": "科学",
+    "emoji": "🔍"
+  },
+  {
+    "id": "radar",
+    "word": "radar",
+    "phonetic": "/ˈreɪdɑː(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "雷达",
+    "topic": "科技",
+    "emoji": "📡"
+  },
+  {
+    "id": "echo",
+    "word": "echo",
+    "phonetic": "/ˈekəʊ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "回声",
+    "topic": "科学",
+    "emoji": "🔊"
+  },
+  {
+    "id": "sensor",
+    "word": "sensor",
+    "phonetic": "/ˈsensə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "传感器",
+    "topic": "科技",
+    "emoji": "📡"
+  },
+  {
+    "id": "multimedia",
+    "word": "multimedia",
+    "phonetic": "/ˌmʌltiˈmiːdiə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "多媒体",
+    "topic": "科技",
+    "emoji": "💻"
+  },
+  {
+    "id": "reveal",
+    "word": "reveal",
+    "phonetic": "/rɪˈviːl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "展现，显示，透露",
+    "topic": "描述",
+    "emoji": "🎭"
+  },
+  {
+    "id": "uncover",
+    "word": "uncover",
+    "phonetic": "/ʌnˈkʌvə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "揭露，发现",
+    "topic": "描述",
+    "emoji": "🔍"
+  },
+  {
+    "id": "specialise",
+    "word": "specialise",
+    "phonetic": "/ˈspeʃəlaɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "专攻，专门研究",
+    "topic": "教育",
+    "emoji": "🎯"
+  },
+  {
+    "id": "estimate",
+    "word": "estimate",
+    "phonetic": "/ˈestɪmət/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "估价，估计",
+    "topic": "描述",
+    "emoji": "🔢"
+  },
+  {
+    "id": "network",
+    "word": "network",
+    "phonetic": "/ˈnetwɜːk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "网络",
+    "topic": "科技",
+    "emoji": "🕸️"
+  },
+  {
+    "id": "browser",
+    "word": "browser",
+    "phonetic": "/ˈbraʊzə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "浏览器",
+    "topic": "科技",
+    "emoji": "💻"
+  },
+  {
+    "id": "dial",
+    "word": "dial",
+    "phonetic": "/ˈdaɪəl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "拨（电话号码）",
+    "topic": "科技",
+    "emoji": "📞"
+  },
+  {
+    "id": "microcomputer",
+    "word": "microcomputer",
+    "phonetic": "/ˈmaɪkrəʊkəmpjuːtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "微型计算机",
+    "topic": "科技",
+    "emoji": "💻"
+  },
+  {
+    "id": "laptop",
+    "word": "laptop",
+    "phonetic": "/ˈlæptɒp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "笔记本电脑",
+    "topic": "科技",
+    "emoji": "💻"
+  },
+  {
+    "id": "software",
+    "word": "software",
+    "phonetic": "/ˈsɒftweə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "软件",
+    "topic": "科技",
+    "emoji": "💾"
+  },
+  {
+    "id": "keyboard",
+    "word": "keyboard",
+    "phonetic": "/ˈkiːbɔːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "键盘",
+    "topic": "科技",
+    "emoji": "⌨️"
+  },
+  {
+    "id": "screen",
+    "word": "screen",
+    "phonetic": "/skriːn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "屏幕",
+    "topic": "科技",
+    "emoji": "🖥️"
+  },
+  {
+    "id": "loudspeaker",
+    "word": "loudspeaker",
+    "phonetic": "/ˌlaʊdˈspiːkə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "扬声器",
+    "topic": "科技",
+    "emoji": "🔊"
+  },
+  {
+    "id": "microphone",
+    "word": "microphone",
+    "phonetic": "/ˈmaɪkrəfəʊn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "话筒，麦克风",
+    "topic": "科技",
+    "emoji": "🎤"
+  },
+  {
+    "id": "cassette",
+    "word": "cassette",
+    "phonetic": "/kəˈset/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "磁带",
+    "topic": "科技",
+    "emoji": "📼"
+  },
+  {
+    "id": "tape",
+    "word": "tape",
+    "phonetic": "/teɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "磁带；胶带",
+    "topic": "科技",
+    "emoji": "📼"
+  },
+  {
+    "id": "binary",
+    "word": "binary",
+    "phonetic": "/ˈbaɪnəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "二进制，二元的",
+    "topic": "科技",
+    "emoji": "🔢"
+  },
+  {
+    "id": "digital",
+    "word": "digital",
+    "phonetic": "/ˈdɪdʒɪtl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "数码的，数字的",
+    "topic": "科技",
+    "emoji": "📱"
+  },
+  {
+    "id": "wireless",
+    "word": "wireless",
+    "phonetic": "/ˈwaɪələs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "无线的",
+    "topic": "科技",
+    "emoji": "📶"
+  },
+  {
+    "id": "high_definition",
+    "word": "high-definition",
+    "phonetic": "/haɪ ˌdefɪˈnɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "高分辨率的",
+    "topic": "科技",
+    "emoji": "📺"
+  },
+  {
+    "id": "audio",
+    "word": "audio",
+    "phonetic": "/ˈɔːdiəʊ/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "声音的",
+    "topic": "科技",
+    "emoji": "🔊"
+  },
+  {
+    "id": "vision",
+    "word": "vision",
+    "phonetic": "/ˈvɪʒn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "视觉，视力",
+    "topic": "描述",
+    "emoji": "👁️"
+  },
+  {
+    "id": "fantasy",
+    "word": "fantasy",
+    "phonetic": "/ˈfæntəsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "幻想",
+    "topic": "文学",
+    "emoji": "🦄"
+  },
+  {
+    "id": "science_fiction",
+    "word": "science fiction",
+    "phonetic": "/ˈsaɪəns ˈfɪkʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "科幻作品",
+    "topic": "文学",
+    "emoji": "🚀"
+  },
+  {
+    "id": "pump",
+    "word": "pump",
+    "phonetic": "/pʌmp/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "泵；用泵抽",
+    "topic": "科技",
+    "emoji": "⛽"
+  },
+  {
+    "id": "generator",
+    "word": "generator",
+    "phonetic": "/ˈdʒenəreɪtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "发电机",
+    "topic": "科技",
+    "emoji": "🔌"
+  },
+  {
+    "id": "gear",
+    "word": "gear",
+    "phonetic": "/ɡɪə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "齿轮",
+    "topic": "科技",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "pivot",
+    "word": "pivot",
+    "phonetic": "/ˈpɪvət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "枢轴，支点",
+    "topic": "科学",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "hydraulic",
+    "word": "hydraulic",
+    "phonetic": "/haɪˈdrɒlɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "水力的，液压的",
+    "topic": "科学",
+    "emoji": "💧"
+  },
+  {
+    "id": "drainage",
+    "word": "drainage",
+    "phonetic": "/ˈdreɪnɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "排水系统",
+    "topic": "科学",
+    "emoji": "🚰"
+  },
+  {
+    "id": "sewage",
+    "word": "sewage",
+    "phonetic": "/ˈsuːɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "污水",
+    "topic": "环境",
+    "emoji": "💧"
+  },
+  {
+    "id": "ventilation",
+    "word": "ventilation",
+    "phonetic": "/ˌventɪˈleɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "通风",
+    "topic": "科学",
+    "emoji": "💨"
+  },
+  {
+    "id": "purify",
+    "word": "purify",
+    "phonetic": "/ˈpjʊərɪfaɪ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "净化",
+    "topic": "科学",
+    "emoji": "💧"
+  },
+  {
+    "id": "distil",
+    "word": "distil",
+    "phonetic": "/dɪˈstɪl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "蒸馏；提取精华",
+    "topic": "科学",
+    "emoji": "🧪"
+  },
+  {
+    "id": "mode",
+    "word": "mode",
+    "phonetic": "/məʊd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "模式，方式",
+    "topic": "描述",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "prototype",
+    "word": "prototype",
+    "phonetic": "/ˈprəʊtətaɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "原型，雏形",
+    "topic": "科技",
+    "emoji": "🔧"
+  },
+  {
+    "id": "framework",
+    "word": "framework",
+    "phonetic": "/ˈfreɪmwɜːk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "框架，结构",
+    "topic": "描述",
+    "emoji": "🏗️"
+  },
+  {
+    "id": "aspect",
+    "word": "aspect",
+    "phonetic": "/ˈæspekt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "方面",
+    "topic": "描述",
+    "emoji": "🔲"
+  },
+  {
+    "id": "phase",
+    "word": "phase",
+    "phonetic": "/feɪz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "阶段，时期",
+    "topic": "描述",
+    "emoji": "📅"
+  },
+  {
+    "id": "operate",
+    "word": "operate",
+    "phonetic": "/ˈɒpəreɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "操作，运营",
+    "topic": "描述",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "turn",
+    "word": "turn",
+    "phonetic": "/tɜːn/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "转，翻",
+    "topic": "描述",
+    "emoji": "🔄"
+  },
+  {
+    "id": "adjust",
+    "word": "adjust",
+    "phonetic": "/əˈdʒʌst/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "调节，调整",
+    "topic": "描述",
+    "emoji": "🎛️"
+  },
+  {
+    "id": "accurate",
+    "word": "accurate",
+    "phonetic": "/ˈækjərət/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "准确的",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "precise",
+    "word": "precise",
+    "phonetic": "/prɪˈsaɪs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "精确的",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "correct",
+    "word": "correct",
+    "phonetic": "/kəˈrekt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "正确的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "error",
+    "word": "error",
+    "phonetic": "/ˈerə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "错误，过失",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "flaw",
+    "word": "flaw",
+    "phonetic": "/flɔː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "缺陷，错误",
+    "topic": "描述",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "fault",
+    "word": "fault",
+    "phonetic": "/fɔːlt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "缺点；故障",
+    "topic": "描述",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "stumble",
+    "word": "stumble",
+    "phonetic": "/ˈstʌmbl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "犯错误；绊脚",
+    "topic": "描述",
+    "emoji": "🚶"
+  },
+  {
+    "id": "contingency",
+    "word": "contingency",
+    "phonetic": "/kənˈtɪndʒənsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "意外事件",
+    "topic": "描述",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "circumstance",
+    "word": "circumstance",
+    "phonetic": "/ˈsɜːkəmstəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "情况，环境",
+    "topic": "描述",
+    "emoji": "🌍"
   }
 ]
