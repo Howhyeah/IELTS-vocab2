@@ -550,55 +550,22 @@
 
         const pronunciationCache = {};
 
-        function debugLog(msg) {
-            let el = document.getElementById('debugLog');
-            if (!el) {
-                el = document.createElement('div');
-                el.id = 'debugLog';
-                el.style.position = 'fixed';
-                el.style.bottom = '0';
-                el.style.left = '0';
-                el.style.right = '0';
-                el.style.maxHeight = '140px';
-                el.style.overflowY = 'auto';
-                el.style.background = 'rgba(0,0,0,0.88)';
-                el.style.color = '#0f0';
-                el.style.fontSize = '12px';
-                el.style.padding = '8px';
-                el.style.zIndex = '9999';
-                el.style.fontFamily = 'monospace';
-                document.body.appendChild(el);
-            }
-            const time = new Date().toLocaleTimeString();
-            el.innerHTML += `[${time}] ${msg}<br>`;
-            el.scrollTop = el.scrollHeight;
-        }
-
         function prefetchAudio(text) {
             if (!text || /\s/.test(text)) return;
             if (pronunciationCache.hasOwnProperty(text)) return;
             pronunciationCache[text] = null;
             fetchUKAudio(text).then(url => {
                 pronunciationCache[text] = url;
-                debugLog(`预加载完成: "${text}" -> ${url ? '找到录音' : '没有录音'}`);
             });
         }
 
         function playPronunciation(text, btn) {
-            debugLog(`点击了喇叭: "${text}"`);
             const cachedUrl = pronunciationCache[text];
             if (cachedUrl) {
-                debugLog(`用真人录音播放: ${cachedUrl}`);
                 const audio = new Audio(cachedUrl);
-                audio.play().then(() => {
-                    debugLog('录音播放成功');
-                }).catch((e) => {
-                    debugLog('录音播放失败: ' + e.message + ' -> 改用语音合成');
-                    speakWithBrowser(text);
-                });
+                audio.play().catch(() => speakWithBrowser(text));
                 return;
             }
-            debugLog('没有缓存的录音，改用语音合成');
             speakWithBrowser(text);
         }
 
@@ -610,13 +577,15 @@
                 for (const entry of data) {
                     for (const p of (entry.phonetics || [])) {
                         if (p.audio && p.audio.length > 0) {
+                            if (p.audio.includes('-us.mp3') || p.audio.includes('-us.ogg')) {
+                                continue;
+                            }
                             return p.audio.startsWith('http') ? p.audio : `https:${p.audio}`;
                         }
                     }
                 }
                 return null;
             } catch (e) {
-                debugLog('查录音出错: ' + e.message);
                 return null;
             }
         }
@@ -624,37 +593,22 @@
         let voicesReady = [];
         function loadVoices() {
             voicesReady = window.speechSynthesis.getVoices();
-            debugLog('可用语音包数量: ' + voicesReady.length);
         }
         if ('speechSynthesis' in window) {
             loadVoices();
             window.speechSynthesis.onvoiceschanged = loadVoices;
-        } else {
-            debugLog('这个浏览器不支持语音合成！');
         }
 
         function speakWithBrowser(text) {
-            if (!('speechSynthesis' in window)) {
-                debugLog('speechSynthesis 不存在，无法朗读');
-                return;
-            }
+            if (!('speechSynthesis' in window)) return;
             window.speechSynthesis.cancel();
             const utter = new SpeechSynthesisUtterance(text);
             utter.lang = 'en-GB';
             const voices = voicesReady.length ? voicesReady : window.speechSynthesis.getVoices();
             const ukVoice = voices.find(v => v.lang === 'en-GB') || voices.find(v => v.lang && v.lang.startsWith('en'));
-            if (ukVoice) {
-                utter.voice = ukVoice;
-                debugLog('使用语音包: ' + ukVoice.name + ' (' + ukVoice.lang + ')');
-            } else {
-                debugLog('没找到英语语音包，用默认语音');
-            }
+            if (ukVoice) utter.voice = ukVoice;
             utter.rate = 0.9;
-            utter.onstart = () => debugLog('语音合成开始播放');
-            utter.onerror = (e) => debugLog('语音合成报错: ' + e.error);
-            utter.onend = () => debugLog('语音合成播放结束');
             window.speechSynthesis.speak(utter);
-            debugLog('已调用 speak()，等待播放...');
         }
 
         function markWord(status) {
