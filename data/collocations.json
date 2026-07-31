@@ -32,7 +32,8 @@
       "contribute to success",
       "contribute to problem"
     ],
-    "chinese": "导致；促成；贡献"
+    "chinese": "导致；促成；贡献",
+    "underlying_relation": "个体贡献 → 汇入更大整体/结果 → 促成整体结果的形成。"
   },
   {
     "id": "result_in",
@@ -67,7 +68,8 @@
       "result in damage",
       "result in improvement"
     ],
-    "chinese": "导致；结果是"
+    "chinese": "导致；结果是",
+    "underlying_relation": "原因（种子）→ 生长发展过程 → 结果（大树）呈现。"
   },
   {
     "id": "result_from",
@@ -102,7 +104,8 @@
       "result from experience",
       "result from environment"
     ],
-    "chinese": "源于；由...造成"
+    "chinese": "源于；由...造成",
+    "underlying_relation": "结果（果实）← 追溯来源 ← 原因（花朵/根源）。"
   },
   {
     "id": "be_exposed_to",
@@ -137,7 +140,8 @@
       "be exposed to danger",
       "be exposed to culture"
     ],
-    "chinese": "暴露于；接触"
+    "chinese": "暴露于；接触",
+    "underlying_relation": "主体 → 失去屏障保护 → 直接接触外部影响源。"
   },
   {
     "id": "be_responsible_for",
@@ -172,7 +176,8 @@
       "be responsible for quality",
       "be responsible for results"
     ],
-    "chinese": "对...负责"
+    "chinese": "对...负责",
+    "underlying_relation": "主体被赋予职责 → 对象的结果好坏 → 归属到主体身上承担。"
   },
   {
     "id": "be_associated_with",
@@ -207,7 +212,8 @@
       "be associated with happiness",
       "be associated with stress"
     ],
-    "chinese": "与...相关"
+    "chinese": "与...相关",
+    "underlying_relation": "事物A ←链接→ 事物B → 两者产生关联（非因果，只是相关）。"
   },
   {
     "id": "have_access_to",
@@ -242,7 +248,8 @@
       "have access to healthcare",
       "have access to data"
     ],
-    "chinese": "获得；使用"
+    "chinese": "获得；使用",
+    "underlying_relation": "需求方 → 拿到钥匙/权限 → 打开通往资源的门。"
   },
   {
     "id": "in_response_to",
@@ -277,7 +284,8 @@
       "in response to pressure",
       "in response to criticism"
     ],
-    "chinese": "回应；应对"
+    "chinese": "回应；应对",
+    "underlying_relation": "外部刺激/声音 → 触发 → 主体给出对应的回应动作。"
   },
   {
     "id": "in_terms_of",
@@ -312,7 +320,8 @@
       "in terms of safety",
       "in terms of development"
     ],
-    "chinese": "就...而言；从...角度"
+    "chinese": "就...而言；从...角度",
+    "underlying_relation": "同一个事物 → 切换观察角度 → 呈现出该角度下的特定面貌。"
   },
   {
     "id": "have_impact_on",
@@ -347,6 +356,7 @@
       "have impact on development",
       "have impact on future"
     ],
-    "chinese": "对...有影响"
+    "chinese": "对...有影响",
+    "underlying_relation": "一个动作/事件（投入的石头）→ 波及扩散 → 影响到周边的对象。"
   }
 ]
