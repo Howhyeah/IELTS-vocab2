@@ -47,7 +47,8 @@
       "construct a building",
       "infrastructure investment"
     ],
-    "chinese": "结构；建造；建设；重建；基础设施；破坏；指导"
+    "chinese": "结构；建造；建设；重建；基础设施；破坏；指导",
+    "underlying_relation": "分散的部件 → 按顺序搭建组合 → 形成稳固的整体结构。"
   },
   {
     "id": "spect",
@@ -97,7 +98,8 @@
       "mutual respect",
       "career prospects"
     ],
-    "chinese": "检查；尊重；前景；视角；壮观；光谱；推测"
+    "chinese": "检查；尊重；前景；视角；壮观；光谱；推测",
+    "underlying_relation": "视线 → 投向对象 → 获取关于对象的信息或态度（检查/尊重/推测等）。"
   },
   {
     "id": "port",
@@ -147,7 +149,8 @@
       "export goods",
       "support system"
     ],
-    "chinese": "运输；出口；进口；支持；便携的；投资组合；报告"
+    "chinese": "运输；出口；进口；支持；便携的；投资组合；报告",
+    "underlying_relation": "东西在起点 → 被搬运携带 → 到达终点（或反向：由内向外/外向内搬运）。"
   },
   {
     "id": "bio",
@@ -192,7 +195,8 @@
       "biodiversity loss",
       "antibiotic resistance"
     ],
-    "chinese": "生物学；传记；生物多样性；抗生素；共生；可生物降解的"
+    "chinese": "生物学；传记；生物多样性；抗生素；共生；可生物降解的",
+    "underlying_relation": "生命体本身 → 被研究/记录/对抗 → 衍生出与生命相关的各类词义。"
   },
   {
     "id": "cycle",
@@ -232,7 +236,8 @@
       "product lifecycle",
       "tropical cyclone"
     ],
-    "chinese": "自行车；回收；生命周期；气旋；百科全书"
+    "chinese": "自行车；回收；生命周期；气旋；百科全书",
+    "underlying_relation": "起点 → 绕行一圈 → 回到起点，持续往复。"
   },
   {
     "id": "form",
@@ -287,7 +292,8 @@
       "formal education",
       "transform society"
     ],
-    "chinese": "形成；正式的；格式；公式；转变；改革；遵守；变形"
+    "chinese": "形成；正式的；格式；公式；转变；改革；遵守；变形",
+    "underlying_relation": "无形的材料 → 被模具塑造 → 形成固定的形状或格式。"
   },
   {
     "id": "press",
@@ -342,7 +348,8 @@
       "blood pressure",
       "express opinion"
     ],
-    "chinese": "按压；压力；压缩；使沮丧；表达；使印象深刻；压迫；压制"
+    "chinese": "按压；压力；压缩；使沮丧；表达；使印象深刻；压迫；压制",
+    "underlying_relation": "外部压力 → 持续施加在物体上 → 物体形态或状态因压力而改变。"
   },
   {
     "id": "migrate",
@@ -387,7 +394,8 @@
       "mass migration",
       "migrant workers"
     ],
-    "chinese": "迁移；移民；移入；移出；移民；迁徙的"
+    "chinese": "迁移；移民；移入；移出；移民；迁徙的",
+    "underlying_relation": "原居住地 → 主体整体移动 → 新居住地（跟随季节/条件变化）。"
   },
   {
     "id": "educ",
@@ -427,7 +435,8 @@
       "higher education",
       "educational system"
     ],
-    "chinese": "教育；教育；教育者；教育的；未受教育的"
+    "chinese": "教育；教育；教育者；教育的；未受教育的",
+    "underlying_relation": "学习者内在潜能 → 被引导带出 → 转化为外显的知识或能力。"
   },
   {
     "id": "tract",
@@ -477,6 +486,7 @@
       "attractive design",
       "extract information"
     ],
-    "chinese": "吸引；有吸引力的；合同；提取；分散注意力；减去；拖拉机"
+    "chinese": "吸引；有吸引力的；合同；提取；分散注意力；减去；拖拉机",
+    "underlying_relation": "静止的物体 → 被一股拉力拽动 → 移向拉力方向（或被抽取出来）。"
   }
 ]
