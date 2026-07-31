@@ -3268,5 +3268,215 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "narrow",
+    "word": "narrow",
+    "phonetic": "/ˈnærəʊ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本范围较宽、选择较多的空间或对象，持续被压缩、限制，逐渐变得狭窄、可选范围越来越小。",
+    "underlying_relation": "较宽范围 → 持续压缩限制 → 范围变窄，选择减少。",
+    "core_emoji": "↔️🤏",
+    "scenes": [
+      {
+        "emoji": "🛣️",
+        "phrase": "narrow road",
+        "note": "道路两侧不断靠近｜狭窄的道路"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "narrow down options",
+        "note": "选项从多变少｜缩小选择范围"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "narrow the gap",
+        "note": "差距被逐渐压缩｜缩小差距"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "narrow-minded",
+        "note": "思路被限制得很窄｜心胸狭隘"
+      }
+    ],
+    "collocations": [
+      "narrow down",
+      "narrow the gap",
+      "narrow margin"
+    ],
+    "chinese": "使变窄；限制，缩小（选择/差距范围）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "equal",
+    "word": "equal",
+    "phonetic": "/ˈiːkwəl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "两个原本独立的对象或数量，放在天平两端对比后，彼此完全对应、不分高低，处于同一水平线上。",
+    "underlying_relation": "对象A ↔ 对象B → 对比衡量 → 两者水平完全一致（无高低之分）。",
+    "core_emoji": "⚖️🟰",
+    "scenes": [
+      {
+        "emoji": "👥",
+        "phrase": "equal rights",
+        "note": "每个人的权利被放在同一水平｜平等的权利"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "equal pay",
+        "note": "两份薪水在天平上对齐｜同等的薪酬"
+      },
+      {
+        "emoji": "📏",
+        "phrase": "equal length",
+        "note": "两段长度完全对齐｜相等的长度"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "treat as equals",
+        "note": "把对方放在跟自己同一水平对待｜平等对待"
+      }
+    ],
+    "collocations": [
+      "equal opportunity",
+      "roughly equal",
+      "all things being equal"
+    ],
+    "chinese": "相等的；平等的；同等的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "moderate",
+    "word": "moderate",
+    "phonetic": "/ˈmɒdəreɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本处于极端强度的状态，经过调节，被拉回到中间、不偏激的水平。",
+    "underlying_relation": "极端状态 → 调节拉回 → 落在中间温和水平。",
+    "core_emoji": "🥵<span style=\"color:#e53935;font-weight:bold\">→</span>😊",
+    "scenes": [
+      {
+        "emoji": "🌡️",
+        "phrase": "moderate the temperature",
+        "note": "极端温度被调节到适中｜调节温度"
+      },
+      {
+        "emoji": "😤",
+        "phrase": "moderate one's tone",
+        "note": "激烈的语气被拉回平和｜缓和语气"
+      },
+      {
+        "emoji": "🍷",
+        "phrase": "moderate drinking",
+        "note": "过量饮酒被控制到适度｜适度饮酒"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "moderate growth",
+        "note": "剧烈增长被拉回平缓｜温和增长"
+      }
+    ],
+    "collocations": [
+      "moderate consumption",
+      "moderate climate",
+      "in moderation"
+    ],
+    "chinese": "缓和；使适度；适中的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "warm",
+    "word": "warm",
+    "phonetic": "/wɔːm/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本处于低温的物体，因为热量的持续注入，温度逐渐上升，从冷的状态转变为暖的状态。",
+    "underlying_relation": "低温状态 + 持续注入热量 → 温度上升 → 转为暖的状态。",
+    "core_emoji": "❄️<span style=\"color:#e53935;font-weight:bold\">→</span>🌤️",
+    "scenes": [
+      {
+        "emoji": "🍲",
+        "phrase": "warm up food",
+        "note": "冷的食物被加热变暖｜加热食物"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "global warming",
+        "note": "地球整体温度持续上升｜全球变暖"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "warm up before exercise",
+        "note": "身体从静止变得activated｜运动前热身"
+      },
+      {
+        "emoji": "❤️",
+        "phrase": "warm up to someone",
+        "note": "冷淡态度逐渐转暖｜对某人渐生好感"
+      }
+    ],
+    "collocations": [
+      "warm up",
+      "warm welcome",
+      "warm-hearted"
+    ],
+    "chinese": "使变暖；加热；（态度）转趋热情",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "stream",
+    "word": "stream",
+    "phonetic": "/striːm/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "液体或人群像细长的水流一样，持续不断地朝一个方向连续移动，不间断。",
+    "underlying_relation": "起点 → 连续不断地朝一个方向流动 → 形成持续的流。",
+    "core_emoji": "🚰〜➡️",
+    "scenes": [
+      {
+        "emoji": "💧",
+        "phrase": "water streams down",
+        "note": "水持续不断地往下流｜水流下"
+      },
+      {
+        "emoji": "🚶",
+        "phrase": "people stream out",
+        "note": "人群持续不断地涌出｜人流涌出"
+      },
+      {
+        "emoji": "☀️",
+        "phrase": "sunlight streams in",
+        "note": "阳光持续不断地照进来｜阳光洒入"
+      },
+      {
+        "emoji": "📹",
+        "phrase": "stream a video",
+        "note": "视频数据持续不断传输｜在线播放"
+      }
+    ],
+    "collocations": [
+      "stream down",
+      "stream out of",
+      "tears streamed"
+    ],
+    "chinese": "流出；涌出；（数据）流式传输",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
