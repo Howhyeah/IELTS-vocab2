@@ -5,8 +5,8 @@
     "phonetic": "/meɪnˈteɪn/",
     "pos": "v.",
     "category": "A",
-    "core_state": "用双手稳稳托住一个摇晃的天平，不让它倒下",
-    "core_emoji": "🤲⚖️",
+    "core_state": "一个已经存在的状态，正被某种自然的力量拉向改变或消失，而某个持续施加的外力顶住这股力量，让状态维持原样。",
+    "core_emoji": "💪🪵",
     "scenes": [
       {
         "emoji": "⚖️",
@@ -38,7 +38,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "已有状态 ×（损耗/时间/压力想让它变）→ 持续施力顶住 → 状态不变。一旦停止施力，状态就会滑向改变。"
   },
   {
     "id": "sustain",
@@ -46,8 +47,8 @@
     "phonetic": "/səˈsteɪn/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像柱子一样持续支撑着重物，不让它倒塌",
-    "core_emoji": "🏛️💪",
+    "core_state": "某个主体正持续承受一个不断向下压的重量或负荷，主体撑着不垮，让这个重量本身能够继续存在或运作下去。",
+    "core_emoji": "🏋️‍♂️⬇️",
     "scenes": [
       {
         "emoji": "🌱",
@@ -79,7 +80,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "外部重量/负荷 → 压在主体上 → 主体持续承受不垮 → 重量/负荷得以继续存在（或主体因此受损）。区别于maintain：sustain强调「承受」这个动作本身，不是「主动出力对抗」。"
   },
   {
     "id": "decline",
@@ -87,8 +89,8 @@
     "phonetic": "/dɪˈklaɪn/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像滑梯一样持续向下滑落",
-    "core_emoji": "📉🛝",
+    "core_state": "一个原本处于较高位置或被摆在面前的事物，正在逐渐远离这个位置——数量或程度上向下移动，或者主动转身不去接受它。",
+    "core_emoji": "🙅📉",
     "scenes": [
       {
         "emoji": "📊",
@@ -120,7 +122,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "峰值/被提供的位置 → 逐渐远离/向下移动 → 离原位置越来越远（下降或拒绝）。下降和拒绝共享同一个「主动远离」的方向感。"
   },
   {
     "id": "consume",
@@ -128,8 +131,8 @@
     "phonetic": "/kənˈsjuːm/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像火焰一样完全吞噬掉",
-    "core_emoji": "🔥👄",
+    "core_state": "一个原本存在的东西，被投入某个消耗性的过程里，在这个过程中逐渐被吃掉、耗尽、吸收，最终这个东西以原来的形式不再存在。",
+    "core_emoji": "🕯️🔥<span style=\"color:#e53935;font-weight:bold\">→</span>💨",
     "scenes": [
       {
         "emoji": "🍔",
@@ -161,7 +164,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "东西存在（有）→ 进入消耗过程（燃烧/摄入/使用）→ 被吸收耗尽 → 东西消失（没有）。是「有」变成「没有」的单向不可逆过程。"
   },
   {
     "id": "release",
@@ -169,8 +173,8 @@
     "phonetic": "/rɪˈliːs/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "打开笼子让鸟儿飞向天空",
-    "core_emoji": "🕊️🔓",
+    "core_state": "某个东西原本被抓住、关住或压制着，此刻这个约束突然松开，东西得以自由地移动或流散出去。",
+    "core_emoji": "✋→🕊️",
     "scenes": [
       {
         "emoji": "💨",
@@ -202,7 +206,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "东西被约束（手抓住/门关着/压力压着）→ 约束解除 → 东西向外自由流出/移动。"
   },
   {
     "id": "conduct",
@@ -210,8 +215,8 @@
     "phonetic": "/kənˈdʌkt/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像指挥家挥动指挥棒引导整个乐团",
-    "core_emoji": "🎼👨‍🎤",
+    "core_state": "某个过程、能量或群体，沿着一条路径向前推进，而一个主导者在旁边引导、把控这条路径的走向，让它顺畅地流动或完成。",
+    "core_emoji": "🧑‍🎼〜⚡",
     "scenes": [
       {
         "emoji": "🔬",
@@ -243,7 +248,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "过程/能量/群体（待推进的东西）→ 主导者引导路径 → 沿路径顺畅通过或完成。"
   },
   {
     "id": "issue",
@@ -251,8 +257,8 @@
     "phonetic": "/ˈɪʃuː/",
     "pos": "n./v.",
     "category": "A",
-    "core_state": "像泉水从源头涌出",
-    "core_emoji": "⛲📤",
+    "core_state": "某个内容或事物从一个来源被推送出来，进入公众视野或流通渠道，成为大家需要面对或关注的对象。",
+    "core_emoji": "📤📰",
     "scenes": [
       {
         "emoji": "📄",
@@ -284,7 +290,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "来源内部（潜藏的内容/问题）→ 被推送/发布出来 → 进入公众视野，需要被处理或关注。"
   },
   {
     "id": "available",
@@ -292,8 +299,8 @@
     "phonetic": "/əˈveɪləbl/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像绿灯亮起表示可以通行",
-    "core_emoji": "✅🟢",
+    "core_state": "某个人或物正处于「敞开、可被取用」的状态，随时准备好被需要的人接触或使用，中间没有阻隔。",
+    "core_emoji": "🚪🟢",
     "scenes": [
       {
         "emoji": "🛒",
@@ -325,7 +332,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "需要方 → 伸手去够 → 中间无阻碍 → 立刻能够到、能使用。"
   },
   {
     "id": "deteriorate",
@@ -333,8 +341,8 @@
     "phonetic": "/dɪˈtɪəriəreɪt/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像苹果从新鲜到腐烂的过程",
-    "core_emoji": "🍎➡️🍏",
+    "core_state": "一个原本还不错的状态，随着时间推移，在没有外力阻止的情况下，一点点自然地变得更差、更破损。",
+    "core_emoji": "🍎<span style=\"color:#e53935;font-weight:bold\">→</span>🟤",
     "scenes": [
       {
         "emoji": "🏥",
@@ -365,7 +373,8 @@
     "chinese": "恶化；变坏；退化",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "较好状态 ×（时间流逝，无人阻止）→ 持续变差 → 越来越糟的状态。（跟maintain正好相反：这里没有力去顶住衰退）"
   },
   {
     "id": "aggravate",
@@ -373,8 +382,8 @@
     "phonetic": "/ˈæɡrəveɪt/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像在伤口上撒盐让疼痛加剧",
-    "core_emoji": "🧂🤕",
+    "core_state": "一个已经存在的不好状态或紧张情绪，因为又被加了一层刺激或负担，变得比原来更严重、更激烈。",
+    "core_emoji": "🔥➕🛢️",
     "scenes": [
       {
         "emoji": "🤕",
@@ -405,7 +414,8 @@
     "chinese": "加重；使恶化；激怒",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "已有的不好状态 + 额外刺激/负担 → 叠加 → 状态比原来更严重。"
   },
   {
     "id": "degrade",
@@ -413,8 +423,8 @@
     "phonetic": "/dɪˈɡreɪd/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像从楼梯上一步步走下来",
-    "core_emoji": "⬇️🪜",
+    "core_state": "某个原本处于较高位置、较高质量或较高地位的东西，被拉低到一个更低、更差的层级，失去原有的价值或身份。",
+    "core_emoji": "🎖️⬇️",
     "scenes": [
       {
         "emoji": "🌱",
@@ -445,7 +455,8 @@
     "chinese": "使降级；使退化；贬低",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "较高位置/等级 → 被向下拉/剥夺 → 落到较低位置/等级，价值降低。"
   },
   {
     "id": "upgrade",
@@ -453,8 +464,8 @@
     "phonetic": "/ʌpˈɡreɪd/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像坐电梯从一楼升到顶楼",
-    "core_emoji": "⬆️🛗",
+    "core_state": "某个原本处于较低层级或较旧版本的东西，被替换或提升到一个更高、更好的层级。",
+    "core_emoji": "🎖️⬆️",
     "scenes": [
       {
         "emoji": "💻",
@@ -486,7 +497,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "较低层级/旧版本 → 被替换/提升 → 更高层级/新版本。"
   },
   {
     "id": "erode",
@@ -494,8 +506,8 @@
     "phonetic": "/ɪˈrəʊd/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像海浪一点点冲刷掉沙滩",
-    "core_emoji": "🌊🏖️",
+    "core_state": "一个持续不断的微小外力，一点一点摩擦、冲刷一个原本坚固完整的东西，久而久之把它磨损、削减掉一部分。",
+    "core_emoji": "🌊🪨<span style=\"color:#e53935;font-weight:bold\">→</span>🕳️",
     "scenes": [
       {
         "emoji": "🏔️",
@@ -526,7 +538,8 @@
     "chinese": "侵蚀；腐蚀；逐渐削弱",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "坚固的东西 + 持续不断的微小外力（水流/风/怀疑）→ 反复摩擦冲刷 → 东西被一点点磨掉、削弱。"
   },
   {
     "id": "thaw",
@@ -534,8 +547,8 @@
     "phonetic": "/θɔː/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像冰块在阳光下慢慢融化",
-    "core_emoji": "🧊☀️",
+    "core_state": "一个原本冻结、僵硬或冷淡的状态，因为温度回升，慢慢变软、变得可以流动，恢复到原本自然的样子。",
+    "core_emoji": "🧊<span style=\"color:#e53935;font-weight:bold\">→</span>💧",
     "scenes": [
       {
         "emoji": "❄️",
@@ -566,7 +579,8 @@
     "chinese": "解冻；融化；缓和",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "冻结/僵硬状态 + 温度回升 → 逐渐软化/松动 → 恢复流动/温暖状态。"
   },
   {
     "id": "chill",
@@ -574,8 +588,8 @@
     "phonetic": "/tʃɪl/",
     "pos": "v./n./adj.",
     "category": "A",
-    "core_state": "像冷风吹过让人打寒颤",
-    "core_emoji": "🥶💨",
+    "core_state": "某个东西的温度或紧张程度正在下降，从热烈或紧绷的状态，变得冷静、放松、缓和下来。",
+    "core_emoji": "😌❄️",
     "scenes": [
       {
         "emoji": "🍷",
@@ -606,7 +620,8 @@
     "chinese": "使变冷；寒冷；放松",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "热/紧绷状态 → 温度或情绪下降 → 冷静/放松状态。"
   },
   {
     "id": "freeze",
@@ -614,8 +629,8 @@
     "phonetic": "/friːz/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像水瞬间变成冰块",
-    "core_emoji": "💧➡️🧊",
+    "core_state": "一个原本流动或活动的东西，突然完全停止不动，变得僵硬、固定，动不了了。",
+    "core_emoji": "💧<span style=\"color:#e53935;font-weight:bold\">→</span>🧊",
     "scenes": [
       {
         "emoji": "💧",
@@ -646,7 +661,8 @@
     "chinese": "冻结；结冰；冻僵",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "流动/活动状态 → 温度骤降或受到冲击 → 瞬间固定不动，完全停止。"
   },
   {
     "id": "frigid",
@@ -654,8 +670,8 @@
     "phonetic": "/ˈfrɪdʒɪd/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像北极一样极度寒冷",
-    "core_emoji": "🥶❄️",
+    "core_state": "某个环境或态度处于极度寒冷、毫无温度或热情的状态，让人靠近时感受不到任何暖意。",
+    "core_emoji": "🥶🧊",
     "scenes": [
       {
         "emoji": "❄️",
@@ -686,7 +702,8 @@
     "chinese": "严寒的；冷淡的；寒冷的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "环境/态度 → 温度极低，无回应 → 靠近者感受不到暖意，如被拒于千里之外。"
   },
   {
     "id": "tremble",
@@ -694,8 +711,8 @@
     "phonetic": "/ˈtrembl/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像树叶在风中快速抖动",
-    "core_emoji": "🍃💨",
+    "core_state": "身体或物体因为害怕、寒冷或虚弱，不受控制地进行细小而快速的抖动，无法保持静止。",
+    "core_emoji": "🫨",
     "scenes": [
       {
         "emoji": "🥶",
@@ -726,7 +743,8 @@
     "chinese": "颤抖；发抖；震动",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "内在的害怕/寒冷/虚弱 → 身体失去稳定控制 → 产生细小快速的不自主抖动。"
   },
   {
     "id": "shiver",
@@ -734,8 +752,8 @@
     "phonetic": "/ˈʃɪvə(r)/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像电流通过全身引起抖动",
-    "core_emoji": "⚡🥶",
+    "core_state": "身体因为寒冷侵入，不受控制地小幅度快速抖动，试图靠这种抖动生热保暖。",
+    "core_emoji": "🥶🫨",
     "scenes": [
       {
         "emoji": "🥶",
@@ -766,7 +784,8 @@
     "chinese": "发抖；寒战；颤抖",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "寒冷侵入身体 → 身体自动快速抖动（生热反应）→ 持续到暖意恢复为止。"
   },
   {
     "id": "stormy",
@@ -774,8 +793,8 @@
     "phonetic": "/ˈstɔːmi/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像海上掀起巨浪的暴风雨",
-    "core_emoji": "⛈️🌊",
+    "core_state": "环境或关系正处于剧烈动荡、充满冲突和不稳定的状态，随时可能爆发更强烈的对抗。",
+    "core_emoji": "⛈️💥",
     "scenes": [
       {
         "emoji": "⛈️",
@@ -806,7 +825,8 @@
     "chinese": "暴风雨的；激烈的；动荡的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "平静状态 → 大量对抗性力量同时涌入碰撞 → 剧烈动荡、随时爆发的紧张局面。"
   },
   {
     "id": "sprinkle",
@@ -814,8 +834,8 @@
     "phonetic": "/ˈsprɪŋkl/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像撒盐一样少量分散",
-    "core_emoji": "🧂✨",
+    "core_state": "一些细小、分散的颗粒或水滴，被轻轻地、少量地分布撒落在一个表面上，留下的是点状、不连续的痕迹，不是整片浸透覆盖。",
+    "core_emoji": "🧂💫",
     "scenes": [
       {
         "emoji": "🧂",
@@ -846,7 +866,8 @@
     "chinese": "撒；洒；下小雨",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "大量细小颗粒/水滴 → 轻轻分散撒落 → 表面留下稀疏点状痕迹（非整片覆盖）。"
   },
   {
     "id": "forecast",
@@ -854,8 +875,8 @@
     "phonetic": "/ˈfɔːkɑːst/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像水晶球预测未来",
-    "core_emoji": "🔮📊",
+    "core_state": "根据现在能观察到的迹象或规律，往前推算，提前把还没发生的事情描述出来。",
+    "core_emoji": "👁️➡️🔮",
     "scenes": [
       {
         "emoji": "🌤️",
@@ -887,7 +908,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "当前迹象/数据 → 向前推算 → 尚未发生的事被提前说出来。"
   },
   {
     "id": "peak",
@@ -895,8 +917,8 @@
     "phonetic": "/piːk/",
     "pos": "n./v./adj.",
     "category": "A",
-    "core_state": "像山峰的最高点",
-    "core_emoji": "⛰️🔝",
+    "core_state": "一个持续上升的过程，到达了目前能达到的最高点，从这里往前不会再更高了。",
+    "core_emoji": "📈🏔️",
     "scenes": [
       {
         "emoji": "⛰️",
@@ -928,7 +950,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "持续上升过程 → 到达最高点 → 无法再往上（即将转向下降或停滞）。"
   },
   {
     "id": "mount",
@@ -936,8 +959,8 @@
     "phonetic": "/maʊnt/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像爬楼梯一步步向上",
-    "core_emoji": "⬆️🪜",
+    "core_state": "某个东西被放置到或攀爬到一个更高的位置上，或者数量像登山一样一步步持续往上增加。",
+    "core_emoji": "🧗⬆️",
     "scenes": [
       {
         "emoji": "🐎",
@@ -968,7 +991,8 @@
     "chinese": "登上；增加；安装；山",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "较低位置/数量 → 持续向上攀爬/累积 → 到达更高位置/数量。"
   },
   {
     "id": "range",
@@ -976,8 +1000,8 @@
     "phonetic": "/reɪndʒ/",
     "pos": "n./v.",
     "category": "A",
-    "core_state": "像一排连绵的山脉",
-    "core_emoji": "🏔️📏",
+    "core_state": "从一个起点到一个终点之间，包含了所有中间的可能值或事物，形成一条连续延展的跨度。",
+    "core_emoji": "↔️📏",
     "scenes": [
       {
         "emoji": "🏔️",
@@ -1009,7 +1033,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "起点 ←…中间所有可能值…→ 终点 = 整个连续跨度构成「范围」。"
   },
   {
     "id": "slope",
@@ -1017,8 +1042,8 @@
     "phonetic": "/sləʊp/",
     "pos": "n./v.",
     "category": "A",
-    "core_state": "像滑梯一样倾斜",
-    "core_emoji": "🛝⛷️",
+    "core_state": "一个表面不是水平也不是垂直，而是倾斜成一个角度，东西放在上面会自然地向下滑。",
+    "core_emoji": "📐⬇️",
     "scenes": [
       {
         "emoji": "⛷️",
@@ -1049,7 +1074,8 @@
     "chinese": "斜坡；倾斜；坡度",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "倾斜角度的表面 → 重力作用 → 东西自然向下滑动。"
   },
   {
     "id": "overlook",
@@ -1057,8 +1083,8 @@
     "phonetic": "/ˌəʊvəˈlʊk/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像站在高处往下看",
-    "core_emoji": "👀🏞️",
+    "core_state": "视线从高处往下扫过某个东西，或者视线掠过某个东西的上方表面，没有真正落在它身上、注意到它。",
+    "core_emoji": "👁️⬇️",
     "scenes": [
       {
         "emoji": "🏞️",
@@ -1089,7 +1115,8 @@
     "chinese": "俯瞰；忽视；忽略",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "视线 → 从高处俯视或从上方掠过而不聚焦 → 看到全景，但漏掉了具体细节。"
   },
   {
     "id": "inevitable",
@@ -1097,8 +1124,8 @@
     "phonetic": "/ɪnˈevɪtəbl/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像重力一样无法避免",
-    "core_emoji": "🔒⏳",
+    "core_state": "从现在的条件和路径往前看，所有可能的走向最终都会汇聚到同一个结果，没有任何路径能绕开它。",
+    "core_emoji": "🛤️➡️🎯",
     "scenes": [
       {
         "emoji": "⏳",
@@ -1130,7 +1157,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "所有可能路径 → 全部汇聚 → 唯一结果（无法绕开）。"
   },
   {
     "id": "irreversible",
@@ -1138,8 +1166,8 @@
     "phonetic": "/ˌɪrɪˈvɜːsəbl/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像时间一样无法倒流",
-    "core_emoji": "🔒⏰",
+    "core_state": "一个过程发生了变化，一旦越过某个临界点，就再也没有办法退回到原来的状态了。",
+    "core_emoji": "🚪🔒",
     "scenes": [
       {
         "emoji": "🌍",
@@ -1170,7 +1198,8 @@
     "chinese": "不可逆的；无法挽回的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "原状态 → 越过临界点变化 → 无法退回原状态（单向门）。"
   },
   {
     "id": "irregularly",
@@ -1178,8 +1207,8 @@
     "phonetic": "/ɪˈreɡjələli/",
     "pos": "adv.",
     "category": "A",
-    "core_state": "像心跳一样不规律",
-    "core_emoji": "📊💓",
+    "core_state": "一件事情反复发生，但每次之间的间隔时间长短不一，没有固定的节奏可以预测。",
+    "core_emoji": "🔀⏱️",
     "scenes": [
       {
         "emoji": "📅",
@@ -1210,7 +1239,8 @@
     "chinese": "不规律地；不定期地",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "反复发生的事 → 间隔时间忽长忽短 → 无法预测下一次何时发生。"
   },
   {
     "id": "inappropriate",
@@ -1218,8 +1248,8 @@
     "phonetic": "/ˌɪnəˈprəʊpriət/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像穿错衣服参加正式场合",
-    "core_emoji": "❌👔",
+    "core_state": "某个行为或事物被放进一个场合里，跟这个场合的性质、氛围不匹配，格格不入。",
+    "core_emoji": "🧩❌",
     "scenes": [
       {
         "emoji": "👔",
@@ -1251,7 +1281,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "场合的性质/要求 ≠ 放入的行为/事物性质 → 不匹配 → 显得突兀、不合适。"
   },
   {
     "id": "abnormal",
@@ -1259,8 +1290,8 @@
     "phonetic": "/æbˈnɔːml/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像警报器响起表示异常",
-    "core_emoji": "⚠️🚨",
+    "core_state": "大多数同类事物都遵循一个共同的标准或模式，而这一个明显偏离了这个标准，落在了预期范围之外。",
+    "core_emoji": "📊⚠️",
     "scenes": [
       {
         "emoji": "🩺",
@@ -1291,7 +1322,8 @@
     "chinese": "异常的；不正常的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "标准/常见模式（多数样本聚集处）→ 这一个明显偏离 → 落在预期范围之外。"
   },
   {
     "id": "muddy",
@@ -1299,8 +1331,8 @@
     "phonetic": "/ˈmʌdi/",
     "pos": "adj./v.",
     "category": "A",
-    "core_state": "像雨后的泥地一样泥泞",
-    "core_emoji": "🟤🥾",
+    "core_state": "泥土混进了原本清澈的液体或坚实的地面里，让它变得又软又黏、浑浊不清。",
+    "core_emoji": "👢🟫",
     "scenes": [
       {
         "emoji": "🥾",
@@ -1331,7 +1363,8 @@
     "chinese": "泥泞的；浑浊的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "清澈液体/坚实地面 + 混入泥土 → 变得浑浊、黏软。"
   },
   {
     "id": "rural",
@@ -1339,7 +1372,7 @@
     "phonetic": "/ˈrʊərəl/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像田野一样乡村化",
+    "core_state": "一片以农田和稀疏聚落为主的开阔土地，人口密度低，跟密集的城市建筑群形成对比。",
     "core_emoji": "🌾🏡",
     "scenes": [
       {
@@ -1372,7 +1405,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "开阔土地 + 低人口密度 + 农业为主 → 乡村性质（对比城市的密集建筑）。"
   },
   {
     "id": "remote",
@@ -1380,8 +1414,8 @@
     "phonetic": "/rɪˈməʊt/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像遥远的岛屿一样偏远",
-    "core_emoji": "🏝️📡",
+    "core_state": "一个地点或连接点，跟中心/主要位置之间隔着很长的距离，需要跨越这段距离才能到达或产生联系。",
+    "core_emoji": "🏙️〜🏝️",
     "scenes": [
       {
         "emoji": "🏝️",
@@ -1413,7 +1447,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "中心点 ← 长距离间隔 → 目标点（远端），需跨越距离才能触及。"
   },
   {
     "id": "desolate",
@@ -1421,8 +1456,8 @@
     "phonetic": "/ˈdesələt/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像沙漠一样荒凉",
-    "core_emoji": "🏜️😔",
+    "core_state": "一个原本可能有人烟或生机的地方，现在完全空荡荡的，没有任何生命活动或人为照料的痕迹。",
+    "core_emoji": "🏚️🍃",
     "scenes": [
       {
         "emoji": "🏜️",
@@ -1453,7 +1488,8 @@
     "chinese": "荒凉的；凄凉的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "潜在的生机/人烟 → 完全抽离消失 → 只剩空荡荒芜。"
   },
   {
     "id": "distant",
@@ -1461,8 +1497,8 @@
     "phonetic": "/ˈdɪstənt/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像望远镜里的星星一样遥远",
-    "core_emoji": "🔭⭐",
+    "core_state": "两个点之间隔着一段较大的空间或情感上的间隔，彼此之间的联系因此变得微弱、模糊。",
+    "core_emoji": "🔭👁️",
     "scenes": [
       {
         "emoji": "⭐",
@@ -1493,7 +1529,8 @@
     "chinese": "遥远的；远处的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "两点之间 → 较大间隔（空间/情感）→ 联系变弱变模糊。"
   },
   {
     "id": "adjacent",
@@ -1501,8 +1538,8 @@
     "phonetic": "/əˈdʒeɪsnt/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像邻居一样紧挨着",
-    "core_emoji": "🔗🏠",
+    "core_state": "两个东西紧挨着排在一起，中间没有任何间隔或别的东西插在中间，边界几乎贴在一起。",
+    "core_emoji": "🟦🟨",
     "scenes": [
       {
         "emoji": "🏠",
@@ -1533,7 +1570,8 @@
     "chinese": "邻近的；相邻的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "物体A｜物体B → 中间无间隔 → 边界紧贴（相邻）。"
   },
   {
     "id": "toxic",
@@ -1541,7 +1579,7 @@
     "phonetic": "/ˈtɒksɪk/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像毒药一样有害",
+    "core_state": "某种物质内部带有能够伤害生物体的成分，一旦接触或摄入，就会对身体造成损害。",
     "core_emoji": "☠️🧪",
     "scenes": [
       {
@@ -1574,7 +1612,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "物质内含有害成分 → 接触/摄入生物体 → 造成损害（中毒）。"
   },
   {
     "id": "pollute",
@@ -1582,8 +1621,8 @@
     "phonetic": "/pəˈluːt/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像墨水滴入清水",
-    "core_emoji": "🏭💧",
+    "core_state": "一种有害或异质的物质被引入一个原本干净的环境中，让这个环境变得不再纯净、受到污染。",
+    "core_emoji": "💧<span style=\"color:#e53935;font-weight:bold\">→</span>🟤",
     "scenes": [
       {
         "emoji": "🏭",
@@ -1615,7 +1654,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "干净环境 + 引入有害物质 → 环境变得污浊、不再纯净。"
   },
   {
     "id": "contaminate",
@@ -1623,8 +1663,8 @@
     "phonetic": "/kənˈtæmɪneɪt/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像细菌污染纯净物",
-    "core_emoji": "🦠🧪",
+    "core_state": "一个原本纯净、安全的物质或样本，因为接触到外来的异质物质，混入了不该有的成分，变得不再纯净、不再安全。",
+    "core_emoji": "🧫<span style=\"color:#e53935;font-weight:bold\">→</span>☣️",
     "scenes": [
       {
         "emoji": "💧",
@@ -1655,7 +1695,8 @@
     "chinese": "污染；弄脏；使不纯",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "纯净物质/样本 + 接触外来异质物 → 混入不该有的成分 → 不再纯净安全。"
   },
   {
     "id": "border",
@@ -1663,8 +1704,8 @@
     "phonetic": "/ˈbɔːdə(r)/",
     "pos": "n./v.",
     "category": "A",
-    "core_state": "像国境线一样分隔",
-    "core_emoji": "🚧🗺️",
+    "core_state": "一条线，标记着一个区域的边缘到此为止，从这条线往外就属于另一个区域了。",
+    "core_emoji": "🏳️➖🏴",
     "scenes": [
       {
         "emoji": "🗺️",
@@ -1695,7 +1736,8 @@
     "chinese": "边界；边境；边缘",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "区域A｜（边界线）｜区域B → 边界线两侧分属不同区域。"
   },
   {
     "id": "margin",
@@ -1703,8 +1745,8 @@
     "phonetic": "/ˈmɑːdʒɪn/",
     "pos": "n.",
     "category": "A",
-    "core_state": "像书页边缘的空白",
-    "core_emoji": "📏📄",
+    "core_state": "核心部分之外，多留出来的一圈空间或余量，作为缓冲或剩余，不是主体本身。",
+    "core_emoji": "📄▫️",
     "scenes": [
       {
         "emoji": "📄",
@@ -1735,7 +1777,8 @@
     "chinese": "边缘；余地；利润",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "核心主体 + 周边留出的余量 → 余量本身即「margin」（缓冲/利润/边缘空间）。"
   },
   {
     "id": "fringe",
@@ -1743,8 +1786,8 @@
     "phonetic": "/frɪndʒ/",
     "pos": "n./adj.",
     "category": "A",
-    "core_state": "像刘海一样在边缘",
-    "core_emoji": "💇🎭",
+    "core_state": "依附在主体边缘、松散悬垂着的一层，不属于核心部分，是主体向外延伸出的边角。",
+    "core_emoji": "🧵〜",
     "scenes": [
       {
         "emoji": "💇",
@@ -1775,7 +1818,8 @@
     "chinese": "边缘；外围；刘海",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "主体核心 → 边缘处松散延伸垂挂 → 形成外围附属的一层（非核心）。"
   },
   {
     "id": "crack",
@@ -1783,8 +1827,8 @@
     "phonetic": "/kræk/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像鸡蛋壳破裂",
-    "core_emoji": "🥚🔨",
+    "core_state": "一个原本完整、连续的表面出现了一条断裂线，原本统一的整体被这条裂缝打破了连续性。",
+    "core_emoji": "🥚<span style=\"color:#e53935;font-weight:bold\">→</span>〜",
     "scenes": [
       {
         "emoji": "🥚",
@@ -1815,7 +1859,8 @@
     "chinese": "破裂；裂缝；破解",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "完整表面 → 出现断裂线 → 连续性被打破（裂缝，或引申为破解障碍）。"
   },
   {
     "id": "gap",
@@ -1823,8 +1868,8 @@
     "phonetic": "/ɡæp/",
     "pos": "n.",
     "category": "A",
-    "core_state": "像牙齿之间的缝隙",
-    "core_emoji": "🕳️🦷",
+    "core_state": "两个本应连续或靠近的东西之间，存在一段空隙，中间缺了一块，没有被填满。",
+    "core_emoji": "🧱〜🧱",
     "scenes": [
       {
         "emoji": "🦷",
@@ -1856,7 +1901,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "东西A｜空隙（缺口）｜东西B → 中间未被填满 → 形成差距/缺口。"
   },
   {
     "id": "splendid",
@@ -1864,8 +1910,8 @@
     "phonetic": "/ˈsplendɪd/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像皇宫一样辉煌",
-    "core_emoji": "✨🏰",
+    "core_state": "某个事物散发出耀眼、令人赞叹的气势，让人一眼就感受到它的宏大和美好。",
+    "core_emoji": "🏰✨",
     "scenes": [
       {
         "emoji": "🏰",
@@ -1896,7 +1942,8 @@
     "chinese": "壮丽的；辉煌的；极好的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "事物本身 → 散发耀眼气势 → 引发赞叹和惊艳感。"
   },
   {
     "id": "grand",
@@ -1904,7 +1951,7 @@
     "phonetic": "/ɡrænd/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像大教堂一样宏伟",
+    "core_state": "规模宏大、气势庄严的整体，涵盖范围广泛，让人感受到分量和气势。",
     "core_emoji": "🏛️👑",
     "scenes": [
       {
@@ -1936,7 +1983,8 @@
     "chinese": "宏伟的；盛大的；总的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "各个部分 → 汇聚成一个规模宏大的整体 → 呈现出庄严的气势。"
   },
   {
     "id": "magnificent",
@@ -1944,8 +1992,8 @@
     "phonetic": "/mæɡˈnɪfɪsnt/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像城堡一样壮丽",
-    "core_emoji": "🏰✨",
+    "core_state": "某个景象或事物的美感和规模达到令人震撼、心生敬畏的程度。",
+    "core_emoji": "🌅😮",
     "scenes": [
       {
         "emoji": "🏰",
@@ -1976,7 +2024,8 @@
     "chinese": "壮丽的；宏伟的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "事物的美感/规模 → 达到震撼级别 → 令人心生敬畏。"
   },
   {
     "id": "dramatic",
@@ -1984,8 +2033,8 @@
     "phonetic": "/drəˈmætɪk/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像戏剧一样夸张",
-    "core_emoji": "🎭📈",
+    "core_state": "一个变化或事件发生的幅度、力度极大，像戏剧场景一样突然、强烈，让人无法不注意到。",
+    "core_emoji": "🎭💥",
     "scenes": [
       {
         "emoji": "📈",
@@ -2017,7 +2066,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "变化/事件 → 幅度力度突然增强 → 效果强烈到像戏剧场面，引人注目。"
   },
   {
     "id": "barren",
@@ -2025,8 +2075,8 @@
     "phonetic": "/ˈbærən/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像沙漠一样贫瘠",
-    "core_emoji": "🏜️🌵",
+    "core_state": "土地缺乏能支撑生长的养分和条件，长期保持空荡，什么都长不出来。",
+    "core_emoji": "🏜️🚫🌱",
     "scenes": [
       {
         "emoji": "🏜️",
@@ -2057,7 +2107,8 @@
     "chinese": "贫瘠的；不毛的；荒芜的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "土地缺乏养分/条件 → 无法支撑生长 → 保持空荡不毛。"
   },
   {
     "id": "fertile",
@@ -2065,7 +2116,7 @@
     "phonetic": "/ˈfɜːtaɪl/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像黑土地一样肥沃",
+    "core_state": "土地富含养分和条件，很容易支撑植物茂盛地生长，产出丰富。",
     "core_emoji": "🌱🌾",
     "scenes": [
       {
@@ -2097,7 +2148,8 @@
     "chinese": "肥沃的；多产的；丰富的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "土地富含养分 → 强力支撑生长 → 产出丰富茂盛。"
   },
   {
     "id": "fertilise",
@@ -2105,8 +2157,8 @@
     "phonetic": "/ˈfɜːtəlaɪz/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像给植物喂营养",
-    "core_emoji": "🌱💧",
+    "core_state": "主动把养分或繁殖所需的物质加入到一个东西里，触发它开始生长或繁殖的过程。",
+    "core_emoji": "🌸🐝",
     "scenes": [
       {
         "emoji": "🌱",
@@ -2137,7 +2189,8 @@
     "chinese": "施肥；授粉；使受精",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "缺乏养分/繁殖条件的东西 + 主动加入养分/繁殖物质 → 触发生长/繁殖。"
   },
   {
     "id": "evaporate",
@@ -2145,8 +2198,8 @@
     "phonetic": "/ɪˈvæpəreɪt/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像水变成水蒸气消失",
-    "core_emoji": "💧💨",
+    "core_state": "液体因为受热，转变成气体分散到空气中，从看得见摸得着的液体形态变成看不见的状态。",
+    "core_emoji": "💧<span style=\"color:#e53935;font-weight:bold\">→</span>💨",
     "scenes": [
       {
         "emoji": "💧",
@@ -2177,7 +2230,8 @@
     "chinese": "蒸发；消失；挥发",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "液体 + 受热 → 转变成气体 → 分散消失（看不见摸不着）。"
   },
   {
     "id": "cycle",
@@ -2185,8 +2239,8 @@
     "phonetic": "/ˈsaɪkl/",
     "pos": "n./v.",
     "category": "A",
-    "core_state": "像车轮一样循环转动",
-    "core_emoji": "🔄🚴",
+    "core_state": "一系列阶段按顺序发生，走到最后又回到最初的起点，如此往复不断重复。",
+    "core_emoji": "🔄",
     "scenes": [
       {
         "emoji": "🔄",
@@ -2218,7 +2272,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "起点 → 依次经过各阶段 → 回到起点 → 重新开始（循环往复）。"
   },
   {
     "id": "precipitate",
@@ -2226,8 +2281,8 @@
     "phonetic": "/prɪˈsɪpɪteɪt/",
     "pos": "v./adj./n.",
     "category": "A",
-    "core_state": "像雨水突然降落",
-    "core_emoji": "🌧️⚗️",
+    "core_state": "某个原本悬浮或维持稳定状态的东西，突然失去平衡、猝然坠落或触发，没有经过缓慢的过渡。",
+    "core_emoji": "🧪<span style=\"color:#e53935;font-weight:bold\">→</span>⚪",
     "scenes": [
       {
         "emoji": "🌧️",
@@ -2258,7 +2313,8 @@
     "chinese": "使沉淀；引发；仓促的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "悬浮/稳定状态 → 突然失衡 → 猝然坠落或触发（无缓冲过程）。"
   },
   {
     "id": "circulate",
@@ -2266,8 +2322,8 @@
     "phonetic": "/ˈsɜːkjəleɪt/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像血液在全身循环",
-    "core_emoji": "🔄🩸",
+    "core_state": "某个东西（血液、货币、消息）在一个网络或系统里持续流动，从一个点传到下一个点，不断绕行流转。",
+    "core_emoji": "🩸🔄",
     "scenes": [
       {
         "emoji": "🩸",
@@ -2298,7 +2354,8 @@
     "chinese": "循环；流通；传播",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "系统内的东西 → 持续在各节点间流动传递 → 不断绕行循环（不停留在一处）。"
   },
   {
     "id": "drip",
@@ -2306,8 +2363,8 @@
     "phonetic": "/drɪp/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像水龙头滴水",
-    "core_emoji": "💧🚰",
+    "core_state": "液体不是连续流动，而是一滴一滴、间隔着往下掉，每一滴都是独立的一个单位。",
+    "core_emoji": "🚰💧",
     "scenes": [
       {
         "emoji": "💧",
@@ -2338,7 +2395,8 @@
     "chinese": "滴下；滴水；滴",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "液体 → 分离成一滴一滴 → 间隔性往下落（非连续流）。"
   },
   {
     "id": "drain",
@@ -2346,8 +2404,8 @@
     "phonetic": "/dreɪn/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像水池排水",
-    "core_emoji": "🕳️🛁",
+    "core_state": "液体或资源通过一个出口被引导流走，容器或来源里的东西逐渐被抽空，直到空了为止。",
+    "core_emoji": "🛁<span style=\"color:#e53935;font-weight:bold\">→</span>🌀",
     "scenes": [
       {
         "emoji": "🕳️",
@@ -2378,7 +2436,8 @@
     "chinese": "排水；耗尽；下水道",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "容器内的液体/资源 → 经出口持续流出 → 容器逐渐变空（耗尽）。"
   },
   {
     "id": "drown",
@@ -2386,8 +2445,8 @@
     "phonetic": "/draʊn/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像沉入水底",
-    "core_emoji": "🌊😵",
+    "core_state": "一个东西被液体完全包裹、盖过，露不出头来，失去了呼吸或正常运作的能力。",
+    "core_emoji": "🙎<span style=\"color:#e53935;font-weight:bold\">→</span>🌊",
     "scenes": [
       {
         "emoji": "🌊",
@@ -2418,7 +2477,8 @@
     "chinese": "淹没；溺死；沉浸",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "主体 + 液体持续上涨盖过头顶 → 完全被淹没 → 无法呼吸/运作。"
   },
   {
     "id": "blow",
@@ -2426,8 +2486,8 @@
     "phonetic": "/bləʊ/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像风一样吹动",
-    "core_emoji": "💨🌬️",
+    "core_state": "一股力量突然向外释放，猛烈地冲击或推动某个东西，可能是气流的吹动，也可能是撞击的打击力。",
+    "core_emoji": "💨👊",
     "scenes": [
       {
         "emoji": "💨",
@@ -2458,7 +2518,8 @@
     "chinese": "吹；打击；爆炸",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "蓄积的力量 → 突然释放向外 → 冲击/推动目标（吹动或打击）。"
   },
   {
     "id": "puff",
@@ -2466,8 +2527,8 @@
     "phonetic": "/pʌf/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像轻轻吹气",
-    "core_emoji": "💨🚬",
+    "core_state": "一小股气体或烟雾，短暂地、轻轻地喷出一下，不是持续的气流，是一下子的短促释放。",
+    "core_emoji": "😤💨",
     "scenes": [
       {
         "emoji": "🚬",
@@ -2498,7 +2559,8 @@
     "chinese": "轻吹；喷出；泡芙",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "内部气体 → 短促轻微地喷出一下 → 一小股（非持续气流）。"
   },
   {
     "id": "gush",
@@ -2506,7 +2568,7 @@
     "phonetic": "/ɡʌʃ/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像喷泉一样涌出",
+    "core_state": "大量液体或情绪，毫无阻拦地一下子猛烈涌出，形成持续而强劲的喷涌。",
     "core_emoji": "⛲💦",
     "scenes": [
       {
@@ -2538,7 +2600,8 @@
     "chinese": "涌出；喷出；滔滔不绝",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "大量液体/情绪 → 阻拦突然消失 → 猛烈持续地涌出。"
   },
   {
     "id": "dense",
@@ -2546,8 +2609,8 @@
     "phonetic": "/dens/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像森林一样密集",
-    "core_emoji": "🌲🌳",
+    "core_state": "大量的单位或颗粒，紧紧地挤在一个较小的空间里，彼此之间几乎没有空隙。",
+    "core_emoji": "🌳🌲🌳",
     "scenes": [
       {
         "emoji": "🌲",
@@ -2578,7 +2641,8 @@
     "chinese": "密集的；浓密的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "大量单位 → 挤入较小空间 → 单位间几乎无空隙（密集）。"
   },
   {
     "id": "intensity",
@@ -2586,8 +2650,8 @@
     "phonetic": "/ɪnˈtensəti/",
     "pos": "n.",
     "category": "A",
-    "core_state": "像火焰一样强烈",
-    "core_emoji": "🔥💪",
+    "core_state": "某种力量或能量集中释放的程度，衡量的是这股力量有多强、有多猛烈。",
+    "core_emoji": "🌡️🔥",
     "scenes": [
       {
         "emoji": "💪",
@@ -2618,7 +2682,8 @@
     "chinese": "强度；强烈；紧张",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "力量/能量 → 集中程度不同 → 强度高低（越集中越强烈）。"
   },
   {
     "id": "intensive",
@@ -2626,8 +2691,8 @@
     "phonetic": "/ɪnˈtensɪv/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像放大镜聚焦一样集中",
-    "core_emoji": "🎯🔍",
+    "core_state": "有限的时间或范围内，集中投入大量精力或资源，短时间内高强度地推进。",
+    "core_emoji": "⏱️💪",
     "scenes": [
       {
         "emoji": "📚",
@@ -2659,7 +2724,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "有限时间/范围 + 大量精力集中投入 → 短时间内高强度效果。"
   },
   {
     "id": "emerge",
@@ -2667,8 +2733,8 @@
     "phonetic": "/ɪˈmɜːdʒ/",
     "pos": "v.",
     "category": "A",
-    "core_state": "像太阳从云层中出现",
-    "core_emoji": "🌅☀️",
+    "core_state": "一个原本被遮住、藏在里面或水下的东西，慢慢地显露出来，进入可以被看见的范围。",
+    "core_emoji": "🌅",
     "scenes": [
       {
         "emoji": "🌅",
@@ -2700,7 +2766,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "隐藏/水下的东西 → 逐渐向外显露 → 进入可见范围。"
   },
   {
     "id": "flash",
@@ -2708,8 +2775,8 @@
     "phonetic": "/flæʃ/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像闪电一样快速",
-    "core_emoji": "⚡📸",
+    "core_state": "一道强烈的光或一个念头，极短暂地出现了一下，几乎瞬间就又消失了。",
+    "core_emoji": "⚡",
     "scenes": [
       {
         "emoji": "⚡",
@@ -2740,7 +2807,8 @@
     "chinese": "闪光；闪现；迅速",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "无 → 极短暂强烈出现 → 迅速消失（一闪而过）。"
   },
   {
     "id": "float",
@@ -2748,8 +2816,8 @@
     "phonetic": "/fləʊt/",
     "pos": "v./n.",
     "category": "A",
-    "core_state": "像气球一样漂浮",
-    "core_emoji": "🎈☁️",
+    "core_state": "一个东西停留在液体或空气的表面附近，既不下沉也不用力上升，就这样悬浮着不受重力完全支配。",
+    "core_emoji": "🛟🌊",
     "scenes": [
       {
         "emoji": "🎈",
@@ -2780,7 +2848,8 @@
     "chinese": "漂浮；浮动；飘浮",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "物体 + 液体/空气浮力支撑 → 悬停在表面附近（不沉不猛升）。"
   },
   {
     "id": "surrounding",
@@ -2788,8 +2857,8 @@
     "phonetic": "/səˈraʊndɪŋ/",
     "pos": "adj./n.",
     "category": "A",
-    "core_state": "像被圆圈包围",
-    "core_emoji": "🔄🏞️",
+    "core_state": "围绕在一个中心点四周的所有空间或事物，从各个方向把中心包围起来。",
+    "core_emoji": "🎯⭕",
     "scenes": [
       {
         "emoji": "🏞️",
@@ -2820,7 +2889,8 @@
     "chinese": "周围的；附近的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "中心点 → 四周各方向都有事物环绕 → 形成包围圈。"
   },
   {
     "id": "condition",
@@ -2828,8 +2898,8 @@
     "phonetic": "/kənˈdɪʃn/",
     "pos": "n./v.",
     "category": "A",
-    "core_state": "像身体状况一样",
-    "core_emoji": "📋🏥",
+    "core_state": "决定一件事能否发生或处于什么状态的具体前提或环境因素，这些因素本身构成了「条件」或「状况」。",
+    "core_emoji": "✅📋",
     "scenes": [
       {
         "emoji": "🏥",
@@ -2861,7 +2931,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "具体前提/环境因素 → 决定事情能否发生/处于何种状态 → 前提本身即为「条件」。"
   },
   {
     "id": "situation",
@@ -2869,8 +2940,8 @@
     "phonetic": "/ˌsɪtʃuˈeɪʃn/",
     "pos": "n.",
     "category": "A",
-    "core_state": "像棋局一样的情况",
-    "core_emoji": "🎭♟️",
+    "core_state": "某个人或事物在某一时刻所处的整体环境和局面，是多个因素综合形成的当下处境。",
+    "core_emoji": "🎬📍",
     "scenes": [
       {
         "emoji": "🎭",
@@ -2902,7 +2973,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "多个当下因素 → 综合叠加 → 形成整体处境/局面。"
   },
   {
     "id": "natural",
@@ -2910,8 +2982,8 @@
     "phonetic": "/ˈnætʃrəl/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像大自然一样天然",
-    "core_emoji": "🌿🌳",
+    "core_state": "某个东西保持着它本来就有的样子，没有经过人为的干预或改造。",
+    "core_emoji": "🌿",
     "scenes": [
       {
         "emoji": "🌿",
@@ -2943,7 +3015,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "原本的样子 → 无人为干预/改造 → 保持天然本色。"
   },
   {
     "id": "artificial",
@@ -2951,8 +3024,8 @@
     "phonetic": "/ˌɑːtɪˈfɪʃl/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像机器人一样人工",
-    "core_emoji": "🤖🦾",
+    "core_state": "某个东西是人为制造或改造出来的，用来模仿或替代本该自然存在的东西。",
+    "core_emoji": "🏭🌸",
     "scenes": [
       {
         "emoji": "🤖",
@@ -2984,7 +3057,8 @@
     "tags": [
       "A",
       "W"
-    ]
+    ],
+    "underlying_relation": "人为制造/改造 → 模仿/替代自然本该有的东西 → 呈现出人工痕迹。"
   },
   {
     "id": "synthetic",
@@ -2992,8 +3066,8 @@
     "phonetic": "/sɪnˈθetɪk/",
     "pos": "adj.",
     "category": "A",
-    "core_state": "像化学合成一样",
-    "core_emoji": "🧪⚗️",
+    "core_state": "多种独立的化学成分，通过人工加工过程被合并、融合在一起，制造出一种自然界本身不存在的新材料。",
+    "core_emoji": "🧪<span style=\"color:#e53935;font-weight:bold\">→</span>🧵",
     "scenes": [
       {
         "emoji": "🧪",
@@ -3024,6 +3098,7 @@
     "chinese": "合成的；人造的",
     "tags": [
       "A"
-    ]
+    ],
+    "underlying_relation": "多种独立成分 → 人工合并融合 → 生成自然界不存在的新材料。"
   }
 ]
