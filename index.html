@@ -390,12 +390,15 @@
 
             if (word.category === 'R') {
                 container.innerHTML = renderRootFamily(word);
+                word.members.forEach(m => prefetchAudio(m.word));
             } else if (word.category === 'C') {
                 container.innerHTML = renderCollocation(word);
             } else if (word.category === 'I') {
                 container.innerHTML = renderRecognition(word);
+                prefetchAudio(word.word);
             } else {
                 container.innerHTML = renderCoreWord(word);
+                prefetchAudio(word.word);
             }
         }
 
@@ -546,33 +549,24 @@
         }
 
         const pronunciationCache = {};
-        async function playPronunciation(text, btn) {
-            if (btn) btn.classList.add('loading');
-            try {
-                if (pronunciationCache[text]) {
-                    await pronunciationCache[text]();
-                    return;
-                }
-                if (!/\s/.test(text)) {
-                    const audioUrl = await fetchUKAudio(text);
-                    if (audioUrl) {
-                        const player = () => new Promise((resolve) => {
-                            const audio = new Audio(audioUrl);
-                            audio.onended = resolve;
-                            audio.onerror = resolve;
-                            audio.play().catch(resolve);
-                        });
-                        pronunciationCache[text] = player;
-                        await player();
-                        return;
-                    }
-                }
-                speakWithBrowser(text);
-            } catch (e) {
-                speakWithBrowser(text);
-            } finally {
-                if (btn) btn.classList.remove('loading');
+
+        function prefetchAudio(text) {
+            if (!text || /\s/.test(text)) return;
+            if (pronunciationCache.hasOwnProperty(text)) return;
+            pronunciationCache[text] = null;
+            fetchUKAudio(text).then(url => {
+                pronunciationCache[text] = url;
+            });
+        }
+
+        function playPronunciation(text, btn) {
+            const cachedUrl = pronunciationCache[text];
+            if (cachedUrl) {
+                const audio = new Audio(cachedUrl);
+                audio.play().catch(() => speakWithBrowser(text));
+                return;
             }
+            speakWithBrowser(text);
         }
 
         async function fetchUKAudio(word) {
@@ -593,12 +587,21 @@
             }
         }
 
+        let voicesReady = [];
+        function loadVoices() {
+            voicesReady = window.speechSynthesis.getVoices();
+        }
+        if ('speechSynthesis' in window) {
+            loadVoices();
+            window.speechSynthesis.onvoiceschanged = loadVoices;
+        }
+
         function speakWithBrowser(text) {
             if (!('speechSynthesis' in window)) return;
             window.speechSynthesis.cancel();
             const utter = new SpeechSynthesisUtterance(text);
             utter.lang = 'en-GB';
-            const voices = window.speechSynthesis.getVoices();
+            const voices = voicesReady.length ? voicesReady : window.speechSynthesis.getVoices();
             const ukVoice = voices.find(v => v.lang === 'en-GB') || voices.find(v => v.lang && v.lang.startsWith('en'));
             if (ukVoice) utter.voice = ukVoice;
             utter.rate = 0.9;
