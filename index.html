@@ -152,6 +152,26 @@
             line-height: 1.6;
             margin-bottom: 15px;
         }
+        .underlying-relation-box {
+            border: 1.5px dashed #a78bfa;
+            background: #f5f3ff;
+            border-radius: 10px;
+            padding: 12px 15px;
+            margin: 0 auto 5px;
+            text-align: left;
+        }
+        .underlying-relation-title {
+            font-size: 12px;
+            color: #8b5cf6;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        .underlying-relation-text {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 13px;
+            color: #5b21b6;
+            line-height: 1.5;
+        }
         .scenes-section { margin-top: 20px; }
         .section-title {
             font-size: 16px;
@@ -259,6 +279,7 @@
             padding-bottom: 10px;
         }
 
+        /* 学习记录弹窗 */
         .modal-overlay {
             position: fixed;
             inset: 0;
@@ -326,15 +347,6 @@
         .record-word { font-weight: bold; color: #333; font-size: 16px; }
         .record-chinese { color: #666; font-size: 13px; text-align: right; }
         .records-empty { text-align: center; color: #999; padding: 40px 0; }
-        .records-group-title {
-            font-size: 14px;
-            font-weight: bold;
-            color: #667eea;
-            margin: 16px 0 8px 0;
-            padding-bottom: 6px;
-            border-bottom: 2px solid #e8eaf6;
-        }
-        .records-group-title:first-child { margin-top: 0; }
     </style>
 </head>
 <body>
@@ -387,17 +399,18 @@
                 <button class="modal-tab active" id="tab-known" onclick="showRecordTab('known')">✅ 已背单词</button>
                 <button class="modal-tab" id="tab-fuzzy" onclick="showRecordTab('fuzzy')">🌀 模糊记忆</button>
                 <button class="modal-tab" id="tab-review" onclick="showRecordTab('review')">🔁 今日待复习</button>
-                <button class="modal-tab" id="tab-all" onclick="showRecordTab('all')">📋 全部单词</button>
             </div>
             <div id="recordsList" class="records-list"></div>
         </div>
     </div>
 
     <script>
+        // 注册Service Worker（网络优先策略，见sw.js，保证内容永远最新）
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js').catch(err => console.log('SW注册失败:', err));
         }
 
+        // ===== 数据存储相关 =====
         function todayStr() {
             return new Date().toISOString().slice(0, 10);
         }
@@ -414,6 +427,7 @@
             localStorage.setItem('ieltsWordRecords', JSON.stringify(d));
         }
 
+        // 每日打卡：一进页面就自动记录今天已打卡
         function doDailyCheckIn() {
             const checkins = loadCheckins();
             const t = todayStr();
@@ -423,6 +437,7 @@
             }
         }
 
+        // 计算连续打卡天数（从今天往前数，中断就停）
         function computeStreak() {
             const checkins = loadCheckins();
             let streak = 0;
@@ -439,6 +454,7 @@
             return streak;
         }
 
+        // 艾宾浩斯复习间隔（天）：学完后第1/2/4/7/15/30天提醒复习
         const REVIEW_INTERVALS = [1, 2, 4, 7, 15, 30];
         function daysBetween(dateA, dateB) {
             const a = new Date(dateA + 'T00:00:00');
@@ -487,23 +503,7 @@
             return due.map(id => wordById[id]).filter(Boolean);
         }
 
-        const CATEGORY_LABELS = {
-            A: '🎯 核心状态词',
-            S: '🧭 空间关系词',
-            R: '🌳 词根词族',
-            C: '🔗 固定搭配',
-            I: '👁️ 识别词'
-        };
-
-        function getAllWordsGrouped() {
-            const order = ['A', 'S', 'R', 'C', 'I'];
-            return order.map(cat => ({
-                label: CATEGORY_LABELS[cat],
-                count: allWords[cat].length,
-                words: allWords[cat]
-            })).filter(group => group.count > 0);
-        }
-
+        // ===== 弹窗控制 =====
         function openRecords() {
             document.getElementById('recordsModal').classList.add('show');
             showRecordTab('known');
@@ -515,31 +515,12 @@
             document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
             document.getElementById('tab-' + tab).classList.add('active');
 
-            const container = document.getElementById('recordsList');
-
-            if (tab === 'all') {
-                const groups = getAllWordsGrouped();
-                if (groups.length === 0) {
-                    container.innerHTML = `<div class="records-empty">词库还没有加载出来</div>`;
-                    return;
-                }
-                container.innerHTML = groups.map(g => `
-                    <div class="records-group-title">${g.label}（${g.count}）</div>
-                    ${g.words.map(w => `
-                        <div class="record-item">
-                            <div class="record-word">${displayName(w)}</div>
-                            <div class="record-chinese">${w.chinese || ''}</div>
-                        </div>
-                    `).join('')}
-                `).join('');
-                return;
-            }
-
             let list, emptyMsg;
             if (tab === 'known') { list = getKnownList(); emptyMsg = '还没有背过的单词，快去学习吧'; }
             else if (tab === 'fuzzy') { list = getFuzzyList(); emptyMsg = '暂无模糊记忆的单词'; }
             else { list = getReviewList(); emptyMsg = '今天没有需要复习的单词'; }
 
+            const container = document.getElementById('recordsList');
             if (list.length === 0) {
                 container.innerHTML = `<div class="records-empty">${emptyMsg}</div>`;
                 return;
@@ -552,6 +533,7 @@
             `).join('');
         }
 
+        // ===== 主逻辑 =====
         let allWords = { A: [], S: [], R: [], C: [], I: [] };
         let currentIndex = 0;
         let currentCategory = 'all';
@@ -644,6 +626,16 @@
             `;
         }
 
+        function renderUnderlyingRelation(word) {
+            if (!word.underlying_relation) return '';
+            return `
+                <div class="underlying-relation-box">
+                    <div class="underlying-relation-title">🔗 底层关系</div>
+                    <div class="underlying-relation-text">${word.underlying_relation}</div>
+                </div>
+            `;
+        }
+
         function renderCoreWord(word) {
             return `
                 <div class="word-card">
@@ -656,6 +648,7 @@
                         <span class="core-icon">${word.core_emoji}</span>
                         <div class="core-state-title">核心状态</div>
                         <div class="core-state-text">${word.core_state}</div>
+                        ${renderUnderlyingRelation(word)}
                     </div>
                     <div class="scenes-section">
                         <div class="section-title">📍 场景延伸</div>
@@ -693,6 +686,7 @@
                         <span class="core-icon">${word.core_emoji}</span>
                         <div class="core-state-title">核心画面</div>
                         <div class="core-state-text">${word.core_image}</div>
+                        ${renderUnderlyingRelation(word)}
                     </div>
                     <div class="scenes-section">
                         <div class="section-title">📚 词族成员</div>
@@ -730,6 +724,7 @@
                         <span class="core-icon">${word.core_emoji}</span>
                         <div class="core-state-title">核心关系</div>
                         <div class="core-state-text">${word.core_relation}</div>
+                        ${renderUnderlyingRelation(word)}
                     </div>
                     <div class="scenes-section">
                         <div class="section-title">📍 场景延伸</div>
@@ -774,6 +769,7 @@
             `;
         }
 
+        // ===== 发音功能 =====
         const pronunciationCache = {};
 
         function prefetchAudio(text) {
@@ -835,6 +831,7 @@
             window.speechSynthesis.speak(utter);
         }
 
+        // ===== 标记单词 =====
         function markWord(status) {
             const word = filteredWords[currentIndex];
 
@@ -854,6 +851,7 @@
             updateStats();
         }
 
+        // ===== 更新统计 =====
         function updateStats() {
             const records = loadRecords();
             const knownCount = Object.values(records).filter(r => r.status === 'know').length;
