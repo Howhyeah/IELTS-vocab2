@@ -280,6 +280,7 @@
             padding-bottom: 10px;
         }
 
+        /* 学习记录弹窗 */
         .modal-overlay {
             position: fixed;
             inset: 0;
@@ -382,12 +383,12 @@
         <button class="records-btn" onclick="openRecords()">📖 查看学习记录（已背 / 模糊记忆 / 待复习）</button>
 
         <div class="category-tabs">
-            <div class="tab active" onclick="switchCategory('all')">全部</div>
-            <div class="tab" onclick="switchCategory('A')">🎯 核心状态词</div>
-            <div class="tab" onclick="switchCategory('S')">🧭 空间关系词</div>
-            <div class="tab" onclick="switchCategory('R')">🌳 词根词族</div>
-            <div class="tab" onclick="switchCategory('C')">🔗 固定搭配</div>
-            <div class="tab" onclick="switchCategory('I')">👁️ 识别词</div>
+            <div class="tab active" data-cat="all" onclick="switchCategory('all')">全部</div>
+            <div class="tab" data-cat="A" onclick="switchCategory('A')">🎯 核心状态词</div>
+            <div class="tab" data-cat="S" onclick="switchCategory('S')">🧭 空间关系词</div>
+            <div class="tab" data-cat="R" onclick="switchCategory('R')">🌳 词根词族</div>
+            <div class="tab" data-cat="C" onclick="switchCategory('C')">🔗 固定搭配</div>
+            <div class="tab" data-cat="I" onclick="switchCategory('I')">👁️ 识别词</div>
         </div>
 
         <div id="wordCardContainer">
@@ -413,6 +414,7 @@
             <div id="recordsList" class="records-list"></div>
         </div>
     </div>
+
     <script>
         // 注册Service Worker（网络优先策略，见sw.js，保证内容永远最新）
         if ('serviceWorker' in navigator) {
@@ -585,6 +587,36 @@
         let currentCategory = 'all';
         let filteredWords = [];
 
+        let totalAllWords = 0;
+
+        // 记住当前学习位置(每个分类各自记一个索引),下次打开/切换分类时能接着看
+        function savePosition() {
+            const pos = JSON.parse(localStorage.getItem('ieltsPosition') || '{}');
+            pos[currentCategory] = currentIndex;
+            pos.lastCategory = currentCategory;
+            localStorage.setItem('ieltsPosition', JSON.stringify(pos));
+        }
+        function loadPosition() {
+            return JSON.parse(localStorage.getItem('ieltsPosition') || '{}');
+        }
+
+        // 更新5个分类标签旁边显示的词汇数量
+        function updateTabCounts() {
+            const labels = {
+                all: '全部',
+                A: '🎯 核心状态词',
+                S: '🧭 空间关系词',
+                R: '🌳 词根词族',
+                C: '🔗 固定搭配',
+                I: '👁️ 识别词'
+            };
+            document.querySelector('[data-cat="all"]').textContent = `${labels.all} (${totalAllWords})`;
+            ['A','S','R','C','I'].forEach(cat => {
+                const el = document.querySelector(`[data-cat="${cat}"]`);
+                if (el) el.textContent = `${labels[cat]} (${allWords[cat].length})`;
+            });
+        }
+
         async function init() {
             try {
                 const [coreWords, spatialWords, rootFamilies, collocations, recognitionWords] = await Promise.all([
@@ -601,14 +633,31 @@
                 allWords.C = collocations;
                 allWords.I = recognitionWords;
 
-                filteredWords = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
-
-                document.getElementById('totalWords').textContent = filteredWords.length;
+                const fullList = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
+                totalAllWords = fullList.length;
+                document.getElementById('totalWords').textContent = totalAllWords;
+                updateTabCounts();
 
                 buildWordIndex();
                 doDailyCheckIn();
-                updateStats();
 
+                // 恢复上次看到的分类和位置
+                const pos = loadPosition();
+                const lastCat = pos.lastCategory || 'all';
+                currentCategory = lastCat;
+                if (lastCat === 'all') {
+                    filteredWords = fullList;
+                } else {
+                    filteredWords = allWords[lastCat] || [];
+                }
+                currentIndex = pos[lastCat] || 0;
+                if (currentIndex >= filteredWords.length || currentIndex < 0) currentIndex = 0;
+
+                document.querySelectorAll('.category-tabs .tab').forEach(tab => {
+                    tab.classList.toggle('active', tab.dataset.cat === lastCat);
+                });
+
+                updateStats();
                 loadWord();
             } catch (error) {
                 console.error('加载失败:', error);
@@ -619,7 +668,6 @@
 
         function switchCategory(category) {
             currentCategory = category;
-            currentIndex = 0;
 
             document.querySelectorAll('.category-tabs .tab').forEach(tab => tab.classList.remove('active'));
             event.target.classList.add('active');
@@ -630,7 +678,13 @@
                 filteredWords = allWords[category] || [];
             }
 
+            // 切到这个分类时，接着上次在这个分类看到的位置，而不是每次都回到第一个
+            const pos = loadPosition();
+            currentIndex = pos[category] || 0;
+            if (currentIndex >= filteredWords.length || currentIndex < 0) currentIndex = 0;
+
             loadWord();
+            savePosition();
         }
 
         function loadWord() {
@@ -893,15 +947,17 @@
             }
 
             currentIndex++;
+            if (currentIndex >= filteredWords.length) currentIndex = 0;
             loadWord();
             updateStats();
+            savePosition();
         }
 
         // ===== 更新统计 =====
         function updateStats() {
             const records = loadRecords();
             const knownCount = Object.values(records).filter(r => r.status === 'know').length;
-            document.getElementById('learnedWords').textContent = knownCount;
+            document.getElementById('learnedWords').textContent = `${knownCount}/${totalAllWords}`;
             document.getElementById('streakDays').textContent = computeStreak();
 
             const checkins = loadCheckins();
