@@ -7216,5 +7216,425 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "inherit",
+    "word": "inherit",
+    "phonetic": "/ɪnˈherɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人原本没有拥有某种财产、特征或问题，因为前人的传递，这个东西自动转移到了他身上，成为他新拥有的一部分。",
+    "underlying_relation": "前人拥有的东西 → 通过血缘/传承自动转移 → 后人新获得（未主动争取）。",
+    "core_emoji": "👴➡️👶",
+    "scenes": [
+      {
+        "emoji": "🏠",
+        "phrase": "inherit a house",
+        "note": "房产从前人自动转移到后人｜继承房产"
+      },
+      {
+        "emoji": "🧬",
+        "phrase": "inherit a trait",
+        "note": "特征从父母自动转移到孩子｜遗传特征"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "inherit debt",
+        "note": "债务从前人自动转移到后人｜继承债务"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "inherit a tradition",
+        "note": "传统从上一代自动转移下来｜承袭传统"
+      }
+    ],
+    "collocations": [
+      "inherit from",
+      "inherited wealth",
+      "genetically inherited"
+    ],
+    "chinese": "继承（财产/特征）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "thrive",
+    "word": "thrive",
+    "phonetic": "/θraɪv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "在适宜的条件下，一个生物或事物不仅仅是勉强存活，而是充满活力地持续壮大、蓬勃发展。",
+    "underlying_relation": "适宜条件 → 不仅存活而是充满活力壮大 → 蓬勃发展（超越单纯生存）。",
+    "core_emoji": "🌱➡️🌳",
+    "scenes": [
+      {
+        "emoji": "🌱",
+        "phrase": "plants thrive in sunlight",
+        "note": "植物在适宜条件下蓬勃生长｜植物在阳光下茂盛生长"
+      },
+      {
+        "emoji": "💼",
+        "phrase": "the business thrives",
+        "note": "生意在适宜环境下蓬勃发展｜生意兴旺"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "communities thrive",
+        "note": "社区在适宜条件下蓬勃发展｜社区繁荣"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "children thrive with support",
+        "note": "孩子在支持下充满活力成长｜孩子在支持下茁壮成长"
+      }
+    ],
+    "collocations": [
+      "thrive on",
+      "continue to thrive",
+      "thriving economy"
+    ],
+    "chinese": "繁荣兴旺；茁壮生长",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "assign",
+    "word": "assign",
+    "phonetic": "/əˈsaɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "从一群可选的人或物里，挑出特定的一个，正式指定它去承担某个具体的任务或角色。",
+    "underlying_relation": "一群可选对象 → 挑出特定一个正式指定 → 承担具体任务/角色。",
+    "core_emoji": "👉📋",
+    "scenes": [
+      {
+        "emoji": "👥",
+        "phrase": "assign a task",
+        "note": "任务被正式指定给特定的人｜分配任务"
+      },
+      {
+        "emoji": "🏠",
+        "phrase": "assign a seat",
+        "note": "座位被正式指定给特定的人｜指定座位"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "assign a budget",
+        "note": "预算被正式指定给具体项目｜分配预算"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "assign a role",
+        "note": "角色被正式指定给特定的人｜指派角色"
+      }
+    ],
+    "collocations": [
+      "assign to",
+      "randomly assigned",
+      "assigned task"
+    ],
+    "chinese": "指派，分配",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "translate",
+    "word": "translate",
+    "phonetic": "/trænsˈleɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一段意思原本用一种语言或形式表达，经过转换，用另一种语言或形式重新表达出来，核心意思保持不变。",
+    "underlying_relation": "意思（用语言A表达）→ 转换 → 用语言B重新表达（核心意思不变）。",
+    "core_emoji": "🗣️➡️🗣️",
+    "scenes": [
+      {
+        "emoji": "📖",
+        "phrase": "translate a book",
+        "note": "书的意思从一种语言转换到另一种｜翻译一本书"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "translate into action",
+        "note": "想法从抽象形式转换成实际行动｜转化为行动"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "translate into profit",
+        "note": "投入从一种形式转换成利润形式｜转化为利润"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "lost in translation",
+        "note": "转换过程中意思有所损失｜翻译中的意思流失"
+      }
+    ],
+    "collocations": [
+      "translate into",
+      "roughly translated",
+      "translation of"
+    ],
+    "chinese": "翻译；转化",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "interpret",
+    "word": "interpret",
+    "phonetic": "/ɪnˈtɜːprɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一段原始的话语、数据或行为，本身不带明确说明，经过主动理解加工，被赋予一个具体的意义解释。",
+    "underlying_relation": "原始话语/数据/行为（不带说明）→ 主动理解加工 → 赋予具体意义解释。",
+    "core_emoji": "📊➡️💡",
+    "scenes": [
+      {
+        "emoji": "🗣️",
+        "phrase": "interpret for a speaker",
+        "note": "话语被主动加工转成另一语言理解｜为演讲者做口译"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "interpret the data",
+        "note": "数据被主动理解赋予意义｜解读数据"
+      },
+      {
+        "emoji": "😐",
+        "phrase": "interpret his silence",
+        "note": "沉默行为被主动理解赋予意义｜解读他的沉默"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "interpret a poem",
+        "note": "诗歌被主动理解赋予意义解释｜解读一首诗"
+      }
+    ],
+    "collocations": [
+      "interpret as",
+      "open to interpretation",
+      "widely interpreted"
+    ],
+    "chinese": "解释，说明；口译；领会",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "decipher",
+    "word": "decipher",
+    "phonetic": "/dɪˈsaɪfə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一段原本用密码或难以辨认的方式编写的信息，经过系统性的破解努力，其中隐藏的真实含义最终被搞清楚。",
+    "underlying_relation": "编码/难辨认的信息 ×（系统性破解努力）→ 隐藏的真实含义被搞清楚。",
+    "core_emoji": "🔐➡️📖",
+    "scenes": [
+      {
+        "emoji": "📜",
+        "phrase": "decipher ancient text",
+        "note": "古代文字被破解搞清含义｜破译古代文字"
+      },
+      {
+        "emoji": "✍️",
+        "phrase": "decipher messy handwriting",
+        "note": "难辨认的字迹被破解读懂｜辨认凌乱的笔迹"
+      },
+      {
+        "emoji": "🔐",
+        "phrase": "decipher a code",
+        "note": "密码被系统性破解｜破译密码"
+      },
+      {
+        "emoji": "😐",
+        "phrase": "decipher his intentions",
+        "note": "难懂的意图被破解搞清楚｜看穿他的意图"
+      }
+    ],
+    "collocations": [
+      "decipher the meaning",
+      "difficult to decipher",
+      "successfully deciphered"
+    ],
+    "chinese": "译解，破译；辨认出",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "communicate",
+    "word": "communicate",
+    "phonetic": "/kəˈmjuːnɪkeɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个意思原本只存在于一方的脑海里，通过某种媒介传递过去，跨越了双方之间的距离，让另一方也接收到了这个意思。",
+    "underlying_relation": "意思（只存在一方脑海）→ 通过媒介传递跨越距离 → 另一方接收到该意思。",
+    "core_emoji": "🧠➡️🧠",
+    "scenes": [
+      {
+        "emoji": "💬",
+        "phrase": "communicate effectively",
+        "note": "意思有效地跨越距离传递到对方｜有效沟通"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "communicate emotions",
+        "note": "情绪跨越距离传递给对方感知｜传达情感"
+      },
+      {
+        "emoji": "📡",
+        "phrase": "cells communicate",
+        "note": "信号在细胞间跨越距离传递｜细胞间通讯"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "communicate across cultures",
+        "note": "意思跨越文化距离传递过去｜跨文化沟通"
+      }
+    ],
+    "collocations": [
+      "communicate with",
+      "poor communication",
+      "communicate clearly"
+    ],
+    "chinese": "沟通，交流；传达",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "negotiate",
+    "word": "negotiate",
+    "phonetic": "/nɪˈɡəʊʃieɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "两方原本立场不同、各有要求，通过反复来回的商谈，最终找到一个双方都能接受的中间结果。",
+    "underlying_relation": "两方立场不同 ×（反复来回商谈）→ 找到双方都能接受的中间结果。",
+    "core_emoji": "🙋↔️🙋",
+    "scenes": [
+      {
+        "emoji": "💼",
+        "phrase": "negotiate a deal",
+        "note": "双方立场不同，商谈出中间结果｜谈判达成交易"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "negotiate a salary",
+        "note": "薪水立场不同，商谈出双方接受的数｜协商薪水"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "negotiate peace",
+        "note": "对立立场，商谈出双方接受的和平｜谈判达成和平"
+      },
+      {
+        "emoji": "🚧",
+        "phrase": "negotiate obstacles",
+        "note": "面对障碍，找出可行的应对方式｜巧妙应对障碍"
+      }
+    ],
+    "collocations": [
+      "negotiate with",
+      "negotiate terms",
+      "successfully negotiated"
+    ],
+    "chinese": "谈判，协商",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "disseminate",
+    "word": "disseminate",
+    "phonetic": "/dɪˈsemɪneɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个信息或观念从一个源头出发，被主动散布开来，逐渐扩散到广泛的人群或范围里，让更多人知道。",
+    "underlying_relation": "信息/观念（源头）→ 主动散布 → 扩散到广泛人群（让更多人知道）。",
+    "core_emoji": "📢➡️👥",
+    "scenes": [
+      {
+        "emoji": "📰",
+        "phrase": "disseminate information",
+        "note": "信息从源头散布到广泛人群｜传播信息"
+      },
+      {
+        "emoji": "🔬",
+        "phrase": "disseminate research findings",
+        "note": "研究成果从源头散布出去｜传播研究成果"
+      },
+      {
+        "emoji": "📱",
+        "phrase": "widely disseminated",
+        "note": "信息被广泛散布扩散｜广泛传播"
+      },
+      {
+        "emoji": "🦠",
+        "phrase": "disseminate propaganda",
+        "note": "宣传从源头散布到人群中｜散布宣传"
+      }
+    ],
+    "collocations": [
+      "disseminate widely",
+      "dissemination of knowledge",
+      "rapidly disseminated"
+    ],
+    "chinese": "散布，传播（信息）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "participate",
+    "word": "participate",
+    "phonetic": "/pɑːˈtɪsɪpeɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人原本站在群体活动之外，主动加入进去，成为这个活动里积极参与的一部分。",
+    "underlying_relation": "群体活动之外的人 → 主动加入 → 成为活动里积极参与的一部分。",
+    "core_emoji": "🧍➡️👥",
+    "scenes": [
+      {
+        "emoji": "🏃",
+        "phrase": "participate in a race",
+        "note": "人主动加入比赛这个活动｜参加比赛"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "participate in a discussion",
+        "note": "人主动加入讨论这个活动｜参与讨论"
+      },
+      {
+        "emoji": "🗳️",
+        "phrase": "participate in democracy",
+        "note": "人主动加入民主这个活动｜参与民主"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "active participation",
+        "note": "积极地加入成为活动一部分｜积极参与"
+      }
+    ],
+    "collocations": [
+      "participate in",
+      "encourage participation",
+      "actively participate"
+    ],
+    "chinese": "参与，参加",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
