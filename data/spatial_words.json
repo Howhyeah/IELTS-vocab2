@@ -5,8 +5,8 @@
     "phonetic": "/θruː/",
     "pos": "prep./adv.",
     "category": "S",
-    "core_state": "像地铁穿过隧道一样从内部穿过",
-    "core_emoji": "🚇🌲",
+    "core_state": "某个主体从一个封闭或有边界的空间的一端进入，经过内部，从另一端穿出。",
+    "core_emoji": "🕳️➡️",
     "scenes": [
       {
         "emoji": "🌲",
@@ -38,7 +38,8 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "空间一端（入口）→ 穿越内部 → 空间另一端（出口）。"
   },
   {
     "id": "across",
@@ -46,7 +47,7 @@
     "phonetic": "/əˈkrɒs/",
     "pos": "prep./adv.",
     "category": "S",
-    "core_state": "像过桥一样从一边到另一边",
+    "core_state": "主体从一个平面或区域的这一边，横向移动到正对面的另一边。",
     "core_emoji": "🌉➡️",
     "scenes": [
       {
@@ -79,7 +80,8 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "这一边 → 横向跨越宽度 → 正对面的另一边。"
   },
   {
     "id": "beyond",
@@ -87,7 +89,7 @@
     "phonetic": "/bɪˈjɒnd/",
     "pos": "prep./adv.",
     "category": "S",
-    "core_state": "像越过边界线一样超出",
+    "core_state": "某个东西的位置越过了一条边界线，落在了这条线规定范围之外的更远处。",
     "core_emoji": "🚧➡️",
     "scenes": [
       {
@@ -120,7 +122,8 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "边界线内（范围）→ 越过边界 → 边界外更远处。"
   },
   {
     "id": "within",
@@ -128,7 +131,7 @@
     "phonetic": "/wɪˈðɪn/",
     "pos": "prep./adv.",
     "category": "S",
-    "core_state": "像在圆圈内部一样在范围内",
+    "core_state": "某个东西的位置处在一个边界范围的内部，没有越出这个边界。",
     "core_emoji": "⭕📍",
     "scenes": [
       {
@@ -161,7 +164,8 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "边界范围 → 东西处于内部 → 未越出边界。"
   },
   {
     "id": "against",
@@ -169,8 +173,8 @@
     "phonetic": "/əˈɡenst/",
     "pos": "prep.",
     "category": "S",
-    "core_state": "像两股力量相互顶住",
-    "core_emoji": "⚔️💪",
+    "core_state": "两个力或两个面正对着彼此，一方顶着另一方，形成对抵或对抗的关系。",
+    "core_emoji": "🤜🤛",
     "scenes": [
       {
         "emoji": "🧱",
@@ -202,7 +206,8 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "力/面A ↔ 力/面B → 正面相对顶住 → 对抵/对抗关系。"
   },
   {
     "id": "towards",
@@ -210,8 +215,8 @@
     "phonetic": "/təˈwɔːdz/",
     "pos": "prep.",
     "category": "S",
-    "core_state": "像箭头指向目标方向",
-    "core_emoji": "➡️🎯",
+    "core_state": "主体的移动方向或态度朝着一个目标点前进，还在靠近的过程中，不一定已经到达。",
+    "core_emoji": "🏃➡️🎯",
     "scenes": [
       {
         "emoji": "🚶",
@@ -243,7 +248,8 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "出发点 → 朝目标方向移动 → 逐渐接近目标（未必到达）。"
   },
   {
     "id": "underlying",
@@ -251,8 +257,8 @@
     "phonetic": "/ˌʌndəˈlaɪɪŋ/",
     "pos": "adj.",
     "category": "S",
-    "core_state": "像地基一样在下方支撑",
-    "core_emoji": "🏗️⬇️",
+    "core_state": "某个东西藏在可见表层的下方，支撑或引发了表面看到的现象，但自己本身不直接露出来。",
+    "core_emoji": "🧊⬇️",
     "scenes": [
       {
         "emoji": "🏗️",
@@ -284,7 +290,8 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "表层现象（可见）← 下方隐藏的东西支撑/引发 → 隐藏的东西本身不可见。"
   },
   {
     "id": "overall",
@@ -292,8 +299,8 @@
     "phonetic": "/ˌəʊvərˈɔːl/",
     "pos": "adj./adv.",
     "category": "S",
-    "core_state": "像俯视全景一样总体",
-    "core_emoji": "👁️📊",
+    "core_state": "把所有单个部分放在一起，从整体的角度去看待，而不是只看某一个局部。",
+    "core_emoji": "🧩🖼️",
     "scenes": [
       {
         "emoji": "📊",
@@ -325,6 +332,7 @@
     "tags": [
       "S",
       "W"
-    ]
+    ],
+    "underlying_relation": "各个局部部分 → 全部汇总合并 → 形成一个整体视角。"
   }
 ]
