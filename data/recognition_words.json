@@ -2198,5 +2198,1055 @@
     "chinese": "不新鲜的，陈旧的",
     "topic": "描述",
     "emoji": "🍞"
+  },
+  {
+    "id": "rainforest",
+    "word": "rainforest",
+    "phonetic": "/ˈreɪnfɒrɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "雨林",
+    "topic": "生物",
+    "emoji": "🌴"
+  },
+  {
+    "id": "jungle",
+    "word": "jungle",
+    "phonetic": "/ˈdʒʌŋɡl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "丛林",
+    "topic": "地理",
+    "emoji": "🌴"
+  },
+  {
+    "id": "plantation",
+    "word": "plantation",
+    "phonetic": "/plænˈteɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "种植园",
+    "topic": "农业",
+    "emoji": "🌾"
+  },
+  {
+    "id": "field",
+    "word": "field",
+    "phonetic": "/fiːld/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "田野，野外",
+    "topic": "地理",
+    "emoji": "🌾"
+  },
+  {
+    "id": "terrace",
+    "word": "terrace",
+    "phonetic": "/ˈterəs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "梯田",
+    "topic": "农业",
+    "emoji": "🏞️"
+  },
+  {
+    "id": "timber",
+    "word": "timber",
+    "phonetic": "/ˈtɪmbə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "木材",
+    "topic": "材料",
+    "emoji": "🪵"
+  },
+  {
+    "id": "charcoal",
+    "word": "charcoal",
+    "phonetic": "/ˈtʃɑːkəʊl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "木炭",
+    "topic": "材料",
+    "emoji": "⚫"
+  },
+  {
+    "id": "log",
+    "word": "log",
+    "phonetic": "/lɒɡ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "原木；航海日志",
+    "topic": "材料",
+    "emoji": "🪵"
+  },
+  {
+    "id": "logo",
+    "word": "logo",
+    "phonetic": "/ˈləʊɡəʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "标志，标识",
+    "topic": "商业",
+    "emoji": "🏷️"
+  },
+  {
+    "id": "forestry",
+    "word": "forestry",
+    "phonetic": "/ˈfɒrɪstri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "林学，林业",
+    "topic": "科学",
+    "emoji": "🌲"
+  },
+  {
+    "id": "branch",
+    "word": "branch",
+    "phonetic": "/brɑːntʃ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "树枝；分支，分店",
+    "topic": "生物",
+    "emoji": "🌿"
+  },
+  {
+    "id": "trunk",
+    "word": "trunk",
+    "phonetic": "/trʌŋk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "树干；躯干；大箱子",
+    "topic": "生物",
+    "emoji": "🌳"
+  },
+  {
+    "id": "bough",
+    "word": "bough",
+    "phonetic": "/baʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大树枝",
+    "topic": "生物",
+    "emoji": "🌿"
+  },
+  {
+    "id": "root",
+    "word": "root",
+    "phonetic": "/ruːt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "根；生根",
+    "topic": "生物",
+    "emoji": "🌱"
+  },
+  {
+    "id": "hay",
+    "word": "hay",
+    "phonetic": "/heɪ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "干草",
+    "topic": "农业",
+    "emoji": "🌾"
+  },
+  {
+    "id": "straw",
+    "word": "straw",
+    "phonetic": "/strɔː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "稻草；吸管",
+    "topic": "农业",
+    "emoji": "🥤"
+  },
+  {
+    "id": "reed",
+    "word": "reed",
+    "phonetic": "/riːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "芦苇",
+    "topic": "生物",
+    "emoji": "🌾"
+  },
+  {
+    "id": "thorn",
+    "word": "thorn",
+    "phonetic": "/θɔːn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "刺，荆棘",
+    "topic": "生物",
+    "emoji": "🌹"
+  },
+  {
+    "id": "weed",
+    "word": "weed",
+    "phonetic": "/wiːd/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "杂草；除杂草",
+    "topic": "农业",
+    "emoji": "🌿"
+  },
+  {
+    "id": "grass",
+    "word": "grass",
+    "phonetic": "/ɡrɑːs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "草，草地",
+    "topic": "生物",
+    "emoji": "🌱"
+  },
+  {
+    "id": "meadow",
+    "word": "meadow",
+    "phonetic": "/ˈmedəʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "草地，牧场",
+    "topic": "地理",
+    "emoji": "🌾"
+  },
+  {
+    "id": "lawn",
+    "word": "lawn",
+    "phonetic": "/lɔːn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "草坪",
+    "topic": "生活",
+    "emoji": "🌱"
+  },
+  {
+    "id": "olive",
+    "word": "olive",
+    "phonetic": "/ˈɒlɪv/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "橄榄树；橄榄",
+    "topic": "生物",
+    "emoji": "🫒"
+  },
+  {
+    "id": "pine",
+    "word": "pine",
+    "phonetic": "/paɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "松树",
+    "topic": "生物",
+    "emoji": "🌲"
+  },
+  {
+    "id": "vine",
+    "word": "vine",
+    "phonetic": "/vaɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "葡萄藤",
+    "topic": "生物",
+    "emoji": "🍇"
+  },
+  {
+    "id": "violet",
+    "word": "violet",
+    "phonetic": "/ˈvaɪələt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "堇菜；紫罗兰色",
+    "topic": "生物",
+    "emoji": "💜"
+  },
+  {
+    "id": "tulip",
+    "word": "tulip",
+    "phonetic": "/ˈtjuːlɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "郁金香",
+    "topic": "生物",
+    "emoji": "🌷"
+  },
+  {
+    "id": "mint",
+    "word": "mint",
+    "phonetic": "/mɪnt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "薄荷；铸币厂",
+    "topic": "生物",
+    "emoji": "🌿"
+  },
+  {
+    "id": "reef",
+    "word": "reef",
+    "phonetic": "/riːf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "暗礁，礁",
+    "topic": "海洋",
+    "emoji": "🪸"
+  },
+  {
+    "id": "alga",
+    "word": "alga",
+    "phonetic": "/ˈælɡə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "海藻",
+    "topic": "生物",
+    "emoji": "🌿"
+  },
+  {
+    "id": "enzyme",
+    "word": "enzyme",
+    "phonetic": "/ˈenzaɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "酶",
+    "topic": "科学",
+    "emoji": "🧪"
+  },
+  {
+    "id": "catalyst",
+    "word": "catalyst",
+    "phonetic": "/ˈkætəlɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "催化剂；促成因素",
+    "topic": "科学",
+    "emoji": "🧪"
+  },
+  {
+    "id": "emission",
+    "word": "emission",
+    "phonetic": "/ɪˈmɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "排放；排放物",
+    "topic": "环境",
+    "emoji": "💨"
+  },
+  {
+    "id": "circulation",
+    "word": "circulation",
+    "phonetic": "/ˌsɜːkjəˈleɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "循环，流通",
+    "topic": "科学",
+    "emoji": "🔄"
+  },
+  {
+    "id": "uptake",
+    "word": "uptake",
+    "phonetic": "/ˈʌpteɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "摄取，吸收",
+    "topic": "科学",
+    "emoji": "⬆️"
+  },
+  {
+    "id": "nutrient",
+    "word": "nutrient",
+    "phonetic": "/ˈnjuːtriənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "营养物",
+    "topic": "科学",
+    "emoji": "🥗"
+  },
+  {
+    "id": "energy",
+    "word": "energy",
+    "phonetic": "/ˈenədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "能源，精力",
+    "topic": "科学",
+    "emoji": "⚡"
+  },
+  {
+    "id": "surroundings",
+    "word": "surroundings",
+    "phonetic": "/səˈraʊndɪŋz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "环境",
+    "topic": "环境",
+    "emoji": "🌍"
+  },
+  {
+    "id": "mechanism",
+    "word": "mechanism",
+    "phonetic": "/ˈmekənɪzəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "机制；机械装置",
+    "topic": "科学",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "conservation",
+    "word": "conservation",
+    "phonetic": "/ˌkɒnsəˈveɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "（对环境的）保护",
+    "topic": "环境",
+    "emoji": "🌍"
+  },
+  {
+    "id": "bush_fire",
+    "word": "bush fire",
+    "phonetic": "/bʊʃ ˈfaɪə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "林区大火",
+    "topic": "自然灾害",
+    "emoji": "🔥"
+  },
+  {
+    "id": "ruin",
+    "word": "ruin",
+    "phonetic": "/ˈruːɪn/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "毁坏；毁灭，废墟",
+    "topic": "描述",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "perish",
+    "word": "perish",
+    "phonetic": "/ˈperɪʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "毁灭，死亡",
+    "topic": "描述",
+    "emoji": "💀"
+  },
+  {
+    "id": "demolish",
+    "word": "demolish",
+    "phonetic": "/dɪˈmɒlɪʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "拆除，摧毁",
+    "topic": "描述",
+    "emoji": "🏗️"
+  },
+  {
+    "id": "extinction",
+    "word": "extinction",
+    "phonetic": "/ɪkˈstɪŋkʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "灭绝",
+    "topic": "生物",
+    "emoji": "🦕"
+  },
+  {
+    "id": "pattern",
+    "word": "pattern",
+    "phonetic": "/ˈpætn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "模式，图案",
+    "topic": "描述",
+    "emoji": "🔷"
+  },
+  {
+    "id": "outcome",
+    "word": "outcome",
+    "phonetic": "/ˈaʊtkʌm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "结果",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "impact",
+    "word": "impact",
+    "phonetic": "/ˈɪmpækt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "影响",
+    "topic": "描述",
+    "emoji": "💥"
+  },
+  {
+    "id": "seasonal",
+    "word": "seasonal",
+    "phonetic": "/ˈsiːzənl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "季节性的",
+    "topic": "时间",
+    "emoji": "🍂"
+  },
+  {
+    "id": "experimental",
+    "word": "experimental",
+    "phonetic": "/ɪkˌsperɪˈmentl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "实验的，试验性的",
+    "topic": "科学",
+    "emoji": "🧪"
+  },
+  {
+    "id": "favourable",
+    "word": "favourable",
+    "phonetic": "/ˈfeɪvərəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有利的，赞成的",
+    "topic": "描述",
+    "emoji": "👍"
+  },
+  {
+    "id": "productive",
+    "word": "productive",
+    "phonetic": "/prəˈdʌktɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "多产的，富有成效的",
+    "topic": "描述",
+    "emoji": "📈"
+  },
+  {
+    "id": "efficient",
+    "word": "efficient",
+    "phonetic": "/ɪˈfɪʃnt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有效率的",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "effective",
+    "word": "effective",
+    "phonetic": "/ɪˈfektɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有效的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "considerable",
+    "word": "considerable",
+    "phonetic": "/kənˈsɪdərəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "相当多的",
+    "topic": "描述",
+    "emoji": "📊"
+  },
+  {
+    "id": "massive",
+    "word": "massive",
+    "phonetic": "/ˈmæsɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "巨大的，庞大的",
+    "topic": "描述",
+    "emoji": "🗻"
+  },
+  {
+    "id": "immense",
+    "word": "immense",
+    "phonetic": "/ɪˈmens/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "巨大的",
+    "topic": "描述",
+    "emoji": "🌌"
+  },
+  {
+    "id": "maximal",
+    "word": "maximal",
+    "phonetic": "/ˈmæksɪməl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "最大的",
+    "topic": "描述",
+    "emoji": "⬆️"
+  },
+  {
+    "id": "minimal",
+    "word": "minimal",
+    "phonetic": "/ˈmɪnɪməl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "最小的",
+    "topic": "描述",
+    "emoji": "⬇️"
+  },
+  {
+    "id": "optimal",
+    "word": "optimal",
+    "phonetic": "/ˈɒptɪməl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "最佳的",
+    "topic": "描述",
+    "emoji": "🏆"
+  },
+  {
+    "id": "biologist",
+    "word": "biologist",
+    "phonetic": "/baɪˈɒlədʒɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "生物学家",
+    "topic": "职业",
+    "emoji": "🔬"
+  },
+  {
+    "id": "zoologist",
+    "word": "zoologist",
+    "phonetic": "/zuːˈɒlədʒɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "动物学家",
+    "topic": "职业",
+    "emoji": "🦁"
+  },
+  {
+    "id": "ecologist",
+    "word": "ecologist",
+    "phonetic": "/iˈkɒlədʒɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "生态学家",
+    "topic": "职业",
+    "emoji": "🌍"
+  },
+  {
+    "id": "botanist",
+    "word": "botanist",
+    "phonetic": "/ˈbɒtənɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "植物学家",
+    "topic": "职业",
+    "emoji": "🌿"
+  },
+  {
+    "id": "primate",
+    "word": "primate",
+    "phonetic": "/ˈpraɪmeɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "灵长类动物",
+    "topic": "动物",
+    "emoji": "🐒"
+  },
+  {
+    "id": "vertebrate",
+    "word": "vertebrate",
+    "phonetic": "/ˈvɜːtɪbrət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "脊椎动物",
+    "topic": "动物",
+    "emoji": "🦴"
+  },
+  {
+    "id": "reptile",
+    "word": "reptile",
+    "phonetic": "/ˈreptaɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "爬行动物",
+    "topic": "动物",
+    "emoji": "🦎"
+  },
+  {
+    "id": "amphibian",
+    "word": "amphibian",
+    "phonetic": "/æmˈfɪbiən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "两栖动物",
+    "topic": "动物",
+    "emoji": "🐸"
+  },
+  {
+    "id": "carnivore",
+    "word": "carnivore",
+    "phonetic": "/ˈkɑːnɪvɔː(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "肉食动物",
+    "topic": "动物",
+    "emoji": "🦁"
+  },
+  {
+    "id": "herbivore",
+    "word": "herbivore",
+    "phonetic": "/ˈhɜːbɪvɔː(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "食草动物",
+    "topic": "动物",
+    "emoji": "🦌"
+  },
+  {
+    "id": "creature",
+    "word": "creature",
+    "phonetic": "/ˈkriːtʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "生物，动物",
+    "topic": "动物",
+    "emoji": "🐾"
+  },
+  {
+    "id": "wildlife",
+    "word": "wildlife",
+    "phonetic": "/ˈwaɪldlaɪf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "野生动物",
+    "topic": "动物",
+    "emoji": "🦌"
+  },
+  {
+    "id": "fauna",
+    "word": "fauna",
+    "phonetic": "/ˈfɔːnə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "动物群",
+    "topic": "动物",
+    "emoji": "🐾"
+  },
+  {
+    "id": "flora",
+    "word": "flora",
+    "phonetic": "/ˈflɔːrə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "植物群",
+    "topic": "生物",
+    "emoji": "🌿"
+  },
+  {
+    "id": "species",
+    "word": "species",
+    "phonetic": "/ˈspiːʃiːz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "物种",
+    "topic": "生物",
+    "emoji": "🐾"
+  },
+  {
+    "id": "flock",
+    "word": "flock",
+    "phonetic": "/flɒk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "（羊/鸟）群",
+    "topic": "动物",
+    "emoji": "🐑"
+  },
+  {
+    "id": "herd",
+    "word": "herd",
+    "phonetic": "/hɜːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "兽群，畜群",
+    "topic": "动物",
+    "emoji": "🐄"
+  },
+  {
+    "id": "swarm",
+    "word": "swarm",
+    "phonetic": "/swɔːm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "（蜂/虫）群",
+    "topic": "动物",
+    "emoji": "🐝"
+  },
+  {
+    "id": "throng",
+    "word": "throng",
+    "phonetic": "/θrɒŋ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "一大群人",
+    "topic": "生活",
+    "emoji": "👥"
+  },
+  {
+    "id": "crowd",
+    "word": "crowd",
+    "phonetic": "/kraʊd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "人群",
+    "topic": "生活",
+    "emoji": "👥"
+  },
+  {
+    "id": "beast",
+    "word": "beast",
+    "phonetic": "/biːst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "野兽",
+    "topic": "动物",
+    "emoji": "🐗"
+  },
+  {
+    "id": "brute",
+    "word": "brute",
+    "phonetic": "/bruːt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "残暴的人",
+    "topic": "描述",
+    "emoji": "😠"
+  },
+  {
+    "id": "cruel",
+    "word": "cruel",
+    "phonetic": "/ˈkruːəl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "残酷的，残忍的",
+    "topic": "描述",
+    "emoji": "😈"
+  },
+  {
+    "id": "stem",
+    "word": "stem",
+    "phonetic": "/stem/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "茎，梗；起源于",
+    "topic": "生物",
+    "emoji": "🌿"
+  },
+  {
+    "id": "ancestor",
+    "word": "ancestor",
+    "phonetic": "/ˈænsestə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "祖先",
+    "topic": "生物",
+    "emoji": "👴"
+  },
+  {
+    "id": "descendant",
+    "word": "descendant",
+    "phonetic": "/dɪˈsendənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "后代",
+    "topic": "生物",
+    "emoji": "👶"
+  },
+  {
+    "id": "offspring",
+    "word": "offspring",
+    "phonetic": "/ˈɒfsprɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "后代，产物",
+    "topic": "生物",
+    "emoji": "🐣"
+  },
+  {
+    "id": "subgroup",
+    "word": "subgroup",
+    "phonetic": "/ˈsʌbɡruːp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "子群",
+    "topic": "科学",
+    "emoji": "🔢"
+  },
+  {
+    "id": "feed",
+    "word": "feed",
+    "phonetic": "/fiːd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "喂养；进食",
+    "topic": "动物",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "breed",
+    "word": "breed",
+    "phonetic": "/briːd/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "饲养，繁殖；品种",
+    "topic": "动物",
+    "emoji": "🐕"
+  },
+  {
+    "id": "interbreed",
+    "word": "interbreed",
+    "phonetic": "/ˌɪntəˈbriːd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "使杂交，使混生",
+    "topic": "生物",
+    "emoji": "🧬"
+  },
+  {
+    "id": "hybridize",
+    "word": "hybridize",
+    "phonetic": "/ˈhaɪbrɪdaɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "使杂交",
+    "topic": "生物",
+    "emoji": "🧬"
+  },
+  {
+    "id": "sterility",
+    "word": "sterility",
+    "phonetic": "/stəˈrɪləti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "不育，不孕",
+    "topic": "生物",
+    "emoji": "🚫"
+  },
+  {
+    "id": "mate",
+    "word": "mate",
+    "phonetic": "/meɪt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "配偶；交配",
+    "topic": "动物",
+    "emoji": "🐦"
+  },
+  {
+    "id": "courtship",
+    "word": "courtship",
+    "phonetic": "/ˈkɔːtʃɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "求偶",
+    "topic": "动物",
+    "emoji": "💕"
+  },
+  {
+    "id": "lay",
+    "word": "lay",
+    "phonetic": "/leɪ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "产（卵）；放置",
+    "topic": "动物",
+    "emoji": "🥚"
+  },
+  {
+    "id": "hatch",
+    "word": "hatch",
+    "phonetic": "/hætʃ/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "孵化",
+    "topic": "动物",
+    "emoji": "🐣"
+  },
+  {
+    "id": "brood",
+    "word": "brood",
+    "phonetic": "/bruːd/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "一窝幼鸟；孵蛋",
+    "topic": "动物",
+    "emoji": "🐤"
+  },
+  {
+    "id": "spawn",
+    "word": "spawn",
+    "phonetic": "/spɔːn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "（鱼）卵；产卵",
+    "topic": "动物",
+    "emoji": "🐟"
+  },
+  {
+    "id": "skin",
+    "word": "skin",
+    "phonetic": "/skɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "皮肤；外皮",
+    "topic": "生物",
+    "emoji": "🧴"
+  },
+  {
+    "id": "paw",
+    "word": "paw",
+    "phonetic": "/pɔː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "（动物的）脚掌，爪子",
+    "topic": "动物",
+    "emoji": "🐾"
+  },
+  {
+    "id": "beak",
+    "word": "beak",
+    "phonetic": "/biːk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "鸟嘴，喙",
+    "topic": "动物",
+    "emoji": "🦜"
+  },
+  {
+    "id": "fin",
+    "word": "fin",
+    "phonetic": "/fɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "鳍",
+    "topic": "动物",
+    "emoji": "🐠"
+  },
+  {
+    "id": "wing",
+    "word": "wing",
+    "phonetic": "/wɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "翅膀",
+    "topic": "动物",
+    "emoji": "🦋"
+  },
+  {
+    "id": "plume",
+    "word": "plume",
+    "phonetic": "/pluːm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "羽毛",
+    "topic": "动物",
+    "emoji": "🪶"
   }
 ]
