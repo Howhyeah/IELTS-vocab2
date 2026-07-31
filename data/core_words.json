@@ -3940,5 +3940,467 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "absorb",
+    "word": "absorb",
+    "phonetic": "/əbˈzɔːb/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "外部的一种物质或信息，被一个主体吸入内部，融入自身，从外在的东西变成主体内部的一部分。",
+    "underlying_relation": "外部物质/信息 → 被主体吸入内部 → 融入主体，不再是独立的外部存在。",
+    "core_emoji": "🧽💧",
+    "scenes": [
+      {
+        "emoji": "🧽",
+        "phrase": "sponge absorbs water",
+        "note": "水被海绵吸入内部｜海绵吸水"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "absorb knowledge",
+        "note": "知识被吸收进大脑｜吸收知识"
+      },
+      {
+        "emoji": "🌱",
+        "phrase": "roots absorb nutrients",
+        "note": "养分被根系吸入植物内部｜根部吸收养分"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "be absorbed in work",
+        "note": "注意力完全被工作吸进去｜专注于工作"
+      }
+    ],
+    "collocations": [
+      "absorb energy",
+      "fully absorbed",
+      "absorb shock"
+    ],
+    "chinese": "吸收；吸引（注意力）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "exceed",
+    "word": "exceed",
+    "phonetic": "/ɪkˈsiːd/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个数值或程度，越过了一条设定好的上限线，跑到了这条线规定的范围之外。",
+    "underlying_relation": "设定的上限线 → 数值越过这条线 → 落在允许范围之外。",
+    "core_emoji": "📏➡️",
+    "scenes": [
+      {
+        "emoji": "🚗",
+        "phrase": "exceed the speed limit",
+        "note": "车速越过限速线｜超速"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "exceed the budget",
+        "note": "花费越过预算上限｜超出预算"
+      },
+      {
+        "emoji": "⭐",
+        "phrase": "exceed expectations",
+        "note": "表现越过预期上限｜超出预期"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "demand exceeds supply",
+        "note": "需求越过供给的量｜供不应求"
+      }
+    ],
+    "collocations": [
+      "exceed the limit",
+      "far exceed",
+      "not to exceed"
+    ],
+    "chinese": "超过，超出",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "counterbalance",
+    "word": "counterbalance",
+    "phonetic": "/ˌkaʊntəˈbæləns/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一股力量或一个因素，专门用来抵消另一股相反方向的力量，让两者相互抵消，最终达到平衡。",
+    "underlying_relation": "力量A（一个方向）+ 力量B（相反方向）→ 相互抵消 → 达到平衡。",
+    "core_emoji": "⚖️↔️",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "counterbalance the losses",
+        "note": "收益抵消掉亏损｜抵消损失"
+      },
+      {
+        "emoji": "🏋️",
+        "phrase": "counterbalance the weight",
+        "note": "一边的重量抵消另一边｜抵消重量"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "counterbalance emissions",
+        "note": "减排措施抵消排放量｜抵消排放"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "counterbalance power",
+        "note": "一方力量制衡另一方｜制衡权力"
+      }
+    ],
+    "collocations": [
+      "counterbalance effect",
+      "act as a counterbalance",
+      "counterbalance against"
+    ],
+    "chinese": "抵消；使平衡；起制衡作用",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "preserve",
+    "word": "preserve",
+    "phonetic": "/prɪˈzɜːv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个已经存在的良好状态，通过主动采取保护措施，被持续维持在原样，不让它随时间损坏或消失。",
+    "underlying_relation": "良好状态 + 主动保护措施 → 持续维持原样 → 不被时间/损耗改变。",
+    "core_emoji": "🏛️🛡️",
+    "scenes": [
+      {
+        "emoji": "🏛️",
+        "phrase": "preserve historic buildings",
+        "note": "古建筑被保护维持原样｜保护历史建筑"
+      },
+      {
+        "emoji": "🥫",
+        "phrase": "preserve food",
+        "note": "食物被保护不变质｜保存食物"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "preserve traditions",
+        "note": "传统被持续维持不消失｜保护传统"
+      },
+      {
+        "emoji": "🌲",
+        "phrase": "preserve the environment",
+        "note": "环境被保护维持原状｜保护环境"
+      }
+    ],
+    "collocations": [
+      "preserve cultural heritage",
+      "well preserved",
+      "preserve balance"
+    ],
+    "chinese": "保护，维护；保存",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "extinguish",
+    "word": "extinguish",
+    "phonetic": "/ɪkˈstɪŋɡwɪʃ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本正在活跃燃烧或存在的东西，被外力强行压制，突然彻底停止、熄灭。",
+    "underlying_relation": "活跃燃烧/存在的东西 + 外力强行压制 → 突然彻底停止（熄灭）。",
+    "core_emoji": "🔥<span style=\"color:#e53935;font-weight:bold\">→</span>⚫",
+    "scenes": [
+      {
+        "emoji": "🔥",
+        "phrase": "extinguish a fire",
+        "note": "燃烧的火被强行扑灭｜灭火"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "extinguish hope",
+        "note": "希望被彻底浇灭｜浇灭希望"
+      },
+      {
+        "emoji": "🕯️",
+        "phrase": "extinguish a candle",
+        "note": "蜡烛的火焰被吹灭｜熄灭蜡烛"
+      },
+      {
+        "emoji": "😡",
+        "phrase": "extinguish anger",
+        "note": "怒火被强行压下去｜平息怒火"
+      }
+    ],
+    "collocations": [
+      "extinguish flames",
+      "fire extinguisher",
+      "completely extinguished"
+    ],
+    "chinese": "熄灭；扑灭；使破灭",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "undermine",
+    "word": "undermine",
+    "phonetic": "/ˌʌndəˈmaɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个看似稳固的结构或地位，底部的支撑被暗中一点点挖空削弱，表面还没垮，但根基已经在动摇。",
+    "underlying_relation": "稳固的结构/地位 + 底部支撑被暗中削弱 → 根基动摇（表面暂未垮塌）。",
+    "core_emoji": "🏛️⛏️",
+    "scenes": [
+      {
+        "emoji": "🤝",
+        "phrase": "undermine trust",
+        "note": "信任的根基被暗中削弱｜破坏信任"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "undermine confidence",
+        "note": "自信的底气被逐渐挖空｜削弱信心"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "undermine authority",
+        "note": "权威的根基被暗中动摇｜削弱权威"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "undermine the economy",
+        "note": "经济根基被逐渐削弱｜破坏经济"
+      }
+    ],
+    "collocations": [
+      "undermine stability",
+      "seriously undermine",
+      "undermine efforts"
+    ],
+    "chinese": "逐渐削弱，破坏（根基）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "infringe",
+    "word": "infringe",
+    "phonetic": "/ɪnˈfrɪndʒ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一条本该受到尊重的边界或规则线，被某个行为直接跨越、侵入，边界因此被打破。",
+    "underlying_relation": "受保护的边界/规则线 → 行为直接跨越侵入 → 边界被打破（侵权/违反）。",
+    "core_emoji": "🚧➡️",
+    "scenes": [
+      {
+        "emoji": "©️",
+        "phrase": "infringe copyright",
+        "note": "版权边界被跨越侵入｜侵犯版权"
+      },
+      {
+        "emoji": "🔒",
+        "phrase": "infringe privacy",
+        "note": "隐私边界被侵入｜侵犯隐私"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "infringe the law",
+        "note": "法律边界被跨越｜违反法律"
+      },
+      {
+        "emoji": "🗳️",
+        "phrase": "infringe on rights",
+        "note": "权利边界被侵入｜侵犯权利"
+      }
+    ],
+    "collocations": [
+      "infringe on",
+      "copyright infringement",
+      "infringe regulations"
+    ],
+    "chinese": "违反；侵犯，侵害",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "originate",
+    "word": "originate",
+    "phonetic": "/əˈrɪdʒɪneɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "某个事物如果一直往前追溯，最终能找到它最初出现、开始存在的那一个起点。",
+    "underlying_relation": "当前存在的事物 → 往前追溯 → 找到最初出现的起点。",
+    "core_emoji": "🔍📍",
+    "scenes": [
+      {
+        "emoji": "🍕",
+        "phrase": "pizza originated in Italy",
+        "note": "追溯到最初出现的地方｜披萨起源于意大利"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "the idea originated from him",
+        "note": "想法追溯到他这个起点｜想法源自他"
+      },
+      {
+        "emoji": "🦠",
+        "phrase": "the virus originated in animals",
+        "note": "病毒追溯到动物这个起点｜病毒源自动物"
+      },
+      {
+        "emoji": "🎵",
+        "phrase": "the tradition originated centuries ago",
+        "note": "传统追溯到几世纪前的起点｜传统起源于几世纪前"
+      }
+    ],
+    "collocations": [
+      "originate from",
+      "originate in",
+      "the origin of"
+    ],
+    "chinese": "发源，起源；起初出现",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "derive",
+    "word": "derive",
+    "phonetic": "/dɪˈraɪv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "某个东西不是凭空产生的，而是主动从一个已存在的源头里提取、获得出来的。",
+    "underlying_relation": "已存在的源头 → 主动从中提取/获得 → 得到派生出的新东西。",
+    "core_emoji": "🌊➡️🥤",
+    "scenes": [
+      {
+        "emoji": "📖",
+        "phrase": "derive meaning from context",
+        "note": "意义从上下文中提取出来｜从语境中获得意义"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "derive income from investments",
+        "note": "收入从投资这个源头获得｜从投资获得收入"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "derive satisfaction from work",
+        "note": "满足感从工作中获得｜从工作中获得满足感"
+      },
+      {
+        "emoji": "🧬",
+        "phrase": "words derived from Latin",
+        "note": "词汇从拉丁语这个源头产生｜源自拉丁语的单词"
+      }
+    ],
+    "collocations": [
+      "derive from",
+      "be derived from",
+      "derive benefit"
+    ],
+    "chinese": "获得，得到；源自",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "proliferate",
+    "word": "proliferate",
+    "phonetic": "/prəˈlɪfəreɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本数量不多的东西，在很短时间内快速自我复制、增多，迅速扩散开来。",
+    "underlying_relation": "少量的东西 → 短时间内快速自我复制 → 数量迅速扩散增多。",
+    "core_emoji": "🦠➡️🦠🦠🦠",
+    "scenes": [
+      {
+        "emoji": "🦠",
+        "phrase": "cells proliferate",
+        "note": "细胞快速自我复制增多｜细胞增殖"
+      },
+      {
+        "emoji": "📱",
+        "phrase": "apps proliferate",
+        "note": "应用数量迅速扩散增多｜应用程序剧增"
+      },
+      {
+        "emoji": "🌿",
+        "phrase": "weeds proliferate",
+        "note": "杂草快速蔓延增多｜杂草蔓生"
+      },
+      {
+        "emoji": "📰",
+        "phrase": "fake news proliferates",
+        "note": "假消息迅速扩散增多｜假新闻泛滥"
+      }
+    ],
+    "collocations": [
+      "rapidly proliferate",
+      "proliferation of",
+      "nuclear proliferation"
+    ],
+    "chinese": "增殖；剧增，激增",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "mature",
+    "word": "mature",
+    "phonetic": "/məˈtʃʊə(r)/",
+    "pos": "v./adj.",
+    "category": "A",
+    "core_state": "一个原本发育不完全、经验不足的状态，经过时间的持续积累，逐渐发展成完整、稳定、可靠的状态。",
+    "underlying_relation": "不完全/不成熟状态 ×（时间积累）→ 发展成完整稳定的状态。",
+    "core_emoji": "🐣<span style=\"color:#e53935;font-weight:bold\">→</span>🦅",
+    "scenes": [
+      {
+        "emoji": "🧑",
+        "phrase": "mature emotionally",
+        "note": "心理逐渐发展完整稳定｜情感成熟"
+      },
+      {
+        "emoji": "🍷",
+        "phrase": "wine matures with age",
+        "note": "酒随时间积累变得醇厚稳定｜酒随时间成熟"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "the bond matures",
+        "note": "债券到期变得完整可兑付｜债券到期"
+      },
+      {
+        "emoji": "🌳",
+        "phrase": "a mature tree",
+        "note": "树木经过时间长成完整形态｜成熟的树"
+      }
+    ],
+    "collocations": [
+      "mature gradually",
+      "emotionally mature",
+      "reach maturity"
+    ],
+    "chinese": "成熟的；（使）成熟",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
