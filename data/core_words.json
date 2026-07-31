@@ -3478,5 +3478,467 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "pour",
+    "word": "pour",
+    "phonetic": "/pɔː(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "大量液体不受控制地持续从一个容器或天空中，猛烈地向下或向外倒出。",
+    "underlying_relation": "液体聚集 → 突然大量倾泻而出 → 持续猛烈流出（不是细流，是大量）。",
+    "core_emoji": "🫗🌧️",
+    "scenes": [
+      {
+        "emoji": "☕",
+        "phrase": "pour a cup of tea",
+        "note": "液体大量倒出到杯中｜倒茶"
+      },
+      {
+        "emoji": "🌧️",
+        "phrase": "rain pours down",
+        "note": "雨水大量猛烈落下｜倾盆大雨"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "money pours in",
+        "note": "资金大量持续涌入｜资金大量流入"
+      },
+      {
+        "emoji": "😢",
+        "phrase": "tears pour out",
+        "note": "眼泪大量涌出｜泪如雨下"
+      }
+    ],
+    "collocations": [
+      "pour into",
+      "pour out",
+      "pouring rain"
+    ],
+    "chinese": "倾倒；（雨）倾盆而下；大量涌出",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "classify",
+    "word": "classify",
+    "phonetic": "/ˈklæsɪfaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一堆性质各不相同的事物，依据某种共同特征被拆分开来，各自归入对应的类别箱子里。",
+    "underlying_relation": "混杂的一堆事物 → 依特征拆分归类 → 分别进入不同类别。",
+    "core_emoji": "🔀📦",
+    "scenes": [
+      {
+        "emoji": "📚",
+        "phrase": "classify books by genre",
+        "note": "书籍按类型分开归类｜按类型分类书籍"
+      },
+      {
+        "emoji": "🦋",
+        "phrase": "classify species",
+        "note": "物种按特征分类｜物种分类"
+      },
+      {
+        "emoji": "🔒",
+        "phrase": "classified information",
+        "note": "信息被归入保密类别｜机密信息"
+      },
+      {
+        "emoji": "🗑️",
+        "phrase": "classify waste",
+        "note": "垃圾按类型分开｜垃圾分类"
+      }
+    ],
+    "collocations": [
+      "classify as",
+      "classification system",
+      "broadly classified"
+    ],
+    "chinese": "分类；把…归类",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "evolve",
+    "word": "evolve",
+    "phonetic": "/ɪˈvɒlv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个简单或原始的形态，经过长时间微小的持续改变，逐渐变成一个更复杂或不同的形态。",
+    "underlying_relation": "简单/原始形态 ×（长时间持续微小改变）→ 复杂/不同的新形态。",
+    "core_emoji": "🐛<span style=\"color:#e53935;font-weight:bold\">→</span>🦋",
+    "scenes": [
+      {
+        "emoji": "🐒",
+        "phrase": "species evolve",
+        "note": "物种逐代缓慢改变｜物种进化"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "technology evolves",
+        "note": "技术持续微小改进｜技术演变"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "language evolves",
+        "note": "语言随时间逐渐变化｜语言演变"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "ideas evolve",
+        "note": "想法逐渐发展成熟｜观念演进"
+      }
+    ],
+    "collocations": [
+      "evolve from",
+      "evolve into",
+      "continually evolving"
+    ],
+    "chinese": "进化；逐渐发展，演变",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "fluctuate",
+    "word": "fluctuate",
+    "phonetic": "/ˈflʌktʃueɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个数值或状态不是持续朝一个方向变化，而是反复地一会儿上升一会儿下降，围绕着一个中间水平来回摆动。",
+    "underlying_relation": "中间水平 → 反复上下摆动（非单向）→ 数值持续起伏不定。",
+    "core_emoji": "🎢",
+    "scenes": [
+      {
+        "emoji": "💹",
+        "phrase": "prices fluctuate",
+        "note": "价格忽高忽低｜价格波动"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "temperature fluctuates",
+        "note": "温度忽冷忽热｜温度波动"
+      },
+      {
+        "emoji": "😔",
+        "phrase": "mood fluctuates",
+        "note": "情绪忽好忽差｜情绪起伏"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "weight fluctuates",
+        "note": "体重忽轻忽重｜体重波动"
+      }
+    ],
+    "collocations": [
+      "fluctuate wildly",
+      "fluctuate between",
+      "fluctuating exchange rate"
+    ],
+    "chinese": "波动，起伏不定",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "cultivate",
+    "word": "cultivate",
+    "phonetic": "/ˈkʌltɪveɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一片原本荒芜或一项原本粗糙的能力/关系，经过持续用心的照料和投入，逐渐变得肥沃、成熟或深厚。",
+    "underlying_relation": "荒芜/粗糙状态 + 持续用心照料 → 逐渐变得肥沃/成熟/深厚。",
+    "core_emoji": "🌱💧",
+    "scenes": [
+      {
+        "emoji": "🌾",
+        "phrase": "cultivate land",
+        "note": "荒地被持续照料变肥沃｜耕种土地"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "cultivate a skill",
+        "note": "粗浅的能力被持续打磨精进｜培养技能"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "cultivate relationships",
+        "note": "浅薄的关系被持续经营加深｜培养人际关系"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "cultivate a habit",
+        "note": "习惯被持续养成｜培养习惯"
+      }
+    ],
+    "collocations": [
+      "cultivate crops",
+      "cultivate an interest",
+      "carefully cultivated"
+    ],
+    "chinese": "耕作；培养，培育",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "reclaim",
+    "word": "reclaim",
+    "phonetic": "/rɪˈkleɪm/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一片原本被荒废、占用或失去的土地/权利，经过主动争取或改造，重新被拿回、投入使用。",
+    "underlying_relation": "荒废/被占用的东西 → 主动争取改造 → 重新拿回、恢复可用。",
+    "core_emoji": "🏜️<span style=\"color:#e53935;font-weight:bold\">→</span>🌾",
+    "scenes": [
+      {
+        "emoji": "🌊",
+        "phrase": "reclaim land from the sea",
+        "note": "海洋被改造成陆地｜填海造陆"
+      },
+      {
+        "emoji": "🧳",
+        "phrase": "reclaim lost luggage",
+        "note": "丢失的行李被找回｜寻回失物"
+      },
+      {
+        "emoji": "🏆",
+        "phrase": "reclaim the title",
+        "note": "失去的荣誉被重新夺回｜重夺冠军"
+      },
+      {
+        "emoji": "🗳️",
+        "phrase": "reclaim one's rights",
+        "note": "被剥夺的权利被争取回来｜争取回权利"
+      }
+    ],
+    "collocations": [
+      "reclaim territory",
+      "baggage reclaim",
+      "reclaimed materials"
+    ],
+    "chinese": "开垦，回收利用；讨回，重新获得",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "yield",
+    "word": "yield",
+    "phonetic": "/jiːld/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本在抵抗某种压力的东西，最终扛不住持续的压力，停止抵抗；或者反过来因为投入了努力，产出了成果。",
+    "underlying_relation": "持续施加的压力 → 抵抗力耗尽 → 让步/屈服（或反向：投入产出成果）。",
+    "core_emoji": "💪<span style=\"color:#e53935;font-weight:bold\">→</span>🤲",
+    "scenes": [
+      {
+        "emoji": "🌾",
+        "phrase": "crops yield a good harvest",
+        "note": "投入产出丰收成果｜农作物产出丰收"
+      },
+      {
+        "emoji": "🚗",
+        "phrase": "yield to oncoming traffic",
+        "note": "停止抢行，让步给来车｜让行"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "yield high returns",
+        "note": "投资产出高回报｜产生高回报"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "yield to pressure",
+        "note": "抵抗力耗尽，屈服于压力｜屈服于压力"
+      }
+    ],
+    "collocations": [
+      "yield results",
+      "yield to demands",
+      "high-yield investment"
+    ],
+    "chinese": "屈服，让步；产出，收益",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "germinate",
+    "word": "germinate",
+    "phonetic": "/ˈdʒɜːmɪneɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一颗原本处于休眠、看不出任何生命迹象的种子，在合适的条件下，突然开始内部活动，长出第一根嫩芽。",
+    "underlying_relation": "休眠种子（无生命迹象）→ 合适条件触发 → 开始生长，长出嫩芽。",
+    "core_emoji": "🌰<span style=\"color:#e53935;font-weight:bold\">→</span>🌱",
+    "scenes": [
+      {
+        "emoji": "🌰",
+        "phrase": "seeds germinate",
+        "note": "休眠的种子开始发芽｜种子发芽"
+      },
+      {
+        "emoji": "💧",
+        "phrase": "germinate in moist soil",
+        "note": "湿润土壤触发种子发芽｜在湿润土壤中发芽"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "an idea germinates",
+        "note": "想法从无到有开始萌发｜想法萌生"
+      },
+      {
+        "emoji": "🌱",
+        "phrase": "germination period",
+        "note": "种子发芽所需的时间段｜发芽期"
+      }
+    ],
+    "collocations": [
+      "germinate quickly",
+      "seed germination",
+      "begin to germinate"
+    ],
+    "chinese": "（使）发芽；萌发",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "ripen",
+    "word": "ripen",
+    "phonetic": "/ˈraɪpən/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本生涩、未成熟的果实或状态，经过时间的积累，逐渐变得饱满、香甜、可以食用或使用。",
+    "underlying_relation": "生涩未成熟状态 ×（时间积累）→ 变得饱满成熟可用。",
+    "core_emoji": "🟢<span style=\"color:#e53935;font-weight:bold\">→</span>🍎",
+    "scenes": [
+      {
+        "emoji": "🍌",
+        "phrase": "bananas ripen quickly",
+        "note": "生涩的果实很快变成熟｜香蕉很快成熟"
+      },
+      {
+        "emoji": "☀️",
+        "phrase": "ripen in the sun",
+        "note": "阳光加速果实成熟｜在阳光下成熟"
+      },
+      {
+        "emoji": "🍷",
+        "phrase": "wine ripens with age",
+        "note": "酒随时间积累变得醇厚｜酒随时间成熟"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "a ripening plan",
+        "note": "计划逐渐成熟完善｜逐渐成熟的计划"
+      }
+    ],
+    "collocations": [
+      "fully ripened",
+      "ripen on the tree",
+      "ripening process"
+    ],
+    "chinese": "（使）成熟",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "wither",
+    "word": "wither",
+    "phonetic": "/ˈwɪðə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本鲜活饱满的植物或状态，因为缺乏水分或活力的持续供给，逐渐干瘪、失去生机。",
+    "underlying_relation": "鲜活状态 + 缺乏持续养分/活力 → 逐渐干瘪 → 失去生机（枯萎）。",
+    "core_emoji": "🌷<span style=\"color:#e53935;font-weight:bold\">→</span>🥀",
+    "scenes": [
+      {
+        "emoji": "🌻",
+        "phrase": "flowers wither",
+        "note": "鲜花因缺水逐渐枯萎｜花朵枯萎"
+      },
+      {
+        "emoji": "🏜️",
+        "phrase": "crops wither in drought",
+        "note": "作物因干旱逐渐干瘪｜作物在旱灾中枯萎"
+      },
+      {
+        "emoji": "💔",
+        "phrase": "hope withers",
+        "note": "希望逐渐失去生机｜希望枯萎破灭"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "muscles wither",
+        "note": "肌肉因缺乏使用逐渐萎缩｜肌肉萎缩"
+      }
+    ],
+    "collocations": [
+      "wither away",
+      "wither and die",
+      "withered leaves"
+    ],
+    "chinese": "枯萎，凋谢；衰退，萎缩",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "decompose",
+    "word": "decompose",
+    "phonetic": "/ˌdiːkəmˈpəʊz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本结构完整的有机体，在微生物的持续作用下，一点点被拆解成更简单的组成部分，最终融入周围环境。",
+    "underlying_relation": "完整有机体 + 微生物持续作用 → 结构被拆解 → 分解成简单成分融入环境。",
+    "core_emoji": "🍂<span style=\"color:#e53935;font-weight:bold\">→</span>🟤",
+    "scenes": [
+      {
+        "emoji": "🍂",
+        "phrase": "leaves decompose",
+        "note": "落叶被微生物拆解｜叶子分解"
+      },
+      {
+        "emoji": "🦴",
+        "phrase": "organic matter decomposes",
+        "note": "有机物质逐渐分解｜有机物分解"
+      },
+      {
+        "emoji": "🧪",
+        "phrase": "decompose into elements",
+        "note": "化合物被拆解成基本元素｜分解成元素"
+      },
+      {
+        "emoji": "🗑️",
+        "phrase": "biodegradable waste decomposes",
+        "note": "可降解垃圾逐渐分解｜可降解垃圾分解"
+      }
+    ],
+    "collocations": [
+      "decompose naturally",
+      "decomposition process",
+      "fully decomposed"
+    ],
+    "chinese": "分解；腐烂",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
