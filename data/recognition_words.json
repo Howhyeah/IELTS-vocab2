@@ -9378,5 +9378,1655 @@
     "chinese": "情况，环境",
     "topic": "描述",
     "emoji": "🌍"
+  },
+  {
+    "id": "culture",
+    "word": "culture",
+    "phonetic": "/ˈkʌltʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "文化",
+    "topic": "文化",
+    "emoji": "🎭"
+  },
+  {
+    "id": "civilisation",
+    "word": "civilisation",
+    "phonetic": "/ˌsɪvəlaɪˈzeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "文明",
+    "topic": "文化",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "renaissance",
+    "word": "renaissance",
+    "phonetic": "/rɪˈneɪsns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "文艺复兴时期",
+    "topic": "历史",
+    "emoji": "🎨"
+  },
+  {
+    "id": "epic",
+    "word": "epic",
+    "phonetic": "/ˈepɪk/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "史诗；宏大的",
+    "topic": "文学",
+    "emoji": "📜"
+  },
+  {
+    "id": "ideology",
+    "word": "ideology",
+    "phonetic": "/ˌaɪdiˈɒlədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "意识形态",
+    "topic": "文化",
+    "emoji": "💭"
+  },
+  {
+    "id": "tradition",
+    "word": "tradition",
+    "phonetic": "/trəˈdɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "传统",
+    "topic": "文化",
+    "emoji": "🎭"
+  },
+  {
+    "id": "convention",
+    "word": "convention",
+    "phonetic": "/kənˈvenʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "惯例；大会",
+    "topic": "文化",
+    "emoji": "📋"
+  },
+  {
+    "id": "custom",
+    "word": "custom",
+    "phonetic": "/ˈkʌstəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "习俗",
+    "topic": "文化",
+    "emoji": "🎭"
+  },
+  {
+    "id": "feudalism",
+    "word": "feudalism",
+    "phonetic": "/ˈfjuːdəlɪzəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "封建主义",
+    "topic": "历史",
+    "emoji": "🏰"
+  },
+  {
+    "id": "slavery",
+    "word": "slavery",
+    "phonetic": "/ˈsleɪvəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "奴隶制",
+    "topic": "历史",
+    "emoji": "⛓️"
+  },
+  {
+    "id": "ethical",
+    "word": "ethical",
+    "phonetic": "/ˈeθɪkl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "伦理的，道德的",
+    "topic": "描述",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "moral",
+    "word": "moral",
+    "phonetic": "/ˈmɒrəl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "道德上的",
+    "topic": "描述",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "tribe",
+    "word": "tribe",
+    "phonetic": "/traɪb/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "部落",
+    "topic": "文化",
+    "emoji": "🏕️"
+  },
+  {
+    "id": "aboriginal",
+    "word": "aboriginal",
+    "phonetic": "/ˌæbəˈrɪdʒənl/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "土著人；本土原有的",
+    "topic": "文化",
+    "emoji": "🪃"
+  },
+  {
+    "id": "inhabitant",
+    "word": "inhabitant",
+    "phonetic": "/ɪnˈhæbɪtənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "居民",
+    "topic": "描述",
+    "emoji": "🏠"
+  },
+  {
+    "id": "native",
+    "word": "native",
+    "phonetic": "/ˈneɪtɪv/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "本土的；本地人",
+    "topic": "描述",
+    "emoji": "🏡"
+  },
+  {
+    "id": "local",
+    "word": "local",
+    "phonetic": "/ˈləʊkl/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "当地的；当地人",
+    "topic": "描述",
+    "emoji": "📍"
+  },
+  {
+    "id": "exotic",
+    "word": "exotic",
+    "phonetic": "/ɪɡˈzɒtɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "外来的，异国情调的",
+    "topic": "描述",
+    "emoji": "🌴"
+  },
+  {
+    "id": "foreigner",
+    "word": "foreigner",
+    "phonetic": "/ˈfɒrənə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "外国人",
+    "topic": "描述",
+    "emoji": "🌍"
+  },
+  {
+    "id": "alien",
+    "word": "alien",
+    "phonetic": "/ˈeɪliən/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "外国的；外星生物",
+    "topic": "描述",
+    "emoji": "👽"
+  },
+  {
+    "id": "anthropologist",
+    "word": "anthropologist",
+    "phonetic": "/ˌænθrəˈpɒlədʒɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "人类学家",
+    "topic": "职业",
+    "emoji": "🔬"
+  },
+  {
+    "id": "humanitarian",
+    "word": "humanitarian",
+    "phonetic": "/hjuːˌmænɪˈteəriən/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "人道主义者；人道主义的",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "heritage",
+    "word": "heritage",
+    "phonetic": "/ˈherɪtɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "遗产",
+    "topic": "文化",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "antique",
+    "word": "antique",
+    "phonetic": "/ænˈtiːk/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "古董；古董的",
+    "topic": "文化",
+    "emoji": "🏺"
+  },
+  {
+    "id": "archaeology",
+    "word": "archaeology",
+    "phonetic": "/ˌɑːkiˈɒlədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "考古学",
+    "topic": "学科",
+    "emoji": "🏺"
+  },
+  {
+    "id": "excavate",
+    "word": "excavate",
+    "phonetic": "/ˈekskəveɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "挖掘",
+    "topic": "描述",
+    "emoji": "⛏️"
+  },
+  {
+    "id": "museum",
+    "word": "museum",
+    "phonetic": "/mjuˈziːəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "博物馆",
+    "topic": "文化",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "pottery",
+    "word": "pottery",
+    "phonetic": "/ˈpɒtəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "陶器",
+    "topic": "文化",
+    "emoji": "🏺"
+  },
+  {
+    "id": "engrave",
+    "word": "engrave",
+    "phonetic": "/ɪnˈɡreɪv/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "雕刻",
+    "topic": "描述",
+    "emoji": "🔨"
+  },
+  {
+    "id": "decorate",
+    "word": "decorate",
+    "phonetic": "/ˈdekəreɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "装饰",
+    "topic": "描述",
+    "emoji": "🎨"
+  },
+  {
+    "id": "religion",
+    "word": "religion",
+    "phonetic": "/rɪˈlɪdʒən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "宗教信仰",
+    "topic": "文化",
+    "emoji": "🙏"
+  },
+  {
+    "id": "ritual",
+    "word": "ritual",
+    "phonetic": "/ˈrɪtʃuəl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "仪式",
+    "topic": "文化",
+    "emoji": "🕯️"
+  },
+  {
+    "id": "etiquette",
+    "word": "etiquette",
+    "phonetic": "/ˈetɪket/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "礼仪，礼节",
+    "topic": "文化",
+    "emoji": "🎩"
+  },
+  {
+    "id": "belief",
+    "word": "belief",
+    "phonetic": "/bɪˈliːf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "信念，信仰",
+    "topic": "描述",
+    "emoji": "🙏"
+  },
+  {
+    "id": "soul",
+    "word": "soul",
+    "phonetic": "/səʊl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "灵魂，心灵",
+    "topic": "描述",
+    "emoji": "👻"
+  },
+  {
+    "id": "spirit",
+    "word": "spirit",
+    "phonetic": "/ˈspɪrɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "精神，心灵",
+    "topic": "描述",
+    "emoji": "✨"
+  },
+  {
+    "id": "sacred",
+    "word": "sacred",
+    "phonetic": "/ˈseɪkrɪd/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "神圣的",
+    "topic": "描述",
+    "emoji": "⛪"
+  },
+  {
+    "id": "hallowed",
+    "word": "hallowed",
+    "phonetic": "/ˈhæləʊd/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "神圣的，受尊崇的",
+    "topic": "描述",
+    "emoji": "⛪"
+  },
+  {
+    "id": "holy",
+    "word": "holy",
+    "phonetic": "/ˈhəʊli/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "神圣的，圣洁的",
+    "topic": "描述",
+    "emoji": "😇"
+  },
+  {
+    "id": "pope",
+    "word": "Pope",
+    "phonetic": "/pəʊp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "教皇",
+    "topic": "宗教",
+    "emoji": "⛪"
+  },
+  {
+    "id": "bishop",
+    "word": "bishop",
+    "phonetic": "/ˈbɪʃəp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "主教",
+    "topic": "宗教",
+    "emoji": "⛪"
+  },
+  {
+    "id": "missionary",
+    "word": "missionary",
+    "phonetic": "/ˈmɪʃənəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "传教士",
+    "topic": "宗教",
+    "emoji": "⛪"
+  },
+  {
+    "id": "priest",
+    "word": "priest",
+    "phonetic": "/priːst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "牧师，神父",
+    "topic": "宗教",
+    "emoji": "⛪"
+  },
+  {
+    "id": "bible",
+    "word": "Bible",
+    "phonetic": "/ˈbaɪbl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "圣经",
+    "topic": "宗教",
+    "emoji": "📖"
+  },
+  {
+    "id": "church",
+    "word": "church",
+    "phonetic": "/tʃɜːtʃ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "教堂",
+    "topic": "宗教",
+    "emoji": "⛪"
+  },
+  {
+    "id": "cathedral",
+    "word": "cathedral",
+    "phonetic": "/kəˈθiːdrəl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大教堂",
+    "topic": "宗教",
+    "emoji": "⛪"
+  },
+  {
+    "id": "choir",
+    "word": "choir",
+    "phonetic": "/ˈkwaɪə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "唱诗班",
+    "topic": "宗教",
+    "emoji": "🎵"
+  },
+  {
+    "id": "monk",
+    "word": "monk",
+    "phonetic": "/mʌŋk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "僧侣",
+    "topic": "宗教",
+    "emoji": "🧘"
+  },
+  {
+    "id": "temple",
+    "word": "temple",
+    "phonetic": "/ˈtempl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "寺院，庙宇",
+    "topic": "宗教",
+    "emoji": "🛕"
+  },
+  {
+    "id": "pagoda",
+    "word": "pagoda",
+    "phonetic": "/pəˈɡəʊdə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "佛塔",
+    "topic": "宗教",
+    "emoji": "🏯"
+  },
+  {
+    "id": "empire",
+    "word": "empire",
+    "phonetic": "/ˈempaɪə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "帝国",
+    "topic": "历史",
+    "emoji": "🏰"
+  },
+  {
+    "id": "imperial",
+    "word": "imperial",
+    "phonetic": "/ɪmˈpɪəriəl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "帝国的",
+    "topic": "历史",
+    "emoji": "👑"
+  },
+  {
+    "id": "royal",
+    "word": "royal",
+    "phonetic": "/ˈrɒɪəl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "皇家的",
+    "topic": "历史",
+    "emoji": "👑"
+  },
+  {
+    "id": "dynasty",
+    "word": "dynasty",
+    "phonetic": "/ˈdɪnəsti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "朝代",
+    "topic": "历史",
+    "emoji": "👑"
+  },
+  {
+    "id": "chronology",
+    "word": "chronology",
+    "phonetic": "/krəˈnɒlədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "年表，年代学",
+    "topic": "历史",
+    "emoji": "📅"
+  },
+  {
+    "id": "emperor",
+    "word": "emperor",
+    "phonetic": "/ˈempərə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "皇帝",
+    "topic": "历史",
+    "emoji": "👑"
+  },
+  {
+    "id": "king",
+    "word": "king",
+    "phonetic": "/kɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "国王",
+    "topic": "历史",
+    "emoji": "🤴"
+  },
+  {
+    "id": "queen",
+    "word": "queen",
+    "phonetic": "/kwiːn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "王后，女王",
+    "topic": "历史",
+    "emoji": "👸"
+  },
+  {
+    "id": "prince",
+    "word": "prince",
+    "phonetic": "/prɪns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "王子，亲王",
+    "topic": "历史",
+    "emoji": "🤴"
+  },
+  {
+    "id": "princess",
+    "word": "princess",
+    "phonetic": "/prɪnˈses/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "公主，王妃",
+    "topic": "历史",
+    "emoji": "👸"
+  },
+  {
+    "id": "majesty",
+    "word": "majesty",
+    "phonetic": "/ˈmædʒəsti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "威严；陛下",
+    "topic": "描述",
+    "emoji": "👑"
+  },
+  {
+    "id": "nobility",
+    "word": "nobility",
+    "phonetic": "/nəʊˈbɪləti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "高尚；贵族",
+    "topic": "描述",
+    "emoji": "🎩"
+  },
+  {
+    "id": "lord",
+    "word": "lord",
+    "phonetic": "/lɔːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "阁下，大人",
+    "topic": "历史",
+    "emoji": "🎩"
+  },
+  {
+    "id": "knight",
+    "word": "knight",
+    "phonetic": "/naɪt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "骑士",
+    "topic": "历史",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "guardian",
+    "word": "guardian",
+    "phonetic": "/ˈɡɑːdiən/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "守护者，监护人",
+    "topic": "描述",
+    "emoji": "🛡️"
+  },
+  {
+    "id": "nostalgia",
+    "word": "nostalgia",
+    "phonetic": "/nɒˈstældʒə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "思乡之情，怀旧",
+    "topic": "情感",
+    "emoji": "🥹"
+  },
+  {
+    "id": "celebrity",
+    "word": "celebrity",
+    "phonetic": "/səˈlebrəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "名人",
+    "topic": "描述",
+    "emoji": "🌟"
+  },
+  {
+    "id": "status",
+    "word": "status",
+    "phonetic": "/ˈsteɪtəs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "地位，身份",
+    "topic": "描述",
+    "emoji": "🏆"
+  },
+  {
+    "id": "background",
+    "word": "background",
+    "phonetic": "/ˈbækɡraʊnd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "背景，经历",
+    "topic": "描述",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "experience",
+    "word": "experience",
+    "phonetic": "/ɪkˈspɪəriəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "经验，体验",
+    "topic": "描述",
+    "emoji": "💼"
+  },
+  {
+    "id": "anecdote",
+    "word": "anecdote",
+    "phonetic": "/ˈænɪkdəʊt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "轶事，奇闻",
+    "topic": "描述",
+    "emoji": "📖"
+  },
+  {
+    "id": "accident",
+    "word": "accident",
+    "phonetic": "/ˈæksɪdənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "事故，意外",
+    "topic": "描述",
+    "emoji": "🚨"
+  },
+  {
+    "id": "incident",
+    "word": "incident",
+    "phonetic": "/ˈɪnsɪdənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "事件",
+    "topic": "描述",
+    "emoji": "📰"
+  },
+  {
+    "id": "prosperity",
+    "word": "prosperity",
+    "phonetic": "/prɒˈsperəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "繁荣，兴旺",
+    "topic": "描述",
+    "emoji": "📈"
+  },
+  {
+    "id": "setback",
+    "word": "setback",
+    "phonetic": "/ˈsetbæk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "挫折，阻碍",
+    "topic": "描述",
+    "emoji": "📉"
+  },
+  {
+    "id": "adversity",
+    "word": "adversity",
+    "phonetic": "/ədˈvɜːsəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "逆境",
+    "topic": "描述",
+    "emoji": "🌩️"
+  },
+  {
+    "id": "language",
+    "word": "language",
+    "phonetic": "/ˈlæŋɡwɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "语言",
+    "topic": "学科",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "symbol",
+    "word": "symbol",
+    "phonetic": "/ˈsɪmbl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "象征，记号",
+    "topic": "描述",
+    "emoji": "🔷"
+  },
+  {
+    "id": "gesture",
+    "word": "gesture",
+    "phonetic": "/ˈdʒestʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "手势，姿势",
+    "topic": "描述",
+    "emoji": "👋"
+  },
+  {
+    "id": "handwriting",
+    "word": "handwriting",
+    "phonetic": "/ˈhændraɪtɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "笔迹，书写",
+    "topic": "描述",
+    "emoji": "✍️"
+  },
+  {
+    "id": "pictograph",
+    "word": "pictograph",
+    "phonetic": "/ˈpɪktəɡrɑːf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "象形文字",
+    "topic": "语言",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "wedge",
+    "word": "wedge",
+    "phonetic": "/wedʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "楔子，楔形文字",
+    "topic": "描述",
+    "emoji": "🔺"
+  },
+  {
+    "id": "knot",
+    "word": "knot",
+    "phonetic": "/nɒt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "结，节子",
+    "topic": "描述",
+    "emoji": "🪢"
+  },
+  {
+    "id": "linguistics",
+    "word": "linguistics",
+    "phonetic": "/lɪŋˈɡwɪstɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "语言学",
+    "topic": "学科",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "semantic",
+    "word": "semantic",
+    "phonetic": "/sɪˈmæntɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "语义的",
+    "topic": "语言",
+    "emoji": "💬"
+  },
+  {
+    "id": "syntax",
+    "word": "syntax",
+    "phonetic": "/ˈsɪntæks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "句法",
+    "topic": "语言",
+    "emoji": "📝"
+  },
+  {
+    "id": "grammar",
+    "word": "grammar",
+    "phonetic": "/ˈɡræmə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "语法",
+    "topic": "语言",
+    "emoji": "📘"
+  },
+  {
+    "id": "phonetics",
+    "word": "phonetics",
+    "phonetic": "/fəˈnetɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "语音学",
+    "topic": "语言",
+    "emoji": "🔊"
+  },
+  {
+    "id": "pronounce",
+    "word": "pronounce",
+    "phonetic": "/prəˈnaʊns/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "发音；宣布",
+    "topic": "语言",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "intonation",
+    "word": "intonation",
+    "phonetic": "/ˌɪntəˈneɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "语调",
+    "topic": "语言",
+    "emoji": "🎵"
+  },
+  {
+    "id": "inflection",
+    "word": "inflection",
+    "phonetic": "/ɪnˈflekʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "语调的抑扬变化",
+    "topic": "语言",
+    "emoji": "🎵"
+  },
+  {
+    "id": "dialect",
+    "word": "dialect",
+    "phonetic": "/ˈdaɪəlekt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "方言",
+    "topic": "语言",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "accent",
+    "word": "accent",
+    "phonetic": "/ˈæksənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "重音，口音",
+    "topic": "语言",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "utterance",
+    "word": "utterance",
+    "phonetic": "/ˈʌtərəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "说话，话语",
+    "topic": "语言",
+    "emoji": "💬"
+  },
+  {
+    "id": "oral",
+    "word": "oral",
+    "phonetic": "/ˈɔːrəl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "口头的",
+    "topic": "语言",
+    "emoji": "👄"
+  },
+  {
+    "id": "verbal",
+    "word": "verbal",
+    "phonetic": "/ˈvɜːbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "口头的，言语的",
+    "topic": "语言",
+    "emoji": "💬"
+  },
+  {
+    "id": "syllable",
+    "word": "syllable",
+    "phonetic": "/ˈsɪləbl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "音节",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "phoneme",
+    "word": "phoneme",
+    "phonetic": "/ˈfəʊniːm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "音位",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "vowel",
+    "word": "vowel",
+    "phonetic": "/ˈvaʊəl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "元音",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "consonant",
+    "word": "consonant",
+    "phonetic": "/ˈkɒnsənənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "辅音",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "alphabet",
+    "word": "alphabet",
+    "phonetic": "/ˈælfəbet/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "字母表",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "logogram",
+    "word": "logogram",
+    "phonetic": "/ˈlɒɡəɡræm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "词符，缩记符",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "vocabulary",
+    "word": "vocabulary",
+    "phonetic": "/vəˈkæbjələri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "词汇",
+    "topic": "语言",
+    "emoji": "📚"
+  },
+  {
+    "id": "diction",
+    "word": "diction",
+    "phonetic": "/ˈdɪkʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "吐字，措辞",
+    "topic": "语言",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "idiom",
+    "word": "idiom",
+    "phonetic": "/ˈɪdiəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "习语",
+    "topic": "语言",
+    "emoji": "💬"
+  },
+  {
+    "id": "phrase",
+    "word": "phrase",
+    "phonetic": "/freɪz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "短语，习语",
+    "topic": "语言",
+    "emoji": "💬"
+  },
+  {
+    "id": "clause",
+    "word": "clause",
+    "phonetic": "/klɔːz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "分句，条款",
+    "topic": "语言",
+    "emoji": "📝"
+  },
+  {
+    "id": "expression",
+    "word": "expression",
+    "phonetic": "/ɪkˈspreʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "词语，表达；表情",
+    "topic": "语言",
+    "emoji": "😊"
+  },
+  {
+    "id": "tense",
+    "word": "tense",
+    "phonetic": "/tens/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "时态；紧张的",
+    "topic": "语言",
+    "emoji": "⏰"
+  },
+  {
+    "id": "prefix",
+    "word": "prefix",
+    "phonetic": "/ˈpriːfɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "前缀",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "suffix",
+    "word": "suffix",
+    "phonetic": "/ˈsʌfɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "后缀",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "abbreviation",
+    "word": "abbreviation",
+    "phonetic": "/əˌbriːviˈeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "缩写形式",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "synonym",
+    "word": "synonym",
+    "phonetic": "/ˈsɪnənɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "同义词",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "antonym",
+    "word": "antonym",
+    "phonetic": "/ˈæntənɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "反义词",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "noun",
+    "word": "noun",
+    "phonetic": "/naʊn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "名词",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "singular",
+    "word": "singular",
+    "phonetic": "/ˈsɪŋɡjələ(r)/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "单数；单数的",
+    "topic": "语言",
+    "emoji": "1️⃣"
+  },
+  {
+    "id": "plural",
+    "word": "plural",
+    "phonetic": "/ˈplʊərəl/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "复数；复数的",
+    "topic": "语言",
+    "emoji": "🔢"
+  },
+  {
+    "id": "pronoun",
+    "word": "pronoun",
+    "phonetic": "/ˈprəʊnaʊn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "代词",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "verb",
+    "word": "verb",
+    "phonetic": "/vɜːb/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "动词",
+    "topic": "语言",
+    "emoji": "🏃"
+  },
+  {
+    "id": "adjective",
+    "word": "adjective",
+    "phonetic": "/ˈædʒɪktɪv/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "形容词",
+    "topic": "语言",
+    "emoji": "🎨"
+  },
+  {
+    "id": "adverb",
+    "word": "adverb",
+    "phonetic": "/ˈædvɜːb/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "副词",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "preposition",
+    "word": "preposition",
+    "phonetic": "/ˌprepəˈzɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "介词",
+    "topic": "语言",
+    "emoji": "🔤"
+  },
+  {
+    "id": "conjunction",
+    "word": "conjunction",
+    "phonetic": "/kənˈdʒʌŋkʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "连词",
+    "topic": "语言",
+    "emoji": "🔗"
+  },
+  {
+    "id": "consistent",
+    "word": "consistent",
+    "phonetic": "/kənˈsɪstənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "一致的，连贯的",
+    "topic": "描述",
+    "emoji": "🟰"
+  },
+  {
+    "id": "complicated",
+    "word": "complicated",
+    "phonetic": "/ˈkɒmplɪkeɪtɪd/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "复杂的",
+    "topic": "描述",
+    "emoji": "🧩"
+  },
+  {
+    "id": "complex",
+    "word": "complex",
+    "phonetic": "/ˈkɒmpleks/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "复杂的",
+    "topic": "描述",
+    "emoji": "🧩"
+  },
+  {
+    "id": "compile",
+    "word": "compile",
+    "phonetic": "/kəmˈpaɪl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "编纂，汇编",
+    "topic": "描述",
+    "emoji": "📚"
+  },
+  {
+    "id": "version",
+    "word": "version",
+    "phonetic": "/ˈvɜːʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "译本，版本",
+    "topic": "描述",
+    "emoji": "📄"
+  },
+  {
+    "id": "paraphrase",
+    "word": "paraphrase",
+    "phonetic": "/ˈpærəfreɪz/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "意译，改述",
+    "topic": "语言",
+    "emoji": "🔄"
+  },
+  {
+    "id": "narrate",
+    "word": "narrate",
+    "phonetic": "/nəˈreɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "讲述，叙述",
+    "topic": "描述",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "illuminate",
+    "word": "illuminate",
+    "phonetic": "/ɪˈluːmɪneɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "阐释，说明；照亮",
+    "topic": "描述",
+    "emoji": "💡"
+  },
+  {
+    "id": "eloquence",
+    "word": "eloquence",
+    "phonetic": "/ˈeləkwəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "雄辩，流利口才",
+    "topic": "语言",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "discussion",
+    "word": "discussion",
+    "phonetic": "/dɪˈskʌʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "讨论，谈论",
+    "topic": "描述",
+    "emoji": "💬"
+  },
+  {
+    "id": "brainstorm",
+    "word": "brainstorm",
+    "phonetic": "/ˈbreɪnstɔːm/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "头脑风暴",
+    "topic": "描述",
+    "emoji": "🧠"
+  },
+  {
+    "id": "debate",
+    "word": "debate",
+    "phonetic": "/dɪˈbeɪt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "辩论，争论",
+    "topic": "描述",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "debatable",
+    "word": "debatable",
+    "phonetic": "/dɪˈbeɪtəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有争议的",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "commentary",
+    "word": "commentary",
+    "phonetic": "/ˈkɒməntri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "评论，评注",
+    "topic": "媒体",
+    "emoji": "📝"
+  },
+  {
+    "id": "comment",
+    "word": "comment",
+    "phonetic": "/ˈkɒment/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "意见，评论",
+    "topic": "描述",
+    "emoji": "💬"
+  },
+  {
+    "id": "negotiation",
+    "word": "negotiation",
+    "phonetic": "/nɪˌɡəʊʃiˈeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "协商，谈判",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "contention",
+    "word": "contention",
+    "phonetic": "/kənˈtenʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "争论；观点",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "medium",
+    "word": "medium",
+    "phonetic": "/ˈmiːdiəm/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "媒介；中等的",
+    "topic": "媒体",
+    "emoji": "📡"
+  },
+  {
+    "id": "journalist",
+    "word": "journalist",
+    "phonetic": "/ˈdʒɜːnəlɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "记者",
+    "topic": "职业",
+    "emoji": "📰"
+  },
+  {
+    "id": "critic",
+    "word": "critic",
+    "phonetic": "/ˈkrɪtɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "批评家",
+    "topic": "职业",
+    "emoji": "🎭"
+  },
+  {
+    "id": "commentator",
+    "word": "commentator",
+    "phonetic": "/ˈkɒmenteɪtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "评论员，解说员",
+    "topic": "职业",
+    "emoji": "🎤"
+  },
+  {
+    "id": "exponent",
+    "word": "exponent",
+    "phonetic": "/ɪkˈspəʊnənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "阐述者，倡导者",
+    "topic": "描述",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "announcer",
+    "word": "announcer",
+    "phonetic": "/əˈnaʊnsə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "播音员",
+    "topic": "职业",
+    "emoji": "🎤"
+  },
+  {
+    "id": "messenger",
+    "word": "messenger",
+    "phonetic": "/ˈmesɪndʒə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "信使，邮递员",
+    "topic": "职业",
+    "emoji": "📨"
+  },
+  {
+    "id": "editor",
+    "word": "editor",
+    "phonetic": "/ˈedɪtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "编辑",
+    "topic": "职业",
+    "emoji": "✏️"
+  },
+  {
+    "id": "typist",
+    "word": "typist",
+    "phonetic": "/ˈtaɪpɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "打字员",
+    "topic": "职业",
+    "emoji": "⌨️"
+  },
+  {
+    "id": "handout",
+    "word": "handout",
+    "phonetic": "/ˈhændaʊt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "传单，讲义",
+    "topic": "描述",
+    "emoji": "📄"
+  },
+  {
+    "id": "leaflet",
+    "word": "leaflet",
+    "phonetic": "/ˈliːflət/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "传单",
+    "topic": "描述",
+    "emoji": "📄"
+  },
+  {
+    "id": "propaganda",
+    "word": "propaganda",
+    "phonetic": "/ˌprɒpəˈɡændə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "宣传",
+    "topic": "媒体",
+    "emoji": "📢"
+  },
+  {
+    "id": "publish",
+    "word": "publish",
+    "phonetic": "/ˈpʌblɪʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "出版，发行",
+    "topic": "媒体",
+    "emoji": "📚"
+  },
+  {
+    "id": "publication",
+    "word": "publication",
+    "phonetic": "/ˌpʌblɪˈkeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "出版物；出版",
+    "topic": "媒体",
+    "emoji": "📚"
+  },
+  {
+    "id": "foresee",
+    "word": "foresee",
+    "phonetic": "/fɔːˈsiː/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "预见，预知",
+    "topic": "描述",
+    "emoji": "🔮"
+  },
+  {
+    "id": "anticipate",
+    "word": "anticipate",
+    "phonetic": "/ænˈtɪsɪpeɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "预期，预料",
+    "topic": "描述",
+    "emoji": "🔮"
+  },
+  {
+    "id": "expect",
+    "word": "expect",
+    "phonetic": "/ɪkˈspekt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "预料，预期",
+    "topic": "描述",
+    "emoji": "🤔"
+  },
+  {
+    "id": "expectation",
+    "word": "expectation",
+    "phonetic": "/ˌekspekˈteɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "期待，期望",
+    "topic": "描述",
+    "emoji": "🤞"
+  },
+  {
+    "id": "await",
+    "word": "await",
+    "phonetic": "/əˈweɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "等候，期待",
+    "topic": "描述",
+    "emoji": "⏳"
+  },
+  {
+    "id": "pastime",
+    "word": "pastime",
+    "phonetic": "/ˈpɑːstaɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "消遣，娱乐",
+    "topic": "生活",
+    "emoji": "🎮"
+  },
+  {
+    "id": "entertain",
+    "word": "entertain",
+    "phonetic": "/ˌentəˈteɪn/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "娱乐；招待",
+    "topic": "描述",
+    "emoji": "🎪"
+  },
+  {
+    "id": "entertainment",
+    "word": "entertainment",
+    "phonetic": "/ˌentəˈteɪnmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "娱乐，消遣",
+    "topic": "生活",
+    "emoji": "🎪"
+  },
+  {
+    "id": "recreation",
+    "word": "recreation",
+    "phonetic": "/ˌrekriˈeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "休闲，娱乐",
+    "topic": "生活",
+    "emoji": "⚽"
+  },
+  {
+    "id": "amuse",
+    "word": "amuse",
+    "phonetic": "/əˈmjuːz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "逗乐",
+    "topic": "描述",
+    "emoji": "😄"
+  },
+  {
+    "id": "gossip",
+    "word": "gossip",
+    "phonetic": "/ˈɡɒsɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "闲聊，流言蜚语",
+    "topic": "生活",
+    "emoji": "🗣️"
   }
 ]
