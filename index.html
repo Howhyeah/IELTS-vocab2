@@ -326,6 +326,15 @@
         .record-word { font-weight: bold; color: #333; font-size: 16px; }
         .record-chinese { color: #666; font-size: 13px; text-align: right; }
         .records-empty { text-align: center; color: #999; padding: 40px 0; }
+        .records-group-title {
+            font-size: 14px;
+            font-weight: bold;
+            color: #667eea;
+            margin: 16px 0 8px 0;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #e8eaf6;
+        }
+        .records-group-title:first-child { margin-top: 0; }
     </style>
 </head>
 <body>
@@ -367,6 +376,7 @@
         <div class="version-footer" id="versionFooter">v1.1.0 · 更新于 2026-07-31</div>
     </div>
 
+    <!-- 学习记录弹窗 -->
     <div id="recordsModal" class="modal-overlay">
         <div class="modal-box">
             <div class="modal-head">
@@ -377,10 +387,12 @@
                 <button class="modal-tab active" id="tab-known" onclick="showRecordTab('known')">✅ 已背单词</button>
                 <button class="modal-tab" id="tab-fuzzy" onclick="showRecordTab('fuzzy')">🌀 模糊记忆</button>
                 <button class="modal-tab" id="tab-review" onclick="showRecordTab('review')">🔁 今日待复习</button>
+                <button class="modal-tab" id="tab-all" onclick="showRecordTab('all')">📋 全部单词</button>
             </div>
             <div id="recordsList" class="records-list"></div>
         </div>
     </div>
+
     <script>
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js').catch(err => console.log('SW注册失败:', err));
@@ -475,6 +487,23 @@
             return due.map(id => wordById[id]).filter(Boolean);
         }
 
+        const CATEGORY_LABELS = {
+            A: '🎯 核心状态词',
+            S: '🧭 空间关系词',
+            R: '🌳 词根词族',
+            C: '🔗 固定搭配',
+            I: '👁️ 识别词'
+        };
+
+        function getAllWordsGrouped() {
+            const order = ['A', 'S', 'R', 'C', 'I'];
+            return order.map(cat => ({
+                label: CATEGORY_LABELS[cat],
+                count: allWords[cat].length,
+                words: allWords[cat]
+            })).filter(group => group.count > 0);
+        }
+
         function openRecords() {
             document.getElementById('recordsModal').classList.add('show');
             showRecordTab('known');
@@ -486,12 +515,31 @@
             document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
             document.getElementById('tab-' + tab).classList.add('active');
 
+            const container = document.getElementById('recordsList');
+
+            if (tab === 'all') {
+                const groups = getAllWordsGrouped();
+                if (groups.length === 0) {
+                    container.innerHTML = `<div class="records-empty">词库还没有加载出来</div>`;
+                    return;
+                }
+                container.innerHTML = groups.map(g => `
+                    <div class="records-group-title">${g.label}（${g.count}）</div>
+                    ${g.words.map(w => `
+                        <div class="record-item">
+                            <div class="record-word">${displayName(w)}</div>
+                            <div class="record-chinese">${w.chinese || ''}</div>
+                        </div>
+                    `).join('')}
+                `).join('');
+                return;
+            }
+
             let list, emptyMsg;
             if (tab === 'known') { list = getKnownList(); emptyMsg = '还没有背过的单词，快去学习吧'; }
             else if (tab === 'fuzzy') { list = getFuzzyList(); emptyMsg = '暂无模糊记忆的单词'; }
             else { list = getReviewList(); emptyMsg = '今天没有需要复习的单词'; }
 
-            const container = document.getElementById('recordsList');
             if (list.length === 0) {
                 container.innerHTML = `<div class="records-empty">${emptyMsg}</div>`;
                 return;
