@@ -4696,5 +4696,467 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "instil",
+    "word": "instil",
+    "phonetic": "/ɪnˈstɪl/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一种观念、价值或品质，通过持续、缓慢的方式，一点一滴被灌输进一个人的思想里，最终在那里扎根、留存下来。",
+    "underlying_relation": "外部观念/品质 → 持续缓慢地灌输 → 在思想中扎根留存。",
+    "core_emoji": "💧🧠",
+    "scenes": [
+      {
+        "emoji": "👨‍👧",
+        "phrase": "instil good values",
+        "note": "价值观一点一滴灌输进孩子思想｜灌输好的价值观"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "instil confidence",
+        "note": "自信一点点被灌输进心里｜灌输自信"
+      },
+      {
+        "emoji": "😰",
+        "phrase": "instil fear",
+        "note": "恐惧一点点被灌输进思想｜灌输恐惧"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "instil a love of reading",
+        "note": "阅读的热爱被慢慢培养灌输｜培养阅读的热爱"
+      }
+    ],
+    "collocations": [
+      "instil in",
+      "instil into",
+      "instil a sense of"
+    ],
+    "chinese": "逐渐灌输（观念/品质）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "emphasise",
+    "word": "emphasise",
+    "phonetic": "/ˈemfəsaɪz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "在一堆平等呈现的信息里，特意给某一个点加重份量，让它比其他部分更突出、更受关注。",
+    "underlying_relation": "多个平等信息点 → 特意加重某一点份量 → 该点比其他更突出。",
+    "core_emoji": "🔍➡️",
+    "scenes": [
+      {
+        "emoji": "🗣️",
+        "phrase": "emphasise the importance",
+        "note": "重要性被加重份量突出出来｜强调重要性"
+      },
+      {
+        "emoji": "✏️",
+        "phrase": "emphasise a word",
+        "note": "某个词被加粗突出｜强调某个词"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "emphasise safety",
+        "note": "安全这一点被特意突出｜强调安全"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "cannot emphasise enough",
+        "note": "怎么强调都不够｜再怎么强调都不为过"
+      }
+    ],
+    "collocations": [
+      "emphasise the need for",
+      "heavily emphasised",
+      "emphasise that"
+    ],
+    "chinese": "强调，着重指出",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "enhance",
+    "word": "enhance",
+    "phonetic": "/ɪnˈhɑːns/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个已经存在、还不错的品质或效果，被进一步加强推高，变得比原来更好、更突出。",
+    "underlying_relation": "已有的品质/效果 → 进一步加强推高 → 比原来更好更突出。",
+    "core_emoji": "📈✨",
+    "scenes": [
+      {
+        "emoji": "🎨",
+        "phrase": "enhance the flavour",
+        "note": "原有味道被进一步加强｜提升味道"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "enhance performance",
+        "note": "原有表现被进一步推高｜提升性能"
+      },
+      {
+        "emoji": "🖼️",
+        "phrase": "enhance an image",
+        "note": "图片质量被进一步加强｜增强图像"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "enhance cooperation",
+        "note": "已有合作被进一步加深｜加强合作"
+      }
+    ],
+    "collocations": [
+      "enhance the value",
+      "significantly enhanced",
+      "enhance reputation"
+    ],
+    "chinese": "提高，增强（已有的品质）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "enable",
+    "word": "enable",
+    "phonetic": "/ɪˈneɪbl/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本因为缺少某种条件而做不到的事，因为这个条件被补上，变成了可以做到的事。",
+    "underlying_relation": "缺少条件（做不到）→ 条件被补上 → 变成可以做到。",
+    "core_emoji": "🔑🚪",
+    "scenes": [
+      {
+        "emoji": "💻",
+        "phrase": "technology enables remote work",
+        "note": "技术这个条件让远程工作变可行｜技术使远程工作成为可能"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "the scholarship enabled her to study",
+        "note": "奖学金这个条件让她能够求学｜奖学金使她能够学习"
+      },
+      {
+        "emoji": "🔓",
+        "phrase": "enable access",
+        "note": "缺少的权限被补上，可以访问了｜使能够访问"
+      },
+      {
+        "emoji": "🦾",
+        "phrase": "enable independent living",
+        "note": "条件补上后能独立生活了｜使能够独立生活"
+      }
+    ],
+    "collocations": [
+      "enable sb to do sth",
+      "enable access to",
+      "newly enabled"
+    ],
+    "chinese": "使能够；使可行",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "inspire",
+    "word": "inspire",
+    "phonetic": "/ɪnˈspaɪə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个外部的人或事，像一道光一样点燃了某个人内心原本平静的创造力或动力，让其燃起劲头。",
+    "underlying_relation": "外部触发源 → 点燃内心平静的创造力/动力 → 燃起劲头（受到激励）。",
+    "core_emoji": "💡🔥",
+    "scenes": [
+      {
+        "emoji": "🎨",
+        "phrase": "inspire creativity",
+        "note": "创造力被点燃燃起｜激发创造力"
+      },
+      {
+        "emoji": "📖",
+        "phrase": "the book inspired her",
+        "note": "书籍点燃了内心的动力｜书激励了她"
+      },
+      {
+        "emoji": "🏔️",
+        "phrase": "inspired by nature",
+        "note": "自然点燃了内心灵感｜受自然启发"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "inspire confidence",
+        "note": "信心被点燃燃起｜激发信心"
+      }
+    ],
+    "collocations": [
+      "inspire confidence",
+      "a source of inspiration",
+      "truly inspiring"
+    ],
+    "chinese": "激励，鼓舞；启发灵感",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "stimulate",
+    "word": "stimulate",
+    "phonetic": "/ˈstɪmjuleɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个外部的直接刺激，作用在一个原本静止或缓慢的系统上，让它立刻活跃、加速运转起来。",
+    "underlying_relation": "外部直接刺激 → 作用在静止/缓慢的系统上 → 系统立刻活跃加速。",
+    "core_emoji": "⚡🧠",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "stimulate the economy",
+        "note": "刺激措施让经济立刻活跃｜刺激经济"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "stimulate the brain",
+        "note": "刺激让大脑立刻活跃运转｜刺激大脑"
+      },
+      {
+        "emoji": "🌱",
+        "phrase": "stimulate growth",
+        "note": "刺激让生长立刻加速｜刺激增长"
+      },
+      {
+        "emoji": "🍽️",
+        "phrase": "stimulate appetite",
+        "note": "刺激让食欲立刻活跃起来｜刺激食欲"
+      }
+    ],
+    "collocations": [
+      "stimulate demand",
+      "a stimulating discussion",
+      "stimulate interest"
+    ],
+    "chinese": "刺激，激励，促进",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "indulge",
+    "word": "indulge",
+    "phonetic": "/ɪnˈdʌldʒ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本需要克制、不该完全放开的欲望，被允许毫无限制地满足，任由它自由发展。",
+    "underlying_relation": "需要克制的欲望 → 被允许毫无限制满足 → 任由自由发展（不加约束）。",
+    "core_emoji": "🍰🚫",
+    "scenes": [
+      {
+        "emoji": "🍰",
+        "phrase": "indulge in sweets",
+        "note": "对甜食的欲望毫无限制被满足｜放纵吃甜食"
+      },
+      {
+        "emoji": "🛍️",
+        "phrase": "indulge oneself",
+        "note": "对自己毫无限制地纵容｜放纵自己"
+      },
+      {
+        "emoji": "👶",
+        "phrase": "indulge a child",
+        "note": "对孩子的要求毫无限制地迁就｜纵容孩子"
+      },
+      {
+        "emoji": "💭",
+        "phrase": "indulge in fantasy",
+        "note": "对幻想毫无限制地沉溺｜沉溺于幻想"
+      }
+    ],
+    "collocations": [
+      "indulge in",
+      "self-indulgent",
+      "indulge a whim"
+    ],
+    "chinese": "纵容，放任；沉溺于",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "spoil",
+    "word": "spoil",
+    "phonetic": "/spɒɪl/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本会自然变好的东西（比如一个人的性格，或一件本该顺利的事），因为过度的纵容或不当的干预，反而变糟了。",
+    "underlying_relation": "原本会自然变好的东西 + 过度纵容/不当干预 → 反而变糟。",
+    "core_emoji": "🍎<span style=\"color:#e53935;font-weight:bold\">→</span>🟤",
+    "scenes": [
+      {
+        "emoji": "👶",
+        "phrase": "spoil a child",
+        "note": "过度纵容让孩子性格变糟｜宠坏孩子"
+      },
+      {
+        "emoji": "🌧️",
+        "phrase": "rain spoiled the picnic",
+        "note": "下雨让原本顺利的野餐变糟｜雨破坏了野餐"
+      },
+      {
+        "emoji": "🥛",
+        "phrase": "milk spoils quickly",
+        "note": "牛奶很快变质变糟｜牛奶很快变质"
+      },
+      {
+        "emoji": "🎬",
+        "phrase": "spoil the ending",
+        "note": "剧透让本该惊喜的结局变糟｜剧透结局"
+      }
+    ],
+    "collocations": [
+      "spoil the fun",
+      "spoiled child",
+      "spoil the surprise"
+    ],
+    "chinese": "宠坏；破坏，糟蹋；（食物）变质",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "overwhelming",
+    "word": "overwhelming",
+    "phonetic": "/ˌəʊvəˈwelmɪŋ/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "一股力量或数量极其巨大，完全超出了主体能够应付或抵抗的能力，把主体彻底压垒住。",
+    "underlying_relation": "极其巨大的力量/数量 → 超出主体应付能力 → 主体被彻底压垒（无法抵抗）。",
+    "core_emoji": "🌊👤",
+    "scenes": [
+      {
+        "emoji": "😭",
+        "phrase": "overwhelming grief",
+        "note": "悲伤巨大到完全压垒住人｜巨大的悲伤"
+      },
+      {
+        "emoji": "🗳️",
+        "phrase": "overwhelming majority",
+        "note": "多数票数巨大到压垒性优势｜压倒性多数"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "overwhelming workload",
+        "note": "工作量巨大到无法应付｜工作量巨大"
+      },
+      {
+        "emoji": "🎉",
+        "phrase": "overwhelming support",
+        "note": "支持巨大到压垒性存在｜压倒性支持"
+      }
+    ],
+    "collocations": [
+      "overwhelming evidence",
+      "feel overwhelmed",
+      "an overwhelming sense of"
+    ],
+    "chinese": "压倒性的；难以抵抗的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "qualify",
+    "word": "qualify",
+    "phonetic": "/ˈkwɒlɪfaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人满足了进入某个门槛所需的全部条件，因此获得了进入这个门槛之内、享有相应资格的权利。",
+    "underlying_relation": "所需全部条件 → 全部满足 → 获得进入门槛/享有资格的权利。",
+    "core_emoji": "✅🚪",
+    "scenes": [
+      {
+        "emoji": "🎓",
+        "phrase": "qualify as a doctor",
+        "note": "满足全部条件获得医生资格｜取得医生资格"
+      },
+      {
+        "emoji": "🏆",
+        "phrase": "qualify for the finals",
+        "note": "满足条件获得进入决赛的资格｜获得决赛资格"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "qualify for a loan",
+        "note": "满足条件获得贷款资格｜获得贷款资格"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "qualifying criteria",
+        "note": "获得资格所需满足的条件｜资格标准"
+      }
+    ],
+    "collocations": [
+      "qualify for",
+      "fully qualified",
+      "qualification requirements"
+    ],
+    "chinese": "取得资格；使具备资格",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "master",
+    "word": "master",
+    "phonetic": "/ˈmɑːstə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本只是部分了解、掌控不完全的技能或领域，经过持续练习，被完全吃透，达到能够随心运用、完全掌控的水平。",
+    "underlying_relation": "部分了解/不完全掌控 ×（持续练习）→ 完全吃透，随心运用（完全掌控）。",
+    "core_emoji": "🎯💯",
+    "scenes": [
+      {
+        "emoji": "🎸",
+        "phrase": "master a skill",
+        "note": "技能被完全吃透掌控｜精通一项技能"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "master a language",
+        "note": "语言被完全掌控运用自如｜精通一门语言"
+      },
+      {
+        "emoji": "🎮",
+        "phrase": "master the game",
+        "note": "游戏被完全吃透掌控｜精通游戏"
+      },
+      {
+        "emoji": "😌",
+        "phrase": "master one's emotions",
+        "note": "情绪被完全掌控住｜控制住情绪"
+      }
+    ],
+    "collocations": [
+      "master the art of",
+      "fully mastered",
+      "master craftsman"
+    ],
+    "chinese": "精通，掌握；控制",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
