@@ -7888,5 +7888,635 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "sweep",
+    "word": "sweep",
+    "phonetic": "/swiːp/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个动作或影响以连续不间断的方式，大范围地覆盖过一整片区域，从一端扫到另一端，不留死角。",
+    "underlying_relation": "起点 → 连续不间断地覆盖整片区域 → 到达另一端（不留死角）。",
+    "core_emoji": "🧹➡️",
+    "scenes": [
+      {
+        "emoji": "🧹",
+        "phrase": "sweep the floor",
+        "note": "扫帚连续覆盖整个地面｜打扫地面"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "waves sweep the shore",
+        "note": "海浪连续覆盖整片海岸｜海浪席卷海岸"
+      },
+      {
+        "emoji": "🔄",
+        "phrase": "sweeping reforms",
+        "note": "改革连续覆盖整个体系｜全面性改革"
+      },
+      {
+        "emoji": "🏆",
+        "phrase": "sweep the awards",
+        "note": "获奖连续覆盖所有奖项｜横扫所有奖项"
+      }
+    ],
+    "collocations": [
+      "sweep across",
+      "sweeping changes",
+      "sweep away"
+    ],
+    "chinese": "打扫；掠过，席卷；（大范围地）横扫",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "duplicate",
+    "word": "duplicate",
+    "phonetic": "/ˈdjuːplɪkeɪt/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "一个原本只有一份的东西，经过复制过程，多出了一份跟原本完全一样的副本，两份内容一模一样。",
+    "underlying_relation": "原本只有一份 → 复制过程 → 多出完全相同的副本（一模一样）。",
+    "core_emoji": "📄➡️📄📄",
+    "scenes": [
+      {
+        "emoji": "🔑",
+        "phrase": "duplicate a key",
+        "note": "钥匙被复制出一份完全一样的｜复制一把钥匙"
+      },
+      {
+        "emoji": "📄",
+        "phrase": "duplicate a document",
+        "note": "文件被复制出一份完全一样的｜复制文件"
+      },
+      {
+        "emoji": "🧬",
+        "phrase": "duplicate effort",
+        "note": "努力被重复做了一遍，浪费资源｜重复劳动"
+      },
+      {
+        "emoji": "🖼️",
+        "phrase": "a duplicate copy",
+        "note": "副本跟原件完全一样｜一份副本"
+      }
+    ],
+    "collocations": [
+      "exact duplicate",
+      "duplicate work",
+      "avoid duplication"
+    ],
+    "chinese": "复制；副本，复制品",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "fuse",
+    "word": "fuse",
+    "phonetic": "/fjuːz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "两个原本各自独立、边界清晰的东西，经过高温或强力的作用，边界消失，融合成一个再也分不开的整体。",
+    "underlying_relation": "两个独立的东西 → 高温/强力作用 → 边界消失融合成一体（不可分离）。",
+    "core_emoji": "🔥➡️🟣",
+    "scenes": [
+      {
+        "emoji": "🔧",
+        "phrase": "metal parts fuse together",
+        "note": "两块金属边界消失融合成一体｜金属部件熔合在一起"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "fuse two cultures",
+        "note": "两种文化边界消失融合成一体｜融合两种文化"
+      },
+      {
+        "emoji": "🧬",
+        "phrase": "cells fuse",
+        "note": "两个细胞边界消失融合成一个｜细胞融合"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "fuse ideas",
+        "note": "两个想法边界消失融合成一个｜融合观点"
+      }
+    ],
+    "collocations": [
+      "fuse together",
+      "fusion of",
+      "fused into one"
+    ],
+    "chinese": "（使）融合；熔化",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "forge",
+    "word": "forge",
+    "phonetic": "/fɔːdʒ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一块原本形态松散、不成型的原材料，经过高温和反复锤打的强力塑造，最终变成一个坚固、成型的东西。",
+    "underlying_relation": "松散原材料 ×（高温+反复锤打）→ 坚固成型的东西。",
+    "core_emoji": "🔨🔥",
+    "scenes": [
+      {
+        "emoji": "⚔️",
+        "phrase": "forge a sword",
+        "note": "金属被反复锤打塑造成坚固的剑｜锻造一把剑"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "forge an alliance",
+        "note": "关系被反复努力塑造成坚固联盟｜建立坚固联盟"
+      },
+      {
+        "emoji": "✍️",
+        "phrase": "forge a signature",
+        "note": "签名被刻意塑造模仿成假的｜伪造签名"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "forge a career",
+        "note": "事业被反复努力塑造成坚固基础｜打造事业"
+      }
+    ],
+    "collocations": [
+      "forge ahead",
+      "forge links",
+      "forged document"
+    ],
+    "chinese": "锻造；伪造；建立（关系）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "lubricate",
+    "word": "lubricate",
+    "phonetic": "/ˈluːbrɪkeɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "两个原本因为直接摩擦而运转不顺、容易磨损的表面之间，被加入一层顺滑的物质，让摩擦阻力大幅减小，运转变得顺畅。",
+    "underlying_relation": "两个直接摩擦的表面 + 加入顺滑物质 → 摩擦阻力减小 → 运转顺畅。",
+    "core_emoji": "⚙️💧",
+    "scenes": [
+      {
+        "emoji": "⚙️",
+        "phrase": "lubricate the engine",
+        "note": "零件间加入润滑油减少摩擦｜给发动机加润滑油"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "lubricate negotiations",
+        "note": "谈判过程加入缓和因素减少摩擦｜为谈判润滑"
+      },
+      {
+        "emoji": "🚪",
+        "phrase": "lubricate a hinge",
+        "note": "门轴加入润滑剂减少摩擦阻力｜给门轴上润滑油"
+      },
+      {
+        "emoji": "💬",
+        "phrase": "lubricate the conversation",
+        "note": "对话加入轻松因素减少摩擦｜让对话更顺畅"
+      }
+    ],
+    "collocations": [
+      "lubricate joints",
+      "lubricating oil",
+      "well lubricated"
+    ],
+    "chinese": "润滑，使润滑（减少摩擦）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "weave",
+    "word": "weave",
+    "phonetic": "/wiːv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "多根原本各自分离的细线，按照经纬交错的方式反复穿插在一起，形成一片结构紧密、不可拆散的整体织物。",
+    "underlying_relation": "多根分离的细线 → 经纬交错反复穿插 → 结构紧密的整体织物。",
+    "core_emoji": "🧵↔️",
+    "scenes": [
+      {
+        "emoji": "🧵",
+        "phrase": "weave a fabric",
+        "note": "细线交错穿插形成布料｜织布"
+      },
+      {
+        "emoji": "📖",
+        "phrase": "weave a story",
+        "note": "情节线索交错穿插形成故事｜编织故事"
+      },
+      {
+        "emoji": "🚗",
+        "phrase": "weave through traffic",
+        "note": "车辆在车流间交错穿插前进｜在车流中穿梭"
+      },
+      {
+        "emoji": "🕸️",
+        "phrase": "weave a web",
+        "note": "蜘蛛丝交错穿插形成网｜织网"
+      }
+    ],
+    "collocations": [
+      "weave together",
+      "weave into",
+      "intricately woven"
+    ],
+    "chinese": "编织；穿插编造；穿行",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "regulate",
+    "word": "regulate",
+    "phonetic": "/ˈreɡjuleɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本可能失控、超出正常范围的系统或行为，通过持续的规则和监管，被约束在一个合理稳定的范围之内。",
+    "underlying_relation": "可能失控的系统/行为 + 持续规则监管 → 约束在合理稳定范围内。",
+    "core_emoji": "📏⚙️",
+    "scenes": [
+      {
+        "emoji": "🏦",
+        "phrase": "regulate the market",
+        "note": "市场被规则约束在合理范围内｜监管市场"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "regulate body temperature",
+        "note": "体温被身体机制约束在稳定范围内｜调节体温"
+      },
+      {
+        "emoji": "🚗",
+        "phrase": "regulate traffic",
+        "note": "交通被规则约束在有序范围内｜管理交通"
+      },
+      {
+        "emoji": "😌",
+        "phrase": "regulate emotions",
+        "note": "情绪被主动约束在稳定范围内｜调节情绪"
+      }
+    ],
+    "collocations": [
+      "strictly regulated",
+      "regulate the flow of",
+      "regulatory body"
+    ],
+    "chinese": "约束，控制；调节",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "govern",
+    "word": "govern",
+    "phonetic": "/ˈɡʌvn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个拥有权力的主体，持续地引导、决定一个群体或系统整体的方向和运作方式，其他部分都要按这个方向行动。",
+    "underlying_relation": "拥有权力的主体 → 持续引导决定整体方向 → 群体/系统按此方向运作。",
+    "core_emoji": "👑🎯",
+    "scenes": [
+      {
+        "emoji": "🏛️",
+        "phrase": "govern a country",
+        "note": "国家的整体方向被权力主体决定｜治理国家"
+      },
+      {
+        "emoji": "📜",
+        "phrase": "laws govern behaviour",
+        "note": "行为的方向被法律决定引导｜法律约束行为"
+      },
+      {
+        "emoji": "⚙️",
+        "phrase": "principles govern the system",
+        "note": "系统的运作方式被原则决定｜原则支配系统"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "self-governing region",
+        "note": "地区自己决定自己的方向｜自治地区"
+      }
+    ],
+    "collocations": [
+      "govern effectively",
+      "governing body",
+      "self-governed"
+    ],
+    "chinese": "统治，治理；支配",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "dominate",
+    "word": "dominate",
+    "phonetic": "/ˈdɒmɪneɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "在多方共存的局面里，一方的力量或影响力远远超过其他各方，压倒性地占据主导，其他方相对被边缘化。",
+    "underlying_relation": "多方共存局面 → 一方力量远超其他 → 压倒性占据主导（其他方被边缘化）。",
+    "core_emoji": "👑⬇️",
+    "scenes": [
+      {
+        "emoji": "🏀",
+        "phrase": "dominate the game",
+        "note": "一方实力远超对方压倒性占优｜主宰比赛"
+      },
+      {
+        "emoji": "💼",
+        "phrase": "dominate the market",
+        "note": "一家公司远超其他公司占据主导｜主导市场"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "dominate the conversation",
+        "note": "一人的发言远超其他人占主导｜主导谈话"
+      },
+      {
+        "emoji": "🏔️",
+        "phrase": "the mountain dominates the skyline",
+        "note": "山的存在远超其他，占据视觉主导｜山峰主宰天际线"
+      }
+    ],
+    "collocations": [
+      "dominate the industry",
+      "dominant position",
+      "male-dominated"
+    ],
+    "chinese": "支配，控制；占主导地位",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "influence",
+    "word": "influence",
+    "phonetic": "/ˈɪnfluəns/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "一个因素不用直接强制的方式，而是潜移默化地渗透进另一个对象，让对方的想法或行为悄悄地发生改变。",
+    "underlying_relation": "外部因素 → 潜移默化渗透（非直接强制）→ 对象的想法/行为悄悄改变。",
+    "core_emoji": "💭➡️",
+    "scenes": [
+      {
+        "emoji": "👨‍👩‍👧",
+        "phrase": "influence a child's values",
+        "note": "价值观被潜移默化地渗透改变｜影响孩子的价值观"
+      },
+      {
+        "emoji": "📺",
+        "phrase": "media influences opinion",
+        "note": "观点被媒体潜移默化地渗透改变｜媒体影响观点"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "weather influences mood",
+        "note": "情绪被天气潜移默化地渗透改变｜天气影响心情"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "influence the decision",
+        "note": "决定被潜移默化地渗透改变｜影响决定"
+      }
+    ],
+    "collocations": [
+      "influence heavily",
+      "under the influence of",
+      "influential figure"
+    ],
+    "chinese": "影响（潜移默化地）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "declare",
+    "word": "declare",
+    "phonetic": "/dɪˈkleə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一件原本只是内心想法或私下事实的事情，被当众清楚、正式地说出来，从此成为公开、确定的事实。",
+    "underlying_relation": "内心想法/私下事实 → 当众正式说出 → 成为公开确定的事实。",
+    "core_emoji": "📢✅",
+    "scenes": [
+      {
+        "emoji": "🏛️",
+        "phrase": "declare independence",
+        "note": "独立从想法变成正式公开的事实｜宣布独立"
+      },
+      {
+        "emoji": "❤️",
+        "phrase": "declare one's love",
+        "note": "内心情感被正式公开说出来｜表白爱意"
+      },
+      {
+        "emoji": "🛂",
+        "phrase": "declare goods at customs",
+        "note": "携带物品被正式公开申报｜在海关申报物品"
+      },
+      {
+        "emoji": "⚔️",
+        "phrase": "declare war",
+        "note": "开战决定被正式公开宣告｜宣战"
+      }
+    ],
+    "collocations": [
+      "declare that",
+      "publicly declared",
+      "declaration of"
+    ],
+    "chinese": "宣布，宣告；申报",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "clarify",
+    "word": "clarify",
+    "phonetic": "/ˈklærɪfaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本模糊、容易引起误解的说法或情况，经过补充说明，变得清晰明确，不再有歧义。",
+    "underlying_relation": "模糊/容易误解的说法 ×（补充说明）→ 变得清晰明确（无歧义）。",
+    "core_emoji": "🌫️➡️☀️",
+    "scenes": [
+      {
+        "emoji": "📋",
+        "phrase": "clarify the instructions",
+        "note": "模糊的说明被补充变清晰｜澄清说明"
+      },
+      {
+        "emoji": "🤔",
+        "phrase": "clarify a misunderstanding",
+        "note": "误解被补充说明变清晰｜澄清误解"
+      },
+      {
+        "emoji": "📜",
+        "phrase": "clarify the policy",
+        "note": "模糊的政策被补充说明变明确｜澄清政策"
+      },
+      {
+        "emoji": "❓",
+        "phrase": "could you clarify?",
+        "note": "模糊的话被要求补充说清楚｜请澄清一下"
+      }
+    ],
+    "collocations": [
+      "clarify the situation",
+      "for clarification",
+      "seek to clarify"
+    ],
+    "chinese": "澄清，阐明",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "encourage",
+    "word": "encourage",
+    "phonetic": "/ɪnˈkʌrɪdʒ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人原本信心不足或不太想行动，通过外部的支持和鼓舞，内心的勇气和动力被提升，从而更愿意去做某事。",
+    "underlying_relation": "信心不足/不想行动 + 外部支持鼓舞 → 勇气/动力提升 → 更愿意行动。",
+    "core_emoji": "🙌💪",
+    "scenes": [
+      {
+        "emoji": "🎓",
+        "phrase": "encourage students to try",
+        "note": "学生的勇气被支持鼓舞提升｜鼓励学生尝试"
+      },
+      {
+        "emoji": "🌱",
+        "phrase": "encourage growth",
+        "note": "生长的动力被外部条件提升｜促进生长"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "encourage participation",
+        "note": "参与的意愿被鼓舞提升｜鼓励参与"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "words of encouragement",
+        "note": "话语让内心的勇气被提升｜鼓励的话语"
+      }
+    ],
+    "collocations": [
+      "encourage sb to do sth",
+      "highly encouraged",
+      "words of encouragement"
+    ],
+    "chinese": "鼓励，激励",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "implement",
+    "word": "implement",
+    "phonetic": "/ˈɪmplɪment/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本只停留在纸面上、还没发生的计划或政策，被正式付诸实践，开始真正在现实中运作起来。",
+    "underlying_relation": "纸面计划/政策（未发生）→ 正式付诸实践 → 在现实中真正运作。",
+    "core_emoji": "📋➡️⚙️",
+    "scenes": [
+      {
+        "emoji": "📋",
+        "phrase": "implement a policy",
+        "note": "政策从纸面付诸现实运作｜实施政策"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "implement a system",
+        "note": "系统从设计付诸实际运作｜实施系统"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "implement changes",
+        "note": "变革从计划付诸现实运作｜实施变革"
+      },
+      {
+        "emoji": "✅",
+        "phrase": "fully implemented",
+        "note": "计划完全从纸面变成现实运作｜完全落实"
+      }
+    ],
+    "collocations": [
+      "implement effectively",
+      "implementation of",
+      "yet to be implemented"
+    ],
+    "chinese": "实施，执行",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "monitor",
+    "word": "monitor",
+    "phonetic": "/ˈmɒnɪtə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "对一个持续变化的对象，不间断地进行观察和记录，及时掌握它每一步的变化情况，而不是只看一次结果。",
+    "underlying_relation": "持续变化的对象 → 不间断观察记录 → 及时掌握每一步变化（非只看结果）。",
+    "core_emoji": "👁️📊",
+    "scenes": [
+      {
+        "emoji": "🩺",
+        "phrase": "monitor a patient",
+        "note": "病人状态被不间断观察记录｜监测病人"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "monitor pollution levels",
+        "note": "污染水平被不间断观察记录｜监测污染水平"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "monitor progress",
+        "note": "进度被不间断观察掌握｜监控进度"
+      },
+      {
+        "emoji": "📹",
+        "phrase": "closely monitored",
+        "note": "情况被严密不间断地观察｜密切监控"
+      }
+    ],
+    "collocations": [
+      "monitor closely",
+      "under monitoring",
+      "monitor the situation"
+    ],
+    "chinese": "监控，监测",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
