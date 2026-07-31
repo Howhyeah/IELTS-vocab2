@@ -4402,5 +4402,299 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "trace",
+    "word": "trace",
+    "phonetic": "/treɪs/",
+    "pos": "v./n.",
+    "category": "A",
+    "core_state": "沿着一个事物留下的微弱线索或痕迹，一步步往回追溯，最终找到它的来源或经过路径。",
+    "underlying_relation": "现存的微弱痕迹 → 沿线索往回追溯 → 找到来源/经过路径。",
+    "core_emoji": "🐾🔍",
+    "scenes": [
+      {
+        "emoji": "🐾",
+        "phrase": "trace footprints",
+        "note": "沿着脚印痕迹往回找｜追踪足迹"
+      },
+      {
+        "emoji": "📞",
+        "phrase": "trace a phone call",
+        "note": "沿着信号痕迹追溯来源｜追踪电话来源"
+      },
+      {
+        "emoji": "🧬",
+        "phrase": "trace one's ancestry",
+        "note": "沿着家族线索追溯源头｜追溯祖先"
+      },
+      {
+        "emoji": "📜",
+        "phrase": "trace back to",
+        "note": "沿着历史线索追溯到某时期｜追溯到"
+      }
+    ],
+    "collocations": [
+      "trace back to",
+      "trace the origin",
+      "without a trace"
+    ],
+    "chinese": "追踪，追溯；痕迹",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "alternate",
+    "word": "alternate",
+    "phonetic": "/ˈɒltəneɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "两个不同的状态或对象，按照固定的节奏轮流出现，一个结束后另一个接上，不断循环切换。",
+    "underlying_relation": "状态A → 结束后切换到状态B → 再切回状态A（如此循环往复）。",
+    "core_emoji": "🔀🔁",
+    "scenes": [
+      {
+        "emoji": "☀️",
+        "phrase": "day and night alternate",
+        "note": "白天黑夜轮流交替｜昼夜交替"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "alternate shifts",
+        "note": "班次轮流切换｜轮班"
+      },
+      {
+        "emoji": "🎵",
+        "phrase": "alternate between happy and sad",
+        "note": "情绪在两种状态间轮流切换｜情绪交替"
+      },
+      {
+        "emoji": "⚡",
+        "phrase": "alternating current",
+        "note": "电流方向持续轮流切换｜交流电"
+      }
+    ],
+    "collocations": [
+      "alternate with",
+      "alternate between",
+      "alternating pattern"
+    ],
+    "chinese": "（使）交替，轮流",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "captivate",
+    "word": "captivate",
+    "phonetic": "/ˈkæptɪveɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人的注意力和兴趣，被某个事物完全抓住、牢牢吸住，无法从它身上转移开。",
+    "underlying_relation": "注意力（原本自由）→ 被某事物完全抓住 → 无法转移（被牢牢吸住）。",
+    "core_emoji": "👁️🧲",
+    "scenes": [
+      {
+        "emoji": "🎬",
+        "phrase": "the film captivates the audience",
+        "note": "观众的注意力被电影牢牢吸住｜电影吸引观众"
+      },
+      {
+        "emoji": "😍",
+        "phrase": "captivated by her beauty",
+        "note": "注意力被美貌完全抓住｜被美貌迷住"
+      },
+      {
+        "emoji": "📖",
+        "phrase": "a captivating story",
+        "note": "故事牢牢吸住读者注意力｜引人入胜的故事"
+      },
+      {
+        "emoji": "🎤",
+        "phrase": "captivate the crowd",
+        "note": "人群的注意力被牢牢吸住｜吸引人群"
+      }
+    ],
+    "collocations": [
+      "captivate audiences",
+      "utterly captivated",
+      "captivating performance"
+    ],
+    "chinese": "使着迷，吸引住（注意力）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "undergo",
+    "word": "undergo",
+    "phonetic": "/ˌʌndəˈɡəʊ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个主体不是主动发起，而是被动地经过、承受了一整个过程，从这个过程的开始一直走到结束。",
+    "underlying_relation": "主体（被动方）→ 经过一个完整过程 → 承受该过程带来的变化/影响。",
+    "core_emoji": "🚶➡️🏁",
+    "scenes": [
+      {
+        "emoji": "🏥",
+        "phrase": "undergo surgery",
+        "note": "被动经历整个手术过程｜接受手术"
+      },
+      {
+        "emoji": "🔄",
+        "phrase": "undergo changes",
+        "note": "被动经历一整段变化过程｜经历变化"
+      },
+      {
+        "emoji": "📝",
+        "phrase": "undergo testing",
+        "note": "被动经过整个测试过程｜接受测试"
+      },
+      {
+        "emoji": "😰",
+        "phrase": "undergo hardship",
+        "note": "被动承受一整段艰难过程｜经受艰苦"
+      }
+    ],
+    "collocations": [
+      "undergo treatment",
+      "undergo a transformation",
+      "currently undergoing"
+    ],
+    "chinese": "经历，经受（过程）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "suffer",
+    "word": "suffer",
+    "phonetic": "/ˈsʌfə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个负面的、令人痛苦的东西，被动地施加在主体身上，主体只能承受这份痛苦或损失，无法躲开。",
+    "underlying_relation": "负面事物（伤害/损失）→ 施加在主体身上 → 主体被动承受（无法躲开）。",
+    "core_emoji": "😣⬇️",
+    "scenes": [
+      {
+        "emoji": "🤕",
+        "phrase": "suffer an injury",
+        "note": "身体被动承受伤害｜遭受伤害"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "suffer a loss",
+        "note": "被动承受经济损失｜遭受损失"
+      },
+      {
+        "emoji": "😢",
+        "phrase": "suffer from depression",
+        "note": "被动承受心理上的痛苦｜患抑郁症"
+      },
+      {
+        "emoji": "🌪️",
+        "phrase": "areas suffering from drought",
+        "note": "地区被动承受干旱影响｜遭受干旱"
+      }
+    ],
+    "collocations": [
+      "suffer from",
+      "suffer the consequences",
+      "greatly suffered"
+    ],
+    "chinese": "遭受，忍受（痛苦/损失）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "tame",
+    "word": "tame",
+    "phonetic": "/teɪm/",
+    "pos": "v./adj.",
+    "category": "A",
+    "core_state": "一个原本野性难控、不受约束的对象，经过持续的驯化训练，变得温顺、可控、听从指令。",
+    "underlying_relation": "野性/不受约束的状态 + 持续驯化训练 → 温顺可控（听从指令）。",
+    "core_emoji": "🐯<span style=\"color:#e53935;font-weight:bold\">→</span>🐱",
+    "scenes": [
+      {
+        "emoji": "🦁",
+        "phrase": "tame a wild animal",
+        "note": "野性动物被驯化变温顺｜驯服野生动物"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "tame the flood",
+        "note": "失控的洪水被治理可控｜控制洪水"
+      },
+      {
+        "emoji": "🔥",
+        "phrase": "tame one's temper",
+        "note": "失控的脾气被约束变温和｜控制脾气"
+      },
+      {
+        "emoji": "🏜️",
+        "phrase": "tame nature",
+        "note": "不受控的自然被改造可控｜征服自然"
+      }
+    ],
+    "collocations": [
+      "tame the wilderness",
+      "a tame response",
+      "successfully tamed"
+    ],
+    "chinese": "驯服，驯化；温顺的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "vulnerable",
+    "word": "vulnerable",
+    "phonetic": "/ˈvʌlnərəbl/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "一个主体因为缺乏保护或防御能力，暴露在潜在伤害面前，一旦风险出现，就很容易受到冲击。",
+    "underlying_relation": "缺乏保护/防御 → 暴露在潜在伤害面前 → 风险出现时容易受冲击。",
+    "core_emoji": "🛡️❌",
+    "scenes": [
+      {
+        "emoji": "👶",
+        "phrase": "vulnerable children",
+        "note": "缺乏保护，容易受到伤害｜易受伤害的儿童"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "vulnerable to cyberattacks",
+        "note": "系统缺乏防御，暴露在攻击风险中｜易受网络攻击"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "vulnerable coastal areas",
+        "note": "沿海地区缺乏防护，暴露在风险中｜易受灾的沿海地区"
+      },
+      {
+        "emoji": "💔",
+        "phrase": "emotionally vulnerable",
+        "note": "情感上缺乏防御，容易受伤｜情感脆弱"
+      }
+    ],
+    "collocations": [
+      "highly vulnerable",
+      "vulnerable to",
+      "vulnerable population"
+    ],
+    "chinese": "易受伤害的，脆弱的",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
