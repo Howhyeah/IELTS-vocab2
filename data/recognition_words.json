@@ -4918,5 +4918,1615 @@
     "chinese": "线路，电路",
     "topic": "物理",
     "emoji": "🔌"
+  },
+  {
+    "id": "refraction",
+    "word": "refraction",
+    "phonetic": "/rɪˈfrækʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "折射",
+    "topic": "物理",
+    "emoji": "🌈"
+  },
+  {
+    "id": "ultraviolet",
+    "word": "ultraviolet",
+    "phonetic": "/ˌʌltrəˈvaɪələt/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "紫外线；紫外线的",
+    "topic": "物理",
+    "emoji": "☀️"
+  },
+  {
+    "id": "radioactive",
+    "word": "radioactive",
+    "phonetic": "/ˌreɪdiəʊˈæktɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "放射性的",
+    "topic": "物理",
+    "emoji": "☢️"
+  },
+  {
+    "id": "distinct",
+    "word": "distinct",
+    "phonetic": "/dɪˈstɪŋkt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "明显的，截然不同的",
+    "topic": "描述",
+    "emoji": "🔀"
+  },
+  {
+    "id": "discernible",
+    "word": "discernible",
+    "phonetic": "/dɪˈsɜːnəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "可辨别的",
+    "topic": "描述",
+    "emoji": "👁️"
+  },
+  {
+    "id": "invisible",
+    "word": "invisible",
+    "phonetic": "/ɪnˈvɪzəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "看不见的",
+    "topic": "描述",
+    "emoji": "👻"
+  },
+  {
+    "id": "collision",
+    "word": "collision",
+    "phonetic": "/kəˈlɪʒn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "碰撞，冲突",
+    "topic": "物理",
+    "emoji": "💥"
+  },
+  {
+    "id": "squash",
+    "word": "squash",
+    "phonetic": "/skwɒʃ/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "压扁；壁球",
+    "topic": "描述",
+    "emoji": "🥒"
+  },
+  {
+    "id": "fragment",
+    "word": "fragment",
+    "phonetic": "/ˈfræɡmənt/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "碎，碎片",
+    "topic": "描述",
+    "emoji": "🧩"
+  },
+  {
+    "id": "cataclysmic",
+    "word": "cataclysmic",
+    "phonetic": "/ˌkætəˈklɪzmɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "剧变的，灾难性的",
+    "topic": "描述",
+    "emoji": "💥"
+  },
+  {
+    "id": "despair",
+    "word": "despair",
+    "phonetic": "/dɪˈspeə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "绝望",
+    "topic": "情感",
+    "emoji": "😞"
+  },
+  {
+    "id": "hopeless",
+    "word": "hopeless",
+    "phonetic": "/ˈhəʊpləs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "无望的；极差的",
+    "topic": "情感",
+    "emoji": "😔"
+  },
+  {
+    "id": "primary",
+    "word": "primary",
+    "phonetic": "/ˈpraɪməri/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "最初的；小学教育的",
+    "topic": "教育",
+    "emoji": "1️⃣"
+  },
+  {
+    "id": "secondary",
+    "word": "secondary",
+    "phonetic": "/ˈsekəndri/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "中等教育的；次要的",
+    "topic": "教育",
+    "emoji": "2️⃣"
+  },
+  {
+    "id": "university",
+    "word": "university",
+    "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大学",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "college",
+    "word": "college",
+    "phonetic": "/ˈkɒlɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "学院；大学",
+    "topic": "教育",
+    "emoji": "🏫"
+  },
+  {
+    "id": "institute",
+    "word": "institute",
+    "phonetic": "/ˈɪnstɪtjuːt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "研究所，学院",
+    "topic": "教育",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "academy",
+    "word": "academy",
+    "phonetic": "/əˈkædəmi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "专科院校；研究院",
+    "topic": "教育",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "academic",
+    "word": "academic",
+    "phonetic": "/ˌækəˈdemɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "学院的，学术的",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "study",
+    "word": "study",
+    "phonetic": "/ˈstʌdi/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "学习，研究",
+    "topic": "教育",
+    "emoji": "📖"
+  },
+  {
+    "id": "acquire",
+    "word": "acquire",
+    "phonetic": "/əˈkwaɪə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "获得，取得",
+    "topic": "描述",
+    "emoji": "🎁"
+  },
+  {
+    "id": "knowledge",
+    "word": "knowledge",
+    "phonetic": "/ˈnɒlɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "知识，学识",
+    "topic": "教育",
+    "emoji": "📚"
+  },
+  {
+    "id": "expertise",
+    "word": "expertise",
+    "phonetic": "/ˌekspɜːˈtiːz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "专门知识/技能",
+    "topic": "教育",
+    "emoji": "🎯"
+  },
+  {
+    "id": "novice",
+    "word": "novice",
+    "phonetic": "/ˈnɒvɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "新手",
+    "topic": "描述",
+    "emoji": "🔰"
+  },
+  {
+    "id": "recruit",
+    "word": "recruit",
+    "phonetic": "/rɪˈkruːt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "招募，吸收",
+    "topic": "职业",
+    "emoji": "📋"
+  },
+  {
+    "id": "literate",
+    "word": "literate",
+    "phonetic": "/ˈlɪtərət/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有读写能力的",
+    "topic": "教育",
+    "emoji": "✍️"
+  },
+  {
+    "id": "illiteracy",
+    "word": "illiteracy",
+    "phonetic": "/ɪˈlɪtərəsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "文盲",
+    "topic": "教育",
+    "emoji": "❌"
+  },
+  {
+    "id": "numerate",
+    "word": "numerate",
+    "phonetic": "/ˈnjuːmərət/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "识数的，有计算能力的",
+    "topic": "教育",
+    "emoji": "🔢"
+  },
+  {
+    "id": "controversial",
+    "word": "controversial",
+    "phonetic": "/ˌkɒntrəˈvɜːʃl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有争议的",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "affair",
+    "word": "affair",
+    "phonetic": "/əˈfeə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "事件，事务",
+    "topic": "描述",
+    "emoji": "📰"
+  },
+  {
+    "id": "puzzle",
+    "word": "puzzle",
+    "phonetic": "/ˈpʌzl/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "难题；使迷惑",
+    "topic": "描述",
+    "emoji": "🧩"
+  },
+  {
+    "id": "riddle",
+    "word": "riddle",
+    "phonetic": "/ˈrɪdl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "谜语，谜",
+    "topic": "描述",
+    "emoji": "❓"
+  },
+  {
+    "id": "obscure",
+    "word": "obscure",
+    "phonetic": "/əbˈskjʊə(r)/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "难以理解的；模糊的",
+    "topic": "描述",
+    "emoji": "🌫️"
+  },
+  {
+    "id": "cram",
+    "word": "cram",
+    "phonetic": "/kræm/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "把…塞进；临时死记硬背",
+    "topic": "教育",
+    "emoji": "📚"
+  },
+  {
+    "id": "motivate",
+    "word": "motivate",
+    "phonetic": "/ˈməʊtɪveɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "激励，是…有动力",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "spur",
+    "word": "spur",
+    "phonetic": "/spɜː(r)/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "鞭策，刺激",
+    "topic": "描述",
+    "emoji": "🐎"
+  },
+  {
+    "id": "impetus",
+    "word": "impetus",
+    "phonetic": "/ˈɪmpɪtəs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "推动，促进",
+    "topic": "描述",
+    "emoji": "🚀"
+  },
+  {
+    "id": "abuse",
+    "word": "abuse",
+    "phonetic": "/əˈbjuːs/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "滥用；虐待",
+    "topic": "描述",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "intelligent",
+    "word": "intelligent",
+    "phonetic": "/ɪnˈtelɪdʒənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有才智的，聪明的",
+    "topic": "描述",
+    "emoji": "🧠"
+  },
+  {
+    "id": "intelligible",
+    "word": "intelligible",
+    "phonetic": "/ɪnˈtelɪdʒəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "可理解的",
+    "topic": "描述",
+    "emoji": "💬"
+  },
+  {
+    "id": "intellectual",
+    "word": "intellectual",
+    "phonetic": "/ˌɪntəˈlektʃuəl/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "智力的；知识分子",
+    "topic": "描述",
+    "emoji": "🧠"
+  },
+  {
+    "id": "all_round",
+    "word": "all-round",
+    "phonetic": "/ɔːl raʊnd/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "多方面有才能的",
+    "topic": "描述",
+    "emoji": "⭐"
+  },
+  {
+    "id": "genius",
+    "word": "genius",
+    "phonetic": "/ˈdʒiːniəs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "天才；天赋",
+    "topic": "描述",
+    "emoji": "🧠"
+  },
+  {
+    "id": "elite",
+    "word": "elite",
+    "phonetic": "/eɪˈliːt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "精英；上层人士",
+    "topic": "描述",
+    "emoji": "👑"
+  },
+  {
+    "id": "idiot",
+    "word": "idiot",
+    "phonetic": "/ˈɪdiət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "傻瓜，白痴",
+    "topic": "描述",
+    "emoji": "🤦"
+  },
+  {
+    "id": "wisdom",
+    "word": "wisdom",
+    "phonetic": "/ˈwɪzdəm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "智慧，学问",
+    "topic": "描述",
+    "emoji": "🦉"
+  },
+  {
+    "id": "wit",
+    "word": "wit",
+    "phonetic": "/wɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "机智；风趣的人",
+    "topic": "描述",
+    "emoji": "😏"
+  },
+  {
+    "id": "aptitude",
+    "word": "aptitude",
+    "phonetic": "/ˈæptɪtjuːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "天生的才能，资质",
+    "topic": "描述",
+    "emoji": "🌟"
+  },
+  {
+    "id": "capable",
+    "word": "capable",
+    "phonetic": "/ˈkeɪpəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有能力的，有才能的",
+    "topic": "描述",
+    "emoji": "💪"
+  },
+  {
+    "id": "excellent",
+    "word": "excellent",
+    "phonetic": "/ˈeksələnt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "优秀的，杰出的",
+    "topic": "描述",
+    "emoji": "🌟"
+  },
+  {
+    "id": "outstanding",
+    "word": "outstanding",
+    "phonetic": "/aʊtˈstændɪŋ/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "突出的，杰出的",
+    "topic": "描述",
+    "emoji": "🏆"
+  },
+  {
+    "id": "brilliant",
+    "word": "brilliant",
+    "phonetic": "/ˈbrɪliənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "光辉的，聪颖的",
+    "topic": "描述",
+    "emoji": "✨"
+  },
+  {
+    "id": "prestige",
+    "word": "prestige",
+    "phonetic": "/preˈstiːʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "威望，声望",
+    "topic": "描述",
+    "emoji": "👑"
+  },
+  {
+    "id": "reputation",
+    "word": "reputation",
+    "phonetic": "/ˌrepjuˈteɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "名声，声誉",
+    "topic": "描述",
+    "emoji": "⭐"
+  },
+  {
+    "id": "eminent",
+    "word": "eminent",
+    "phonetic": "/ˈemɪnənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "著名的，杰出的",
+    "topic": "描述",
+    "emoji": "🌟"
+  },
+  {
+    "id": "notorious",
+    "word": "notorious",
+    "phonetic": "/nəʊˈtɔːriəs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "声名狼藉的",
+    "topic": "描述",
+    "emoji": "😈"
+  },
+  {
+    "id": "esteem",
+    "word": "esteem",
+    "phonetic": "/ɪˈstiːm/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "尊重，敬重",
+    "topic": "描述",
+    "emoji": "🙏"
+  },
+  {
+    "id": "diligent",
+    "word": "diligent",
+    "phonetic": "/ˈdɪlɪdʒənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "勤奋的",
+    "topic": "描述",
+    "emoji": "💪"
+  },
+  {
+    "id": "painstaking",
+    "word": "painstaking",
+    "phonetic": "/ˈpeɪnzteɪkɪŋ/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "极其仔细，辛苦的",
+    "topic": "描述",
+    "emoji": "🔍"
+  },
+  {
+    "id": "skill",
+    "word": "skill",
+    "phonetic": "/skɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "技能",
+    "topic": "描述",
+    "emoji": "🛠️"
+  },
+  {
+    "id": "approach",
+    "word": "approach",
+    "phonetic": "/əˈprəʊtʃ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "方法；接近",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "scheme",
+    "word": "scheme",
+    "phonetic": "/skiːm/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "计划；阴谋",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "headmaster",
+    "word": "headmaster",
+    "phonetic": "/ˌhedˈmɑːstə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "男校长",
+    "topic": "职业",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "id": "principal",
+    "word": "principal",
+    "phonetic": "/ˈprɪnsəpl/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "校长；首要的",
+    "topic": "职业",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "id": "dean",
+    "word": "dean",
+    "phonetic": "/diːn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "学院院长，系主任",
+    "topic": "职业",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "id": "faculty",
+    "word": "faculty",
+    "phonetic": "/ˈfækəlti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "系，院；全体教员",
+    "topic": "教育",
+    "emoji": "🏫"
+  },
+  {
+    "id": "professor",
+    "word": "professor",
+    "phonetic": "/prəˈfesə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "教授",
+    "topic": "职业",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "id": "scholar",
+    "word": "scholar",
+    "phonetic": "/ˈskɒlə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "学者",
+    "topic": "职业",
+    "emoji": "📚"
+  },
+  {
+    "id": "mentor",
+    "word": "mentor",
+    "phonetic": "/ˈmentɔː(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "导师，顾问",
+    "topic": "职业",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "id": "tutor",
+    "word": "tutor",
+    "phonetic": "/ˈtjuːtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "家庭教师",
+    "topic": "职业",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "id": "lecturer",
+    "word": "lecturer",
+    "phonetic": "/ˈlektʃərə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大学讲师",
+    "topic": "职业",
+    "emoji": "🧑‍🏫"
+  },
+  {
+    "id": "assistant",
+    "word": "assistant",
+    "phonetic": "/əˈsɪstənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "助手，助理",
+    "topic": "职业",
+    "emoji": "🙋"
+  },
+  {
+    "id": "candidate",
+    "word": "candidate",
+    "phonetic": "/ˈkændɪdət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "候选人；求职者",
+    "topic": "描述",
+    "emoji": "🗳️"
+  },
+  {
+    "id": "degree",
+    "word": "degree",
+    "phonetic": "/dɪˈɡriː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "学位；程度",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "certify",
+    "word": "certify",
+    "phonetic": "/ˈsɜːtɪfaɪ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "证明，颁发证书",
+    "topic": "描述",
+    "emoji": "📜"
+  },
+  {
+    "id": "license",
+    "word": "license",
+    "phonetic": "/ˈlaɪsns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "执照，许可证",
+    "topic": "描述",
+    "emoji": "📜"
+  },
+  {
+    "id": "permit",
+    "word": "permit",
+    "phonetic": "/ˈpɜːmɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "许可证",
+    "topic": "描述",
+    "emoji": "📜"
+  },
+  {
+    "id": "diploma",
+    "word": "diploma",
+    "phonetic": "/dɪˈpləʊmə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "毕业文凭",
+    "topic": "教育",
+    "emoji": "📜"
+  },
+  {
+    "id": "diplomat",
+    "word": "diplomat",
+    "phonetic": "/ˈdɪpləmæt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "外交官",
+    "topic": "职业",
+    "emoji": "🤝"
+  },
+  {
+    "id": "ambassador",
+    "word": "ambassador",
+    "phonetic": "/æmˈbæsədə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大使",
+    "topic": "职业",
+    "emoji": "🤝"
+  },
+  {
+    "id": "pupil",
+    "word": "pupil",
+    "phonetic": "/ˈpjuːpl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "小学生；瞳孔",
+    "topic": "教育",
+    "emoji": "🧑‍🎓"
+  },
+  {
+    "id": "graduate",
+    "word": "graduate",
+    "phonetic": "/ˈɡrædʒuət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大学毕业生",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "ceremony",
+    "word": "ceremony",
+    "phonetic": "/ˈserəməni/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "典礼，礼节",
+    "topic": "描述",
+    "emoji": "🎉"
+  },
+  {
+    "id": "bachelor",
+    "word": "bachelor",
+    "phonetic": "/ˈbætʃələ(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "学士；单身汉",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "fresher",
+    "word": "fresher",
+    "phonetic": "/ˈfreʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "一年级新生",
+    "topic": "教育",
+    "emoji": "🆕"
+  },
+  {
+    "id": "sophomore",
+    "word": "sophomore",
+    "phonetic": "/ˈsɒfəmɔː(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "二年级学生",
+    "topic": "教育",
+    "emoji": "2️⃣"
+  },
+  {
+    "id": "junior",
+    "word": "junior",
+    "phonetic": "/ˈdʒuːniə(r)/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "三年级学生；低级别的",
+    "topic": "教育",
+    "emoji": "3️⃣"
+  },
+  {
+    "id": "senior",
+    "word": "senior",
+    "phonetic": "/ˈsiːniə(r)/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "毕业班学生；高级别的",
+    "topic": "教育",
+    "emoji": "4️⃣"
+  },
+  {
+    "id": "alumni",
+    "word": "alumni",
+    "phonetic": "/əˈlʌmnaɪ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "毕业生，校友",
+    "topic": "教育",
+    "emoji": "🎓"
+  },
+  {
+    "id": "campus",
+    "word": "campus",
+    "phonetic": "/ˈkæmpəs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "校园",
+    "topic": "教育",
+    "emoji": "🏫"
+  },
+  {
+    "id": "orientation",
+    "word": "orientation",
+    "phonetic": "/ˌɔːriənˈteɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "情况介绍，迎新会；方向",
+    "topic": "教育",
+    "emoji": "🧭"
+  },
+  {
+    "id": "platform",
+    "word": "platform",
+    "phonetic": "/ˈplætfɔːm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "平台；讲台",
+    "topic": "描述",
+    "emoji": "🎤"
+  },
+  {
+    "id": "coed",
+    "word": "coed",
+    "phonetic": "/ˈkəʊed/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "男女同校的",
+    "topic": "教育",
+    "emoji": "👫"
+  },
+  {
+    "id": "register",
+    "word": "register",
+    "phonetic": "/ˈredʒɪstə(r)/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "登记，注册",
+    "topic": "描述",
+    "emoji": "📝"
+  },
+  {
+    "id": "enrol",
+    "word": "enrol",
+    "phonetic": "/ɪnˈrəʊl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "注册，使加入",
+    "topic": "教育",
+    "emoji": "📝"
+  },
+  {
+    "id": "matriculation",
+    "word": "matriculation",
+    "phonetic": "/məˌtrɪkjuˈleɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "注册入大学",
+    "topic": "教育",
+    "emoji": "📝"
+  },
+  {
+    "id": "accommodation",
+    "word": "accommodation",
+    "phonetic": "/əˌkɒməˈdeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "住处，食宿",
+    "topic": "生活",
+    "emoji": "🏠"
+  },
+  {
+    "id": "dorm",
+    "word": "dorm",
+    "phonetic": "/dɔːm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "宿舍",
+    "topic": "教育",
+    "emoji": "🛏️"
+  },
+  {
+    "id": "dining_hall",
+    "word": "dining hall",
+    "phonetic": "/ˈdaɪnɪŋ hɔːl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "食堂",
+    "topic": "生活",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "canteen",
+    "word": "canteen",
+    "phonetic": "/kænˈtiːn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "食堂；水壶",
+    "topic": "生活",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "laboratory",
+    "word": "laboratory",
+    "phonetic": "/ləˈbɒrətri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "实验室",
+    "topic": "科学",
+    "emoji": "🧪"
+  },
+  {
+    "id": "experiment",
+    "word": "experiment",
+    "phonetic": "/ɪkˈsperɪmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "实验，试验",
+    "topic": "科学",
+    "emoji": "🧪"
+  },
+  {
+    "id": "data",
+    "word": "data",
+    "phonetic": "/ˈdeɪtə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "数据",
+    "topic": "科学",
+    "emoji": "📊"
+  },
+  {
+    "id": "quality",
+    "word": "quality",
+    "phonetic": "/ˈkwɒləti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "质量",
+    "topic": "描述",
+    "emoji": "⭐"
+  },
+  {
+    "id": "quantity",
+    "word": "quantity",
+    "phonetic": "/ˈkwɒntəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "数量",
+    "topic": "描述",
+    "emoji": "🔢"
+  },
+  {
+    "id": "library",
+    "word": "library",
+    "phonetic": "/ˈlaɪbrəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "图书馆",
+    "topic": "教育",
+    "emoji": "📚"
+  },
+  {
+    "id": "literature",
+    "word": "literature",
+    "phonetic": "/ˈlɪtrətʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "文学，文献",
+    "topic": "文学",
+    "emoji": "📖"
+  },
+  {
+    "id": "article",
+    "word": "article",
+    "phonetic": "/ˈɑːtɪkl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "文章",
+    "topic": "文学",
+    "emoji": "📰"
+  },
+  {
+    "id": "author",
+    "word": "author",
+    "phonetic": "/ˈɔːθə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "作者，作家",
+    "topic": "职业",
+    "emoji": "✍️"
+  },
+  {
+    "id": "tale",
+    "word": "tale",
+    "phonetic": "/teɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "故事，传说",
+    "topic": "文学",
+    "emoji": "📖"
+  },
+  {
+    "id": "fiction",
+    "word": "fiction",
+    "phonetic": "/ˈfɪkʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "小说；虚构",
+    "topic": "文学",
+    "emoji": "📕"
+  },
+  {
+    "id": "story",
+    "word": "story",
+    "phonetic": "/ˈstɔːri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "故事",
+    "topic": "文学",
+    "emoji": "📖"
+  },
+  {
+    "id": "diary",
+    "word": "diary",
+    "phonetic": "/ˈdaɪəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "日记",
+    "topic": "生活",
+    "emoji": "📔"
+  },
+  {
+    "id": "poetry",
+    "word": "poetry",
+    "phonetic": "/ˈpəʊətri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "诗，诗作",
+    "topic": "文学",
+    "emoji": "📜"
+  },
+  {
+    "id": "magazine",
+    "word": "magazine",
+    "phonetic": "/ˌmæɡəˈziːn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "杂志，期刊",
+    "topic": "文学",
+    "emoji": "📖"
+  },
+  {
+    "id": "journal",
+    "word": "journal",
+    "phonetic": "/ˈdʒɜːnl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "日报，周报；期刊",
+    "topic": "文学",
+    "emoji": "📰"
+  },
+  {
+    "id": "coverage",
+    "word": "coverage",
+    "phonetic": "/ˈkʌvərɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "新闻报道；覆盖范围",
+    "topic": "描述",
+    "emoji": "📡"
+  },
+  {
+    "id": "bibliography",
+    "word": "bibliography",
+    "phonetic": "/ˌbɪbliˈɒɡrəfi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "参考书目",
+    "topic": "文学",
+    "emoji": "📚"
+  },
+  {
+    "id": "documentary",
+    "word": "documentary",
+    "phonetic": "/ˌdɒkjuˈmentri/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "纪录片",
+    "topic": "文化",
+    "emoji": "🎬"
+  },
+  {
+    "id": "series",
+    "word": "series",
+    "phonetic": "/ˈsɪəriːz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "系列，连续",
+    "topic": "描述",
+    "emoji": "🔗"
+  },
+  {
+    "id": "record",
+    "word": "record",
+    "phonetic": "/ˈrekɔːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "记录，履历",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "file",
+    "word": "file",
+    "phonetic": "/faɪl/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "档案；归档",
+    "topic": "描述",
+    "emoji": "🗂️"
+  },
+  {
+    "id": "profile",
+    "word": "profile",
+    "phonetic": "/ˈprəʊfaɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "概述；人物简介",
+    "topic": "描述",
+    "emoji": "👤"
+  },
+  {
+    "id": "draft",
+    "word": "draft",
+    "phonetic": "/drɑːft/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "草稿；起草",
+    "topic": "描述",
+    "emoji": "📝"
+  },
+  {
+    "id": "sketch",
+    "word": "sketch",
+    "phonetic": "/sketʃ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "概略；素描",
+    "topic": "描述",
+    "emoji": "✏️"
+  },
+  {
+    "id": "brochure",
+    "word": "brochure",
+    "phonetic": "/ˈbrəʊʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "小册子",
+    "topic": "描述",
+    "emoji": "📄"
+  },
+  {
+    "id": "manual",
+    "word": "manual",
+    "phonetic": "/ˈmænjuəl/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "使用手册；手工的",
+    "topic": "描述",
+    "emoji": "📘"
+  },
+  {
+    "id": "frame",
+    "word": "frame",
+    "phonetic": "/freɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "框架",
+    "topic": "描述",
+    "emoji": "🖼️"
+  },
+  {
+    "id": "index",
+    "word": "index",
+    "phonetic": "/ˈɪndeks/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "指数；索引",
+    "topic": "描述",
+    "emoji": "📇"
+  },
+  {
+    "id": "catalogue",
+    "word": "catalogue",
+    "phonetic": "/ˈkætəlɒɡ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "目录",
+    "topic": "描述",
+    "emoji": "📇"
+  },
+  {
+    "id": "category",
+    "word": "category",
+    "phonetic": "/ˈkætəɡəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "种类，类别",
+    "topic": "描述",
+    "emoji": "🗂️"
+  },
+  {
+    "id": "inventory",
+    "word": "inventory",
+    "phonetic": "/ˈɪnvəntri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "库存；详细目录",
+    "topic": "商业",
+    "emoji": "📦"
+  },
+  {
+    "id": "content",
+    "word": "content",
+    "phonetic": "/ˈkɒntent/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "内容，目录",
+    "topic": "描述",
+    "emoji": "📃"
+  },
+  {
+    "id": "context",
+    "word": "context",
+    "phonetic": "/ˈkɒntekst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "上下文，语境",
+    "topic": "描述",
+    "emoji": "🔗"
+  },
+  {
+    "id": "list",
+    "word": "list",
+    "phonetic": "/lɪst/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "一览表，目录",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "chapter",
+    "word": "chapter",
+    "phonetic": "/ˈtʃæptə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "章；重要时期",
+    "topic": "文学",
+    "emoji": "📖"
+  },
+  {
+    "id": "reel",
+    "word": "reel",
+    "phonetic": "/riːl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "卷轴；一卷胶卷",
+    "topic": "描述",
+    "emoji": "🎞️"
+  },
+  {
+    "id": "object",
+    "word": "object",
+    "phonetic": "/ˈɒbdʒɪkt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "物体，目标；反对",
+    "topic": "描述",
+    "emoji": "📦"
+  },
+  {
+    "id": "major",
+    "word": "major",
+    "phonetic": "/ˈmeɪdʒə(r)/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "专业，主修；主要的",
+    "topic": "教育",
+    "emoji": "🎯"
+  },
+  {
+    "id": "minor",
+    "word": "minor",
+    "phonetic": "/ˈmaɪnə(r)/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "辅修科目；不严重的",
+    "topic": "教育",
+    "emoji": "📎"
+  },
+  {
+    "id": "sociology",
+    "word": "sociology",
+    "phonetic": "/ˌsəʊsiˈɒlədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "社会学",
+    "topic": "学科",
+    "emoji": "👥"
+  },
+  {
+    "id": "politics",
+    "word": "politics",
+    "phonetic": "/ˈpɒlətɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "政治，政治学",
+    "topic": "学科",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "economics",
+    "word": "economics",
+    "phonetic": "/ˌiːkəˈnɒmɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "经济学",
+    "topic": "学科",
+    "emoji": "💰"
+  },
+  {
+    "id": "marketing",
+    "word": "marketing",
+    "phonetic": "/ˈmɑːkɪtɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "市场营销",
+    "topic": "学科",
+    "emoji": "📢"
+  },
+  {
+    "id": "accounting",
+    "word": "accounting",
+    "phonetic": "/əˈkaʊntɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "会计",
+    "topic": "学科",
+    "emoji": "🧮"
+  },
+  {
+    "id": "audit",
+    "word": "audit",
+    "phonetic": "/ˈɔːdɪt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "审计；旁听",
+    "topic": "学科",
+    "emoji": "📊"
+  },
+  {
+    "id": "statistics",
+    "word": "statistics",
+    "phonetic": "/stəˈtɪstɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "统计学",
+    "topic": "学科",
+    "emoji": "📊"
+  },
+  {
+    "id": "psychology",
+    "word": "psychology",
+    "phonetic": "/saɪˈkɒlədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "心理学",
+    "topic": "学科",
+    "emoji": "🧠"
+  },
+  {
+    "id": "philosophy",
+    "word": "philosophy",
+    "phonetic": "/fəˈlɒsəfi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "哲学",
+    "topic": "学科",
+    "emoji": "🤔"
+  },
+  {
+    "id": "logic",
+    "word": "logic",
+    "phonetic": "/ˈlɒdʒɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "逻辑，逻辑学",
+    "topic": "学科",
+    "emoji": "🧩"
+  },
+  {
+    "id": "physics",
+    "word": "physics",
+    "phonetic": "/ˈfɪzɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "物理学",
+    "topic": "学科",
+    "emoji": "⚛️"
+  },
+  {
+    "id": "chemistry",
+    "word": "chemistry",
+    "phonetic": "/ˈkemɪstri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "化学",
+    "topic": "学科",
+    "emoji": "🧪"
+  },
+  {
+    "id": "agriculture",
+    "word": "agriculture",
+    "phonetic": "/ˈæɡrɪkʌltʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "农业",
+    "topic": "学科",
+    "emoji": "🌾"
+  },
+  {
+    "id": "logistics",
+    "word": "logistics",
+    "phonetic": "/ləˈdʒɪstɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "物流，后勤",
+    "topic": "学科",
+    "emoji": "🚚"
+  },
+  {
+    "id": "geography",
+    "word": "geography",
+    "phonetic": "/dʒiˈɒɡrəfi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "地理学",
+    "topic": "学科",
+    "emoji": "🗺️"
+  },
+  {
+    "id": "history",
+    "word": "history",
+    "phonetic": "/ˈhɪstri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "历史学",
+    "topic": "学科",
+    "emoji": "📜"
+  },
+  {
+    "id": "engineering",
+    "word": "engineering",
+    "phonetic": "/ˌendʒɪˈnɪərɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工程学",
+    "topic": "学科",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "mechanics",
+    "word": "mechanics",
+    "phonetic": "/məˈkænɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "力学，机械学",
+    "topic": "学科",
+    "emoji": "⚙️"
+  },
+  {
+    "id": "electronics",
+    "word": "electronics",
+    "phonetic": "/ɪˌlekˈtrɒnɪks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "电子学",
+    "topic": "学科",
+    "emoji": "🔌"
+  },
+  {
+    "id": "maths",
+    "word": "maths",
+    "phonetic": "/mæθs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "数学",
+    "topic": "学科",
+    "emoji": "🔢"
+  },
+  {
+    "id": "arithmetic",
+    "word": "arithmetic",
+    "phonetic": "/əˈrɪθmətɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "算数",
+    "topic": "学科",
+    "emoji": "➕"
   }
 ]
