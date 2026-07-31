@@ -5158,5 +5158,719 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "radiate",
+    "word": "radiate",
+    "phonetic": "/ˈreɪdieɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "能量或情绪从一个中心点，向四周所有方向均匀地扩散出去，越靠近中心越强，越远越弱。",
+    "underlying_relation": "中心点（能量/情绪源）→ 向四周均匀扩散 → 越远越弱（呈放射状分布）。",
+    "core_emoji": "☀️➡️",
+    "scenes": [
+      {
+        "emoji": "☀️",
+        "phrase": "the sun radiates heat",
+        "note": "热量从太阳向四周扩散｜太阳散发热量"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "radiate happiness",
+        "note": "快乐从一个人身上向外扩散｜散发快乐"
+      },
+      {
+        "emoji": "☢️",
+        "phrase": "radiate radioactivity",
+        "note": "辐射从中心向四周扩散｜散发辐射"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "confidence radiates from her",
+        "note": "自信从她身上向外扩散｜她散发自信"
+      }
+    ],
+    "collocations": [
+      "radiate outward",
+      "radiate confidence",
+      "radiate energy"
+    ],
+    "chinese": "辐射，发散（能量/情绪）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "displace",
+    "word": "displace",
+    "phonetic": "/dɪsˈpleɪs/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本占据某个位置的东西，被另一个东西挤走、推离原位，取而代之占据这个位置。",
+    "underlying_relation": "原位置的东西 → 被挤走推离 → 新东西取而代之占据该位置。",
+    "core_emoji": "📦➡️📥",
+    "scenes": [
+      {
+        "emoji": "🏠",
+        "phrase": "displace residents",
+        "note": "居民被挤走离开原本的家｜使居民流离失所"
+      },
+      {
+        "emoji": "💧",
+        "phrase": "water displaces air",
+        "note": "水挤走了原本占据空间的空气｜水排出空气"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "AI displaces jobs",
+        "note": "AI取代了原本由人做的工作｜AI取代工作岗位"
+      },
+      {
+        "emoji": "🌊",
+        "phrase": "displaced by rising seas",
+        "note": "海平面上升挤走了原住民｜因海平面上升而流离失所"
+      }
+    ],
+    "collocations": [
+      "displace workers",
+      "displaced population",
+      "displace traditional methods"
+    ],
+    "chinese": "使离开原位；取代",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "dissolve",
+    "word": "dissolve",
+    "phonetic": "/dɪˈzɒlv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本有固定形态的固体，被液体持续包裹渗透，逐渐失去自己的固定形态，均匀地融入液体之中，再也分不出来。",
+    "underlying_relation": "固定形态的固体 + 液体持续渗透 → 失去固定形态 → 均匀融入液体（无法分离）。",
+    "core_emoji": "🧊<span style=\"color:#e53935;font-weight:bold\">→</span>💧",
+    "scenes": [
+      {
+        "emoji": "🍬",
+        "phrase": "sugar dissolves in water",
+        "note": "糖块失去形态融入水中｜糖在水中溶解"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "the partnership dissolved",
+        "note": "合作关系逐渐消散不复存在｜合作关系解散"
+      },
+      {
+        "emoji": "💊",
+        "phrase": "the pill dissolves quickly",
+        "note": "药片很快融入液体消失｜药片很快溶解"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "dissolve parliament",
+        "note": "议会这个组织被解散消失｜解散议会"
+      }
+    ],
+    "collocations": [
+      "dissolve completely",
+      "dissolve into tears",
+      "dissolve a marriage"
+    ],
+    "chinese": "溶解；（使）解散，消散",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "compose",
+    "word": "compose",
+    "phonetic": "/kəmˈpəʊz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "多个独立分散的部分，按照某种设计被组合安排在一起，共同构成一个统一完整的整体。",
+    "underlying_relation": "多个独立部分 → 按设计组合安排 → 构成统一完整的整体。",
+    "core_emoji": "🧩➡️🖼️",
+    "scenes": [
+      {
+        "emoji": "🎵",
+        "phrase": "compose a song",
+        "note": "音符被组合安排成一首完整的歌｜创作歌曲"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "be composed of",
+        "note": "多个部分组合构成整体｜由…组成"
+      },
+      {
+        "emoji": "✍️",
+        "phrase": "compose a letter",
+        "note": "文字被组合安排成一封完整信件｜撰写信件"
+      },
+      {
+        "emoji": "😌",
+        "phrase": "compose oneself",
+        "note": "情绪被重新组合安排回平静状态｜使自己镇定下来"
+      }
+    ],
+    "collocations": [
+      "be composed of",
+      "compose music",
+      "well-composed"
+    ],
+    "chinese": "组成，构成；创作（音乐/文字）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "inherent",
+    "word": "inherent",
+    "phonetic": "/ɪnˈhɪərənt/",
+    "pos": "adj.",
+    "category": "A",
+    "core_state": "一种特质从一开始就内置在某个事物里面，是它本身固有的一部分，不是后来外部添加上去的。",
+    "underlying_relation": "事物本身 → 特质从一开始就内置其中（非外部添加）→ 成为固有的一部分。",
+    "core_emoji": "📦🔒",
+    "scenes": [
+      {
+        "emoji": "⚠️",
+        "phrase": "inherent risk",
+        "note": "风险从一开始就内置在事情本身里｜固有的风险"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "inherent talent",
+        "note": "才能是与生俱来内置的｜固有的天赋"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "inherent flaws",
+        "note": "缺陷从一开始就内置存在｜固有的缺陷"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "inherent in the system",
+        "note": "特质内置在系统本身里｜系统中固有的"
+      }
+    ],
+    "collocations": [
+      "inherent in",
+      "inherent value",
+      "inherently flawed"
+    ],
+    "chinese": "内在的，固有的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "scrutinise",
+    "word": "scrutinise",
+    "phonetic": "/ˈskruːtənaɪz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "对一个对象进行极其仔细、不放过任何细节的检查，目的是找出表面看不出来的问题或线索。",
+    "underlying_relation": "对象表面 → 极其仔细检查每个细节 → 找出表面看不出的问题/线索。",
+    "core_emoji": "🔍👁️",
+    "scenes": [
+      {
+        "emoji": "📄",
+        "phrase": "scrutinise a contract",
+        "note": "合同每个细节被仔细检查｜仔细审查合同"
+      },
+      {
+        "emoji": "🧑‍⚖️",
+        "phrase": "scrutinise the evidence",
+        "note": "证据被极其仔细地检查｜仔细审查证据"
+      },
+      {
+        "emoji": "👀",
+        "phrase": "under public scrutiny",
+        "note": "行为被公众极其仔细地检查｜受到公众监督"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "scrutinise expenses",
+        "note": "开支每一项被仔细检查｜仔细审查开支"
+      }
+    ],
+    "collocations": [
+      "closely scrutinised",
+      "come under scrutiny",
+      "scrutinise closely"
+    ],
+    "chinese": "仔细检查，详细审查",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "elicit",
+    "word": "elicit",
+    "phonetic": "/ɪˈlɪsɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本藏在别人心里、不会主动说出来的信息或反应，通过巧妙的提问或技巧，被引导着说出来。",
+    "underlying_relation": "藏在心里的信息/反应 → 巧妙提问引导 → 被引出说出来。",
+    "core_emoji": "🎣💬",
+    "scenes": [
+      {
+        "emoji": "❓",
+        "phrase": "elicit a response",
+        "note": "反应被巧妙提问引出来｜引出回应"
+      },
+      {
+        "emoji": "🕵️",
+        "phrase": "elicit information",
+        "note": "信息被巧妙套问出来｜探出信息"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "elicit a smile",
+        "note": "笑容被巧妙引出来｜引出微笑"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "elicit feedback",
+        "note": "反馈被主动引导说出来｜征集反馈"
+      }
+    ],
+    "collocations": [
+      "elicit a reaction",
+      "elicit information from",
+      "successfully elicited"
+    ],
+    "chinese": "引出，探出（信息/反应）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "assume",
+    "word": "assume",
+    "phonetic": "/əˈsjuːm/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "在没有确凿证据证实的情况下，把某件事当作理所当然是真的，作为接下来思考或行动的出发点。",
+    "underlying_relation": "无确凿证据 → 把某事当作真的（未经证实）→ 作为思考/行动的出发点。",
+    "core_emoji": "🤔✅",
+    "scenes": [
+      {
+        "emoji": "🤷",
+        "phrase": "assume the worst",
+        "note": "没有证据就把最坏情况当真｜假设最坏情况"
+      },
+      {
+        "emoji": "👔",
+        "phrase": "assume responsibility",
+        "note": "把责任当作理所当然要承担的｜承担责任"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "assume power",
+        "note": "把权力当作理所当然接手｜掌权"
+      },
+      {
+        "emoji": "❓",
+        "phrase": "wrongly assumed",
+        "note": "把没证实的事当真了，结果错了｜错误地假设"
+      }
+    ],
+    "collocations": [
+      "assume that",
+      "safe to assume",
+      "assumed identity"
+    ],
+    "chinese": "假定，认为；承担",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "perceive",
+    "word": "perceive",
+    "phonetic": "/pəˈsiːv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "外部的信息通过感官进入大脑，被大脑加工解读，形成一种对这个事物的理解或印象。",
+    "underlying_relation": "外部信息 → 通过感官进入大脑加工 → 形成理解/印象（未必等于事实本身）。",
+    "core_emoji": "👁️🧠",
+    "scenes": [
+      {
+        "emoji": "😊",
+        "phrase": "perceived as friendly",
+        "note": "被大脑解读为友好的印象｜被视为友好的"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "perceive beauty",
+        "note": "美感通过感官被大脑解读感知｜感知美"
+      },
+      {
+        "emoji": "⚠️",
+        "phrase": "perceive a threat",
+        "note": "威胁信号被大脑解读察觉到｜察觉到威胁"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "widely perceived",
+        "note": "被大众普遍解读形成的印象｜被普遍认为"
+      }
+    ],
+    "collocations": [
+      "perceive as",
+      "commonly perceived",
+      "perception of"
+    ],
+    "chinese": "察觉，感知；认为，看待",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "discern",
+    "word": "discern",
+    "phonetic": "/dɪˈsɜːn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "两个非常相似、难以区分的东西，经过仔细辨认，最终把它们的细微差别分辨出来。",
+    "underlying_relation": "两个相似难辨的东西 → 仔细辨认 → 分辨出细微差别。",
+    "core_emoji": "🔎↔️",
+    "scenes": [
+      {
+        "emoji": "🎨",
+        "phrase": "discern subtle differences",
+        "note": "细微差异被仔细辨认区分出来｜辨别细微差别"
+      },
+      {
+        "emoji": "😐",
+        "phrase": "discern true feelings",
+        "note": "掩藏的真实情绪被辨认出来｜看出真实感受"
+      },
+      {
+        "emoji": "🌫️",
+        "phrase": "barely discernible",
+        "note": "几乎难以被辨认分别出来｜几乎无法分辨"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "discern a pattern",
+        "note": "隐藏的规律被仔细辨认出来｜辨认出规律"
+      }
+    ],
+    "collocations": [
+      "discern between",
+      "discernible pattern",
+      "hard to discern"
+    ],
+    "chinese": "辨别，识别（细微差别）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "recognise",
+    "word": "recognise",
+    "phonetic": "/ˈrekəɡnaɪz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "眼前新出现的东西，跟大脑里已经存好的记忆模式对上号，因此确认「这个我见过/知道」。",
+    "underlying_relation": "眼前新出现的东西 → 跟记忆中已存的模式对上号 → 确认识别出来。",
+    "core_emoji": "👁️🔗",
+    "scenes": [
+      {
+        "emoji": "👋",
+        "phrase": "recognise a face",
+        "note": "脸跟记忆里的模式对上号｜认出一张脸"
+      },
+      {
+        "emoji": "🏆",
+        "phrase": "recognise achievement",
+        "note": "成就被确认对应符合标准而认可｜认可成就"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "internationally recognised",
+        "note": "被国际上广泛确认对上标准而认可｜国际公认"
+      },
+      {
+        "emoji": "🎵",
+        "phrase": "recognise a tune",
+        "note": "曲调跟记忆里的旋律对上号｜认出曲调"
+      }
+    ],
+    "collocations": [
+      "widely recognised",
+      "recognise the need for",
+      "fail to recognise"
+    ],
+    "chinese": "认出，识别；承认，认可",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "imply",
+    "word": "imply",
+    "phonetic": "/ɪmˈplaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "话语表面没有直接说出某个意思，但这层意思已经暗含在字里行间，听者需要自己领会出来。",
+    "underlying_relation": "表面话语（未直接说）→ 意思暗含在字里行间 → 听者需自己领会出来。",
+    "core_emoji": "💬🔍",
+    "scenes": [
+      {
+        "emoji": "😏",
+        "phrase": "imply criticism",
+        "note": "批评没直说但暗含在话里｜暗指批评"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "data implies a trend",
+        "note": "趋势没直接说但暗含在数据里｜数据暗示趋势"
+      },
+      {
+        "emoji": "🤔",
+        "phrase": "are you implying that...",
+        "note": "某个意思暗含在你的话里吗｜你是在暗示…吗"
+      },
+      {
+        "emoji": "📜",
+        "phrase": "as the name implies",
+        "note": "意思暗含在名字本身里｜正如名字所暗示的"
+      }
+    ],
+    "collocations": [
+      "strongly imply",
+      "implication of",
+      "clearly implied"
+    ],
+    "chinese": "暗指，暗示；意味着",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "deliberate",
+    "word": "deliberate",
+    "phonetic": "/dɪˈlɪbərət/",
+    "pos": "v./adj.",
+    "category": "A",
+    "core_state": "一个决定不是凭一时冲动做出的，而是经过反复权衡、认真思考之后，才慎重地定下来。",
+    "underlying_relation": "决定 ×（反复权衡认真思考）→ 慎重定下（非冲动做出）。",
+    "core_emoji": "🧠⚖️",
+    "scenes": [
+      {
+        "emoji": "⚖️",
+        "phrase": "deliberate over a decision",
+        "note": "决定经过反复权衡才定下｜仔细斟酌决定"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "a deliberate choice",
+        "note": "选择是经过认真思考的，非无意｜蓄意的选择"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "deliberate speech",
+        "note": "话语说得慢而慎重，字字权衡｜慎重的言语"
+      },
+      {
+        "emoji": "🚫",
+        "phrase": "deliberate deception",
+        "note": "欺骗是经过精心策划的，非意外｜故意的欺骗"
+      }
+    ],
+    "collocations": [
+      "deliberate on",
+      "quite deliberate",
+      "deliberate action"
+    ],
+    "chinese": "仔细考虑，深思熟虑；故意的",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "represent",
+    "word": "represent",
+    "phonetic": "/ˌreprɪˈzent/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个具体的符号、人或物，站在另一个更大或更抽象的事物面前，代替它出现，让人一看到符号就联想到那个事物。",
+    "underlying_relation": "具体符号/人/物 → 代替更大/抽象的事物出现 → 看到符号联想到该事物。",
+    "core_emoji": "🏳️➡️",
+    "scenes": [
+      {
+        "emoji": "🏳️",
+        "phrase": "the flag represents the nation",
+        "note": "旗子代替国家站出来｜国旗代表国家"
+      },
+      {
+        "emoji": "🧑‍⚖️",
+        "phrase": "represent a client",
+        "note": "律师代替客户出面发言｜代表客户"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "the graph represents data",
+        "note": "图形代替数据呈现出来｜图表代表数据"
+      },
+      {
+        "emoji": "❤️",
+        "phrase": "represent hope",
+        "note": "具体事物代替抽象的希望出现｜象征希望"
+      }
+    ],
+    "collocations": [
+      "represent a shift",
+      "widely represented",
+      "representative sample"
+    ],
+    "chinese": "代表；象征",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "insist",
+    "word": "insist",
+    "phonetic": "/ɪnˈsɪst/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "尽管面对反对或质疑的压力，一个人依然牢牢守住自己原本的立场或要求，不肯让步松动。",
+    "underlying_relation": "反对/质疑的压力 → 牢牢守住原本立场/要求 → 不让步（坚持到底）。",
+    "core_emoji": "🚩💪",
+    "scenes": [
+      {
+        "emoji": "🙅",
+        "phrase": "insist on paying",
+        "note": "面对推让依然坚持要付钱｜坚持要付钱"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "insist that it's true",
+        "note": "面对质疑依然坚持说是真的｜坚持说是真的"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "insist on quality",
+        "note": "面对妥协压力依然坚持高标准｜坚持质量标准"
+      },
+      {
+        "emoji": "🚪",
+        "phrase": "insist on leaving",
+        "note": "面对劝阻依然坚持要走｜坚持要离开"
+      }
+    ],
+    "collocations": [
+      "insist on",
+      "insist that",
+      "keep insisting"
+    ],
+    "chinese": "坚持，坚决要求",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "persist",
+    "word": "persist",
+    "phonetic": "/pəˈsɪst/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "尽管遇到困难、阻力或反对，一个行为或状态依然持续下去，没有因为这些阻碍而停下来。",
+    "underlying_relation": "困难/阻力/反对 → 行为/状态依然持续 → 未因阻碍而停下（坚持不懈）。",
+    "core_emoji": "🚶➡️🚧",
+    "scenes": [
+      {
+        "emoji": "🌧️",
+        "phrase": "the rain persists",
+        "note": "尽管持续了很久，雨依然没停｜雨持续不停"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "persist despite failure",
+        "note": "尽管失败依然继续尝试下去｜不顾失败坚持下去"
+      },
+      {
+        "emoji": "🤕",
+        "phrase": "symptoms persist",
+        "note": "尽管治疗，症状依然持续存在｜症状持续存在"
+      },
+      {
+        "emoji": "🐌",
+        "phrase": "persistent effort",
+        "note": "努力持续不断，不因困难而停｜持之以恒的努力"
+      }
+    ],
+    "collocations": [
+      "persist with",
+      "persistent problem",
+      "continue to persist"
+    ],
+    "chinese": "坚持不懈；持续存在",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "infer",
+    "word": "infer",
+    "phonetic": "/ɪnˈfɜː(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "没有人直接告诉你答案，但根据已经掌握的间接线索，通过推理，自己得出一个合理的结论。",
+    "underlying_relation": "间接线索（非直接告知）→ 通过推理 → 自己得出合理结论。",
+    "core_emoji": "🧩➡️💡",
+    "scenes": [
+      {
+        "emoji": "📖",
+        "phrase": "infer the meaning",
+        "note": "含义没被直说，靠线索推理出来｜推断出含义"
+      },
+      {
+        "emoji": "😐",
+        "phrase": "infer his mood from his face",
+        "note": "情绪没被说出，靠表情线索推理｜从表情推断心情"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "infer a conclusion from data",
+        "note": "结论没被直接给出，靠数据推理｜从数据推断结论"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "can be inferred",
+        "note": "可以通过线索被推理出来｜可以推断出"
+      }
+    ],
+    "collocations": [
+      "infer from",
+      "reasonably infer",
+      "can be inferred that"
+    ],
+    "chinese": "推断，推论",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
