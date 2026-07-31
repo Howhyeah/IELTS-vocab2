@@ -5872,5 +5872,1349 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "overlap",
+    "word": "overlap",
+    "phonetic": "/ˌəʊvəˈlæp/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "两个原本被认为各自独立的范围，实际上有一部分区域是共同重合的，不是完全分开。",
+    "underlying_relation": "范围A + 范围B → 部分区域共同重合 → 非完全分开。",
+    "core_emoji": "⭕🔵",
+    "scenes": [
+      {
+        "emoji": "📅",
+        "phrase": "schedules overlap",
+        "note": "两个时间段部分重合｜时间安排重叠"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "interests overlap",
+        "note": "兴趣范围部分重合｜兴趣有重叠"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "overlapping territories",
+        "note": "领土范围部分重合｜领土重叠"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "overlapping topics",
+        "note": "主题内容部分重合｜话题重叠"
+      }
+    ],
+    "collocations": [
+      "overlap with",
+      "significant overlap",
+      "areas of overlap"
+    ],
+    "chinese": "（与…）部分重叠",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "confirm",
+    "word": "confirm",
+    "phonetic": "/kənˈfɜːm/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本只是猜测或未证实的说法，被拿去跟事实核对，核对后发现确实如此，从而被证实为真。",
+    "underlying_relation": "未证实的说法 → 拿去跟事实核对 → 核对相符 → 被证实为真。",
+    "core_emoji": "❓➡️✅",
+    "scenes": [
+      {
+        "emoji": "📧",
+        "phrase": "confirm a booking",
+        "note": "预订跟事实核对后被证实｜确认预订"
+      },
+      {
+        "emoji": "🔬",
+        "phrase": "confirm a theory",
+        "note": "理论跟事实核对后被证实｜证实理论"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "confirm suspicions",
+        "note": "怀疑跟事实核对后被证实｜证实猜疑"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "please confirm receipt",
+        "note": "收到情况需要核对证实｜请确认收到"
+      }
+    ],
+    "collocations": [
+      "confirm that",
+      "yet to be confirmed",
+      "confirm attendance"
+    ],
+    "chinese": "证实；确认",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "demonstrate",
+    "word": "demonstrate",
+    "phonetic": "/ˈdemənstreɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本抽象、说不清楚的观点或能力，通过具体的行动或实例摆出来，让人亲眼看到而信服。",
+    "underlying_relation": "抽象观点/能力 → 通过具体行动/实例摆出来 → 让人亲眼看到而信服。",
+    "core_emoji": "🎯👀",
+    "scenes": [
+      {
+        "emoji": "🔬",
+        "phrase": "demonstrate a process",
+        "note": "抽象过程被具体行动摆出来｜演示过程"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "demonstrate ability",
+        "note": "抽象能力被具体行动展现出来｜展示能力"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "data demonstrates a trend",
+        "note": "抽象趋势被具体数据摆出来｜数据表明趋势"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "demonstrate against",
+        "note": "不满通过集体行动摆出来｜示威抗议"
+      }
+    ],
+    "collocations": [
+      "clearly demonstrate",
+      "demonstrate how",
+      "demonstrate commitment"
+    ],
+    "chinese": "示范，证明；表明",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "manifest",
+    "word": "manifest",
+    "phonetic": "/ˈmænɪfest/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一种内在的品质、情绪或问题，原本藏在里面看不出来，现在开始从外表显露出来，变得可以被看见。",
+    "underlying_relation": "内在品质/情绪/问题（藏在里面）→ 开始从外表显露 → 变得可见。",
+    "core_emoji": "🫥➡️😊",
+    "scenes": [
+      {
+        "emoji": "😰",
+        "phrase": "stress manifests physically",
+        "note": "内在压力显露到身体表面｜压力表现在身体上"
+      },
+      {
+        "emoji": "🦠",
+        "phrase": "symptoms manifest",
+        "note": "内在病症开始显露出来｜症状显现"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "talent manifests itself",
+        "note": "内在天赋开始显露出来｜天赋显露"
+      },
+      {
+        "emoji": "😡",
+        "phrase": "anger manifested as silence",
+        "note": "内在愤怒通过沉默显露出来｜愤怒表现为沉默"
+      }
+    ],
+    "collocations": [
+      "manifest itself",
+      "manifest as",
+      "clearly manifested"
+    ],
+    "chinese": "显示，表明；（内在品质）显露",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "determine",
+    "word": "determine",
+    "phonetic": "/dɪˈtɜːmɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本模糊不清、有多种可能的情况，经过仔细的查证或判断，被精确地钉在一个确定的结论上。",
+    "underlying_relation": "模糊不清的情况 → 仔细查证判断 → 精确钉定在一个确定结论上。",
+    "core_emoji": "🔍📍",
+    "scenes": [
+      {
+        "emoji": "🧬",
+        "phrase": "genes determine traits",
+        "note": "特征被基因精确决定钉定｜基因决定特征"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "determine the cause",
+        "note": "原因经过查证被确定下来｜查明原因"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "determine the price",
+        "note": "价格经过判断被确定下来｜确定价格"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "determined to succeed",
+        "note": "决心被牢牢钉定在成功上｜决心成功"
+      }
+    ],
+    "collocations": [
+      "determine whether",
+      "yet to be determined",
+      "determine the outcome"
+    ],
+    "chinese": "决定；查明，确定",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "resolve",
+    "word": "resolve",
+    "phonetic": "/rɪˈzɒlv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本纠结、混乱或存在冲突的局面，经过处理，被理清顺畅，冲突消失，达到一个稳定的结果。",
+    "underlying_relation": "纠结/混乱/冲突局面 → 经过处理理清 → 冲突消失，达到稳定结果。",
+    "core_emoji": "🧩➡️✅",
+    "scenes": [
+      {
+        "emoji": "🤝",
+        "phrase": "resolve a conflict",
+        "note": "冲突局面被理清顺畅｜解决冲突"
+      },
+      {
+        "emoji": "🔧",
+        "phrase": "resolve an issue",
+        "note": "混乱的问题被理清顺畅｜解决问题"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "resolve to change",
+        "note": "决心被坚定地定下来｜决心改变"
+      },
+      {
+        "emoji": "🧪",
+        "phrase": "resolve into components",
+        "note": "混合物被理清分解成分｜分解成组成部分"
+      }
+    ],
+    "collocations": [
+      "resolve a dispute",
+      "firmly resolved",
+      "resolve to do sth"
+    ],
+    "chinese": "解决；决心；（使）分解",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "achieve",
+    "word": "achieve",
+    "phonetic": "/əˈtʃiːv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本处于远方、需要付出努力才能到达的目标，经过持续行动，最终被真正到达、实现了。",
+    "underlying_relation": "远方的目标 ×（持续努力行动）→ 最终到达实现。",
+    "core_emoji": "🚶➡️🎯",
+    "scenes": [
+      {
+        "emoji": "🏆",
+        "phrase": "achieve success",
+        "note": "成功这个目标被努力到达｜取得成功"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "achieve a goal",
+        "note": "目标经过努力被到达实现｜达成目标"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "achieve balance",
+        "note": "平衡这个目标被努力到达｜实现平衡"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "achieve growth",
+        "note": "增长目标经过努力被到达｜实现增长"
+      }
+    ],
+    "collocations": [
+      "achieve a target",
+      "hard to achieve",
+      "achieve results"
+    ],
+    "chinese": "达到，实现；取得",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "grant",
+    "word": "grant",
+    "phonetic": "/ɡrɑːnt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人向拥有权力的一方提出请求，权力方经过考虑，正式同意把请求的东西交出去。",
+    "underlying_relation": "请求方提出请求 → 权力方考虑同意 → 正式交出所请求的东西。",
+    "core_emoji": "🙏➡️🎁",
+    "scenes": [
+      {
+        "emoji": "🛂",
+        "phrase": "grant a visa",
+        "note": "签证经权力方同意被交出｜授予签证"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "grant a scholarship",
+        "note": "奖学金经考虑同意被交出｜授予奖学金"
+      },
+      {
+        "emoji": "✅",
+        "phrase": "grant permission",
+        "note": "许可经权力方同意被交出｜给予许可"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "grant independence",
+        "note": "独立地位经同意被交出｜授予独立"
+      }
+    ],
+    "collocations": [
+      "take for granted",
+      "grant access",
+      "grant a request"
+    ],
+    "chinese": "授予，准许",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "appreciate",
+    "word": "appreciate",
+    "phonetic": "/əˈpriːʃieɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西真正的价值，原本可能被忽视或低估，现在被充分认识到，并因此产生珍惜或感激的情感。",
+    "underlying_relation": "真正价值（可能被忽视）→ 被充分认识到 → 产生珍惜/感激情感。",
+    "core_emoji": "💎👁️",
+    "scenes": [
+      {
+        "emoji": "🙏",
+        "phrase": "appreciate your help",
+        "note": "帮助的价值被认识到并感激｜感激你的帮助"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "appreciate art",
+        "note": "艺术的价值被充分认识到｜欣赏艺术"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "the currency appreciates",
+        "note": "货币价值被认识到上升｜货币升值"
+      },
+      {
+        "emoji": "😌",
+        "phrase": "appreciate the difficulty",
+        "note": "困难程度被充分认识到｜理解难度"
+      }
+    ],
+    "collocations": [
+      "greatly appreciated",
+      "appreciate the value of",
+      "fully appreciate"
+    ],
+    "chinese": "赏识，感激；意识到；（价值）增值",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "underestimate",
+    "word": "underestimate",
+    "phonetic": "/ˌʌndərˈestɪmeɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "对一个事物真实的规模或程度进行判断时，判断出来的数值比实际的要小，落在了真实水平之下。",
+    "underlying_relation": "真实规模/程度 → 判断值落在真实水平之下 → 判断结果偏小。",
+    "core_emoji": "📏⬇️",
+    "scenes": [
+      {
+        "emoji": "⏰",
+        "phrase": "underestimate the time",
+        "note": "所需时间被判断得比实际少｜低估所需时间"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "underestimate one's opponent",
+        "note": "对手实力被判断得比实际弱｜低估对手"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "underestimate the cost",
+        "note": "成本被判断得比实际低｜低估成本"
+      },
+      {
+        "emoji": "⚠️",
+        "phrase": "underestimate the risk",
+        "note": "风险被判断得比实际小｜低估风险"
+      }
+    ],
+    "collocations": [
+      "seriously underestimate",
+      "underestimate the importance",
+      "widely underestimated"
+    ],
+    "chinese": "低估",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "overestimate",
+    "word": "overestimate",
+    "phonetic": "/ˌəʊvərˈestɪmeɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "对一个事物真实的规模或程度进行判断时，判断出来的数值比实际的要大，超出了真实水平之上。",
+    "underlying_relation": "真实规模/程度 → 判断值超出真实水平之上 → 判断结果偏大。",
+    "core_emoji": "📏⬆️",
+    "scenes": [
+      {
+        "emoji": "💪",
+        "phrase": "overestimate one's ability",
+        "note": "自身能力被判断得比实际强｜高估自身能力"
+      },
+      {
+        "emoji": "📈",
+        "phrase": "overestimate demand",
+        "note": "需求被判断得比实际高｜高估需求"
+      },
+      {
+        "emoji": "⏰",
+        "phrase": "overestimate the progress",
+        "note": "进度被判断得比实际快｜高估进度"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "overestimate profits",
+        "note": "利润被判断得比实际高｜高估利润"
+      }
+    ],
+    "collocations": [
+      "greatly overestimated",
+      "overestimate the impact",
+      "tend to overestimate"
+    ],
+    "chinese": "高估",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "apply",
+    "word": "apply",
+    "phonetic": "/əˈplaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个通用的方法、规则或请求，被拿去用在一个具体的对象或场合上，让它在那个具体场合里实际发挥作用。",
+    "underlying_relation": "通用方法/规则/请求 → 用在具体对象/场合上 → 在该场合实际发挥作用。",
+    "core_emoji": "📋➡️🎯",
+    "scenes": [
+      {
+        "emoji": "🎓",
+        "phrase": "apply for a job",
+        "note": "求职请求被用在具体职位上｜申请工作"
+      },
+      {
+        "emoji": "📐",
+        "phrase": "apply a rule",
+        "note": "通用规则被用在具体情况上｜应用规则"
+      },
+      {
+        "emoji": "🧴",
+        "phrase": "apply cream",
+        "note": "药膏被用在具体皮肤部位上｜涂抹药膏"
+      },
+      {
+        "emoji": "🔧",
+        "phrase": "apply pressure",
+        "note": "压力被施加在具体对象上｜施加压力"
+      }
+    ],
+    "collocations": [
+      "apply to",
+      "widely applicable",
+      "apply for a visa"
+    ],
+    "chinese": "申请；应用，运用；施加",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "innovate",
+    "word": "innovate",
+    "phonetic": "/ˈɪnəveɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "在已有的旧方法之外，主动创造出一种前所未见的新方法或新事物，替代原本一直沿用的做法。",
+    "underlying_relation": "已有旧方法 → 主动创造前所未见的新方法 → 替代原本沿用的做法。",
+    "core_emoji": "💡🔄",
+    "scenes": [
+      {
+        "emoji": "🏭",
+        "phrase": "innovate constantly",
+        "note": "旧方法不断被新方法替代｜持续创新"
+      },
+      {
+        "emoji": "📱",
+        "phrase": "innovate in technology",
+        "note": "技术领域旧方法被新方法替代｜技术创新"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "innovate a new approach",
+        "note": "新方法被创造出来替代旧的｜创造新方法"
+      },
+      {
+        "emoji": "🚀",
+        "phrase": "encourage innovation",
+        "note": "鼓励创造前所未见的新事物｜鼓励创新"
+      }
+    ],
+    "collocations": [
+      "innovate and adapt",
+      "constantly innovating",
+      "innovative solution"
+    ],
+    "chinese": "创新，革新",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "devise",
+    "word": "devise",
+    "phonetic": "/dɪˈvaɪz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "面对一个具体的需求或问题，从零开始动脑筋，设计出一套专门用来解决它的方法或计划。",
+    "underlying_relation": "具体需求/问题 ×（从零动脑设计）→ 专门解决它的方法/计划。",
+    "core_emoji": "🧠➡️📋",
+    "scenes": [
+      {
+        "emoji": "📋",
+        "phrase": "devise a strategy",
+        "note": "策略从零被设计出来解决问题｜设计策略"
+      },
+      {
+        "emoji": "🔧",
+        "phrase": "devise a solution",
+        "note": "解决方案专门被设计出来｜想出解决方案"
+      },
+      {
+        "emoji": "🎮",
+        "phrase": "devise a game",
+        "note": "游戏从零被设计出来｜设计游戏"
+      },
+      {
+        "emoji": "📐",
+        "phrase": "devise a method",
+        "note": "方法专门被设计出来解决需求｜设计方法"
+      }
+    ],
+    "collocations": [
+      "devise a plan",
+      "cleverly devised",
+      "devise ways to"
+    ],
+    "chinese": "设计，发明（方法/计划）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "discover",
+    "word": "discover",
+    "phonetic": "/dɪˈskʌvə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本不为人知、隐藏着的事物，经过主动的探寻或偶然的机会，第一次被人知道、找到。",
+    "underlying_relation": "不为人知的事物（隐藏）→ 主动探寻/偶然机会 → 第一次被知道找到。",
+    "core_emoji": "🔍💡",
+    "scenes": [
+      {
+        "emoji": "🔬",
+        "phrase": "discover a new species",
+        "note": "未知物种第一次被找到｜发现新物种"
+      },
+      {
+        "emoji": "🗺️",
+        "phrase": "discover a hidden place",
+        "note": "隐藏地点第一次被找到｜发现隐藏地点"
+      },
+      {
+        "emoji": "😲",
+        "phrase": "discover the truth",
+        "note": "隐藏的真相第一次被知道｜发现真相"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "discover a talent",
+        "note": "未知的天赋第一次被发现｜发现天赋"
+      }
+    ],
+    "collocations": [
+      "discover that",
+      "recently discovered",
+      "discover the cause"
+    ],
+    "chinese": "发现",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "disclose",
+    "word": "disclose",
+    "phonetic": "/dɪˈskləʊz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本被刻意保密、不对外说的信息，被持有者主动决定说出来，让原本不知道的人知道。",
+    "underlying_relation": "被保密的信息 → 持有者主动决定说出 → 原本不知道的人得知。",
+    "core_emoji": "🤐➡️🗣️",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "disclose financial details",
+        "note": "保密的财务信息被主动说出｜披露财务细节"
+      },
+      {
+        "emoji": "🏥",
+        "phrase": "disclose medical information",
+        "note": "保密的医疗信息被主动说出｜披露医疗信息"
+      },
+      {
+        "emoji": "📄",
+        "phrase": "fully disclosed",
+        "note": "信息被完全主动说出来｜完全披露"
+      },
+      {
+        "emoji": "🔒",
+        "phrase": "confidential, not disclosed",
+        "note": "保密信息选择不主动说出｜保密未披露"
+      }
+    ],
+    "collocations": [
+      "disclose information",
+      "fail to disclose",
+      "publicly disclosed"
+    ],
+    "chinese": "透露，揭露（保密信息）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "expose",
+    "word": "expose",
+    "phonetic": "/ɪkˈspəʊz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一层原本盖着、保护着某物的遮挡被移开，这个东西因此直接暴露在外部环境或视线之下，不再受保护。",
+    "underlying_relation": "遮挡层 → 被移开 → 东西直接暴露在外（不再受保护）。",
+    "core_emoji": "🛡️<span style=\"color:#e53935;font-weight:bold\">→</span>👁️",
+    "scenes": [
+      {
+        "emoji": "☀️",
+        "phrase": "expose skin to sunlight",
+        "note": "皮肤失去遮挡暴露在阳光下｜皮肤暴露在阳光下"
+      },
+      {
+        "emoji": "🕵️",
+        "phrase": "expose corruption",
+        "note": "腐败失去遮盖暴露出来｜揭露腐败"
+      },
+      {
+        "emoji": "🦠",
+        "phrase": "exposed to a virus",
+        "note": "身体失去保护暴露在病毒中｜暴露于病毒"
+      },
+      {
+        "emoji": "📷",
+        "phrase": "overexposed photo",
+        "note": "胶片暴露在过多光线下｜曝光过度的照片"
+      }
+    ],
+    "collocations": [
+      "expose to danger",
+      "expose the truth",
+      "widely exposed"
+    ],
+    "chinese": "使暴露；揭露",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "concentrate",
+    "word": "concentrate",
+    "phonetic": "/ˈkɒnsntreɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "原本分散在各处的注意力或物质，被收拢聚集到一个单一的点上，让这个点的密度或强度大幅提高。",
+    "underlying_relation": "分散的注意力/物质 → 收拢聚集到一个点 → 该点密度/强度大幅提高。",
+    "core_emoji": "🔍➡️🎯",
+    "scenes": [
+      {
+        "emoji": "📚",
+        "phrase": "concentrate on studying",
+        "note": "分散的注意力聚焦到学习上｜专心学习"
+      },
+      {
+        "emoji": "🧪",
+        "phrase": "concentrated solution",
+        "note": "分散的溶质被聚集浓缩｜浓缩溶液"
+      },
+      {
+        "emoji": "🏭",
+        "phrase": "industry concentrated in one area",
+        "note": "分散的产业聚集在一个地区｜产业集中在一个地区"
+      },
+      {
+        "emoji": "💪",
+        "phrase": "concentrate resources",
+        "note": "分散的资源被聚集到一处｜集中资源"
+      }
+    ],
+    "collocations": [
+      "concentrate on",
+      "highly concentrated",
+      "concentration of power"
+    ],
+    "chinese": "集中，聚集；浓缩",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "assess",
+    "word": "assess",
+    "phonetic": "/əˈses/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "对一个事物的价值、质量或程度，运用某种标准进行系统性的打量判断，最终给出一个衡量结果。",
+    "underlying_relation": "事物的价值/质量/程度 → 运用标准系统性判断 → 给出衡量结果。",
+    "core_emoji": "📏🔍",
+    "scenes": [
+      {
+        "emoji": "🏠",
+        "phrase": "assess property value",
+        "note": "房产价值被系统性判断衡量｜评估房产价值"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "assess student performance",
+        "note": "学生表现被系统性打量判断｜评估学生表现"
+      },
+      {
+        "emoji": "⚠️",
+        "phrase": "assess the risk",
+        "note": "风险程度被系统性衡量判断｜评估风险"
+      },
+      {
+        "emoji": "🩺",
+        "phrase": "assess the damage",
+        "note": "损伤程度被系统性判断｜评估损失"
+      }
+    ],
+    "collocations": [
+      "assess the situation",
+      "carefully assessed",
+      "risk assessment"
+    ],
+    "chinese": "评估，评定",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "accumulate",
+    "word": "accumulate",
+    "phonetic": "/əˈkjuːmjuleɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "少量的东西，随着时间一次又一次地叠加，逐渐堆积起来，最终变成一个庞大的总量。",
+    "underlying_relation": "少量的东西 ×（时间反复叠加）→ 逐渐堆积 → 最终变成庞大总量。",
+    "core_emoji": "💰➕➕",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "accumulate wealth",
+        "note": "财富一点点叠加堆积起来｜积累财富"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "accumulate experience",
+        "note": "经验随时间反复叠加｜积累经验"
+      },
+      {
+        "emoji": "🗑️",
+        "phrase": "dust accumulates",
+        "note": "灰尘一点点叠加堆积｜灰尘堆积"
+      },
+      {
+        "emoji": "💳",
+        "phrase": "accumulate debt",
+        "note": "债务一点点叠加堆积｜积累债务"
+      }
+    ],
+    "collocations": [
+      "accumulate over time",
+      "gradually accumulated",
+      "accumulated knowledge"
+    ],
+    "chinese": "积累，逐渐增加",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "attach",
+    "word": "attach",
+    "phonetic": "/əˈtætʃ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本独立分开的东西，被连接固定到另一个东西上，从此两者连成一体，一起移动。",
+    "underlying_relation": "独立分开的东西 → 连接固定到另一物上 → 两者连成一体（一起移动）。",
+    "core_emoji": "🔗➡️",
+    "scenes": [
+      {
+        "emoji": "📎",
+        "phrase": "attach a file",
+        "note": "文件被连接固定到邮件上｜附加文件"
+      },
+      {
+        "emoji": "❤️",
+        "phrase": "attach importance to",
+        "note": "重要性被连接固定在这件事上｜重视"
+      },
+      {
+        "emoji": "🔗",
+        "phrase": "attach a label",
+        "note": "标签被连接固定在物品上｜贴上标签"
+      },
+      {
+        "emoji": "👶",
+        "phrase": "attached to a person",
+        "note": "情感被连接固定在某人身上｜依恋某人"
+      }
+    ],
+    "collocations": [
+      "attach to",
+      "attach a condition",
+      "emotionally attached"
+    ],
+    "chinese": "使依附，连接；使依恋",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "belong",
+    "word": "belong",
+    "phonetic": "/bɪˈlɒŋ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人或物，天然地、正当地归属于某个特定的群体或位置，那个位置就是它应该存在的地方。",
+    "underlying_relation": "人/物 → 天然正当地归属 → 特定群体/位置（应该存在的地方）。",
+    "core_emoji": "🧩✅",
+    "scenes": [
+      {
+        "emoji": "👨‍👩‍👧",
+        "phrase": "belong to a family",
+        "note": "人正当地归属于这个家庭｜属于一个家庭"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "this book belongs here",
+        "note": "书应该归属放在这个位置｜这本书应放在这里"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "feel like I belong",
+        "note": "感觉自己正当地归属于这里｜感觉有归属感"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "belong to an organisation",
+        "note": "人正当地归属于这个组织｜属于一个组织"
+      }
+    ],
+    "collocations": [
+      "belong to",
+      "sense of belonging",
+      "belong here"
+    ],
+    "chinese": "属于；应被放在（某处）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "condense",
+    "word": "condense",
+    "phonetic": "/kənˈdens/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一种原本分散、稀薄的气体或长篇内容，被压缩收拢，变得更加紧密、更加浓缩，体积或篇幅大幅缩小。",
+    "underlying_relation": "分散稀薄的气体/长篇内容 → 压缩收拢 → 更紧密浓缩（体积/篇幅缩小）。",
+    "core_emoji": "💨<span style=\"color:#e53935;font-weight:bold\">→</span>💧",
+    "scenes": [
+      {
+        "emoji": "💨",
+        "phrase": "vapour condenses",
+        "note": "分散的水蒸气收拢变成水滴｜蒸汽凝结"
+      },
+      {
+        "emoji": "📄",
+        "phrase": "condense a report",
+        "note": "长篇报告被压缩收拢变简短｜精简报告"
+      },
+      {
+        "emoji": "🪟",
+        "phrase": "condensation on the window",
+        "note": "水汽收拢凝结在窗上｜窗户上的冷凝水"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "condense information",
+        "note": "大量信息被压缩收拢｜浓缩信息"
+      }
+    ],
+    "collocations": [
+      "condense into",
+      "condensed version",
+      "condense down"
+    ],
+    "chinese": "（使）凝结；（使内容）压缩，精简",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "refine",
+    "word": "refine",
+    "phonetic": "/rɪˈfaɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个已经存在但还带着杂质或粗糙感的东西，经过反复处理，把不需要的部分去掉，变得更纯净、更精致。",
+    "underlying_relation": "带杂质/粗糙的东西 ×（反复处理去除杂质）→ 更纯净精致的成品。",
+    "core_emoji": "🛢️<span style=\"color:#e53935;font-weight:bold\">→</span>✨",
+    "scenes": [
+      {
+        "emoji": "🛢️",
+        "phrase": "refine crude oil",
+        "note": "原油去除杂质变得纯净｜提炼原油"
+      },
+      {
+        "emoji": "📝",
+        "phrase": "refine an argument",
+        "note": "论点去除粗糙感变得精致｜完善论点"
+      },
+      {
+        "emoji": "🎨",
+        "phrase": "refine a technique",
+        "note": "技巧去除粗糙感变得精湛｜改进技巧"
+      },
+      {
+        "emoji": "🍬",
+        "phrase": "refined sugar",
+        "note": "糖经处理去除杂质变纯净｜精制糖"
+      }
+    ],
+    "collocations": [
+      "refine further",
+      "refined taste",
+      "continually refined"
+    ],
+    "chinese": "精炼，提纯；改进，使更完善",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "simplify",
+    "word": "simplify",
+    "phonetic": "/ˈsɪmplɪfaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本层层叠叠、结构复杂的东西，被去掉多余的环节，变得步骤更少、更容易理解和操作。",
+    "underlying_relation": "复杂结构（层层叠叠）→ 去掉多余环节 → 步骤更少（更容易理解操作）。",
+    "core_emoji": "🧩➡️⬜",
+    "scenes": [
+      {
+        "emoji": "📋",
+        "phrase": "simplify the process",
+        "note": "复杂流程去掉多余环节｜简化流程"
+      },
+      {
+        "emoji": "📖",
+        "phrase": "simplify the language",
+        "note": "复杂语言去掉多余修饰｜简化语言"
+      },
+      {
+        "emoji": "🔢",
+        "phrase": "simplify a fraction",
+        "note": "复杂分数被化简到最简形式｜化简分数"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "simplify the design",
+        "note": "复杂设计去掉多余元素｜简化设计"
+      }
+    ],
+    "collocations": [
+      "greatly simplify",
+      "oversimplify",
+      "simplify matters"
+    ],
+    "chinese": "简化",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "filter",
+    "word": "filter",
+    "phonetic": "/ˈfɪltə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个混合物经过一层有选择性的屏障，屏障只让符合条件的部分通过，把不需要的部分挡在外面。",
+    "underlying_relation": "混合物 → 经过有选择性的屏障 → 符合条件的通过，不需要的被挡住。",
+    "core_emoji": "🌊➡️💧",
+    "scenes": [
+      {
+        "emoji": "💧",
+        "phrase": "filter water",
+        "note": "水经过屏障，杂质被挡住｜过滤水"
+      },
+      {
+        "emoji": "📰",
+        "phrase": "filter out fake news",
+        "note": "假消息经过屏障被挡在外面｜过滤假新闻"
+      },
+      {
+        "emoji": "☕",
+        "phrase": "filter coffee",
+        "note": "咖啡液经过屏障，渣被挡住｜过滤咖啡"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "news filters through",
+        "note": "消息一点点透过屏障传开｜消息慢慢传开"
+      }
+    ],
+    "collocations": [
+      "filter out",
+      "filter through",
+      "water filter"
+    ],
+    "chinese": "过滤；筛选",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "facilitate",
+    "word": "facilitate",
+    "phonetic": "/fəˈsɪlɪteɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一件事情原本因为存在障碍而进行得比较艰难，现在这些障碍被移除或减少，事情因此变得更容易顺利进行。",
+    "underlying_relation": "存在障碍（进行艰难）→ 障碍被移除/减少 → 事情更容易顺利进行。",
+    "core_emoji": "🚧➡️🟢",
+    "scenes": [
+      {
+        "emoji": "💬",
+        "phrase": "facilitate communication",
+        "note": "沟通障碍被移除变顺畅｜促进沟通"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "facilitate learning",
+        "note": "学习障碍被减少变容易｜促进学习"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "facilitate cooperation",
+        "note": "合作障碍被移除变顺利｜促进合作"
+      },
+      {
+        "emoji": "🔄",
+        "phrase": "facilitate the process",
+        "note": "过程中的障碍被减少｜使过程更顺畅"
+      }
+    ],
+    "collocations": [
+      "facilitate access",
+      "greatly facilitated",
+      "facilitate development"
+    ],
+    "chinese": "促进，使便利（移除障碍）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "convert",
+    "word": "convert",
+    "phonetic": "/kənˈvɜːt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西原本属于一种类别或形态，经过转化过程，完全变成了另一种截然不同的类别或形态。",
+    "underlying_relation": "原类别/形态A → 经过转化过程 → 变成截然不同的类别/形态B。",
+    "core_emoji": "🔵<span style=\"color:#e53935;font-weight:bold\">→</span>🟥",
+    "scenes": [
+      {
+        "emoji": "🏠",
+        "phrase": "convert a garage into a room",
+        "note": "车库这个类别转化成房间｜把车库改造成房间"
+      },
+      {
+        "emoji": "💱",
+        "phrase": "convert currency",
+        "note": "一种货币转化成另一种｜货币兑换"
+      },
+      {
+        "emoji": "⚡",
+        "phrase": "convert energy",
+        "note": "一种能量形态转化成另一种｜能量转换"
+      },
+      {
+        "emoji": "🙏",
+        "phrase": "convert to a religion",
+        "note": "信仰类别完全转化｜改信某宗教"
+      }
+    ],
+    "collocations": [
+      "convert into",
+      "religious convert",
+      "convert from A to B"
+    ],
+    "chinese": "转变，转化",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "alter",
+    "word": "alter",
+    "phonetic": "/ˈɒltə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西的某个具体特征被局部调整改变，但它的整体本质和主体身份并没有变成另一个东西。",
+    "underlying_relation": "某个具体特征 → 局部调整改变 → 整体本质/身份不变（非彻底转化）。",
+    "core_emoji": "✂️🔧",
+    "scenes": [
+      {
+        "emoji": "👗",
+        "phrase": "alter a dress",
+        "note": "衣服局部被调整，本质不变｜修改衣服"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "alter the plan",
+        "note": "计划局部被调整，主体不变｜修改计划"
+      },
+      {
+        "emoji": "🧬",
+        "phrase": "genetically altered",
+        "note": "基因局部被调整改变｜基因改造"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "alter the course of history",
+        "note": "历史进程局部被调整改变｜改变历史进程"
+      }
+    ],
+    "collocations": [
+      "slightly altered",
+      "alter significantly",
+      "unaltered"
+    ],
+    "chinese": "改变，更改（局部特征）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "shift",
+    "word": "shift",
+    "phonetic": "/ʃɪft/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本停留在某个位置或状态的东西，整体移动到了另一个位置或状态，中间没有分裂，只是挪了地方。",
+    "underlying_relation": "原位置/状态 → 整体移动 → 新位置/状态（未分裂，只是挪动）。",
+    "core_emoji": "📍➡️📍",
+    "scenes": [
+      {
+        "emoji": "🎯",
+        "phrase": "shift focus",
+        "note": "焦点整体从一处挪到另一处｜转移焦点"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "power shifts",
+        "note": "权力整体从一方挪到另一方｜权力转移"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "shift in temperature",
+        "note": "温度整体从一个水平挪到另一个｜温度变化"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "work in shifts",
+        "note": "工作时段整体轮流挪动｜轮班工作"
+      }
+    ],
+    "collocations": [
+      "shift towards",
+      "a shift in attitude",
+      "shift the blame"
+    ],
+    "chinese": "转移，转变",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "adapt",
+    "word": "adapt",
+    "phonetic": "/əˈdæpt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西原本是为一种环境或用途设计的，现在被修改调整，让它也能适应一个新的、原本不匹配的环境或用途。",
+    "underlying_relation": "原本为旧环境设计 → 修改调整 → 适应新的（原不匹配的）环境/用途。",
+    "core_emoji": "🔧🌍",
+    "scenes": [
+      {
+        "emoji": "🦎",
+        "phrase": "adapt to the environment",
+        "note": "身体机能被调整适应新环境｜适应环境"
+      },
+      {
+        "emoji": "📖",
+        "phrase": "adapt a novel into a film",
+        "note": "小说被修改调整成电影形式｜把小说改编成电影"
+      },
+      {
+        "emoji": "💼",
+        "phrase": "adapt to new roles",
+        "note": "行为方式被调整适应新角色｜适应新角色"
+      },
+      {
+        "emoji": "🏠",
+        "phrase": "well-adapted",
+        "note": "已经调整好适应了新环境｜适应良好的"
+      }
+    ],
+    "collocations": [
+      "adapt to",
+      "adapt for",
+      "highly adaptable"
+    ],
+    "chinese": "使适应；改编",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "pinpoint",
+    "word": "pinpoint",
+    "phonetic": "/ˈpɪnpɒɪnt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "从一个模糊笼统的大范围里，精确地找出那个最具体、最准确的确切位置或原因。",
+    "underlying_relation": "模糊笼统的大范围 → 精确查找 → 找出最具体准确的确切点。",
+    "core_emoji": "🗺️📍",
+    "scenes": [
+      {
+        "emoji": "📍",
+        "phrase": "pinpoint the location",
+        "note": "模糊范围里精确找出具体位置｜精确定位"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "pinpoint the cause",
+        "note": "笼统原因里精确找出确切那个｜精确找出原因"
+      },
+      {
+        "emoji": "⏰",
+        "phrase": "pinpoint the exact time",
+        "note": "模糊时间段里精确找出那一刻｜精确指出时间"
+      },
+      {
+        "emoji": "🧩",
+        "phrase": "pinpoint the problem",
+        "note": "笼统问题里精确找出具体所在｜精确找出问题"
+      }
+    ],
+    "collocations": [
+      "pinpoint exactly",
+      "difficult to pinpoint",
+      "pinpoint accuracy"
+    ],
+    "chinese": "精确指明（位置/原因）",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
