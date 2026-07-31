@@ -28,6 +28,8 @@ self.addEventListener("activate", (event) => {
   self.clients.claim();
 });
 
+// 网络优先：有网就永远拿最新内容，同时偷偷把缓存也更新一份；
+// 没网的时候才退回去用缓存里的旧内容（离线保底）
 self.addEventListener("fetch", (event) => {
   event.respondWith(
     fetch(event.request)
