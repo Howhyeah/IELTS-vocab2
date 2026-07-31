@@ -7636,5 +7636,257 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "simulate",
+    "word": "simulate",
+    "phonetic": "/ˈsɪmjuleɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "在安全或可控的环境里，人为制造出跟真实情况高度相似的条件，用来代替真实情况进行测试或练习。",
+    "underlying_relation": "真实情况（有风险/不便）→ 人为制造高度相似的替代条件 → 用于测试/练习。",
+    "core_emoji": "🎮🌍",
+    "scenes": [
+      {
+        "emoji": "✈️",
+        "phrase": "flight simulator",
+        "note": "真实飞行被人为制造出相似替代条件｜飞行模拟器"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "simulate climate change",
+        "note": "真实气候变化被模拟制造出来｜模拟气候变化"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "simulate interest",
+        "note": "真实兴趣被假装制造出来｜假装感兴趣"
+      },
+      {
+        "emoji": "🏥",
+        "phrase": "simulate a heart attack",
+        "note": "真实心脏病症状被人为模拟出来｜模拟心脏病发作"
+      }
+    ],
+    "collocations": [
+      "computer-simulated",
+      "simulate conditions",
+      "simulation exercise"
+    ],
+    "chinese": "模拟；假装",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "improvise",
+    "word": "improvise",
+    "phonetic": "/ˈɪmprəvaɪz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "在没有提前准备好的情况下，现场临时创造出一个可行的东西来应对当下的需要。",
+    "underlying_relation": "没有提前准备 ×（现场临时创造）→ 应对当下需要的可行方案。",
+    "core_emoji": "🎷💡",
+    "scenes": [
+      {
+        "emoji": "🎷",
+        "phrase": "improvise a solo",
+        "note": "现场没准备临时创造出乐句｜即兴演奏独奏"
+      },
+      {
+        "emoji": "🍳",
+        "phrase": "improvise a meal",
+        "note": "没提前准备临时用现有材料做饭｜临时凑出一餐"
+      },
+      {
+        "emoji": "🎭",
+        "phrase": "improvise a speech",
+        "note": "没准备好临时现场创造出讲话内容｜即兴演讲"
+      },
+      {
+        "emoji": "🔧",
+        "phrase": "improvise a tool",
+        "note": "没有现成工具临时创造出替代品｜临时凑出工具"
+      }
+    ],
+    "collocations": [
+      "improvise on",
+      "skilled at improvising",
+      "improvised solution"
+    ],
+    "chinese": "即兴创作，临时应变",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "drift",
+    "word": "drift",
+    "phonetic": "/drɪft/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西没有自己主动施力去往某个方向，而是被外部的力量（水流、风或情势）缓慢地带着移动，没有固定目标。",
+    "underlying_relation": "东西无自主施力 → 被外部力量缓慢带动 → 移动无固定目标。",
+    "core_emoji": "🍃〜➡️",
+    "scenes": [
+      {
+        "emoji": "🚣",
+        "phrase": "the boat drifts",
+        "note": "船没有自己划水，被水流带着移动｜船漂流"
+      },
+      {
+        "emoji": "☁️",
+        "phrase": "clouds drift",
+        "note": "云没有自己移动，被风带着走｜云飘移"
+      },
+      {
+        "emoji": "😴",
+        "phrase": "drift into sleep",
+        "note": "意识没有主动努力，被动地进入睡眠｜渐渐入睡"
+      },
+      {
+        "emoji": "💭",
+        "phrase": "drift apart",
+        "note": "关系没有主动努力，被动地渐渐疏远｜渐渐疏远"
+      }
+    ],
+    "collocations": [
+      "drift away",
+      "drift off",
+      "drift apart"
+    ],
+    "chinese": "漂移，漂流；渐渐进入",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "plunge",
+    "word": "plunge",
+    "phonetic": "/plʌndʒ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西或数值，毫不犹豫地、突然剧烈地向下或向内冲去，从一个状态瞬间跌入另一个状态。",
+    "underlying_relation": "原状态 → 毫不犹豫突然剧烈冲下/冲入 → 瞬间跌入另一状态。",
+    "core_emoji": "🏊‍♂️⬇️",
+    "scenes": [
+      {
+        "emoji": "🏊",
+        "phrase": "plunge into the pool",
+        "note": "身体毫不犹豫突然冲入水中｜跳入泳池"
+      },
+      {
+        "emoji": "📉",
+        "phrase": "prices plunge",
+        "note": "价格毫不犹豫突然剧烈下跌｜价格暴跌"
+      },
+      {
+        "emoji": "😰",
+        "phrase": "plunge into despair",
+        "note": "情绪毫不犹豫突然跌入绝望｜陷入绝望"
+      },
+      {
+        "emoji": "🌡️",
+        "phrase": "temperatures plunge",
+        "note": "温度毫不犹豫突然剧烈下降｜温度骤降"
+      }
+    ],
+    "collocations": [
+      "plunge into",
+      "take the plunge",
+      "plunge downward"
+    ],
+    "chinese": "纵身投入；猛跌",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "linger",
+    "word": "linger",
+    "phonetic": "/ˈlɪŋɡə(r)/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人或一种感觉，原本应该在某个时候离开或消失，却不情愿地继续留在原地，比预期存在得更久。",
+    "underlying_relation": "应该离开/消失的时刻 → 不情愿继续留存 → 比预期存在更久。",
+    "core_emoji": "🚶⏳",
+    "scenes": [
+      {
+        "emoji": "🚪",
+        "phrase": "linger at the door",
+        "note": "人不情愿离开，继续留在门口｜在门口徘徊"
+      },
+      {
+        "emoji": "😢",
+        "phrase": "sadness lingers",
+        "note": "悲伤没有消失，继续留存更久｜悲伤挥之不去"
+      },
+      {
+        "emoji": "🌸",
+        "phrase": "the scent lingers",
+        "note": "香气没有散去，继续留存更久｜香气久久不散"
+      },
+      {
+        "emoji": "🍽️",
+        "phrase": "linger over dinner",
+        "note": "人不情愿结束，继续留在餐桌｜慢慢享用晚餐"
+      }
+    ],
+    "collocations": [
+      "linger on",
+      "a lingering doubt",
+      "linger in the mind"
+    ],
+    "chinese": "逗留，流连；继续存留",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "lag",
+    "word": "lag",
+    "phonetic": "/læɡ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本应该跟其他人/事同步前进的对象，速度或进度比参照对象慢，逐渐落在了后面，差距越拉越大。",
+    "underlying_relation": "应同步的对象 → 速度/进度比参照物慢 → 落在后面（差距拉大）。",
+    "core_emoji": "🐢⬅️🐇",
+    "scenes": [
+      {
+        "emoji": "📈",
+        "phrase": "wages lag behind inflation",
+        "note": "工资增速比通胀慢，落在后面｜工资涨幅落后于通胀"
+      },
+      {
+        "emoji": "🏃",
+        "phrase": "lag behind competitors",
+        "note": "进度比竞争对手慢，落在后面｜落后于竞争对手"
+      },
+      {
+        "emoji": "⏰",
+        "phrase": "jet lag",
+        "note": "身体节律比时区变化慢，落在后面｜时差反应"
+      },
+      {
+        "emoji": "📡",
+        "phrase": "signal lag",
+        "note": "信号传输比预期慢，落在后面｜信号延迟"
+      }
+    ],
+    "collocations": [
+      "lag behind",
+      "time lag",
+      "jet lag"
+    ],
+    "chinese": "落后；滞后，延迟",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
