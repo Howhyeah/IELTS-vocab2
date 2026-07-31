@@ -17,8 +17,6 @@
             padding: 15px;
         }
         .container { max-width: 800px; margin: 0 auto; }
-
-        /* 顶部状态栏 */
         .status-bar {
             background: white;
             border-radius: 15px;
@@ -50,8 +48,6 @@
             color: #666;
             margin-top: 5px;
         }
-
-        /* 更新提示 */
         .update-banner {
             background: #28a745;
             color: white;
@@ -62,8 +58,6 @@
             display: none;
         }
         .update-banner.show { display: block; }
-
-        /* 分类标签 */
         .category-tabs {
             display: flex;
             gap: 10px;
@@ -85,8 +79,6 @@
             background: #667eea;
             color: white;
         }
-
-        /* 单词卡片 */
         .word-card {
             background: white;
             border-radius: 15px;
@@ -109,6 +101,23 @@
             font-size: 18px;
             color: #666;
         }
+        .speak-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border: none;
+            border-radius: 50%;
+            background: #667eea;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            vertical-align: middle;
+            margin-left: 8px;
+        }
+        .speak-btn:active { transform: scale(0.92); }
+        .speak-btn.loading { opacity: 0.5; }
         .core-state-section {
             background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
             border-radius: 15px;
@@ -227,8 +236,6 @@
             font-size: 12px;
             margin-bottom: 15px;
         }
-
-        /* 操作按钮 */
         .action-buttons {
             display: flex;
             gap: 15px;
@@ -248,16 +255,12 @@
         .btn-know { background: #28a745; color: white; }
         .btn-unknown { background: #dc3545; color: white; }
         .btn-skip { background: #6c757d; color: white; }
-
-        /* 加载提示 */
         .loading {
             text-align: center;
             padding: 40px;
             color: white;
             font-size: 18px;
         }
-
-        /* 空状态 */
         .empty-state {
             text-align: center;
             padding: 60px 20px;
@@ -267,12 +270,9 @@
 </head>
 <body>
     <div class="container">
-        <!-- 更新提示 -->
         <div class="update-banner" id="updateBanner">
             ✨ 发现新版本！点击更新
         </div>
-
-        <!-- 顶部状态栏 -->
         <div class="status-bar">
             <h1>📚 雅思词汇真经</h1>
             <div class="stats">
@@ -290,8 +290,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- 分类标签 -->
         <div class="category-tabs">
             <div class="tab active" onclick="switchCategory('all')">全部</div>
             <div class="tab" onclick="switchCategory('A')">🎯 核心状态词</div>
@@ -300,26 +298,20 @@
             <div class="tab" onclick="switchCategory('C')">🔗 固定搭配</div>
             <div class="tab" onclick="switchCategory('I')">👁️ 识别词</div>
         </div>
-
-        <!-- 单词卡片容器 -->
         <div id="wordCardContainer">
             <div class="loading">加载中...</div>
         </div>
     </div>
 
     <script>
-        // 注册Service Worker
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('sw.js')
                 .then(reg => {
                     console.log('Service Worker 注册成功');
-
-                    // 检查更新
                     reg.addEventListener('updatefound', () => {
                         const newWorker = reg.installing;
                         newWorker.addEventListener('statechange', () => {
                             if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                                // 显示更新提示
                                 document.getElementById('updateBanner').classList.add('show');
                             }
                         });
@@ -328,22 +320,18 @@
                 .catch(err => console.log('Service Worker 注册失败:', err));
         }
 
-        // 点击更新
         document.getElementById('updateBanner').addEventListener('click', () => {
             navigator.serviceWorker.controller.postMessage({ action: 'skipWaiting' });
             window.location.reload();
         });
 
-        // 全局变量
         let allWords = { A: [], S: [], R: [], C: [], I: [] };
         let currentIndex = 0;
         let currentCategory = 'all';
         let filteredWords = [];
 
-        // 初始化
         async function init() {
             try {
-                // 加载所有数据
                 const [coreWords, spatialWords, rootFamilies, collocations, recognitionWords] = await Promise.all([
                     fetch('data/core_words.json').then(r => r.json()),
                     fetch('data/spatial_words.json').then(r => r.json()),
@@ -360,7 +348,6 @@
 
                 filteredWords = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
 
-                // 更新统计
                 document.getElementById('totalWords').textContent = filteredWords.length;
 
                 loadWord();
@@ -371,7 +358,6 @@
             }
         }
 
-        // 切换分类
         function switchCategory(category) {
             currentCategory = category;
             currentIndex = 0;
@@ -388,7 +374,6 @@
             loadWord();
         }
 
-        // 加载单词
         function loadWord() {
             const container = document.getElementById('wordCardContainer');
 
@@ -403,7 +388,6 @@
 
             const word = filteredWords[currentIndex];
 
-            // 根据分类显示不同内容
             if (word.category === 'R') {
                 container.innerHTML = renderRootFamily(word);
             } else if (word.category === 'C') {
@@ -415,13 +399,12 @@
             }
         }
 
-        // 渲染核心状态词
         function renderCoreWord(word) {
             return `
                 <div class="word-card">
                     <span class="category-badge">🎯 核心状态词</span>
                     <div class="word-header">
-                        <div class="word-title">${word.word}</div>
+                        <div class="word-title">${word.word}<button class="speak-btn" onclick="playPronunciation('${word.word}', this)">🔊</button></div>
                         <div class="phonetic">${word.phonetic} ${word.pos}</div>
                     </div>
                     <div class="core-state-section">
@@ -458,7 +441,6 @@
             `;
         }
 
-        // 渲染词根词族
         function renderRootFamily(word) {
             return `
                 <div class="word-card">
@@ -477,7 +459,7 @@
                             <div class="scene-item">
                                 <div class="scene-emoji">${m.emoji}</div>
                                 <div class="scene-content">
-                                    <div class="scene-phrase">${m.word}</div>
+                                    <div class="scene-phrase">${m.word}<button class="speak-btn" style="width:28px;height:28px;font-size:13px;" onclick="playPronunciation('${m.word}', this)">🔊</button></div>
                                     <div class="scene-note">${m.note}</div>
                                 </div>
                             </div>
@@ -500,13 +482,12 @@
             `;
         }
 
-        // 渲染固定搭配
         function renderCollocation(word) {
             return `
                 <div class="word-card">
                     <span class="category-badge">🔗 固定搭配</span>
                     <div class="word-header">
-                        <div class="word-title">${word.phrase}</div>
+                        <div class="word-title">${word.phrase}<button class="speak-btn" onclick="playPronunciation('${word.phrase}', this)">🔊</button></div>
                     </div>
                     <div class="core-state-section">
                         <span class="core-icon">${word.core_emoji}</span>
@@ -542,13 +523,12 @@
             `;
         }
 
-        // 渲染识别词
         function renderRecognition(word) {
             return `
                 <div class="word-card">
                     <span class="category-badge">👁️ 识别词</span>
                     <div class="word-header">
-                        <div class="word-title">${word.word}</div>
+                        <div class="word-title">${word.word}<button class="speak-btn" onclick="playPronunciation('${word.word}', this)">🔊</button></div>
                         <div class="phonetic">${word.phonetic} ${word.pos}</div>
                     </div>
                     <div class="core-state-section">
@@ -565,7 +545,66 @@
             `;
         }
 
-        // 标记单词
+        const pronunciationCache = {};
+        async function playPronunciation(text, btn) {
+            if (btn) btn.classList.add('loading');
+            try {
+                if (pronunciationCache[text]) {
+                    await pronunciationCache[text]();
+                    return;
+                }
+                if (!/\s/.test(text)) {
+                    const audioUrl = await fetchUKAudio(text);
+                    if (audioUrl) {
+                        const player = () => new Promise((resolve) => {
+                            const audio = new Audio(audioUrl);
+                            audio.onended = resolve;
+                            audio.onerror = resolve;
+                            audio.play().catch(resolve);
+                        });
+                        pronunciationCache[text] = player;
+                        await player();
+                        return;
+                    }
+                }
+                speakWithBrowser(text);
+            } catch (e) {
+                speakWithBrowser(text);
+            } finally {
+                if (btn) btn.classList.remove('loading');
+            }
+        }
+
+        async function fetchUKAudio(word) {
+            try {
+                const res = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en_GB/${encodeURIComponent(word)}`);
+                if (!res.ok) return null;
+                const data = await res.json();
+                for (const entry of data) {
+                    for (const p of (entry.phonetics || [])) {
+                        if (p.audio && p.audio.length > 0) {
+                            return p.audio.startsWith('http') ? p.audio : `https:${p.audio}`;
+                        }
+                    }
+                }
+                return null;
+            } catch (e) {
+                return null;
+            }
+        }
+
+        function speakWithBrowser(text) {
+            if (!('speechSynthesis' in window)) return;
+            window.speechSynthesis.cancel();
+            const utter = new SpeechSynthesisUtterance(text);
+            utter.lang = 'en-GB';
+            const voices = window.speechSynthesis.getVoices();
+            const ukVoice = voices.find(v => v.lang === 'en-GB') || voices.find(v => v.lang && v.lang.startsWith('en'));
+            if (ukVoice) utter.voice = ukVoice;
+            utter.rate = 0.9;
+            window.speechSynthesis.speak(utter);
+        }
+
         function markWord(status) {
             const word = filteredWords[currentIndex];
             const today = new Date().toISOString().slice(0, 10);
@@ -592,7 +631,6 @@
             updateStats();
         }
 
-        // 更新统计
         function updateStats() {
             let data = JSON.parse(localStorage.getItem('ieltsData') || '{}');
             let totalLearned = 0;
@@ -602,7 +640,6 @@
             document.getElementById('learnedWords').textContent = totalLearned;
         }
 
-        // 页面加载时初始化
         window.onload = init;
     </script>
 </body>
