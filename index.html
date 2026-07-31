@@ -21,7 +21,7 @@
             background: white;
             border-radius: 15px;
             padding: 20px;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             box-shadow: 0 5px 20px rgba(0,0,0,0.2);
         }
         .status-bar h1 {
@@ -48,16 +48,26 @@
             color: #666;
             margin-top: 5px;
         }
-        .update-banner {
-            background: #28a745;
-            color: white;
-            padding: 12px;
-            border-radius: 10px;
-            margin-bottom: 15px;
+        .checkin-status {
             text-align: center;
-            display: none;
+            color: #28a745;
+            font-size: 13px;
+            margin-top: 10px;
+            font-weight: bold;
         }
-        .update-banner.show { display: block; }
+        .records-btn {
+            width: 100%;
+            padding: 12px;
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            cursor: pointer;
+        }
+        .records-btn:active { transform: scale(0.98); }
         .category-tabs {
             display: flex;
             gap: 10px;
@@ -117,7 +127,6 @@
             margin-left: 8px;
         }
         .speak-btn:active { transform: scale(0.92); }
-        .speak-btn.loading { opacity: 0.5; }
         .core-state-section {
             background: linear-gradient(135deg, #667eea15 0%, #764ba215 100%);
             border-radius: 15px;
@@ -142,32 +151,6 @@
             font-weight: 600;
             line-height: 1.6;
             margin-bottom: 15px;
-        }
-        .core-elements {
-            background: white;
-            border-radius: 10px;
-            padding: 15px;
-            margin-top: 15px;
-            text-align: left;
-        }
-        .core-elements-title {
-            font-size: 13px;
-            color: #667eea;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .core-element {
-            font-size: 14px;
-            color: #666;
-            padding: 5px 0;
-            padding-left: 20px;
-            position: relative;
-        }
-        .core-element:before {
-            content: "•";
-            position: absolute;
-            left: 5px;
-            color: #667eea;
         }
         .scenes-section { margin-top: 20px; }
         .section-title {
@@ -238,22 +221,24 @@
         }
         .action-buttons {
             display: flex;
-            gap: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
             justify-content: center;
             margin-top: 20px;
         }
         .btn {
-            padding: 15px 30px;
+            padding: 12px 18px;
             border: none;
-            border-radius: 25px;
-            font-size: 16px;
+            border-radius: 20px;
+            font-size: 14px;
             font-weight: bold;
             cursor: pointer;
             flex: 1;
-            max-width: 150px;
+            min-width: 90px;
         }
         .btn-know { background: #28a745; color: white; }
         .btn-unknown { background: #dc3545; color: white; }
+        .btn-fuzzy { background: #ff9800; color: white; }
         .btn-skip { background: #6c757d; color: white; }
         .loading {
             text-align: center;
@@ -266,13 +251,85 @@
             padding: 60px 20px;
             color: white;
         }
+        .version-footer {
+            text-align: center;
+            color: rgba(255,255,255,0.65);
+            font-size: 12px;
+            margin-top: 15px;
+            padding-bottom: 10px;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            align-items: flex-end;
+            justify-content: center;
+            z-index: 2000;
+        }
+        .modal-overlay.show { display: flex; }
+        .modal-box {
+            background: white;
+            border-radius: 20px 20px 0 0;
+            width: 100%;
+            max-width: 800px;
+            max-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .modal-head {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .modal-head h2 { font-size: 20px; color: #333; }
+        .modal-close {
+            background: #eee;
+            border: none;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .modal-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            overflow-x: auto;
+            padding-bottom: 4px;
+        }
+        .modal-tab {
+            padding: 8px 14px;
+            border: 2px solid #667eea;
+            border-radius: 16px;
+            background: white;
+            color: #667eea;
+            font-size: 13px;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+        .modal-tab.active { background: #667eea; color: white; }
+        .records-list { overflow-y: auto; flex: 1; }
+        .record-item {
+            padding: 12px 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .record-word { font-weight: bold; color: #333; font-size: 16px; }
+        .record-chinese { color: #666; font-size: 13px; text-align: right; }
+        .records-empty { text-align: center; color: #999; padding: 40px 0; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="update-banner" id="updateBanner">
-            ✨ 发现新版本！点击更新
-        </div>
         <div class="status-bar">
             <h1>📚 雅思词汇真经</h1>
             <div class="stats">
@@ -282,14 +339,18 @@
                 </div>
                 <div class="stat-item">
                     <div class="stat-number" id="learnedWords">0</div>
-                    <div class="stat-label">已学习</div>
+                    <div class="stat-label">已背单词</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number" id="streakDays">0</div>
-                    <div class="stat-label">连续天数</div>
+                    <div class="stat-label">连续打卡</div>
                 </div>
             </div>
+            <div class="checkin-status" id="checkinStatus"></div>
         </div>
+
+        <button class="records-btn" onclick="openRecords()">📖 查看学习记录（已背 / 模糊记忆 / 待复习）</button>
+
         <div class="category-tabs">
             <div class="tab active" onclick="switchCategory('all')">全部</div>
             <div class="tab" onclick="switchCategory('A')">🎯 核心状态词</div>
@@ -298,32 +359,150 @@
             <div class="tab" onclick="switchCategory('C')">🔗 固定搭配</div>
             <div class="tab" onclick="switchCategory('I')">👁️ 识别词</div>
         </div>
+
         <div id="wordCardContainer">
             <div class="loading">加载中...</div>
         </div>
+
+        <div class="version-footer" id="versionFooter">v1.1.0 · 更新于 2026-07-31</div>
     </div>
 
+    <div id="recordsModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h2>📖 学习记录</h2>
+                <button class="modal-close" onclick="closeRecords()">✕</button>
+            </div>
+            <div class="modal-tabs">
+                <button class="modal-tab active" id="tab-known" onclick="showRecordTab('known')">✅ 已背单词</button>
+                <button class="modal-tab" id="tab-fuzzy" onclick="showRecordTab('fuzzy')">🌀 模糊记忆</button>
+                <button class="modal-tab" id="tab-review" onclick="showRecordTab('review')">🔁 今日待复习</button>
+            </div>
+            <div id="recordsList" class="records-list"></div>
+        </div>
+    </div>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('sw.js')
-                .then(reg => {
-                    console.log('Service Worker 注册成功');
-                    reg.addEventListener('updatefound', () => {
-                        const newWorker = reg.installing;
-                        newWorker.addEventListener('statechange', () => {
-                            if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                                document.getElementById('updateBanner').classList.add('show');
-                            }
-                        });
-                    });
-                })
-                .catch(err => console.log('Service Worker 注册失败:', err));
+            navigator.serviceWorker.register('sw.js').catch(err => console.log('SW注册失败:', err));
         }
 
-        document.getElementById('updateBanner').addEventListener('click', () => {
-            navigator.serviceWorker.controller.postMessage({ action: 'skipWaiting' });
-            window.location.reload();
-        });
+        function todayStr() {
+            return new Date().toISOString().slice(0, 10);
+        }
+        function loadCheckins() {
+            return JSON.parse(localStorage.getItem('ieltsCheckins') || '{}');
+        }
+        function saveCheckins(d) {
+            localStorage.setItem('ieltsCheckins', JSON.stringify(d));
+        }
+        function loadRecords() {
+            return JSON.parse(localStorage.getItem('ieltsWordRecords') || '{}');
+        }
+        function saveRecords(d) {
+            localStorage.setItem('ieltsWordRecords', JSON.stringify(d));
+        }
+
+        function doDailyCheckIn() {
+            const checkins = loadCheckins();
+            const t = todayStr();
+            if (!checkins[t]) {
+                checkins[t] = true;
+                saveCheckins(checkins);
+            }
+        }
+
+        function computeStreak() {
+            const checkins = loadCheckins();
+            let streak = 0;
+            let d = new Date();
+            while (true) {
+                const key = d.toISOString().slice(0, 10);
+                if (checkins[key]) {
+                    streak++;
+                    d.setDate(d.getDate() - 1);
+                } else {
+                    break;
+                }
+            }
+            return streak;
+        }
+
+        const REVIEW_INTERVALS = [1, 2, 4, 7, 15, 30];
+        function daysBetween(dateA, dateB) {
+            const a = new Date(dateA + 'T00:00:00');
+            const b = new Date(dateB + 'T00:00:00');
+            return Math.round((b - a) / 86400000);
+        }
+
+        function displayName(w) {
+            return w.word || w.phrase || w.root || '';
+        }
+
+        let wordById = {};
+        function buildWordIndex() {
+            wordById = {};
+            [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I].forEach(w => {
+                wordById[w.id] = w;
+            });
+        }
+
+        function getKnownList() {
+            const records = loadRecords();
+            return Object.entries(records)
+                .filter(([id, r]) => r.status === 'know')
+                .map(([id]) => wordById[id])
+                .filter(Boolean);
+        }
+        function getFuzzyList() {
+            const records = loadRecords();
+            return Object.entries(records)
+                .filter(([id, r]) => r.status === 'fuzzy')
+                .map(([id]) => wordById[id])
+                .filter(Boolean);
+        }
+        function getReviewList() {
+            const records = loadRecords();
+            const t = todayStr();
+            const due = [];
+            Object.entries(records).forEach(([id, rec]) => {
+                if (rec.status === 'know' && rec.firstLearnedDate) {
+                    const diff = daysBetween(rec.firstLearnedDate, t);
+                    if (REVIEW_INTERVALS.includes(diff)) {
+                        due.push(id);
+                    }
+                }
+            });
+            return due.map(id => wordById[id]).filter(Boolean);
+        }
+
+        function openRecords() {
+            document.getElementById('recordsModal').classList.add('show');
+            showRecordTab('known');
+        }
+        function closeRecords() {
+            document.getElementById('recordsModal').classList.remove('show');
+        }
+        function showRecordTab(tab) {
+            document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
+            document.getElementById('tab-' + tab).classList.add('active');
+
+            let list, emptyMsg;
+            if (tab === 'known') { list = getKnownList(); emptyMsg = '还没有背过的单词，快去学习吧'; }
+            else if (tab === 'fuzzy') { list = getFuzzyList(); emptyMsg = '暂无模糊记忆的单词'; }
+            else { list = getReviewList(); emptyMsg = '今天没有需要复习的单词'; }
+
+            const container = document.getElementById('recordsList');
+            if (list.length === 0) {
+                container.innerHTML = `<div class="records-empty">${emptyMsg}</div>`;
+                return;
+            }
+            container.innerHTML = list.map(w => `
+                <div class="record-item">
+                    <div class="record-word">${displayName(w)}</div>
+                    <div class="record-chinese">${w.chinese || ''}</div>
+                </div>
+            `).join('');
+        }
 
         let allWords = { A: [], S: [], R: [], C: [], I: [] };
         let currentIndex = 0;
@@ -350,6 +529,10 @@
 
                 document.getElementById('totalWords').textContent = filteredWords.length;
 
+                buildWordIndex();
+                doDailyCheckIn();
+                updateStats();
+
                 loadWord();
             } catch (error) {
                 console.error('加载失败:', error);
@@ -362,7 +545,7 @@
             currentCategory = category;
             currentIndex = 0;
 
-            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.category-tabs .tab').forEach(tab => tab.classList.remove('active'));
             event.target.classList.add('active');
 
             if (category === 'all') {
@@ -402,6 +585,17 @@
             }
         }
 
+        function actionButtonsHtml() {
+            return `
+                <div class="action-buttons">
+                    <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
+                    <button class="btn btn-fuzzy" onclick="markWord('fuzzy')">🌀 模糊</button>
+                    <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
+                    <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
+                </div>
+            `;
+        }
+
         function renderCoreWord(word) {
             return `
                 <div class="word-card">
@@ -435,11 +629,7 @@
                         <div class="chinese-label">💡 中文核对</div>
                         <div>${word.chinese}</div>
                     </div>
-                    <div class="action-buttons">
-                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
-                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
-                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
-                    </div>
+                    ${actionButtonsHtml()}
                 </div>
             `;
         }
@@ -476,11 +666,7 @@
                         <div class="chinese-label">💡 中文核对</div>
                         <div>${word.chinese}</div>
                     </div>
-                    <div class="action-buttons">
-                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
-                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
-                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
-                    </div>
+                    ${actionButtonsHtml()}
                 </div>
             `;
         }
@@ -517,11 +703,7 @@
                         <div class="chinese-label">💡 中文核对</div>
                         <div>${word.chinese}</div>
                     </div>
-                    <div class="action-buttons">
-                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
-                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
-                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
-                    </div>
+                    ${actionButtonsHtml()}
                 </div>
             `;
         }
@@ -539,11 +721,7 @@
                         <div class="core-state-text">${word.chinese}</div>
                         <div style="margin-top: 10px; font-size: 14px; color: #667eea;">【${word.topic}】</div>
                     </div>
-                    <div class="action-buttons">
-                        <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
-                        <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
-                        <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
-                    </div>
+                    ${actionButtonsHtml()}
                 </div>
             `;
         }
@@ -577,9 +755,7 @@
                 for (const entry of data) {
                     for (const p of (entry.phonetics || [])) {
                         if (p.audio && p.audio.length > 0) {
-                            if (p.audio.includes('-us.mp3') || p.audio.includes('-us.ogg')) {
-                                continue;
-                            }
+                            if (p.audio.includes('-us.mp3') || p.audio.includes('-us.ogg')) continue;
                             return p.audio.startsWith('http') ? p.audio : `https:${p.audio}`;
                         }
                     }
@@ -613,24 +789,17 @@
 
         function markWord(status) {
             const word = filteredWords[currentIndex];
-            const today = new Date().toISOString().slice(0, 10);
 
-            let data = JSON.parse(localStorage.getItem('ieltsData') || '{}');
-            if (!data[today]) {
-                data[today] = { learned: [], review: [] };
-            }
-
-            if (status === 'know') {
-                if (!data[today].learned.includes(word.id)) {
-                    data[today].learned.push(word.id);
+            if (status !== 'skip') {
+                const records = loadRecords();
+                const rec = records[word.id] || {};
+                rec.status = status;
+                if (status === 'know' && !rec.firstLearnedDate) {
+                    rec.firstLearnedDate = todayStr();
                 }
-            } else if (status === 'unknown') {
-                if (!data[today].review.includes(word.id)) {
-                    data[today].review.push(word.id);
-                }
+                records[word.id] = rec;
+                saveRecords(records);
             }
-
-            localStorage.setItem('ieltsData', JSON.stringify(data));
 
             currentIndex++;
             loadWord();
@@ -638,12 +807,14 @@
         }
 
         function updateStats() {
-            let data = JSON.parse(localStorage.getItem('ieltsData') || '{}');
-            let totalLearned = 0;
-            Object.values(data).forEach(day => {
-                if (day.learned) totalLearned += day.learned.length;
-            });
-            document.getElementById('learnedWords').textContent = totalLearned;
+            const records = loadRecords();
+            const knownCount = Object.values(records).filter(r => r.status === 'know').length;
+            document.getElementById('learnedWords').textContent = knownCount;
+            document.getElementById('streakDays').textContent = computeStreak();
+
+            const checkins = loadCheckins();
+            const t = todayStr();
+            document.getElementById('checkinStatus').textContent = checkins[t] ? '✅ 今日已打卡' : '';
         }
 
         window.onload = init;
