@@ -6,15 +6,47 @@
     "core_emoji": "🏗️🧱",
     "category": "R",
     "members": [
-      {"word": "structure", "emoji": "🏢", "note": "搭建完成后的组织形式｜结构"},
-      {"word": "construct", "emoji": "🔨", "note": "把部分搭建起来｜建造"},
-      {"word": "construction", "emoji": "🏗️", "note": "建造过程｜建设"},
-      {"word": "reconstruct", "emoji": "🔄", "note": "重新搭建｜重建"},
-      {"word": "infrastructure", "emoji": "🛣️", "note": "支撑整体运行的底层结构｜基础设施"},
-      {"word": "destruct", "emoji": "💥", "note": "把搭建的拆掉｜破坏"},
-      {"word": "instruct", "emoji": "📋", "note": "在头脑中搭建知识｜指导"}
+      {
+        "word": "structure",
+        "emoji": "🏢",
+        "note": "搭建完成后的组织形式｜结构"
+      },
+      {
+        "word": "construct",
+        "emoji": "🔨",
+        "note": "把部分搭建起来｜建造"
+      },
+      {
+        "word": "construction",
+        "emoji": "🏗️",
+        "note": "建造过程｜建设"
+      },
+      {
+        "word": "reconstruct",
+        "emoji": "🔄",
+        "note": "重新搭建｜重建"
+      },
+      {
+        "word": "infrastructure",
+        "emoji": "🛣️",
+        "note": "支撑整体运行的底层结构｜基础设施"
+      },
+      {
+        "word": "destruct",
+        "emoji": "💥",
+        "note": "把搭建的拆掉｜破坏"
+      },
+      {
+        "word": "instruct",
+        "emoji": "📋",
+        "note": "在头脑中搭建知识｜指导"
+      }
     ],
-    "collocations": ["social structure", "construct a building", "infrastructure investment"],
+    "collocations": [
+      "social structure",
+      "construct a building",
+      "infrastructure investment"
+    ],
     "chinese": "结构；建造；建设；重建；基础设施；破坏；指导"
   },
   {
@@ -24,15 +56,47 @@
     "core_emoji": "👁️👀",
     "category": "R",
     "members": [
-      {"word": "inspect", "emoji": "🔍", "note": "仔细查看｜检查"},
-      {"word": "respect", "emoji": "🙏", "note": "反复看表示敬意｜尊重"},
-      {"word": "prospect", "emoji": "🔭", "note": "向前看｜前景"},
-      {"word": "perspective", "emoji": "🎨", "note": "看透事物的角度｜视角"},
-      {"word": "spectacle", "emoji": "🎪", "note": "值得看的景象｜壮观"},
-      {"word": "spectrum", "emoji": "🌈", "note": "看到的光的范围｜光谱"},
-      {"word": "speculate", "emoji": "💭", "note": "用心眼看｜推测"}
+      {
+        "word": "inspect",
+        "emoji": "🔍",
+        "note": "仔细查看｜检查"
+      },
+      {
+        "word": "respect",
+        "emoji": "🙏",
+        "note": "反复看表示敬意｜尊重"
+      },
+      {
+        "word": "prospect",
+        "emoji": "🔭",
+        "note": "向前看｜前景"
+      },
+      {
+        "word": "perspective",
+        "emoji": "🎨",
+        "note": "看透事物的角度｜视角"
+      },
+      {
+        "word": "spectacle",
+        "emoji": "🎪",
+        "note": "值得看的景象｜壮观"
+      },
+      {
+        "word": "spectrum",
+        "emoji": "🌈",
+        "note": "看到的光的范围｜光谱"
+      },
+      {
+        "word": "speculate",
+        "emoji": "💭",
+        "note": "用心眼看｜推测"
+      }
     ],
-    "collocations": ["inspect quality", "mutual respect", "career prospects"],
+    "collocations": [
+      "inspect quality",
+      "mutual respect",
+      "career prospects"
+    ],
     "chinese": "检查；尊重；前景；视角；壮观；光谱；推测"
   },
   {
@@ -42,15 +106,47 @@
     "core_emoji": "📦🚚",
     "category": "R",
     "members": [
-      {"word": "transport", "emoji": "🚚", "note": "从一地搬到另一地｜运输"},
-      {"word": "export", "emoji": "📤", "note": "搬出去｜出口"},
-      {"word": "import", "emoji": "📥", "note": "搬进来｜进口"},
-      {"word": "support", "emoji": "🤲", "note": "在下面支撑｜支持"},
-      {"word": "portable", "emoji": "💼", "note": "可以携带的｜便携的"},
-      {"word": "portfolio", "emoji": "📁", "note": "携带的作品集｜投资组合"},
-      {"word": "report", "emoji": "📊", "note": "把信息带回来｜报告"}
+      {
+        "word": "transport",
+        "emoji": "🚚",
+        "note": "从一地搬到另一地｜运输"
+      },
+      {
+        "word": "export",
+        "emoji": "📤",
+        "note": "搬出去｜出口"
+      },
+      {
+        "word": "import",
+        "emoji": "📥",
+        "note": "搬进来｜进口"
+      },
+      {
+        "word": "support",
+        "emoji": "🤲",
+        "note": "在下面支撑｜支持"
+      },
+      {
+        "word": "portable",
+        "emoji": "💼",
+        "note": "可以携带的｜便携的"
+      },
+      {
+        "word": "portfolio",
+        "emoji": "📁",
+        "note": "携带的作品集｜投资组合"
+      },
+      {
+        "word": "report",
+        "emoji": "📊",
+        "note": "把信息带回来｜报告"
+      }
     ],
-    "collocations": ["public transport", "export goods", "support system"],
+    "collocations": [
+      "public transport",
+      "export goods",
+      "support system"
+    ],
     "chinese": "运输；出口；进口；支持；便携的；投资组合；报告"
   },
   {
@@ -60,14 +156,42 @@
     "core_emoji": "🌱🧬",
     "category": "R",
     "members": [
-      {"word": "biology", "emoji": "🔬", "note": "研究生命的科学｜生物学"},
-      {"word": "biography", "emoji": "📖", "note": "写生命的故事｜传记"},
-      {"word": "biodiversity", "emoji": "🌍", "note": "生命的多样性｜生物多样性"},
-      {"word": "antibiotic", "emoji": "💊", "note": "对抗生命的药物｜抗生素"},
-      {"word": "symbiosis", "emoji": "🤝", "note": "生命共同生活｜共生"},
-      {"word": "biodegradable", "emoji": "♻️", "note": "生命可以分解的｜可生物降解的"}
+      {
+        "word": "biology",
+        "emoji": "🔬",
+        "note": "研究生命的科学｜生物学"
+      },
+      {
+        "word": "biography",
+        "emoji": "📖",
+        "note": "写生命的故事｜传记"
+      },
+      {
+        "word": "biodiversity",
+        "emoji": "🌍",
+        "note": "生命的多样性｜生物多样性"
+      },
+      {
+        "word": "antibiotic",
+        "emoji": "💊",
+        "note": "对抗生命的药物｜抗生素"
+      },
+      {
+        "word": "symbiosis",
+        "emoji": "🤝",
+        "note": "生命共同生活｜共生"
+      },
+      {
+        "word": "biodegradable",
+        "emoji": "♻️",
+        "note": "生命可以分解的｜可生物降解的"
+      }
     ],
-    "collocations": ["marine biology", "biodiversity loss", "antibiotic resistance"],
+    "collocations": [
+      "marine biology",
+      "biodiversity loss",
+      "antibiotic resistance"
+    ],
     "chinese": "生物学；传记；生物多样性；抗生素；共生；可生物降解的"
   },
   {
@@ -77,13 +201,37 @@
     "core_emoji": "🔄🚴",
     "category": "R",
     "members": [
-      {"word": "bicycle", "emoji": "🚲", "note": "两个轮子的车｜自行车"},
-      {"word": "recycle", "emoji": "♻️", "note": "再次循环｜回收"},
-      {"word": "lifecycle", "emoji": "🔄", "note": "生命的循环｜生命周期"},
-      {"word": "cyclone", "emoji": "🌀", "note": "循环的风｜气旋"},
-      {"word": "encyclopedia", "emoji": "📚", "note": "循环的知识｜百科全书"}
+      {
+        "word": "bicycle",
+        "emoji": "🚲",
+        "note": "两个轮子的车｜自行车"
+      },
+      {
+        "word": "recycle",
+        "emoji": "♻️",
+        "note": "再次循环｜回收"
+      },
+      {
+        "word": "lifecycle",
+        "emoji": "🔄",
+        "note": "生命的循环｜生命周期"
+      },
+      {
+        "word": "cyclone",
+        "emoji": "🌀",
+        "note": "循环的风｜气旋"
+      },
+      {
+        "word": "encyclopedia",
+        "emoji": "📚",
+        "note": "循环的知识｜百科全书"
+      }
     ],
-    "collocations": ["recycle waste", "product lifecycle", "tropical cyclone"],
+    "collocations": [
+      "recycle waste",
+      "product lifecycle",
+      "tropical cyclone"
+    ],
     "chinese": "自行车；回收；生命周期；气旋；百科全书"
   },
   {
@@ -93,16 +241,52 @@
     "core_emoji": "🎨📐",
     "category": "R",
     "members": [
-      {"word": "form", "emoji": "📋", "note": "塑造形状｜形成"},
-      {"word": "formal", "emoji": "🎩", "note": "有固定形状的｜正式的"},
-      {"word": "format", "emoji": "📐", "note": "塑造的格式｜格式"},
-      {"word": "formula", "emoji": "🧮", "note": "塑造的公式｜公式"},
-      {"word": "transform", "emoji": "🔄", "note": "改变形状｜转变"},
-      {"word": "reform", "emoji": "🔧", "note": "重新塑造｜改革"},
-      {"word": "conform", "emoji": "✅", "note": "符合形状｜遵守"},
-      {"word": "deform", "emoji": "💔", "note": "形状被破坏｜变形"}
+      {
+        "word": "form",
+        "emoji": "📋",
+        "note": "塑造形状｜形成"
+      },
+      {
+        "word": "formal",
+        "emoji": "🎩",
+        "note": "有固定形状的｜正式的"
+      },
+      {
+        "word": "format",
+        "emoji": "📐",
+        "note": "塑造的格式｜格式"
+      },
+      {
+        "word": "formula",
+        "emoji": "🧮",
+        "note": "塑造的公式｜公式"
+      },
+      {
+        "word": "transform",
+        "emoji": "🔄",
+        "note": "改变形状｜转变"
+      },
+      {
+        "word": "reform",
+        "emoji": "🔧",
+        "note": "重新塑造｜改革"
+      },
+      {
+        "word": "conform",
+        "emoji": "✅",
+        "note": "符合形状｜遵守"
+      },
+      {
+        "word": "deform",
+        "emoji": "💔",
+        "note": "形状被破坏｜变形"
+      }
     ],
-    "collocations": ["form an opinion", "formal education", "transform society"],
+    "collocations": [
+      "form an opinion",
+      "formal education",
+      "transform society"
+    ],
     "chinese": "形成；正式的；格式；公式；转变；改革；遵守；变形"
   },
   {
@@ -112,16 +296,52 @@
     "core_emoji": "👇💪",
     "category": "R",
     "members": [
-      {"word": "press", "emoji": "👇", "note": "施加压力｜按压"},
-      {"word": "pressure", "emoji": "💪", "note": "施加的压力｜压力"},
-      {"word": "compress", "emoji": "🗜️", "note": "压在一起｜压缩"},
-      {"word": "depress", "emoji": "😔", "note": "向下压｜使沮丧"},
-      {"word": "express", "emoji": "💬", "note": "把想法压出来｜表达"},
-      {"word": "impress", "emoji": "⭐", "note": "压出印记｜使印象深刻"},
-      {"word": "oppress", "emoji": "⛓️", "note": "压在上面｜压迫"},
-      {"word": "suppress", "emoji": "🚫", "note": "压在下面｜压制"}
+      {
+        "word": "press",
+        "emoji": "👇",
+        "note": "施加压力｜按压"
+      },
+      {
+        "word": "pressure",
+        "emoji": "💪",
+        "note": "施加的压力｜压力"
+      },
+      {
+        "word": "compress",
+        "emoji": "🗜️",
+        "note": "压在一起｜压缩"
+      },
+      {
+        "word": "depress",
+        "emoji": "😔",
+        "note": "向下压｜使沮丧"
+      },
+      {
+        "word": "express",
+        "emoji": "💬",
+        "note": "把想法压出来｜表达"
+      },
+      {
+        "word": "impress",
+        "emoji": "⭐",
+        "note": "压出印记｜使印象深刻"
+      },
+      {
+        "word": "oppress",
+        "emoji": "⛓️",
+        "note": "压在上面｜压迫"
+      },
+      {
+        "word": "suppress",
+        "emoji": "🚫",
+        "note": "压在下面｜压制"
+      }
     ],
-    "collocations": ["press conference", "blood pressure", "express opinion"],
+    "collocations": [
+      "press conference",
+      "blood pressure",
+      "express opinion"
+    ],
     "chinese": "按压；压力；压缩；使沮丧；表达；使印象深刻；压迫；压制"
   },
   {
@@ -131,14 +351,42 @@
     "core_emoji": "🦅🌍",
     "category": "R",
     "members": [
-      {"word": "migrate", "emoji": "🦅", "note": "像候鸟一样迁移｜迁移"},
-      {"word": "migration", "emoji": "🌍", "note": "迁移的过程｜移民"},
-      {"word": "immigrate", "emoji": "📥", "note": "迁移进来｜移入"},
-      {"word": "emigrate", "emoji": "📤", "note": "迁移出去｜移出"},
-      {"word": "migrant", "emoji": "🚶", "note": "迁移的人｜移民"},
-      {"word": "migratory", "emoji": "🦆", "note": "有迁移习惯的｜迁徙的"}
+      {
+        "word": "migrate",
+        "emoji": "🦅",
+        "note": "像候鸟一样迁移｜迁移"
+      },
+      {
+        "word": "migration",
+        "emoji": "🌍",
+        "note": "迁移的过程｜移民"
+      },
+      {
+        "word": "immigrate",
+        "emoji": "📥",
+        "note": "迁移进来｜移入"
+      },
+      {
+        "word": "emigrate",
+        "emoji": "📤",
+        "note": "迁移出去｜移出"
+      },
+      {
+        "word": "migrant",
+        "emoji": "🚶",
+        "note": "迁移的人｜移民"
+      },
+      {
+        "word": "migratory",
+        "emoji": "🦆",
+        "note": "有迁移习惯的｜迁徙的"
+      }
     ],
-    "collocations": ["migrate to cities", "mass migration", "migrant workers"],
+    "collocations": [
+      "migrate to cities",
+      "mass migration",
+      "migrant workers"
+    ],
     "chinese": "迁移；移民；移入；移出；移民；迁徙的"
   },
   {
@@ -148,13 +396,37 @@
     "core_emoji": "🎓📚",
     "category": "R",
     "members": [
-      {"word": "educate", "emoji": "🎓", "note": "引导出知识｜教育"},
-      {"word": "education", "emoji": "📚", "note": "引导知识的过程｜教育"},
-      {"word": "educator", "emoji": "👨‍🏫", "note": "引导知识的人｜教育者"},
-      {"word": "educational", "emoji": "🎓", "note": "与教育相关的｜教育的"},
-      {"word": "uneducated", "emoji": "❌", "note": "没有受过教育的｜未受教育的"}
+      {
+        "word": "educate",
+        "emoji": "🎓",
+        "note": "引导出知识｜教育"
+      },
+      {
+        "word": "education",
+        "emoji": "📚",
+        "note": "引导知识的过程｜教育"
+      },
+      {
+        "word": "educator",
+        "emoji": "👨‍🏫",
+        "note": "引导知识的人｜教育者"
+      },
+      {
+        "word": "educational",
+        "emoji": "🎓",
+        "note": "与教育相关的｜教育的"
+      },
+      {
+        "word": "uneducated",
+        "emoji": "❌",
+        "note": "没有受过教育的｜未受教育的"
+      }
     ],
-    "collocations": ["quality education", "higher education", "educational system"],
+    "collocations": [
+      "quality education",
+      "higher education",
+      "educational system"
+    ],
     "chinese": "教育；教育；教育者；教育的；未受教育的"
   },
   {
@@ -164,15 +436,47 @@
     "core_emoji": "🚜💪",
     "category": "R",
     "members": [
-      {"word": "attract", "emoji": "🧲", "note": "拉向自己｜吸引"},
-      {"word": "attractive", "emoji": "✨", "note": "有拉力的｜有吸引力的"},
-      {"word": "contract", "emoji": "📄", "note": "拉在一起｜合同"},
-      {"word": "extract", "emoji": "🔧", "note": "拉出来｜提取"},
-      {"word": "distract", "emoji": "😵", "note": "拉开注意力｜分散注意力"},
-      {"word": "subtract", "emoji": "➖", "note": "拉走｜减去"},
-      {"word": "tractor", "emoji": "🚜", "note": "拉东西的机器｜拖拉机"}
+      {
+        "word": "attract",
+        "emoji": "🧲",
+        "note": "拉向自己｜吸引"
+      },
+      {
+        "word": "attractive",
+        "emoji": "✨",
+        "note": "有拉力的｜有吸引力的"
+      },
+      {
+        "word": "contract",
+        "emoji": "📄",
+        "note": "拉在一起｜合同"
+      },
+      {
+        "word": "extract",
+        "emoji": "🔧",
+        "note": "拉出来｜提取"
+      },
+      {
+        "word": "distract",
+        "emoji": "😵",
+        "note": "拉开注意力｜分散注意力"
+      },
+      {
+        "word": "subtract",
+        "emoji": "➖",
+        "note": "拉走｜减去"
+      },
+      {
+        "word": "tractor",
+        "emoji": "🚜",
+        "note": "拉东西的机器｜拖拉机"
+      }
     ],
-    "collocations": ["attract attention", "attractive design", "extract information"],
+    "collocations": [
+      "attract attention",
+      "attractive design",
+      "extract information"
+    ],
     "chinese": "吸引；有吸引力的；合同；提取；分散注意力；减去；拖拉机"
   }
 ]
