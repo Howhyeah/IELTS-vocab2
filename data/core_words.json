@@ -8518,5 +8518,971 @@
       "A",
       "W"
     ]
+  },
+  {
+    "id": "donate",
+    "word": "donate",
+    "phonetic": "/dəʊˈneɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人主动把自己拥有的有价值的东西，无偿地给出去，不期待任何回报或交换。",
+    "underlying_relation": "拥有的有价值东西 → 主动无偿给出 → 不期待回报（单向给予）。",
+    "core_emoji": "🎁➡️",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "donate money",
+        "note": "钱无偿给出不求回报｜捐钱"
+      },
+      {
+        "emoji": "🩸",
+        "phrase": "donate blood",
+        "note": "血液无偿给出不求回报｜献血"
+      },
+      {
+        "emoji": "📚",
+        "phrase": "donate books",
+        "note": "书籍无偿给出不求回报｜捐书"
+      },
+      {
+        "emoji": "🫀",
+        "phrase": "organ donation",
+        "note": "器官无偿给出不求回报｜器官捐赠"
+      }
+    ],
+    "collocations": [
+      "donate to charity",
+      "generously donated",
+      "blood donation"
+    ],
+    "chinese": "捐赠，捐献",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "afford",
+    "word": "afford",
+    "phonetic": "/əˈfɔːd/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人现有的资源（金钱/时间/精力）足够覆盖某个花费，不会因此造成负担或损失。",
+    "underlying_relation": "现有资源 → 足够覆盖花费 → 不造成负担（承受得起）。",
+    "core_emoji": "💰✅",
+    "scenes": [
+      {
+        "emoji": "🏠",
+        "phrase": "afford a house",
+        "note": "资金足够覆盖房价不造成负担｜买得起房子"
+      },
+      {
+        "emoji": "⏰",
+        "phrase": "can't afford the time",
+        "note": "时间不够覆盖需求会造成负担｜没时间"
+      },
+      {
+        "emoji": "⚠️",
+        "phrase": "can't afford to fail",
+        "note": "失败的代价承受不起｜承受不起失败"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "afford an education",
+        "note": "资金足够覆盖教育费用｜负担得起教育费用"
+      }
+    ],
+    "collocations": [
+      "can afford",
+      "afford to do sth",
+      "affordable price"
+    ],
+    "chinese": "负担得起；提供",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "impose",
+    "word": "impose",
+    "phonetic": "/ɪmˈpəʊz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一方把一个规则、负担或代价，强行加到另一方身上，对方没有选择的余地。",
+    "underlying_relation": "一方 → 把规则/负担强行加到另一方身上 → 对方无选择余地（被迫接受）。",
+    "core_emoji": "⬇️👤",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "impose a tax",
+        "note": "税负被强行加在人身上｜征税"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "impose a penalty",
+        "note": "处罚被强行加在人身上｜处以处罚"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "impose restrictions",
+        "note": "限制被强行加在人身上｜实施限制"
+      },
+      {
+        "emoji": "😤",
+        "phrase": "impose one's views",
+        "note": "观点被强行加给别人｜强加自己的观点"
+      }
+    ],
+    "collocations": [
+      "impose on",
+      "impose sanctions",
+      "self-imposed"
+    ],
+    "chinese": "强加，征收（税/处罚）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "dwindle",
+    "word": "dwindle",
+    "phonetic": "/ˈdwɪndl/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本数量可观的东西，随着时间推移一点点持续缩小，最终变得非常稀少。",
+    "underlying_relation": "数量可观的东西 ×（时间持续缩小）→ 变得非常稀少。",
+    "core_emoji": "📊➡️📉",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "savings dwindle",
+        "note": "存款持续缩小变稀少｜存款逐渐减少"
+      },
+      {
+        "emoji": "👥",
+        "phrase": "membership dwindles",
+        "note": "会员数量持续缩小变稀少｜会员数量减少"
+      },
+      {
+        "emoji": "🔋",
+        "phrase": "resources dwindle",
+        "note": "资源持续缩小变稀少｜资源日渐减少"
+      },
+      {
+        "emoji": "🌙",
+        "phrase": "hope dwindles",
+        "note": "希望持续缩小变稀少｜希望渐渐渺茫"
+      }
+    ],
+    "collocations": [
+      "dwindle away",
+      "steadily dwindling",
+      "dwindling numbers"
+    ],
+    "chinese": "逐渐减少，缩小",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "escalate",
+    "word": "escalate",
+    "phonetic": "/ˈeskəleɪt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本程度较轻的局面，一步一步不断加剧，每一步都比上一步更严重，逐渐升级到失控的规模。",
+    "underlying_relation": "较轻局面 → 一步步不断加剧 → 逐渐升级到失控规模。",
+    "core_emoji": "📈🔥",
+    "scenes": [
+      {
+        "emoji": "⚔️",
+        "phrase": "conflict escalates",
+        "note": "冲突一步步加剧升级｜冲突升级"
+      },
+      {
+        "emoji": "💰",
+        "phrase": "costs escalate",
+        "note": "成本一步步加剧上升｜成本不断攀升"
+      },
+      {
+        "emoji": "😡",
+        "phrase": "tension escalates",
+        "note": "紧张局势一步步加剧｜紧张局势升级"
+      },
+      {
+        "emoji": "📢",
+        "phrase": "escalating demands",
+        "note": "要求一步步加剧升高｜要求不断升级"
+      }
+    ],
+    "collocations": [
+      "escalate rapidly",
+      "escalation of",
+      "de-escalate"
+    ],
+    "chinese": "逐步升级，（使）不断恶化",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "expand",
+    "word": "expand",
+    "phonetic": "/ɪkˈspænd/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西原本的边界，向外持续扩展，占据比原来更大的空间或范围，体积明显变大。",
+    "underlying_relation": "原本边界 → 向外持续扩展 → 占据更大空间/范围（体积变大）。",
+    "core_emoji": "⭕➡️🔵",
+    "scenes": [
+      {
+        "emoji": "🏢",
+        "phrase": "expand the business",
+        "note": "业务边界向外扩展变大｜扩大业务"
+      },
+      {
+        "emoji": "🎈",
+        "phrase": "gas expands",
+        "note": "气体的体积向外扩展变大｜气体膨胀"
+      },
+      {
+        "emoji": "🗺️",
+        "phrase": "expand territory",
+        "note": "领土边界向外扩展变大｜扩张领土"
+      },
+      {
+        "emoji": "🧠",
+        "phrase": "expand one's knowledge",
+        "note": "知识范围向外扩展变大｜拓展知识面"
+      }
+    ],
+    "collocations": [
+      "expand rapidly",
+      "expansion of",
+      "expand into new markets"
+    ],
+    "chinese": "扩大，扩张；膨胀",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "rely",
+    "word": "rely",
+    "phonetic": "/rɪˈlaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一方原本无法独立完成或维持某种状态，需要依附于另一方的支撑，一旦支撑撤走，自己就无法维持。",
+    "underlying_relation": "一方（无法独立维持）→ 依附于另一方支撑 → 支撑撤走则无法维持。",
+    "core_emoji": "🧍🤝🏛️",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "rely on income",
+        "note": "生活依附于这份收入支撑｜依靠收入"
+      },
+      {
+        "emoji": "👨‍👩‍👧",
+        "phrase": "rely on parents",
+        "note": "生活依附于父母的支撑｜依靠父母"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "rely on technology",
+        "note": "运作依附于技术的支撑｜依赖技术"
+      },
+      {
+        "emoji": "🌾",
+        "phrase": "economy relies on agriculture",
+        "note": "经济依附于农业的支撑｜经济依赖农业"
+      }
+    ],
+    "collocations": [
+      "rely on",
+      "heavily reliant",
+      "self-reliant"
+    ],
+    "chinese": "依靠，依赖",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "earn",
+    "word": "earn",
+    "phonetic": "/ɜːn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人通过付出实际的努力或劳动，作为直接结果获得了相应的回报，回报是努力换来的，不是白得的。",
+    "underlying_relation": "付出实际努力 → 作为直接结果 → 获得相应回报（非白得）。",
+    "core_emoji": "💪➡️💰",
+    "scenes": [
+      {
+        "emoji": "💼",
+        "phrase": "earn a salary",
+        "note": "工作努力换来的直接回报｜赚取薪水"
+      },
+      {
+        "emoji": "🏆",
+        "phrase": "earn respect",
+        "note": "行为努力换来的直接回报｜赢得尊重"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "earn a degree",
+        "note": "学习努力换来的直接结果｜取得学位"
+      },
+      {
+        "emoji": "⭐",
+        "phrase": "earn a reputation",
+        "note": "表现努力换来的直接结果｜赢得名声"
+      }
+    ],
+    "collocations": [
+      "earn a living",
+      "well-earned",
+      "earn money"
+    ],
+    "chinese": "赚得，获得（作为努力的回报）",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "resign",
+    "word": "resign",
+    "phonetic": "/rɪˈzaɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人主动放弃自己现在担任的职位，从这个位置上主动离开，不是被别人赶走的。",
+    "underlying_relation": "现在担任的职位 → 主动放弃离开（非被迫）→ 离开这个位置。",
+    "core_emoji": "🧍➡️🚪",
+    "scenes": [
+      {
+        "emoji": "💼",
+        "phrase": "resign from the job",
+        "note": "职位被主动放弃离开｜辞职"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "resign from office",
+        "note": "职务被主动放弃离开｜辞去职务"
+      },
+      {
+        "emoji": "📝",
+        "phrase": "submit a resignation",
+        "note": "提交主动离职的申请｜提交辞职信"
+      },
+      {
+        "emoji": "😔",
+        "phrase": "forced to resign",
+        "note": "被环境逼迫主动离开（半被迫）｜被迫辞职"
+      }
+    ],
+    "collocations": [
+      "resign from",
+      "handed in resignation",
+      "resign immediately"
+    ],
+    "chinese": "辞职，辞去",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "dismiss",
+    "word": "dismiss",
+    "phonetic": "/dɪsˈmɪs/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人原本在某个位置上任职，被上级或权力方强行终止其职位，本人没有选择余地，是被动离开的。",
+    "underlying_relation": "任职的人 → 被权力方强行终止职位（被动）→ 被迫离开（非自愿）。",
+    "core_emoji": "🏛️➡️🧍",
+    "scenes": [
+      {
+        "emoji": "💼",
+        "phrase": "dismiss an employee",
+        "note": "员工被强行终止职位离开｜解雇员工"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "dismiss a case",
+        "note": "案件被强行终止不再审理｜驳回案件"
+      },
+      {
+        "emoji": "🙅",
+        "phrase": "dismiss an idea",
+        "note": "想法被强行否定终止｜否定一个想法"
+      },
+      {
+        "emoji": "🚪",
+        "phrase": "class is dismissed",
+        "note": "课程被终止，学生离开｜下课"
+      }
+    ],
+    "collocations": [
+      "dismiss from",
+      "unfairly dismissed",
+      "dismiss allegations"
+    ],
+    "chinese": "解雇；驳回；不予考虑",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "enforce",
+    "word": "enforce",
+    "phonetic": "/ɪnˈfɔːs/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一条原本只是写在纸上的规则，通过实际的行动和权力手段，让它真正被人遵守执行，不是停留在纸面上。",
+    "underlying_relation": "纸面上的规则 ×（实际行动+权力手段）→ 真正被人遵守执行（非停留纸面）。",
+    "core_emoji": "📜➡️👊",
+    "scenes": [
+      {
+        "emoji": "🚓",
+        "phrase": "enforce the law",
+        "note": "法律被实际行动落实到遵守｜执行法律"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "enforce a rule",
+        "note": "规则被实际行动落实到遵守｜强制执行规则"
+      },
+      {
+        "emoji": "😷",
+        "phrase": "enforce mask-wearing",
+        "note": "戴口罩的要求被强制落实｜强制戴口罩"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "strictly enforced",
+        "note": "规则被严格落实到遵守｜严格执行"
+      }
+    ],
+    "collocations": [
+      "enforce compliance",
+      "law enforcement",
+      "strictly enforce"
+    ],
+    "chinese": "强制执行",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "persuade",
+    "word": "persuade",
+    "phonetic": "/pəˈsweɪd/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人原本持有不同的想法或立场，经过另一方持续的说理和劝说，内心逐渐被打动，最终转变立场表示同意。",
+    "underlying_relation": "不同想法/立场 ×（持续说理劝说）→ 内心被打动 → 转变立场表示同意。",
+    "core_emoji": "🗣️➡️😊",
+    "scenes": [
+      {
+        "emoji": "🛍️",
+        "phrase": "persuade a customer",
+        "note": "顾客的想法被说理打动转变｜说服顾客"
+      },
+      {
+        "emoji": "🤝",
+        "phrase": "persuade to join",
+        "note": "对方的立场被劝说打动转变｜说服加入"
+      },
+      {
+        "emoji": "👨‍👩‍👧",
+        "phrase": "persuade parents",
+        "note": "父母的想法被说理打动转变｜说服父母"
+      },
+      {
+        "emoji": "💡",
+        "phrase": "persuasive argument",
+        "note": "论点有说理打动人的力量｜有说服力的论点"
+      }
+    ],
+    "collocations": [
+      "persuade sb to do sth",
+      "highly persuasive",
+      "persuade against"
+    ],
+    "chinese": "说服，使相信",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "justify",
+    "word": "justify",
+    "phonetic": "/ˈdʒʌstɪfaɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本看起来不合理或引人质疑的行为或决定，通过给出充分的理由，让它显得合理、可以被接受。",
+    "underlying_relation": "看似不合理的行为/决定 ×（给出充分理由）→ 显得合理，可被接受。",
+    "core_emoji": "❓➡️✅",
+    "scenes": [
+      {
+        "emoji": "💰",
+        "phrase": "justify the expense",
+        "note": "看似不合理的花费被理由说得合理｜证明花费合理"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "justify one's actions",
+        "note": "看似不当的行为被理由说得合理｜为行为辩护"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "justify the decision",
+        "note": "看似草率的决定被理由说得合理｜证明决定合理"
+      },
+      {
+        "emoji": "🙅",
+        "phrase": "cannot be justified",
+        "note": "行为无法用理由说得合理｜无法被正当化"
+      }
+    ],
+    "collocations": [
+      "justify the means",
+      "well justified",
+      "justification for"
+    ],
+    "chinese": "证明…是正当的，为…辩护",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "confine",
+    "word": "confine",
+    "phonetic": "/kənˈfaɪn/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人或物原本可以自由活动，被限制在一个固定的边界范围之内，无法超出这个边界去往别处。",
+    "underlying_relation": "原本自由活动 → 被限制在固定边界内 → 无法超出边界（受限）。",
+    "core_emoji": "🔲🧍",
+    "scenes": [
+      {
+        "emoji": "🏠",
+        "phrase": "confined to bed",
+        "note": "人被限制在床这个范围内｜卧床不起"
+      },
+      {
+        "emoji": "🔒",
+        "phrase": "confined to a cell",
+        "note": "人被限制在牢房范围内｜被监禁在牢房"
+      },
+      {
+        "emoji": "📋",
+        "phrase": "confine the discussion",
+        "note": "讨论被限制在特定范围内｜把讨论限制在"
+      },
+      {
+        "emoji": "🌍",
+        "phrase": "not confined to one country",
+        "note": "范围没被限制在一个国家内｜不限于一个国家"
+      }
+    ],
+    "collocations": [
+      "confined space",
+      "confine to",
+      "self-confined"
+    ],
+    "chinese": "限制，监禁",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "deceive",
+    "word": "deceive",
+    "phonetic": "/dɪˈsiːv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人故意把虚假的信息包装成真实的样子，让另一方相信了这个假象，从而做出错误的判断。",
+    "underlying_relation": "虚假信息 ×（故意包装成真实）→ 对方相信假象 → 做出错误判断。",
+    "core_emoji": "🎭➡️😵",
+    "scenes": [
+      {
+        "emoji": "💍",
+        "phrase": "deceive a partner",
+        "note": "虚假信息被包装骗过伴侣｜欺骗伴侣"
+      },
+      {
+        "emoji": "📰",
+        "phrase": "deceive the public",
+        "note": "虚假信息被包装骗过公众｜欺骗公众"
+      },
+      {
+        "emoji": "👁️",
+        "phrase": "the eye can deceive",
+        "note": "视觉呈现的假象骗过判断｜眼睛会欺骗人"
+      },
+      {
+        "emoji": "😈",
+        "phrase": "deliberately deceived",
+        "note": "虚假信息被故意包装欺骗｜蓄意欺骗"
+      }
+    ],
+    "collocations": [
+      "deceive oneself",
+      "deceptive appearance",
+      "deceived by"
+    ],
+    "chinese": "欺骗，蒙蔽",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "reconcile",
+    "word": "reconcile",
+    "phonetic": "/ˈrekənsaɪl/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "两个原本存在冲突或矛盾的对立方，经过调和的过程，重新回到和睦一致的状态，冲突消失。",
+    "underlying_relation": "两个对立冲突方 ×（调和过程）→ 重新回到和睦一致状态（冲突消失）。",
+    "core_emoji": "⚡➡️🤝",
+    "scenes": [
+      {
+        "emoji": "💔",
+        "phrase": "reconcile with a friend",
+        "note": "冲突的两人重新回到和睦｜与朋友和解"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "reconcile conflicting data",
+        "note": "冲突的数据被调和达成一致｜调和矛盾的数据"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "reconcile differences",
+        "note": "分歧被调和重新达成一致｜调和分歧"
+      },
+      {
+        "emoji": "🙏",
+        "phrase": "seek reconciliation",
+        "note": "寻求让冲突回到和睦的过程｜寻求和解"
+      }
+    ],
+    "collocations": [
+      "reconcile with",
+      "irreconcilable",
+      "reconciliation process"
+    ],
+    "chinese": "使和解，调和",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "deflect",
+    "word": "deflect",
+    "phonetic": "/dɪˈflekt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本朝着一个方向前进的力或物体，碰到阻碍后改变了原来的路径，转向另一个方向继续前进。",
+    "underlying_relation": "原方向前进的力/物体 + 碰到阻碍 → 改变路径 → 转向另一方向。",
+    "core_emoji": "➡️↗️",
+    "scenes": [
+      {
+        "emoji": "⚽",
+        "phrase": "deflect the ball",
+        "note": "球的方向碰到阻碍改变路径｜使球偏转"
+      },
+      {
+        "emoji": "🛡️",
+        "phrase": "deflect criticism",
+        "note": "批评的方向被挡开转向别处｜转移批评"
+      },
+      {
+        "emoji": "☀️",
+        "phrase": "deflect sunlight",
+        "note": "阳光的方向碰到阻碍改变｜反射阳光"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "deflect attention",
+        "note": "注意力的方向被转移到别处｜转移注意力"
+      }
+    ],
+    "collocations": [
+      "deflect blame",
+      "deflect attention from",
+      "easily deflected"
+    ],
+    "chinese": "使偏斜，转移",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "deploy",
+    "word": "deploy",
+    "phonetic": "/dɪˈplɒɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一批原本集中放置的资源或力量，根据计划被有策略地分散安排到具体需要的位置上，准备发挥作用。",
+    "underlying_relation": "集中放置的资源/力量 ×（策略安排）→ 分散到具体位置 → 准备发挥作用。",
+    "core_emoji": "📦➡️📍📍📍",
+    "scenes": [
+      {
+        "emoji": "⚔️",
+        "phrase": "deploy troops",
+        "note": "军队被策略性安排到具体位置｜部署军队"
+      },
+      {
+        "emoji": "💻",
+        "phrase": "deploy software",
+        "note": "软件被安排部署到具体系统上｜部署软件"
+      },
+      {
+        "emoji": "🎯",
+        "phrase": "deploy resources",
+        "note": "资源被策略性安排到需要之处｜调配资源"
+      },
+      {
+        "emoji": "🚑",
+        "phrase": "deploy emergency teams",
+        "note": "救援队伍被安排部署到现场｜部署救援队"
+      }
+    ],
+    "collocations": [
+      "deploy strategically",
+      "rapid deployment",
+      "deploy effectively"
+    ],
+    "chinese": "部署，调配",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "seize",
+    "word": "seize",
+    "phonetic": "/siːz/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个东西原本不在自己手里，通过快速而有力的动作，突然抓住并牢牢控制住，不给对方反应的时间。",
+    "underlying_relation": "不在手里的东西 ×（快速有力动作）→ 突然抓住控制住（对方无反应时间）。",
+    "core_emoji": "🤚⚡",
+    "scenes": [
+      {
+        "emoji": "🎯",
+        "phrase": "seize the opportunity",
+        "note": "机会被快速抓住牢牢控制｜抓住机会"
+      },
+      {
+        "emoji": "👮",
+        "phrase": "seize illegal goods",
+        "note": "非法物品被突然抓住没收｜查扣非法物品"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "seize power",
+        "note": "权力被突然抓住控制住｜夺取权力"
+      },
+      {
+        "emoji": "😨",
+        "phrase": "seized by fear",
+        "note": "恐惧突然抓住控制了人｜被恐惧笼罩"
+      }
+    ],
+    "collocations": [
+      "seize control",
+      "seize the moment",
+      "seized by police"
+    ],
+    "chinese": "抓住，夺取，查获",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "pursue",
+    "word": "pursue",
+    "phonetic": "/pəˈsjuː/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人朝着一个还没有到手的目标，持续不断地投入努力去追赶靠近，目标始终在前方，人始终在追。",
+    "underlying_relation": "尚未到手的目标 → 持续投入努力追赶靠近 → 目标始终在前方（持续追逐）。",
+    "core_emoji": "🏃➡️🎯",
+    "scenes": [
+      {
+        "emoji": "🎓",
+        "phrase": "pursue a career",
+        "note": "职业目标被持续努力追赶｜追求事业"
+      },
+      {
+        "emoji": "🚔",
+        "phrase": "pursue a suspect",
+        "note": "嫌疑人被持续追赶靠近｜追捕嫌疑人"
+      },
+      {
+        "emoji": "😊",
+        "phrase": "pursue happiness",
+        "note": "幸福目标被持续追求靠近｜追求幸福"
+      },
+      {
+        "emoji": "🔍",
+        "phrase": "pursue an inquiry",
+        "note": "调查目标被持续深入追查｜追查调查"
+      }
+    ],
+    "collocations": [
+      "pursue a goal",
+      "in pursuit of",
+      "hot pursuit"
+    ],
+    "chinese": "追求，追赶；追查",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "deprive",
+    "word": "deprive",
+    "phonetic": "/dɪˈpraɪv/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人原本拥有某种东西（权利/资源/机会），被外力强行拿走，从此不再拥有这个东西。",
+    "underlying_relation": "原本拥有的东西 + 外力强行拿走 → 从此不再拥有（被剥夺）。",
+    "core_emoji": "✋➡️❌",
+    "scenes": [
+      {
+        "emoji": "😴",
+        "phrase": "deprive of sleep",
+        "note": "睡眠权被外力强行拿走｜剥夺睡眠"
+      },
+      {
+        "emoji": "🗳️",
+        "phrase": "deprive of rights",
+        "note": "权利被外力强行拿走｜剥夺权利"
+      },
+      {
+        "emoji": "🍽️",
+        "phrase": "deprived of food",
+        "note": "食物被外力强行拿走没有了｜被剥夺食物"
+      },
+      {
+        "emoji": "🎓",
+        "phrase": "deprive of education",
+        "note": "教育机会被外力强行拿走｜剥夺教育机会"
+      }
+    ],
+    "collocations": [
+      "deprive of",
+      "deprivation of",
+      "socially deprived"
+    ],
+    "chinese": "剥夺",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "betray",
+    "word": "betray",
+    "phonetic": "/bɪˈtreɪ/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个人原本被另一方托付了信任，却在关键时刻反过来做出损害对方的事，把这份信任辜负、背叛了。",
+    "underlying_relation": "被托付的信任 → 关键时刻反过来损害对方 → 信任被辜负（背叛）。",
+    "core_emoji": "🤝➡️💔",
+    "scenes": [
+      {
+        "emoji": "🤝",
+        "phrase": "betray a friend",
+        "note": "朋友的信任被反过来辜负｜背叛朋友"
+      },
+      {
+        "emoji": "🏛️",
+        "phrase": "betray one's country",
+        "note": "国家的信任被反过来辜负｜背叛祖国"
+      },
+      {
+        "emoji": "🔒",
+        "phrase": "betray a secret",
+        "note": "被托付的秘密被反过来泄露｜泄露秘密"
+      },
+      {
+        "emoji": "😢",
+        "phrase": "feel betrayed",
+        "note": "感觉自己的信任被辜负了｜感到被背叛"
+      }
+    ],
+    "collocations": [
+      "betray trust",
+      "sense of betrayal",
+      "betray sb's confidence"
+    ],
+    "chinese": "背叛，出卖",
+    "tags": [
+      "A",
+      "W"
+    ]
+  },
+  {
+    "id": "refute",
+    "word": "refute",
+    "phonetic": "/rɪˈfjuːt/",
+    "pos": "v.",
+    "category": "A",
+    "core_state": "一个原本被认为成立的说法或论点，通过提出相反的证据或逻辑漏洞，证明它是错误的、不能成立的。",
+    "underlying_relation": "被认为成立的说法 ×（提出相反证据/逻辑漏洞）→ 证明其错误不成立。",
+    "core_emoji": "💬➡️❌",
+    "scenes": [
+      {
+        "emoji": "🔬",
+        "phrase": "refute a theory",
+        "note": "理论被相反证据证明不成立｜反驳理论"
+      },
+      {
+        "emoji": "⚖️",
+        "phrase": "refute an accusation",
+        "note": "指控被相反证据证明不成立｜驳斥指控"
+      },
+      {
+        "emoji": "📊",
+        "phrase": "refute the claim",
+        "note": "说法被逻辑漏洞证明不成立｜反驳说法"
+      },
+      {
+        "emoji": "🗣️",
+        "phrase": "difficult to refute",
+        "note": "论点很难被证明不成立｜难以反驳"
+      }
+    ],
+    "collocations": [
+      "refute the argument",
+      "successfully refuted",
+      "hard to refute"
+    ],
+    "chinese": "反驳，驳斥",
+    "tags": [
+      "A",
+      "W"
+    ]
   }
 ]
