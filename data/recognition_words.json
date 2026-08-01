@@ -15288,5 +15288,3765 @@
     "chinese": "繁荣，兴旺，茁壮成长",
     "topic": "描述",
     "emoji": "🌿"
+  },
+  {
+    "id": "indian",
+    "word": "Indian",
+    "phonetic": "/ˈɪndiən/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "印度的；印度人",
+    "topic": "文化",
+    "emoji": "🌍"
+  },
+  {
+    "id": "australia",
+    "word": "Australia",
+    "phonetic": "/ɒˈstreɪliə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "澳大利亚",
+    "topic": "地理",
+    "emoji": "🌏"
+  },
+  {
+    "id": "new_zealand",
+    "word": "New Zealand",
+    "phonetic": "/njuː ˈziːlənd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "新西兰",
+    "topic": "地理",
+    "emoji": "🌏"
+  },
+  {
+    "id": "britain",
+    "word": "Britain",
+    "phonetic": "/ˈbrɪtn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "不列颠，英国",
+    "topic": "地理",
+    "emoji": "🌍"
+  },
+  {
+    "id": "france",
+    "word": "France",
+    "phonetic": "/frɑːns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "法国",
+    "topic": "地理",
+    "emoji": "🌍"
+  },
+  {
+    "id": "germany",
+    "word": "Germany",
+    "phonetic": "/ˈdʒɜːməni/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "德国",
+    "topic": "地理",
+    "emoji": "🌍"
+  },
+  {
+    "id": "economy",
+    "word": "economy",
+    "phonetic": "/ɪˈkɒnəmi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "经济",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "trade",
+    "word": "trade",
+    "phonetic": "/treɪd/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "贸易，交换",
+    "topic": "商业",
+    "emoji": "🤝"
+  },
+  {
+    "id": "market",
+    "word": "market",
+    "phonetic": "/ˈmɑːkɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "市场",
+    "topic": "商业",
+    "emoji": "🏪"
+  },
+  {
+    "id": "industry",
+    "word": "industry",
+    "phonetic": "/ˈɪndəstri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工业，产业",
+    "topic": "商业",
+    "emoji": "🏭"
+  },
+  {
+    "id": "industrialise",
+    "word": "industrialise",
+    "phonetic": "/ɪnˈdʌstriəlaɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "使工业化",
+    "topic": "商业",
+    "emoji": "🏭"
+  },
+  {
+    "id": "merchant",
+    "word": "merchant",
+    "phonetic": "/ˈmɜːtʃənt/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "商人",
+    "topic": "职业",
+    "emoji": "🧑‍💼"
+  },
+  {
+    "id": "financial",
+    "word": "financial",
+    "phonetic": "/faɪˈnænʃl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "财政的，金融的",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "fund",
+    "word": "fund",
+    "phonetic": "/fʌnd/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "基金，资金；资助",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "endow",
+    "word": "endow",
+    "phonetic": "/ɪnˈdaʊ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "捐赠，赋予",
+    "topic": "描述",
+    "emoji": "🎁"
+  },
+  {
+    "id": "commercial",
+    "word": "commercial",
+    "phonetic": "/kəˈmɜːʃl/",
+    "pos": "adj./n.",
+    "category": "I",
+    "chinese": "商业的；商业广告",
+    "topic": "商业",
+    "emoji": "📺"
+  },
+  {
+    "id": "commercialise",
+    "word": "commercialise",
+    "phonetic": "/kəˈmɜːʃəlaɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "使商业化",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "advertise",
+    "word": "advertise",
+    "phonetic": "/ˈædvətaɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "做广告",
+    "topic": "商业",
+    "emoji": "📢"
+  },
+  {
+    "id": "slogan",
+    "word": "slogan",
+    "phonetic": "/ˈsləʊɡən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "口号",
+    "topic": "商业",
+    "emoji": "📢"
+  },
+  {
+    "id": "purchase",
+    "word": "purchase",
+    "phonetic": "/ˈpɜːtʃəs/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "购买",
+    "topic": "商业",
+    "emoji": "🛒"
+  },
+  {
+    "id": "lease",
+    "word": "lease",
+    "phonetic": "/liːs/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "租约；出租",
+    "topic": "商业",
+    "emoji": "📜"
+  },
+  {
+    "id": "affordable",
+    "word": "affordable",
+    "phonetic": "/əˈfɔːdəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "买得起的",
+    "topic": "描述",
+    "emoji": "💰"
+  },
+  {
+    "id": "retail",
+    "word": "retail",
+    "phonetic": "/ˈriːteɪl/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "零售",
+    "topic": "商业",
+    "emoji": "🏪"
+  },
+  {
+    "id": "retailing",
+    "word": "retailing",
+    "phonetic": "/ˈriːteɪlɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "零售业",
+    "topic": "商业",
+    "emoji": "🏪"
+  },
+  {
+    "id": "chain",
+    "word": "chain",
+    "phonetic": "/tʃeɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "连锁店；一连串",
+    "topic": "商业",
+    "emoji": "🔗"
+  },
+  {
+    "id": "grocery",
+    "word": "grocery",
+    "phonetic": "/ˈɡrəʊsəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "食品杂货店",
+    "topic": "商业",
+    "emoji": "🛒"
+  },
+  {
+    "id": "discount",
+    "word": "discount",
+    "phonetic": "/ˈdɪskaʊnt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "折扣",
+    "topic": "商业",
+    "emoji": "🏷️"
+  },
+  {
+    "id": "promotion",
+    "word": "promotion",
+    "phonetic": "/prəˈməʊʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "促销；晋升",
+    "topic": "商业",
+    "emoji": "📢"
+  },
+  {
+    "id": "voucher",
+    "word": "voucher",
+    "phonetic": "/ˈvaʊtʃə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "代金券",
+    "topic": "商业",
+    "emoji": "🎫"
+  },
+  {
+    "id": "coupon",
+    "word": "coupon",
+    "phonetic": "/ˈkuːpɒn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "优惠券",
+    "topic": "商业",
+    "emoji": "🎫"
+  },
+  {
+    "id": "currency",
+    "word": "currency",
+    "phonetic": "/ˈkʌrənsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "货币",
+    "topic": "商业",
+    "emoji": "💵"
+  },
+  {
+    "id": "exchange",
+    "word": "exchange",
+    "phonetic": "/ɪksˈtʃeɪndʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "交换，兑换",
+    "topic": "商业",
+    "emoji": "🔄"
+  },
+  {
+    "id": "swap",
+    "word": "swap",
+    "phonetic": "/swɒp/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "交换",
+    "topic": "描述",
+    "emoji": "🔄"
+  },
+  {
+    "id": "receipt",
+    "word": "receipt",
+    "phonetic": "/rɪˈsiːt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "收据",
+    "topic": "商业",
+    "emoji": "🧾"
+  },
+  {
+    "id": "invoice",
+    "word": "invoice",
+    "phonetic": "/ˈɪnvɒɪs/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "发票",
+    "topic": "商业",
+    "emoji": "🧾"
+  },
+  {
+    "id": "tax",
+    "word": "tax",
+    "phonetic": "/tæks/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "税；征税",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "levy",
+    "word": "levy",
+    "phonetic": "/ˈlevi/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "税款；征收",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "tariff",
+    "word": "tariff",
+    "phonetic": "/ˈtærɪf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "关税",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "duty",
+    "word": "duty",
+    "phonetic": "/ˈdjuːti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "职责；关税",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "dutiable",
+    "word": "dutiable",
+    "phonetic": "/ˈdjuːtiəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "应纳税的",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "spend",
+    "word": "spend",
+    "phonetic": "/spend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "花费",
+    "topic": "商业",
+    "emoji": "💸"
+  },
+  {
+    "id": "cost",
+    "word": "cost",
+    "phonetic": "/kɒst/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "花费；费用",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "expense",
+    "word": "expense",
+    "phonetic": "/ɪkˈspens/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "费用，花费",
+    "topic": "商业",
+    "emoji": "💸"
+  },
+  {
+    "id": "revenue",
+    "word": "revenue",
+    "phonetic": "/ˈrevənjuː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "收入，税收",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "gross",
+    "word": "gross",
+    "phonetic": "/ɡrəʊs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "总共的，毛的",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "recession",
+    "word": "recession",
+    "phonetic": "/rɪˈseʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "经济衰退",
+    "topic": "商业",
+    "emoji": "📉"
+  },
+  {
+    "id": "depression",
+    "word": "depression",
+    "phonetic": "/dɪˈpreʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "萧条期；沮丧",
+    "topic": "商业",
+    "emoji": "📉"
+  },
+  {
+    "id": "crisis",
+    "word": "crisis",
+    "phonetic": "/ˈkraɪsɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "危机",
+    "topic": "描述",
+    "emoji": "🚨"
+  },
+  {
+    "id": "security",
+    "word": "security",
+    "phonetic": "/sɪˈkjʊərəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "安全；证券",
+    "topic": "描述",
+    "emoji": "🔒"
+  },
+  {
+    "id": "bond",
+    "word": "bond",
+    "phonetic": "/bɒnd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "债券",
+    "topic": "商业",
+    "emoji": "📜"
+  },
+  {
+    "id": "debt",
+    "word": "debt",
+    "phonetic": "/det/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "债务",
+    "topic": "商业",
+    "emoji": "💳"
+  },
+  {
+    "id": "deficit",
+    "word": "deficit",
+    "phonetic": "/ˈdefɪsɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "赤字，逆差",
+    "topic": "商业",
+    "emoji": "📉"
+  },
+  {
+    "id": "inflation",
+    "word": "inflation",
+    "phonetic": "/ɪnˈfleɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "通货膨胀",
+    "topic": "商业",
+    "emoji": "📈"
+  },
+  {
+    "id": "decrease",
+    "word": "decrease",
+    "phonetic": "/dɪˈkriːs/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "减少，减小",
+    "topic": "描述",
+    "emoji": "📉"
+  },
+  {
+    "id": "downsize",
+    "word": "downsize",
+    "phonetic": "/ˈdaʊnsaɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "精简，裁员",
+    "topic": "商业",
+    "emoji": "📉"
+  },
+  {
+    "id": "declination",
+    "word": "declination",
+    "phonetic": "/ˌdekləˈneɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "倾斜；谢绝",
+    "topic": "描述",
+    "emoji": "📉"
+  },
+  {
+    "id": "diminish",
+    "word": "diminish",
+    "phonetic": "/dɪˈmɪnɪʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "减少，贬低",
+    "topic": "描述",
+    "emoji": "📉"
+  },
+  {
+    "id": "reduce",
+    "word": "reduce",
+    "phonetic": "/rɪˈdjuːs/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "减少，减小",
+    "topic": "描述",
+    "emoji": "📉"
+  },
+  {
+    "id": "increase",
+    "word": "increase",
+    "phonetic": "/ɪnˈkriːs/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "增加，增长",
+    "topic": "描述",
+    "emoji": "📈"
+  },
+  {
+    "id": "increment",
+    "word": "increment",
+    "phonetic": "/ˈɪŋkrəmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "增加量；定期加薪",
+    "topic": "商业",
+    "emoji": "📈"
+  },
+  {
+    "id": "growth",
+    "word": "growth",
+    "phonetic": "/ɡrəʊθ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "增长，生长",
+    "topic": "描述",
+    "emoji": "📈"
+  },
+  {
+    "id": "gradual",
+    "word": "gradual",
+    "phonetic": "/ˈɡrædʒuəl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "逐渐的，平缓的",
+    "topic": "描述",
+    "emoji": "📈"
+  },
+  {
+    "id": "influx",
+    "word": "influx",
+    "phonetic": "/ˈɪnflʌks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "流入，涌进",
+    "topic": "描述",
+    "emoji": "➡️"
+  },
+  {
+    "id": "affluent",
+    "word": "affluent",
+    "phonetic": "/ˈæfluənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "富裕的，富足的",
+    "topic": "描述",
+    "emoji": "💰"
+  },
+  {
+    "id": "enrich",
+    "word": "enrich",
+    "phonetic": "/ɪnˈrɪtʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "使富有，使充实",
+    "topic": "描述",
+    "emoji": "💰"
+  },
+  {
+    "id": "sufficient",
+    "word": "sufficient",
+    "phonetic": "/səˈfɪʃnt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "足够的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "adequate",
+    "word": "adequate",
+    "phonetic": "/ˈædɪkwət/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "足够的，合格的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "spare",
+    "word": "spare",
+    "phonetic": "/speə(r)/",
+    "pos": "adj./v.",
+    "category": "I",
+    "chinese": "多余的，空闲的",
+    "topic": "描述",
+    "emoji": "🆓"
+  },
+  {
+    "id": "redundant",
+    "word": "redundant",
+    "phonetic": "/rɪˈdʌndənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "多余的，被裁减的",
+    "topic": "商业",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "redundancy",
+    "word": "redundancy",
+    "phonetic": "/rɪˈdʌndənsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "裁员",
+    "topic": "商业",
+    "emoji": "📉"
+  },
+  {
+    "id": "lack",
+    "word": "lack",
+    "phonetic": "/læk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "缺乏，不足",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "company",
+    "word": "company",
+    "phonetic": "/ˈkʌmpəni/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "公司；陪伴",
+    "topic": "商业",
+    "emoji": "🏢"
+  },
+  {
+    "id": "accompany",
+    "word": "accompany",
+    "phonetic": "/əˈkʌmpəni/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "陪伴，伴随",
+    "topic": "描述",
+    "emoji": "🚶"
+  },
+  {
+    "id": "firm",
+    "word": "firm",
+    "phonetic": "/fɜːm/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "公司；坚定的",
+    "topic": "商业",
+    "emoji": "🏢"
+  },
+  {
+    "id": "enterprise",
+    "word": "enterprise",
+    "phonetic": "/ˈentəpraɪz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "企业，事业",
+    "topic": "商业",
+    "emoji": "🏢"
+  },
+  {
+    "id": "entrepreneur",
+    "word": "entrepreneur",
+    "phonetic": "/ˌɑːntrəprəˈnɜːr/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "企业家",
+    "topic": "职业",
+    "emoji": "🧑‍💼"
+  },
+  {
+    "id": "agent",
+    "word": "agent",
+    "phonetic": "/ˈeɪdʒənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "代理人，代理商",
+    "topic": "职业",
+    "emoji": "🧑‍💼"
+  },
+  {
+    "id": "entity",
+    "word": "entity",
+    "phonetic": "/ˈentəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "实体，独立存在物",
+    "topic": "描述",
+    "emoji": "🔷"
+  },
+  {
+    "id": "invest",
+    "word": "invest",
+    "phonetic": "/ɪnˈvest/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "投资",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "investor",
+    "word": "investor",
+    "phonetic": "/ɪnˈvestə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "投资者",
+    "topic": "职业",
+    "emoji": "💰"
+  },
+  {
+    "id": "input",
+    "word": "input",
+    "phonetic": "/ˈɪnpʊt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "投入物，输入信息",
+    "topic": "描述",
+    "emoji": "⬇️"
+  },
+  {
+    "id": "product",
+    "word": "product",
+    "phonetic": "/ˈprɒdʌkt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "产品",
+    "topic": "商业",
+    "emoji": "📦"
+  },
+  {
+    "id": "acquisition",
+    "word": "acquisition",
+    "phonetic": "/ˌækwɪˈzɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "获得，并购",
+    "topic": "商业",
+    "emoji": "🤝"
+  },
+  {
+    "id": "goods",
+    "word": "goods",
+    "phonetic": "/ɡʊdz/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "商品，货物",
+    "topic": "商业",
+    "emoji": "📦"
+  },
+  {
+    "id": "cargo",
+    "word": "cargo",
+    "phonetic": "/ˈkɑːɡəʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "货物",
+    "topic": "商业",
+    "emoji": "📦"
+  },
+  {
+    "id": "insure",
+    "word": "insure",
+    "phonetic": "/ɪnˈʃʊə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "给…上保险",
+    "topic": "商业",
+    "emoji": "🛡️"
+  },
+  {
+    "id": "guarantee",
+    "word": "guarantee",
+    "phonetic": "/ˌɡærənˈtiː/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "保证，担保",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "reliable",
+    "word": "reliable",
+    "phonetic": "/rɪˈlaɪəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "可靠的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "attend",
+    "word": "attend",
+    "phonetic": "/əˈtend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "参加，出席",
+    "topic": "描述",
+    "emoji": "🙋"
+  },
+  {
+    "id": "absent",
+    "word": "absent",
+    "phonetic": "/ˈæbsənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "缺席的",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "wholesale",
+    "word": "wholesale",
+    "phonetic": "/ˈhəʊlseɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "批发",
+    "topic": "商业",
+    "emoji": "📦"
+  },
+  {
+    "id": "auction",
+    "word": "auction",
+    "phonetic": "/ˈɔːkʃn/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "拍卖",
+    "topic": "商业",
+    "emoji": "🔨"
+  },
+  {
+    "id": "bid",
+    "word": "bid",
+    "phonetic": "/bɪd/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "出价，投标",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "deal",
+    "word": "deal",
+    "phonetic": "/diːl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "交易，协议",
+    "topic": "商业",
+    "emoji": "🤝"
+  },
+  {
+    "id": "transaction",
+    "word": "transaction",
+    "phonetic": "/trænˈzækʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "交易，业务",
+    "topic": "商业",
+    "emoji": "💳"
+  },
+  {
+    "id": "turnover",
+    "word": "turnover",
+    "phonetic": "/ˈtɜːnəʊvə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "流动率，营业额",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "dump",
+    "word": "dump",
+    "phonetic": "/dʌmp/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "丢弃，倾销",
+    "topic": "描述",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "quota",
+    "word": "quota",
+    "phonetic": "/ˈkwəʊtə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "限额，配额",
+    "topic": "商业",
+    "emoji": "📊"
+  },
+  {
+    "id": "share",
+    "word": "share",
+    "phonetic": "/ʃeə(r)/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "分享；股份",
+    "topic": "商业",
+    "emoji": "📊"
+  },
+  {
+    "id": "benefit",
+    "word": "benefit",
+    "phonetic": "/ˈbenɪfɪt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "益处，有利于",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "stock",
+    "word": "stock",
+    "phonetic": "/stɒk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "股票，库存",
+    "topic": "商业",
+    "emoji": "📊"
+  },
+  {
+    "id": "stockbroker",
+    "word": "stockbroker",
+    "phonetic": "/ˈstɒkbrəʊkə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "股票经纪人",
+    "topic": "职业",
+    "emoji": "📊"
+  },
+  {
+    "id": "accountable",
+    "word": "accountable",
+    "phonetic": "/əˈkaʊntəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有责任的",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "account",
+    "word": "account",
+    "phonetic": "/əˈkaʊnt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "账户；解释",
+    "topic": "商业",
+    "emoji": "💳"
+  },
+  {
+    "id": "deposit",
+    "word": "deposit",
+    "phonetic": "/dɪˈpɒzɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "存款，押金",
+    "topic": "商业",
+    "emoji": "🏦"
+  },
+  {
+    "id": "instalment",
+    "word": "instalment",
+    "phonetic": "/ɪnˈstɔːlmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "分期付款",
+    "topic": "商业",
+    "emoji": "💳"
+  },
+  {
+    "id": "cheque",
+    "word": "cheque",
+    "phonetic": "/tʃek/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "支票",
+    "topic": "商业",
+    "emoji": "🧾"
+  },
+  {
+    "id": "coin",
+    "word": "coin",
+    "phonetic": "/kɒɪn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "硬币；铸币",
+    "topic": "商业",
+    "emoji": "🪙"
+  },
+  {
+    "id": "shilling",
+    "word": "shilling",
+    "phonetic": "/ˈʃɪlɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "先令",
+    "topic": "商业",
+    "emoji": "🪙"
+  },
+  {
+    "id": "copper",
+    "word": "copper",
+    "phonetic": "/ˈkɒpə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "铜；铜币",
+    "topic": "材料",
+    "emoji": "🟠"
+  },
+  {
+    "id": "treasure",
+    "word": "treasure",
+    "phonetic": "/ˈtreʒə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "金银财宝",
+    "topic": "描述",
+    "emoji": "💰"
+  },
+  {
+    "id": "wealth",
+    "word": "wealth",
+    "phonetic": "/welθ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "财富",
+    "topic": "描述",
+    "emoji": "💰"
+  },
+  {
+    "id": "estate",
+    "word": "estate",
+    "phonetic": "/ɪˈsteɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "地产，遗产",
+    "topic": "商业",
+    "emoji": "🏠"
+  },
+  {
+    "id": "possess",
+    "word": "possess",
+    "phonetic": "/pəˈzes/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "拥有",
+    "topic": "描述",
+    "emoji": "🤲"
+  },
+  {
+    "id": "possessive",
+    "word": "possessive",
+    "phonetic": "/pəˈzesɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "占有欲强的",
+    "topic": "描述",
+    "emoji": "🤲"
+  },
+  {
+    "id": "legacy",
+    "word": "legacy",
+    "phonetic": "/ˈleɡəsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "遗赠，遗产",
+    "topic": "描述",
+    "emoji": "🏛️"
+  },
+  {
+    "id": "descend",
+    "word": "descend",
+    "phonetic": "/dɪˈsend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "下降，下来",
+    "topic": "描述",
+    "emoji": "⬇️"
+  },
+  {
+    "id": "worthy",
+    "word": "worthy",
+    "phonetic": "/ˈwɜːði/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "值得的，有价值的",
+    "topic": "描述",
+    "emoji": "⭐"
+  },
+  {
+    "id": "valuable",
+    "word": "valuable",
+    "phonetic": "/ˈvæljuəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "很值钱的，贵重的",
+    "topic": "描述",
+    "emoji": "💎"
+  },
+  {
+    "id": "incentive",
+    "word": "incentive",
+    "phonetic": "/ɪnˈsentɪv/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "激励，刺激",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "accelerate",
+    "word": "accelerate",
+    "phonetic": "/əkˈseləreɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "加速",
+    "topic": "描述",
+    "emoji": "🚀"
+  },
+  {
+    "id": "prompt",
+    "word": "prompt",
+    "phonetic": "/prɒmpt/",
+    "pos": "adj./v.",
+    "category": "I",
+    "chinese": "迅速的；促使",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "salary",
+    "word": "salary",
+    "phonetic": "/ˈsæləri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "薪水",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "income",
+    "word": "income",
+    "phonetic": "/ˈɪnkʌm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "收入",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "wage",
+    "word": "wage",
+    "phonetic": "/weɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工钱",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "payment",
+    "word": "payment",
+    "phonetic": "/ˈpeɪmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "支付",
+    "topic": "商业",
+    "emoji": "💳"
+  },
+  {
+    "id": "refund",
+    "word": "refund",
+    "phonetic": "/ˈriːfʌnd/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "退款",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "reimburse",
+    "word": "reimburse",
+    "phonetic": "/ˌriːɪmˈbɜːs/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "赔偿，补偿",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "payroll",
+    "word": "payroll",
+    "phonetic": "/ˈpeɪrəʊl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工资名单",
+    "topic": "商业",
+    "emoji": "📋"
+  },
+  {
+    "id": "remuneration",
+    "word": "remuneration",
+    "phonetic": "/rɪˌmjuːnəˈreɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "报酬",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "subsidy",
+    "word": "subsidy",
+    "phonetic": "/ˈsʌbsədi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "津贴，补贴",
+    "topic": "商业",
+    "emoji": "💰"
+  },
+  {
+    "id": "undertaking",
+    "word": "undertaking",
+    "phonetic": "/ˌʌndəˈteɪkɪŋ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "任务，事业；保证",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "career",
+    "word": "career",
+    "phonetic": "/kəˈrɪə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "职业，事业",
+    "topic": "职业",
+    "emoji": "💼"
+  },
+  {
+    "id": "profession",
+    "word": "profession",
+    "phonetic": "/prəˈfeʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "职业",
+    "topic": "职业",
+    "emoji": "💼"
+  },
+  {
+    "id": "occupation",
+    "word": "occupation",
+    "phonetic": "/ˌɒkjuˈpeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "职业；占领",
+    "topic": "职业",
+    "emoji": "💼"
+  },
+  {
+    "id": "labour",
+    "word": "labour",
+    "phonetic": "/ˈleɪbə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "劳动",
+    "topic": "职业",
+    "emoji": "💪"
+  },
+  {
+    "id": "workforce",
+    "word": "workforce",
+    "phonetic": "/ˈwɜːkfɔːs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "劳动力",
+    "topic": "职业",
+    "emoji": "👥"
+  },
+  {
+    "id": "workaholic",
+    "word": "workaholic",
+    "phonetic": "/ˌwɜːkəˈhɒlɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "工作狂",
+    "topic": "描述",
+    "emoji": "💼"
+  },
+  {
+    "id": "personnel",
+    "word": "personnel",
+    "phonetic": "/ˌpɜːsəˈnel/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "人员，职员",
+    "topic": "职业",
+    "emoji": "👥"
+  },
+  {
+    "id": "clerk",
+    "word": "clerk",
+    "phonetic": "/klɑːk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "店员，接待员",
+    "topic": "职业",
+    "emoji": "🧑‍💼"
+  },
+  {
+    "id": "interview",
+    "word": "interview",
+    "phonetic": "/ˈɪntəvjuː/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "面试，采访",
+    "topic": "职业",
+    "emoji": "🎤"
+  },
+  {
+    "id": "resume",
+    "word": "resume",
+    "phonetic": "/ˈrezjumeɪ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "履历，简历",
+    "topic": "职业",
+    "emoji": "📄"
+  },
+  {
+    "id": "recommend",
+    "word": "recommend",
+    "phonetic": "/ˌrekəˈmend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "推荐，建议",
+    "topic": "描述",
+    "emoji": "👍"
+  },
+  {
+    "id": "employ",
+    "word": "employ",
+    "phonetic": "/ɪmˈplɒɪ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "雇用；采用",
+    "topic": "职业",
+    "emoji": "💼"
+  },
+  {
+    "id": "hire",
+    "word": "hire",
+    "phonetic": "/ˈhaɪə(r)/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "雇用；租用",
+    "topic": "职业",
+    "emoji": "💼"
+  },
+  {
+    "id": "lay_off",
+    "word": "lay-off",
+    "phonetic": "/ˈleɪ ɒf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "解雇，裁员",
+    "topic": "商业",
+    "emoji": "📉"
+  },
+  {
+    "id": "discharge",
+    "word": "discharge",
+    "phonetic": "/dɪsˈtʃɑːdʒ/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "解雇；卸货",
+    "topic": "描述",
+    "emoji": "📤"
+  },
+  {
+    "id": "sack",
+    "word": "sack",
+    "phonetic": "/sæk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "麻布袋；开除",
+    "topic": "描述",
+    "emoji": "🗑️"
+  },
+  {
+    "id": "retire",
+    "word": "retire",
+    "phonetic": "/rɪˈtaɪə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "退休",
+    "topic": "描述",
+    "emoji": "🏖️"
+  },
+  {
+    "id": "result",
+    "word": "result",
+    "phonetic": "/rɪˈzʌlt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "后果；导致",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "failure",
+    "word": "failure",
+    "phonetic": "/ˈfeɪljə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "失败",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "abortion",
+    "word": "abortion",
+    "phonetic": "/əˈbɔːʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "人工流产；中途失败",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "opportunity",
+    "word": "opportunity",
+    "phonetic": "/ˌɒpəˈtjuːnəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "机会，时机",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "chance",
+    "word": "chance",
+    "phonetic": "/tʃɑːns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "机会，可能性",
+    "topic": "描述",
+    "emoji": "🎲"
+  },
+  {
+    "id": "choose",
+    "word": "choose",
+    "phonetic": "/tʃuːz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "选择",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "solve",
+    "word": "solve",
+    "phonetic": "/sɒlv/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "解答，解决",
+    "topic": "描述",
+    "emoji": "🧩"
+  },
+  {
+    "id": "sustainable",
+    "word": "sustainable",
+    "phonetic": "/səˈsteɪnəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "可持续的",
+    "topic": "描述",
+    "emoji": "♻️"
+  },
+  {
+    "id": "improvement",
+    "word": "improvement",
+    "phonetic": "/ɪmˈpruːvmənt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "改进",
+    "topic": "描述",
+    "emoji": "📈"
+  },
+  {
+    "id": "manage",
+    "word": "manage",
+    "phonetic": "/ˈmænɪdʒ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "管理，设法做到",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "sanction",
+    "word": "sanction",
+    "phonetic": "/ˈsæŋkʃn/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "批准；制裁",
+    "topic": "政治",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "coordinate",
+    "word": "coordinate",
+    "phonetic": "/kəʊˈɔːdɪneɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "调和，协调",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "cooperate",
+    "word": "cooperate",
+    "phonetic": "/kəʊˈɒpəreɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "合作",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "collaborate",
+    "word": "collaborate",
+    "phonetic": "/kəˈlæbəreɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "合作",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "law",
+    "word": "law",
+    "phonetic": "/lɔː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "法律，规律",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "legal",
+    "word": "legal",
+    "phonetic": "/ˈliːɡl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "法律的，合法的",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "regulation",
+    "word": "regulation",
+    "phonetic": "/ˌreɡjuˈleɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "规则，规定",
+    "topic": "法律",
+    "emoji": "📋"
+  },
+  {
+    "id": "treaty",
+    "word": "treaty",
+    "phonetic": "/ˈtriːti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "条约，协议",
+    "topic": "政治",
+    "emoji": "📜"
+  },
+  {
+    "id": "charter",
+    "word": "charter",
+    "phonetic": "/ˈtʃɑːtə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "宪章；租用",
+    "topic": "描述",
+    "emoji": "📜"
+  },
+  {
+    "id": "protocol",
+    "word": "protocol",
+    "phonetic": "/ˈprəʊtəkɒl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "议定书，礼仪",
+    "topic": "政治",
+    "emoji": "📜"
+  },
+  {
+    "id": "norm",
+    "word": "norm",
+    "phonetic": "/nɔːm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "行为准则，规范",
+    "topic": "描述",
+    "emoji": "📏"
+  },
+  {
+    "id": "benchmark",
+    "word": "benchmark",
+    "phonetic": "/ˈbentʃmɑːk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "基准，水准点",
+    "topic": "描述",
+    "emoji": "📏"
+  },
+  {
+    "id": "criteria",
+    "word": "criteria",
+    "phonetic": "/kraɪˈtɪəriə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "标准，准则",
+    "topic": "描述",
+    "emoji": "📏"
+  },
+  {
+    "id": "standard",
+    "word": "standard",
+    "phonetic": "/ˈstændəd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "标准",
+    "topic": "描述",
+    "emoji": "📏"
+  },
+  {
+    "id": "allow",
+    "word": "allow",
+    "phonetic": "/əˈlaʊ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "允许，准许",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "admission",
+    "word": "admission",
+    "phonetic": "/ədˈmɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "准许进入；承认",
+    "topic": "描述",
+    "emoji": "🚪"
+  },
+  {
+    "id": "official",
+    "word": "official",
+    "phonetic": "/əˈfɪʃl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "正式的，官方的",
+    "topic": "政治",
+    "emoji": "📜"
+  },
+  {
+    "id": "default",
+    "word": "default",
+    "phonetic": "/dɪˈfɒlt/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "违约；默认值",
+    "topic": "描述",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "reject",
+    "word": "reject",
+    "phonetic": "/rɪˈdʒekt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "拒绝接受",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "constraint",
+    "word": "constraint",
+    "phonetic": "/kənˈstreɪnt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "约束，限制",
+    "topic": "描述",
+    "emoji": "🚧"
+  },
+  {
+    "id": "potent",
+    "word": "potent",
+    "phonetic": "/ˈpəʊtnt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "有效的，强有力的",
+    "topic": "描述",
+    "emoji": "💪"
+  },
+  {
+    "id": "bound",
+    "word": "bound",
+    "phonetic": "/baʊnd/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "很可能会；有义务",
+    "topic": "描述",
+    "emoji": "🔗"
+  },
+  {
+    "id": "obligation",
+    "word": "obligation",
+    "phonetic": "/ˌɒblɪˈɡeɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "义务，责任",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "court",
+    "word": "court",
+    "phonetic": "/kɔːt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "法院；庭院",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "supreme",
+    "word": "supreme",
+    "phonetic": "/suːˈpriːm/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "最高的，最大的",
+    "topic": "描述",
+    "emoji": "👑"
+  },
+  {
+    "id": "enact",
+    "word": "enact",
+    "phonetic": "/ɪˈnækt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "通过（法律）",
+    "topic": "法律",
+    "emoji": "📜"
+  },
+  {
+    "id": "legislate",
+    "word": "legislate",
+    "phonetic": "/ˈledʒɪsleɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "立法",
+    "topic": "法律",
+    "emoji": "📜"
+  },
+  {
+    "id": "equity",
+    "word": "equity",
+    "phonetic": "/ˈekwəti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "公平",
+    "topic": "描述",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "fair",
+    "word": "fair",
+    "phonetic": "/feə(r)/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "公平的，公正的",
+    "topic": "描述",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "just",
+    "word": "just",
+    "phonetic": "/dʒʌst/",
+    "pos": "adj./adv.",
+    "category": "I",
+    "chinese": "公正的；刚刚",
+    "topic": "描述",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "prejudice",
+    "word": "prejudice",
+    "phonetic": "/ˈpredʒudɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "偏见，成见",
+    "topic": "描述",
+    "emoji": "😒"
+  },
+  {
+    "id": "discrimination",
+    "word": "discrimination",
+    "phonetic": "/dɪˌskrɪmɪˈneɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "歧视",
+    "topic": "描述",
+    "emoji": "🚫"
+  },
+  {
+    "id": "accuse",
+    "word": "accuse",
+    "phonetic": "/əˈkjuːz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "控告，指责",
+    "topic": "描述",
+    "emoji": "👉"
+  },
+  {
+    "id": "sue",
+    "word": "sue",
+    "phonetic": "/suː/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "控告，提起诉讼",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "prosecute",
+    "word": "prosecute",
+    "phonetic": "/ˈprɒsɪkjuːt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "检举，起诉",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "condemn",
+    "word": "condemn",
+    "phonetic": "/kənˈdem/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "谴责，指责",
+    "topic": "描述",
+    "emoji": "😠"
+  },
+  {
+    "id": "complain",
+    "word": "complain",
+    "phonetic": "/kəmˈpleɪn/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "抱怨，投诉",
+    "topic": "描述",
+    "emoji": "😤"
+  },
+  {
+    "id": "boycott",
+    "word": "boycott",
+    "phonetic": "/ˈbɒɪkɒt/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "抵制",
+    "topic": "描述",
+    "emoji": "🚫"
+  },
+  {
+    "id": "session",
+    "word": "session",
+    "phonetic": "/ˈseʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "会议，会期",
+    "topic": "描述",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "mediate",
+    "word": "mediate",
+    "phonetic": "/ˈmiːdieɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "斡旋，调解",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "plea",
+    "word": "plea",
+    "phonetic": "/pliː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "理由，请求",
+    "topic": "法律",
+    "emoji": "🙏"
+  },
+  {
+    "id": "appeal",
+    "word": "appeal",
+    "phonetic": "/əˈpiːl/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "呼吁，申诉",
+    "topic": "描述",
+    "emoji": "📢"
+  },
+  {
+    "id": "contradict",
+    "word": "contradict",
+    "phonetic": "/ˌkɒntrəˈdɪkt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "反驳，与…矛盾",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "controversy",
+    "word": "controversy",
+    "phonetic": "/ˈkɒntrəvɜːsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "争议，辩论",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "whisper",
+    "word": "whisper",
+    "phonetic": "/ˈwɪspə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "低声说",
+    "topic": "描述",
+    "emoji": "🤫"
+  },
+  {
+    "id": "mutter",
+    "word": "mutter",
+    "phonetic": "/ˈmʌtə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "轻声低语，小声抱怨",
+    "topic": "描述",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "murmur",
+    "word": "murmur",
+    "phonetic": "/ˈmɜːmə(r)/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "低声说，咕哝",
+    "topic": "描述",
+    "emoji": "🗣️"
+  },
+  {
+    "id": "silent",
+    "word": "silent",
+    "phonetic": "/ˈsaɪlənt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "沉默的",
+    "topic": "描述",
+    "emoji": "🤐"
+  },
+  {
+    "id": "mute",
+    "word": "mute",
+    "phonetic": "/mjuːt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "缄默的，哑的",
+    "topic": "描述",
+    "emoji": "🔇"
+  },
+  {
+    "id": "investigate",
+    "word": "investigate",
+    "phonetic": "/ɪnˈvestɪɡeɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "调查",
+    "topic": "描述",
+    "emoji": "🔍"
+  },
+  {
+    "id": "witness",
+    "word": "witness",
+    "phonetic": "/ˈwɪtnəs/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "目击者；目击",
+    "topic": "法律",
+    "emoji": "👁️"
+  },
+  {
+    "id": "reasonable",
+    "word": "reasonable",
+    "phonetic": "/ˈriːznəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "合理的，理智的",
+    "topic": "描述",
+    "emoji": "🧠"
+  },
+  {
+    "id": "suitable",
+    "word": "suitable",
+    "phonetic": "/ˈsuːtəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "合适的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "judge",
+    "word": "judge",
+    "phonetic": "/dʒʌdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "法官，裁判员",
+    "topic": "职业",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "jury",
+    "word": "jury",
+    "phonetic": "/ˈdʒʊəri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "陪审团",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "trial",
+    "word": "trial",
+    "phonetic": "/ˈtraɪəl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "试验，审判",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "suspect",
+    "word": "suspect",
+    "phonetic": "/səˈspekt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "嫌疑犯；怀疑",
+    "topic": "法律",
+    "emoji": "🕵️"
+  },
+  {
+    "id": "sentence",
+    "word": "sentence",
+    "phonetic": "/ˈsentəns/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "判决；宣判",
+    "topic": "法律",
+    "emoji": "⚖️"
+  },
+  {
+    "id": "arrest",
+    "word": "arrest",
+    "phonetic": "/əˈrest/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "逮捕",
+    "topic": "法律",
+    "emoji": "🚨"
+  },
+  {
+    "id": "jail",
+    "word": "jail",
+    "phonetic": "/dʒeɪl/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "监狱；监禁",
+    "topic": "法律",
+    "emoji": "🔒"
+  },
+  {
+    "id": "prison",
+    "word": "prison",
+    "phonetic": "/ˈprɪzn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "监狱",
+    "topic": "法律",
+    "emoji": "🔒"
+  },
+  {
+    "id": "supervise",
+    "word": "supervise",
+    "phonetic": "/ˈsuːpəvaɪz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "监督，管理",
+    "topic": "描述",
+    "emoji": "👁️"
+  },
+  {
+    "id": "restrict",
+    "word": "restrict",
+    "phonetic": "/rɪˈstrɪkt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "限制，约束",
+    "topic": "描述",
+    "emoji": "🚧"
+  },
+  {
+    "id": "restrain",
+    "word": "restrain",
+    "phonetic": "/rɪˈstreɪn/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "抑制，制止",
+    "topic": "描述",
+    "emoji": "🛑"
+  },
+  {
+    "id": "commit",
+    "word": "commit",
+    "phonetic": "/kəˈmɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "犯（罪）",
+    "topic": "描述",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "sin",
+    "word": "sin",
+    "phonetic": "/sɪn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "罪孽",
+    "topic": "描述",
+    "emoji": "😈"
+  },
+  {
+    "id": "crime",
+    "word": "crime",
+    "phonetic": "/kraɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "罪行，犯罪活动",
+    "topic": "法律",
+    "emoji": "🚨"
+  },
+  {
+    "id": "vice",
+    "word": "vice",
+    "phonetic": "/vaɪs/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "恶行，缺点",
+    "topic": "描述",
+    "emoji": "😈"
+  },
+  {
+    "id": "bribe",
+    "word": "bribe",
+    "phonetic": "/braɪb/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "贿赂",
+    "topic": "法律",
+    "emoji": "💰"
+  },
+  {
+    "id": "rob",
+    "word": "rob",
+    "phonetic": "/rɒb/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "抢劫",
+    "topic": "描述",
+    "emoji": "🔪"
+  },
+  {
+    "id": "pirate",
+    "word": "pirate",
+    "phonetic": "/ˈpaɪrət/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "海盗；盗版",
+    "topic": "描述",
+    "emoji": "🏴‍☠️"
+  },
+  {
+    "id": "steal",
+    "word": "steal",
+    "phonetic": "/stiːl/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "偷，窃取",
+    "topic": "描述",
+    "emoji": "🥷"
+  },
+  {
+    "id": "thief",
+    "word": "thief",
+    "phonetic": "/θiːf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "窃贼",
+    "topic": "描述",
+    "emoji": "🥷"
+  },
+  {
+    "id": "murder",
+    "word": "murder",
+    "phonetic": "/ˈmɜːdə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "谋杀",
+    "topic": "法律",
+    "emoji": "🔪"
+  },
+  {
+    "id": "suicide",
+    "word": "suicide",
+    "phonetic": "/ˈsuːɪsaɪd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "自杀",
+    "topic": "描述",
+    "emoji": "💔"
+  },
+  {
+    "id": "cheat",
+    "word": "cheat",
+    "phonetic": "/tʃiːt/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "欺骗，作弊",
+    "topic": "描述",
+    "emoji": "🙅"
+  },
+  {
+    "id": "fraud",
+    "word": "fraud",
+    "phonetic": "/frɔːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "欺诈",
+    "topic": "法律",
+    "emoji": "🚫"
+  },
+  {
+    "id": "liar",
+    "word": "liar",
+    "phonetic": "/ˈlaɪə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "说谎的人",
+    "topic": "描述",
+    "emoji": "🤥"
+  },
+  {
+    "id": "trap",
+    "word": "trap",
+    "phonetic": "/træp/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "陷阱，诡计",
+    "topic": "描述",
+    "emoji": "🪤"
+  },
+  {
+    "id": "trick",
+    "word": "trick",
+    "phonetic": "/trɪk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "诡计，哄骗",
+    "topic": "描述",
+    "emoji": "🎭"
+  },
+  {
+    "id": "pretend",
+    "word": "pretend",
+    "phonetic": "/prɪˈtend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "假装",
+    "topic": "描述",
+    "emoji": "🎭"
+  },
+  {
+    "id": "stigma",
+    "word": "stigma",
+    "phonetic": "/ˈstɪɡmə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "耻辱，污名",
+    "topic": "描述",
+    "emoji": "😔"
+  },
+  {
+    "id": "confess",
+    "word": "confess",
+    "phonetic": "/kənˈfes/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "供认，忏悔",
+    "topic": "描述",
+    "emoji": "🙏"
+  },
+  {
+    "id": "obey",
+    "word": "obey",
+    "phonetic": "/əˈbeɪ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "服从，顺从",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "succumb",
+    "word": "succumb",
+    "phonetic": "/səˈkʌm/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "屈服，屈从",
+    "topic": "描述",
+    "emoji": "🏳️"
+  },
+  {
+    "id": "penalty",
+    "word": "penalty",
+    "phonetic": "/ˈpenəlti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "惩罚，刑罚",
+    "topic": "法律",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "fine",
+    "word": "fine",
+    "phonetic": "/faɪn/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "罚款；美好的",
+    "topic": "描述",
+    "emoji": "💰"
+  },
+  {
+    "id": "mortgage",
+    "word": "mortgage",
+    "phonetic": "/ˈmɔːɡɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "抵押贷款",
+    "topic": "商业",
+    "emoji": "🏠"
+  },
+  {
+    "id": "ownership",
+    "word": "ownership",
+    "phonetic": "/ˈəʊnəʃɪp/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "所有权",
+    "topic": "描述",
+    "emoji": "📜"
+  },
+  {
+    "id": "copyright",
+    "word": "copyright",
+    "phonetic": "/ˈkɒpiraɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "版权",
+    "topic": "法律",
+    "emoji": "©️"
+  },
+  {
+    "id": "privilege",
+    "word": "privilege",
+    "phonetic": "/ˈprɪvəlɪdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "特权",
+    "topic": "描述",
+    "emoji": "👑"
+  },
+  {
+    "id": "accredit",
+    "word": "accredit",
+    "phonetic": "/əˈkredɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "把…归于，委任",
+    "topic": "描述",
+    "emoji": "📜"
+  },
+  {
+    "id": "clue",
+    "word": "clue",
+    "phonetic": "/kluː/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "线索，提示",
+    "topic": "描述",
+    "emoji": "🔍"
+  },
+  {
+    "id": "access",
+    "word": "access",
+    "phonetic": "/ˈækses/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "通路，入径",
+    "topic": "描述",
+    "emoji": "🚪"
+  },
+  {
+    "id": "anonymous",
+    "word": "anonymous",
+    "phonetic": "/əˈnɒnɪməs/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "匿名的",
+    "topic": "描述",
+    "emoji": "🎭"
+  },
+  {
+    "id": "falsehood",
+    "word": "falsehood",
+    "phonetic": "/ˈfɔːlshʊd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "谎言，假话",
+    "topic": "描述",
+    "emoji": "🤥"
+  },
+  {
+    "id": "genuine",
+    "word": "genuine",
+    "phonetic": "/ˈdʒenjuɪn/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "真诚的，真正的",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "routine",
+    "word": "routine",
+    "phonetic": "/ruːˈtiːn/",
+    "pos": "n./adj.",
+    "category": "I",
+    "chinese": "常规，惯例",
+    "topic": "描述",
+    "emoji": "🔄"
+  },
+  {
+    "id": "consequence",
+    "word": "consequence",
+    "phonetic": "/ˈkɒnsɪkwəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "后果",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "demand",
+    "word": "demand",
+    "phonetic": "/dɪˈmɑːnd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "要求，需求",
+    "topic": "描述",
+    "emoji": "❗"
+  },
+  {
+    "id": "request",
+    "word": "request",
+    "phonetic": "/rɪˈkwest/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "要求，请求",
+    "topic": "描述",
+    "emoji": "🙏"
+  },
+  {
+    "id": "require",
+    "word": "require",
+    "phonetic": "/rɪˈkwaɪə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "需要，规定",
+    "topic": "描述",
+    "emoji": "❗"
+  },
+  {
+    "id": "petition",
+    "word": "petition",
+    "phonetic": "/pəˈtɪʃn/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "请愿书，上诉",
+    "topic": "法律",
+    "emoji": "📜"
+  },
+  {
+    "id": "command",
+    "word": "command",
+    "phonetic": "/kəˈmɑːnd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "命令，指挥",
+    "topic": "描述",
+    "emoji": "📢"
+  },
+  {
+    "id": "false",
+    "word": "false",
+    "phonetic": "/fɔːls/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "不正确的，虚假的",
+    "topic": "描述",
+    "emoji": "❌"
+  },
+  {
+    "id": "procedure",
+    "word": "procedure",
+    "phonetic": "/prəˈsiːdʒə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "手续，程序",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "oversee",
+    "word": "oversee",
+    "phonetic": "/ˌəʊvəˈsiː/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "监督，监管",
+    "topic": "描述",
+    "emoji": "👁️"
+  },
+  {
+    "id": "violence",
+    "word": "violence",
+    "phonetic": "/ˈvaɪələns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "暴力",
+    "topic": "描述",
+    "emoji": "👊"
+  },
+  {
+    "id": "conflict",
+    "word": "conflict",
+    "phonetic": "/ˈkɒnflɪkt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "斗争，冲突",
+    "topic": "描述",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "raid",
+    "word": "raid",
+    "phonetic": "/reɪd/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "突袭",
+    "topic": "描述",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "enormity",
+    "word": "enormity",
+    "phonetic": "/ɪˈnɔːməti/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "巨大，滔天大罪",
+    "topic": "描述",
+    "emoji": "😱"
+  },
+  {
+    "id": "campaign",
+    "word": "campaign",
+    "phonetic": "/kæmˈpeɪn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "战役，运动",
+    "topic": "描述",
+    "emoji": "🚩"
+  },
+  {
+    "id": "battle",
+    "word": "battle",
+    "phonetic": "/ˈbætl/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "战斗，战役",
+    "topic": "描述",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "struggle",
+    "word": "struggle",
+    "phonetic": "/ˈstrʌɡl/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "挣扎，奋斗",
+    "topic": "描述",
+    "emoji": "💪"
+  },
+  {
+    "id": "explosion",
+    "word": "explosion",
+    "phonetic": "/ɪkˈspləʊʒn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "爆炸，激增",
+    "topic": "描述",
+    "emoji": "💥"
+  },
+  {
+    "id": "explode",
+    "word": "explode",
+    "phonetic": "/ɪkˈspləʊd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "爆炸，爆发",
+    "topic": "描述",
+    "emoji": "💥"
+  },
+  {
+    "id": "bombard",
+    "word": "bombard",
+    "phonetic": "/bɒmˈbɑːd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "轰炸",
+    "topic": "描述",
+    "emoji": "💣"
+  },
+  {
+    "id": "blast",
+    "word": "blast",
+    "phonetic": "/blɑːst/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "爆炸",
+    "topic": "描述",
+    "emoji": "💥"
+  },
+  {
+    "id": "burst",
+    "word": "burst",
+    "phonetic": "/bɜːst/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "爆裂，迸发",
+    "topic": "描述",
+    "emoji": "💥"
+  },
+  {
+    "id": "spark",
+    "word": "spark",
+    "phonetic": "/spɑːk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "火花",
+    "topic": "描述",
+    "emoji": "✨"
+  },
+  {
+    "id": "twinkle",
+    "word": "twinkle",
+    "phonetic": "/ˈtwɪŋkl/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "闪烁，闪耀",
+    "topic": "描述",
+    "emoji": "✨"
+  },
+  {
+    "id": "gunpowder",
+    "word": "gunpowder",
+    "phonetic": "/ˈɡʌnpaʊdə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "火药",
+    "topic": "军事",
+    "emoji": "💣"
+  },
+  {
+    "id": "cannon",
+    "word": "cannon",
+    "phonetic": "/ˈkænən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大炮",
+    "topic": "军事",
+    "emoji": "💣"
+  },
+  {
+    "id": "missile",
+    "word": "missile",
+    "phonetic": "/ˈmɪsaɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "导弹",
+    "topic": "军事",
+    "emoji": "🚀"
+  },
+  {
+    "id": "weapon",
+    "word": "weapon",
+    "phonetic": "/ˈwepən/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "兵器，武器",
+    "topic": "军事",
+    "emoji": "🗡️"
+  },
+  {
+    "id": "pistol",
+    "word": "pistol",
+    "phonetic": "/ˈpɪstl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "手枪",
+    "topic": "军事",
+    "emoji": "🔫"
+  },
+  {
+    "id": "rifle",
+    "word": "rifle",
+    "phonetic": "/ˈraɪfl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "步枪",
+    "topic": "军事",
+    "emoji": "🔫"
+  },
+  {
+    "id": "bullet",
+    "word": "bullet",
+    "phonetic": "/ˈbʊlɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "子弹",
+    "topic": "军事",
+    "emoji": "🔫"
+  },
+  {
+    "id": "target",
+    "word": "target",
+    "phonetic": "/ˈtɑːɡɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "目标，对象",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "mission",
+    "word": "mission",
+    "phonetic": "/ˈmɪʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "使命，重要任务",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "flame",
+    "word": "flame",
+    "phonetic": "/fleɪm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "火焰",
+    "topic": "描述",
+    "emoji": "🔥"
+  },
+  {
+    "id": "flare",
+    "word": "flare",
+    "phonetic": "/fleə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "火光，闪光信号灯",
+    "topic": "描述",
+    "emoji": "🔥"
+  },
+  {
+    "id": "glitter",
+    "word": "glitter",
+    "phonetic": "/ˈɡlɪtə(r)/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "闪烁，闪现",
+    "topic": "描述",
+    "emoji": "✨"
+  },
+  {
+    "id": "sword",
+    "word": "sword",
+    "phonetic": "/sɔːd/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "刀，剑",
+    "topic": "军事",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "ax",
+    "word": "ax",
+    "phonetic": "/æks/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "斧子",
+    "topic": "描述",
+    "emoji": "🪓"
+  },
+  {
+    "id": "hammer",
+    "word": "hammer",
+    "phonetic": "/ˈhæmə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "锤子",
+    "topic": "描述",
+    "emoji": "🔨"
+  },
+  {
+    "id": "arrow",
+    "word": "arrow",
+    "phonetic": "/ˈærəʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "箭",
+    "topic": "军事",
+    "emoji": "🏹"
+  },
+  {
+    "id": "spear",
+    "word": "spear",
+    "phonetic": "/spɪə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "矛，标枪",
+    "topic": "军事",
+    "emoji": "🔱"
+  },
+  {
+    "id": "helmet",
+    "word": "helmet",
+    "phonetic": "/ˈhelmɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "头盔",
+    "topic": "军事",
+    "emoji": "⛑️"
+  },
+  {
+    "id": "shield",
+    "word": "shield",
+    "phonetic": "/ʃiːld/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "盾，防护物",
+    "topic": "军事",
+    "emoji": "🛡️"
+  },
+  {
+    "id": "equip",
+    "word": "equip",
+    "phonetic": "/ɪˈkwɪp/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "配备，装备",
+    "topic": "描述",
+    "emoji": "🎒"
+  },
+  {
+    "id": "prepare",
+    "word": "prepare",
+    "phonetic": "/prɪˈpeə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "准备",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "provide",
+    "word": "provide",
+    "phonetic": "/prəˈvaɪd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "供给，提供",
+    "topic": "描述",
+    "emoji": "🎁"
+  },
+  {
+    "id": "beat",
+    "word": "beat",
+    "phonetic": "/biːt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "打，打败",
+    "topic": "描述",
+    "emoji": "👊"
+  },
+  {
+    "id": "strike",
+    "word": "strike",
+    "phonetic": "/straɪk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "打，罢工",
+    "topic": "描述",
+    "emoji": "✊"
+  },
+  {
+    "id": "punch",
+    "word": "punch",
+    "phonetic": "/pʌntʃ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "重拳击打",
+    "topic": "描述",
+    "emoji": "👊"
+  },
+  {
+    "id": "chop",
+    "word": "chop",
+    "phonetic": "/tʃɒp/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "切碎，劈",
+    "topic": "描述",
+    "emoji": "🔪"
+  },
+  {
+    "id": "stab",
+    "word": "stab",
+    "phonetic": "/stæb/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "刺，戳",
+    "topic": "描述",
+    "emoji": "🔪"
+  },
+  {
+    "id": "dilemma",
+    "word": "dilemma",
+    "phonetic": "/dɪˈlemə/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "困境",
+    "topic": "描述",
+    "emoji": "😰"
+  },
+  {
+    "id": "plight",
+    "word": "plight",
+    "phonetic": "/plaɪt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "困境，誓约",
+    "topic": "描述",
+    "emoji": "😰"
+  },
+  {
+    "id": "pitfall",
+    "word": "pitfall",
+    "phonetic": "/ˈpɪtfɔːl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "陷阱，隐患",
+    "topic": "描述",
+    "emoji": "🕳️"
+  },
+  {
+    "id": "conspiracy",
+    "word": "conspiracy",
+    "phonetic": "/kənˈspɪrəsi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "阴谋，密谋",
+    "topic": "描述",
+    "emoji": "🤫"
+  },
+  {
+    "id": "destitute",
+    "word": "destitute",
+    "phonetic": "/ˈdestɪtjuːt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "赤贫的，一无所有的",
+    "topic": "描述",
+    "emoji": "😔"
+  },
+  {
+    "id": "famine",
+    "word": "famine",
+    "phonetic": "/ˈfæmɪn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "饥荒",
+    "topic": "描述",
+    "emoji": "🍽️"
+  },
+  {
+    "id": "starve",
+    "word": "starve",
+    "phonetic": "/stɑːv/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "挨饿，饿死",
+    "topic": "描述",
+    "emoji": "😖"
+  },
+  {
+    "id": "threat",
+    "word": "threat",
+    "phonetic": "/θret/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "威胁，恐吓",
+    "topic": "描述",
+    "emoji": "⚠️"
+  },
+  {
+    "id": "invade",
+    "word": "invade",
+    "phonetic": "/ɪnˈveɪd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "入侵，侵略",
+    "topic": "描述",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "trespass",
+    "word": "trespass",
+    "phonetic": "/ˈtrespəs/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "非法侵入",
+    "topic": "描述",
+    "emoji": "🚫"
+  },
+  {
+    "id": "intrude",
+    "word": "intrude",
+    "phonetic": "/ɪnˈtruːd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "闯入，侵扰",
+    "topic": "描述",
+    "emoji": "🚪"
+  },
+  {
+    "id": "violate",
+    "word": "violate",
+    "phonetic": "/ˈvaɪəleɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "违反，侵犯",
+    "topic": "描述",
+    "emoji": "🚫"
+  },
+  {
+    "id": "attack",
+    "word": "attack",
+    "phonetic": "/əˈtæk/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "攻击，进攻",
+    "topic": "描述",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "offend",
+    "word": "offend",
+    "phonetic": "/əˈfend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "冒犯，犯罪",
+    "topic": "描述",
+    "emoji": "😠"
+  },
+  {
+    "id": "aggressive",
+    "word": "aggressive",
+    "phonetic": "/əˈɡresɪv/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "侵略的，好斗的",
+    "topic": "描述",
+    "emoji": "😤"
+  },
+  {
+    "id": "assault",
+    "word": "assault",
+    "phonetic": "/əˈsɔːlt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "袭击，猛攻",
+    "topic": "描述",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "challenge",
+    "word": "challenge",
+    "phonetic": "/ˈtʃælɪndʒ/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "挑战",
+    "topic": "描述",
+    "emoji": "💪"
+  },
+  {
+    "id": "siege",
+    "word": "siege",
+    "phonetic": "/siːdʒ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "包围，围攻",
+    "topic": "军事",
+    "emoji": "🏰"
+  },
+  {
+    "id": "surround",
+    "word": "surround",
+    "phonetic": "/səˈraʊnd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "包围，环绕",
+    "topic": "描述",
+    "emoji": "⭕"
+  },
+  {
+    "id": "enclose",
+    "word": "enclose",
+    "phonetic": "/ɪnˈkləʊz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "围住，包围",
+    "topic": "描述",
+    "emoji": "🔲"
+  },
+  {
+    "id": "pause",
+    "word": "pause",
+    "phonetic": "/pɔːz/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "暂停，停顿",
+    "topic": "描述",
+    "emoji": "⏸️"
+  },
+  {
+    "id": "halt",
+    "word": "halt",
+    "phonetic": "/hɒlt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "停止，停住",
+    "topic": "描述",
+    "emoji": "🛑"
+  },
+  {
+    "id": "cease",
+    "word": "cease",
+    "phonetic": "/siːs/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "终止，停止",
+    "topic": "描述",
+    "emoji": "🛑"
+  },
+  {
+    "id": "oppose",
+    "word": "oppose",
+    "phonetic": "/əˈpəʊz/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "反对，抵制",
+    "topic": "描述",
+    "emoji": "🙅"
+  },
+  {
+    "id": "counter",
+    "word": "counter",
+    "phonetic": "/ˈkaʊntə(r)/",
+    "pos": "v./adv.",
+    "category": "I",
+    "chinese": "抵消，反驳",
+    "topic": "描述",
+    "emoji": "↔️"
+  },
+  {
+    "id": "forbid",
+    "word": "forbid",
+    "phonetic": "/fəˈbɪd/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "禁止",
+    "topic": "描述",
+    "emoji": "🚫"
+  },
+  {
+    "id": "prohibit",
+    "word": "prohibit",
+    "phonetic": "/prəˈhɪbɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "禁止",
+    "topic": "法律",
+    "emoji": "🚫"
+  },
+  {
+    "id": "prevent",
+    "word": "prevent",
+    "phonetic": "/prɪˈvent/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "预防，阻止",
+    "topic": "描述",
+    "emoji": "🛡️"
+  },
+  {
+    "id": "revolt",
+    "word": "revolt",
+    "phonetic": "/rɪˈvəʊlt/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "叛乱，反抗",
+    "topic": "历史",
+    "emoji": "✊"
+  },
+  {
+    "id": "traitor",
+    "word": "traitor",
+    "phonetic": "/ˈtreɪtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "叛徒",
+    "topic": "描述",
+    "emoji": "🗡️"
+  },
+  {
+    "id": "patriot",
+    "word": "patriot",
+    "phonetic": "/ˈpeɪtriət/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "爱国者",
+    "topic": "描述",
+    "emoji": "🇨🇳"
+  },
+  {
+    "id": "blame",
+    "word": "blame",
+    "phonetic": "/bleɪm/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "责备，指责",
+    "topic": "描述",
+    "emoji": "👉"
+  },
+  {
+    "id": "reproach",
+    "word": "reproach",
+    "phonetic": "/rɪˈprəʊtʃ/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "责备，指责",
+    "topic": "描述",
+    "emoji": "😤"
+  },
+  {
+    "id": "evidence",
+    "word": "evidence",
+    "phonetic": "/ˈevɪdəns/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "证据，根据",
+    "topic": "法律",
+    "emoji": "🔍"
+  },
+  {
+    "id": "proof",
+    "word": "proof",
+    "phonetic": "/pruːf/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "证明，证据",
+    "topic": "描述",
+    "emoji": "✅"
+  },
+  {
+    "id": "terror",
+    "word": "terror",
+    "phonetic": "/ˈterə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "恐惧，惊慌",
+    "topic": "描述",
+    "emoji": "😱"
+  },
+  {
+    "id": "terrific",
+    "word": "terrific",
+    "phonetic": "/təˈrɪfɪk/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "极好的，很大的",
+    "topic": "描述",
+    "emoji": "🤩"
+  },
+  {
+    "id": "horrible",
+    "word": "horrible",
+    "phonetic": "/ˈhɒrəbl/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "可怕的，恐怖的",
+    "topic": "描述",
+    "emoji": "😱"
+  },
+  {
+    "id": "alarm",
+    "word": "alarm",
+    "phonetic": "/əˈlɑːm/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "惊恐，警报",
+    "topic": "描述",
+    "emoji": "🚨"
+  },
+  {
+    "id": "dread",
+    "word": "dread",
+    "phonetic": "/dred/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "恐惧",
+    "topic": "描述",
+    "emoji": "😨"
+  },
+  {
+    "id": "frighten",
+    "word": "frighten",
+    "phonetic": "/ˈfraɪtn/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "使害怕，使惊恐",
+    "topic": "描述",
+    "emoji": "😱"
+  },
+  {
+    "id": "tension",
+    "word": "tension",
+    "phonetic": "/ˈtenʃn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "紧张状态",
+    "topic": "描述",
+    "emoji": "😬"
+  },
+  {
+    "id": "turbulent",
+    "word": "turbulent",
+    "phonetic": "/ˈtɜːbjələnt/",
+    "pos": "adj.",
+    "category": "I",
+    "chinese": "动荡的，混乱的",
+    "topic": "描述",
+    "emoji": "🌊"
+  },
+  {
+    "id": "turmoil",
+    "word": "turmoil",
+    "phonetic": "/ˈtɜːmɒɪl/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "混乱，骚乱",
+    "topic": "描述",
+    "emoji": "🌀"
+  },
+  {
+    "id": "scenario",
+    "word": "scenario",
+    "phonetic": "/səˈnɑːriəʊ/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "可能发生的情况，剧情",
+    "topic": "描述",
+    "emoji": "🎬"
+  },
+  {
+    "id": "occasion",
+    "word": "occasion",
+    "phonetic": "/əˈkeɪʒn/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "场合，时机",
+    "topic": "描述",
+    "emoji": "📅"
+  },
+  {
+    "id": "occasionally",
+    "word": "occasionally",
+    "phonetic": "/əˈkeɪʒnəli/",
+    "pos": "adv.",
+    "category": "I",
+    "chinese": "偶尔，时而",
+    "topic": "描述",
+    "emoji": "🔄"
+  },
+  {
+    "id": "limit",
+    "word": "limit",
+    "phonetic": "/ˈlɪmɪt/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "限度，界限",
+    "topic": "描述",
+    "emoji": "🚧"
+  },
+  {
+    "id": "boundary",
+    "word": "boundary",
+    "phonetic": "/ˈbaʊndri/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "分界线，边界",
+    "topic": "描述",
+    "emoji": "🗺️"
+  },
+  {
+    "id": "rein",
+    "word": "rein",
+    "phonetic": "/reɪn/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "缰绳，控制权",
+    "topic": "描述",
+    "emoji": "🐴"
+  },
+  {
+    "id": "contest",
+    "word": "contest",
+    "phonetic": "/ˈkɒntest/",
+    "pos": "v./n.",
+    "category": "I",
+    "chinese": "竞争，比赛",
+    "topic": "描述",
+    "emoji": "🏆"
+  },
+  {
+    "id": "contend",
+    "word": "contend",
+    "phonetic": "/kənˈtend/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "竞争，争辩",
+    "topic": "描述",
+    "emoji": "⚡"
+  },
+  {
+    "id": "rival",
+    "word": "rival",
+    "phonetic": "/ˈraɪvl/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "竞争者；匹敌",
+    "topic": "描述",
+    "emoji": "🥊"
+  },
+  {
+    "id": "competitor",
+    "word": "competitor",
+    "phonetic": "/kəmˈpetɪtə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "竞争者，对手",
+    "topic": "描述",
+    "emoji": "🥊"
+  },
+  {
+    "id": "enemy",
+    "word": "enemy",
+    "phonetic": "/ˈenəmi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "敌人，敌军",
+    "topic": "描述",
+    "emoji": "⚔️"
+  },
+  {
+    "id": "strategy",
+    "word": "strategy",
+    "phonetic": "/ˈstrætədʒi/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "策略，战略",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "tactic",
+    "word": "tactic",
+    "phonetic": "/ˈtæktɪk/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "策略，战术",
+    "topic": "描述",
+    "emoji": "🎯"
+  },
+  {
+    "id": "manoeuvre",
+    "word": "manoeuvre",
+    "phonetic": "/məˈnuːvə(r)/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "策略，军事演习",
+    "topic": "军事",
+    "emoji": "🎯"
+  },
+  {
+    "id": "blueprint",
+    "word": "blueprint",
+    "phonetic": "/ˈbluːprɪnt/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "蓝图，行动计划",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "compel",
+    "word": "compel",
+    "phonetic": "/kəmˈpel/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "强迫，迫使",
+    "topic": "描述",
+    "emoji": "⬇️"
+  },
+  {
+    "id": "oblige",
+    "word": "oblige",
+    "phonetic": "/əˈblaɪdʒ/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "迫使，帮忙",
+    "topic": "描述",
+    "emoji": "🤝"
+  },
+  {
+    "id": "order",
+    "word": "order",
+    "phonetic": "/ˈɔːdə(r)/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "次序；命令",
+    "topic": "描述",
+    "emoji": "📋"
+  },
+  {
+    "id": "protest",
+    "word": "protest",
+    "phonetic": "/prəˈtest/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "抗议",
+    "topic": "描述",
+    "emoji": "🚩"
+  },
+  {
+    "id": "reinforce",
+    "word": "reinforce",
+    "phonetic": "/ˌriːɪnˈfɔːs/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "增强，加强",
+    "topic": "描述",
+    "emoji": "💪"
+  },
+  {
+    "id": "impair",
+    "word": "impair",
+    "phonetic": "/ɪmˈpeə(r)/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "削弱，妨碍",
+    "topic": "描述",
+    "emoji": "📉"
+  },
+  {
+    "id": "mitigate",
+    "word": "mitigate",
+    "phonetic": "/ˈmɪtɪɡeɪt/",
+    "pos": "v.",
+    "category": "I",
+    "chinese": "减轻，缓和",
+    "topic": "描述",
+    "emoji": "🌤️"
+  },
+  {
+    "id": "comfort",
+    "word": "comfort",
+    "phonetic": "/ˈkʌmfət/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "安慰，舒适",
+    "topic": "描述",
+    "emoji": "🤗"
+  },
+  {
+    "id": "event",
+    "word": "event",
+    "phonetic": "/ɪˈvent/",
+    "pos": "n.",
+    "category": "I",
+    "chinese": "大事件，公开活动",
+    "topic": "描述",
+    "emoji": "🎉"
+  },
+  {
+    "id": "force",
+    "word": "force",
+    "phonetic": "/fɔːs/",
+    "pos": "n./v.",
+    "category": "I",
+    "chinese": "力量，威力；强迫",
+    "topic": "描述",
+    "emoji": "💪"
   }
 ]
