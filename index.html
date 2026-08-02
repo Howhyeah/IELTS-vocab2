@@ -68,6 +68,37 @@
             cursor: pointer;
         }
         .records-btn:active { transform: scale(0.98); }
+        .data-actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .data-btn {
+            flex: 1;
+            padding: 10px;
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .data-btn:active { transform: scale(0.98); }
+        .toast {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(0,0,0,0.85);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+            z-index: 3000;
+            max-width: 85%;
+            text-align: center;
+        }
         .category-tabs {
             display: flex;
             gap: 10px;
@@ -381,6 +412,12 @@
         </div>
 
         <button class="records-btn" onclick="openRecords()">📖 查看学习记录（已背 / 模糊记忆 / 待复习）</button>
+
+        <div class="data-actions">
+            <button class="data-btn" onclick="exportData()">⬆️ 导出学习记录</button>
+            <button class="data-btn" onclick="document.getElementById('importFileInput').click()">⬇️ 导入学习记录</button>
+            <input type="file" id="importFileInput" accept=".json,application/json" style="display:none" onchange="importData(event)">
+        </div>
 
         <div class="category-tabs">
             <div class="tab active" data-cat="all" onclick="switchCategory('all')">全部</div>
@@ -963,6 +1000,66 @@
             const checkins = loadCheckins();
             const t = todayStr();
             document.getElementById('checkinStatus').textContent = checkins[t] ? '✅ 今日已打卡' : '';
+        }
+
+        // ===== 导出/导入学习记录（用于换域名/换设备时保住数据） =====
+        function showToast(message) {
+            const old = document.querySelector('.toast');
+            if (old) old.remove();
+            const toast = document.createElement('div');
+            toast.className = 'toast';
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => toast.remove(), 3000);
+        }
+
+        function exportData() {
+            const data = {
+                app: '雅思词汇真经',
+                exportedAt: new Date().toISOString(),
+                ieltsCheckins: localStorage.getItem('ieltsCheckins') || '{}',
+                ieltsWordRecords: localStorage.getItem('ieltsWordRecords') || '{}',
+                ieltsPosition: localStorage.getItem('ieltsPosition') || '{}'
+            };
+            const json = JSON.stringify(data, null, 2);
+            try {
+                const blob = new Blob([json], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `雅思词汇学习记录_${new Date().toISOString().slice(0, 10)}.json`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+                showToast('✅ 已导出，请把这个文件存好（比如存到手机"文件"App或发到微信文件助手）');
+            } catch (e) {
+                showToast('⚠️ 导出失败：' + e.message);
+            }
+        }
+
+        function importData(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    if (!data.ieltsWordRecords && !data.ieltsCheckins) {
+                        showToast('⚠️ 这不是有效的学习记录文件');
+                        return;
+                    }
+                    if (data.ieltsCheckins) localStorage.setItem('ieltsCheckins', data.ieltsCheckins);
+                    if (data.ieltsWordRecords) localStorage.setItem('ieltsWordRecords', data.ieltsWordRecords);
+                    if (data.ieltsPosition) localStorage.setItem('ieltsPosition', data.ieltsPosition);
+                    showToast('✅ 导入成功，页面即将刷新');
+                    setTimeout(() => location.reload(), 1200);
+                } catch (err) {
+                    showToast('⚠️ 导入失败：文件格式不正确');
+                }
+            };
+            reader.readAsText(file);
+            event.target.value = '';
         }
 
         window.onload = init;
