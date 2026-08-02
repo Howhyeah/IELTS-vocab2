@@ -512,6 +512,44 @@
             line-height: 1.6;
         }
         .drill-summary { text-align: center; padding: 30px 0; }
+        .drill-mother {
+            font-size: 13.5px;
+            color: #5a5a6a;
+            background: #f0f0fa;
+            border: 1.5px dashed #9b8ce8;
+            border-radius: 10px;
+            padding: 12px 14px;
+            margin-bottom: 12px;
+            line-height: 1.6;
+        }
+        .review-listen-box {
+            text-align: center;
+            padding: 30px 20px;
+        }
+        .review-play-btn {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: #667eea;
+            color: white;
+            font-size: 36px;
+            border: none;
+            box-shadow: 0 8px 25px rgba(102,126,234,0.4);
+            margin-bottom: 25px;
+        }
+        .review-play-btn:active { transform: scale(0.95); }
+        .review-mother-sentence {
+            font-size: 18px;
+            color: #333;
+            font-weight: 600;
+            line-height: 1.7;
+            background: #f8f9fa;
+            border-radius: 14px;
+            padding: 20px;
+        }
+        .btn-rate-easy { background: #28a745; color: white; }
+        .btn-rate-medium { background: #ff9800; color: white; }
+        .btn-rate-hard { background: #dc3545; color: white; }
         .records-group-title {
             font-size: 14px;
             font-weight: bold;
@@ -758,19 +796,28 @@
                 .map(([id]) => wordById[id])
                 .filter(Boolean);
         }
+        // 复习判定：优先用新字段nextReviewDate精确判断；旧数据没有这个字段时，
+        // 退回到原来"按天数差硬算"的方式，保证老用户的数据不会突然全部消失或全部冒出来
         function getReviewList() {
             const records = loadRecords();
             const t = todayStr();
             const due = [];
             Object.entries(records).forEach(([id, rec]) => {
-                if (rec.status === 'know' && rec.firstLearnedDate) {
+                if (rec.status !== 'know' || rec.graduated) return;
+                if (rec.nextReviewDate) {
+                    if (rec.nextReviewDate <= t) due.push(id);
+                } else if (rec.firstLearnedDate) {
                     const diff = daysBetween(rec.firstLearnedDate, t);
-                    if (REVIEW_INTERVALS.includes(diff)) {
-                        due.push(id);
-                    }
+                    if (REVIEW_INTERVALS.includes(diff)) due.push(id);
                 }
             });
             return due.map(id => wordById[id]).filter(Boolean);
+        }
+
+        function addDaysToToday(days) {
+            const d = new Date();
+            d.setDate(d.getDate() + days);
+            return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
         }
 
         const CATEGORY_LABELS = {
@@ -836,6 +883,16 @@
             if (tab === 'fuzzy') {
                 container.innerHTML = list.map(w => `
                     <div class="record-item" onclick="openFuzzyWord('${w.id}')" style="cursor:pointer;">
+                        <div class="record-word">${displayName(w)}</div>
+                        <div class="record-chinese">${w.chinese || ''}</div>
+                    </div>
+                `).join('');
+                return;
+            }
+
+            if (tab === 'review') {
+                container.innerHTML = list.map(w => `
+                    <div class="record-item" onclick="openReviewWord('${w.id}')" style="cursor:pointer;">
                         <div class="record-word">${displayName(w)}</div>
                         <div class="record-chinese">${w.chinese || ''}</div>
                     </div>
@@ -910,6 +967,10 @@
             const rec = records[word.id] || {};
             rec.status = 'know';
             rec.firstLearnedDate = todayStr();
+            rec.reviewStage = 0;
+            rec.masteryStreak = 0;
+            rec.graduated = false;
+            rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[0]);
             records[word.id] = rec;
             saveRecords(records);
 
@@ -918,6 +979,168 @@
 
             updateStats();
             renderFuzzyDetail();
+        }
+
+        // ===== 今日待复习完整流程：听音回忆母句 → (有例句的话)语境填空 → 完整卡片 → 自评难度动态调整下次复习时间 =====
+        let reviewBrowseList = [];
+        let reviewBrowseIndex = 0;
+        let reviewPhase = 'listen'; // listen -> fill -> reveal
+        let reviewCurrentFillQuestion = null;
+
+        function openReviewWord(id) {
+            reviewBrowseList = getReviewList();
+            reviewBrowseIndex = reviewBrowseList.findIndex(w => w.id === id);
+            if (reviewBrowseIndex < 0) reviewBrowseIndex = 0;
+            reviewPhase = 'listen';
+            renderReviewStep();
+        }
+
+        function reviewSkip() {
+            reviewBrowseIndex++;
+            if (reviewBrowseIndex >= reviewBrowseList.length) reviewBrowseIndex = 0;
+            reviewPhase = 'listen';
+            renderReviewStep();
+        }
+
+        function renderReviewStep() {
+            const container = document.getElementById('recordsList');
+
+            if (reviewBrowseList.length === 0) {
+                container.innerHTML = `
+                    <div class="records-empty">🎉 今天的复习任务已经清空</div>
+                    <button class="back-to-list-btn" onclick="showRecordTab('review')">◀ 返回</button>
+                `;
+                return;
+            }
+            if (reviewBrowseIndex >= reviewBrowseList.length) reviewBrowseIndex = 0;
+            const word = reviewBrowseList[reviewBrowseIndex];
+            const headword = word.word || word.phrase || word.root || '';
+            const motherSentence = word.core_state || word.core_image || word.core_relation || '';
+
+            // 阶段1：只给声音+母句这两条线索，逼自己先主动回忆，不看单词本身
+            if (reviewPhase === 'listen') {
+                prefetchAudio(headword);
+                container.innerHTML = `
+                    <button class="back-to-list-btn" onclick="showRecordTab('review')">◀ 返回列表（剩余${reviewBrowseList.length}个）</button>
+                    <div class="review-listen-box">
+                        <button class="review-play-btn" onclick="playPronunciation('${headword.replace(/'/g, "\\'")}')">🔊</button>
+                        ${motherSentence
+                            ? `<div class="review-mother-sentence">${motherSentence}</div>`
+                            : `<div class="review-mother-sentence">听发音，回忆这个词的意思和拼写</div>`}
+                        <button class="btn btn-know" style="width:100%;margin-top:20px;" onclick="reviewProceedAfterListen()">🤔 我想好了，看答案</button>
+                    </div>
+                `;
+                return;
+            }
+
+            // 阶段2(仅当这个词有场景例句才会出现)：语境填空，巩固"词+场景"的搭配记忆
+            if (reviewPhase === 'fill') {
+                const q = reviewCurrentFillQuestion;
+                container.innerHTML = `
+                    <button class="back-to-list-btn" onclick="showRecordTab('review')">◀ 返回列表（剩余${reviewBrowseList.length}个）</button>
+                    <div class="drill-progress">🧩 语境填空</div>
+                    <div class="drill-phrase">${q.blanked}</div>
+                    <div class="drill-context">💬 ${q.chineseContext}</div>
+                    <input type="text" id="reviewFillInput" class="drill-input" placeholder="输入应该填的单词/词组" autocomplete="off" onkeypress="if(event.key==='Enter') submitReviewFill()">
+                    <button id="reviewFillSubmitBtn" class="btn btn-know" style="width:100%;margin-top:15px;" onclick="submitReviewFill()">提交答案</button>
+                    <div id="reviewFillFeedback"></div>
+                `;
+                document.getElementById('reviewFillInput').focus();
+                return;
+            }
+
+            // 阶段3：完整卡片核对 + 自评难度
+            let cardHtml = '';
+            if (word.category === 'R') {
+                cardHtml = renderRootFamily(word, 'review-rate');
+                word.members.forEach(m => prefetchAudio(m.word));
+            } else if (word.category === 'C') {
+                cardHtml = renderCollocation(word, 'review-rate');
+            } else if (word.category === 'I') {
+                cardHtml = renderRecognition(word, 'review-rate');
+            } else {
+                cardHtml = renderCoreWord(word, 'review-rate');
+            }
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="showRecordTab('review')">◀ 返回列表（剩余${reviewBrowseList.length}个）</button>
+                ${cardHtml}
+            `;
+        }
+
+        function reviewProceedAfterListen() {
+            const word = reviewBrowseList[reviewBrowseIndex];
+            if (word.scenes && word.scenes.length > 0) {
+                const headword = word.word || word.phrase || '';
+                const s = word.scenes[Math.floor(Math.random() * word.scenes.length)];
+                const noteParts = (s.note || '').split('｜');
+                const chineseContext = noteParts.length > 1 ? noteParts[1] : noteParts[0];
+                const blanked = blankOutHeadword(s.phrase, headword);
+                reviewCurrentFillQuestion = { blanked, chineseContext, answer: headword, original: s.phrase };
+                reviewPhase = 'fill';
+            } else {
+                reviewPhase = 'reveal';
+            }
+            renderReviewStep();
+        }
+
+        function submitReviewFill() {
+            const input = document.getElementById('reviewFillInput');
+            const userAnswer = (input.value || '').trim().toLowerCase();
+            const q = reviewCurrentFillQuestion;
+            const correct = userAnswer === q.answer.toLowerCase();
+            const feedback = document.getElementById('reviewFillFeedback');
+            feedback.innerHTML = correct
+                ? `<div class="drill-correct">✅ 答对了！</div>`
+                : `<div class="drill-wrong">❌ 正确答案：<b>${q.answer}</b></div>`;
+            input.disabled = true;
+            const btn = document.getElementById('reviewFillSubmitBtn');
+            if (btn) btn.style.display = 'none';
+            setTimeout(() => {
+                reviewPhase = 'reveal';
+                renderReviewStep();
+            }, 1500);
+        }
+
+        // 自评难度，动态决定这个词下次什么时候再出现；"记得很牢"连续3次直接"毕业"退出复习队列
+        function rateReviewWord(level) {
+            const word = reviewBrowseList[reviewBrowseIndex];
+            if (!word) return;
+
+            const records = loadRecords();
+            const rec = records[word.id] || {};
+            let stage = rec.reviewStage || 0;
+            let streak = rec.masteryStreak || 0;
+
+            if (level === 'easy') {
+                streak++;
+                if (streak >= 3) {
+                    rec.graduated = true;
+                } else {
+                    stage = Math.min(stage + 2, REVIEW_INTERVALS.length - 1);
+                }
+            } else if (level === 'medium') {
+                streak = 0;
+                stage = Math.min(stage + 1, REVIEW_INTERVALS.length - 1);
+            } else if (level === 'hard') {
+                streak = 0;
+                stage = 0;
+                rec.status = 'fuzzy'; // 基本忘了->转入模糊记忆,通过模糊刷词模式重新彻底掌握
+            }
+
+            rec.reviewStage = stage;
+            rec.masteryStreak = streak;
+            if (!rec.graduated && rec.status !== 'fuzzy') {
+                rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[stage]);
+            }
+            records[word.id] = rec;
+            saveRecords(records);
+
+            reviewBrowseList.splice(reviewBrowseIndex, 1);
+            if (reviewBrowseIndex >= reviewBrowseList.length) reviewBrowseIndex = 0;
+            reviewPhase = 'listen';
+
+            updateStats();
+            renderReviewStep();
         }
 
         let allWords = { A: [], S: [], R: [], C: [], I: [] };
@@ -1088,6 +1311,22 @@
                     </div>
                 `;
             }
+            if (mode === 'review-rate') {
+                return `
+                    <div class="action-buttons">
+                        <button class="btn btn-rate-easy" onclick="rateReviewWord('easy')">😊 记得很牢</button>
+                        <button class="btn btn-rate-medium" onclick="rateReviewWord('medium')">😐 有点模糊</button>
+                        <button class="btn btn-rate-hard" onclick="rateReviewWord('hard')">😖 基本忘了</button>
+                    </div>
+                `;
+            }
+            if (mode === 'drill-review') {
+                return `
+                    <div class="action-buttons">
+                        <button class="btn btn-know" style="width:100%;" onclick="nextDrillQuestion()">下一题 ▶️</button>
+                    </div>
+                `;
+            }
             return `
                 <div class="action-buttons">
                     <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
@@ -1100,7 +1339,10 @@
 
         // 卡片顶部条：分类标签 + "下一个"快捷按钮(不用滑到最底部就能换词)
         function topBarHtml(categoryLabel, mode) {
-            const nextAction = mode === 'fuzzy-review' ? 'fuzzyNext()' : "markWord('skip')";
+            let nextAction = "markWord('skip')";
+            if (mode === 'fuzzy-review') nextAction = 'fuzzyNext()';
+            else if (mode === 'review-rate') nextAction = 'reviewSkip()';
+            else if (mode === 'drill-review') nextAction = 'nextDrillQuestion()';
             return `
                 <div class="top-bar">
                     <span class="category-badge">${categoryLabel}</span>
@@ -1314,6 +1556,10 @@
                 rec.status = status;
                 if (status === 'know' && !rec.firstLearnedDate) {
                     rec.firstLearnedDate = todayStr();
+                    rec.reviewStage = 0;
+                    rec.masteryStreak = 0;
+                    rec.graduated = false;
+                    rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[0]);
                 }
                 records[word.id] = rec;
                 saveRecords(records);
@@ -1435,12 +1681,13 @@
                 (allWords[cat] || []).forEach(w => {
                     if (!eligibleIds.has(w.id) || !w.scenes) return;
                     const headword = w.word || w.phrase || '';
+                    const motherSentence = w.core_state || w.core_relation || '';
                     w.scenes.forEach(s => {
                         const noteParts = (s.note || '').split('｜');
                         const chineseContext = noteParts.length > 1 ? noteParts[1] : noteParts[0];
                         const blanked = blankOutHeadword(s.phrase, headword);
                         if (blanked === s.phrase) return; // 没挖到空的题跳过,避免直接漏答案
-                        pool.push({ blanked, chineseContext, answer: headword, original: s.phrase });
+                        pool.push({ blanked, chineseContext, motherSentence, answer: headword, original: s.phrase, wordId: w.id });
                     });
                 });
             });
@@ -1480,13 +1727,14 @@
                 return;
             }
             const q = drillQuestions[drillIndex];
+            prefetchAudio(q.answer); // 提前查好发音,点击喇叭时能立即播放
             container.innerHTML = `
                 <div class="drill-progress">第 ${drillIndex + 1} / ${drillQuestions.length} 题</div>
-                <div class="drill-phrase">${q.blanked}</div>
+                <div class="drill-phrase">${q.blanked}<button class="speak-btn" style="width:32px;height:32px;font-size:13px;vertical-align:middle;margin-left:8px;" onclick="playPronunciation('${q.answer.replace(/'/g, "\\'")}', this)">🔊</button></div>
+                ${q.motherSentence ? `<div class="drill-mother">💡 ${q.motherSentence}</div>` : ''}
                 <div class="drill-context">💬 ${q.chineseContext}</div>
                 <input type="text" id="drillInput" class="drill-input" placeholder="输入应该填的单词/词组" autocomplete="off" onkeypress="if(event.key==='Enter') submitDrillAnswer()">
                 <button id="drillSubmitBtn" class="btn btn-know" style="width:100%;margin-top:15px;" onclick="submitDrillAnswer()">提交答案</button>
-                <div id="drillFeedback"></div>
             `;
             document.getElementById('drillInput').focus();
         }
@@ -1499,19 +1747,28 @@
 
             if (correct) drillScore.correct++; else drillScore.wrong++;
 
-            const feedback = document.getElementById('drillFeedback');
-            feedback.innerHTML = correct
-                ? `<div class="drill-correct">✅ 答对了！</div>`
-                : `<div class="drill-wrong">❌ 正确答案：<b>${q.answer}</b><br>完整例句：${q.original}</div>`;
+            // 不管对错，答完直接展示这个词的完整学习卡片，重新巩固一遍，而不是只给一句提示
+            const word = wordById[q.wordId];
+            let cardHtml = '';
+            if (word) {
+                if (word.category === 'R') cardHtml = renderRootFamily(word, 'drill-review');
+                else if (word.category === 'C') cardHtml = renderCollocation(word, 'drill-review');
+                else if (word.category === 'I') cardHtml = renderRecognition(word, 'drill-review');
+                else cardHtml = renderCoreWord(word, 'drill-review');
+            }
 
-            input.disabled = true;
-            const btn = document.getElementById('drillSubmitBtn');
-            if (btn) btn.style.display = 'none';
+            const container = document.getElementById('drillContent');
+            container.innerHTML = `
+                <div class="${correct ? 'drill-correct' : 'drill-wrong'}">
+                    ${correct ? '✅ 答对了！' : `❌ 正确答案：<b>${q.answer}</b>`}
+                </div>
+                ${cardHtml}
+            `;
+        }
 
-            setTimeout(() => {
-                drillIndex++;
-                renderDrillQuestion();
-            }, 1800);
+        function nextDrillQuestion() {
+            drillIndex++;
+            renderDrillQuestion();
         }
 
         window.onload = init;
