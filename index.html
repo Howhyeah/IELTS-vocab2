@@ -403,6 +403,7 @@
             margin-bottom: 15px;
             overflow-x: auto;
             padding-bottom: 4px;
+            flex-shrink: 0;
         }
         .modal-tab {
             padding: 8px 14px;
@@ -415,7 +416,11 @@
             cursor: pointer;
         }
         .modal-tab.active { background: #667eea; color: white; }
-        .records-list { overflow-y: auto; flex: 1; }
+        .records-list {
+            overflow-y: auto;
+            flex: 1;
+            min-height: 0;
+        }
         .record-item {
             padding: 12px 15px;
             background: #f8f9fa;
@@ -773,11 +778,19 @@
                 C: '🔗 固定搭配',
                 I: '👁️ 识别词'
             };
-            document.querySelector('[data-cat="all"]').textContent = `${labels.all} (${totalAllWords})`;
+            const records = loadRecords();
+            const knownIds = new Set(Object.entries(records).filter(([id, r]) => r.status === 'know').map(([id]) => id));
+
+            let totalKnown = 0;
             ['A','S','R','C','I'].forEach(cat => {
+                const words = allWords[cat];
+                const knownInCat = words.filter(w => knownIds.has(w.id)).length;
+                totalKnown += knownInCat;
                 const el = document.querySelector(`[data-cat="${cat}"]`);
-                if (el) el.textContent = `${labels[cat]} (${allWords[cat].length})`;
+                if (el) el.textContent = `${labels[cat]} ${words.length}/学${knownInCat}`;
             });
+            const allEl = document.querySelector('[data-cat="all"]');
+            if (allEl) allEl.textContent = `${labels.all} ${totalAllWords}/学${totalKnown}`;
         }
 
         async function init() {
@@ -1126,6 +1139,8 @@
             const checkins = loadCheckins();
             const t = todayStr();
             document.getElementById('checkinStatus').textContent = checkins[t] ? '✅ 今日已打卡' : '';
+
+            updateTabCounts();
         }
 
         // ===== 导出/导入学习记录（用于换域名/换设备时保住数据） =====
