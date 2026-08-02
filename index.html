@@ -68,6 +68,55 @@
             cursor: pointer;
         }
         .records-btn:active { transform: scale(0.98); }
+        .search-section {
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 14px 18px;
+            border: none;
+            border-radius: 14px;
+            font-size: 15px;
+            background: white;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            box-sizing: border-box;
+        }
+        .search-results {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            margin-top: 8px;
+            background: white;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+            max-height: 360px;
+            overflow-y: auto;
+            z-index: 500;
+        }
+        .search-results.show { display: block; }
+        .search-result-item {
+            padding: 14px 18px;
+            border-bottom: 1px solid #f0f0f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .search-result-item:last-child { border-bottom: none; }
+        .search-result-item:active { background: #f8f9fa; }
+        .search-result-word { font-weight: bold; color: #333; font-size: 16px; }
+        .search-result-chinese { color: #666; font-size: 13px; text-align: right; }
+        .search-result-cat {
+            font-size: 11px;
+            color: #667eea;
+            background: #f0f0fa;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: 8px;
+        }
+        .search-empty { padding: 20px; text-align: center; color: #999; font-size: 14px; }
         .data-actions {
             display: flex;
             gap: 10px;
@@ -411,6 +460,11 @@
             <div class="checkin-status" id="checkinStatus"></div>
         </div>
 
+        <div class="search-section">
+            <input class="search-input" type="text" id="searchInput" placeholder="🔍 搜索单词（英文或中文都可以）" oninput="onSearchInput(event)">
+            <div class="search-results" id="searchResults"></div>
+        </div>
+
         <button class="records-btn" onclick="openRecords()">📖 查看学习记录（已背 / 模糊记忆 / 待复习）</button>
 
         <div class="data-actions">
@@ -521,6 +575,78 @@
                 wordById[w.id] = w;
             });
         }
+
+        // ===== 搜索功能：支持英文单词/中文释义搜索，点击结果直接跳转到该词完整卡片 =====
+        const SEARCH_CAT_LABELS = { A: '核心状态词', S: '空间关系词', R: '词根词族', C: '固定搭配', I: '识别词' };
+
+        function onSearchInput(e) {
+            const query = e.target.value.trim().toLowerCase();
+            const resultsEl = document.getElementById('searchResults');
+            if (!query) {
+                resultsEl.classList.remove('show');
+                resultsEl.innerHTML = '';
+                return;
+            }
+
+            const allFlat = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
+            const matches = allFlat.filter(w => {
+                const name = (w.word || w.phrase || w.root || '').toLowerCase();
+                const chinese = (w.chinese || '').toLowerCase();
+                return name.includes(query) || chinese.includes(query);
+            }).slice(0, 30);
+
+            if (matches.length === 0) {
+                resultsEl.innerHTML = '<div class="search-empty">没有找到匹配的单词</div>';
+                resultsEl.classList.add('show');
+                return;
+            }
+
+            resultsEl.innerHTML = matches.map(w => {
+                const name = w.word || w.phrase || w.root || '';
+                return `
+                    <div class="search-result-item" onclick="jumpToWord('${w.id}')">
+                        <div>
+                            <span class="search-result-word">${name}</span>
+                            <span class="search-result-cat">${SEARCH_CAT_LABELS[w.category] || ''}</span>
+                        </div>
+                        <span class="search-result-chinese">${w.chinese || ''}</span>
+                    </div>
+                `;
+            }).join('');
+            resultsEl.classList.add('show');
+        }
+
+        function jumpToWord(wordId) {
+            const word = wordById[wordId];
+            if (!word) return;
+
+            const cat = word.category;
+            currentCategory = cat;
+            filteredWords = allWords[cat] || [];
+            currentIndex = filteredWords.findIndex(w => w.id === wordId);
+            if (currentIndex < 0) currentIndex = 0;
+
+            document.querySelectorAll('.category-tabs .tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.cat === cat);
+            });
+
+            loadWord();
+            savePosition();
+
+            document.getElementById('searchInput').value = '';
+            document.getElementById('searchResults').classList.remove('show');
+            document.getElementById('searchResults').innerHTML = '';
+
+            document.getElementById('wordCardContainer').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // 点击搜索结果外部区域时，收起搜索结果列表
+        document.addEventListener('click', function (e) {
+            const searchSection = document.querySelector('.search-section');
+            if (searchSection && !searchSection.contains(e.target)) {
+                document.getElementById('searchResults').classList.remove('show');
+            }
+        });
 
         function getKnownList() {
             const records = loadRecords();
