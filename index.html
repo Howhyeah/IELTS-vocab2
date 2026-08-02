@@ -757,15 +757,25 @@
 
         let totalAllWords = 0;
 
-        // 记住当前学习位置(每个分类各自记一个索引),下次打开/切换分类时能接着看
+        // 记住当前学习位置：存的是"这个词的唯一id"，不是"排第几"，
+        // 这样以后不管词库怎么增删、顺序怎么变，都能精确找回原来那个词
         function savePosition() {
             const pos = JSON.parse(localStorage.getItem('ieltsPosition') || '{}');
-            pos[currentCategory] = currentIndex;
+            const word = filteredWords[currentIndex];
+            if (word && word.id) {
+                pos[currentCategory] = word.id;
+            }
             pos.lastCategory = currentCategory;
             localStorage.setItem('ieltsPosition', JSON.stringify(pos));
         }
         function loadPosition() {
             return JSON.parse(localStorage.getItem('ieltsPosition') || '{}');
+        }
+        // 根据保存的单词id，在当前词表里找到它现在排第几；找不到(比如旧版遗留的数字格式)就从0开始
+        function findIndexById(words, savedId) {
+            if (savedId === undefined || savedId === null) return 0;
+            const idx = words.findIndex(w => w.id === savedId);
+            return idx >= 0 ? idx : 0;
         }
 
         // 更新5个分类标签旁边显示的词汇数量
@@ -826,8 +836,7 @@
                 } else {
                     filteredWords = allWords[lastCat] || [];
                 }
-                currentIndex = pos[lastCat] || 0;
-                if (currentIndex >= filteredWords.length || currentIndex < 0) currentIndex = 0;
+                currentIndex = findIndexById(filteredWords, pos[lastCat]);
 
                 document.querySelectorAll('.category-tabs .tab').forEach(tab => {
                     tab.classList.toggle('active', tab.dataset.cat === lastCat);
@@ -856,8 +865,7 @@
 
             // 切到这个分类时，接着上次在这个分类看到的位置，而不是每次都回到第一个
             const pos = loadPosition();
-            currentIndex = pos[category] || 0;
-            if (currentIndex >= filteredWords.length || currentIndex < 0) currentIndex = 0;
+            currentIndex = findIndexById(filteredWords, pos[category]);
 
             loadWord();
             savePosition();
