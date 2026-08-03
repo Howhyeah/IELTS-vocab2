@@ -614,5 +614,708 @@
         "chinese": "因此"
       }
     ]
+  },
+  {
+    "id": "read_avoid",
+    "rank": 24,
+    "tier": 2,
+    "word": "avoid",
+    "phonetic": "/əˈvɒɪd/",
+    "pos": "v.",
+    "chinese": "避免",
+    "core_state": "提前预见到一个不好的情况，主动改变路径，让自己不会碰到它。",
+    "underlying_relation": "不好的情况(预见到) → 主动改变路径 → 不会碰到(避免)。",
+    "synonyms": [
+      {
+        "word": "escape",
+        "chinese": "逃脱"
+      },
+      {
+        "word": "evitable",
+        "chinese": "可避免的"
+      }
+    ]
+  },
+  {
+    "id": "read_budget",
+    "rank": 25,
+    "tier": 2,
+    "word": "budget",
+    "phonetic": "/ˈbʌdʒɪt/",
+    "pos": "n.",
+    "chinese": "预算",
+    "core_state": "提前对将来要花的钱做出一个数额上的计划和限定。",
+    "underlying_relation": "未来花费 → 提前做数额计划限定 → 形成预算。",
+    "synonyms": [
+      {
+        "word": "fund",
+        "chinese": "资金"
+      },
+      {
+        "word": "financial",
+        "chinese": "财务的"
+      }
+    ]
+  },
+  {
+    "id": "read_adapt_to",
+    "rank": 26,
+    "tier": 2,
+    "word": "adapt to",
+    "phonetic": "/əˈdæpt tuː/",
+    "pos": "phr.",
+    "chinese": "使适应",
+    "core_state": "一个东西原本的状态跟新环境不匹配，经过调整改变，变得能够融入新环境。",
+    "underlying_relation": "原状态(不匹配新环境) → 调整改变 → 融入新环境(适应)。",
+    "synonyms": [
+      {
+        "word": "fit",
+        "chinese": "适合"
+      },
+      {
+        "word": "suit",
+        "chinese": "适合"
+      }
+    ]
+  },
+  {
+    "id": "read_alternative",
+    "rank": 27,
+    "tier": 2,
+    "word": "alternative",
+    "phonetic": "/ɒlˈtɜːnətɪv/",
+    "pos": "adj./n.",
+    "chinese": "供替代的，供选择的；替代品",
+    "core_state": "在原本的选项之外，存在另一个可以拿来代替使用的选项。",
+    "underlying_relation": "原有选项 → 存在另一个可替代选项 → 可拿来代替使用。",
+    "synonyms": [
+      {
+        "word": "substitute",
+        "chinese": "替代品"
+      }
+    ]
+  },
+  {
+    "id": "read_compensate",
+    "rank": 28,
+    "tier": 2,
+    "word": "compensate",
+    "phonetic": "/ˈkɒmpenseɪt/",
+    "pos": "v.",
+    "chinese": "补偿，赔偿",
+    "core_state": "一方因为造成了损失，主动给出等价的东西，来抵消对方的损失。",
+    "underlying_relation": "造成损失 → 主动给出等价的东西 → 抵消损失(补偿)。",
+    "synonyms": [
+      {
+        "word": "make up",
+        "chinese": "补偿"
+      },
+      {
+        "word": "offset",
+        "chinese": "抵消"
+      }
+    ]
+  },
+  {
+    "id": "read_component",
+    "rank": 29,
+    "tier": 2,
+    "word": "component",
+    "phonetic": "/kəmˈpəʊnənt/",
+    "pos": "n.",
+    "chinese": "成分，要素",
+    "core_state": "一个整体是由多个独立的部分组合而成，每个部分都是构成整体不可或缺的一块。",
+    "underlying_relation": "整体 → 由多个独立部分组合 → 每个部分是不可或缺的构成要素。",
+    "synonyms": [
+      {
+        "word": "proportion",
+        "chinese": "比例"
+      }
+    ]
+  },
+  {
+    "id": "read_military",
+    "rank": 30,
+    "tier": 2,
+    "word": "military",
+    "phonetic": "/ˈmɪlətri/",
+    "pos": "adj.",
+    "chinese": "军事的",
+    "core_state": "某件事物跟军队、战争这个领域直接相关。",
+    "underlying_relation": "事物 → 跟军队/战争领域相关 → 具有军事属性。",
+    "synonyms": [
+      {
+        "word": "weapon",
+        "chinese": "武器"
+      },
+      {
+        "word": "army",
+        "chinese": "军队"
+      }
+    ]
+  },
+  {
+    "id": "read_feasible",
+    "rank": 33,
+    "tier": 2,
+    "word": "feasible",
+    "phonetic": "/ˈfiːzəbl/",
+    "pos": "adj.",
+    "chinese": "可行的",
+    "core_state": "一个计划或方法在现实条件下，是能够真正被实施、执行成功的。",
+    "underlying_relation": "计划/方法 → 现实条件下能被执行成功 → 可行。",
+    "synonyms": [
+      {
+        "word": "realistic",
+        "chinese": "现实的"
+      },
+      {
+        "word": "viable",
+        "chinese": "可行的"
+      }
+    ]
+  },
+  {
+    "id": "read_constrain",
+    "rank": 34,
+    "tier": 2,
+    "word": "constrain",
+    "phonetic": "/kənˈstreɪn/",
+    "pos": "v.",
+    "chinese": "束缚，限制",
+    "core_state": "一个东西原本可以自由发展或活动，被外力限定在一个范围内，无法超出。",
+    "underlying_relation": "自由发展的东西 → 被外力限定范围 → 无法超出(受限)。",
+    "synonyms": [
+      {
+        "word": "stop",
+        "chinese": "阻止"
+      },
+      {
+        "word": "control",
+        "chinese": "控制"
+      }
+    ]
+  },
+  {
+    "id": "read_deficiency",
+    "rank": 35,
+    "tier": 2,
+    "word": "deficiency",
+    "phonetic": "/dɪˈfɪʃnsi/",
+    "pos": "n.",
+    "chinese": "缺陷，缺点",
+    "core_state": "一个事物本该具备某种东西，但实际上这部分是缺失或不足的。",
+    "underlying_relation": "本该具备的东西 → 实际缺失或不足 → 形成缺陷。",
+    "synonyms": [
+      {
+        "word": "shortage",
+        "chinese": "短缺"
+      },
+      {
+        "word": "defect",
+        "chinese": "缺陷"
+      },
+      {
+        "word": "weakness",
+        "chinese": "弱点"
+      }
+    ]
+  },
+  {
+    "id": "read_supplement",
+    "rank": 36,
+    "tier": 2,
+    "word": "supplement",
+    "phonetic": "/ˈsʌplɪment/",
+    "pos": "v.",
+    "chinese": "补充",
+    "core_state": "在原本已有的东西基础上，额外加入一些内容，让它变得更完整充足。",
+    "underlying_relation": "已有的东西(不够充足) → 额外加入内容 → 变得更完整(补充)。",
+    "synonyms": [
+      {
+        "word": "provision",
+        "chinese": "供应"
+      }
+    ]
+  },
+  {
+    "id": "read_distinguish",
+    "rank": 37,
+    "tier": 2,
+    "word": "distinguish",
+    "phonetic": "/dɪˈstɪŋɡwɪʃ/",
+    "pos": "v.",
+    "chinese": "区别，辨别",
+    "core_state": "两个原本容易混淆的事物，通过找出它们之间的差异，被清楚地区分开来。",
+    "underlying_relation": "容易混淆的两个事物 → 找出差异 → 被清楚区分开。",
+    "synonyms": [
+      {
+        "word": "separate",
+        "chinese": "分开"
+      },
+      {
+        "word": "differentiate",
+        "chinese": "区分"
+      }
+    ]
+  },
+  {
+    "id": "read_analyze",
+    "rank": 38,
+    "tier": 2,
+    "word": "analyze",
+    "phonetic": "/ˈænəlaɪz/",
+    "pos": "v.",
+    "chinese": "分析，解释",
+    "core_state": "一个复杂的整体被拆解成一个个小部分，逐一检视，从而弄清楚它的构成和原理。",
+    "underlying_relation": "复杂整体 → 拆解成小部分逐一检视 → 弄清楚构成原理。",
+    "synonyms": [
+      {
+        "word": "examine",
+        "chinese": "检查"
+      },
+      {
+        "word": "diagnose",
+        "chinese": "诊断"
+      }
+    ]
+  },
+  {
+    "id": "read_emphasize",
+    "rank": 39,
+    "tier": 2,
+    "word": "emphasize",
+    "phonetic": "/ˈemfəsaɪz/",
+    "pos": "v.",
+    "chinese": "强调，着重",
+    "core_state": "在一堆平等呈现的信息里，特意给某一个点加重份量，让它更突出。",
+    "underlying_relation": "多个平等信息点 → 特意加重某一点份量 → 更突出(强调)。",
+    "synonyms": [
+      {
+        "word": "focus on",
+        "chinese": "关注"
+      },
+      {
+        "word": "stress",
+        "chinese": "强调"
+      }
+    ]
+  },
+  {
+    "id": "read_enormous",
+    "rank": 40,
+    "tier": 2,
+    "word": "enormous",
+    "phonetic": "/ɪˈnɔːməs/",
+    "pos": "adj.",
+    "chinese": "庞大的，巨大的",
+    "core_state": "一个东西的规模远远超出一般标准，大到显眼的程度。",
+    "underlying_relation": "规模 → 远超一般标准 → 大到显眼(巨大)。",
+    "synonyms": [
+      {
+        "word": "massive",
+        "chinese": "巨大的"
+      },
+      {
+        "word": "large",
+        "chinese": "大的"
+      }
+    ]
+  },
+  {
+    "id": "read_isolate",
+    "rank": 23,
+    "tier": 2,
+    "word": "isolate",
+    "phonetic": "/ˈaɪsəleɪt/",
+    "pos": "v.",
+    "chinese": "使隔离，使孤立",
+    "core_state": "一个东西原本跟周围有联系，被主动切断这些联系，单独隔开放在一边。",
+    "underlying_relation": "有联系的东西 → 主动切断联系 → 单独隔开(孤立)。",
+    "synonyms": [
+      {
+        "word": "inaccessible",
+        "chinese": "难以接近的"
+      }
+    ]
+  },
+  {
+    "id": "read_hinder",
+    "rank": 43,
+    "tier": 2,
+    "word": "hinder",
+    "phonetic": "/ˈhɪndə(r)/",
+    "pos": "v.",
+    "chinese": "阻碍",
+    "core_state": "一个原本能顺利前进的过程，被某个东西挡在路上，导致速度变慢或无法继续。",
+    "underlying_relation": "顺利前进的过程 + 东西挡在路上 → 速度变慢/无法继续(阻碍)。",
+    "synonyms": [
+      {
+        "word": "impede",
+        "chinese": "妨碍"
+      },
+      {
+        "word": "prevent",
+        "chinese": "阻止"
+      },
+      {
+        "word": "deter",
+        "chinese": "制止"
+      },
+      {
+        "word": "obstacle",
+        "chinese": "障碍"
+      }
+    ]
+  },
+  {
+    "id": "read_legitimate",
+    "rank": 44,
+    "tier": 2,
+    "word": "legitimate",
+    "phonetic": "/lɪˈdʒɪtɪmət/",
+    "pos": "adj.",
+    "chinese": "合法的",
+    "core_state": "一件事符合法律或公认规则的要求，站得住脚、被认可。",
+    "underlying_relation": "事物 → 符合法律/公认规则 → 被认可(合法)。",
+    "synonyms": [
+      {
+        "word": "legal",
+        "chinese": "合法的"
+      }
+    ]
+  },
+  {
+    "id": "read_limitation",
+    "rank": 45,
+    "tier": 2,
+    "word": "limitation",
+    "phonetic": "/ˌlɪmɪˈteɪʃn/",
+    "pos": "n.",
+    "chinese": "限制",
+    "core_state": "给一个事物的范围或能力划定一条不能超过的边界。",
+    "underlying_relation": "事物范围/能力 → 划定不能超过的边界 → 形成限制。",
+    "synonyms": [
+      {
+        "word": "restriction",
+        "chinese": "限制"
+      }
+    ]
+  },
+  {
+    "id": "read_demanding",
+    "rank": 47,
+    "tier": 2,
+    "word": "demanding",
+    "phonetic": "/dɪˈmɑːndɪŋ/",
+    "pos": "adj.",
+    "chinese": "苛求的",
+    "core_state": "对别人或事情提出的要求超出一般水平，很难轻易满足。",
+    "underlying_relation": "要求 → 超出一般水平 → 难以轻易满足(苛求)。",
+    "synonyms": [
+      {
+        "word": "troublesome",
+        "chinese": "麻烦的"
+      }
+    ]
+  },
+  {
+    "id": "read_ancient",
+    "rank": 50,
+    "tier": 2,
+    "word": "ancient",
+    "phonetic": "/ˈeɪnʃənt/",
+    "pos": "adj.",
+    "chinese": "古代的；古老的",
+    "core_state": "一件事物存在的时间可以追溯到非常久远的过去，距离现在已经很长时间。",
+    "underlying_relation": "事物存在时间 → 追溯到久远过去 → 距今时间很长(古老)。",
+    "synonyms": [
+      {
+        "word": "aged",
+        "chinese": "年老的"
+      },
+      {
+        "word": "old",
+        "chinese": "古老的"
+      }
+    ]
+  },
+  {
+    "id": "read_beneficial",
+    "rank": 51,
+    "tier": 2,
+    "word": "beneficial",
+    "phonetic": "/ˌbenɪˈfɪʃl/",
+    "pos": "adj.",
+    "chinese": "有益的",
+    "core_state": "一件事情的发生，给相关对象带来了正面的、有好处的影响。",
+    "underlying_relation": "事情发生 → 带来正面好处 → 对相关对象有益。",
+    "synonyms": [
+      {
+        "word": "helpful",
+        "chinese": "有帮助的"
+      },
+      {
+        "word": "advantageous",
+        "chinese": "有利的"
+      },
+      {
+        "word": "wholesome",
+        "chinese": "有益健康的"
+      }
+    ]
+  },
+  {
+    "id": "read_chronic",
+    "rank": 52,
+    "tier": 2,
+    "word": "chronic",
+    "phonetic": "/ˈkrɒnɪk/",
+    "pos": "adj.",
+    "chinese": "慢性的，长期性的",
+    "core_state": "一个问题或状态长期持续存在，反复出现，不是突然爆发的一次性事件。",
+    "underlying_relation": "问题/状态 → 长期持续反复出现 → 非一次性突发(慢性)。",
+    "synonyms": [
+      {
+        "word": "lasting",
+        "chinese": "持久的"
+      }
+    ]
+  },
+  {
+    "id": "read_minimize",
+    "rank": 54,
+    "tier": 2,
+    "word": "minimize",
+    "phonetic": "/ˈmɪnɪmaɪz/",
+    "pos": "v.",
+    "chinese": "最小化，使……减少到最少",
+    "core_state": "主动把一个东西的数量或程度，压缩降低到能达到的最低水平。",
+    "underlying_relation": "数量/程度 → 主动压缩降低 → 达到最低水平(最小化)。",
+    "synonyms": [
+      {
+        "word": "reduce",
+        "chinese": "减少"
+      },
+      {
+        "word": "lessen",
+        "chinese": "减少"
+      }
+    ]
+  },
+  {
+    "id": "read_immunity",
+    "rank": 55,
+    "tier": 2,
+    "word": "immunity",
+    "phonetic": "/ɪˈmjuːnəti/",
+    "pos": "n.",
+    "chinese": "免疫力",
+    "core_state": "身体内部具备的一种能力，能够抵御外部病原的入侵而不受伤害。",
+    "underlying_relation": "外部病原入侵 → 身体内部能力抵御 → 不受伤害(免疫)。",
+    "synonyms": [
+      {
+        "word": "resistance",
+        "chinese": "抵抗力"
+      }
+    ]
+  },
+  {
+    "id": "read_imperative",
+    "rank": 56,
+    "tier": 2,
+    "word": "imperative",
+    "phonetic": "/ɪmˈperətɪv/",
+    "pos": "adj.",
+    "chinese": "必要的，紧急的",
+    "core_state": "一件事情的重要程度达到了「必须马上做，不能拖延」的地步。",
+    "underlying_relation": "事情重要程度 → 达到必须马上做的地步 → 不能拖延(紧急必要)。",
+    "synonyms": [
+      {
+        "word": "compelling",
+        "chinese": "急需处理的"
+      },
+      {
+        "word": "necessary",
+        "chinese": "必要的"
+      },
+      {
+        "word": "urgent",
+        "chinese": "紧急的"
+      }
+    ]
+  },
+  {
+    "id": "read_exaggerate",
+    "rank": 58,
+    "tier": 2,
+    "word": "exaggerate",
+    "phonetic": "/ɪɡˈzædʒəreɪt/",
+    "pos": "v.",
+    "chinese": "夸大，夸张",
+    "core_state": "描述一件事情的时候，把它的程度或规模说得比实际情况更严重或更大。",
+    "underlying_relation": "实际情况 → 描述时程度被说得更大 → 超出真实(夸大)。",
+    "synonyms": [
+      {
+        "word": "overstate",
+        "chinese": "夸大陈述"
+      }
+    ]
+  },
+  {
+    "id": "read_transmit",
+    "rank": 59,
+    "tier": 2,
+    "word": "transmit",
+    "phonetic": "/trænzˈmɪt/",
+    "pos": "v.",
+    "chinese": "传达，传输",
+    "core_state": "一个信号或信息从一个点出发，经过传递，到达另一个点。",
+    "underlying_relation": "信号/信息(起点) → 经过传递 → 到达另一个点(终点)。",
+    "synonyms": [
+      {
+        "word": "pass",
+        "chinese": "传递"
+      },
+      {
+        "word": "send",
+        "chinese": "发送"
+      },
+      {
+        "word": "transfer",
+        "chinese": "转移"
+      }
+    ]
+  },
+  {
+    "id": "read_extinct",
+    "rank": 60,
+    "tier": 2,
+    "word": "extinct",
+    "phonetic": "/ɪkˈstɪŋkt/",
+    "pos": "adj.",
+    "chinese": "灭绝的",
+    "core_state": "一个物种曾经存在过，但现在已经完全消失，不再有任何存活的个体。",
+    "underlying_relation": "曾经存在的物种 → 完全消失 → 不再有存活个体(灭绝)。",
+    "synonyms": [
+      {
+        "word": "die out",
+        "chinese": "灭绝"
+      },
+      {
+        "word": "lost",
+        "chinese": "消失的"
+      }
+    ]
+  },
+  {
+    "id": "read_exclusive",
+    "rank": 61,
+    "tier": 2,
+    "word": "exclusive",
+    "phonetic": "/ɪkˈskluːsɪv/",
+    "pos": "adj.",
+    "chinese": "独有的；排外的；专一的",
+    "core_state": "某个东西只属于一个特定的对象，其他人或事物被排除在外，无法共享。",
+    "underlying_relation": "特定对象 → 独自拥有 → 其他人/事物被排除在外(独有)。",
+    "synonyms": [
+      {
+        "word": "only",
+        "chinese": "仅仅"
+      }
+    ]
+  },
+  {
+    "id": "read_magnetic",
+    "rank": 65,
+    "tier": 2,
+    "word": "magnetic",
+    "phonetic": "/mæɡˈnetɪk/",
+    "pos": "adj.",
+    "chinese": "有磁性的",
+    "core_state": "一个物体具备能够吸引特定金属靠近自己的物理特性。",
+    "underlying_relation": "物体 → 具备吸引特定金属的特性 → 使其靠近(有磁性)。",
+    "synonyms": [
+      {
+        "word": "attractive",
+        "chinese": "有吸引力的"
+      }
+    ]
+  },
+  {
+    "id": "read_loss",
+    "rank": 66,
+    "tier": 2,
+    "word": "loss",
+    "phonetic": "/lɒs/",
+    "pos": "n.",
+    "chinese": "减少；亏损；失败；遗失",
+    "core_state": "一个原本拥有的东西，因为某种过程而不再拥有，数量或价值减少了。",
+    "underlying_relation": "原本拥有的东西 → 经过某过程 → 不再拥有(减少/亏损/遗失)。",
+    "synonyms": [
+      {
+        "word": "waste",
+        "chinese": "浪费"
+      },
+      {
+        "word": "gone",
+        "chinese": "消失的"
+      }
+    ]
+  },
+  {
+    "id": "read_option",
+    "rank": 67,
+    "tier": 2,
+    "word": "option",
+    "phonetic": "/ˈɒpʃn/",
+    "pos": "n.",
+    "chinese": "选择",
+    "core_state": "在多个可能性中，其中一个可以被挑选采用的具体选项。",
+    "underlying_relation": "多个可能性 → 其中一个可被挑选采用 → 构成一个选项。",
+    "synonyms": [
+      {
+        "word": "choice",
+        "chinese": "选择"
+      }
+    ]
+  },
+  {
+    "id": "read_prefer_to",
+    "rank": 68,
+    "tier": 2,
+    "word": "prefer to",
+    "phonetic": "/prɪˈfɜː(r) tuː/",
+    "pos": "phr.",
+    "chinese": "更喜欢",
+    "core_state": "在两个或多个选项之间做比较后，倾向于选择其中一个而不是另一个。",
+    "underlying_relation": "多个选项比较 → 倾向选择其中一个 → 而非另一个(偏好)。",
+    "synonyms": [
+      {
+        "word": "rather",
+        "chinese": "宁愿"
+      }
+    ]
+  },
+  {
+    "id": "read_priority",
+    "rank": 69,
+    "tier": 2,
+    "word": "priority",
+    "phonetic": "/praɪˈɒrəti/",
+    "pos": "n.",
+    "chinese": "优先权",
+    "core_state": "在多件需要处理的事情里，被排在最前面、最先得到关注和资源的那一件。",
+    "underlying_relation": "多件事情 → 排在最前面 → 最先得到关注资源(优先)。",
+    "synonyms": [
+      {
+        "word": "preference",
+        "chinese": "偏好"
+      },
+      {
+        "word": "preferential",
+        "chinese": "优先的"
+      }
+    ]
   }
 ]
