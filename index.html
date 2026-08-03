@@ -43,6 +43,16 @@
             font-weight: bold;
             color: #667eea;
         }
+        .count-total { color: #667eea; }
+        .count-known { color: #28a745; }
+        .section-subtotal {
+            font-size: 13px;
+            color: #999;
+            text-align: center;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #f0f0f0;
+        }
         .stat-label {
             font-size: 12px;
             color: #666;
@@ -813,6 +823,16 @@
             return Math.round((b - a) / 86400000);
         }
 
+        // 把文字安全地塞进HTML属性里用(防止文字本身带引号/特殊符号破坏HTML结构,比如分类名"关于"钱"")
+        function escapeHtmlAttr(str) {
+            return String(str)
+                .replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
         function displayName(w) {
             return w.word || w.phrase || w.root || '';
         }
@@ -1278,7 +1298,8 @@
         let currentCategory = 'all';
         let filteredWords = [];
 
-        let totalAllWords = 0;
+        let totalAllWords = 0;   // 全站总词汇量(主词库+听力+阅读),用于顶部大数字展示
+        let mainBankTotal = 0;   // 主词库(5大分类)总数,用于分类标签,不含听力/阅读
 
         // 记住当前学习位置：存的是"这个词的唯一id"，不是"排第几"，
         // 这样以后不管词库怎么增删、顺序怎么变，都能精确找回原来那个词
@@ -1301,7 +1322,12 @@
             return idx >= 0 ? idx : 0;
         }
 
-        // 更新5个分类标签旁边显示的词汇数量
+        // 总数/已学数字拼成带颜色区分的小段HTML：总数用中性色，已学用绿色
+        function countPairHtml(total, known) {
+            return `<span class="count-total">${total}</span>/学<span class="count-known">${known}</span>`;
+        }
+
+        // 更新5个分类标签旁边显示的词汇数量(只统计主词库,不含听力/阅读)
         function updateTabCounts() {
             const labels = {
                 all: '全部',
@@ -1320,10 +1346,10 @@
                 const knownInCat = words.filter(w => knownIds.has(w.id)).length;
                 totalKnown += knownInCat;
                 const el = document.querySelector(`[data-cat="${cat}"]`);
-                if (el) el.textContent = `${labels[cat]} ${words.length}/学${knownInCat}`;
+                if (el) el.innerHTML = `${labels[cat]} ${countPairHtml(words.length, knownInCat)}`;
             });
             const allEl = document.querySelector('[data-cat="all"]');
-            if (allEl) allEl.textContent = `${labels.all} ${totalAllWords}/学${totalKnown}`;
+            if (allEl) allEl.innerHTML = `${labels.all} ${countPairHtml(mainBankTotal, totalKnown)}`;
         }
 
         async function init() {
@@ -1347,7 +1373,8 @@
                 try { allReadingWords = await fetch('data/reading_words.json').then(r => r.json()); } catch (e) { allReadingWords = []; }
 
                 const fullList = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
-                totalAllWords = fullList.length;
+                mainBankTotal = fullList.length;
+                totalAllWords = mainBankTotal + allListeningWords.length + allReadingWords.length;
                 document.getElementById('totalWords').textContent = totalAllWords;
                 updateTabCounts();
 
@@ -1782,7 +1809,7 @@
         function updateStats() {
             const records = loadRecords();
             const knownCount = Object.values(records).filter(r => r.status === 'know').length;
-            document.getElementById('learnedWords').textContent = `${knownCount}/${totalAllWords}`;
+            document.getElementById('learnedWords').innerHTML = `<span class="count-known">${knownCount}</span>/<span class="count-total">${totalAllWords}</span>`;
             document.getElementById('streakDays').textContent = computeStreak();
 
             const checkins = loadCheckins();
@@ -1991,18 +2018,23 @@
                 container.innerHTML = `<div class="records-empty">听力词汇还没有上传</div>`;
                 return;
             }
+            const records = loadRecords();
+            const knownCount = allListeningWords.filter(w => (records[w.id] || {}).status === 'know').length;
             const groups = {};
             allListeningWords.forEach(w => {
                 if (!groups[w.listenCategory]) groups[w.listenCategory] = { order: w.listenCategoryOrder, words: [] };
                 groups[w.listenCategory].words.push(w);
             });
             const sorted = Object.entries(groups).sort((a, b) => a[1].order - b[1].order);
-            container.innerHTML = sorted.map(([name, g]) => `
-                <div class="record-item" onclick="openListeningCategory('${name.replace(/'/g, "\\'")}')" style="cursor:pointer;">
+            container.innerHTML = `
+                <div class="section-subtotal">共 ${countPairHtml(allListeningWords.length, knownCount)} 词</div>
+                ${sorted.map(([name, g]) => `
+                <div class="record-item" data-catname="${escapeHtmlAttr(name)}" onclick="openListeningCategory(this.dataset.catname)" style="cursor:pointer;">
                     <div class="record-word">${String(g.order).padStart(2, '0')} · ${name}</div>
                     <div class="record-chinese">${g.words.length}个词</div>
                 </div>
-            `).join('');
+            `).join('')}
+            `;
         }
         function openListeningCategory(name) {
             const words = allListeningWords.filter(w => w.listenCategory === name);
@@ -2066,55 +2098,5 @@
                 container.innerHTML = `<div class="records-empty">阅读词汇还没有上传</div>`;
                 return;
             }
-            const sorted = [...allReadingWords].sort((a, b) => (a.rank || 9999) - (b.rank || 9999));
-            container.innerHTML = sorted.map(w => `
-                <div class="reading-row" onclick="openReadingDetail('${w.id}')">
-                    <span class="reading-rank">${w.rank || '-'}</span>
-                    <span class="reading-word">${w.word}</span>
-                    <span class="reading-chinese">${w.chinese}</span>
-                    <button class="speak-btn" style="width:26px;height:26px;font-size:11px;" onclick="event.stopPropagation();playPronunciation('${w.word.replace(/'/g, "\\'")}', this)">🔊</button>
-                </div>
-            `).join('');
-        }
-        let readingBrowseIndex = 0;
-        function openReadingDetail(id) {
-            readingBrowseIndex = allReadingWords.findIndex(w => w.id === id);
-            if (readingBrowseIndex < 0) readingBrowseIndex = 0;
-            renderReadingDetail();
-        }
-        function readingNext() {
-            readingBrowseIndex++;
-            if (readingBrowseIndex >= allReadingWords.length) readingBrowseIndex = 0;
-            renderReadingDetail();
-        }
-        function renderReadingDetail() {
-            const word = allReadingWords[readingBrowseIndex];
-            prefetchAudio(word.word);
-            const container = document.getElementById('readingContent');
-            container.innerHTML = `
-                <button class="back-to-list-btn" onclick="renderReadingList()">◀ 返回列表</button>
-                ${renderReadingCard(word, 'reading-browse')}
-            `;
-        }
-        function markReadingWord(status) {
-            const word = allReadingWords[readingBrowseIndex];
             const records = loadRecords();
-            const rec = records[word.id] || {};
-            rec.status = status;
-            if (status === 'know' && !rec.firstLearnedDate) {
-                rec.firstLearnedDate = todayStr();
-                rec.reviewStage = 0;
-                rec.masteryStreak = 0;
-                rec.graduated = false;
-                rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[0]);
-            }
-            records[word.id] = rec;
-            saveRecords(records);
-            updateStats();
-            readingNext();
-        }
-
-        window.onload = init;
-    </script>
-</body>
-</html>
+            const knownCount = allReadingWords.filter(w => (records[w.id] || {}).status === 'know').le
