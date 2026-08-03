@@ -2063,4 +2063,58 @@
         function renderReadingList() {
             const container = document.getElementById('readingContent');
             if (allReadingWords.length === 0) {
-                container.innerHTML = `<div class
+                container.innerHTML = `<div class="records-empty">阅读词汇还没有上传</div>`;
+                return;
+            }
+            const sorted = [...allReadingWords].sort((a, b) => (a.rank || 9999) - (b.rank || 9999));
+            container.innerHTML = sorted.map(w => `
+                <div class="reading-row" onclick="openReadingDetail('${w.id}')">
+                    <span class="reading-rank">${w.rank || '-'}</span>
+                    <span class="reading-word">${w.word}</span>
+                    <span class="reading-chinese">${w.chinese}</span>
+                    <button class="speak-btn" style="width:26px;height:26px;font-size:11px;" onclick="event.stopPropagation();playPronunciation('${w.word.replace(/'/g, "\\'")}', this)">🔊</button>
+                </div>
+            `).join('');
+        }
+        let readingBrowseIndex = 0;
+        function openReadingDetail(id) {
+            readingBrowseIndex = allReadingWords.findIndex(w => w.id === id);
+            if (readingBrowseIndex < 0) readingBrowseIndex = 0;
+            renderReadingDetail();
+        }
+        function readingNext() {
+            readingBrowseIndex++;
+            if (readingBrowseIndex >= allReadingWords.length) readingBrowseIndex = 0;
+            renderReadingDetail();
+        }
+        function renderReadingDetail() {
+            const word = allReadingWords[readingBrowseIndex];
+            prefetchAudio(word.word);
+            const container = document.getElementById('readingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderReadingList()">◀ 返回列表</button>
+                ${renderReadingCard(word, 'reading-browse')}
+            `;
+        }
+        function markReadingWord(status) {
+            const word = allReadingWords[readingBrowseIndex];
+            const records = loadRecords();
+            const rec = records[word.id] || {};
+            rec.status = status;
+            if (status === 'know' && !rec.firstLearnedDate) {
+                rec.firstLearnedDate = todayStr();
+                rec.reviewStage = 0;
+                rec.masteryStreak = 0;
+                rec.graduated = false;
+                rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[0]);
+            }
+            records[word.id] = rec;
+            saveRecords(records);
+            updateStats();
+            readingNext();
+        }
+
+        window.onload = init;
+    </script>
+</body>
+</html>
