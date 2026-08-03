@@ -4406,5 +4406,2709 @@
     "chinese": "各种各样的",
     "listenCategory": "常用形容词",
     "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_22_orienteering",
+    "word": "orienteering",
+    "phonetic": "/ˌɒriənˈtɪərɪŋ/",
+    "chinese": "定向越野",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_caving",
+    "word": "caving",
+    "phonetic": "/ˈkeɪvɪŋ/",
+    "chinese": "洞穴探险",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_spelunking",
+    "word": "spelunking",
+    "phonetic": "/spɪˈlʌŋkɪŋ/",
+    "chinese": "洞穴探险",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_archery",
+    "word": "archery",
+    "phonetic": "/ˈɑːtʃəri/",
+    "chinese": "射箭",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_ice_skating",
+    "word": "ice skating",
+    "phonetic": "/aɪs ˈskeɪtɪŋ/",
+    "chinese": "滑冰",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_scuba_diving",
+    "word": "scuba-diving",
+    "phonetic": "/ˈskuːbə ˈdaɪvɪŋ/",
+    "chinese": "水肺潜水",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_snorkeling",
+    "word": "snorkeling",
+    "phonetic": "/ˈsnɔːkəlɪŋ/",
+    "chinese": "浮潜",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_skateboarding",
+    "word": "skateboarding",
+    "phonetic": "/ˈskeɪtbɔːdɪŋ/",
+    "chinese": "滑板运动",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_bowls",
+    "word": "bowls",
+    "phonetic": "/bəʊlz/",
+    "chinese": "滚木球",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_darts",
+    "word": "darts",
+    "phonetic": "/dɑːts/",
+    "chinese": "投掷飞镖",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_golf",
+    "word": "golf",
+    "phonetic": "/ɡɒlf/",
+    "chinese": "高尔夫",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_billiards",
+    "word": "billiards",
+    "phonetic": "/ˈbɪliədz/",
+    "chinese": "台球",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_photography",
+    "word": "photography",
+    "phonetic": "/fəˈtɒɡrəfi/",
+    "chinese": "摄影",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_painting",
+    "word": "painting",
+    "phonetic": "/ˈpeɪntɪŋ/",
+    "chinese": "绘画",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_pottery",
+    "word": "pottery",
+    "phonetic": "/ˈpɒtəri/",
+    "chinese": "陶艺",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_woodcarving",
+    "word": "woodcarving",
+    "phonetic": "/ˈwʊdkɑːvɪŋ/",
+    "chinese": "木雕",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_gardening",
+    "word": "gardening",
+    "phonetic": "/ˈɡɑːdnɪŋ/",
+    "chinese": "园艺",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_stamp_collection",
+    "word": "stamp collection",
+    "phonetic": "/stæmp kəˈlekʃn/",
+    "chinese": "集邮",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_embroidery",
+    "word": "embroidery",
+    "phonetic": "/ɪmˈbrɒɪdəri/",
+    "chinese": "刺绣",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_climbing",
+    "word": "climbing",
+    "phonetic": "/ˈklaɪmɪŋ/",
+    "chinese": "攀爬",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_chess",
+    "word": "chess",
+    "phonetic": "/tʃes/",
+    "chinese": "国际象棋",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_22_parachute",
+    "word": "parachute",
+    "phonetic": "/ˈpærəʃuːt/",
+    "chinese": "跳伞",
+    "listenCategory": "爱好",
+    "listenCategoryOrder": 22
+  },
+  {
+    "id": "listen_23_cricket",
+    "word": "cricket",
+    "phonetic": "/ˈkrɪkɪt/",
+    "chinese": "板球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_baseball",
+    "word": "baseball",
+    "phonetic": "/ˈbeɪsbɔːl/",
+    "chinese": "棒球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_basketball",
+    "word": "basketball",
+    "phonetic": "/ˈbɑːskɪtbɔːl/",
+    "chinese": "篮球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_rugby",
+    "word": "rugby",
+    "phonetic": "/ˈrʌɡbi/",
+    "chinese": "橄榄球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_soccer",
+    "word": "soccer",
+    "phonetic": "/ˈsɒkə(r)/",
+    "chinese": "足球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_american_football",
+    "word": "American football",
+    "phonetic": "/əˈmerɪkən ˈfʊtbɔːl/",
+    "chinese": "美式足球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_hockey",
+    "word": "hockey",
+    "phonetic": "/ˈhɒki/",
+    "chinese": "曲棍球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_swimming",
+    "word": "swimming",
+    "phonetic": "/ˈswɪmɪŋ/",
+    "chinese": "游泳",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_tennis",
+    "word": "tennis",
+    "phonetic": "/ˈtenɪs/",
+    "chinese": "网球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_squash",
+    "word": "squash",
+    "phonetic": "/skwɒʃ/",
+    "chinese": "壁球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_badminton",
+    "word": "badminton",
+    "phonetic": "/ˈbædmɪntən/",
+    "chinese": "羽毛球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_ping_pong",
+    "word": "Ping-Pong",
+    "phonetic": "/ˈpɪŋpɒŋ/",
+    "chinese": "乒乓球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_field",
+    "word": "field",
+    "phonetic": "/fiːld/",
+    "chinese": "场地",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_court",
+    "word": "court",
+    "phonetic": "/kɔːt/",
+    "chinese": "球场",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_pitch",
+    "word": "pitch",
+    "phonetic": "/pɪtʃ/",
+    "chinese": "球场",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_stadium",
+    "word": "stadium",
+    "phonetic": "/ˈsteɪdiəm/",
+    "chinese": "体育场",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_team",
+    "word": "team",
+    "phonetic": "/tiːm/",
+    "chinese": "队伍",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_the_discus",
+    "word": "the discus",
+    "phonetic": "/ðə ˈdɪskəs/",
+    "chinese": "铁饼",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_the_javelin",
+    "word": "the javelin",
+    "phonetic": "/ðə ˈdʒævəlɪn/",
+    "chinese": "标枪",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_the_hammer",
+    "word": "the hammer",
+    "phonetic": "/ðə ˈhæmə(r)/",
+    "chinese": "链球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_the_high_jump",
+    "word": "the high jump",
+    "phonetic": "/ðə haɪ dʒʌmp/",
+    "chinese": "跳高",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_horse_racing",
+    "word": "horse racing",
+    "phonetic": "/hɔːs ˈreɪsɪŋ/",
+    "chinese": "赛马",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_show_jumping",
+    "word": "show jumping",
+    "phonetic": "/ʃəʊ ˈdʒʌmpɪŋ/",
+    "chinese": "马术障碍赛",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_polo",
+    "word": "polo",
+    "phonetic": "/ˈpəʊləʊ/",
+    "chinese": "马球",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_cycling",
+    "word": "cycling",
+    "phonetic": "/ˈsaɪklɪŋ/",
+    "chinese": "骑自行车",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_gymnasium",
+    "word": "gymnasium",
+    "phonetic": "/dʒɪmˈneɪziəm/",
+    "chinese": "体育馆",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_athlete",
+    "word": "athlete",
+    "phonetic": "/ˈæθliːt/",
+    "chinese": "运动员",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_gym",
+    "word": "gym",
+    "phonetic": "/dʒɪm/",
+    "chinese": "健身房",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_extreme_sports",
+    "word": "extreme sports",
+    "phonetic": "/ɪkˈstriːm spɔːts/",
+    "chinese": "极限运动",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_paragliding",
+    "word": "paragliding",
+    "phonetic": "/ˈpærəɡlaɪdɪŋ/",
+    "chinese": "滑翔伞",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_hang_gliding",
+    "word": "hang-gliding",
+    "phonetic": "/hæŋ ˈɡlaɪdɪŋ/",
+    "chinese": "悬挂式滑翔",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_skydiving",
+    "word": "skydiving",
+    "phonetic": "/ˈskaɪdaɪvɪŋ/",
+    "chinese": "跳伞运动",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_abseiling",
+    "word": "abseiling",
+    "phonetic": "/ˈæbseɪlɪŋ/",
+    "chinese": "绳降",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_snowboarding",
+    "word": "snowboarding",
+    "phonetic": "/ˈsnəʊbɔːdɪŋ/",
+    "chinese": "单板滑雪",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_bungee_jumping",
+    "word": "bungee jumping",
+    "phonetic": "/ˈbʌndʒi ˈdʒʌmpɪŋ/",
+    "chinese": "蹦极",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_surfing",
+    "word": "surfing",
+    "phonetic": "/ˈsɜːfɪŋ/",
+    "chinese": "冲浪",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_windsurfing",
+    "word": "windsurfing",
+    "phonetic": "/ˈwɪndsɜːfɪŋ/",
+    "chinese": "帆板运动",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_jet_skiing",
+    "word": "jet-skiing",
+    "phonetic": "/dʒet ˈskiːɪŋ/",
+    "chinese": "摩托艇运动",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_body_boarding",
+    "word": "body boarding",
+    "phonetic": "/ˈbɒdi ˈbɔːdɪŋ/",
+    "chinese": "俯式冲浪",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_white_water_rafting",
+    "word": "white-water rafting",
+    "phonetic": "/waɪt ˈwɔːtə(r) ˈrɑːftɪŋ/",
+    "chinese": "激流泛舟",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_kitesurfing",
+    "word": "kitesurfing",
+    "phonetic": "/ˈkaɪtsɜːfɪŋ/",
+    "chinese": "风筝冲浪",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_mountain_biking",
+    "word": "mountain biking",
+    "phonetic": "/ˈmaʊntən ˈbaɪkɪŋ/",
+    "chinese": "山地自行车",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_jogging",
+    "word": "jogging",
+    "phonetic": "/ˈdʒɒɡɪŋ/",
+    "chinese": "慢跑",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_press_up",
+    "word": "press-up",
+    "phonetic": "/ˈpresʌp/",
+    "chinese": "俯卧撑",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_push_up",
+    "word": "push-up",
+    "phonetic": "/ˈpʊʃʌp/",
+    "chinese": "俯卧撑",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_barbell",
+    "word": "barbell",
+    "phonetic": "/ˈbɑːbel/",
+    "chinese": "杠铃",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_treadmill",
+    "word": "treadmill",
+    "phonetic": "/ˈtredmɪl/",
+    "chinese": "跑步机",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_judo",
+    "word": "judo",
+    "phonetic": "/ˈdʒuːdəʊ/",
+    "chinese": "柔道",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_recreation",
+    "word": "recreation",
+    "phonetic": "/ˌrekriˈeɪʃn/",
+    "chinese": "娱乐消遣",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_snooker",
+    "word": "snooker",
+    "phonetic": "/ˈsnuːkə(r)/",
+    "chinese": "斯诺克",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_walking",
+    "word": "walking",
+    "phonetic": "/ˈwɔːkɪŋ/",
+    "chinese": "步行",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_championship",
+    "word": "championship",
+    "phonetic": "/ˈtʃæmpiənʃɪp/",
+    "chinese": "锦标赛",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_canoeing",
+    "word": "canoeing",
+    "phonetic": "/kəˈnuːɪŋ/",
+    "chinese": "划独木舟",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_23_refreshment",
+    "word": "refreshment",
+    "phonetic": "/rɪˈfreʃmənt/",
+    "chinese": "茶点，饮料",
+    "listenCategory": "运动",
+    "listenCategoryOrder": 23
+  },
+  {
+    "id": "listen_25_square",
+    "word": "square",
+    "phonetic": "/skweə(r)/",
+    "chinese": "正方形",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_rectangular",
+    "word": "rectangular",
+    "phonetic": "/rekˈtæŋɡjələ(r)/",
+    "chinese": "矩形的",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_triangular",
+    "word": "triangular",
+    "phonetic": "/traɪˈæŋɡjələ(r)/",
+    "chinese": "三角形的",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_polygon",
+    "word": "polygon",
+    "phonetic": "/ˈpɒliɡən/",
+    "chinese": "多边形",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_oval",
+    "word": "oval",
+    "phonetic": "/ˈəʊvl/",
+    "chinese": "椭圆形",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_spherical",
+    "word": "spherical",
+    "phonetic": "/ˈsferɪkl/",
+    "chinese": "球形的",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_spiral",
+    "word": "spiral",
+    "phonetic": "/ˈspaɪrəl/",
+    "chinese": "螺旋形",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_circular",
+    "word": "circular",
+    "phonetic": "/ˈsɜːkjələ(r)/",
+    "chinese": "圆形的",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_curved",
+    "word": "curved",
+    "phonetic": "/kɜːvd/",
+    "chinese": "弯曲的",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_cylindrical",
+    "word": "cylindrical",
+    "phonetic": "/səˈlɪndrɪkl/",
+    "chinese": "圆柱形的",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_measurement_width",
+    "word": "measurement width",
+    "phonetic": "/ˈmeʒəmənt wɪdθ/",
+    "chinese": "宽度测量",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_length",
+    "word": "length",
+    "phonetic": "/leŋθ/",
+    "chinese": "长度",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_altitude",
+    "word": "altitude",
+    "phonetic": "/ˈæltɪtjuːd/",
+    "chinese": "海拔",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_imperial_system",
+    "word": "imperial system",
+    "phonetic": "/ɪmˈpɪəriəl ˈsɪstəm/",
+    "chinese": "英制单位",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_metric_system",
+    "word": "metric system",
+    "phonetic": "/ˈmetrɪk ˈsɪstəm/",
+    "chinese": "公制单位",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_mass",
+    "word": "mass",
+    "phonetic": "/mæs/",
+    "chinese": "质量",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_depth",
+    "word": "depth",
+    "phonetic": "/depθ/",
+    "chinese": "深度",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_breadth",
+    "word": "breadth",
+    "phonetic": "/bredθ/",
+    "chinese": "宽度",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_height",
+    "word": "height",
+    "phonetic": "/haɪt/",
+    "chinese": "高度",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_three_dimensions",
+    "word": "three dimensions",
+    "phonetic": "/θriː dɪˈmenʃnz/",
+    "chinese": "三维",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_25_frequency",
+    "word": "frequency",
+    "phonetic": "/ˈfriːkwənsi/",
+    "chinese": "频率",
+    "listenCategory": "形状",
+    "listenCategoryOrder": 25
+  },
+  {
+    "id": "listen_26_double_decker_bus",
+    "word": "double-decker bus",
+    "phonetic": "/ˈdʌbl ˈdekə(r) bʌs/",
+    "chinese": "双层巴士",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_single_decker",
+    "word": "single-decker",
+    "phonetic": "/ˈsɪŋɡl ˈdekə(r)/",
+    "chinese": "单层巴士",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_minibus",
+    "word": "minibus",
+    "phonetic": "/ˈmɪnibʌs/",
+    "chinese": "小型巴士",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_school_bus",
+    "word": "school bus",
+    "phonetic": "/skuːl bʌs/",
+    "chinese": "校车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_coach",
+    "word": "coach",
+    "phonetic": "/kəʊtʃ/",
+    "chinese": "长途汽车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_truck",
+    "word": "truck",
+    "phonetic": "/trʌk/",
+    "chinese": "卡车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_tanker",
+    "word": "tanker",
+    "phonetic": "/ˈtæŋkə(r)/",
+    "chinese": "油罐车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_van",
+    "word": "van",
+    "phonetic": "/væn/",
+    "chinese": "货车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_lorry",
+    "word": "lorry",
+    "phonetic": "/ˈlɒri/",
+    "chinese": "卡车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_transporter",
+    "word": "transporter",
+    "phonetic": "/trænˈspɔːtə(r)/",
+    "chinese": "运输车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_forklift_truck",
+    "word": "forklift truck",
+    "phonetic": "/ˈfɔːklɪft trʌk/",
+    "chinese": "叉车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_tow_truck",
+    "word": "tow truck",
+    "phonetic": "/təʊ trʌk/",
+    "chinese": "拖车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_breakdown_truck",
+    "word": "breakdown truck",
+    "phonetic": "/ˈbreɪkdaʊn trʌk/",
+    "chinese": "故障救援车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_pickup",
+    "word": "pickup",
+    "phonetic": "/ˈpɪkʌp/",
+    "chinese": "皮卡车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_jeep",
+    "word": "jeep",
+    "phonetic": "/dʒiːp/",
+    "chinese": "吉普车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_caravan",
+    "word": "caravan",
+    "phonetic": "/ˈkærəvæn/",
+    "chinese": "大篷车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_camper",
+    "word": "camper",
+    "phonetic": "/ˈkæmpə(r)/",
+    "chinese": "露营车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_tractor",
+    "word": "tractor",
+    "phonetic": "/ˈtræktə(r)/",
+    "chinese": "拖拉机",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_taxi",
+    "word": "taxi",
+    "phonetic": "/ˈtæksi/",
+    "chinese": "出租车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_cab",
+    "word": "cab",
+    "phonetic": "/kæb/",
+    "chinese": "出租车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_tram",
+    "word": "tram",
+    "phonetic": "/træm/",
+    "chinese": "有轨电车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_underground",
+    "word": "underground",
+    "phonetic": "/ˈʌndəɡraʊnd/",
+    "chinese": "地铁",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_subway",
+    "word": "subway",
+    "phonetic": "/ˈsʌbweɪ/",
+    "chinese": "地铁",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_steam_train",
+    "word": "steam train",
+    "phonetic": "/stiːm treɪn/",
+    "chinese": "蒸汽火车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_freight_train",
+    "word": "freight train",
+    "phonetic": "/freɪt treɪn/",
+    "chinese": "货运列车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_26_goods_train",
+    "word": "goods train",
+    "phonetic": "/ɡʊdz treɪn/",
+    "chinese": "货运列车",
+    "listenCategory": "交通工具",
+    "listenCategoryOrder": 26
+  },
+  {
+    "id": "listen_27_humid",
+    "word": "humid",
+    "phonetic": "/ˈhjuːmɪd/",
+    "chinese": "潮湿的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_hot",
+    "word": "hot",
+    "phonetic": "/hɒt/",
+    "chinese": "炎热的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_sticky",
+    "word": "sticky",
+    "phonetic": "/ˈstɪki/",
+    "chinese": "黏湿的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_breeze",
+    "word": "breeze",
+    "phonetic": "/briːz/",
+    "chinese": "微风",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_chilly",
+    "word": "chilly",
+    "phonetic": "/ˈtʃɪli/",
+    "chinese": "寒冷的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_cold",
+    "word": "cold",
+    "phonetic": "/kəʊld/",
+    "chinese": "冷的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_cool",
+    "word": "cool",
+    "phonetic": "/kuːl/",
+    "chinese": "凉爽的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_dry",
+    "word": "dry",
+    "phonetic": "/draɪ/",
+    "chinese": "干燥的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_dusty",
+    "word": "dusty",
+    "phonetic": "/ˈdʌsti/",
+    "chinese": "多尘的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_freezing",
+    "word": "freezing",
+    "phonetic": "/ˈfriːzɪŋ/",
+    "chinese": "冰冻的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_warm",
+    "word": "warm",
+    "phonetic": "/wɔːm/",
+    "chinese": "温暖的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_wet",
+    "word": "wet",
+    "phonetic": "/wet/",
+    "chinese": "潮湿的",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_weather_forecast",
+    "word": "weather forecast",
+    "phonetic": "/ˈweðə(r) ˈfɔːkɑːst/",
+    "chinese": "天气预报",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_antenna",
+    "word": "antenna",
+    "phonetic": "/ænˈtenə/",
+    "chinese": "天线",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_27_moisture",
+    "word": "moisture",
+    "phonetic": "/ˈmɒɪstʃə(r)/",
+    "chinese": "水分，湿度",
+    "listenCategory": "天气",
+    "listenCategoryOrder": 27
+  },
+  {
+    "id": "listen_28_local_library",
+    "word": "local library",
+    "phonetic": "/ˈləʊkl ˈlaɪbrəri/",
+    "chinese": "当地图书馆",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_swimming_pool",
+    "word": "swimming pool",
+    "phonetic": "/ˈswɪmɪŋ puːl/",
+    "chinese": "游泳池",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_cafeteria",
+    "word": "cafeteria",
+    "phonetic": "/ˌkæfəˈtɪəriə/",
+    "chinese": "自助餐厅",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_cottage",
+    "word": "cottage",
+    "phonetic": "/ˈkɒtɪdʒ/",
+    "chinese": "小屋",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_parliament",
+    "word": "parliament",
+    "phonetic": "/ˈpɑːləmənt/",
+    "chinese": "议会",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_accommodation",
+    "word": "accommodation",
+    "phonetic": "/əˌkɒməˈdeɪʃn/",
+    "chinese": "住宿",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_restaurant",
+    "word": "restaurant",
+    "phonetic": "/ˈrestrɒnt/",
+    "chinese": "餐厅",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_canteen",
+    "word": "canteen",
+    "phonetic": "/kænˈtiːn/",
+    "chinese": "食堂",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_cafe",
+    "word": "cafe",
+    "phonetic": "/ˈkæfeɪ/",
+    "chinese": "咖啡馆",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_bookshop",
+    "word": "bookshop",
+    "phonetic": "/ˈbʊkʃɒp/",
+    "chinese": "书店",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_sports_centre",
+    "word": "sports centre",
+    "phonetic": "/spɔːts ˈsentə(r)/",
+    "chinese": "体育中心",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_city_council",
+    "word": "city council",
+    "phonetic": "/ˈsɪti ˈkaʊnsl/",
+    "chinese": "市议会",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_dance_studio",
+    "word": "dance studio",
+    "phonetic": "/dɑːns ˈstjuːdiəʊ/",
+    "chinese": "舞蹈工作室",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_park",
+    "word": "park",
+    "phonetic": "/pɑːk/",
+    "chinese": "公园",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_conversation_club",
+    "word": "conversation club",
+    "phonetic": "/ˌkɒnvəˈseɪʃn klʌb/",
+    "chinese": "交流俱乐部",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_28_kindergarten",
+    "word": "kindergarten",
+    "phonetic": "/ˈkɪndəɡɑːtn/",
+    "chinese": "幼儿园",
+    "listenCategory": "地点",
+    "listenCategoryOrder": 28
+  },
+  {
+    "id": "listen_29_helmet",
+    "word": "helmet",
+    "phonetic": "/ˈhelmɪt/",
+    "chinese": "头盔",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_light",
+    "word": "light",
+    "phonetic": "/laɪt/",
+    "chinese": "灯",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_musical_instrument",
+    "word": "musical instrument",
+    "phonetic": "/ˈmjuːzɪkl ˈɪnstrəmənt/",
+    "chinese": "乐器",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_cassette",
+    "word": "cassette",
+    "phonetic": "/kəˈset/",
+    "chinese": "磁带",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_silicon_chip",
+    "word": "silicon chip",
+    "phonetic": "/ˈsɪlɪkən tʃɪp/",
+    "chinese": "硅芯片",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_digital_monitor",
+    "word": "digital monitor",
+    "phonetic": "/ˈdɪdʒɪtl ˈmɒnɪtə(r)/",
+    "chinese": "数字监视器",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_gadget",
+    "word": "gadget",
+    "phonetic": "/ˈɡædʒɪt/",
+    "chinese": "小工具",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_device",
+    "word": "device",
+    "phonetic": "/dɪˈvaɪs/",
+    "chinese": "设备",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_screen",
+    "word": "screen",
+    "phonetic": "/skriːn/",
+    "chinese": "屏幕",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_brakes",
+    "word": "brakes",
+    "phonetic": "/breɪks/",
+    "chinese": "刹车",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_wheels",
+    "word": "wheels",
+    "phonetic": "/wiːlz/",
+    "chinese": "轮子",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_mechanical_pencil",
+    "word": "mechanical pencil",
+    "phonetic": "/məˈkænɪkl ˈpensl/",
+    "chinese": "自动铅笔",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_disk",
+    "word": "disk",
+    "phonetic": "/dɪsk/",
+    "chinese": "磁盘",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_29_backpack",
+    "word": "backpack",
+    "phonetic": "/ˈbækpæk/",
+    "chinese": "背包",
+    "listenCategory": "装备和工具",
+    "listenCategoryOrder": 29
+  },
+  {
+    "id": "listen_30_opera",
+    "word": "opera",
+    "phonetic": "/ˈɒprə/",
+    "chinese": "歌剧",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_orchestra",
+    "word": "orchestra",
+    "phonetic": "/ˈɔːkɪstrə/",
+    "chinese": "管弦乐队",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_concert",
+    "word": "concert",
+    "phonetic": "/ˈkɒnsət/",
+    "chinese": "音乐会",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_symphony",
+    "word": "symphony",
+    "phonetic": "/ˈsɪmfəni/",
+    "chinese": "交响乐",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_the_press",
+    "word": "the press",
+    "phonetic": "/ðə pres/",
+    "chinese": "新闻界",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_conductor",
+    "word": "conductor",
+    "phonetic": "/kənˈdʌktə(r)/",
+    "chinese": "指挥",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_vocalist",
+    "word": "vocalist",
+    "phonetic": "/ˈvəʊkəlɪst/",
+    "chinese": "歌手",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_audience",
+    "word": "audience",
+    "phonetic": "/ˈɔːdiəns/",
+    "chinese": "观众",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_festival",
+    "word": "festival",
+    "phonetic": "/ˈfestɪvl/",
+    "chinese": "节日，庆典",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_carnival",
+    "word": "carnival",
+    "phonetic": "/ˈkɑːnɪvl/",
+    "chinese": "狂欢节",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_exhibition",
+    "word": "exhibition",
+    "phonetic": "/ˌeksɪˈbɪʃn/",
+    "chinese": "展览",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_classical_music",
+    "word": "classical music",
+    "phonetic": "/ˈklæsɪkl ˈmjuːzɪk/",
+    "chinese": "古典音乐",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_theatre",
+    "word": "theatre",
+    "phonetic": "/ˈθɪətə(r)/",
+    "chinese": "剧院",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_cinemas",
+    "word": "cinemas",
+    "phonetic": "/ˈsɪnəmæz/",
+    "chinese": "电影院",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_art_gallery",
+    "word": "art gallery",
+    "phonetic": "/ɑːt ˈɡæləri/",
+    "chinese": "美术馆",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_museum",
+    "word": "museum",
+    "phonetic": "/mjuˈziːəm/",
+    "chinese": "博物馆",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_ballet",
+    "word": "ballet",
+    "phonetic": "/ˈbæleɪ/",
+    "chinese": "芭蕾舞",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_television",
+    "word": "television",
+    "phonetic": "/ˈtelɪvɪʒn/",
+    "chinese": "电视",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_radio",
+    "word": "radio",
+    "phonetic": "/ˈreɪdiəʊ/",
+    "chinese": "广播",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_graphics",
+    "word": "graphics",
+    "phonetic": "/ˈɡræfɪks/",
+    "chinese": "图形设计",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_30_newspaper",
+    "word": "newspaper",
+    "phonetic": "/ˈnjuːzpeɪpə(r)/",
+    "chinese": "报纸",
+    "listenCategory": "艺术媒体",
+    "listenCategoryOrder": 30
+  },
+  {
+    "id": "listen_31_fur",
+    "word": "fur",
+    "phonetic": "/fɜː(r)/",
+    "chinese": "毛皮",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_metal",
+    "word": "metal",
+    "phonetic": "/ˈmetl/",
+    "chinese": "金属",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_steel",
+    "word": "steel",
+    "phonetic": "/stiːl/",
+    "chinese": "钢",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_aluminum",
+    "word": "aluminum",
+    "phonetic": "/əˈluːmɪnəm/",
+    "chinese": "铝",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_copper",
+    "word": "copper",
+    "phonetic": "/ˈkɒpə(r)/",
+    "chinese": "铜",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_rubber",
+    "word": "rubber",
+    "phonetic": "/ˈrʌbə(r)/",
+    "chinese": "橡胶",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_plastic",
+    "word": "plastic",
+    "phonetic": "/ˈplæstɪk/",
+    "chinese": "塑料",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_ceramics",
+    "word": "ceramics",
+    "phonetic": "/səˈræmɪks/",
+    "chinese": "陶瓷",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_glass",
+    "word": "glass",
+    "phonetic": "/ɡlɑːs/",
+    "chinese": "玻璃",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_cement",
+    "word": "cement",
+    "phonetic": "/sɪˈment/",
+    "chinese": "水泥",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_stone",
+    "word": "stone",
+    "phonetic": "/stəʊn/",
+    "chinese": "石头",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_textile",
+    "word": "textile",
+    "phonetic": "/ˈtekstaɪl/",
+    "chinese": "纺织品",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_cotton",
+    "word": "cotton",
+    "phonetic": "/ˈkɒtn/",
+    "chinese": "棉",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_fabric",
+    "word": "fabric",
+    "phonetic": "/ˈfæbrɪk/",
+    "chinese": "织物",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_wool",
+    "word": "wool",
+    "phonetic": "/wʊl/",
+    "chinese": "羊毛",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_leather",
+    "word": "leather",
+    "phonetic": "/ˈleðə(r)/",
+    "chinese": "皮革",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_bone",
+    "word": "bone",
+    "phonetic": "/bəʊn/",
+    "chinese": "骨头",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_paper",
+    "word": "paper",
+    "phonetic": "/ˈpeɪpə(r)/",
+    "chinese": "纸",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_lumber",
+    "word": "lumber",
+    "phonetic": "/ˈlʌmbə(r)/",
+    "chinese": "木材",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_glue",
+    "word": "glue",
+    "phonetic": "/ɡluː/",
+    "chinese": "胶水",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_composite",
+    "word": "composite",
+    "phonetic": "/ˈkɒmpəzɪt/",
+    "chinese": "复合材料",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_fiberglass",
+    "word": "fiberglass",
+    "phonetic": "/ˈfaɪbərɡlɑːs/",
+    "chinese": "玻璃纤维",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_concrete",
+    "word": "concrete",
+    "phonetic": "/ˈkɒŋkriːt/",
+    "chinese": "混凝土",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_wax",
+    "word": "wax",
+    "phonetic": "/wæks/",
+    "chinese": "蜡",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_silver",
+    "word": "silver",
+    "phonetic": "/ˈsɪlvə(r)/",
+    "chinese": "银",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_gold",
+    "word": "gold",
+    "phonetic": "/ɡəʊld/",
+    "chinese": "金",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_31_feather",
+    "word": "feather",
+    "phonetic": "/ˈfeðə(r)/",
+    "chinese": "羽毛",
+    "listenCategory": "材料",
+    "listenCategoryOrder": 31
+  },
+  {
+    "id": "listen_32_occupation",
+    "word": "occupation",
+    "phonetic": "/ˌɒkjuˈpeɪʃn/",
+    "chinese": "职业",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_profession",
+    "word": "profession",
+    "phonetic": "/prəˈfeʃn/",
+    "chinese": "职业",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_designer",
+    "word": "designer",
+    "phonetic": "/dɪˈzaɪnə(r)/",
+    "chinese": "设计师",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_decorator",
+    "word": "decorator",
+    "phonetic": "/ˈdekəreɪtə(r)/",
+    "chinese": "装饰师",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_architect",
+    "word": "architect",
+    "phonetic": "/ˈɑːkɪtekt/",
+    "chinese": "建筑师",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_engineer",
+    "word": "engineer",
+    "phonetic": "/ˌendʒɪˈnɪə(r)/",
+    "chinese": "工程师",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_manager",
+    "word": "manager",
+    "phonetic": "/ˈmænɪdʒə(r)/",
+    "chinese": "经理",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_waitress",
+    "word": "waitress",
+    "phonetic": "/ˈweɪtrəs/",
+    "chinese": "女服务员",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_waiter",
+    "word": "waiter",
+    "phonetic": "/ˈweɪtə(r)/",
+    "chinese": "男服务员",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_teacher",
+    "word": "teacher",
+    "phonetic": "/ˈtiːtʃə(r)/",
+    "chinese": "教师",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_vacancy",
+    "word": "vacancy",
+    "phonetic": "/ˈveɪkənsi/",
+    "chinese": "职位空缺",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_professor",
+    "word": "professor",
+    "phonetic": "/prəˈfesə(r)/",
+    "chinese": "教授",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_specialist",
+    "word": "specialist",
+    "phonetic": "/ˈspeʃəlɪst/",
+    "chinese": "专家",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_psychologist",
+    "word": "psychologist",
+    "phonetic": "/saɪˈkɒlədʒɪst/",
+    "chinese": "心理学家",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_volunteer",
+    "word": "volunteer",
+    "phonetic": "/ˌvɒlənˈtɪə(r)/",
+    "chinese": "志愿者",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_freelance",
+    "word": "freelance",
+    "phonetic": "/ˈfriːlɑːns/",
+    "chinese": "自由职业",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_secretary",
+    "word": "secretary",
+    "phonetic": "/ˈsekrətri/",
+    "chinese": "秘书",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_craftsman",
+    "word": "craftsman",
+    "phonetic": "/ˈkrɑːftsmən/",
+    "chinese": "工匠",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_work_experience",
+    "word": "work experience",
+    "phonetic": "/wɜːk ɪkˈspɪəriəns/",
+    "chinese": "工作经验",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_curriculum_vitae",
+    "word": "curriculum vitae",
+    "phonetic": "/kəˈrɪkjələm ˈviːtaɪ/",
+    "chinese": "履历",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_mail_address",
+    "word": "mail address",
+    "phonetic": "/meɪl əˈdres/",
+    "chinese": "邮寄地址",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_receptionist",
+    "word": "receptionist",
+    "phonetic": "/rɪˈsepʃənɪst/",
+    "chinese": "接待员",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_pilot",
+    "word": "pilot",
+    "phonetic": "/ˈpaɪlət/",
+    "chinese": "飞行员",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_guard",
+    "word": "guard",
+    "phonetic": "/ɡɑːd/",
+    "chinese": "保安",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_flight_attendant",
+    "word": "flight attendant",
+    "phonetic": "/flaɪt əˈtendənt/",
+    "chinese": "乘务员",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_lecturer",
+    "word": "lecturer",
+    "phonetic": "/ˈlektʃərə(r)/",
+    "chinese": "讲师",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_office_assistant",
+    "word": "office assistant",
+    "phonetic": "/ˈɒfɪs əˈsɪstənt/",
+    "chinese": "办公室助理",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_clerk",
+    "word": "clerk",
+    "phonetic": "/klɑːk/",
+    "chinese": "职员",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_accountant",
+    "word": "accountant",
+    "phonetic": "/əˈkaʊntənt/",
+    "chinese": "会计",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_cashier",
+    "word": "cashier",
+    "phonetic": "/kæˈʃɪə(r)/",
+    "chinese": "收银员",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_32_captain",
+    "word": "captain",
+    "phonetic": "/ˈkæptɪn/",
+    "chinese": "船长，队长",
+    "listenCategory": "职业",
+    "listenCategoryOrder": 32
+  },
+  {
+    "id": "listen_33_blue",
+    "word": "blue",
+    "phonetic": "/bluː/",
+    "chinese": "蓝色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_white",
+    "word": "white",
+    "phonetic": "/waɪt/",
+    "chinese": "白色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_orange",
+    "word": "orange",
+    "phonetic": "/ˈɒrɪndʒ/",
+    "chinese": "橙色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_green",
+    "word": "green",
+    "phonetic": "/ɡriːn/",
+    "chinese": "绿色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_grey",
+    "word": "grey",
+    "phonetic": "/ɡreɪ/",
+    "chinese": "灰色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_black",
+    "word": "black",
+    "phonetic": "/blæk/",
+    "chinese": "黑色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_red",
+    "word": "red",
+    "phonetic": "/red/",
+    "chinese": "红色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_yellow",
+    "word": "yellow",
+    "phonetic": "/ˈjeləʊ/",
+    "chinese": "黄色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_purple",
+    "word": "purple",
+    "phonetic": "/ˈpɜːpl/",
+    "chinese": "紫色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_brown",
+    "word": "brown",
+    "phonetic": "/braʊn/",
+    "chinese": "棕色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_33_pink",
+    "word": "pink",
+    "phonetic": "/pɪŋk/",
+    "chinese": "粉色",
+    "listenCategory": "颜色",
+    "listenCategoryOrder": 33
+  },
+  {
+    "id": "listen_34_three_times",
+    "word": "three times",
+    "phonetic": "/θriː taɪmz/",
+    "chinese": "三次",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_three_times_per_week",
+    "word": "three times per week",
+    "phonetic": "/θriː taɪmz pə(r) wiːk/",
+    "chinese": "每周三次",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_a_gap_year",
+    "word": "a gap year",
+    "phonetic": "/ə ɡæp jɪə(r)/",
+    "chinese": "间隔年",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_full_time",
+    "word": "full time",
+    "phonetic": "/fʊl taɪm/",
+    "chinese": "全职",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_part_time",
+    "word": "part-time",
+    "phonetic": "/pɑːt taɪm/",
+    "chinese": "兼职",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_midday",
+    "word": "midday",
+    "phonetic": "/ˌmɪdˈdeɪ/",
+    "chinese": "正午",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_midnight",
+    "word": "midnight",
+    "phonetic": "/ˈmɪdnaɪt/",
+    "chinese": "午夜",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_millennium",
+    "word": "millennium",
+    "phonetic": "/mɪˈleniəm/",
+    "chinese": "千年",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_century",
+    "word": "century",
+    "phonetic": "/ˈsentʃəri/",
+    "chinese": "世纪",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_decade",
+    "word": "decade",
+    "phonetic": "/ˈdekeɪd/",
+    "chinese": "十年",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_34_fortnight",
+    "word": "fortnight",
+    "phonetic": "/ˈfɔːtnaɪt/",
+    "chinese": "两周",
+    "listenCategory": "时间表达",
+    "listenCategoryOrder": 34
+  },
+  {
+    "id": "listen_35_passport_photo",
+    "word": "passport photo",
+    "phonetic": "/ˈpɑːspɔːt ˈfəʊtəʊ/",
+    "chinese": "护照照片",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_state",
+    "word": "state",
+    "phonetic": "/steɪt/",
+    "chinese": "州；国家",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_government",
+    "word": "government",
+    "phonetic": "/ˈɡʌvənmənt/",
+    "chinese": "政府",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_individual",
+    "word": "individual",
+    "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+    "chinese": "个人",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_variety",
+    "word": "variety",
+    "phonetic": "/vəˈraɪəti/",
+    "chinese": "多样性",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_private_sector",
+    "word": "private sector",
+    "phonetic": "/ˈpraɪvət ˈsektə(r)/",
+    "chinese": "私营部门",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_practice",
+    "word": "practice",
+    "phonetic": "/ˈpræktɪs/",
+    "chinese": "实践",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_gender",
+    "word": "gender",
+    "phonetic": "/ˈdʒendə(r)/",
+    "chinese": "性别",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_creativity",
+    "word": "creativity",
+    "phonetic": "/ˌkriːeɪˈtɪvəti/",
+    "chinese": "创造力",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_original_inhabitant",
+    "word": "original inhabitant",
+    "phonetic": "/əˈrɪdʒənl ɪnˈhæbɪtənt/",
+    "chinese": "原始居民",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_indigenous",
+    "word": "indigenous",
+    "phonetic": "/ɪnˈdɪdʒənəs/",
+    "chinese": "土著的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_demonstration",
+    "word": "demonstration",
+    "phonetic": "/ˌdemənˈstreɪʃn/",
+    "chinese": "示威游行",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_strike",
+    "word": "strike",
+    "phonetic": "/straɪk/",
+    "chinese": "罢工",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_entrance",
+    "word": "entrance",
+    "phonetic": "/ˈentrəns/",
+    "chinese": "入口",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_circuit",
+    "word": "circuit",
+    "phonetic": "/ˈsɜːkɪt/",
+    "chinese": "电路；环形赛道",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_guarantee",
+    "word": "guarantee",
+    "phonetic": "/ˌɡærənˈtiː/",
+    "chinese": "保证",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_dialogue",
+    "word": "dialogue",
+    "phonetic": "/ˈdaɪəlɒɡ/",
+    "chinese": "对话",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_commerce",
+    "word": "commerce",
+    "phonetic": "/ˈkɒmɜːs/",
+    "chinese": "商业",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_carriage",
+    "word": "carriage",
+    "phonetic": "/ˈkærɪdʒ/",
+    "chinese": "车厢",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_narrative",
+    "word": "narrative",
+    "phonetic": "/ˈnærətɪv/",
+    "chinese": "叙事",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_chocolate",
+    "word": "chocolate",
+    "phonetic": "/ˈtʃɒklət/",
+    "chinese": "巧克力",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_satellite",
+    "word": "satellite",
+    "phonetic": "/ˈsætəlaɪt/",
+    "chinese": "卫星",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_decision",
+    "word": "decision",
+    "phonetic": "/dɪˈsɪʒn/",
+    "chinese": "决定",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_prototype",
+    "word": "prototype",
+    "phonetic": "/ˈprəʊtətaɪp/",
+    "chinese": "原型",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_attitude",
+    "word": "attitude",
+    "phonetic": "/ˈætɪtjuːd/",
+    "chinese": "态度",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_daily_routine",
+    "word": "daily routine",
+    "phonetic": "/ˈdeɪli ruːˈtiːn/",
+    "chinese": "日常惯例",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_personal_fulfillment",
+    "word": "personal fulfillment",
+    "phonetic": "/ˈpɜːsənl fʊlˈfɪlmənt/",
+    "chinese": "个人成就感",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_activity",
+    "word": "activity",
+    "phonetic": "/ækˈtɪvəti/",
+    "chinese": "活动",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_recipient",
+    "word": "recipient",
+    "phonetic": "/rɪˈsɪpiənt/",
+    "chinese": "接收者",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_ultrasound",
+    "word": "ultrasound",
+    "phonetic": "/ˈʌltrəsaʊnd/",
+    "chinese": "超声波",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_pedestrian_safety",
+    "word": "pedestrian safety",
+    "phonetic": "/pəˈdestriən ˈseɪfti/",
+    "chinese": "行人安全",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_traffic_jams",
+    "word": "traffic jams",
+    "phonetic": "/ˈtræfɪk dʒæmz/",
+    "chinese": "交通堵塞",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_procedures",
+    "word": "procedures",
+    "phonetic": "/prəˈsiːdʒəz/",
+    "chinese": "程序",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_creation",
+    "word": "creation",
+    "phonetic": "/kriˈeɪʃn/",
+    "chinese": "创造",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_prize",
+    "word": "prize",
+    "phonetic": "/praɪz/",
+    "chinese": "奖品",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_junior",
+    "word": "junior",
+    "phonetic": "/ˈdʒuːniə(r)/",
+    "chinese": "初级的，年少的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_senior",
+    "word": "senior",
+    "phonetic": "/ˈsiːniə(r)/",
+    "chinese": "高级的，年长的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_opportunity",
+    "word": "opportunity",
+    "phonetic": "/ˌɒpəˈtjuːnəti/",
+    "chinese": "机会",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_driving_license",
+    "word": "driving license",
+    "phonetic": "/ˈdraɪvɪŋ ˈlaɪsns/",
+    "chinese": "驾照",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_process",
+    "word": "process",
+    "phonetic": "/ˈprəʊses/",
+    "chinese": "过程",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_literary",
+    "word": "literary",
+    "phonetic": "/ˈlɪtərəri/",
+    "chinese": "文学的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_man_made",
+    "word": "man-made",
+    "phonetic": "/mæn ˈmeɪd/",
+    "chinese": "人造的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_republicans",
+    "word": "republicans",
+    "phonetic": "/rɪˈpʌblɪkənz/",
+    "chinese": "共和党人",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_umbrella",
+    "word": "umbrella",
+    "phonetic": "/ʌmˈbrelə/",
+    "chinese": "雨伞",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_frequently_updated",
+    "word": "frequently updated",
+    "phonetic": "/ˈfriːkwəntli ˌʌpˈdeɪtɪd/",
+    "chinese": "频繁更新的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_waiting_list",
+    "word": "waiting list",
+    "phonetic": "/ˈweɪtɪŋ lɪst/",
+    "chinese": "等候名单",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_sewer_systems",
+    "word": "sewer systems",
+    "phonetic": "/ˈsuːə(r) ˈsɪstəmz/",
+    "chinese": "排水系统",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_liberal_democracy",
+    "word": "liberal democracy",
+    "phonetic": "/ˈlɪbərəl dɪˈmɒkrəsi/",
+    "chinese": "自由民主制",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_democrats",
+    "word": "democrats",
+    "phonetic": "/ˈdeməkræts/",
+    "chinese": "民主党人",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_lunar_calendar",
+    "word": "lunar calendar",
+    "phonetic": "/ˈluːnə(r) ˈkæləndə(r)/",
+    "chinese": "农历",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_libertarian",
+    "word": "libertarian",
+    "phonetic": "/ˌlɪbəˈteəriən/",
+    "chinese": "自由主义者",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_burger",
+    "word": "burger",
+    "phonetic": "/ˈbɜːɡə(r)/",
+    "chinese": "汉堡",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_videos",
+    "word": "videos",
+    "phonetic": "/ˈvɪdiəʊz/",
+    "chinese": "视频",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_nature_conservation",
+    "word": "nature conservation",
+    "phonetic": "/ˈneɪtʃə(r) ˌkɒnsəˈveɪʃn/",
+    "chinese": "自然保护",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_life_expectancy",
+    "word": "life expectancy",
+    "phonetic": "/laɪf ɪkˈspektənsi/",
+    "chinese": "预期寿命",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_fund_raising_event",
+    "word": "fund-raising event",
+    "phonetic": "/fʌnd ˈreɪzɪŋ ɪˈvent/",
+    "chinese": "筹款活动",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_magnet",
+    "word": "magnet",
+    "phonetic": "/ˈmæɡnət/",
+    "chinese": "磁铁",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_dialect",
+    "word": "dialect",
+    "phonetic": "/ˈdaɪəlekt/",
+    "chinese": "方言",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_ramification",
+    "word": "ramification",
+    "phonetic": "/ˌræmɪfɪˈkeɪʃn/",
+    "chinese": "后果，分支",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_straight",
+    "word": "straight",
+    "phonetic": "/streɪt/",
+    "chinese": "直的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_farewell",
+    "word": "farewell",
+    "phonetic": "/feəˈwel/",
+    "chinese": "告别",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_welfare",
+    "word": "welfare",
+    "phonetic": "/ˈwelfeə(r)/",
+    "chinese": "福利",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_encyclopedia",
+    "word": "encyclopedia",
+    "phonetic": "/ɪnˌsaɪkləˈpiːdiə/",
+    "chinese": "百科全书",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_evolution",
+    "word": "evolution",
+    "phonetic": "/ˌiːvəˈluːʃn/",
+    "chinese": "进化",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_revolution",
+    "word": "revolution",
+    "phonetic": "/ˌrevəˈluːʃn/",
+    "chinese": "革命",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_illiteracy",
+    "word": "illiteracy",
+    "phonetic": "/ɪˈlɪtərəsi/",
+    "chinese": "文盲",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_robot",
+    "word": "robot",
+    "phonetic": "/ˈrəʊbɒt/",
+    "chinese": "机器人",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_proficiency",
+    "word": "proficiency",
+    "phonetic": "/prəˈfɪʃnsi/",
+    "chinese": "熟练程度",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
+  },
+  {
+    "id": "listen_35_sufficient",
+    "word": "sufficient",
+    "phonetic": "/səˈfɪʃnt/",
+    "chinese": "足够的",
+    "listenCategory": "其他",
+    "listenCategoryOrder": 35
   }
 ]
