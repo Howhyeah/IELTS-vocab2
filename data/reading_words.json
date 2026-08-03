@@ -407,7 +407,7 @@
     "phonetic": "/ðæt/",
     "pos": "pron.",
     "chinese": "那；那个（*指代是雅思阅读重要考点）",
-    "core_state": "用来替代前面已经提到过的某个具体事物，避免重复说同一个词。",
+    "core_state": "",
     "underlying_relation": "前面提到的事物 → 用这个词替代 → 避免重复(指代关系)。",
     "synonyms": [
       {
@@ -444,7 +444,7 @@
     "phonetic": "/ænd/",
     "pos": "conj.",
     "chinese": "和，而且（*并列结构是雅思阅读重要考点）",
-    "core_state": "把两个或多个地位相同、可以并列存在的内容连接在一起，表示同时具备。",
+    "core_state": "",
     "underlying_relation": "内容A + 内容B → 地位相同并列连接 → 同时具备两者。",
     "synonyms": [
       {
@@ -493,7 +493,7 @@
     "phonetic": "/ˈrɑːðə(r) ðæn/",
     "pos": "phr.",
     "chinese": "而非，不是（*转折结构是雅思阅读重要考点）",
-    "core_state": "在两个选项之间，明确地选中前一个而排除后一个，形成对比。",
+    "core_state": "",
     "underlying_relation": "选项A vs 选项B → 明确选中A排除B → 形成对比转折关系。",
     "synonyms": [
       {
@@ -546,7 +546,7 @@
     "phonetic": "/θæŋks tuː/",
     "pos": "phr.",
     "chinese": "由于，幸亏（*因果关系是雅思阅读重要考点）",
-    "core_state": "一个结果的出现，能够追溯到前面某个具体的原因，原因和结果之间形成了因果链条。",
+    "core_state": "",
     "underlying_relation": "具体原因 → 因果链条 → 导致结果出现。",
     "synonyms": [
       {
