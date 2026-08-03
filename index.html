@@ -463,6 +463,75 @@
         .record-chinese { color: #666; font-size: 13px; text-align: right; }
         .records-empty { text-align: center; color: #999; padding: 40px 0; }
         .drill-btn { border-color: #ff9f43; color: #ff9f43; }
+        .listen-btn { border-color: #17a2b8; color: #17a2b8; }
+        .read-btn { border-color: #6f42c1; color: #6f42c1; }
+        .source-tag {
+            font-size: 11px;
+            color: #667eea;
+            background: #f0f0fa;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: 6px;
+        }
+        .listen-cat-title {
+            font-size: 15px;
+            font-weight: bold;
+            color: #17a2b8;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e8f7f9;
+        }
+        .listen-word-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 12px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            margin-bottom: 10px;
+        }
+        .listen-word-left { flex: 1; }
+        .listen-word-top { display: flex; align-items: center; gap: 8px; }
+        .listen-word-text { font-size: 17px; font-weight: bold; color: #333; }
+        .listen-word-phonetic { font-size: 13px; color: #999; margin-top: 2px; }
+        .listen-word-chinese { font-size: 14px; color: #667eea; margin-top: 4px; }
+        .listen-mark-btn {
+            font-size: 26px;
+            padding: 0 8px;
+            cursor: pointer;
+        }
+        .reading-row {
+            display: flex;
+            align-items: center;
+            padding: 13px 12px;
+            border-bottom: 1px solid #f0f0f0;
+            cursor: pointer;
+        }
+        .reading-row:active { background: #f8f9fa; }
+        .reading-rank {
+            display: inline-block;
+            min-width: 28px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #6f42c1;
+            background: #f3eefc;
+            border-radius: 8px;
+            text-align: center;
+            padding: 3px 0;
+            margin-right: 12px;
+        }
+        .reading-word {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            margin-right: 10px;
+            min-width: 90px;
+        }
+        .reading-chinese {
+            flex: 1;
+            font-size: 13px;
+            color: #666;
+        }
         .drill-progress {
             text-align: center;
             font-size: 13px;
@@ -589,6 +658,8 @@
 
         <button class="records-btn" onclick="openRecords()">📖 查看学习记录（已背 / 模糊记忆 / 待复习）</button>
         <button class="records-btn drill-btn" onclick="openDrill()">🔥 词组强记模式</button>
+        <button class="records-btn listen-btn" onclick="openListening()">🎧 听力词汇</button>
+        <button class="records-btn read-btn" onclick="openReading()">📖 阅读词汇</button>
 
         <div class="data-actions">
             <button class="data-btn" onclick="exportData()">⬆️ 导出学习记录</button>
@@ -637,6 +708,28 @@
                 <button class="modal-close" onclick="closeDrill()">✕</button>
             </div>
             <div id="drillContent" class="records-list"></div>
+        </div>
+    </div>
+
+    <!-- 听力词汇弹窗 -->
+    <div id="listeningModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h2>🎧 听力词汇</h2>
+                <button class="modal-close" onclick="closeListening()">✕</button>
+            </div>
+            <div id="listeningContent" class="records-list"></div>
+        </div>
+    </div>
+
+    <!-- 阅读词汇弹窗 -->
+    <div id="readingModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h2>📖 阅读词汇</h2>
+                <button class="modal-close" onclick="closeReading()">✕</button>
+            </div>
+            <div id="readingContent" class="records-list"></div>
         </div>
     </div>
 
@@ -702,10 +795,19 @@
             return w.word || w.phrase || w.root || '';
         }
 
+        // 判断一个词来自哪个来源，用于在模糊记忆等共用列表里显示区分标签
+        function wordSourceLabel(w) {
+            if (w.listenCategory) return '🎧 听力词汇';
+            if (w.synonyms) return '📖 阅读词汇';
+            return '';
+        }
+
         let wordById = {};
+        let allListeningWords = [];
+        let allReadingWords = [];
         function buildWordIndex() {
             wordById = {};
-            [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I].forEach(w => {
+            [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I, ...allListeningWords, ...allReadingWords].forEach(w => {
                 wordById[w.id] = w;
             });
         }
@@ -883,7 +985,7 @@
             if (tab === 'fuzzy') {
                 container.innerHTML = list.map(w => `
                     <div class="record-item" onclick="openFuzzyWord('${w.id}')" style="cursor:pointer;">
-                        <div class="record-word">${displayName(w)}</div>
+                        <div class="record-word">${displayName(w)} ${wordSourceLabel(w) ? `<span class="source-tag">${wordSourceLabel(w)}</span>` : ''}</div>
                         <div class="record-chinese">${w.chinese || ''}</div>
                     </div>
                 `).join('');
@@ -933,7 +1035,13 @@
             const word = fuzzyBrowseList[fuzzyBrowseIndex];
 
             let cardHtml = '';
-            if (word.category === 'R') {
+            if (word.listenCategory) {
+                cardHtml = renderListeningCard(word, 'fuzzy-review');
+                prefetchAudio(word.word);
+            } else if (word.synonyms) {
+                cardHtml = renderReadingCard(word, 'fuzzy-review');
+                prefetchAudio(word.word);
+            } else if (word.category === 'R') {
                 cardHtml = renderRootFamily(word, 'fuzzy-review');
                 word.members.forEach(m => prefetchAudio(m.word));
             } else if (word.category === 'C') {
@@ -1212,6 +1320,10 @@
                 allWords.C = collocations;
                 allWords.I = recognitionWords;
 
+                // 听力/阅读词汇单独加载，就算这两个文件还没上传或缺失，也不影响主词库正常运行
+                try { allListeningWords = await fetch('data/listening_words.json').then(r => r.json()); } catch (e) { allListeningWords = []; }
+                try { allReadingWords = await fetch('data/reading_words.json').then(r => r.json()); } catch (e) { allReadingWords = []; }
+
                 const fullList = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
                 totalAllWords = fullList.length;
                 document.getElementById('totalWords').textContent = totalAllWords;
@@ -1327,6 +1439,15 @@
                     </div>
                 `;
             }
+            if (mode === 'reading-browse') {
+                return `
+                    <div class="action-buttons">
+                        <button class="btn btn-know" onclick="markReadingWord('know')">✓ 熟悉</button>
+                        <button class="btn btn-fuzzy" onclick="markReadingWord('fuzzy')">🌀 模糊记忆</button>
+                        <button class="btn btn-skip" onclick="readingNext()">→ 下一个</button>
+                    </div>
+                `;
+            }
             return `
                 <div class="action-buttons">
                     <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
@@ -1343,6 +1464,7 @@
             if (mode === 'fuzzy-review') nextAction = 'fuzzyNext()';
             else if (mode === 'review-rate') nextAction = 'reviewSkip()';
             else if (mode === 'drill-review') nextAction = 'nextDrillQuestion()';
+            else if (mode === 'reading-browse') nextAction = 'readingNext()';
             return `
                 <div class="top-bar">
                     <span class="category-badge">${categoryLabel}</span>
@@ -1484,7 +1606,61 @@
             `;
         }
 
-        // ===== 发音功能 =====
+        // 听力词汇卡片：只有单词+音标+中文，不做母义状态设计
+        function renderListeningCard(word, mode) {
+            return `
+                <div class="word-card">
+                    ${topBarHtml('🎧 听力词汇', mode)}
+                    <div class="word-header">
+                        <div class="word-title">${word.word}<button class="speak-btn" onclick="playPronunciation('${word.word}', this)">🔊</button></div>
+                        <div class="phonetic">${word.phonetic}</div>
+                    </div>
+                    <div class="core-state-section">
+                        <div class="core-state-text">${word.chinese}</div>
+                        <div style="margin-top: 10px; font-size: 14px; color: #667eea;">【${word.listenCategory}】</div>
+                    </div>
+                    ${actionButtonsHtml(mode)}
+                </div>
+            `;
+        }
+
+        // 阅读考点词卡片：母义状态+底层关系(我们自己设计) + 雅思真题命题替换词(表格原有内容,配中文)
+        function renderReadingCard(word, mode) {
+            return `
+                <div class="word-card">
+                    ${topBarHtml(`📖 阅读考点词${word.rank ? ' #' + word.rank : ''}`, mode)}
+                    <div class="word-header">
+                        <div class="word-title">${word.word}<button class="speak-btn" onclick="playPronunciation('${word.word}', this)">🔊</button></div>
+                        <div class="phonetic">${word.phonetic} ${word.pos || ''}</div>
+                    </div>
+                    <div class="core-state-section">
+                        <div class="core-state-title">核心状态</div>
+                        <div class="core-state-text">${word.core_state}</div>
+                        <div class="underlying-relation-box">
+                            <div class="underlying-relation-title">🔗 底层关系</div>
+                            <div class="underlying-relation-text">${word.underlying_relation}</div>
+                        </div>
+                    </div>
+                    <div class="scenes-section">
+                        <div class="section-title">📝 雅思真题命题替换词</div>
+                        ${(word.synonyms || []).map(s => `
+                            <div class="scene-item">
+                                <div class="scene-content">
+                                    <div class="scene-phrase">${s.word}</div>
+                                    <div class="scene-note">${s.chinese}</div>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="chinese-check">
+                        <div class="chinese-label">💡 中文核对</div>
+                        <div>${word.chinese}</div>
+                    </div>
+                    ${actionButtonsHtml(mode)}
+                </div>
+            `;
+        }
+
         const pronunciationCache = {};
 
         function prefetchAudio(text) {
@@ -1769,6 +1945,143 @@
         function nextDrillQuestion() {
             drillIndex++;
             renderDrillQuestion();
+        }
+
+        // ===== 🎧 听力词汇：按35个原始分类浏览,竖排列表,不做母义状态设计 =====
+        function openListening() {
+            document.getElementById('listeningModal').classList.add('show');
+            renderListeningCategoryList();
+        }
+        function closeListening() {
+            document.getElementById('listeningModal').classList.remove('show');
+        }
+        function renderListeningCategoryList() {
+            const container = document.getElementById('listeningContent');
+            if (allListeningWords.length === 0) {
+                container.innerHTML = `<div class="records-empty">听力词汇还没有上传</div>`;
+                return;
+            }
+            const groups = {};
+            allListeningWords.forEach(w => {
+                if (!groups[w.listenCategory]) groups[w.listenCategory] = { order: w.listenCategoryOrder, words: [] };
+                groups[w.listenCategory].words.push(w);
+            });
+            const sorted = Object.entries(groups).sort((a, b) => a[1].order - b[1].order);
+            container.innerHTML = sorted.map(([name, g]) => `
+                <div class="record-item" onclick="openListeningCategory('${name.replace(/'/g, "\\'")}')" style="cursor:pointer;">
+                    <div class="record-word">${String(g.order).padStart(2, '0')} · ${name}</div>
+                    <div class="record-chinese">${g.words.length}个词</div>
+                </div>
+            `).join('');
+        }
+        function openListeningCategory(name) {
+            const words = allListeningWords.filter(w => w.listenCategory === name);
+            words.forEach(w => prefetchAudio(w.word));
+            const records = loadRecords();
+            const container = document.getElementById('listeningContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderListeningCategoryList()">◀ 返回分类列表</button>
+                <div class="listen-cat-title">🎧 听力词汇 · ${name}</div>
+                ${words.map(w => {
+                    const status = (records[w.id] || {}).status;
+                    const mark = status === 'know' ? '✅' : '⭕';
+                    return `
+                    <div class="listen-word-row">
+                        <div class="listen-word-left">
+                            <div class="listen-word-top">
+                                <span class="listen-word-text">${w.word}</span>
+                                <button class="speak-btn" style="width:26px;height:26px;font-size:11px;" onclick="playPronunciation('${w.word.replace(/'/g, "\\'")}', this)">🔊</button>
+                            </div>
+                            <div class="listen-word-phonetic">${w.phonetic}</div>
+                            <div class="listen-word-chinese">${w.chinese}</div>
+                        </div>
+                        <span class="listen-mark-btn" onclick="toggleListenMark('${w.id}', this)">${mark}</span>
+                    </div>
+                `; }).join('')}
+            `;
+        }
+        function toggleListenMark(id, el) {
+            const records = loadRecords();
+            const rec = records[id] || {};
+            if (rec.status === 'know') {
+                rec.status = 'fuzzy';
+                el.textContent = '⭕';
+            } else {
+                rec.status = 'know';
+                if (!rec.firstLearnedDate) {
+                    rec.firstLearnedDate = todayStr();
+                    rec.reviewStage = 0;
+                    rec.masteryStreak = 0;
+                    rec.graduated = false;
+                    rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[0]);
+                }
+                el.textContent = '✅';
+            }
+            records[id] = rec;
+            saveRecords(records);
+            updateStats();
+        }
+
+        // ===== 📖 阅读词汇：严格按重要性排行排序,点进详情才展开母义状态/底层关系/命题替换词 =====
+        function openReading() {
+            document.getElementById('readingModal').classList.add('show');
+            renderReadingList();
+        }
+        function closeReading() {
+            document.getElementById('readingModal').classList.remove('show');
+        }
+        function renderReadingList() {
+            const container = document.getElementById('readingContent');
+            if (allReadingWords.length === 0) {
+                container.innerHTML = `<div class="records-empty">阅读词汇还没有上传</div>`;
+                return;
+            }
+            const sorted = [...allReadingWords].sort((a, b) => (a.rank || 9999) - (b.rank || 9999));
+            container.innerHTML = sorted.map(w => `
+                <div class="reading-row" onclick="openReadingDetail('${w.id}')">
+                    <span class="reading-rank">${w.rank || '-'}</span>
+                    <span class="reading-word">${w.word}</span>
+                    <span class="reading-chinese">${w.chinese}</span>
+                    <button class="speak-btn" style="width:26px;height:26px;font-size:11px;" onclick="event.stopPropagation();playPronunciation('${w.word.replace(/'/g, "\\'")}', this)">🔊</button>
+                </div>
+            `).join('');
+        }
+        let readingBrowseIndex = 0;
+        function openReadingDetail(id) {
+            readingBrowseIndex = allReadingWords.findIndex(w => w.id === id);
+            if (readingBrowseIndex < 0) readingBrowseIndex = 0;
+            renderReadingDetail();
+        }
+        function readingNext() {
+            readingBrowseIndex++;
+            if (readingBrowseIndex >= allReadingWords.length) readingBrowseIndex = 0;
+            renderReadingDetail();
+        }
+        function renderReadingDetail() {
+            const word = allReadingWords[readingBrowseIndex];
+            prefetchAudio(word.word);
+            const container = document.getElementById('readingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderReadingList()">◀ 返回列表</button>
+                ${renderReadingCard(word, 'reading-browse')}
+            `;
+        }
+        function markReadingWord(status) {
+            const word = allReadingWords[readingBrowseIndex];
+            const records = loadRecords();
+            const rec = records[word.id] || {};
+            rec.status = status;
+            if (status === 'know' && !rec.firstLearnedDate) {
+                rec.firstLearnedDate = todayStr();
+                rec.reviewStage = 0;
+                rec.masteryStreak = 0;
+                rec.graduated = false;
+                rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[0]);
+            }
+            records[word.id] = rec;
+            saveRecords(records);
+            updateStats();
+            readingNext();
         }
 
         window.onload = init;
