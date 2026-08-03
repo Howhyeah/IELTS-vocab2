@@ -1944,5 +1944,1405 @@
         "chinese": "整体"
       }
     ]
+  },
+  {
+    "id": "read_addictive",
+    "tier": 3,
+    "word": "addictive",
+    "phonetic": "/əˈdɪktɪv/",
+    "pos": "adj.",
+    "chinese": "上瘾的",
+    "core_state": "一种东西让人一旦接触后，很难控制自己不断想要再次获得，形成难以摆脱的依赖。",
+    "underlying_relation": "接触东西 → 难以控制反复渴望获得 → 形成依赖(上瘾)。",
+    "synonyms": [
+      {
+        "word": "habit",
+        "chinese": "习惯"
+      }
+    ]
+  },
+  {
+    "id": "read_aggression",
+    "tier": 3,
+    "word": "aggression",
+    "phonetic": "/əˈɡreʃn/",
+    "pos": "n.",
+    "chinese": "侵犯，侵害",
+    "core_state": "一方主动向另一方发起带有敌意的攻击行为，侵犯对方的领域或利益。",
+    "underlying_relation": "一方 → 主动发起敌意攻击 → 侵犯对方领域/利益。",
+    "synonyms": [
+      {
+        "word": "attack",
+        "chinese": "攻击"
+      }
+    ]
+  },
+  {
+    "id": "read_agreeable",
+    "tier": 3,
+    "word": "agreeable",
+    "phonetic": "/əˈɡriːəbl/",
+    "pos": "adj.",
+    "chinese": "令人愉快的；合适的；和蔼可亲的",
+    "core_state": "一个人或事物让人感到舒服、容易接受，不会引起冲突或反感。",
+    "underlying_relation": "人/事物 → 让人感到舒服易接受 → 不引起冲突反感(令人愉快)。",
+    "synonyms": [
+      {
+        "word": "pleasant",
+        "chinese": "令人愉快的"
+      }
+    ]
+  },
+  {
+    "id": "read_allergic",
+    "tier": 3,
+    "word": "allergic",
+    "phonetic": "/əˈlɜːdʒɪk/",
+    "pos": "adj.",
+    "chinese": "过敏的；极讨厌的",
+    "core_state": "身体接触到某种物质后，产生异常强烈的排斥反应。",
+    "underlying_relation": "身体接触某物质 → 产生异常强烈排斥反应 → 过敏。",
+    "synonyms": [
+      {
+        "word": "irritate",
+        "chinese": "刺激"
+      }
+    ]
+  },
+  {
+    "id": "read_application",
+    "tier": 3,
+    "word": "application",
+    "phonetic": "/ˌæplɪˈkeɪʃn/",
+    "pos": "n.",
+    "chinese": "应用",
+    "core_state": "一个理论或方法被实际用到具体的场景里，发挥作用。",
+    "underlying_relation": "理论/方法 → 实际用到具体场景 → 发挥作用(应用)。",
+    "synonyms": [
+      {
+        "word": "utilization",
+        "chinese": "利用"
+      }
+    ]
+  },
+  {
+    "id": "read_approve",
+    "tier": 3,
+    "word": "approve",
+    "phonetic": "/əˈpruːv/",
+    "pos": "v.",
+    "chinese": "批准",
+    "core_state": "拥有权力的一方，对提交上来的请求表示认可，允许它继续进行。",
+    "underlying_relation": "权力方 → 对请求表示认可 → 允许继续进行(批准)。",
+    "synonyms": [
+      {
+        "word": "agree",
+        "chinese": "同意"
+      }
+    ]
+  },
+  {
+    "id": "read_array",
+    "tier": 3,
+    "word": "array",
+    "phonetic": "/əˈreɪ/",
+    "pos": "n.",
+    "chinese": "排列，大批",
+    "core_state": "大量东西按照一定顺序整齐地摆放展示出来。",
+    "underlying_relation": "大量东西 → 按顺序整齐摆放 → 展示出来(排列)。",
+    "synonyms": [
+      {
+        "word": "order",
+        "chinese": "顺序"
+      }
+    ]
+  },
+  {
+    "id": "read_attitude",
+    "tier": 3,
+    "word": "attitude",
+    "phonetic": "/ˈætɪtjuːd/",
+    "pos": "n.",
+    "chinese": "看法，态度",
+    "core_state": "一个人对某件事情内心所持有的倾向性看法，会体现在言行上。",
+    "underlying_relation": "内心倾向性看法 → 体现在言行上 → 构成态度。",
+    "synonyms": [
+      {
+        "word": "opinion",
+        "chinese": "观点"
+      }
+    ]
+  },
+  {
+    "id": "read_be_consistent_with",
+    "tier": 3,
+    "word": "be consistent with",
+    "phonetic": "/bi kənˈsɪstənt wɪð/",
+    "pos": "phr.",
+    "chinese": "与……一致",
+    "core_state": "两个事物之间没有矛盾冲突的地方，彼此的性质或表现相互吻合。",
+    "underlying_relation": "两个事物 → 性质表现相互吻合 → 无矛盾冲突(一致)。",
+    "synonyms": [
+      {
+        "word": "compatible",
+        "chinese": "兼容的"
+      }
+    ]
+  },
+  {
+    "id": "read_blight",
+    "tier": 3,
+    "word": "blight",
+    "phonetic": "/blaɪt/",
+    "pos": "v.",
+    "chinese": "损害；枯萎",
+    "core_state": "一种负面因素持续侵蚀一个原本健康的事物，让它逐渐衰败凋零。",
+    "underlying_relation": "健康事物 + 负面因素持续侵蚀 → 逐渐衰败凋零(损害枯萎)。",
+    "synonyms": [
+      {
+        "word": "destroy",
+        "chinese": "破坏"
+      }
+    ]
+  },
+  {
+    "id": "read_bungle",
+    "tier": 3,
+    "word": "bungle",
+    "phonetic": "/ˈbʌŋɡl/",
+    "pos": "v.",
+    "chinese": "搞糟，拙劣地工作",
+    "core_state": "因为能力不足或粗心，把一件本该顺利完成的事情办得很糟糕。",
+    "underlying_relation": "能力不足/粗心 → 本该顺利的事 → 办得很糟糕(搞糟)。",
+    "synonyms": [
+      {
+        "word": "mishandle",
+        "chinese": "处理不当"
+      }
+    ]
+  },
+  {
+    "id": "read_burden",
+    "tier": 3,
+    "word": "burden",
+    "phonetic": "/ˈbɜːdn/",
+    "pos": "n.",
+    "chinese": "负担",
+    "core_state": "一份沉重的责任或压力，压在一个人身上，让人感到吃力。",
+    "underlying_relation": "沉重的责任/压力 → 压在人身上 → 让人感到吃力(负担)。",
+    "synonyms": [
+      {
+        "word": "load",
+        "chinese": "负荷"
+      }
+    ]
+  },
+  {
+    "id": "read_capacity",
+    "tier": 3,
+    "word": "capacity",
+    "phonetic": "/kəˈpæsəti/",
+    "pos": "n.",
+    "chinese": "容量",
+    "core_state": "一个空间或系统能够容纳、承载的最大数量。",
+    "underlying_relation": "空间/系统 → 能容纳承载的最大数量 → 构成容量。",
+    "synonyms": [
+      {
+        "word": "volume",
+        "chinese": "容量"
+      }
+    ]
+  },
+  {
+    "id": "read_cater",
+    "tier": 3,
+    "word": "cater",
+    "phonetic": "/ˈkeɪtə(r)/",
+    "pos": "v.",
+    "chinese": "迎合；满足需求",
+    "core_state": "主动根据对方的具体需要提供相应的服务或产品。",
+    "underlying_relation": "对方具体需要 → 主动提供相应服务/产品 → 满足需求(迎合)。",
+    "synonyms": [
+      {
+        "word": "serve",
+        "chinese": "服务"
+      }
+    ]
+  },
+  {
+    "id": "read_civic",
+    "tier": 3,
+    "word": "civic",
+    "phonetic": "/ˈsɪvɪk/",
+    "pos": "adj.",
+    "chinese": "市民的",
+    "core_state": "跟一个城市的公共事务、市民身份直接相关。",
+    "underlying_relation": "事物 → 跟城市公共事务/市民身份相关 → 具有市民属性。",
+    "synonyms": [
+      {
+        "word": "municipal",
+        "chinese": "市政的"
+      }
+    ]
+  },
+  {
+    "id": "read_commitment",
+    "tier": 3,
+    "word": "commitment",
+    "phonetic": "/kəˈmɪtmənt/",
+    "pos": "n.",
+    "chinese": "承诺，许诺，义务；致力",
+    "core_state": "一个人对某件事情下定决心投入，愿意承担后续的责任，不会轻易反悔。",
+    "underlying_relation": "下定决心投入 → 愿意承担后续责任 → 不轻易反悔(承诺)。",
+    "synonyms": [
+      {
+        "word": "engagement",
+        "chinese": "承诺"
+      }
+    ]
+  },
+  {
+    "id": "read_commute",
+    "tier": 3,
+    "word": "commute",
+    "phonetic": "/kəˈmjuːt/",
+    "pos": "v.",
+    "chinese": "通勤；用……交换",
+    "core_state": "每天在住处和工作地点之间往返奔波。",
+    "underlying_relation": "住处 ↔ 工作地点 → 每天往返奔波 → 构成通勤。",
+    "synonyms": [
+      {
+        "word": "travel",
+        "chinese": "旅行"
+      }
+    ]
+  },
+  {
+    "id": "read_conceal",
+    "tier": 3,
+    "word": "conceal",
+    "phonetic": "/kənˈsiːl/",
+    "pos": "v.",
+    "chinese": "隐藏；隐瞒",
+    "core_state": "主动把一个东西藏起来，不让别人看到或知道。",
+    "underlying_relation": "东西 → 主动藏起来 → 不让别人看到知道(隐藏)。",
+    "synonyms": [
+      {
+        "word": "hide",
+        "chinese": "隐藏"
+      }
+    ]
+  },
+  {
+    "id": "read_concur",
+    "tier": 3,
+    "word": "concur",
+    "phonetic": "/kənˈkɜː(r)/",
+    "pos": "v.",
+    "chinese": "同意",
+    "core_state": "两个或多个人对同一件事持有相同的看法，观点重合。",
+    "underlying_relation": "多人 → 对同一件事看法相同 → 观点重合(同意)。",
+    "synonyms": [
+      {
+        "word": "agree",
+        "chinese": "同意"
+      }
+    ]
+  },
+  {
+    "id": "read_confer",
+    "tier": 3,
+    "word": "confer",
+    "phonetic": "/kənˈfɜː(r)/",
+    "pos": "v.",
+    "chinese": "授予，给予",
+    "core_state": "拥有权力或资格的一方，正式把某种荣誉或权利交给另一方。",
+    "underlying_relation": "权力方 → 正式交给另一方荣誉/权利 → 授予。",
+    "synonyms": [
+      {
+        "word": "grant",
+        "chinese": "授予"
+      }
+    ]
+  },
+  {
+    "id": "read_confuse",
+    "tier": 3,
+    "word": "confuse",
+    "phonetic": "/kənˈfjuːz/",
+    "pos": "v.",
+    "chinese": "使混乱，使迷惑",
+    "core_state": "一个人原本清晰的思路，因为接收到矛盾或复杂的信息，变得混乱不清。",
+    "underlying_relation": "清晰思路 + 矛盾/复杂信息 → 变得混乱不清(困惑)。",
+    "synonyms": [
+      {
+        "word": "puzzle",
+        "chinese": "使困惑"
+      }
+    ]
+  },
+  {
+    "id": "read_contingent",
+    "tier": 3,
+    "word": "contingent",
+    "phonetic": "/kənˈtɪndʒənt/",
+    "pos": "adj.",
+    "chinese": "因情况而异的",
+    "core_state": "一件事情是否发生或如何发生，取决于另一个不确定的条件。",
+    "underlying_relation": "事情发生/如何发生 → 取决于另一不确定条件 → 因情况而异。",
+    "synonyms": [
+      {
+        "word": "uncertain",
+        "chinese": "不确定的"
+      }
+    ]
+  },
+  {
+    "id": "read_correlation",
+    "tier": 3,
+    "word": "correlation",
+    "phonetic": "/ˌkɒrəˈleɪʃn/",
+    "pos": "n.",
+    "chinese": "相关，关联",
+    "core_state": "两个事物之间存在着某种规律性的联系，一个变化时另一个也倾向于随之变化。",
+    "underlying_relation": "两个事物 → 存在规律性联系 → 一个变化另一个随之变化(相关)。",
+    "synonyms": [
+      {
+        "word": "link",
+        "chinese": "联系"
+      }
+    ]
+  },
+  {
+    "id": "read_crash",
+    "tier": 3,
+    "word": "crash",
+    "phonetic": "/kræʃ/",
+    "pos": "n.",
+    "chinese": "碰撞",
+    "core_state": "两个物体高速相撞，造成猛烈的冲击和损坏。",
+    "underlying_relation": "两个物体 → 高速相撞 → 造成猛烈冲击损坏(碰撞)。",
+    "synonyms": [
+      {
+        "word": "collapse",
+        "chinese": "崩溃"
+      }
+    ]
+  },
+  {
+    "id": "read_credibility",
+    "tier": 3,
+    "word": "credibility",
+    "phonetic": "/ˌkredəˈbɪləti/",
+    "pos": "n.",
+    "chinese": "可信性",
+    "core_state": "一个人或信息让别人愿意相信、信任的程度。",
+    "underlying_relation": "人/信息 → 让人愿意相信的程度 → 构成可信度。",
+    "synonyms": [
+      {
+        "word": "reliance",
+        "chinese": "信赖"
+      }
+    ]
+  },
+  {
+    "id": "read_criminal",
+    "tier": 3,
+    "word": "criminal",
+    "phonetic": "/ˈkrɪmɪnl/",
+    "pos": "n.",
+    "chinese": "罪犯，犯人",
+    "core_state": "一个人做出了违反法律的行为，因此被认定有罪。",
+    "underlying_relation": "人 → 做出违法行为 → 被认定有罪(罪犯)。",
+    "synonyms": [
+      {
+        "word": "conviction",
+        "chinese": "定罪"
+      }
+    ]
+  },
+  {
+    "id": "read_criticism",
+    "tier": 3,
+    "word": "criticism",
+    "phonetic": "/ˈkrɪtɪsɪzəm/",
+    "pos": "n.",
+    "chinese": "评论",
+    "core_state": "对一件事情或一个人的表现，指出其中的不足或问题所在。",
+    "underlying_relation": "事情/表现 → 指出不足问题所在 → 构成批评。",
+    "synonyms": [
+      {
+        "word": "condemn",
+        "chinese": "谴责"
+      }
+    ]
+  },
+  {
+    "id": "read_curb",
+    "tier": 3,
+    "word": "curb",
+    "phonetic": "/kɜːb/",
+    "pos": "v.",
+    "chinese": "限制，抑制",
+    "core_state": "主动给一个正在扩大或加剧的趋势设置界限，让它不再继续发展。",
+    "underlying_relation": "扩大/加剧的趋势 → 主动设置界限 → 不再继续发展(限制)。",
+    "synonyms": [
+      {
+        "word": "restrict",
+        "chinese": "限制"
+      }
+    ]
+  },
+  {
+    "id": "read_dazzle",
+    "tier": 3,
+    "word": "dazzle",
+    "phonetic": "/ˈdæzl/",
+    "pos": "v.",
+    "chinese": "使目眩；使……眼花",
+    "core_state": "强烈的光线或耀眼的表现，让人的视觉或感知一时无法正常反应。",
+    "underlying_relation": "强烈光线/耀眼表现 → 视觉/感知一时无法正常反应 → 目眩。",
+    "synonyms": [
+      {
+        "word": "flash",
+        "chinese": "闪光"
+      }
+    ]
+  },
+  {
+    "id": "read_delay",
+    "tier": 3,
+    "word": "delay",
+    "phonetic": "/dɪˈleɪ/",
+    "pos": "n.",
+    "chinese": "延期，耽搁",
+    "core_state": "一件本该在某个时间发生的事，被推后到比原定时间更晚才发生。",
+    "underlying_relation": "本该发生的时间 → 被推后 → 比原定更晚发生(延期)。",
+    "synonyms": [
+      {
+        "word": "postpone",
+        "chinese": "推迟"
+      }
+    ]
+  },
+  {
+    "id": "read_dental",
+    "tier": 3,
+    "word": "dental",
+    "phonetic": "/ˈdentl/",
+    "pos": "adj.",
+    "chinese": "牙科的，牙齿的",
+    "core_state": "跟牙齿或口腔健康直接相关的领域。",
+    "underlying_relation": "领域 → 跟牙齿/口腔健康相关 → 属于牙科范畴。",
+    "synonyms": [
+      {
+        "word": "teeth",
+        "chinese": "牙齿"
+      }
+    ]
+  },
+  {
+    "id": "read_designate",
+    "tier": 3,
+    "word": "designate",
+    "phonetic": "/ˈdezɪɡneɪt/",
+    "pos": "v.",
+    "chinese": "指定；指派，标出",
+    "core_state": "从多个候选对象里，明确挑出一个，赋予它特定的身份或用途。",
+    "underlying_relation": "多个候选对象 → 明确挑出一个 → 赋予特定身份/用途(指定)。",
+    "synonyms": [
+      {
+        "word": "appoint",
+        "chinese": "任命"
+      }
+    ]
+  },
+  {
+    "id": "read_detain",
+    "tier": 3,
+    "word": "detain",
+    "phonetic": "/dɪˈteɪn/",
+    "pos": "v.",
+    "chinese": "留住",
+    "core_state": "用外力把一个原本想要离开的人或物暂时扣留在原地，不让其自由离开。",
+    "underlying_relation": "想离开的人/物 + 外力扣留 → 暂时留在原地(留住)。",
+    "synonyms": [
+      {
+        "word": "hold",
+        "chinese": "扣留"
+      }
+    ]
+  },
+  {
+    "id": "read_devastate",
+    "tier": 3,
+    "word": "devastate",
+    "phonetic": "/ˈdevəsteɪt/",
+    "pos": "v.",
+    "chinese": "毁坏，毁灭",
+    "core_state": "一场灾难性的力量彻底摧毁一个原本完好的事物，造成极其严重的破坏。",
+    "underlying_relation": "灾难性力量 → 彻底摧毁完好事物 → 造成极严重破坏(毁灭)。",
+    "synonyms": [
+      {
+        "word": "wreck",
+        "chinese": "破坏"
+      }
+    ]
+  },
+  {
+    "id": "read_disparate",
+    "tier": 3,
+    "word": "disparate",
+    "phonetic": "/ˈdɪspərət/",
+    "pos": "adj.",
+    "chinese": "不同的",
+    "core_state": "两个或多个事物之间的差异非常大，几乎没有共同之处。",
+    "underlying_relation": "多个事物 → 差异非常大 → 几乎无共同之处(迥异)。",
+    "synonyms": [
+      {
+        "word": "different",
+        "chinese": "不同的"
+      }
+    ]
+  },
+  {
+    "id": "read_display",
+    "tier": 3,
+    "word": "display",
+    "phonetic": "/dɪˈspleɪ/",
+    "pos": "n.",
+    "chinese": "显示",
+    "core_state": "把一个原本隐藏或不明显的东西，主动摆出来让别人能够看到。",
+    "underlying_relation": "隐藏/不明显的东西 → 主动摆出来 → 让别人看到(显示)。",
+    "synonyms": [
+      {
+        "word": "show",
+        "chinese": "展示"
+      }
+    ]
+  },
+  {
+    "id": "read_disrupt",
+    "tier": 3,
+    "word": "disrupt",
+    "phonetic": "/dɪsˈrʌpt/",
+    "pos": "v.",
+    "chinese": "破坏",
+    "core_state": "一个原本正常进行的过程，被外来因素强行打断，无法顺利继续。",
+    "underlying_relation": "正常进行的过程 + 外来因素强行打断 → 无法顺利继续(破坏)。",
+    "synonyms": [
+      {
+        "word": "destroy",
+        "chinese": "破坏"
+      }
+    ]
+  },
+  {
+    "id": "read_distribute",
+    "tier": 3,
+    "word": "distribute",
+    "phonetic": "/dɪˈstrɪbjuːt/",
+    "pos": "v.",
+    "chinese": "分配，分发",
+    "core_state": "把一批东西按照一定的规则，分开发送到多个不同的对象手中。",
+    "underlying_relation": "一批东西 → 按规则分开发送 → 到多个对象手中(分配)。",
+    "synonyms": [
+      {
+        "word": "spread",
+        "chinese": "散布"
+      }
+    ]
+  },
+  {
+    "id": "read_documentation",
+    "tier": 3,
+    "word": "documentation",
+    "phonetic": "/ˌdɒkjumenˈteɪʃn/",
+    "pos": "n.",
+    "chinese": "文件；文献",
+    "core_state": "用书面形式把信息记录下来，形成可以查阅的正式材料。",
+    "underlying_relation": "信息 → 用书面形式记录 → 形成可查阅的正式材料(文件)。",
+    "synonyms": [
+      {
+        "word": "record",
+        "chinese": "记录"
+      }
+    ]
+  },
+  {
+    "id": "read_dominant",
+    "tier": 3,
+    "word": "dominant",
+    "phonetic": "/ˈdɒmɪnənt/",
+    "pos": "adj.",
+    "chinese": "占优势的，占支配地位的",
+    "core_state": "在多方共存的局面里，一方的力量明显超过其他各方，占据主导位置。",
+    "underlying_relation": "多方共存 → 一方力量明显超过其他 → 占据主导位置。",
+    "synonyms": [
+      {
+        "word": "overbearing",
+        "chinese": "专横的"
+      }
+    ]
+  },
+  {
+    "id": "read_elaborate",
+    "tier": 3,
+    "word": "elaborate",
+    "phonetic": "/ɪˈlæbəreɪt/",
+    "pos": "v.",
+    "chinese": "详细阐述",
+    "core_state": "把一个简略提到的想法，补充更多细节，让它变得更完整清晰。",
+    "underlying_relation": "简略的想法 → 补充更多细节 → 变得更完整清晰(详述)。",
+    "synonyms": [
+      {
+        "word": "illustrate",
+        "chinese": "阐明"
+      }
+    ]
+  },
+  {
+    "id": "read_elderly",
+    "tier": 3,
+    "word": "elderly",
+    "phonetic": "/ˈeldəli/",
+    "pos": "adj.",
+    "chinese": "高龄的",
+    "core_state": "一个人的年龄已经到了生命阶段中比较靠后、年岁较高的时期。",
+    "underlying_relation": "人的年龄 → 到了生命阶段较靠后的时期 → 高龄。",
+    "synonyms": [
+      {
+        "word": "aged",
+        "chinese": "年老的"
+      }
+    ]
+  },
+  {
+    "id": "read_eliminate",
+    "tier": 3,
+    "word": "eliminate",
+    "phonetic": "/ɪˈlɪmɪneɪt/",
+    "pos": "v.",
+    "chinese": "消除，排除",
+    "core_state": "把一个不需要或不想要的东西，从整体里彻底去掉，不再留存。",
+    "underlying_relation": "不需要的东西 → 从整体彻底去掉 → 不再留存(消除)。",
+    "synonyms": [
+      {
+        "word": "dispose",
+        "chinese": "处理掉"
+      }
+    ]
+  },
+  {
+    "id": "read_elusive",
+    "tier": 3,
+    "word": "elusive",
+    "phonetic": "/ɪˈluːsɪv/",
+    "pos": "adj.",
+    "chinese": "难懂的，难捉摸的；行踪隐秘的",
+    "core_state": "一个东西一直想要抓住或理解，却总是从指间溜走，无法真正把握。",
+    "underlying_relation": "东西 → 想抓住/理解 → 总从指间溜走 → 无法把握(难捉摸)。",
+    "synonyms": [
+      {
+        "word": "hard",
+        "chinese": "困难的"
+      }
+    ]
+  },
+  {
+    "id": "read_encyclopaedia",
+    "tier": 3,
+    "word": "encyclopaedia",
+    "phonetic": "/ɪnˌsaɪkləˈpiːdiə/",
+    "pos": "n.",
+    "chinese": "百科全书",
+    "core_state": "一本收录了各个领域知识、按类别整理好供查阅的大型工具书。",
+    "underlying_relation": "各领域知识 → 按类别整理收录 → 供查阅的工具书(百科全书)。",
+    "synonyms": [
+      {
+        "word": "entire range of knowledge",
+        "chinese": "全部知识范围"
+      }
+    ]
+  },
+  {
+    "id": "read_erratically",
+    "tier": 3,
+    "word": "erratically",
+    "phonetic": "/ɪˈrætɪkli/",
+    "pos": "adv.",
+    "chinese": "不定的，无视规律地",
+    "core_state": "一个行为或过程的发生，没有固定的规律，忽而这样忽而那样。",
+    "underlying_relation": "行为/过程 → 没有固定规律 → 忽而这样忽而那样(无规律)。",
+    "synonyms": [
+      {
+        "word": "unpredictably",
+        "chinese": "不可预测地"
+      }
+    ]
+  },
+  {
+    "id": "read_established",
+    "tier": 3,
+    "word": "established",
+    "phonetic": "/ɪˈstæblɪʃt/",
+    "pos": "adj.",
+    "chinese": "确定的；已建立的",
+    "core_state": "一个事物经过一段时间的发展，已经稳固地存在，被广泛认可接受。",
+    "underlying_relation": "事物 → 经过发展 → 稳固存在被广泛认可(已确立)。",
+    "synonyms": [
+      {
+        "word": "built",
+        "chinese": "建立的"
+      }
+    ]
+  },
+  {
+    "id": "read_eventually",
+    "tier": 3,
+    "word": "eventually",
+    "phonetic": "/ɪˈventʃuəli/",
+    "pos": "adv.",
+    "chinese": "最后，终于",
+    "core_state": "经过一段时间或一系列过程之后，最终到达的那个结果点。",
+    "underlying_relation": "一段时间/一系列过程 → 最终到达 → 结果点(最后)。",
+    "synonyms": [
+      {
+        "word": "finally",
+        "chinese": "最后"
+      }
+    ]
+  },
+  {
+    "id": "read_exhausted",
+    "tier": 3,
+    "word": "exhausted",
+    "phonetic": "/ɪɡˈzɔːstɪd/",
+    "pos": "adj.",
+    "chinese": "疲惫的，耗尽的",
+    "core_state": "身体或资源的能量因为持续消耗，已经用到几乎一点不剩的状态。",
+    "underlying_relation": "能量 → 持续消耗 → 用到几乎不剩(耗尽/疲惫)。",
+    "synonyms": [
+      {
+        "word": "fatigue",
+        "chinese": "疲劳"
+      }
+    ]
+  },
+  {
+    "id": "read_exceptional",
+    "tier": 3,
+    "word": "exceptional",
+    "phonetic": "/ɪkˈsepʃənl/",
+    "pos": "adj.",
+    "chinese": "异常的，特别出色的",
+    "core_state": "一个表现远远超出一般水平，不属于常见的普通情况。",
+    "underlying_relation": "表现 → 远超一般水平 → 不属于常见情况(异常出色)。",
+    "synonyms": [
+      {
+        "word": "extreme",
+        "chinese": "极端的"
+      },
+      {
+        "word": "utmost",
+        "chinese": "最大程度的"
+      }
+    ]
+  },
+  {
+    "id": "read_explicit",
+    "tier": 3,
+    "word": "explicit",
+    "phonetic": "/ɪkˈsplɪsɪt/",
+    "pos": "adj.",
+    "chinese": "明确的",
+    "core_state": "一件事情被直接、清楚地说出来，没有隐晦或需要猜测的部分。",
+    "underlying_relation": "事情 → 直接清楚说出 → 没有隐晦需要猜测(明确)。",
+    "synonyms": [
+      {
+        "word": "clear",
+        "chinese": "清楚的"
+      }
+    ]
+  },
+  {
+    "id": "read_exploit",
+    "tier": 3,
+    "word": "exploit",
+    "phonetic": "/ɪkˈsplɒɪt/",
+    "pos": "v.",
+    "chinese": "开发，利用",
+    "core_state": "主动挖掘并使用一个资源或机会中蕴含的价值。",
+    "underlying_relation": "资源/机会 → 主动挖掘使用其中价值 → 开发利用。",
+    "synonyms": [
+      {
+        "word": "use",
+        "chinese": "使用"
+      }
+    ]
+  },
+  {
+    "id": "read_extend",
+    "tier": 3,
+    "word": "extend",
+    "phonetic": "/ɪkˈstend/",
+    "pos": "v.",
+    "chinese": "扩展，延伸，推广",
+    "core_state": "一个东西原有的范围或长度，向外持续拉长，覆盖到更大的区域。",
+    "underlying_relation": "原有范围/长度 → 向外持续拉长 → 覆盖更大区域(扩展)。",
+    "synonyms": [
+      {
+        "word": "expand",
+        "chinese": "扩大"
+      }
+    ]
+  },
+  {
+    "id": "read_finite",
+    "tier": 3,
+    "word": "finite",
+    "phonetic": "/ˈfaɪnaɪt/",
+    "pos": "adj.",
+    "chinese": "有限的",
+    "core_state": "一个数量或范围存在明确的边界，不会无限地延伸下去。",
+    "underlying_relation": "数量/范围 → 存在明确边界 → 不会无限延伸(有限)。",
+    "synonyms": [
+      {
+        "word": "limited",
+        "chinese": "有限的"
+      }
+    ]
+  },
+  {
+    "id": "read_fitness",
+    "tier": 3,
+    "word": "fitness",
+    "phonetic": "/ˈfɪtnəs/",
+    "pos": "n.",
+    "chinese": "健康的",
+    "core_state": "身体处于机能良好、能够胜任日常活动或运动需求的状态。",
+    "underlying_relation": "身体 → 机能良好 → 能胜任日常活动/运动需求(健康)。",
+    "synonyms": [
+      {
+        "word": "health",
+        "chinese": "健康"
+      }
+    ]
+  },
+  {
+    "id": "read_foe",
+    "tier": 3,
+    "word": "foe",
+    "phonetic": "/fəʊ/",
+    "pos": "n.",
+    "chinese": "敌人，危害物",
+    "core_state": "一个明确站在对立面、会对自己造成伤害的对象。",
+    "underlying_relation": "对象 → 站在对立面 → 会造成伤害(敌人)。",
+    "synonyms": [
+      {
+        "word": "enemy",
+        "chinese": "敌人"
+      }
+    ]
+  },
+  {
+    "id": "read_fulfill",
+    "tier": 3,
+    "word": "fulfill",
+    "phonetic": "/fʊlˈfɪl/",
+    "pos": "v.",
+    "chinese": "满足，实现",
+    "core_state": "一个原本设定的目标或承诺，经过努力，最终真正达成。",
+    "underlying_relation": "设定的目标/承诺 → 经过努力 → 最终真正达成(实现)。",
+    "synonyms": [
+      {
+        "word": "execute",
+        "chinese": "执行"
+      }
+    ]
+  },
+  {
+    "id": "read_gene",
+    "tier": 3,
+    "word": "gene",
+    "phonetic": "/dʒiːn/",
+    "pos": "n.",
+    "chinese": "基因",
+    "core_state": "存在于生物体内，决定其遗传特征的最基本信息单位。",
+    "underlying_relation": "生物体 → 内含决定遗传特征的信息单位 → 基因。",
+    "synonyms": [
+      {
+        "word": "factor",
+        "chinese": "因素"
+      }
+    ]
+  },
+  {
+    "id": "read_gifted",
+    "tier": 3,
+    "word": "gifted",
+    "phonetic": "/ˈɡɪftɪd/",
+    "pos": "adj.",
+    "chinese": "有天赋的，有才华的",
+    "core_state": "一个人天生具备某种超出常人的能力，不需要刻意训练就已展现出来。",
+    "underlying_relation": "人 → 天生具备超常能力 → 未经训练已展现(有天赋)。",
+    "synonyms": [
+      {
+        "word": "talented",
+        "chinese": "有才华的"
+      }
+    ]
+  },
+  {
+    "id": "read_graphic",
+    "tier": 3,
+    "word": "graphic",
+    "phonetic": "/ˈɡræfɪk/",
+    "pos": "adj.",
+    "chinese": "形象的；图解的",
+    "core_state": "用图像或非常生动具体的方式呈现，让人一看就能理解。",
+    "underlying_relation": "内容 → 用图像/生动具体方式呈现 → 一看就理解(形象的)。",
+    "synonyms": [
+      {
+        "word": "picture",
+        "chinese": "图片"
+      }
+    ]
+  },
+  {
+    "id": "read_harbor",
+    "tier": 3,
+    "word": "harbor",
+    "phonetic": "/ˈhɑːbə(r)/",
+    "pos": "v.",
+    "chinese": "怀有",
+    "core_state": "内心长期藏着一种情绪或想法，不轻易表露出来。",
+    "underlying_relation": "内心 → 长期藏着情绪/想法 → 不轻易表露(怀有)。",
+    "synonyms": [
+      {
+        "word": "hold",
+        "chinese": "持有"
+      }
+    ]
+  },
+  {
+    "id": "read_hardship",
+    "tier": 3,
+    "word": "hardship",
+    "phonetic": "/ˈhɑːdʃɪp/",
+    "pos": "n.",
+    "chinese": "困苦；苦难",
+    "core_state": "生活中长期存在的艰难处境，让人承受较大的痛苦或压力。",
+    "underlying_relation": "生活处境 → 长期艰难 → 承受较大痛苦压力(困苦)。",
+    "synonyms": [
+      {
+        "word": "difficult",
+        "chinese": "困难的"
+      }
+    ]
+  },
+  {
+    "id": "read_harsh",
+    "tier": 3,
+    "word": "harsh",
+    "phonetic": "/hɑːʃ/",
+    "pos": "adj.",
+    "chinese": "艰难的；严酷的",
+    "core_state": "一种环境或对待方式非常严厉，缺乏温和与宽容。",
+    "underlying_relation": "环境/对待方式 → 非常严厉 → 缺乏温和宽容(严酷)。",
+    "synonyms": [
+      {
+        "word": "rough",
+        "chinese": "粗糙严酷的"
+      }
+    ]
+  },
+  {
+    "id": "read_impressive",
+    "tier": 3,
+    "word": "impressive",
+    "phonetic": "/ɪmˈpresɪv/",
+    "pos": "adj.",
+    "chinese": "感人的；给人深刻印象的",
+    "core_state": "一件事情或表现，让人看过之后留下深刻、难以忘记的印象。",
+    "underlying_relation": "事情/表现 → 让人看后 → 留下深刻难忘印象。",
+    "synonyms": [
+      {
+        "word": "touching",
+        "chinese": "感人的"
+      }
+    ]
+  },
+  {
+    "id": "read_in_accordance_with",
+    "tier": 3,
+    "word": "in accordance with",
+    "phonetic": "/ɪn əˈkɔːdns wɪð/",
+    "pos": "phr.",
+    "chinese": "依照；与……一致",
+    "core_state": "一个行为完全按照某个既定的规则或标准来执行，不偏离。",
+    "underlying_relation": "行为 → 完全按既定规则/标准执行 → 不偏离(依照)。",
+    "synonyms": [
+      {
+        "word": "conform",
+        "chinese": "符合"
+      }
+    ]
+  },
+  {
+    "id": "read_inaccurate",
+    "tier": 3,
+    "word": "inaccurate",
+    "phonetic": "/ɪnˈækjərət/",
+    "pos": "adj.",
+    "chinese": "错误的",
+    "core_state": "一个说法或数据跟真实情况存在偏差，不完全正确。",
+    "underlying_relation": "说法/数据 → 跟真实情况存在偏差 → 不完全正确(不准确)。",
+    "synonyms": [
+      {
+        "word": "incorrect",
+        "chinese": "不正确的"
+      }
+    ]
+  },
+  {
+    "id": "read_inactive",
+    "tier": 3,
+    "word": "inactive",
+    "phonetic": "/ɪnˈæktɪv/",
+    "pos": "adj.",
+    "chinese": "不活跃的，不活动的",
+    "core_state": "一个原本应该运作或活动的对象，处于停止或静止的状态。",
+    "underlying_relation": "对象 → 应运作却处于停止静止状态 → 不活跃。",
+    "synonyms": [
+      {
+        "word": "passive",
+        "chinese": "被动的"
+      }
+    ]
+  },
+  {
+    "id": "read_infest",
+    "tier": 3,
+    "word": "infest",
+    "phonetic": "/ɪnˈfest/",
+    "pos": "v.",
+    "chinese": "侵害；寄生于",
+    "core_state": "大量有害的生物侵入并寄居在一个地方，对其造成持续危害。",
+    "underlying_relation": "大量有害生物 → 侵入寄居某地 → 造成持续危害(侵害)。",
+    "synonyms": [
+      {
+        "word": "plague",
+        "chinese": "侵扰"
+      }
+    ]
+  },
+  {
+    "id": "read_installment",
+    "tier": 3,
+    "word": "installment",
+    "phonetic": "/ɪnˈstɔːlmənt/",
+    "pos": "n.",
+    "chinese": "安装；分期付款",
+    "core_state": "把一笔总数较大的费用，拆分成多次较小的部分依次支付。",
+    "underlying_relation": "总数较大的费用 → 拆分成多次较小部分 → 依次支付(分期)。",
+    "synonyms": [
+      {
+        "word": "payment on its completion",
+        "chinese": "完成时的付款"
+      }
+    ]
+  },
+  {
+    "id": "read_intense",
+    "tier": 3,
+    "word": "intense",
+    "phonetic": "/ɪnˈtens/",
+    "pos": "adj.",
+    "chinese": "强烈的；紧张的；热情的",
+    "core_state": "一种情绪、状态或程度达到了非常高、非常集中的水平。",
+    "underlying_relation": "情绪/状态/程度 → 达到非常高集中的水平 → 强烈。",
+    "synonyms": [
+      {
+        "word": "strong",
+        "chinese": "强的"
+      }
+    ]
+  },
+  {
+    "id": "read_interaction",
+    "tier": 3,
+    "word": "interaction",
+    "phonetic": "/ˌɪntərˈækʃn/",
+    "pos": "n.",
+    "chinese": "相互作用，交流互动",
+    "core_state": "两方或多方之间来回发生的影响和回应，不是单方面的。",
+    "underlying_relation": "多方 → 来回发生影响和回应 → 非单方面(互动)。",
+    "synonyms": [
+      {
+        "word": "social activities",
+        "chinese": "社交活动"
+      }
+    ]
+  },
+  {
+    "id": "read_interference",
+    "tier": 3,
+    "word": "interference",
+    "phonetic": "/ˌɪntəˈfɪərəns/",
+    "pos": "n.",
+    "chinese": "干涉",
+    "core_state": "一方主动插入到本来跟自己无关的事情里，影响其原本的进程。",
+    "underlying_relation": "一方 → 主动插入无关的事情 → 影响原本进程(干涉)。",
+    "synonyms": [
+      {
+        "word": "interdependence",
+        "chinese": "相互依赖"
+      }
+    ]
+  },
+  {
+    "id": "read_interior",
+    "tier": 3,
+    "word": "interior",
+    "phonetic": "/ɪnˈtɪəriə(r)/",
+    "pos": "n.",
+    "chinese": "内部；内部的",
+    "core_state": "一个事物被外壳包裹住的、看不到外表的那部分空间。",
+    "underlying_relation": "事物 → 外壳包裹住的部分 → 看不到外表的空间(内部)。",
+    "synonyms": [
+      {
+        "word": "inner",
+        "chinese": "内部的"
+      }
+    ]
+  },
+  {
+    "id": "read_interrupt",
+    "tier": 3,
+    "word": "interrupt",
+    "phonetic": "/ˌɪntəˈrʌpt/",
+    "pos": "v.",
+    "chinese": "中断",
+    "core_state": "一个正在进行的过程，被外来的动作强行打断，暂停下来。",
+    "underlying_relation": "正在进行的过程 + 外来动作强行打断 → 暂停(中断)。",
+    "synonyms": [
+      {
+        "word": "stop",
+        "chinese": "停止"
+      }
+    ]
+  },
+  {
+    "id": "read_introverted",
+    "tier": 3,
+    "word": "introverted",
+    "phonetic": "/ˈɪntrəvɜːtɪd/",
+    "pos": "adj.",
+    "chinese": "内向的，含蓄的",
+    "core_state": "一个人的注意力和精力更多地投向自己内心世界，不擅长向外表达。",
+    "underlying_relation": "人 → 注意力精力投向内心世界 → 不擅长向外表达(内向)。",
+    "synonyms": [
+      {
+        "word": "shyness",
+        "chinese": "害羞"
+      }
+    ]
+  },
+  {
+    "id": "read_involve",
+    "tier": 3,
+    "word": "involve",
+    "phonetic": "/ɪnˈvɒlv/",
+    "pos": "v.",
+    "chinese": "包含，牵涉",
+    "core_state": "一件事情的范围里，把另一个对象也纳入其中，产生关联。",
+    "underlying_relation": "事情范围 → 把另一对象纳入其中 → 产生关联(包含)。",
+    "synonyms": [
+      {
+        "word": "associate",
+        "chinese": "联系"
+      }
+    ]
+  },
+  {
+    "id": "read_keen",
+    "tier": 3,
+    "word": "keen",
+    "phonetic": "/kiːn/",
+    "pos": "adj.",
+    "chinese": "热切的；强烈的",
+    "core_state": "一个人对某件事表现出非常强烈、迫切想要参与或获得的意愿。",
+    "underlying_relation": "人 → 表现出强烈迫切的意愿 → 想参与/获得(热切)。",
+    "synonyms": [
+      {
+        "word": "strong",
+        "chinese": "强烈的"
+      }
+    ]
+  },
+  {
+    "id": "read_likelihood",
+    "tier": 3,
+    "word": "likelihood",
+    "phonetic": "/ˈlaɪklihʊd/",
+    "pos": "n.",
+    "chinese": "可能性",
+    "core_state": "一件事情将来发生的机会大小。",
+    "underlying_relation": "事情 → 将来发生的机会大小 → 构成可能性。",
+    "synonyms": [
+      {
+        "word": "chance",
+        "chinese": "机会"
+      }
+    ]
+  },
+  {
+    "id": "read_linguistic",
+    "tier": 3,
+    "word": "linguistic",
+    "phonetic": "/lɪŋˈɡwɪstɪk/",
+    "pos": "adj.",
+    "chinese": "语言(学)的",
+    "core_state": "跟语言这个研究领域或语言本身直接相关。",
+    "underlying_relation": "事物 → 跟语言领域/语言本身相关 → 具有语言学属性。",
+    "synonyms": [
+      {
+        "word": "language",
+        "chinese": "语言"
+      }
+    ]
+  },
+  {
+    "id": "read_look_in",
+    "tier": 3,
+    "word": "look-in",
+    "phonetic": "/ˈlʊk ɪn/",
+    "pos": "n.",
+    "chinese": "成功的机会",
+    "core_state": "一个原本处于劣势的对象，出现了一个可能扭转局面、获得成功的窗口期。",
+    "underlying_relation": "劣势对象 → 出现扭转局面的窗口期 → 成功的机会。",
+    "synonyms": [
+      {
+        "word": "opportunity",
+        "chinese": "机会"
+      },
+      {
+        "word": "chance",
+        "chinese": "机会"
+      }
+    ]
+  },
+  {
+    "id": "read_lopsided",
+    "tier": 3,
+    "word": "lopsided",
+    "phonetic": "/ˌlɒpˈsaɪdɪd/",
+    "pos": "adj.",
+    "chinese": "不平衡的",
+    "core_state": "两边原本该保持均衡的重量或比例，一边明显偏重，失去平衡。",
+    "underlying_relation": "两边应均衡 → 一边明显偏重 → 失去平衡(不平衡)。",
+    "synonyms": [
+      {
+        "word": "uneven",
+        "chinese": "不均匀的"
+      }
+    ]
+  },
+  {
+    "id": "read_mainly",
+    "tier": 3,
+    "word": "mainly",
+    "phonetic": "/ˈmeɪnli/",
+    "pos": "adv.",
+    "chinese": "主要的，大体的",
+    "core_state": "在多个组成因素里，占据最大比例、起决定性作用的那一部分。",
+    "underlying_relation": "多个组成因素 → 占最大比例起决定作用 → 主要部分。",
+    "synonyms": [
+      {
+        "word": "primarily",
+        "chinese": "主要地"
+      }
+    ]
+  },
+  {
+    "id": "read_malfunction",
+    "tier": 3,
+    "word": "malfunction",
+    "phonetic": "/ˌmælˈfʌŋkʃn/",
+    "pos": "v.",
+    "chinese": "发生故障；不起作用",
+    "core_state": "一个原本正常运转的系统或设备，突然无法按预期方式工作。",
+    "underlying_relation": "正常运转的系统/设备 → 突然无法按预期工作 → 故障。",
+    "synonyms": [
+      {
+        "word": "breakdown",
+        "chinese": "故障"
+      }
+    ]
+  },
+  {
+    "id": "read_manage_to_do",
+    "tier": 3,
+    "word": "manage to do",
+    "phonetic": "/ˈmænɪdʒ tuː duː/",
+    "pos": "phr.",
+    "chinese": "设法完成某事",
+    "core_state": "尽管过程中遇到困难，最终还是想办法达成了目标。",
+    "underlying_relation": "遇到困难 → 想办法克服 → 最终达成目标(设法完成)。",
+    "synonyms": [
+      {
+        "word": "success",
+        "chinese": "成功"
+      }
+    ]
+  },
+  {
+    "id": "read_manufacture",
+    "tier": 3,
+    "word": "manufacture",
+    "phonetic": "/ˌmænjuˈfæktʃə(r)/",
+    "pos": "n.",
+    "chinese": "生产",
+    "core_state": "通过工业化的流程，把原材料加工制作成最终产品。",
+    "underlying_relation": "原材料 → 工业化流程加工制作 → 最终产品(生产)。",
+    "synonyms": [
+      {
+        "word": "produce",
+        "chinese": "生产"
+      }
+    ]
+  },
+  {
+    "id": "read_mental",
+    "tier": 3,
+    "word": "mental",
+    "phonetic": "/ˈmentl/",
+    "pos": "adj.",
+    "chinese": "精神的，心理的",
+    "core_state": "跟大脑思维、心理活动这个层面直接相关，而不是身体层面。",
+    "underlying_relation": "事物 → 跟大脑思维/心理活动相关 → 精神层面(非身体)。",
+    "synonyms": [
+      {
+        "word": "intelligent",
+        "chinese": "智力的"
+      }
+    ]
+  },
+  {
+    "id": "read_meteorological",
+    "tier": 3,
+    "word": "meteorological",
+    "phonetic": "/ˌmiːtiərəˈlɒdʒɪkl/",
+    "pos": "adj.",
+    "chinese": "气象学的",
+    "core_state": "跟大气变化、天气现象这个研究领域直接相关。",
+    "underlying_relation": "事物 → 跟大气变化/天气现象相关 → 气象学属性。",
+    "synonyms": [
+      {
+        "word": "weather",
+        "chinese": "天气"
+      }
+    ]
   }
 ]
