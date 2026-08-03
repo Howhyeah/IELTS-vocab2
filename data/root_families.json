@@ -395,7 +395,13 @@
       "migrant workers"
     ],
     "chinese": "迁移；移民；移入；移出；移民；迁徙的",
-    "underlying_relation": "原居住地 → 主体整体移动 → 新居住地（跟随季节/条件变化）。"
+    "underlying_relation": "原居住地 → 主体整体移动 → 新居住地（跟随季节/条件变化）。",
+    "reading_synonyms": [
+      {
+        "word": "move",
+        "chinese": "移动"
+      }
+    ]
   },
   {
     "id": "educ",
