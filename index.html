@@ -112,19 +112,28 @@
         }
         .function-item {
             background: white;
-            border-radius: 16px;
-            padding: 14px 4px;
+            border-radius: 18px;
+            padding: 16px 4px 12px;
             text-align: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            border: 2px solid transparent;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
             cursor: pointer;
         }
-        .function-item:active { transform: scale(0.94); border-color: var(--accent); }
-        .function-icon { font-size: 26px; margin-bottom: 4px; }
+        .function-item:active { transform: scale(0.94); }
+        .function-icon {
+            width: 46px;
+            height: 46px;
+            border-radius: 14px;
+            background: var(--accent-bg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            margin: 0 auto 8px;
+        }
         .function-label {
             font-size: 12px;
             font-weight: 600;
-            color: var(--accent);
+            color: #4a4a58;
         }
         .toast {
             position: fixed;
@@ -409,6 +418,13 @@
             margin-bottom: 15px;
         }
         .modal-head h2 { font-size: 20px; color: #333; }
+        .modal-title-fit {
+            font-size: 17px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 85%;
+        }
         .modal-close {
             background: #eee;
             border: none;
@@ -646,27 +662,27 @@
         </div>
 
         <div class="function-grid">
-            <div class="function-item" style="--accent:#667eea" onclick="openRecords()">
+            <div class="function-item" style="--accent-bg:#eef1ff" onclick="openRecords()">
                 <div class="function-icon">📖</div>
                 <div class="function-label">学习记录</div>
             </div>
-            <div class="function-item" style="--accent:#ff9f43" onclick="openDrill()">
+            <div class="function-item" style="--accent-bg:#fff1e8" onclick="openDrill()">
                 <div class="function-icon">🔥</div>
                 <div class="function-label">强记模式</div>
             </div>
-            <div class="function-item" style="--accent:#17a2b8" onclick="openListening()">
+            <div class="function-item" style="--accent-bg:#e3f8fa" onclick="openListening()">
                 <div class="function-icon">🎧</div>
-                <div class="function-label">听力词汇</div>
+                <div class="function-label">听力语料库</div>
             </div>
-            <div class="function-item" style="--accent:#6f42c1" onclick="openReading()">
+            <div class="function-item" style="--accent-bg:#f3ecff" onclick="openReading()">
                 <div class="function-icon">📚</div>
-                <div class="function-label">阅读词汇</div>
+                <div class="function-label">阅读词库</div>
             </div>
-            <div class="function-item" style="--accent:#6c757d" onclick="exportData()">
+            <div class="function-item" style="--accent-bg:#eef3ee" onclick="exportData()">
                 <div class="function-icon">⬆️</div>
                 <div class="function-label">导出记录</div>
             </div>
-            <div class="function-item" style="--accent:#6c757d" onclick="document.getElementById('importFileInput').click()">
+            <div class="function-item" style="--accent-bg:#eef3ee" onclick="document.getElementById('importFileInput').click()">
                 <div class="function-icon">⬇️</div>
                 <div class="function-label">导入记录</div>
             </div>
@@ -721,7 +737,7 @@
     <div id="listeningModal" class="modal-overlay">
         <div class="modal-box">
             <div class="modal-head">
-                <h2>🎧 听力词汇</h2>
+                <h2 class="modal-title-fit">🎧 2025年听力高频词汇</h2>
                 <button class="modal-close" onclick="closeListening()">✕</button>
             </div>
             <div id="listeningContent" class="records-list"></div>
@@ -732,7 +748,7 @@
     <div id="readingModal" class="modal-overlay">
         <div class="modal-box">
             <div class="modal-head">
-                <h2>📖 阅读词汇</h2>
+                <h2 class="modal-title-fit">📖 剑雅真经阅读考点词538</h2>
                 <button class="modal-close" onclick="closeReading()">✕</button>
             </div>
             <div id="readingContent" class="records-list"></div>
@@ -803,8 +819,8 @@
 
         // 判断一个词来自哪个来源，用于在模糊记忆等共用列表里显示区分标签
         function wordSourceLabel(w) {
-            if (w.listenCategory) return '🎧 听力词汇';
-            if (w.synonyms) return '📖 阅读词汇';
+            if (w.listenCategory) return '🎧 听力语料库';
+            if (w.synonyms) return '📖 阅读词库';
             return '';
         }
 
@@ -1616,7 +1632,7 @@
         function renderListeningCard(word, mode) {
             return `
                 <div class="word-card">
-                    ${topBarHtml('🎧 听力词汇', mode)}
+                    ${topBarHtml('🎧 听力语料库', mode)}
                     <div class="word-header">
                         <div class="word-title">${word.word}<button class="speak-btn" onclick="playPronunciation('${word.word}', this)">🔊</button></div>
                         <div class="phonetic">${word.phonetic}</div>
@@ -1995,7 +2011,7 @@
             const container = document.getElementById('listeningContent');
             container.innerHTML = `
                 <button class="back-to-list-btn" onclick="renderListeningCategoryList()">◀ 返回分类列表</button>
-                <div class="listen-cat-title">🎧 听力词汇 · ${name}</div>
+                <div class="listen-cat-title">🎧 2025年听力高频词汇 · ${name}</div>
                 ${words.map(w => {
                     const status = (records[w.id] || {}).status;
                     const mark = status === 'know' ? '✅' : '⭕';
@@ -2047,58 +2063,4 @@
         function renderReadingList() {
             const container = document.getElementById('readingContent');
             if (allReadingWords.length === 0) {
-                container.innerHTML = `<div class="records-empty">阅读词汇还没有上传</div>`;
-                return;
-            }
-            const sorted = [...allReadingWords].sort((a, b) => (a.rank || 9999) - (b.rank || 9999));
-            container.innerHTML = sorted.map(w => `
-                <div class="reading-row" onclick="openReadingDetail('${w.id}')">
-                    <span class="reading-rank">${w.rank || '-'}</span>
-                    <span class="reading-word">${w.word}</span>
-                    <span class="reading-chinese">${w.chinese}</span>
-                    <button class="speak-btn" style="width:26px;height:26px;font-size:11px;" onclick="event.stopPropagation();playPronunciation('${w.word.replace(/'/g, "\\'")}', this)">🔊</button>
-                </div>
-            `).join('');
-        }
-        let readingBrowseIndex = 0;
-        function openReadingDetail(id) {
-            readingBrowseIndex = allReadingWords.findIndex(w => w.id === id);
-            if (readingBrowseIndex < 0) readingBrowseIndex = 0;
-            renderReadingDetail();
-        }
-        function readingNext() {
-            readingBrowseIndex++;
-            if (readingBrowseIndex >= allReadingWords.length) readingBrowseIndex = 0;
-            renderReadingDetail();
-        }
-        function renderReadingDetail() {
-            const word = allReadingWords[readingBrowseIndex];
-            prefetchAudio(word.word);
-            const container = document.getElementById('readingContent');
-            container.innerHTML = `
-                <button class="back-to-list-btn" onclick="renderReadingList()">◀ 返回列表</button>
-                ${renderReadingCard(word, 'reading-browse')}
-            `;
-        }
-        function markReadingWord(status) {
-            const word = allReadingWords[readingBrowseIndex];
-            const records = loadRecords();
-            const rec = records[word.id] || {};
-            rec.status = status;
-            if (status === 'know' && !rec.firstLearnedDate) {
-                rec.firstLearnedDate = todayStr();
-                rec.reviewStage = 0;
-                rec.masteryStreak = 0;
-                rec.graduated = false;
-                rec.nextReviewDate = addDaysToToday(REVIEW_INTERVALS[0]);
-            }
-            records[word.id] = rec;
-            saveRecords(records);
-            updateStats();
-            readingNext();
-        }
-
-        window.onload = init;
-    </script>
-</body>
-</html>
+                container.innerHTML = `<div class
