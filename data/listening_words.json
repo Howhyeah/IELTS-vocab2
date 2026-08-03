@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "listen_1_monday",
+    "word": "Monday",
+    "phonetic": "/ˈmʌndeɪ/",
+    "chinese": "星期一",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_tuesday",
+    "word": "Tuesday",
+    "phonetic": "/ˈtjuːzdeɪ/",
+    "chinese": "星期二",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_wednesday",
+    "word": "Wednesday",
+    "phonetic": "/ˈwenzdeɪ/",
+    "chinese": "星期三",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_thursday",
+    "word": "Thursday",
+    "phonetic": "/ˈθɜːzdeɪ/",
+    "chinese": "星期四",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_friday",
+    "word": "Friday",
+    "phonetic": "/ˈfraɪdeɪ/",
+    "chinese": "星期五",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_saturday",
+    "word": "Saturday",
+    "phonetic": "/ˈsætədeɪ/",
+    "chinese": "星期六",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_sunday",
+    "word": "Sunday",
+    "phonetic": "/ˈsʌndeɪ/",
+    "chinese": "星期日",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_weekdays",
+    "word": "weekdays",
+    "phonetic": "/ˈwiːkdeɪz/",
+    "chinese": "工作日",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_1_weekend",
+    "word": "weekend",
+    "phonetic": "/ˌwiːkˈend/",
+    "chinese": "周末",
+    "listenCategory": "星期",
+    "listenCategoryOrder": 1
+  },
+  {
+    "id": "listen_2_january",
+    "word": "January",
+    "phonetic": "/ˈdʒænjuəri/",
+    "chinese": "一月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_february",
+    "word": "February",
+    "phonetic": "/ˈfebrʊəri/",
+    "chinese": "二月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_march",
+    "word": "March",
+    "phonetic": "/mɑːtʃ/",
+    "chinese": "三月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_april",
+    "word": "April",
+    "phonetic": "/ˈeɪprəl/",
+    "chinese": "四月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_may",
+    "word": "May",
+    "phonetic": "/meɪ/",
+    "chinese": "五月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_june",
+    "word": "June",
+    "phonetic": "/dʒuːn/",
+    "chinese": "六月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_july",
+    "word": "July",
+    "phonetic": "/dʒuˈlaɪ/",
+    "chinese": "七月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_august",
+    "word": "August",
+    "phonetic": "/ˈɔːɡəst/",
+    "chinese": "八月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_september",
+    "word": "September",
+    "phonetic": "/sepˈtembə(r)/",
+    "chinese": "九月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_october",
+    "word": "October",
+    "phonetic": "/ɒkˈtəʊbə(r)/",
+    "chinese": "十月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_november",
+    "word": "November",
+    "phonetic": "/nəʊˈvembə(r)/",
+    "chinese": "十一月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_2_december",
+    "word": "December",
+    "phonetic": "/dɪˈsembə(r)/",
+    "chinese": "十二月",
+    "listenCategory": "月份",
+    "listenCategoryOrder": 2
+  },
+  {
+    "id": "listen_3_science",
+    "word": "science",
+    "phonetic": "/ˈsaɪəns/",
+    "chinese": "科学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_politics",
+    "word": "politics",
+    "phonetic": "/ˈpɒlətɪks/",
+    "chinese": "政治学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_history",
+    "word": "history",
+    "phonetic": "/ˈhɪstri/",
+    "chinese": "历史学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_biology",
+    "word": "biology",
+    "phonetic": "/baɪˈɒlədʒi/",
+    "chinese": "生物学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_architecture",
+    "word": "architecture",
+    "phonetic": "/ˈɑːkɪtektʃə(r)/",
+    "chinese": "建筑学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_law",
+    "word": "law",
+    "phonetic": "/lɔː/",
+    "chinese": "法律",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_geography",
+    "word": "geography",
+    "phonetic": "/dʒiˈɒɡrəfi/",
+    "chinese": "地理学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_archaeology",
+    "word": "archaeology",
+    "phonetic": "/ˌɑːkiˈɒlədʒi/",
+    "chinese": "考古学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_literature",
+    "word": "literature",
+    "phonetic": "/ˈlɪtrətʃə(r)/",
+    "chinese": "文学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_business",
+    "word": "business",
+    "phonetic": "/ˈbɪznəs/",
+    "chinese": "商业",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_management",
+    "word": "management",
+    "phonetic": "/ˈmænɪdʒmənt/",
+    "chinese": "管理学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_agriculture",
+    "word": "agriculture",
+    "phonetic": "/ˈæɡrɪkʌltʃə(r)/",
+    "chinese": "农业",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_statistics",
+    "word": "statistics",
+    "phonetic": "/stəˈtɪstɪks/",
+    "chinese": "统计学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_mathematics",
+    "word": "mathematics",
+    "phonetic": "/ˌmæθəˈmætɪks/",
+    "chinese": "数学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_logic",
+    "word": "logic",
+    "phonetic": "/ˈlɒdʒɪk/",
+    "chinese": "逻辑学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_physics",
+    "word": "physics",
+    "phonetic": "/ˈfɪzɪks/",
+    "chinese": "物理学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_psychology",
+    "word": "psychology",
+    "phonetic": "/saɪˈkɒlədʒi/",
+    "chinese": "心理学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_anthropology",
+    "word": "anthropology",
+    "phonetic": "/ˌænθrəˈpɒlədʒi/",
+    "chinese": "人类学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_economics",
+    "word": "economics",
+    "phonetic": "/ˌiːkəˈnɒmɪks/",
+    "chinese": "经济学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_philosophy",
+    "word": "philosophy",
+    "phonetic": "/fəˈlɒsəfi/",
+    "chinese": "哲学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_performing_arts",
+    "word": "performing arts",
+    "phonetic": "/pəˈfɔːmɪŋ ɑːts/",
+    "chinese": "表演艺术",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_visual_arts",
+    "word": "visual arts",
+    "phonetic": "/ˈvɪʒuəl ɑːts/",
+    "chinese": "视觉艺术",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_chemistry",
+    "word": "chemistry",
+    "phonetic": "/ˈkemɪstri/",
+    "chinese": "化学",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_3_humanities",
+    "word": "humanities",
+    "phonetic": "/hjuːˈmænətiz/",
+    "chinese": "人文学科",
+    "listenCategory": "科目",
+    "listenCategoryOrder": 3
+  },
+  {
+    "id": "listen_4_course_outline",
+    "word": "course outline",
+    "phonetic": "/kɔːs ˈaʊtlaɪn/",
+    "chinese": "课程大纲",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_group_discussion",
+    "word": "group discussion",
+    "phonetic": "/ɡruːp dɪˈskʌʃn/",
+    "chinese": "小组讨论",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_handout",
+    "word": "handout",
+    "phonetic": "/ˈhændaʊt/",
+    "chinese": "讲义",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_written_work",
+    "word": "written work",
+    "phonetic": "/ˈrɪtn wɜːk/",
+    "chinese": "书面作业",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_report_writing",
+    "word": "report writing",
+    "phonetic": "/rɪˈpɔːt ˈraɪtɪŋ/",
+    "chinese": "报告撰写",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_research",
+    "word": "research",
+    "phonetic": "/rɪˈsɜːtʃ/",
+    "chinese": "研究",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_proofreading",
+    "word": "proofreading",
+    "phonetic": "/ˈpruːfriːdɪŋ/",
+    "chinese": "校对",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_experiment",
+    "word": "experiment",
+    "phonetic": "/ɪkˈsperɪmənt/",
+    "chinese": "实验",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_experience",
+    "word": "experience",
+    "phonetic": "/ɪkˈspɪəriəns/",
+    "chinese": "经验",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_reference",
+    "word": "reference",
+    "phonetic": "/ˈrefrəns/",
+    "chinese": "参考资料",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_textbook",
+    "word": "textbook",
+    "phonetic": "/ˈtekstbʊk/",
+    "chinese": "教科书",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_dictionary",
+    "word": "dictionary",
+    "phonetic": "/ˈdɪkʃənəri/",
+    "chinese": "词典",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_laptop",
+    "word": "laptop",
+    "phonetic": "/ˈlæptɒp/",
+    "chinese": "笔记本电脑",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_printer",
+    "word": "printer",
+    "phonetic": "/ˈprɪntə(r)/",
+    "chinese": "打印机",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_student_advisor",
+    "word": "student advisor",
+    "phonetic": "/ˈstjuːdnt ədˈvaɪzə(r)/",
+    "chinese": "学生导师",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_teamwork",
+    "word": "teamwork",
+    "phonetic": "/ˈtiːmwɜːk/",
+    "chinese": "团队合作",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_module",
+    "word": "module",
+    "phonetic": "/ˈmɒdjuːl/",
+    "chinese": "课程模块",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_topic",
+    "word": "topic",
+    "phonetic": "/ˈtɒpɪk/",
+    "chinese": "主题",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_assessment",
+    "word": "assessment",
+    "phonetic": "/əˈsesmənt/",
+    "chinese": "评估",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_library",
+    "word": "library",
+    "phonetic": "/ˈlaɪbrəri/",
+    "chinese": "图书馆",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_department",
+    "word": "department",
+    "phonetic": "/dɪˈpɑːtmənt/",
+    "chinese": "系，部门",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_computer_centre",
+    "word": "computer centre",
+    "phonetic": "/kəmˈpjuːtə(r) ˈsentə(r)/",
+    "chinese": "计算机中心",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_classroom",
+    "word": "classroom",
+    "phonetic": "/ˈklɑːsruːm/",
+    "chinese": "教室",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_lecture",
+    "word": "lecture",
+    "phonetic": "/ˈlektʃə(r)/",
+    "chinese": "讲座",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_tutor",
+    "word": "tutor",
+    "phonetic": "/ˈtjuːtə(r)/",
+    "chinese": "导师",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_main_hall",
+    "word": "main hall",
+    "phonetic": "/meɪn hɔːl/",
+    "chinese": "主厅",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_attendance",
+    "word": "attendance",
+    "phonetic": "/əˈtendəns/",
+    "chinese": "出席",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_deadline",
+    "word": "deadline",
+    "phonetic": "/ˈdedlaɪn/",
+    "chinese": "截止日期",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_give_a_talk",
+    "word": "give a talk",
+    "phonetic": "/ɡɪv ə tɔːk/",
+    "chinese": "做演讲",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_speech",
+    "word": "speech",
+    "phonetic": "/spiːtʃ/",
+    "chinese": "演讲",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_computer_laboratory",
+    "word": "computer laboratory",
+    "phonetic": "/kəmˈpjuːtə(r) ləˈbɒrətri/",
+    "chinese": "计算机实验室",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_certificate",
+    "word": "certificate",
+    "phonetic": "/səˈtɪfɪkət/",
+    "chinese": "证书",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_diploma",
+    "word": "diploma",
+    "phonetic": "/dɪˈpləʊmə/",
+    "chinese": "文凭",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_placement_test",
+    "word": "placement test",
+    "phonetic": "/ˈpleɪsmənt test/",
+    "chinese": "分级测试",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_overseas_students",
+    "word": "overseas students",
+    "phonetic": "/ˌəʊvəˈsiːz ˈstjuːdnts/",
+    "chinese": "海外留学生",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_full-time",
+    "word": "full-time",
+    "phonetic": "/fʊl taɪm/",
+    "chinese": "全职的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_facilities",
+    "word": "facilities",
+    "phonetic": "/fəˈsɪlətiz/",
+    "chinese": "设施",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_college",
+    "word": "college",
+    "phonetic": "/ˈkɒlɪdʒ/",
+    "chinese": "学院",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_dining_room",
+    "word": "dining room",
+    "phonetic": "/ˈdaɪnɪŋ ruːm/",
+    "chinese": "餐厅",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_specialist",
+    "word": "specialist",
+    "phonetic": "/ˈspeʃəlɪst/",
+    "chinese": "专家",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_knowledge",
+    "word": "knowledge",
+    "phonetic": "/ˈnɒlɪdʒ/",
+    "chinese": "知识",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_international",
+    "word": "international",
+    "phonetic": "/ˌɪntəˈnæʃnəl/",
+    "chinese": "国际的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_accommodation",
+    "word": "accommodation",
+    "phonetic": "/əˌkɒməˈdeɪʃn/",
+    "chinese": "住宿",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_home_stay",
+    "word": "home stay",
+    "phonetic": "/həʊm steɪ/",
+    "chinese": "寄宿家庭",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_primary",
+    "word": "primary",
+    "phonetic": "/ˈpraɪməri/",
+    "chinese": "初级的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_secondary",
+    "word": "secondary",
+    "phonetic": "/ˈsekəndri/",
+    "chinese": "中级的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_intermediate",
+    "word": "intermediate",
+    "phonetic": "/ˌɪntəˈmiːdiət/",
+    "chinese": "中等的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_media_room",
+    "word": "media room",
+    "phonetic": "/ˈmiːdiə ruːm/",
+    "chinese": "多媒体室",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_resources_room",
+    "word": "resources room",
+    "phonetic": "/rɪˈsɔːsɪz ruːm/",
+    "chinese": "资源室",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_staff",
+    "word": "staff",
+    "phonetic": "/stɑːf/",
+    "chinese": "职员",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_commencement",
+    "word": "commencement",
+    "phonetic": "/kəˈmensmənt/",
+    "chinese": "开学；毕业典礼",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_dissertation",
+    "word": "dissertation",
+    "phonetic": "/ˌdɪsəˈteɪʃn/",
+    "chinese": "学位论文",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_leaflet",
+    "word": "leaflet",
+    "phonetic": "/ˈliːflət/",
+    "chinese": "传单",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_faculty",
+    "word": "faculty",
+    "phonetic": "/ˈfækəlti/",
+    "chinese": "院系；全体教员",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_pupils",
+    "word": "pupils",
+    "phonetic": "/ˈpjuːplz/",
+    "chinese": "学生",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_pencil",
+    "word": "pencil",
+    "phonetic": "/ˈpensl/",
+    "chinese": "铅笔",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_feedback",
+    "word": "feedback",
+    "phonetic": "/ˈfiːdbæk/",
+    "chinese": "反馈",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_tasks",
+    "word": "tasks",
+    "phonetic": "/tɑːsks/",
+    "chinese": "任务",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_outcomes",
+    "word": "outcomes",
+    "phonetic": "/ˈaʊtkʌmz/",
+    "chinese": "成果",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_advanced",
+    "word": "advanced",
+    "phonetic": "/ədˈvɑːnst/",
+    "chinese": "高级的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_introductory",
+    "word": "introductory",
+    "phonetic": "/ˌɪntrəˈdʌktəri/",
+    "chinese": "入门的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_extra_background",
+    "word": "extra background",
+    "phonetic": "/ˈekstrə ˈbækɡraʊnd/",
+    "chinese": "额外背景知识",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_higher_education",
+    "word": "higher education",
+    "phonetic": "/ˈhaɪə(r) ˌedʒʊˈkeɪʃn/",
+    "chinese": "高等教育",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_guidelines",
+    "word": "guidelines",
+    "phonetic": "/ˈɡaɪdlaɪnz/",
+    "chinese": "指导方针",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_post-secondary",
+    "word": "post-secondary",
+    "phonetic": "/pəʊst ˈsekəndri/",
+    "chinese": "中学后的",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_supervisor",
+    "word": "supervisor",
+    "phonetic": "/ˈsuːpəvaɪzə(r)/",
+    "chinese": "导师",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_bachelors_degree",
+    "word": "bachelor's degree",
+    "phonetic": "/ˈbætʃələz dɪˈɡriː/",
+    "chinese": "学士学位",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_compound",
+    "word": "compound",
+    "phonetic": "/ˈkɒmpaʊnd/",
+    "chinese": "复合词",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_vocabulary",
+    "word": "vocabulary",
+    "phonetic": "/vəˈkæbjələri/",
+    "chinese": "词汇",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_student_support_services",
+    "word": "student support services",
+    "phonetic": "/ˈstjuːdnt səˈpɔːt ˈsɜːvɪsɪz/",
+    "chinese": "学生支持服务",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_student_retention",
+    "word": "student retention",
+    "phonetic": "/ˈstjuːdnt rɪˈtenʃn/",
+    "chinese": "学生保留率",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_publication",
+    "word": "publication",
+    "phonetic": "/ˌpʌblɪˈkeɪʃn/",
+    "chinese": "出版物",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_foreign_students",
+    "word": "foreign students",
+    "phonetic": "/ˈfɒrən ˈstjuːdnts/",
+    "chinese": "外国学生",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_schedule",
+    "word": "schedule",
+    "phonetic": "/ˈʃedjuːl/",
+    "chinese": "课程表",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_school_reunion",
+    "word": "school reunion",
+    "phonetic": "/skuːl riːˈjuːniən/",
+    "chinese": "校友聚会",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_registrars_office",
+    "word": "registrar's office",
+    "phonetic": "/ˌredʒɪˈstrɑː(r) ˈɒfɪs/",
+    "chinese": "教务处",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_4_stationery",
+    "word": "stationery",
+    "phonetic": "/ˈsteɪʃənəri/",
+    "chinese": "文具",
+    "listenCategory": "大学教育",
+    "listenCategoryOrder": 4
+  },
+  {
+    "id": "listen_5_cash",
+    "word": "cash",
+    "phonetic": "/kæʃ/",
+    "chinese": "现金",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_debit",
+    "word": "debit",
+    "phonetic": "/ˈdebɪt/",
+    "chinese": "借记",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_credit_card",
+    "word": "credit card",
+    "phonetic": "/ˈkredɪt kɑːd/",
+    "chinese": "信用卡",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_cheque",
+    "word": "cheque",
+    "phonetic": "/tʃek/",
+    "chinese": "支票",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_in_advance",
+    "word": "in advance",
+    "phonetic": "/ɪn ədˈvɑːns/",
+    "chinese": "提前",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_annual_fee",
+    "word": "annual fee",
+    "phonetic": "/ˈænjuəl fiː/",
+    "chinese": "年费",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_monthly_membership",
+    "word": "monthly membership",
+    "phonetic": "/ˈmʌnθli ˈmembəʃɪp/",
+    "chinese": "月度会员",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_interest_rate",
+    "word": "interest rate",
+    "phonetic": "/ˈɪntrəst reɪt/",
+    "chinese": "利率",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_deposit",
+    "word": "deposit",
+    "phonetic": "/dɪˈpɒzɪt/",
+    "chinese": "押金，存款",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_tuition_fees",
+    "word": "tuition fees",
+    "phonetic": "/tjuˈɪʃn fiːz/",
+    "chinese": "学费",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_poverty",
+    "word": "poverty",
+    "phonetic": "/ˈpɒvəti/",
+    "chinese": "贫穷",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_bank_statement",
+    "word": "bank statement",
+    "phonetic": "/bæŋk ˈsteɪtmənt/",
+    "chinese": "银行对账单",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_money_management",
+    "word": "money management",
+    "phonetic": "/ˈmʌni ˈmænɪdʒmənt/",
+    "chinese": "理财",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_current_account",
+    "word": "current account",
+    "phonetic": "/ˈkʌrənt əˈkaʊnt/",
+    "chinese": "活期账户",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_student_account",
+    "word": "student account",
+    "phonetic": "/ˈstjuːdnt əˈkaʊnt/",
+    "chinese": "学生账户",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_withdraw",
+    "word": "withdraw",
+    "phonetic": "/wɪðˈdrɔː/",
+    "chinese": "提取",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_low-risk_investment",
+    "word": "low-risk investment",
+    "phonetic": "/ləʊ rɪsk ɪnˈvestmənt/",
+    "chinese": "低风险投资",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_mortgage",
+    "word": "mortgage",
+    "phonetic": "/ˈmɔːɡɪdʒ/",
+    "chinese": "抵押贷款",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_grace_period",
+    "word": "grace period",
+    "phonetic": "/ɡreɪs ˈpɪəriəd/",
+    "chinese": "宽限期",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_budget_deficit",
+    "word": "budget deficit",
+    "phonetic": "/ˈbʌdʒɪt ˈdefɪsɪt/",
+    "chinese": "预算赤字",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_retail_voucher",
+    "word": "retail voucher",
+    "phonetic": "/ˈriːteɪl ˈvaʊtʃə(r)/",
+    "chinese": "零售代金券",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_coupon",
+    "word": "coupon",
+    "phonetic": "/ˈkuːpɒn/",
+    "chinese": "优惠券",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_counterfeit_money",
+    "word": "counterfeit money",
+    "phonetic": "/ˈkaʊntəfɪt ˈmʌni/",
+    "chinese": "假币",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_public_money",
+    "word": "public money",
+    "phonetic": "/ˈpʌblɪk ˈmʌni/",
+    "chinese": "公共资金",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_taxpayers_money",
+    "word": "taxpayers' money",
+    "phonetic": "/ˈtækspeɪəz ˈmʌni/",
+    "chinese": "纳税人的钱",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_debt",
+    "word": "debt",
+    "phonetic": "/det/",
+    "chinese": "债务",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_interest-free_credit",
+    "word": "interest-free credit",
+    "phonetic": "/ˈɪntrəst friː ˈkredɪt/",
+    "chinese": "无息贷款",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_purchase",
+    "word": "purchase",
+    "phonetic": "/ˈpɜːtʃəs/",
+    "chinese": "购买",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_partial_refund",
+    "word": "partial refund",
+    "phonetic": "/ˈpɑːʃl ˈriːfʌnd/",
+    "chinese": "部分退款",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_annuity",
+    "word": "annuity",
+    "phonetic": "/əˈnjuːəti/",
+    "chinese": "年金",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_non-refundable",
+    "word": "non-refundable",
+    "phonetic": "/nɒn rɪˈfʌndəbl/",
+    "chinese": "不可退款的",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_mastercard",
+    "word": "MasterCard",
+    "phonetic": "/ˈmɑːstəkɑːd/",
+    "chinese": "万事达卡",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_visa",
+    "word": "VISA",
+    "phonetic": "/ˈviːzə/",
+    "chinese": "维萨卡",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_distribution_costs",
+    "word": "distribution costs",
+    "phonetic": "/ˌdɪstrɪˈbjuːʃn kɒsts/",
+    "chinese": "分销成本",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_income",
+    "word": "income",
+    "phonetic": "/ˈɪnkʌm/",
+    "chinese": "收入",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_finance_department",
+    "word": "finance department",
+    "phonetic": "/ˈfaɪnæns dɪˈpɑːtmənt/",
+    "chinese": "财务部门",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_family_finances",
+    "word": "family finances",
+    "phonetic": "/ˈfæməli ˈfaɪnænsɪz/",
+    "chinese": "家庭财务",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_5_duty-free_store",
+    "word": "duty-free store",
+    "phonetic": "/ˈdjuːti friː stɔː(r)/",
+    "chinese": "免税店",
+    "listenCategory": "关于\"钱\"",
+    "listenCategoryOrder": 5
+  }
+]
