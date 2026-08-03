@@ -539,7 +539,17 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "坚固的东西 + 持续不断的微小外力（水流/风/怀疑）→ 反复摩擦冲刷 → 东西被一点点磨掉、削弱。"
+    "underlying_relation": "坚固的东西 + 持续不断的微小外力（水流/风/怀疑）→ 反复摩擦冲刷 → 东西被一点点磨掉、削弱。",
+    "reading_synonyms": [
+      {
+        "word": "rust",
+        "chinese": "生锈"
+      },
+      {
+        "word": "damage",
+        "chinese": "损害"
+      }
+    ]
   },
   {
     "id": "thaw",
@@ -662,7 +672,13 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "流动/活动状态 → 温度骤降或受到冲击 → 瞬间固定不动，完全停止。"
+    "underlying_relation": "流动/活动状态 → 温度骤降或受到冲击 → 瞬间固定不动，完全停止。",
+    "reading_synonyms": [
+      {
+        "word": "chill",
+        "chinese": "冷却"
+      }
+    ]
   },
   {
     "id": "frigid",
@@ -951,7 +967,13 @@
       "A",
       "W"
     ],
-    "underlying_relation": "持续上升过程 → 到达最高点 → 无法再往上（即将转向下降或停滞）。"
+    "underlying_relation": "持续上升过程 → 到达最高点 → 无法再往上（即将转向下降或停滞）。",
+    "reading_synonyms": [
+      {
+        "word": "top",
+        "chinese": "顶部"
+      }
+    ]
   },
   {
     "id": "mount",
@@ -1034,7 +1056,13 @@
       "A",
       "W"
     ],
-    "underlying_relation": "起点 ←…中间所有可能值…→ 终点 = 整个连续跨度构成「范围」。"
+    "underlying_relation": "起点 ←…中间所有可能值…→ 终点 = 整个连续跨度构成「范围」。",
+    "reading_synonyms": [
+      {
+        "word": "scope",
+        "chinese": "范围"
+      }
+    ]
   },
   {
     "id": "slope",
@@ -1282,7 +1310,13 @@
       "A",
       "W"
     ],
-    "underlying_relation": "场合的性质/要求 ≠ 放入的行为/事物性质 → 不匹配 → 显得突兀、不合适。"
+    "underlying_relation": "场合的性质/要求 ≠ 放入的行为/事物性质 → 不匹配 → 显得突兀、不合适。",
+    "reading_synonyms": [
+      {
+        "word": "hard",
+        "chinese": "困难的"
+      }
+    ]
   },
   {
     "id": "abnormal",
@@ -2067,7 +2101,13 @@
       "A",
       "W"
     ],
-    "underlying_relation": "变化/事件 → 幅度力度突然增强 → 效果强烈到像戏剧场面，引人注目。"
+    "underlying_relation": "变化/事件 → 幅度力度突然增强 → 效果强烈到像戏剧场面，引人注目。",
+    "reading_synonyms": [
+      {
+        "word": "striking",
+        "chinese": "显著的"
+      }
+    ]
   },
   {
     "id": "barren",
@@ -2890,7 +2930,17 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "中心点 → 四周各方向都有事物环绕 → 形成包围圈。"
+    "underlying_relation": "中心点 → 四周各方向都有事物环绕 → 形成包围圈。",
+    "reading_synonyms": [
+      {
+        "word": "setting",
+        "chinese": "环境"
+      },
+      {
+        "word": "environment",
+        "chinese": "环境"
+      }
+    ]
   },
   {
     "id": "condition",
@@ -3351,6 +3401,16 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "fair",
+        "chinese": "公平的"
+      },
+      {
+        "word": "even",
+        "chinese": "均等的"
+      }
     ]
   },
   {
@@ -3603,6 +3663,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "develop",
+        "chinese": "发展"
+      }
     ]
   },
   {
@@ -4443,6 +4509,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "track",
+        "chinese": "追踪"
+      }
     ]
   },
   {
@@ -4947,6 +5019,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "motivate",
+        "chinese": "激励"
+      }
     ]
   },
   {
@@ -4989,6 +5067,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "spoil",
+        "chinese": "宠坏"
+      }
     ]
   },
   {
@@ -5115,6 +5199,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "fulfill",
+        "chinese": "满足"
+      }
     ]
   },
   {
@@ -6039,6 +6129,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "obvious",
+        "chinese": "明显的"
+      }
     ]
   },
   {
@@ -6081,6 +6177,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "decide",
+        "chinese": "决定"
+      }
     ]
   },
   {
@@ -6207,6 +6309,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "offer",
+        "chinese": "提供"
+      }
     ]
   },
   {
@@ -6543,6 +6651,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "expose",
+        "chinese": "揭露"
+      }
     ]
   },
   {
@@ -6627,6 +6741,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "focus",
+        "chinese": "专注"
+      }
     ]
   },
   {
@@ -6711,6 +6831,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "gather",
+        "chinese": "聚集"
+      }
     ]
   },
   {
@@ -7257,6 +7383,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "receive",
+        "chinese": "接收"
+      }
     ]
   },
   {
@@ -7341,6 +7473,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "allocate",
+        "chinese": "分配"
+      }
     ]
   },
   {
@@ -7635,6 +7773,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "join",
+        "chinese": "参加"
+      }
     ]
   },
   {
@@ -8517,6 +8661,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "surveillance",
+        "chinese": "监视"
+      }
     ]
   },
   {
@@ -8559,6 +8709,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "contribute",
+        "chinese": "贡献"
+      }
     ]
   },
   {
@@ -9021,6 +9177,12 @@
     "tags": [
       "A",
       "W"
+    ],
+    "reading_synonyms": [
+      {
+        "word": "influence",
+        "chinese": "影响"
+      }
     ]
   },
   {
