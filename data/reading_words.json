@@ -3344,5 +3344,1013 @@
         "chinese": "天气"
       }
     ]
+  },
+  {
+    "id": "read_moisture",
+    "tier": 3,
+    "word": "moisture",
+    "phonetic": "/ˈmɒɪstʃə(r)/",
+    "pos": "n.",
+    "chinese": "水分，湿度",
+    "core_state": "空气或物体表面含有的少量水汽或水分。",
+    "underlying_relation": "空气/物体表面 → 含有少量水汽 → 构成湿度(水分)。",
+    "synonyms": [
+      {
+        "word": "humidity",
+        "chinese": "湿度"
+      }
+    ]
+  },
+  {
+    "id": "read_motif",
+    "tier": 3,
+    "word": "motif",
+    "phonetic": "/məʊˈtiːf/",
+    "pos": "n.",
+    "chinese": "主题；图形",
+    "core_state": "一个反复出现、贯穿整体的核心元素或图案。",
+    "underlying_relation": "核心元素/图案 → 反复出现贯穿整体 → 构成主题。",
+    "synonyms": [
+      {
+        "word": "theme",
+        "chinese": "主题"
+      }
+    ]
+  },
+  {
+    "id": "read_notoriety",
+    "tier": 3,
+    "word": "notoriety",
+    "phonetic": "/ˌnəʊtəˈraɪəti/",
+    "pos": "n.",
+    "chinese": "名声（多指恶名）",
+    "core_state": "一个人因为做了负面的事情，被广泛知晓，出了名，但不是好名声。",
+    "underlying_relation": "负面事情 → 被广泛知晓 → 出了(不好的)名声。",
+    "synonyms": [
+      {
+        "word": "famous",
+        "chinese": "有名的"
+      }
+    ]
+  },
+  {
+    "id": "read_objective",
+    "tier": 3,
+    "word": "objective",
+    "phonetic": "/əbˈdʒektɪv/",
+    "pos": "n./adj.",
+    "chinese": "目标，目的；客观的",
+    "core_state": "一件事情努力想要达到的具体结果，不受个人情绪影响。",
+    "underlying_relation": "努力想达到的具体结果 → 不受个人情绪影响 → 构成目标(客观)。",
+    "synonyms": [
+      {
+        "word": "goal",
+        "chinese": "目标"
+      }
+    ]
+  },
+  {
+    "id": "read_obtain",
+    "tier": 3,
+    "word": "obtain",
+    "phonetic": "/əbˈteɪn/",
+    "pos": "v.",
+    "chinese": "获得",
+    "core_state": "通过某种途径，把一个原本不在自己手中的东西拿到手。",
+    "underlying_relation": "原本不在手中的东西 → 通过某种途径 → 拿到手(获得)。",
+    "synonyms": [
+      {
+        "word": "get",
+        "chinese": "得到"
+      }
+    ]
+  },
+  {
+    "id": "read_odour",
+    "tier": 3,
+    "word": "odour",
+    "phonetic": "/ˈəʊdə(r)/",
+    "pos": "n.",
+    "chinese": "气味",
+    "core_state": "一种能被鼻子闻到、带有特定性质的气体散发物。",
+    "underlying_relation": "气体散发物 → 带特定性质 → 能被鼻子闻到(气味)。",
+    "synonyms": [
+      {
+        "word": "smell",
+        "chinese": "气味"
+      }
+    ]
+  },
+  {
+    "id": "read_offensive",
+    "tier": 3,
+    "word": "offensive",
+    "phonetic": "/əˈfensɪv/",
+    "pos": "adj.",
+    "chinese": "冒犯的，无礼的",
+    "core_state": "一个言行让对方感到被冒犯、不受尊重，产生不快的感觉。",
+    "underlying_relation": "言行 → 让对方感到不受尊重 → 产生不快(冒犯)。",
+    "synonyms": [
+      {
+        "word": "hostile",
+        "chinese": "有敌意的"
+      }
+    ]
+  },
+  {
+    "id": "read_optimum",
+    "tier": 3,
+    "word": "optimum",
+    "phonetic": "/ˈɒptɪməm/",
+    "pos": "n./adj.",
+    "chinese": "最佳效果；最适宜的",
+    "core_state": "在所有可能的情况里，效果或条件达到的最好、最合适的那个点。",
+    "underlying_relation": "所有可能情况 → 效果/条件达到最好的点 → 最适宜(最佳)。",
+    "synonyms": [
+      {
+        "word": "best",
+        "chinese": "最好的"
+      }
+    ]
+  },
+  {
+    "id": "read_organ",
+    "tier": 3,
+    "word": "organ",
+    "phonetic": "/ˈɔːɡən/",
+    "pos": "n.",
+    "chinese": "器官；机构",
+    "core_state": "一个系统里承担特定功能、不可或缺的一个组成部分。",
+    "underlying_relation": "系统 → 承担特定功能的组成部分 → 不可或缺(器官/机构)。",
+    "synonyms": [
+      {
+        "word": "a part of a body",
+        "chinese": "身体的一部分"
+      }
+    ]
+  },
+  {
+    "id": "read_out_of_the_question",
+    "tier": 3,
+    "word": "out of the question",
+    "phonetic": "/aʊt əv ðə ˈkwestʃən/",
+    "pos": "phr.",
+    "chinese": "不可能",
+    "core_state": "一件事情根本没有被纳入可以考虑的范围之内，直接被排除在讨论之外。",
+    "underlying_relation": "事情 → 没被纳入可考虑范围 → 直接排除在外(不可能)。",
+    "synonyms": [
+      {
+        "word": "impossible",
+        "chinese": "不可能的"
+      }
+    ]
+  },
+  {
+    "id": "read_overcome",
+    "tier": 3,
+    "word": "overcome",
+    "phonetic": "/ˌəʊvəˈkʌm/",
+    "pos": "v.",
+    "chinese": "克服",
+    "core_state": "面对一个原本挡在路上的困难，通过努力最终成功越过它，继续前进。",
+    "underlying_relation": "挡在路上的困难 → 通过努力越过 → 继续前进(克服)。",
+    "synonyms": [
+      {
+        "word": "defeat",
+        "chinese": "战胜"
+      }
+    ]
+  },
+  {
+    "id": "read_overtake",
+    "tier": 3,
+    "word": "overtake",
+    "phonetic": "/ˌəʊvəˈteɪk/",
+    "pos": "v.",
+    "chinese": "赶上，超过",
+    "core_state": "一个原本落后的对象，通过加速追赶，最终超越了原本领先的对象。",
+    "underlying_relation": "落后对象 → 加速追赶 → 超越原本领先对象(超过)。",
+    "synonyms": [
+      {
+        "word": "surpass",
+        "chinese": "超越"
+      }
+    ]
+  },
+  {
+    "id": "read_paralyse",
+    "tier": 3,
+    "word": "paralyse",
+    "phonetic": "/ˈpærəlaɪz/",
+    "pos": "v.",
+    "chinese": "使……麻痹；使……瘫痪",
+    "core_state": "一个原本能自由活动的身体部位或系统，突然完全失去行动能力。",
+    "underlying_relation": "能自由活动的部位/系统 → 突然完全失去行动能力(瘫痪)。",
+    "synonyms": [
+      {
+        "word": "cannot move",
+        "chinese": "不能动"
+      }
+    ]
+  },
+  {
+    "id": "read_paramount",
+    "tier": 3,
+    "word": "paramount",
+    "phonetic": "/ˈpærəmaʊnt/",
+    "pos": "adj.",
+    "chinese": "最重要的，主要的",
+    "core_state": "在所有需要考虑的因素里，重要程度排在最前面、超过其他一切的那一个。",
+    "underlying_relation": "所有因素 → 重要程度排在最前 → 超过其他一切(最重要)。",
+    "synonyms": [
+      {
+        "word": "principal",
+        "chinese": "主要的"
+      }
+    ]
+  },
+  {
+    "id": "read_patient",
+    "tier": 3,
+    "word": "patient",
+    "phonetic": "/ˈpeɪʃnt/",
+    "pos": "adj./n.",
+    "chinese": "有耐性的；病人",
+    "core_state": "面对需要等待的情况，能够平静地坚持下去，不表现出急躁。",
+    "underlying_relation": "需要等待的情况 → 平静坚持不急躁 → 构成耐性。",
+    "synonyms": [
+      {
+        "word": "repetitive",
+        "chinese": "反复的"
+      }
+    ]
+  },
+  {
+    "id": "read_pessimistic",
+    "tier": 3,
+    "word": "pessimistic",
+    "phonetic": "/ˌpesɪˈmɪstɪk/",
+    "pos": "adj.",
+    "chinese": "悲观的",
+    "core_state": "一个人看待事情时，倾向于预期最坏的结果，而不是好的可能性。",
+    "underlying_relation": "人看待事情 → 倾向预期最坏结果 → 而非好的可能性(悲观)。",
+    "synonyms": [
+      {
+        "word": "negative",
+        "chinese": "消极的"
+      }
+    ]
+  },
+  {
+    "id": "read_physical",
+    "tier": 3,
+    "word": "physical",
+    "phonetic": "/ˈfɪzɪkl/",
+    "pos": "adj.",
+    "chinese": "身体上的；物质的",
+    "core_state": "跟看得见、摸得着的实体或身体层面直接相关，而不是精神层面。",
+    "underlying_relation": "事物 → 跟实体/身体层面相关 → 非精神层面(物质的)。",
+    "synonyms": [
+      {
+        "word": "body",
+        "chinese": "身体"
+      }
+    ]
+  },
+  {
+    "id": "read_plenty_of",
+    "tier": 3,
+    "word": "plenty of",
+    "phonetic": "/ˈplenti əv/",
+    "pos": "phr.",
+    "chinese": "大量的",
+    "core_state": "某个东西的数量远远超过基本需求，多到充足有余。",
+    "underlying_relation": "东西数量 → 远超基本需求 → 充足有余(大量)。",
+    "synonyms": [
+      {
+        "word": "many",
+        "chinese": "许多"
+      }
+    ]
+  },
+  {
+    "id": "read_plot",
+    "tier": 3,
+    "word": "plot",
+    "phonetic": "/plɒt/",
+    "pos": "v.",
+    "chinese": "密谋",
+    "core_state": "私下暗中策划一个通常不太光明的计划，不让外人知道。",
+    "underlying_relation": "计划(不光明) → 私下暗中策划 → 不让外人知道(密谋)。",
+    "synonyms": [
+      {
+        "word": "plan",
+        "chinese": "计划"
+      }
+    ]
+  },
+  {
+    "id": "read_pose",
+    "tier": 3,
+    "word": "pose",
+    "phonetic": "/pəʊz/",
+    "pos": "v.",
+    "chinese": "提出，造成，形成",
+    "core_state": "一个情况或问题，让某种风险或挑战摆到了眼前，无法忽视。",
+    "underlying_relation": "情况/问题 → 让风险/挑战摆到眼前 → 无法忽视(造成)。",
+    "synonyms": [
+      {
+        "word": "cause",
+        "chinese": "导致"
+      }
+    ]
+  },
+  {
+    "id": "read_poverty",
+    "tier": 3,
+    "word": "poverty",
+    "phonetic": "/ˈpɒvəti/",
+    "pos": "n.",
+    "chinese": "贫穷",
+    "core_state": "一个人或群体拥有的资源严重不足，无法满足基本的生活需求。",
+    "underlying_relation": "资源严重不足 → 无法满足基本生活需求 → 构成贫穷。",
+    "synonyms": [
+      {
+        "word": "poor",
+        "chinese": "贫穷的"
+      }
+    ]
+  },
+  {
+    "id": "read_pressing",
+    "tier": 3,
+    "word": "pressing",
+    "phonetic": "/ˈpresɪŋ/",
+    "pos": "adj.",
+    "chinese": "迫切的",
+    "core_state": "一件事情的紧急程度已经到了必须立刻处理、不能再拖的地步。",
+    "underlying_relation": "事情紧急程度 → 到了必须立刻处理的地步 → 不能拖(迫切)。",
+    "synonyms": [
+      {
+        "word": "urgent",
+        "chinese": "紧急的"
+      }
+    ]
+  },
+  {
+    "id": "read_private",
+    "tier": 3,
+    "word": "private",
+    "phonetic": "/ˈpraɪvət/",
+    "pos": "adj.",
+    "chinese": "私人的；私有的；私下的",
+    "core_state": "一个东西只属于特定的个人，不对外公开或共享。",
+    "underlying_relation": "东西 → 只属于特定个人 → 不对外公开共享(私人的)。",
+    "synonyms": [
+      {
+        "word": "personal",
+        "chinese": "个人的"
+      }
+    ]
+  },
+  {
+    "id": "read_prolong",
+    "tier": 3,
+    "word": "prolong",
+    "phonetic": "/prəˈlɒŋ/",
+    "pos": "v.",
+    "chinese": "拉长，延长",
+    "core_state": "把一件事情原本该结束的时间点，向后推移，让它持续得更久。",
+    "underlying_relation": "事情该结束的时间点 → 向后推移 → 持续更久(延长)。",
+    "synonyms": [
+      {
+        "word": "extend",
+        "chinese": "延伸"
+      }
+    ]
+  },
+  {
+    "id": "read_promote",
+    "tier": 3,
+    "word": "promote",
+    "phonetic": "/prəˈməʊt/",
+    "pos": "v.",
+    "chinese": "促进，推销",
+    "core_state": "主动采取行动，让一件事情向着更好、更受关注的方向发展。",
+    "underlying_relation": "事情 → 主动采取行动 → 向更好/更受关注方向发展(促进)。",
+    "synonyms": [
+      {
+        "word": "improve",
+        "chinese": "改善"
+      }
+    ]
+  },
+  {
+    "id": "read_prosper",
+    "tier": 3,
+    "word": "prosper",
+    "phonetic": "/ˈprɒspə(r)/",
+    "pos": "v.",
+    "chinese": "使成功，使繁荣",
+    "core_state": "一个事物在良好的条件下持续发展壮大，呈现出兴旺的状态。",
+    "underlying_relation": "事物 → 良好条件下持续发展壮大 → 呈现兴旺状态(繁荣)。",
+    "synonyms": [
+      {
+        "word": "success",
+        "chinese": "成功"
+      }
+    ]
+  },
+  {
+    "id": "read_radical",
+    "tier": 3,
+    "word": "radical",
+    "phonetic": "/ˈrædɪkl/",
+    "pos": "adj.",
+    "chinese": "彻底的，根本的",
+    "core_state": "一种改变直接触及事物最底层的根基，不是表面的小修小补。",
+    "underlying_relation": "改变 → 直接触及最底层根基 → 非表面小修小补(彻底)。",
+    "synonyms": [
+      {
+        "word": "utmost",
+        "chinese": "极度的"
+      }
+    ]
+  },
+  {
+    "id": "read_rare",
+    "tier": 3,
+    "word": "rare",
+    "phonetic": "/reə(r)/",
+    "pos": "adj.",
+    "chinese": "稀有的",
+    "core_state": "一个东西的数量非常少，不容易见到或获得。",
+    "underlying_relation": "东西数量 → 非常少 → 不容易见到获得(稀有)。",
+    "synonyms": [
+      {
+        "word": "unusual",
+        "chinese": "不寻常的"
+      }
+    ]
+  },
+  {
+    "id": "read_react",
+    "tier": 3,
+    "word": "react",
+    "phonetic": "/riˈækt/",
+    "pos": "v.",
+    "chinese": "反应",
+    "core_state": "接收到一个外部刺激之后，身体或情绪立刻做出相应的回应动作。",
+    "underlying_relation": "外部刺激 → 接收到后 → 立刻做出回应动作(反应)。",
+    "synonyms": [
+      {
+        "word": "respond",
+        "chinese": "回应"
+      }
+    ]
+  },
+  {
+    "id": "read_reduction",
+    "tier": 3,
+    "word": "reduction",
+    "phonetic": "/rɪˈdʌkʃn/",
+    "pos": "n.",
+    "chinese": "下降，减少",
+    "core_state": "一个数量从原本较高的水平，逐渐变少到一个较低的水平。",
+    "underlying_relation": "数量(较高水平) → 逐渐变少 → 到较低水平(减少)。",
+    "synonyms": [
+      {
+        "word": "decrease",
+        "chinese": "减少"
+      }
+    ]
+  },
+  {
+    "id": "read_refer_to",
+    "tier": 3,
+    "word": "refer to",
+    "phonetic": "/rɪˈfɜː(r) tuː/",
+    "pos": "phr.",
+    "chinese": "指(的是)，涉及，提及",
+    "core_state": "一段话或一个词，实际指向的是另一个具体的对象或内容。",
+    "underlying_relation": "一段话/词 → 实际指向 → 另一具体对象/内容(指的是)。",
+    "synonyms": [
+      {
+        "word": "talk about",
+        "chinese": "谈及"
+      }
+    ]
+  },
+  {
+    "id": "read_relevant",
+    "tier": 3,
+    "word": "relevant",
+    "phonetic": "/ˈreləvənt/",
+    "pos": "adj.",
+    "chinese": "相关的",
+    "core_state": "一件事情跟当前讨论的主题之间存在直接的联系，不是无关的内容。",
+    "underlying_relation": "事情 → 跟当前主题存在直接联系 → 非无关内容(相关)。",
+    "synonyms": [
+      {
+        "word": "relative",
+        "chinese": "相关的"
+      }
+    ]
+  },
+  {
+    "id": "read_religious",
+    "tier": 3,
+    "word": "religious",
+    "phonetic": "/rɪˈlɪdʒəs/",
+    "pos": "adj.",
+    "chinese": "宗教的；虔诚的",
+    "core_state": "跟信仰某种神圣力量、遵循相关仪式规范这件事直接相关。",
+    "underlying_relation": "事物 → 跟信仰神圣力量/遵循仪式规范相关 → 宗教属性。",
+    "synonyms": [
+      {
+        "word": "sacred",
+        "chinese": "神圣的"
+      }
+    ]
+  },
+  {
+    "id": "read_reluctant",
+    "tier": 3,
+    "word": "reluctant",
+    "phonetic": "/rɪˈlʌktənt/",
+    "pos": "adj.",
+    "chinese": "不情愿的",
+    "core_state": "一个人内心并不想做某件事，但因为某种原因还是勉强去做。",
+    "underlying_relation": "内心不想做 + 某种原因 → 勉强去做 → 不情愿。",
+    "synonyms": [
+      {
+        "word": "unwilling",
+        "chinese": "不愿意的"
+      }
+    ]
+  },
+  {
+    "id": "read_responsible",
+    "tier": 3,
+    "word": "responsible",
+    "phonetic": "/rɪˈspɒnsəbl/",
+    "pos": "adj.",
+    "chinese": "负责任的，可靠的",
+    "core_state": "一个人对自己的行为和后果承担应有的责任，不推卸不逃避。",
+    "underlying_relation": "人 → 对行为后果承担应有责任 → 不推卸逃避(负责)。",
+    "synonyms": [
+      {
+        "word": "liable",
+        "chinese": "有责任的"
+      }
+    ]
+  },
+  {
+    "id": "read_revision",
+    "tier": 3,
+    "word": "revision",
+    "phonetic": "/rɪˈvɪʒn/",
+    "pos": "n.",
+    "chinese": "修正",
+    "core_state": "对一份已经完成的内容，重新检查并做出调整改进。",
+    "underlying_relation": "已完成的内容 → 重新检查调整改进 → 构成修正。",
+    "synonyms": [
+      {
+        "word": "editing",
+        "chinese": "编辑"
+      }
+    ]
+  },
+  {
+    "id": "read_revive",
+    "tier": 3,
+    "word": "revive",
+    "phonetic": "/rɪˈvaɪv/",
+    "pos": "v.",
+    "chinese": "使复苏，恢复",
+    "core_state": "一个原本衰弱或停止的事物，重新获得活力，回到正常运转的状态。",
+    "underlying_relation": "衰弱/停止的事物 → 重新获得活力 → 回到正常状态(复苏)。",
+    "synonyms": [
+      {
+        "word": "renaissance",
+        "chinese": "复兴"
+      }
+    ]
+  },
+  {
+    "id": "read_scenic",
+    "tier": 3,
+    "word": "scenic",
+    "phonetic": "/ˈsiːnɪk/",
+    "pos": "adj.",
+    "chinese": "风景优美的",
+    "core_state": "一个地方的自然景色非常美丽，值得观赏。",
+    "underlying_relation": "地方 → 自然景色美丽 → 值得观赏(风景优美)。",
+    "synonyms": [
+      {
+        "word": "beautiful",
+        "chinese": "美丽的"
+      }
+    ]
+  },
+  {
+    "id": "read_skepticism",
+    "tier": 3,
+    "word": "skepticism",
+    "phonetic": "/ˈskeptɪsɪzəm/",
+    "pos": "n.",
+    "chinese": "怀疑",
+    "core_state": "面对一个说法或结论，内心保持不完全相信、需要更多证据才能接受的态度。",
+    "underlying_relation": "说法/结论 → 内心不完全相信 → 需更多证据才接受(怀疑)。",
+    "synonyms": [
+      {
+        "word": "doubt",
+        "chinese": "怀疑"
+      }
+    ]
+  },
+  {
+    "id": "read_soar",
+    "tier": 3,
+    "word": "soar",
+    "phonetic": "/sɔː(r)/",
+    "pos": "v.",
+    "chinese": "激增",
+    "core_state": "一个数量或水平突然大幅度地向上飙升，速度很快。",
+    "underlying_relation": "数量/水平 → 突然大幅向上飙升 → 速度很快(激增)。",
+    "synonyms": [
+      {
+        "word": "increase",
+        "chinese": "增加"
+      }
+    ]
+  },
+  {
+    "id": "read_solely",
+    "tier": 3,
+    "word": "solely",
+    "phonetic": "/ˈsəʊlli/",
+    "pos": "adv.",
+    "chinese": "唯一地",
+    "core_state": "一件事情只跟一个单一的因素有关，没有其他任何因素参与。",
+    "underlying_relation": "事情 → 只跟单一因素有关 → 没有其他因素参与(唯一)。",
+    "synonyms": [
+      {
+        "word": "alone",
+        "chinese": "单独"
+      }
+    ]
+  },
+  {
+    "id": "read_solicitor",
+    "tier": 3,
+    "word": "solicitor",
+    "phonetic": "/səˈlɪsɪtə(r)/",
+    "pos": "n.",
+    "chinese": "律师",
+    "core_state": "一个专门提供法律方面专业意见和服务的职业人士。",
+    "underlying_relation": "职业人士 → 专门提供法律专业意见/服务 → 构成律师。",
+    "synonyms": [
+      {
+        "word": "lawyer",
+        "chinese": "律师"
+      }
+    ]
+  },
+  {
+    "id": "read_steer",
+    "tier": 3,
+    "word": "steer",
+    "phonetic": "/stɪə(r)/",
+    "pos": "v.",
+    "chinese": "控制，引导",
+    "core_state": "主动掌控一个东西前进的方向，让它朝着自己想要的路线移动。",
+    "underlying_relation": "东西前进方向 → 主动掌控 → 朝想要的路线移动(引导)。",
+    "synonyms": [
+      {
+        "word": "manage",
+        "chinese": "管理"
+      }
+    ]
+  },
+  {
+    "id": "read_subdivide",
+    "tier": 3,
+    "word": "subdivide",
+    "phonetic": "/ˌsʌbdɪˈvaɪd/",
+    "pos": "v.",
+    "chinese": "把……细分",
+    "core_state": "把一个较大的整体，进一步拆分成更小的若干部分。",
+    "underlying_relation": "较大整体 → 进一步拆分 → 更小的若干部分(细分)。",
+    "synonyms": [
+      {
+        "word": "break down",
+        "chinese": "分解"
+      }
+    ]
+  },
+  {
+    "id": "read_subtle",
+    "tier": 3,
+    "word": "subtle",
+    "phonetic": "/ˈsʌtl/",
+    "pos": "adj.",
+    "chinese": "微妙的",
+    "core_state": "一种差异或变化非常细微，不容易被直接察觉，需要仔细体会。",
+    "underlying_relation": "差异/变化 → 非常细微 → 不容易直接察觉(微妙)。",
+    "synonyms": [
+      {
+        "word": "delicate",
+        "chinese": "精细的"
+      }
+    ]
+  },
+  {
+    "id": "read_sufficiency",
+    "tier": 3,
+    "word": "sufficiency",
+    "phonetic": "/səˈfɪʃnsi/",
+    "pos": "n.",
+    "chinese": "足量，充足",
+    "core_state": "一个数量刚好达到或超过所需要的最低标准，不会不够用。",
+    "underlying_relation": "数量 → 达到或超过最低标准 → 不会不够用(充足)。",
+    "synonyms": [
+      {
+        "word": "enough",
+        "chinese": "足够"
+      }
+    ]
+  },
+  {
+    "id": "read_supersede",
+    "tier": 3,
+    "word": "supersede",
+    "phonetic": "/ˌsuːpəˈsiːd/",
+    "pos": "v.",
+    "chinese": "取代，代替",
+    "core_state": "一个新的事物出现后，把原本旧的事物完全顶替下去，旧的不再被使用。",
+    "underlying_relation": "新事物出现 → 完全顶替旧事物 → 旧的不再使用(取代)。",
+    "synonyms": [
+      {
+        "word": "replace",
+        "chinese": "替换"
+      }
+    ]
+  },
+  {
+    "id": "read_supremacy",
+    "tier": 3,
+    "word": "supremacy",
+    "phonetic": "/suːˈpreməsi/",
+    "pos": "n.",
+    "chinese": "至高无上，很高的地位",
+    "core_state": "在所有对比对象中，处于最高、无可超越的地位。",
+    "underlying_relation": "所有对比对象 → 处于最高地位 → 无可超越(至高无上)。",
+    "synonyms": [
+      {
+        "word": "priority",
+        "chinese": "优先"
+      }
+    ]
+  },
+  {
+    "id": "read_suspicious",
+    "tier": 3,
+    "word": "suspicious",
+    "phonetic": "/səˈspɪʃəs/",
+    "pos": "adj.",
+    "chinese": "可疑的",
+    "core_state": "一件事情或一个人的表现，让人心里觉得不对劲，怀疑背后有问题。",
+    "underlying_relation": "事情/表现 → 让人觉得不对劲 → 怀疑背后有问题(可疑)。",
+    "synonyms": [
+      {
+        "word": "odd",
+        "chinese": "古怪的"
+      }
+    ]
+  },
+  {
+    "id": "read_symptom",
+    "tier": 3,
+    "word": "symptom",
+    "phonetic": "/ˈsɪmptəm/",
+    "pos": "n.",
+    "chinese": "症状，征兆",
+    "core_state": "身体内部出现的问题，通过外部可观察到的表现显露出来。",
+    "underlying_relation": "内部问题 → 通过外部表现显露 → 构成症状(征兆)。",
+    "synonyms": [
+      {
+        "word": "sign",
+        "chinese": "迹象"
+      }
+    ]
+  },
+  {
+    "id": "read_throughout",
+    "tier": 3,
+    "word": "throughout",
+    "phonetic": "/θruːˈaʊt/",
+    "pos": "adv.",
+    "chinese": "自始至终，到处；全部",
+    "core_state": "从一件事情开始到结束的整段时间或整个空间范围内，全程没有间断。",
+    "underlying_relation": "事情开始到结束 → 整段时间/空间 → 全程没有间断(自始至终)。",
+    "synonyms": [
+      {
+        "word": "anywhere",
+        "chinese": "到处"
+      }
+    ]
+  },
+  {
+    "id": "read_toll",
+    "tier": 3,
+    "word": "toll",
+    "phonetic": "/təʊl/",
+    "pos": "n.",
+    "chinese": "通行费",
+    "core_state": "使用某个通道或服务，需要按规定支付的一笔费用。",
+    "underlying_relation": "使用通道/服务 → 按规定支付 → 一笔费用(通行费)。",
+    "synonyms": [
+      {
+        "word": "charge",
+        "chinese": "收费"
+      }
+    ]
+  },
+  {
+    "id": "read_transcend",
+    "tier": 3,
+    "word": "transcend",
+    "phonetic": "/trænˈsend/",
+    "pos": "v.",
+    "chinese": "胜过，超越",
+    "core_state": "一个事物突破了原本的限制或范围，达到比之前更高的层次。",
+    "underlying_relation": "事物 → 突破原本限制/范围 → 达到更高层次(超越)。",
+    "synonyms": [
+      {
+        "word": "excel",
+        "chinese": "超过"
+      }
+    ]
+  },
+  {
+    "id": "read_transit",
+    "tier": 3,
+    "word": "transit",
+    "phonetic": "/ˈtrænzɪt/",
+    "pos": "n.",
+    "chinese": "运输",
+    "core_state": "一个东西从一个地点被运送经过，前往另一个目的地。",
+    "underlying_relation": "东西 → 从一地被运送经过 → 前往另一目的地(运输)。",
+    "synonyms": [
+      {
+        "word": "send",
+        "chinese": "发送"
+      }
+    ]
+  },
+  {
+    "id": "read_tremendous",
+    "tier": 3,
+    "word": "tremendous",
+    "phonetic": "/trəˈmendəs/",
+    "pos": "adj.",
+    "chinese": "巨大的，惊人的",
+    "core_state": "一个东西的规模或程度大到让人感到震惊的地步。",
+    "underlying_relation": "规模/程度 → 大到让人震惊 → 构成巨大惊人。",
+    "synonyms": [
+      {
+        "word": "vast",
+        "chinese": "巨大的"
+      }
+    ]
+  },
+  {
+    "id": "read_trigger",
+    "tier": 3,
+    "word": "trigger",
+    "phonetic": "/ˈtrɪɡə(r)/",
+    "pos": "n.",
+    "chinese": "触发，引发；引起",
+    "core_state": "一个动作或事件，直接促使另一个原本潜伏的结果被引发出来。",
+    "underlying_relation": "动作/事件 → 直接促使 → 潜伏的结果被引发(触发)。",
+    "synonyms": [
+      {
+        "word": "begin",
+        "chinese": "开始"
+      }
+    ]
+  },
+  {
+    "id": "read_tropical",
+    "tier": 3,
+    "word": "tropical",
+    "phonetic": "/ˈtrɒpɪkl/",
+    "pos": "adj.",
+    "chinese": "热带的",
+    "core_state": "跟地球赤道附近炎热潮湿的气候区域直接相关。",
+    "underlying_relation": "事物 → 跟赤道附近炎热潮湿气候区相关 → 热带属性。",
+    "synonyms": [
+      {
+        "word": "hot",
+        "chinese": "炎热的"
+      }
+    ]
+  },
+  {
+    "id": "read_unbiased",
+    "tier": 3,
+    "word": "unbiased",
+    "phonetic": "/ʌnˈbaɪəst/",
+    "pos": "adj.",
+    "chinese": "公正的，无偏见的",
+    "core_state": "一个判断没有偏向任何一方，完全基于事实做出。",
+    "underlying_relation": "判断 → 没有偏向任何一方 → 完全基于事实(公正)。",
+    "synonyms": [
+      {
+        "word": "fair",
+        "chinese": "公平的"
+      }
+    ]
+  },
+  {
+    "id": "read_uniform",
+    "tier": 3,
+    "word": "uniform",
+    "phonetic": "/ˈjuːnɪfɔːm/",
+    "pos": "adj.",
+    "chinese": "始终如一的",
+    "core_state": "一个事物在不同时间或不同部分之间，保持完全相同、没有变化的状态。",
+    "underlying_relation": "事物 → 不同时间/部分之间 → 保持完全相同(始终如一)。",
+    "synonyms": [
+      {
+        "word": "consistent",
+        "chinese": "一致的"
+      }
+    ]
+  },
+  {
+    "id": "read_view",
+    "tier": 3,
+    "word": "view",
+    "phonetic": "/vjuː/",
+    "pos": "v.",
+    "chinese": "看",
+    "core_state": "用眼睛注视一个对象，获取关于它的视觉信息。",
+    "underlying_relation": "眼睛 → 注视对象 → 获取视觉信息(看)。",
+    "synonyms": [
+      {
+        "word": "overlook",
+        "chinese": "俯视"
+      }
+    ]
+  },
+  {
+    "id": "read_violent",
+    "tier": 3,
+    "word": "violent",
+    "phonetic": "/ˈvaɪələnt/",
+    "pos": "adj.",
+    "chinese": "暴力的；猛烈的",
+    "core_state": "一种力量以强烈、具有破坏性的方式表现出来，通常会造成伤害。",
+    "underlying_relation": "力量 → 以强烈破坏性方式表现 → 通常造成伤害(暴力)。",
+    "synonyms": [
+      {
+        "word": "fierce",
+        "chinese": "猛烈的"
+      }
+    ]
+  },
+  {
+    "id": "read_visible",
+    "tier": 3,
+    "word": "visible",
+    "phonetic": "/ˈvɪzəbl/",
+    "pos": "adj.",
+    "chinese": "明显的，看得见的",
+    "core_state": "一个东西处于能够被眼睛观察到的状态，没有被遮挡或隐藏。",
+    "underlying_relation": "东西 → 能被眼睛观察到 → 没被遮挡隐藏(可见)。",
+    "synonyms": [
+      {
+        "word": "see",
+        "chinese": "看见"
+      }
+    ]
+  },
+  {
+    "id": "read_visual",
+    "tier": 3,
+    "word": "visual",
+    "phonetic": "/ˈvɪʒuəl/",
+    "pos": "adj.",
+    "chinese": "视觉的",
+    "core_state": "跟通过眼睛看到的信息这个层面直接相关。",
+    "underlying_relation": "事物 → 跟通过眼睛看到的信息相关 → 视觉层面。",
+    "synonyms": [
+      {
+        "word": "image",
+        "chinese": "图像"
+      }
+    ]
   }
 ]
