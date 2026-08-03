@@ -3086,5 +3086,1325 @@
     "chinese": "希腊语",
     "listenCategory": "语言",
     "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_14_dome",
+    "word": "dome",
+    "phonetic": "/dəʊm/",
+    "chinese": "圆顶",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_palace",
+    "word": "palace",
+    "phonetic": "/ˈpæləs/",
+    "chinese": "宫殿",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_fort",
+    "word": "fort",
+    "phonetic": "/fɔːt/",
+    "chinese": "堡垒",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_castle",
+    "word": "castle",
+    "phonetic": "/ˈkɑːsl/",
+    "chinese": "城堡",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_glasshouse",
+    "word": "glasshouse",
+    "phonetic": "/ˈɡlɑːshaʊs/",
+    "chinese": "玻璃温室",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_pyramid",
+    "word": "pyramid",
+    "phonetic": "/ˈpɪrəmɪd/",
+    "chinese": "金字塔",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_log_cabin",
+    "word": "log cabin",
+    "phonetic": "/lɒɡ ˈkæbɪn/",
+    "chinese": "木屋",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_lighthouse",
+    "word": "lighthouse",
+    "phonetic": "/ˈlaɪthaʊs/",
+    "chinese": "灯塔",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_hut",
+    "word": "hut",
+    "phonetic": "/hʌt/",
+    "chinese": "小屋",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_skyscraper",
+    "word": "skyscraper",
+    "phonetic": "/ˈskaɪskreɪpə(r)/",
+    "chinese": "摩天大楼",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_14_sculpture",
+    "word": "sculpture",
+    "phonetic": "/ˈskʌlptʃə(r)/",
+    "chinese": "雕塑",
+    "listenCategory": "建筑",
+    "listenCategoryOrder": 14
+  },
+  {
+    "id": "listen_15_semi-detached_house",
+    "word": "semi-detached house",
+    "phonetic": "/ˌsemi dɪˈtætʃt haʊs/",
+    "chinese": "半独立式住宅",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_duplex",
+    "word": "duplex",
+    "phonetic": "/ˈdjuːpleks/",
+    "chinese": "复式住宅",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_terraced_house",
+    "word": "terraced house",
+    "phonetic": "/ˈterəst haʊs/",
+    "chinese": "联排别墅",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_town_house",
+    "word": "town house",
+    "phonetic": "/taʊn haʊs/",
+    "chinese": "联排城市住宅",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_row_house",
+    "word": "row house",
+    "phonetic": "/rəʊ haʊs/",
+    "chinese": "排屋",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_bungalow",
+    "word": "bungalow",
+    "phonetic": "/ˈbʌŋɡələʊ/",
+    "chinese": "平房",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_thatched_cottage",
+    "word": "thatched cottage",
+    "phonetic": "/θætʃt ˈkɒtɪdʒ/",
+    "chinese": "茅草屋",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_mobile_home",
+    "word": "mobile home",
+    "phonetic": "/ˈməʊbaɪl həʊm/",
+    "chinese": "活动房屋",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_houseboat",
+    "word": "houseboat",
+    "phonetic": "/ˈhaʊsbəʊt/",
+    "chinese": "船屋",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_block_of_flats",
+    "word": "block of flats",
+    "phonetic": "/blɒk əv flæts/",
+    "chinese": "公寓楼",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_apartment_building",
+    "word": "apartment building",
+    "phonetic": "/əˈpɑːtmənt ˈbɪldɪŋ/",
+    "chinese": "公寓大楼",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_condominium",
+    "word": "condominium",
+    "phonetic": "/ˌkɒndəˈmɪniəm/",
+    "chinese": "共管公寓",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_chimney",
+    "word": "chimney",
+    "phonetic": "/ˈtʃɪmni/",
+    "chinese": "烟囱",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_bedroom",
+    "word": "bedroom",
+    "phonetic": "/ˈbedruːm/",
+    "chinese": "卧室",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_basement",
+    "word": "basement",
+    "phonetic": "/ˈbeɪsmənt/",
+    "chinese": "地下室",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_landlord",
+    "word": "landlord",
+    "phonetic": "/ˈlændlɔːd/",
+    "chinese": "房东",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_tenant",
+    "word": "tenant",
+    "phonetic": "/ˈtenənt/",
+    "chinese": "房客",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_rent",
+    "word": "rent",
+    "phonetic": "/rent/",
+    "chinese": "租金；租",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_lease",
+    "word": "lease",
+    "phonetic": "/liːs/",
+    "chinese": "租约",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_neighborhood",
+    "word": "neighborhood",
+    "phonetic": "/ˈneɪbəhʊd/",
+    "chinese": "邻里，街区",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_suburb",
+    "word": "suburb",
+    "phonetic": "/ˈsʌbɜːb/",
+    "chinese": "郊区",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_sofa",
+    "word": "sofa",
+    "phonetic": "/ˈsəʊfə/",
+    "chinese": "沙发",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_coffee_table",
+    "word": "coffee table",
+    "phonetic": "/ˈkɒfi ˈteɪbl/",
+    "chinese": "茶几",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_dormitory",
+    "word": "dormitory",
+    "phonetic": "/ˈdɔːmətri/",
+    "chinese": "宿舍",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_storey",
+    "word": "storey",
+    "phonetic": "/ˈstɔːri/",
+    "chinese": "楼层",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_kitchen",
+    "word": "kitchen",
+    "phonetic": "/ˈkɪtʃɪn/",
+    "chinese": "厨房",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_refrigerator",
+    "word": "refrigerator",
+    "phonetic": "/rɪˈfrɪdʒəreɪtə(r)/",
+    "chinese": "冰箱",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_microwave",
+    "word": "microwave",
+    "phonetic": "/ˈmaɪkrəweɪv/",
+    "chinese": "微波炉",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_ground_floor",
+    "word": "ground floor",
+    "phonetic": "/ɡraʊnd flɔː(r)/",
+    "chinese": "一楼",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_oven",
+    "word": "oven",
+    "phonetic": "/ˈʌvn/",
+    "chinese": "烤箱",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_hallway",
+    "word": "hallway",
+    "phonetic": "/ˈhɔːlweɪ/",
+    "chinese": "走廊",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_15_insurance",
+    "word": "insurance",
+    "phonetic": "/ɪnˈʃʊərəns/",
+    "chinese": "保险",
+    "listenCategory": "家庭",
+    "listenCategoryOrder": 15
+  },
+  {
+    "id": "listen_16_cities",
+    "word": "cities",
+    "phonetic": "/ˈsɪtiz/",
+    "chinese": "城市",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_street",
+    "word": "street",
+    "phonetic": "/striːt/",
+    "chinese": "街道",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_lane",
+    "word": "lane",
+    "phonetic": "/leɪn/",
+    "chinese": "小巷",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_city_centre",
+    "word": "city centre",
+    "phonetic": "/ˈsɪti ˈsentə(r)/",
+    "chinese": "市中心",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_central_station",
+    "word": "central station",
+    "phonetic": "/ˈsentrəl ˈsteɪʃn/",
+    "chinese": "中央车站",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_car_park",
+    "word": "car park",
+    "phonetic": "/kɑː pɑːk/",
+    "chinese": "停车场",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_department_store",
+    "word": "department store",
+    "phonetic": "/dɪˈpɑːtmənt stɔː(r)/",
+    "chinese": "百货商店",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_bridge",
+    "word": "bridge",
+    "phonetic": "/brɪdʒ/",
+    "chinese": "桥",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_temple",
+    "word": "temple",
+    "phonetic": "/ˈtempl/",
+    "chinese": "寺庙",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_embassy",
+    "word": "embassy",
+    "phonetic": "/ˈembəsi/",
+    "chinese": "大使馆",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_road_system",
+    "word": "road system",
+    "phonetic": "/rəʊd ˈsɪstəm/",
+    "chinese": "道路系统",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_hospital",
+    "word": "hospital",
+    "phonetic": "/ˈhɒspɪtl/",
+    "chinese": "医院",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_garden",
+    "word": "garden",
+    "phonetic": "/ˈɡɑːdn/",
+    "chinese": "花园",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_16_avenue",
+    "word": "avenue",
+    "phonetic": "/ˈævənjuː/",
+    "chinese": "大道",
+    "listenCategory": "城市",
+    "listenCategoryOrder": 16
+  },
+  {
+    "id": "listen_17_clinic",
+    "word": "clinic",
+    "phonetic": "/ˈklɪnɪk/",
+    "chinese": "诊所",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_dentist",
+    "word": "dentist",
+    "phonetic": "/ˈdentɪst/",
+    "chinese": "牙医",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_reception",
+    "word": "reception",
+    "phonetic": "/rɪˈsepʃn/",
+    "chinese": "接待处",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_appointment",
+    "word": "appointment",
+    "phonetic": "/əˈpɒɪntmənt/",
+    "chinese": "预约",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_staff_selection",
+    "word": "staff selection",
+    "phonetic": "/stɑːf sɪˈlekʃn/",
+    "chinese": "员工选拔",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_colleague",
+    "word": "colleague",
+    "phonetic": "/ˈkɒliːɡ/",
+    "chinese": "同事",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_workshop",
+    "word": "workshop",
+    "phonetic": "/ˈwɜːkʃɒp/",
+    "chinese": "车间；工作坊",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_showroom",
+    "word": "showroom",
+    "phonetic": "/ˈʃəʊruːm/",
+    "chinese": "展示厅",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_information_desk",
+    "word": "information desk",
+    "phonetic": "/ˌɪnfəˈmeɪʃn desk/",
+    "chinese": "问讯台",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_employer",
+    "word": "employer",
+    "phonetic": "/ɪmˈplɒɪə(r)/",
+    "chinese": "雇主",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_employment",
+    "word": "employment",
+    "phonetic": "/ɪmˈplɒɪmənt/",
+    "chinese": "就业",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_unemployed",
+    "word": "unemployed",
+    "phonetic": "/ˌʌnɪmˈplɒɪd/",
+    "chinese": "失业的",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_technical_cooperation",
+    "word": "technical cooperation",
+    "phonetic": "/ˈteknɪkl kəʊˌɒpəˈreɪʃn/",
+    "chinese": "技术合作",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_team_leaders",
+    "word": "team leaders",
+    "phonetic": "/tiːm ˈliːdəz/",
+    "chinese": "团队领导",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_stress",
+    "word": "stress",
+    "phonetic": "/stres/",
+    "chinese": "压力",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_ability",
+    "word": "ability",
+    "phonetic": "/əˈbɪləti/",
+    "chinese": "能力",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_vision",
+    "word": "vision",
+    "phonetic": "/ˈvɪʒn/",
+    "chinese": "视力；远见",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_confidence",
+    "word": "confidence",
+    "phonetic": "/ˈkɒnfɪdəns/",
+    "chinese": "信心",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_employee",
+    "word": "employee",
+    "phonetic": "/ɪmˈplɒɪiː/",
+    "chinese": "员工",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_17_internship",
+    "word": "internship",
+    "phonetic": "/ˈɪntɜːnʃɪp/",
+    "chinese": "实习",
+    "listenCategory": "工作",
+    "listenCategoryOrder": 17
+  },
+  {
+    "id": "listen_18_reasonable",
+    "word": "reasonable",
+    "phonetic": "/ˈriːznəbl/",
+    "chinese": "合理的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_satisfactory",
+    "word": "satisfactory",
+    "phonetic": "/ˌsætɪsˈfæktəri/",
+    "chinese": "令人满意的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_dangerous",
+    "word": "dangerous",
+    "phonetic": "/ˈdeɪndʒərəs/",
+    "chinese": "危险的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_safe",
+    "word": "safe",
+    "phonetic": "/seɪf/",
+    "chinese": "安全的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_strongly_recommended",
+    "word": "strongly recommended",
+    "phonetic": "/ˈstrɒŋli ˌrekəˈmendɪd/",
+    "chinese": "强烈推荐的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_poor_quality",
+    "word": "poor quality",
+    "phonetic": "/pʊə(r) ˈkwɒləti/",
+    "chinese": "质量差",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_satisfied",
+    "word": "satisfied",
+    "phonetic": "/ˈsætɪsfaɪd/",
+    "chinese": "满意的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_disappointed",
+    "word": "disappointed",
+    "phonetic": "/ˌdɪsəˈpɒɪntɪd/",
+    "chinese": "失望的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_efficient",
+    "word": "efficient",
+    "phonetic": "/ɪˈfɪʃnt/",
+    "chinese": "高效的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_luxurious",
+    "word": "luxurious",
+    "phonetic": "/lʌɡˈʒʊəriəs/",
+    "chinese": "豪华的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_colored",
+    "word": "colored",
+    "phonetic": "/ˈkʌləd/",
+    "chinese": "有色的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_spotted",
+    "word": "spotted",
+    "phonetic": "/ˈspɒtɪd/",
+    "chinese": "有斑点的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_striped",
+    "word": "striped",
+    "phonetic": "/straɪpt/",
+    "chinese": "有条纹的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_expensive",
+    "word": "expensive",
+    "phonetic": "/ɪkˈspensɪv/",
+    "chinese": "昂贵的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_18_cheap",
+    "word": "cheap",
+    "phonetic": "/tʃiːp/",
+    "chinese": "便宜的",
+    "listenCategory": "评级和品质",
+    "listenCategoryOrder": 18
+  },
+  {
+    "id": "listen_19_tourist_guided_tour",
+    "word": "tourist guided tour",
+    "phonetic": "/ˈtʊərɪst ˈɡaɪdɪd tʊə(r)/",
+    "chinese": "导游带团游览",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_ticket_office",
+    "word": "ticket office",
+    "phonetic": "/ˈtɪkɪt ˈɒfɪs/",
+    "chinese": "售票处",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_souvenir",
+    "word": "souvenir",
+    "phonetic": "/ˌsuːvəˈnɪə(r)/",
+    "chinese": "纪念品",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_trip",
+    "word": "trip",
+    "phonetic": "/trɪp/",
+    "chinese": "旅行",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_guest",
+    "word": "guest",
+    "phonetic": "/ɡest/",
+    "chinese": "客人",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_reservation",
+    "word": "reservation",
+    "phonetic": "/ˌrezəˈveɪʃn/",
+    "chinese": "预订",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_view",
+    "word": "view",
+    "phonetic": "/vjuː/",
+    "chinese": "景色",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_culture",
+    "word": "culture",
+    "phonetic": "/ˈkʌltʃə(r)/",
+    "chinese": "文化",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_memorable",
+    "word": "memorable",
+    "phonetic": "/ˈmemərəbl/",
+    "chinese": "值得纪念的",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_single_double_bedded_room",
+    "word": "single/double bedded room",
+    "phonetic": "/ˈsɪŋɡl ˈdʌbl ˈbedɪd ruːm/",
+    "chinese": "单人间/双人间",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_picnic",
+    "word": "picnic",
+    "phonetic": "/ˈpɪknɪk/",
+    "chinese": "野餐",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_tourist_attraction",
+    "word": "tourist attraction",
+    "phonetic": "/ˈtʊərɪst əˈtrækʃn/",
+    "chinese": "旅游景点",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_hostel",
+    "word": "hostel",
+    "phonetic": "/ˈhɒstl/",
+    "chinese": "青年旅舍",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_suite",
+    "word": "suite",
+    "phonetic": "/swiːt/",
+    "chinese": "套房",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_19_aquarium",
+    "word": "aquarium",
+    "phonetic": "/əˈkweəriəm/",
+    "chinese": "水族馆",
+    "listenCategory": "旅游",
+    "listenCategoryOrder": 19
+  },
+  {
+    "id": "listen_20_train",
+    "word": "train",
+    "phonetic": "/treɪn/",
+    "chinese": "培训",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_develop",
+    "word": "develop",
+    "phonetic": "/dɪˈveləp/",
+    "chinese": "发展",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_collect",
+    "word": "collect",
+    "phonetic": "/kəˈlekt/",
+    "chinese": "收集",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_supervise",
+    "word": "supervise",
+    "phonetic": "/ˈsuːpəvaɪz/",
+    "chinese": "监督",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_mark",
+    "word": "mark",
+    "phonetic": "/mɑːk/",
+    "chinese": "标记；评分",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_edit",
+    "word": "edit",
+    "phonetic": "/ˈedɪt/",
+    "chinese": "编辑",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_revise",
+    "word": "revise",
+    "phonetic": "/rɪˈvaɪz/",
+    "chinese": "修订",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_exhibit",
+    "word": "exhibit",
+    "phonetic": "/ɪɡˈzɪbɪt/",
+    "chinese": "展览",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_donate",
+    "word": "donate",
+    "phonetic": "/dəʊˈneɪt/",
+    "chinese": "捐赠",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_surpass",
+    "word": "surpass",
+    "phonetic": "/səˈpɑːs/",
+    "chinese": "超越",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_register",
+    "word": "register",
+    "phonetic": "/ˈredʒɪstə(r)/",
+    "chinese": "登记",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_support",
+    "word": "support",
+    "phonetic": "/səˈpɔːt/",
+    "chinese": "支持",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_hunt",
+    "word": "hunt",
+    "phonetic": "/hʌnt/",
+    "chinese": "打猎",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_persuade",
+    "word": "persuade",
+    "phonetic": "/pəˈsweɪd/",
+    "chinese": "说服",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_concentrate",
+    "word": "concentrate",
+    "phonetic": "/ˈkɒnsntreɪt/",
+    "chinese": "集中",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_discuss",
+    "word": "discuss",
+    "phonetic": "/dɪˈskʌs/",
+    "chinese": "讨论",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_suggest",
+    "word": "suggest",
+    "phonetic": "/səˈdʒest/",
+    "chinese": "建议",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_arrange",
+    "word": "arrange",
+    "phonetic": "/əˈreɪndʒ/",
+    "chinese": "安排",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_borrow",
+    "word": "borrow",
+    "phonetic": "/ˈbɒrəʊ/",
+    "chinese": "借",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_immigrate",
+    "word": "immigrate",
+    "phonetic": "/ˈɪmɪɡreɪt/",
+    "chinese": "移民",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_review",
+    "word": "review",
+    "phonetic": "/rɪˈvjuː/",
+    "chinese": "复习；评论",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_learn",
+    "word": "learn",
+    "phonetic": "/lɜːn/",
+    "chinese": "学习",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_20_touch",
+    "word": "touch",
+    "phonetic": "/tʌtʃ/",
+    "chinese": "触碰",
+    "listenCategory": "常用动词",
+    "listenCategoryOrder": 20
+  },
+  {
+    "id": "listen_21_energetic",
+    "word": "energetic",
+    "phonetic": "/ˌenəˈdʒetɪk/",
+    "chinese": "精力充沛的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_social",
+    "word": "social",
+    "phonetic": "/ˈsəʊʃl/",
+    "chinese": "社交的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_ancient",
+    "word": "ancient",
+    "phonetic": "/ˈeɪnʃənt/",
+    "chinese": "古代的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_necessary",
+    "word": "necessary",
+    "phonetic": "/ˈnesəsəri/",
+    "chinese": "必要的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_fantastic",
+    "word": "fantastic",
+    "phonetic": "/fænˈtæstɪk/",
+    "chinese": "极好的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_exciting",
+    "word": "exciting",
+    "phonetic": "/ɪkˈsaɪtɪŋ/",
+    "chinese": "令人兴奋的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_fabulous",
+    "word": "fabulous",
+    "phonetic": "/ˈfæbjələs/",
+    "chinese": "极好的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_dull",
+    "word": "dull",
+    "phonetic": "/dʌl/",
+    "chinese": "乏味的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_comfortable",
+    "word": "comfortable",
+    "phonetic": "/ˈkʌmftəbl/",
+    "chinese": "舒适的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_convenient",
+    "word": "convenient",
+    "phonetic": "/kənˈviːniənt/",
+    "chinese": "方便的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_suitable",
+    "word": "suitable",
+    "phonetic": "/ˈsuːtəbl/",
+    "chinese": "合适的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_affordable",
+    "word": "affordable",
+    "phonetic": "/əˈfɔːdəbl/",
+    "chinese": "负担得起的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_voluntary",
+    "word": "voluntary",
+    "phonetic": "/ˈvɒləntri/",
+    "chinese": "自愿的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_mandatory",
+    "word": "mandatory",
+    "phonetic": "/ˈmændətəri/",
+    "chinese": "强制的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_compulsory",
+    "word": "compulsory",
+    "phonetic": "/kəmˈpʌlsəri/",
+    "chinese": "必修的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_temporary",
+    "word": "temporary",
+    "phonetic": "/ˈtemprəri/",
+    "chinese": "临时的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_permanent",
+    "word": "permanent",
+    "phonetic": "/ˈpɜːmənənt/",
+    "chinese": "永久的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_immense",
+    "word": "immense",
+    "phonetic": "/ɪˈmens/",
+    "chinese": "巨大的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_vast",
+    "word": "vast",
+    "phonetic": "/vɑːst/",
+    "chinese": "广阔的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_salty",
+    "word": "salty",
+    "phonetic": "/ˈsɒlti/",
+    "chinese": "咸的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_extinct",
+    "word": "extinct",
+    "phonetic": "/ɪkˈstɪŋkt/",
+    "chinese": "灭绝的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_vulnerable",
+    "word": "vulnerable",
+    "phonetic": "/ˈvʌlnərəbl/",
+    "chinese": "脆弱的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_pessimistic",
+    "word": "pessimistic",
+    "phonetic": "/ˌpesɪˈmɪstɪk/",
+    "chinese": "悲观的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_optimistic",
+    "word": "optimistic",
+    "phonetic": "/ˌɒptɪˈmɪstɪk/",
+    "chinese": "乐观的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_realistic",
+    "word": "realistic",
+    "phonetic": "/ˌriːəˈlɪstɪk/",
+    "chinese": "现实的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_practical",
+    "word": "practical",
+    "phonetic": "/ˈpræktɪkl/",
+    "chinese": "实用的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_knowledgeable",
+    "word": "knowledgeable",
+    "phonetic": "/ˈnɒlɪdʒəbl/",
+    "chinese": "知识丰富的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_flexible",
+    "word": "flexible",
+    "phonetic": "/ˈfleksəbl/",
+    "chinese": "灵活的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_confident",
+    "word": "confident",
+    "phonetic": "/ˈkɒnfɪdənt/",
+    "chinese": "自信的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_western",
+    "word": "western",
+    "phonetic": "/ˈwestən/",
+    "chinese": "西方的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_intensive",
+    "word": "intensive",
+    "phonetic": "/ɪnˈtensɪv/",
+    "chinese": "密集的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_tranquil",
+    "word": "tranquil",
+    "phonetic": "/ˈtræŋkwɪl/",
+    "chinese": "宁静的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_spectacular",
+    "word": "spectacular",
+    "phonetic": "/spekˈtækjələ(r)/",
+    "chinese": "壮观的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_intact",
+    "word": "intact",
+    "phonetic": "/ɪnˈtækt/",
+    "chinese": "完整的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
+  },
+  {
+    "id": "listen_21_various",
+    "word": "various",
+    "phonetic": "/ˈveəriəs/",
+    "chinese": "各种各样的",
+    "listenCategory": "常用形容词",
+    "listenCategoryOrder": 21
   }
 ]
