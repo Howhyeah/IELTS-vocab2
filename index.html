@@ -55,19 +55,6 @@
             margin-top: 10px;
             font-weight: bold;
         }
-        .records-btn {
-            width: 100%;
-            padding: 12px;
-            background: white;
-            border: 2px solid #667eea;
-            color: #667eea;
-            border-radius: 12px;
-            font-size: 14px;
-            font-weight: bold;
-            margin-bottom: 15px;
-            cursor: pointer;
-        }
-        .records-btn:active { transform: scale(0.98); }
         .search-section {
             position: relative;
             margin-bottom: 20px;
@@ -117,23 +104,28 @@
             margin-left: 8px;
         }
         .search-empty { padding: 20px; text-align: center; color: #999; font-size: 14px; }
-        .data-actions {
-            display: flex;
+        .function-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 10px;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
-        .data-btn {
-            flex: 1;
-            padding: 10px;
+        .function-item {
             background: white;
-            border: 2px solid #667eea;
-            color: #667eea;
-            border-radius: 12px;
-            font-size: 13px;
-            font-weight: bold;
+            border-radius: 16px;
+            padding: 14px 4px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 2px solid transparent;
             cursor: pointer;
         }
-        .data-btn:active { transform: scale(0.98); }
+        .function-item:active { transform: scale(0.94); border-color: var(--accent); }
+        .function-icon { font-size: 26px; margin-bottom: 4px; }
+        .function-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--accent);
+        }
         .toast {
             position: fixed;
             top: 20px;
@@ -462,9 +454,6 @@
         .record-word { font-weight: bold; color: #333; font-size: 16px; }
         .record-chinese { color: #666; font-size: 13px; text-align: right; }
         .records-empty { text-align: center; color: #999; padding: 40px 0; }
-        .drill-btn { border-color: #ff9f43; color: #ff9f43; }
-        .listen-btn { border-color: #17a2b8; color: #17a2b8; }
-        .read-btn { border-color: #6f42c1; color: #6f42c1; }
         .source-tag {
             font-size: 11px;
             color: #667eea;
@@ -656,16 +645,33 @@
             <div class="search-results" id="searchResults"></div>
         </div>
 
-        <button class="records-btn" onclick="openRecords()">📖 查看学习记录（已背 / 模糊记忆 / 待复习）</button>
-        <button class="records-btn drill-btn" onclick="openDrill()">🔥 词组强记模式</button>
-        <button class="records-btn listen-btn" onclick="openListening()">🎧 听力词汇</button>
-        <button class="records-btn read-btn" onclick="openReading()">📖 阅读词汇</button>
-
-        <div class="data-actions">
-            <button class="data-btn" onclick="exportData()">⬆️ 导出学习记录</button>
-            <button class="data-btn" onclick="document.getElementById('importFileInput').click()">⬇️ 导入学习记录</button>
-            <input type="file" id="importFileInput" accept=".json,application/json" style="display:none" onchange="importData(event)">
+        <div class="function-grid">
+            <div class="function-item" style="--accent:#667eea" onclick="openRecords()">
+                <div class="function-icon">📖</div>
+                <div class="function-label">学习记录</div>
+            </div>
+            <div class="function-item" style="--accent:#ff9f43" onclick="openDrill()">
+                <div class="function-icon">🔥</div>
+                <div class="function-label">强记模式</div>
+            </div>
+            <div class="function-item" style="--accent:#17a2b8" onclick="openListening()">
+                <div class="function-icon">🎧</div>
+                <div class="function-label">听力词汇</div>
+            </div>
+            <div class="function-item" style="--accent:#6f42c1" onclick="openReading()">
+                <div class="function-icon">📚</div>
+                <div class="function-label">阅读词汇</div>
+            </div>
+            <div class="function-item" style="--accent:#6c757d" onclick="exportData()">
+                <div class="function-icon">⬆️</div>
+                <div class="function-label">导出记录</div>
+            </div>
+            <div class="function-item" style="--accent:#6c757d" onclick="document.getElementById('importFileInput').click()">
+                <div class="function-icon">⬇️</div>
+                <div class="function-label">导入记录</div>
+            </div>
         </div>
+        <input type="file" id="importFileInput" accept=".json,application/json" style="display:none" onchange="importData(event)">
 
         <div class="category-tabs">
             <div class="tab active" data-cat="all" onclick="switchCategory('all')">全部</div>
@@ -1626,6 +1632,8 @@
 
         // 阅读考点词卡片：母义状态+底层关系(我们自己设计) + 雅思真题命题替换词(表格原有内容,配中文)
         function renderReadingCard(word, mode) {
+            const hasCoreState = word.core_state && word.core_state.trim();
+            const hasRelation = word.underlying_relation && word.underlying_relation.trim();
             return `
                 <div class="word-card">
                     ${topBarHtml(`📖 阅读考点词${word.rank ? ' #' + word.rank : ''}`, mode)}
@@ -1633,20 +1641,26 @@
                         <div class="word-title">${word.word}<button class="speak-btn" onclick="playPronunciation('${word.word}', this)">🔊</button></div>
                         <div class="phonetic">${word.phonetic} ${word.pos || ''}</div>
                     </div>
+                    ${(hasCoreState || hasRelation) ? `
                     <div class="core-state-section">
+                        ${hasCoreState ? `
                         <div class="core-state-title">核心状态</div>
                         <div class="core-state-text">${word.core_state}</div>
-                        <div class="underlying-relation-box">
-                            <div class="underlying-relation-title">🔗 底层关系</div>
+                        ` : ''}
+                        ${hasRelation ? `
+                        <div class="underlying-relation-box" style="${hasCoreState ? '' : 'margin-top:0;'}">
+                            <div class="underlying-relation-title">🔗 ${hasCoreState ? '底层关系' : '逻辑关系'}</div>
                             <div class="underlying-relation-text">${word.underlying_relation}</div>
                         </div>
+                        ` : ''}
                     </div>
+                    ` : ''}
                     <div class="scenes-section">
                         <div class="section-title">📝 雅思真题命题替换词</div>
                         ${(word.synonyms || []).map(s => `
                             <div class="scene-item">
                                 <div class="scene-content">
-                                    <div class="scene-phrase">${s.word}</div>
+                                    <div class="scene-phrase">${s.word}<button class="speak-btn" style="width:24px;height:24px;font-size:10px;margin-left:6px;vertical-align:middle;" onclick="playPronunciation('${s.word.replace(/'/g, "\\'")}', this)">🔊</button></div>
                                     <div class="scene-note">${s.chinese}</div>
                                 </div>
                             </div>
