@@ -1401,7 +1401,8 @@
             } catch (error) {
                 console.error('加载失败:', error);
                 document.getElementById('wordCardContainer').innerHTML =
-                    '<div class="empty-state"><h2>⚠️ 加载失败</h2><p>请检查网络连接</p></div>';
+                    `<div class="empty-state"><h2>⚠️ 加载失败</h2><p>请把下面这行报错内容截图发给Claude：</p>
+                    <p style="font-size:12px;background:rgba(255,255,255,0.2);padding:10px;border-radius:8px;word-break:break-all;">${error.message}${error.stack ? '<br><br>' + error.stack.split('\n').slice(0,3).join('<br>') : ''}</p></div>`;
             }
         }
 
@@ -1459,6 +1460,25 @@
                 <div class="underlying-relation-box">
                     <div class="underlying-relation-title">🔗 底层关系</div>
                     <div class="underlying-relation-text">${word.underlying_relation}</div>
+                </div>
+            `;
+        }
+
+        // 主词库里跟阅读词库重复的词,额外补了"雅思阅读真题命题替换词"这条信息;
+        // 只有带这个字段的词才会显示这一块,不影响其他词的卡片结构
+        function readingSynonymsHtml(word) {
+            if (!word.reading_synonyms || word.reading_synonyms.length === 0) return '';
+            return `
+                <div class="scenes-section">
+                    <div class="section-title">📝 雅思阅读真题命题替换词</div>
+                    ${word.reading_synonyms.map(s => `
+                        <div class="scene-item">
+                            <div class="scene-content">
+                                <div class="scene-phrase">${s.word}<button class="speak-btn" style="width:24px;height:24px;font-size:10px;margin-left:6px;vertical-align:middle;" onclick="playPronunciation('${s.word.replace(/'/g, "\\'")}', this)">🔊</button></div>
+                                <div class="scene-note">${s.chinese}</div>
+                            </div>
+                        </div>
+                    `).join('')}
                 </div>
             `;
         }
@@ -1556,6 +1576,7 @@
                         <div class="chinese-label">💡 中文核对</div>
                         <div>${word.chinese}</div>
                     </div>
+                    ${readingSynonymsHtml(word)}
                     ${actionButtonsHtml(mode)}
                 </div>
             `;
@@ -1594,6 +1615,7 @@
                         <div class="chinese-label">💡 中文核对</div>
                         <div>${word.chinese}</div>
                     </div>
+                    ${readingSynonymsHtml(word)}
                     ${actionButtonsHtml(mode)}
                 </div>
             `;
@@ -1650,6 +1672,7 @@
                         <div class="core-state-text">${word.chinese}</div>
                         <div style="margin-top: 10px; font-size: 14px; color: #667eea;">【${word.topic}】</div>
                     </div>
+                    ${readingSynonymsHtml(word)}
                     ${actionButtonsHtml(mode)}
                 </div>
             `;
