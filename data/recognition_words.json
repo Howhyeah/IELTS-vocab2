@@ -37,7 +37,13 @@
     "category": "I",
     "chinese": "哺乳动物",
     "topic": "动物",
-    "emoji": "🦁"
+    "emoji": "🦁",
+    "reading_synonyms": [
+      {
+        "word": "creature",
+        "chinese": "生物"
+      }
+    ]
   },
   {
     "id": "volcano",
@@ -167,7 +173,13 @@
     "category": "I",
     "chinese": "海拔",
     "topic": "地理",
-    "emoji": "⛰️"
+    "emoji": "⛰️",
+    "reading_synonyms": [
+      {
+        "word": "height",
+        "chinese": "高度"
+      }
+    ]
   },
   {
     "id": "horizon",
@@ -227,7 +239,13 @@
     "category": "I",
     "chinese": "赤道",
     "topic": "地理",
-    "emoji": "🌐"
+    "emoji": "🌐",
+    "reading_synonyms": [
+      {
+        "word": "geography",
+        "chinese": "地理"
+      }
+    ]
   },
   {
     "id": "arctic",
@@ -757,7 +775,13 @@
     "category": "I",
     "chinese": "阴凉处",
     "topic": "物理",
-    "emoji": "🌳"
+    "emoji": "🌳",
+    "reading_synonyms": [
+      {
+        "word": "shelter",
+        "chinese": "遮蔽"
+      }
+    ]
   },
   {
     "id": "shadow",
@@ -1057,7 +1081,13 @@
     "category": "I",
     "chinese": "干旱",
     "topic": "自然灾害",
-    "emoji": "🏜️"
+    "emoji": "🏜️",
+    "reading_synonyms": [
+      {
+        "word": "dry",
+        "chinese": "干旱的"
+      }
+    ]
   },
   {
     "id": "quartz",
@@ -1157,7 +1187,13 @@
     "category": "I",
     "chinese": "风景，景观",
     "topic": "地理",
-    "emoji": "🏞️"
+    "emoji": "🏞️",
+    "reading_synonyms": [
+      {
+        "word": "scene",
+        "chinese": "景象"
+      }
+    ]
   },
   {
     "id": "disaster",
@@ -1227,7 +1263,13 @@
     "category": "I",
     "chinese": "灾难性的",
     "topic": "自然灾害",
-    "emoji": "💥"
+    "emoji": "💥",
+    "reading_synonyms": [
+      {
+        "word": "disastrous",
+        "chinese": "灾难性的"
+      }
+    ]
   },
   {
     "id": "typhoon",
@@ -1257,7 +1299,13 @@
     "category": "I",
     "chinese": "灾难，不幸",
     "topic": "自然灾害",
-    "emoji": "💥"
+    "emoji": "💥",
+    "reading_synonyms": [
+      {
+        "word": "disaster",
+        "chinese": "灾难"
+      }
+    ]
   },
   {
     "id": "monsoon",
@@ -1297,7 +1345,13 @@
     "category": "I",
     "chinese": "海军士兵；海洋的",
     "topic": "海洋",
-    "emoji": "⚓"
+    "emoji": "⚓",
+    "reading_synonyms": [
+      {
+        "word": "sea",
+        "chinese": "海洋"
+      }
+    ]
   },
   {
     "id": "polar",
@@ -1627,7 +1681,13 @@
     "category": "I",
     "chinese": "潮湿的",
     "topic": "天气",
-    "emoji": "💧"
+    "emoji": "💧",
+    "reading_synonyms": [
+      {
+        "word": "wet",
+        "chinese": "潮湿的"
+      }
+    ]
   },
   {
     "id": "humid",
@@ -1797,7 +1857,13 @@
     "category": "I",
     "chinese": "对生态友好的，环保的",
     "topic": "环境",
-    "emoji": "♻️"
+    "emoji": "♻️",
+    "reading_synonyms": [
+      {
+        "word": "environmentally-friendly",
+        "chinese": "环保的"
+      }
+    ]
   },
   {
     "id": "horticulture",
@@ -1867,7 +1933,17 @@
     "category": "I",
     "chinese": "多样性",
     "topic": "科学",
-    "emoji": "🌈"
+    "emoji": "🌈",
+    "reading_synonyms": [
+      {
+        "word": "variety",
+        "chinese": "多样性"
+      },
+      {
+        "word": "difference",
+        "chinese": "差异"
+      }
+    ]
   },
   {
     "id": "reproduce",
@@ -1877,7 +1953,13 @@
     "category": "I",
     "chinese": "繁殖",
     "topic": "生物",
-    "emoji": "🐣"
+    "emoji": "🐣",
+    "reading_synonyms": [
+      {
+        "word": "breed",
+        "chinese": "繁殖"
+      }
+    ]
   },
   {
     "id": "sow",
@@ -2067,7 +2149,13 @@
     "category": "I",
     "chinese": "霉菌；发霉",
     "topic": "生物",
-    "emoji": "🦠"
+    "emoji": "🦠",
+    "reading_synonyms": [
+      {
+        "word": "form",
+        "chinese": "形成"
+      }
+    ]
   },
   {
     "id": "pollen",
@@ -2277,7 +2365,13 @@
     "category": "I",
     "chinese": "原木；航海日志",
     "topic": "材料",
-    "emoji": "🪵"
+    "emoji": "🪵",
+    "reading_synonyms": [
+      {
+        "word": "record",
+        "chinese": "记录"
+      }
+    ]
   },
   {
     "id": "logo",
@@ -2587,7 +2681,13 @@
     "category": "I",
     "chinese": "机制；机械装置",
     "topic": "科学",
-    "emoji": "⚙️"
+    "emoji": "⚙️",
+    "reading_synonyms": [
+      {
+        "word": "method",
+        "chinese": "方法"
+      }
+    ]
   },
   {
     "id": "conservation",
@@ -2617,7 +2717,13 @@
     "category": "I",
     "chinese": "毁坏；毁灭，废墟",
     "topic": "描述",
-    "emoji": "🏛️"
+    "emoji": "🏛️",
+    "reading_synonyms": [
+      {
+        "word": "destroy",
+        "chinese": "破坏"
+      }
+    ]
   },
   {
     "id": "perish",
@@ -2657,7 +2763,13 @@
     "category": "I",
     "chinese": "模式，图案",
     "topic": "描述",
-    "emoji": "🔷"
+    "emoji": "🔷",
+    "reading_synonyms": [
+      {
+        "word": "formation",
+        "chinese": "形成物"
+      }
+    ]
   },
   {
     "id": "outcome",
@@ -2677,7 +2789,13 @@
     "category": "I",
     "chinese": "影响",
     "topic": "描述",
-    "emoji": "💥"
+    "emoji": "💥",
+    "reading_synonyms": [
+      {
+        "word": "influence",
+        "chinese": "影响"
+      }
+    ]
   },
   {
     "id": "seasonal",
@@ -2747,7 +2865,13 @@
     "category": "I",
     "chinese": "相当多的",
     "topic": "描述",
-    "emoji": "📊"
+    "emoji": "📊",
+    "reading_synonyms": [
+      {
+        "word": "significant",
+        "chinese": "重要的"
+      }
+    ]
   },
   {
     "id": "massive",
@@ -3137,7 +3261,13 @@
     "category": "I",
     "chinese": "配偶；交配",
     "topic": "动物",
-    "emoji": "🐦"
+    "emoji": "🐦",
+    "reading_synonyms": [
+      {
+        "word": "spouse",
+        "chinese": "配偶"
+      }
+    ]
   },
   {
     "id": "courtship",
@@ -3147,7 +3277,13 @@
     "category": "I",
     "chinese": "求偶",
     "topic": "动物",
-    "emoji": "💕"
+    "emoji": "💕",
+    "reading_synonyms": [
+      {
+        "word": "mate",
+        "chinese": "配偶"
+      }
+    ]
   },
   {
     "id": "lay",
@@ -3487,7 +3623,13 @@
     "category": "I",
     "chinese": "熊",
     "topic": "动物",
-    "emoji": "🐻"
+    "emoji": "🐻",
+    "reading_synonyms": [
+      {
+        "word": "tolerate",
+        "chinese": "容忍"
+      }
+    ]
   },
   {
     "id": "wolf",
@@ -3897,7 +4039,13 @@
     "category": "I",
     "chinese": "栖息地",
     "topic": "动物",
-    "emoji": "🏞️"
+    "emoji": "🏞️",
+    "reading_synonyms": [
+      {
+        "word": "residence",
+        "chinese": "住所"
+      }
+    ]
   },
   {
     "id": "nest",
@@ -3947,7 +4095,17 @@
     "category": "I",
     "chinese": "马厩；稳定的",
     "topic": "描述",
-    "emoji": "🐴"
+    "emoji": "🐴",
+    "reading_synonyms": [
+      {
+        "word": "constant",
+        "chinese": "恒定的"
+      },
+      {
+        "word": "unchanged",
+        "chinese": "不变的"
+      }
+    ]
   },
   {
     "id": "barn",
@@ -4027,7 +4185,21 @@
     "category": "I",
     "chinese": "细菌",
     "topic": "医学",
-    "emoji": "🦠"
+    "emoji": "🦠",
+    "reading_synonyms": [
+      {
+        "word": "virus",
+        "chinese": "病毒"
+      },
+      {
+        "word": "germ",
+        "chinese": "细菌"
+      },
+      {
+        "word": "microbe",
+        "chinese": "微生物"
+      }
+    ]
   },
   {
     "id": "virus",
@@ -4067,7 +4239,17 @@
     "category": "I",
     "chinese": "分泌",
     "topic": "医学",
-    "emoji": "💧"
+    "emoji": "💧",
+    "reading_synonyms": [
+      {
+        "word": "discharge",
+        "chinese": "排出"
+      },
+      {
+        "word": "exude",
+        "chinese": "渗出"
+      }
+    ]
   },
   {
     "id": "excrete",
@@ -4127,7 +4309,13 @@
     "category": "I",
     "chinese": "潜力，潜在的",
     "topic": "描述",
-    "emoji": "🌱"
+    "emoji": "🌱",
+    "reading_synonyms": [
+      {
+        "word": "possibility",
+        "chinese": "可能性"
+      }
+    ]
   },
   {
     "id": "intelligence",
@@ -4137,7 +4325,13 @@
     "category": "I",
     "chinese": "智慧；情报",
     "topic": "描述",
-    "emoji": "🧠"
+    "emoji": "🧠",
+    "reading_synonyms": [
+      {
+        "word": "mind",
+        "chinese": "智力"
+      }
+    ]
   },
   {
     "id": "functional",
@@ -4197,7 +4391,13 @@
     "category": "I",
     "chinese": "夜间活动的",
     "topic": "动物",
-    "emoji": "🌙"
+    "emoji": "🌙",
+    "reading_synonyms": [
+      {
+        "word": "night",
+        "chinese": "夜间的"
+      }
+    ]
   },
   {
     "id": "dormant",
@@ -4567,7 +4767,21 @@
     "category": "I",
     "chinese": "动力学，动态",
     "topic": "科学",
-    "emoji": "⚙️"
+    "emoji": "⚙️",
+    "reading_synonyms": [
+      {
+        "word": "energy",
+        "chinese": "能量"
+      },
+      {
+        "word": "force",
+        "chinese": "力量"
+      },
+      {
+        "word": "move",
+        "chinese": "移动"
+      }
+    ]
   },
   {
     "id": "motion",
@@ -4707,7 +4921,13 @@
     "category": "I",
     "chinese": "物质，实质",
     "topic": "化学",
-    "emoji": "🧪"
+    "emoji": "🧪",
+    "reading_synonyms": [
+      {
+        "word": "matter",
+        "chinese": "物质"
+      }
+    ]
   },
   {
     "id": "composition",
@@ -5007,7 +5227,13 @@
     "category": "I",
     "chinese": "碎，碎片",
     "topic": "描述",
-    "emoji": "🧩"
+    "emoji": "🧩",
+    "reading_synonyms": [
+      {
+        "word": "piece",
+        "chinese": "碎片"
+      }
+    ]
   },
   {
     "id": "cataclysmic",
@@ -5047,7 +5273,17 @@
     "category": "I",
     "chinese": "最初的；小学教育的",
     "topic": "教育",
-    "emoji": "1️⃣"
+    "emoji": "1️⃣",
+    "reading_synonyms": [
+      {
+        "word": "principle",
+        "chinese": "原则"
+      },
+      {
+        "word": "main",
+        "chinese": "主要的"
+      }
+    ]
   },
   {
     "id": "secondary",
@@ -5147,7 +5383,17 @@
     "category": "I",
     "chinese": "专门知识/技能",
     "topic": "教育",
-    "emoji": "🎯"
+    "emoji": "🎯",
+    "reading_synonyms": [
+      {
+        "word": "knowledge",
+        "chinese": "知识"
+      },
+      {
+        "word": "skill",
+        "chinese": "技能"
+      }
+    ]
   },
   {
     "id": "novice",
@@ -5207,7 +5453,13 @@
     "category": "I",
     "chinese": "有争议的",
     "topic": "描述",
-    "emoji": "⚡"
+    "emoji": "⚡",
+    "reading_synonyms": [
+      {
+        "word": "disputable",
+        "chinese": "有争议的"
+      }
+    ]
   },
   {
     "id": "affair",
@@ -5247,7 +5499,13 @@
     "category": "I",
     "chinese": "难以理解的；模糊的",
     "topic": "描述",
-    "emoji": "🌫️"
+    "emoji": "🌫️",
+    "reading_synonyms": [
+      {
+        "word": "hide",
+        "chinese": "隐藏"
+      }
+    ]
   },
   {
     "id": "cram",
@@ -5577,7 +5835,13 @@
     "category": "I",
     "chinese": "系，院；全体教员",
     "topic": "教育",
-    "emoji": "🏫"
+    "emoji": "🏫",
+    "reading_synonyms": [
+      {
+        "word": "ability",
+        "chinese": "能力"
+      }
+    ]
   },
   {
     "id": "professor",
@@ -5667,7 +5931,13 @@
     "category": "I",
     "chinese": "证明，颁发证书",
     "topic": "描述",
-    "emoji": "📜"
+    "emoji": "📜",
+    "reading_synonyms": [
+      {
+        "word": "verify",
+        "chinese": "核实"
+      }
+    ]
   },
   {
     "id": "license",
@@ -5687,7 +5957,13 @@
     "category": "I",
     "chinese": "许可证",
     "topic": "描述",
-    "emoji": "📜"
+    "emoji": "📜",
+    "reading_synonyms": [
+      {
+        "word": "allow",
+        "chinese": "允许"
+      }
+    ]
   },
   {
     "id": "diploma",
@@ -5937,7 +6213,13 @@
     "category": "I",
     "chinese": "实验，试验",
     "topic": "科学",
-    "emoji": "🧪"
+    "emoji": "🧪",
+    "reading_synonyms": [
+      {
+        "word": "test",
+        "chinese": "测试"
+      }
+    ]
   },
   {
     "id": "data",
@@ -5967,7 +6249,13 @@
     "category": "I",
     "chinese": "数量",
     "topic": "描述",
-    "emoji": "🔢"
+    "emoji": "🔢",
+    "reading_synonyms": [
+      {
+        "word": "number",
+        "chinese": "数量"
+      }
+    ]
   },
   {
     "id": "library",
@@ -6717,7 +7005,13 @@
     "category": "I",
     "chinese": "奇数的；古怪的",
     "topic": "数学",
-    "emoji": "1️⃣"
+    "emoji": "1️⃣",
+    "reading_synonyms": [
+      {
+        "word": "strange",
+        "chinese": "奇怪的"
+      }
+    ]
   },
   {
     "id": "mean",
@@ -7027,7 +7321,17 @@
     "category": "I",
     "chinese": "比率，率；速度",
     "topic": "数学",
-    "emoji": "📊"
+    "emoji": "📊",
+    "reading_synonyms": [
+      {
+        "word": "rank",
+        "chinese": "等级"
+      },
+      {
+        "word": "measure",
+        "chinese": "衡量"
+      }
+    ]
   },
   {
     "id": "ratio",
@@ -7097,7 +7401,13 @@
     "category": "I",
     "chinese": "水银，汞；水星",
     "topic": "科学",
-    "emoji": "🌡️"
+    "emoji": "🌡️",
+    "reading_synonyms": [
+      {
+        "word": "liquid metal",
+        "chinese": "液态金属"
+      }
+    ]
   },
   {
     "id": "battery",
@@ -7347,7 +7657,13 @@
     "category": "I",
     "chinese": "原则；原理",
     "topic": "描述",
-    "emoji": "📜"
+    "emoji": "📜",
+    "reading_synonyms": [
+      {
+        "word": "rule",
+        "chinese": "规则"
+      }
+    ]
   },
   {
     "id": "discipline",
@@ -7367,7 +7683,13 @@
     "category": "I",
     "chinese": "期限，学期",
     "topic": "教育",
-    "emoji": "📅"
+    "emoji": "📅",
+    "reading_synonyms": [
+      {
+        "word": "word",
+        "chinese": "词语"
+      }
+    ]
   },
   {
     "id": "semester",
@@ -7407,7 +7729,13 @@
     "category": "I",
     "chinese": "截止日期",
     "topic": "描述",
-    "emoji": "⏰"
+    "emoji": "⏰",
+    "reading_synonyms": [
+      {
+        "word": "limit",
+        "chinese": "限期"
+      }
+    ]
   },
   {
     "id": "course",
@@ -7437,7 +7765,17 @@
     "category": "I",
     "chinese": "全部课程",
     "topic": "教育",
-    "emoji": "📚"
+    "emoji": "📚",
+    "reading_synonyms": [
+      {
+        "word": "syllabus",
+        "chinese": "教学大纲"
+      },
+      {
+        "word": "course of study",
+        "chinese": "学习课程"
+      }
+    ]
   },
   {
     "id": "seminar",
@@ -7637,7 +7975,13 @@
     "category": "I",
     "chinese": "请教；查阅",
     "topic": "描述",
-    "emoji": "🗣️"
+    "emoji": "🗣️",
+    "reading_synonyms": [
+      {
+        "word": "ask for advice",
+        "chinese": "寻求建议"
+      }
+    ]
   },
   {
     "id": "skim",
@@ -7727,7 +8071,13 @@
     "category": "I",
     "chinese": "抄袭",
     "topic": "描述",
-    "emoji": "📋"
+    "emoji": "📋",
+    "reading_synonyms": [
+      {
+        "word": "copy",
+        "chinese": "抄袭"
+      }
+    ]
   },
   {
     "id": "copy",
@@ -7947,7 +8297,13 @@
     "category": "I",
     "chinese": "假说，假设",
     "topic": "科学",
-    "emoji": "💭"
+    "emoji": "💭",
+    "reading_synonyms": [
+      {
+        "word": "assumption",
+        "chinese": "假设"
+      }
+    ]
   },
   {
     "id": "postulate",
@@ -7967,7 +8323,13 @@
     "category": "I",
     "chinese": "预测",
     "topic": "描述",
-    "emoji": "🔮"
+    "emoji": "🔮",
+    "reading_synonyms": [
+      {
+        "word": "expect",
+        "chinese": "预期"
+      }
+    ]
   },
   {
     "id": "detect",
@@ -7977,7 +8339,25 @@
     "category": "I",
     "chinese": "察觉，发觉",
     "topic": "描述",
-    "emoji": "🔍"
+    "emoji": "🔍",
+    "reading_synonyms": [
+      {
+        "word": "find",
+        "chinese": "找到"
+      },
+      {
+        "word": "look for",
+        "chinese": "寻找"
+      },
+      {
+        "word": "seek",
+        "chinese": "寻求"
+      },
+      {
+        "word": "search",
+        "chinese": "搜索"
+      }
+    ]
   },
   {
     "id": "conscious",
@@ -7987,7 +8367,17 @@
     "category": "I",
     "chinese": "意识到的，有知觉的",
     "topic": "描述",
-    "emoji": "🧠"
+    "emoji": "🧠",
+    "reading_synonyms": [
+      {
+        "word": "aware",
+        "chinese": "意识到的"
+      },
+      {
+        "word": "knowing",
+        "chinese": "知道的"
+      }
+    ]
   },
   {
     "id": "reckon",
@@ -8087,7 +8477,13 @@
     "category": "I",
     "chinese": "比较",
     "topic": "描述",
-    "emoji": "⚖️"
+    "emoji": "⚖️",
+    "reading_synonyms": [
+      {
+        "word": "contrast",
+        "chinese": "对比"
+      }
+    ]
   },
   {
     "id": "contrast",
@@ -8127,7 +8523,13 @@
     "category": "I",
     "chinese": "不同",
     "topic": "描述",
-    "emoji": "🔀"
+    "emoji": "🔀",
+    "reading_synonyms": [
+      {
+        "word": "vary",
+        "chinese": "不同"
+      }
+    ]
   },
   {
     "id": "diverse",
@@ -8377,7 +8779,13 @@
     "category": "I",
     "chinese": "赞扬",
     "topic": "描述",
-    "emoji": "👏"
+    "emoji": "👏",
+    "reading_synonyms": [
+      {
+        "word": "commend",
+        "chinese": "赞扬"
+      }
+    ]
   },
   {
     "id": "feedback",
@@ -8567,7 +8975,13 @@
     "category": "I",
     "chinese": "领域；领地",
     "topic": "描述",
-    "emoji": "🌐"
+    "emoji": "🌐",
+    "reading_synonyms": [
+      {
+        "word": "field",
+        "chinese": "领域"
+      }
+    ]
   },
   {
     "id": "realm",
@@ -8767,7 +9181,13 @@
     "category": "I",
     "chinese": "多功能的",
     "topic": "描述",
-    "emoji": "🔀"
+    "emoji": "🔀",
+    "reading_synonyms": [
+      {
+        "word": "all-around",
+        "chinese": "全能的"
+      }
+    ]
   },
   {
     "id": "add",
@@ -9197,7 +9617,13 @@
     "category": "I",
     "chinese": "净化",
     "topic": "科学",
-    "emoji": "💧"
+    "emoji": "💧",
+    "reading_synonyms": [
+      {
+        "word": "clean",
+        "chinese": "清洁"
+      }
+    ]
   },
   {
     "id": "distil",
@@ -9257,7 +9683,13 @@
     "category": "I",
     "chinese": "阶段，时期",
     "topic": "描述",
-    "emoji": "📅"
+    "emoji": "📅",
+    "reading_synonyms": [
+      {
+        "word": "process",
+        "chinese": "过程"
+      }
+    ]
   },
   {
     "id": "operate",
@@ -9447,7 +9879,17 @@
     "category": "I",
     "chinese": "惯例；大会",
     "topic": "文化",
-    "emoji": "📋"
+    "emoji": "📋",
+    "reading_synonyms": [
+      {
+        "word": "method",
+        "chinese": "方法"
+      },
+      {
+        "word": "tradition",
+        "chinese": "传统"
+      }
+    ]
   },
   {
     "id": "custom",
@@ -9487,7 +9929,13 @@
     "category": "I",
     "chinese": "伦理的，道德的",
     "topic": "描述",
-    "emoji": "⚖️"
+    "emoji": "⚖️",
+    "reading_synonyms": [
+      {
+        "word": "moral",
+        "chinese": "道德的"
+      }
+    ]
   },
   {
     "id": "moral",
@@ -9537,7 +9985,13 @@
     "category": "I",
     "chinese": "本土的；本地人",
     "topic": "描述",
-    "emoji": "🏡"
+    "emoji": "🏡",
+    "reading_synonyms": [
+      {
+        "word": "original",
+        "chinese": "原始的"
+      }
+    ]
   },
   {
     "id": "local",
@@ -10137,7 +10591,13 @@
     "category": "I",
     "chinese": "逆境",
     "topic": "描述",
-    "emoji": "🌩️"
+    "emoji": "🌩️",
+    "reading_synonyms": [
+      {
+        "word": "trouble",
+        "chinese": "麻烦"
+      }
+    ]
   },
   {
     "id": "language",
@@ -10757,7 +11217,13 @@
     "category": "I",
     "chinese": "意见，评论",
     "topic": "描述",
-    "emoji": "💬"
+    "emoji": "💬",
+    "reading_synonyms": [
+      {
+        "word": "remark",
+        "chinese": "评论"
+      }
+    ]
   },
   {
     "id": "negotiation",
@@ -11007,7 +11473,13 @@
     "category": "I",
     "chinese": "休闲，娱乐",
     "topic": "生活",
-    "emoji": "⚽"
+    "emoji": "⚽",
+    "reading_synonyms": [
+      {
+        "word": "entertainment",
+        "chinese": "娱乐"
+      }
+    ]
   },
   {
     "id": "amuse",
@@ -11087,7 +11559,13 @@
     "category": "I",
     "chinese": "排练",
     "topic": "艺术",
-    "emoji": "🎭"
+    "emoji": "🎭",
+    "reading_synonyms": [
+      {
+        "word": "preparation",
+        "chinese": "准备"
+      }
+    ]
   },
   {
     "id": "perform",
@@ -11107,7 +11585,17 @@
     "category": "I",
     "chinese": "模仿，效仿",
     "topic": "描述",
-    "emoji": "🎭"
+    "emoji": "🎭",
+    "reading_synonyms": [
+      {
+        "word": "mimic",
+        "chinese": "模仿"
+      },
+      {
+        "word": "copy",
+        "chinese": "复制"
+      }
+    ]
   },
   {
     "id": "mimic",
@@ -12247,7 +12735,13 @@
     "category": "I",
     "chinese": "大步走，阔步行走",
     "topic": "描述",
-    "emoji": "🚶"
+    "emoji": "🚶",
+    "reading_synonyms": [
+      {
+        "word": "progress",
+        "chinese": "进展"
+      }
+    ]
   },
   {
     "id": "wander",
@@ -12267,7 +12761,13 @@
     "category": "I",
     "chinese": "肢；树枝",
     "topic": "生物",
-    "emoji": "🦵"
+    "emoji": "🦵",
+    "reading_synonyms": [
+      {
+        "word": "arm or leg",
+        "chinese": "手臂或腿"
+      }
+    ]
   },
   {
     "id": "pull",
@@ -13047,7 +13547,13 @@
     "category": "I",
     "chinese": "标签，标贴",
     "topic": "描述",
-    "emoji": "🏷️"
+    "emoji": "🏷️",
+    "reading_synonyms": [
+      {
+        "word": "display",
+        "chinese": "展示"
+      }
+    ]
   },
   {
     "id": "badge",
@@ -13697,7 +14203,13 @@
     "category": "I",
     "chinese": "易碎的，脆弱的",
     "topic": "描述",
-    "emoji": "🥚"
+    "emoji": "🥚",
+    "reading_synonyms": [
+      {
+        "word": "vulnerable",
+        "chinese": "脆弱的"
+      }
+    ]
   },
   {
     "id": "miniature",
@@ -13717,7 +14229,13 @@
     "category": "I",
     "chinese": "耐用的，持久的",
     "topic": "描述",
-    "emoji": "💪"
+    "emoji": "💪",
+    "reading_synonyms": [
+      {
+        "word": "lasting",
+        "chinese": "持久的"
+      }
+    ]
   },
   {
     "id": "republic",
@@ -13797,7 +14315,13 @@
     "category": "I",
     "chinese": "公共的",
     "topic": "描述",
-    "emoji": "🏘️"
+    "emoji": "🏘️",
+    "reading_synonyms": [
+      {
+        "word": "public",
+        "chinese": "公共的"
+      }
+    ]
   },
   {
     "id": "regime",
@@ -13837,7 +14361,13 @@
     "category": "I",
     "chinese": "权力；管理机构",
     "topic": "政治",
-    "emoji": "🏛️"
+    "emoji": "🏛️",
+    "reading_synonyms": [
+      {
+        "word": "government",
+        "chinese": "政府"
+      }
+    ]
   },
   {
     "id": "authorise",
@@ -13917,7 +14447,13 @@
     "category": "I",
     "chinese": "民主的",
     "topic": "政治",
-    "emoji": "🗳️"
+    "emoji": "🗳️",
+    "reading_synonyms": [
+      {
+        "word": "republic",
+        "chinese": "共和的"
+      }
+    ]
   },
   {
     "id": "bureaucracy",
@@ -14007,7 +14543,13 @@
     "category": "I",
     "chinese": "保守的；保守党党员",
     "topic": "政治",
-    "emoji": "🏛️"
+    "emoji": "🏛️",
+    "reading_synonyms": [
+      {
+        "word": "traditional",
+        "chinese": "传统的"
+      }
+    ]
   },
   {
     "id": "meltdown",
@@ -14347,7 +14889,13 @@
     "category": "I",
     "chinese": "协会，团体；关联",
     "topic": "描述",
-    "emoji": "🤝"
+    "emoji": "🤝",
+    "reading_synonyms": [
+      {
+        "word": "union",
+        "chinese": "联合"
+      }
+    ]
   },
   {
     "id": "associate",
@@ -14677,7 +15225,13 @@
     "category": "I",
     "chinese": "人口统计的",
     "topic": "描述",
-    "emoji": "📊"
+    "emoji": "📊",
+    "reading_synonyms": [
+      {
+        "word": "population statistic",
+        "chinese": "人口统计"
+      }
+    ]
   },
   {
     "id": "demography",
@@ -14697,7 +15251,13 @@
     "category": "I",
     "chinese": "普通的，平常的",
     "topic": "描述",
-    "emoji": "⭐"
+    "emoji": "⭐",
+    "reading_synonyms": [
+      {
+        "word": "common",
+        "chinese": "普通的"
+      }
+    ]
   },
   {
     "id": "resident",
@@ -14907,7 +15467,13 @@
     "category": "I",
     "chinese": "康乐，安宁",
     "topic": "描述",
-    "emoji": "😊"
+    "emoji": "😊",
+    "reading_synonyms": [
+      {
+        "word": "health",
+        "chinese": "健康"
+      }
+    ]
   },
   {
     "id": "harmony",
@@ -15137,7 +15703,13 @@
     "category": "I",
     "chinese": "救援，援助",
     "topic": "描述",
-    "emoji": "🆘"
+    "emoji": "🆘",
+    "reading_synonyms": [
+      {
+        "word": "help",
+        "chinese": "帮助"
+      }
+    ]
   },
   {
     "id": "admit",
@@ -15757,7 +16329,13 @@
     "category": "I",
     "chinese": "萧条期；沮丧",
     "topic": "商业",
-    "emoji": "📉"
+    "emoji": "📉",
+    "reading_synonyms": [
+      {
+        "word": "frustration",
+        "chinese": "挫折感"
+      }
+    ]
   },
   {
     "id": "crisis",
@@ -15767,7 +16345,13 @@
     "category": "I",
     "chinese": "危机",
     "topic": "描述",
-    "emoji": "🚨"
+    "emoji": "🚨",
+    "reading_synonyms": [
+      {
+        "word": "risk",
+        "chinese": "风险"
+      }
+    ]
   },
   {
     "id": "security",
@@ -15997,7 +16581,13 @@
     "category": "I",
     "chinese": "缺乏，不足",
     "topic": "描述",
-    "emoji": "❌"
+    "emoji": "❌",
+    "reading_synonyms": [
+      {
+        "word": "shortage",
+        "chinese": "短缺"
+      }
+    ]
   },
   {
     "id": "company",
@@ -16047,7 +16637,13 @@
     "category": "I",
     "chinese": "企业家",
     "topic": "职业",
-    "emoji": "🧑‍💼"
+    "emoji": "🧑‍💼",
+    "reading_synonyms": [
+      {
+        "word": "boss",
+        "chinese": "老板"
+      }
+    ]
   },
   {
     "id": "agent",
@@ -16157,7 +16753,13 @@
     "category": "I",
     "chinese": "保证，担保",
     "topic": "描述",
-    "emoji": "✅"
+    "emoji": "✅",
+    "reading_synonyms": [
+      {
+        "word": "assure",
+        "chinese": "保证"
+      }
+    ]
   },
   {
     "id": "reliable",
@@ -16417,7 +17019,13 @@
     "category": "I",
     "chinese": "地产，遗产",
     "topic": "商业",
-    "emoji": "🏠"
+    "emoji": "🏠",
+    "reading_synonyms": [
+      {
+        "word": "property",
+        "chinese": "地产"
+      }
+    ]
   },
   {
     "id": "possess",
@@ -16477,7 +17085,13 @@
     "category": "I",
     "chinese": "很值钱的，贵重的",
     "topic": "描述",
-    "emoji": "💎"
+    "emoji": "💎",
+    "reading_synonyms": [
+      {
+        "word": "benefit",
+        "chinese": "益处"
+      }
+    ]
   },
   {
     "id": "incentive",
@@ -16487,7 +17101,17 @@
     "category": "I",
     "chinese": "激励，刺激",
     "topic": "描述",
-    "emoji": "🎯"
+    "emoji": "🎯",
+    "reading_synonyms": [
+      {
+        "word": "motive",
+        "chinese": "动机"
+      },
+      {
+        "word": "stimulus",
+        "chinese": "刺激"
+      }
+    ]
   },
   {
     "id": "accelerate",
@@ -16497,7 +17121,13 @@
     "category": "I",
     "chinese": "加速",
     "topic": "描述",
-    "emoji": "🚀"
+    "emoji": "🚀",
+    "reading_synonyms": [
+      {
+        "word": "speed up",
+        "chinese": "加速"
+      }
+    ]
   },
   {
     "id": "prompt",
@@ -16857,7 +17487,13 @@
     "category": "I",
     "chinese": "可持续的",
     "topic": "描述",
-    "emoji": "♻️"
+    "emoji": "♻️",
+    "reading_synonyms": [
+      {
+        "word": "long-term",
+        "chinese": "长期的"
+      }
+    ]
   },
   {
     "id": "improvement",
@@ -16987,7 +17623,13 @@
     "category": "I",
     "chinese": "行为准则，规范",
     "topic": "描述",
-    "emoji": "📏"
+    "emoji": "📏",
+    "reading_synonyms": [
+      {
+        "word": "regulation",
+        "chinese": "规定"
+      }
+    ]
   },
   {
     "id": "benchmark",
@@ -17007,7 +17649,13 @@
     "category": "I",
     "chinese": "标准，准则",
     "topic": "描述",
-    "emoji": "📏"
+    "emoji": "📏",
+    "reading_synonyms": [
+      {
+        "word": "standard",
+        "chinese": "标准"
+      }
+    ]
   },
   {
     "id": "standard",
@@ -17047,7 +17695,13 @@
     "category": "I",
     "chinese": "正式的，官方的",
     "topic": "政治",
-    "emoji": "📜"
+    "emoji": "📜",
+    "reading_synonyms": [
+      {
+        "word": "authority",
+        "chinese": "权威"
+      }
+    ]
   },
   {
     "id": "default",
@@ -17067,7 +17721,13 @@
     "category": "I",
     "chinese": "拒绝接受",
     "topic": "描述",
-    "emoji": "❌"
+    "emoji": "❌",
+    "reading_synonyms": [
+      {
+        "word": "exclude",
+        "chinese": "排除"
+      }
+    ]
   },
   {
     "id": "constraint",
@@ -17107,7 +17767,13 @@
     "category": "I",
     "chinese": "义务，责任",
     "topic": "描述",
-    "emoji": "📋"
+    "emoji": "📋",
+    "reading_synonyms": [
+      {
+        "word": "responsibility",
+        "chinese": "责任"
+      }
+    ]
   },
   {
     "id": "court",
@@ -17387,7 +18053,17 @@
     "category": "I",
     "chinese": "目击者；目击",
     "topic": "法律",
-    "emoji": "👁️"
+    "emoji": "👁️",
+    "reading_synonyms": [
+      {
+        "word": "view",
+        "chinese": "看"
+      },
+      {
+        "word": "see",
+        "chinese": "看见"
+      }
+    ]
   },
   {
     "id": "reasonable",
@@ -17727,7 +18403,13 @@
     "category": "I",
     "chinese": "屈服，屈从",
     "topic": "描述",
-    "emoji": "🏳️"
+    "emoji": "🏳️",
+    "reading_synonyms": [
+      {
+        "word": "yield",
+        "chinese": "屈服"
+      }
+    ]
   },
   {
     "id": "penalty",
@@ -17967,7 +18649,13 @@
     "category": "I",
     "chinese": "斗争，冲突",
     "topic": "描述",
-    "emoji": "⚔️"
+    "emoji": "⚔️",
+    "reading_synonyms": [
+      {
+        "word": "unharmonious",
+        "chinese": "不和谐的"
+      }
+    ]
   },
   {
     "id": "raid",
@@ -18417,7 +19105,13 @@
     "category": "I",
     "chinese": "饥荒",
     "topic": "描述",
-    "emoji": "🍽️"
+    "emoji": "🍽️",
+    "reading_synonyms": [
+      {
+        "word": "hunger",
+        "chinese": "饥饿"
+      }
+    ]
   },
   {
     "id": "starve",
@@ -18577,7 +19271,17 @@
     "category": "I",
     "chinese": "停止，停住",
     "topic": "描述",
-    "emoji": "🛑"
+    "emoji": "🛑",
+    "reading_synonyms": [
+      {
+        "word": "stop",
+        "chinese": "停止"
+      },
+      {
+        "word": "quit",
+        "chinese": "停止"
+      }
+    ]
   },
   {
     "id": "cease",
@@ -18627,7 +19331,13 @@
     "category": "I",
     "chinese": "禁止",
     "topic": "法律",
-    "emoji": "🚫"
+    "emoji": "🚫",
+    "reading_synonyms": [
+      {
+        "word": "not allowed",
+        "chinese": "不允许"
+      }
+    ]
   },
   {
     "id": "prevent",
@@ -18697,7 +19407,13 @@
     "category": "I",
     "chinese": "证据，根据",
     "topic": "法律",
-    "emoji": "🔍"
+    "emoji": "🔍",
+    "reading_synonyms": [
+      {
+        "word": "proof",
+        "chinese": "证据"
+      }
+    ]
   },
   {
     "id": "proof",
@@ -18777,7 +19493,13 @@
     "category": "I",
     "chinese": "紧张状态",
     "topic": "描述",
-    "emoji": "😬"
+    "emoji": "😬",
+    "reading_synonyms": [
+      {
+        "word": "upset",
+        "chinese": "不安"
+      }
+    ]
   },
   {
     "id": "turbulent",
@@ -18847,7 +19569,13 @@
     "category": "I",
     "chinese": "分界线，边界",
     "topic": "描述",
-    "emoji": "🗺️"
+    "emoji": "🗺️",
+    "reading_synonyms": [
+      {
+        "word": "barrier",
+        "chinese": "屏障"
+      }
+    ]
   },
   {
     "id": "rein",
@@ -19007,7 +19735,21 @@
     "category": "I",
     "chinese": "削弱，妨碍",
     "topic": "描述",
-    "emoji": "📉"
+    "emoji": "📉",
+    "reading_synonyms": [
+      {
+        "word": "damage",
+        "chinese": "损害"
+      },
+      {
+        "word": "diminish",
+        "chinese": "减少"
+      },
+      {
+        "word": "decrease",
+        "chinese": "减少"
+      }
+    ]
   },
   {
     "id": "mitigate",
