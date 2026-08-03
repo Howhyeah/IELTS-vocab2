@@ -1317,5 +1317,631 @@
         "chinese": "优先的"
       }
     ]
+  },
+  {
+    "id": "read_settle",
+    "rank": 74,
+    "tier": 2,
+    "word": "settle",
+    "phonetic": "/ˈsetl/",
+    "pos": "v.",
+    "chinese": "解决；定居，稳定",
+    "core_state": "一个原本悬而未决或动荡不安的状态，经过处理，最终固定下来，不再变动。",
+    "underlying_relation": "悬而未决/动荡状态 → 经过处理 → 固定下来不再变动(解决/定居)。",
+    "synonyms": [
+      {
+        "word": "fix",
+        "chinese": "修复"
+      },
+      {
+        "word": "figure out",
+        "chinese": "解决"
+      }
+    ]
+  },
+  {
+    "id": "read_sophisticate",
+    "rank": 75,
+    "tier": 2,
+    "word": "sophisticate",
+    "phonetic": "/səˈfɪstɪkeɪt/",
+    "pos": "v.",
+    "chinese": "使复杂",
+    "core_state": "一个原本简单朴素的东西，被加入更多层次和细节，变得精细而难以简单理解。",
+    "underlying_relation": "简单朴素的东西 → 加入更多层次细节 → 变得精细复杂。",
+    "synonyms": [
+      {
+        "word": "complicate",
+        "chinese": "使复杂"
+      }
+    ]
+  },
+  {
+    "id": "read_specific",
+    "rank": 76,
+    "tier": 2,
+    "word": "specific",
+    "phonetic": "/spəˈsɪfɪk/",
+    "pos": "adj.",
+    "chinese": "明确的；特殊的",
+    "core_state": "一件事情被限定在一个明确、具体的范围内，不是笼统模糊的泛指。",
+    "underlying_relation": "笼统范围 → 被限定明确具体 → 不再模糊泛指(明确特定)。",
+    "synonyms": [
+      {
+        "word": "detailed",
+        "chinese": "详细的"
+      },
+      {
+        "word": "particular",
+        "chinese": "特定的"
+      }
+    ]
+  },
+  {
+    "id": "read_survive",
+    "rank": 77,
+    "tier": 2,
+    "word": "survive",
+    "phonetic": "/səˈvaɪv/",
+    "pos": "v.",
+    "chinese": "存活，幸存",
+    "core_state": "在经历了可能致命的危险或困境之后，依然保持活着的状态，没有被摧毁。",
+    "underlying_relation": "致命危险/困境 → 经历后依然活着 → 没有被摧毁(存活)。",
+    "synonyms": [
+      {
+        "word": "remain",
+        "chinese": "留存"
+      }
+    ]
+  },
+  {
+    "id": "read_swift",
+    "rank": 78,
+    "tier": 2,
+    "word": "swift",
+    "phonetic": "/swɪft/",
+    "pos": "adj.",
+    "chinese": "迅速的，敏捷的，立刻的",
+    "core_state": "一个动作或反应发生的速度非常快，几乎不耽误任何时间。",
+    "underlying_relation": "动作/反应 → 发生速度非常快 → 几乎不耽误时间(迅速)。",
+    "synonyms": [
+      {
+        "word": "quick",
+        "chinese": "快的"
+      },
+      {
+        "word": "rapid",
+        "chinese": "快速的"
+      }
+    ]
+  },
+  {
+    "id": "read_unexpectedly",
+    "rank": 79,
+    "tier": 2,
+    "word": "unexpectedly",
+    "phonetic": "/ˌʌnɪkˈspektɪdli/",
+    "pos": "adv.",
+    "chinese": "出乎意料地",
+    "core_state": "一件事情的发生，跟原本预料的完全不一样，让人感到意外。",
+    "underlying_relation": "原本预料 ≠ 实际发生 → 让人感到意外(出乎意料)。",
+    "synonyms": [
+      {
+        "word": "surprising",
+        "chinese": "令人惊讶的"
+      }
+    ]
+  },
+  {
+    "id": "read_attempt",
+    "rank": 81,
+    "tier": 2,
+    "word": "attempt",
+    "phonetic": "/əˈtempt/",
+    "pos": "n.",
+    "chinese": "试图，尝试",
+    "core_state": "主动付出努力去做一件不确定能不能成功的事，重点在「去做」这个行动本身。",
+    "underlying_relation": "不确定能否成功的事 → 主动付出努力去做 → 构成尝试(不保证结果)。",
+    "synonyms": [
+      {
+        "word": "try",
+        "chinese": "尝试"
+      },
+      {
+        "word": "test",
+        "chinese": "测试"
+      }
+    ]
+  },
+  {
+    "id": "read_mortality",
+    "rank": 87,
+    "tier": 2,
+    "word": "mortality",
+    "phonetic": "/mɔːˈtæləti/",
+    "pos": "n.",
+    "chinese": "死亡率",
+    "core_state": "一个群体中，在特定条件下会死亡的比例或可能性。",
+    "underlying_relation": "群体 → 特定条件下 → 死亡的比例(死亡率)。",
+    "synonyms": [
+      {
+        "word": "death",
+        "chinese": "死亡"
+      }
+    ]
+  },
+  {
+    "id": "read_peripheral",
+    "rank": 88,
+    "tier": 2,
+    "word": "peripheral",
+    "phonetic": "/pəˈrɪfərəl/",
+    "pos": "adj.",
+    "chinese": "外围的，次要的",
+    "core_state": "一个东西处在整体的边缘位置，不是最核心、最重要的部分。",
+    "underlying_relation": "整体 → 处在边缘位置 → 非核心重要部分(外围次要)。",
+    "synonyms": [
+      {
+        "word": "unimportant",
+        "chinese": "不重要的"
+      },
+      {
+        "word": "minor",
+        "chinese": "次要的"
+      }
+    ]
+  },
+  {
+    "id": "read_vicinity",
+    "rank": 89,
+    "tier": 2,
+    "word": "vicinity",
+    "phonetic": "/vəˈsɪnəti/",
+    "pos": "n.",
+    "chinese": "邻近，附近",
+    "core_state": "一个地点跟另一个参照点之间的距离很近，属于周边的范围。",
+    "underlying_relation": "地点 → 跟参照点距离很近 → 属于周边范围(邻近)。",
+    "synonyms": [
+      {
+        "word": "neighbourhood",
+        "chinese": "附近"
+      },
+      {
+        "word": "nearby",
+        "chinese": "附近的"
+      }
+    ]
+  },
+  {
+    "id": "read_threaten",
+    "rank": 90,
+    "tier": 2,
+    "word": "threaten",
+    "phonetic": "/ˈθretn/",
+    "pos": "v.",
+    "chinese": "威胁，危及",
+    "core_state": "一个潜在的危险因素逼近某个对象，让它面临可能受到伤害的风险。",
+    "underlying_relation": "潜在危险因素 → 逼近对象 → 面临受伤害的风险(威胁)。",
+    "synonyms": [
+      {
+        "word": "endanger",
+        "chinese": "危及"
+      },
+      {
+        "word": "jeopardize",
+        "chinese": "危及"
+      },
+      {
+        "word": "risk",
+        "chinese": "冒险"
+      },
+      {
+        "word": "hazard",
+        "chinese": "危害"
+      }
+    ]
+  },
+  {
+    "id": "read_practice",
+    "rank": 91,
+    "tier": 2,
+    "word": "practice",
+    "phonetic": "/ˈpræktɪs/",
+    "pos": "n.",
+    "chinese": "实行；练习",
+    "core_state": "把一个方法或技能反复付诸行动，通过实际操作来掌握或落实它。",
+    "underlying_relation": "方法/技能 → 反复付诸行动 → 通过实际操作掌握落实(实行/练习)。",
+    "synonyms": [
+      {
+        "word": "method",
+        "chinese": "方法"
+      },
+      {
+        "word": "exercise",
+        "chinese": "练习"
+      }
+    ]
+  },
+  {
+    "id": "read_be_subject_to",
+    "rank": 93,
+    "tier": 2,
+    "word": "be subject to",
+    "phonetic": "/bi ˈsʌbdʒɪkt tuː/",
+    "pos": "phr.",
+    "chinese": "受……支配",
+    "core_state": "一方的状态或结果，必须服从另一方的规则或力量，自己无法完全自主决定。",
+    "underlying_relation": "一方状态/结果 → 必须服从另一方规则/力量 → 无法完全自主(受支配)。",
+    "synonyms": [
+      {
+        "word": "face",
+        "chinese": "面对"
+      }
+    ]
+  },
+  {
+    "id": "read_be_liable_to",
+    "rank": 94,
+    "tier": 2,
+    "word": "be liable to",
+    "phonetic": "/bi ˈlaɪəbl tuː/",
+    "pos": "phr.",
+    "chinese": "易于……",
+    "core_state": "一个对象天生具备某种倾向，很容易在特定条件下出现某种（通常不好的）结果。",
+    "underlying_relation": "对象天生倾向 → 特定条件下 → 容易出现某种结果(易于)。",
+    "synonyms": [
+      {
+        "word": "potential",
+        "chinese": "潜在的"
+      }
+    ]
+  },
+  {
+    "id": "read_innate",
+    "rank": 95,
+    "tier": 2,
+    "word": "innate",
+    "phonetic": "/ɪˈneɪt/",
+    "pos": "adj.",
+    "chinese": "天生的；内在的，直觉的",
+    "core_state": "一种能力或特质从出生起就已经具备，不是后天学习或训练得来的。",
+    "underlying_relation": "能力/特质 → 从出生起具备(非后天习得) → 天生内在的。",
+    "synonyms": [
+      {
+        "word": "built-in",
+        "chinese": "内置的"
+      },
+      {
+        "word": "inborn",
+        "chinese": "天生的"
+      }
+    ]
+  },
+  {
+    "id": "read_therapy",
+    "rank": 97,
+    "tier": 2,
+    "word": "therapy",
+    "phonetic": "/ˈθerəpi/",
+    "pos": "n.",
+    "chinese": "治疗，理疗",
+    "core_state": "针对身体或心理上的问题，通过持续的专业手段进行调理和改善。",
+    "underlying_relation": "身体/心理问题 → 持续专业手段调理 → 得到改善(治疗)。",
+    "synonyms": [
+      {
+        "word": "treatment",
+        "chinese": "治疗"
+      }
+    ]
+  },
+  {
+    "id": "read_original",
+    "rank": 98,
+    "tier": 2,
+    "word": "original",
+    "phonetic": "/əˈrɪdʒənl/",
+    "pos": "adj.",
+    "chinese": "原始的，最初的",
+    "core_state": "一个事物是最开始、最早存在的那个版本，其他版本都是在它之后才出现的。",
+    "underlying_relation": "事物 → 最开始最早存在的版本 → 其他版本在其后出现(原始)。",
+    "synonyms": [
+      {
+        "word": "initial",
+        "chinese": "最初的"
+      },
+      {
+        "word": "first",
+        "chinese": "第一个"
+      }
+    ]
+  },
+  {
+    "id": "read_confidential",
+    "rank": 99,
+    "tier": 2,
+    "word": "confidential",
+    "phonetic": "/ˌkɒnfɪˈdenʃl/",
+    "pos": "adj.",
+    "chinese": "机密的，秘密的",
+    "core_state": "一份信息被限定只能让特定的人知道，不能公开传播给外界。",
+    "underlying_relation": "信息 → 限定只能特定人知道 → 不能公开传播(机密)。",
+    "synonyms": [
+      {
+        "word": "undisclosed",
+        "chinese": "未公开的"
+      },
+      {
+        "word": "secret",
+        "chinese": "秘密的"
+      },
+      {
+        "word": "hidden",
+        "chinese": "隐藏的"
+      }
+    ]
+  },
+  {
+    "id": "read_cognitive",
+    "rank": 100,
+    "tier": 2,
+    "word": "cognitive",
+    "phonetic": "/ˈkɒɡnətɪv/",
+    "pos": "adj.",
+    "chinese": "认知的",
+    "core_state": "跟大脑处理信息、理解和思考这个过程直接相关。",
+    "underlying_relation": "过程 → 大脑处理信息/理解/思考 → 属于认知层面。",
+    "synonyms": [
+      {
+        "word": "mental",
+        "chinese": "心理的"
+      }
+    ]
+  },
+  {
+    "id": "read_comply_with",
+    "rank": 101,
+    "tier": 2,
+    "word": "comply with",
+    "phonetic": "/kəmˈplaɪ wɪð/",
+    "pos": "phr.",
+    "chinese": "照做，遵守",
+    "core_state": "按照对方提出的规则或要求，主动配合去做，不违背也不反抗。",
+    "underlying_relation": "对方提出的规则/要求 → 主动配合去做 → 不违背反抗(遵守)。",
+    "synonyms": [
+      {
+        "word": "obey",
+        "chinese": "服从"
+      }
+    ]
+  },
+  {
+    "id": "read_superior",
+    "rank": 103,
+    "tier": 2,
+    "word": "superior",
+    "phonetic": "/suːˈpɪəriə(r)/",
+    "pos": "adj.",
+    "chinese": "上级的；优秀的",
+    "core_state": "一方在等级、地位或质量上明显高于另一方，处于更高的位置。",
+    "underlying_relation": "一方 → 等级/地位/质量明显更高 → 处于更高位置(优越)。",
+    "synonyms": [
+      {
+        "word": "higher",
+        "chinese": "更高的"
+      },
+      {
+        "word": "upper",
+        "chinese": "上面的"
+      }
+    ]
+  },
+  {
+    "id": "read_cooperation",
+    "rank": 104,
+    "tier": 2,
+    "word": "co-operation",
+    "phonetic": "/kəʊˌɒpəˈreɪʃn/",
+    "pos": "n.",
+    "chinese": "合作，协作",
+    "core_state": "两方或多方为了同一个目标，共同投入力量一起完成，而不是各自单干。",
+    "underlying_relation": "多方 → 为同一目标共同投入力量 → 一起完成(合作)。",
+    "synonyms": [
+      {
+        "word": "support",
+        "chinese": "支持"
+      },
+      {
+        "word": "work together",
+        "chinese": "共同工作"
+      }
+    ]
+  },
+  {
+    "id": "read_coordinate",
+    "rank": 105,
+    "tier": 2,
+    "word": "co-ordinate",
+    "phonetic": "/kəʊˈɔːdɪneɪt/",
+    "pos": "v.",
+    "chinese": "使……协调",
+    "core_state": "把多个原本各自独立运作的部分，安排调整到能够配合一致运转的状态。",
+    "underlying_relation": "多个独立部分 → 安排调整配合 → 一致运转(协调)。",
+    "synonyms": [
+      {
+        "word": "organize",
+        "chinese": "组织"
+      },
+      {
+        "word": "harmonize",
+        "chinese": "协调"
+      }
+    ]
+  },
+  {
+    "id": "read_cue",
+    "rank": 107,
+    "tier": 2,
+    "word": "cue",
+    "phonetic": "/kjuː/",
+    "pos": "n.",
+    "chinese": "线索",
+    "core_state": "一个小小的信号或提示，暗示接下来该发生什么或该怎么做。",
+    "underlying_relation": "小信号/提示 → 暗示接下来该发生什么 → 起到提示作用(线索)。",
+    "synonyms": [
+      {
+        "word": "hint",
+        "chinese": "暗示"
+      },
+      {
+        "word": "clue",
+        "chinese": "线索"
+      }
+    ]
+  },
+  {
+    "id": "read_signal",
+    "rank": 108,
+    "tier": 2,
+    "word": "signal",
+    "phonetic": "/ˈsɪɡnəl/",
+    "pos": "n.",
+    "chinese": "信号",
+    "core_state": "一个用来传递特定含义的标记或动作，让接收方明白该做出什么反应。",
+    "underlying_relation": "标记/动作 → 传递特定含义 → 接收方明白该反应(信号)。",
+    "synonyms": [
+      {
+        "word": "symbol",
+        "chinese": "象征"
+      },
+      {
+        "word": "mark",
+        "chinese": "标记"
+      },
+      {
+        "word": "sign",
+        "chinese": "迹象"
+      }
+    ]
+  },
+  {
+    "id": "read_abandon",
+    "rank": 109,
+    "tier": 2,
+    "word": "abandon",
+    "phonetic": "/əˈbændən/",
+    "pos": "v.",
+    "chinese": "放弃，遗弃",
+    "core_state": "一个原本被持有或照顾的东西，被主动彻底地丢下不再管，不留后路。",
+    "underlying_relation": "原本持有/照顾的东西 → 主动彻底丢下不再管 → 不留后路(放弃)。",
+    "synonyms": [
+      {
+        "word": "quit",
+        "chinese": "放弃"
+      },
+      {
+        "word": "give up",
+        "chinese": "放弃"
+      },
+      {
+        "word": "forsake",
+        "chinese": "抛弃"
+      },
+      {
+        "word": "derelict",
+        "chinese": "被遗弃的"
+      }
+    ]
+  },
+  {
+    "id": "read_retain",
+    "rank": 112,
+    "tier": 2,
+    "word": "retain",
+    "phonetic": "/rɪˈteɪn/",
+    "pos": "v.",
+    "chinese": "记住；保持",
+    "core_state": "一个东西原本已经拥有，持续把它留在自己这里，不让它流失或消失。",
+    "underlying_relation": "已拥有的东西 → 持续留在自己这里 → 不让流失消失(保持)。",
+    "synonyms": [
+      {
+        "word": "maintain",
+        "chinese": "维持"
+      }
+    ]
+  },
+  {
+    "id": "read_vanish",
+    "rank": 113,
+    "tier": 2,
+    "word": "vanish",
+    "phonetic": "/ˈvænɪʃ/",
+    "pos": "v.",
+    "chinese": "消失，绝迹",
+    "core_state": "一个东西原本清晰可见地存在，突然彻底不见了，找不到踪迹。",
+    "underlying_relation": "清晰存在的东西 → 突然彻底不见 → 找不到踪迹(消失)。",
+    "synonyms": [
+      {
+        "word": "disappear",
+        "chinese": "消失"
+      }
+    ]
+  },
+  {
+    "id": "read_delivery",
+    "rank": 114,
+    "tier": 2,
+    "word": "delivery",
+    "phonetic": "/dɪˈlɪvəri/",
+    "pos": "n.",
+    "chinese": "递送",
+    "core_state": "一个东西从起点被运送出发，最终交到目标接收方的手里。",
+    "underlying_relation": "东西(起点) → 运送出发 → 交到接收方手里(终点)。",
+    "synonyms": [
+      {
+        "word": "send",
+        "chinese": "发送"
+      }
+    ]
+  },
+  {
+    "id": "read_induce",
+    "rank": 116,
+    "tier": 2,
+    "word": "induce",
+    "phonetic": "/ɪnˈdjuːs/",
+    "pos": "v.",
+    "chinese": "引起，引诱",
+    "core_state": "一个外部因素主动施加影响，促使某个原本不会发生的结果被引发出来。",
+    "underlying_relation": "外部因素 → 主动施加影响 → 促使结果被引发(引起)。",
+    "synonyms": [
+      {
+        "word": "cause",
+        "chinese": "导致"
+      },
+      {
+        "word": "lead to",
+        "chinese": "导致"
+      }
+    ]
+  },
+  {
+    "id": "read_integrate",
+    "rank": 118,
+    "tier": 2,
+    "word": "integrate",
+    "phonetic": "/ˈɪntɪɡreɪt/",
+    "pos": "v.",
+    "chinese": "使……成整体",
+    "core_state": "把原本分散独立的多个部分，融合组织成一个统一运作的整体。",
+    "underlying_relation": "分散独立的部分 → 融合组织 → 形成统一整体(整合)。",
+    "synonyms": [
+      {
+        "word": "combine",
+        "chinese": "结合"
+      },
+      {
+        "word": "whole",
+        "chinese": "整体"
+      }
+    ]
   }
-]
