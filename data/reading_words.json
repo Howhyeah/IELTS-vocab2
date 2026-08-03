@@ -1,0 +1,618 @@
+[
+  {
+    "id": "read_resemble",
+    "rank": 1,
+    "tier": 1,
+    "word": "resemble",
+    "phonetic": "/rɪˈzembl/",
+    "pos": "v.",
+    "chinese": "像，与……相似",
+    "core_state": "两个原本独立的事物，在外观或特征上高度接近，让人一看就联想到彼此，但并不是同一个东西。",
+    "underlying_relation": "事物A ↔ 事物B → 外观/特征高度接近 → 让人联想到彼此(非同一物)。",
+    "synonyms": [
+      {
+        "word": "like",
+        "chinese": "像，喜欢"
+      },
+      {
+        "word": "look like",
+        "chinese": "看起来像"
+      },
+      {
+        "word": "be similar to",
+        "chinese": "与…相似"
+      }
+    ]
+  },
+  {
+    "id": "read_recognize",
+    "rank": 2,
+    "tier": 1,
+    "word": "recognize",
+    "phonetic": "/ˈrekəɡnaɪz/",
+    "pos": "v.",
+    "chinese": "认出，识别；承认",
+    "core_state": "眼前的事物跟大脑里已经存好的记忆或标准对上号，因此确认「这个我见过」或者「这确实是真的」。",
+    "underlying_relation": "眼前事物 → 跟记忆/标准对上号 → 确认识别或承认。",
+    "synonyms": [
+      {
+        "word": "perceive",
+        "chinese": "察觉，感知"
+      },
+      {
+        "word": "acknowledge",
+        "chinese": "承认"
+      },
+      {
+        "word": "realize",
+        "chinese": "意识到"
+      },
+      {
+        "word": "appreciate",
+        "chinese": "理解，体会"
+      },
+      {
+        "word": "admit",
+        "chinese": "承认"
+      },
+      {
+        "word": "identify",
+        "chinese": "识别，辨认"
+      },
+      {
+        "word": "comprehend",
+        "chinese": "理解"
+      },
+      {
+        "word": "understand",
+        "chinese": "理解"
+      },
+      {
+        "word": "know",
+        "chinese": "知道"
+      }
+    ]
+  },
+  {
+    "id": "read_adjust",
+    "rank": 3,
+    "tier": 1,
+    "word": "adjust",
+    "phonetic": "/əˈdʒʌst/",
+    "pos": "v.",
+    "chinese": "调整，使适合",
+    "core_state": "一个东西原有的设定不太合适，被小范围地修改，让它更贴合新的要求或环境。",
+    "underlying_relation": "原有设定(不太合适) → 小范围修改 → 更贴合新要求。",
+    "synonyms": [
+      {
+        "word": "change",
+        "chinese": "改变"
+      },
+      {
+        "word": "modify",
+        "chinese": "修改"
+      },
+      {
+        "word": "shift",
+        "chinese": "转变"
+      },
+      {
+        "word": "alter",
+        "chinese": "更改"
+      }
+    ]
+  },
+  {
+    "id": "read_approach",
+    "rank": 4,
+    "tier": 1,
+    "word": "approach",
+    "phonetic": "/əˈprəʊtʃ/",
+    "pos": "n.",
+    "chinese": "方法",
+    "core_state": "面对一个目标或问题时，采取的具体处理方式或路径。",
+    "underlying_relation": "目标/问题 → 采取具体路径 → 处理方式(方法)。",
+    "synonyms": [
+      {
+        "word": "method",
+        "chinese": "方法"
+      },
+      {
+        "word": "way",
+        "chinese": "方式"
+      }
+    ]
+  },
+  {
+    "id": "read_fundamental",
+    "rank": 5,
+    "tier": 1,
+    "word": "fundamental",
+    "phonetic": "/ˌfʌndəˈmentl/",
+    "pos": "adj.",
+    "chinese": "基本的，基础的",
+    "core_state": "一个东西是整体结构最底层、最根本的部分，其他一切都建立在它之上。",
+    "underlying_relation": "整体结构 → 最底层根本部分 → 其他内容建立其上。",
+    "synonyms": [
+      {
+        "word": "rudimentary",
+        "chinese": "基本的，初步的"
+      },
+      {
+        "word": "preliminary",
+        "chinese": "预备的，初步的"
+      },
+      {
+        "word": "basic",
+        "chinese": "基本的"
+      }
+    ]
+  },
+  {
+    "id": "read_rely_on",
+    "rank": 6,
+    "tier": 1,
+    "word": "rely on",
+    "phonetic": "/rɪˈlaɪ ɒn/",
+    "pos": "phr.",
+    "chinese": "依靠，依赖",
+    "core_state": "一方需要另一方的支撑才能维持或完成，一旦支撑撤走就无法独立运作。",
+    "underlying_relation": "一方(无法独立) → 依附另一方支撑 → 支撑撤走则无法运作。",
+    "synonyms": [
+      {
+        "word": "depend on",
+        "chinese": "依赖"
+      }
+    ]
+  },
+  {
+    "id": "read_domestic",
+    "rank": 7,
+    "tier": 1,
+    "word": "domestic",
+    "phonetic": "/dəˈmestɪk/",
+    "pos": "adj.",
+    "chinese": "家庭的；国内的",
+    "core_state": "某件事物的范围被限定在一个「家」或一个「国」的内部，不向外延伸到别处。",
+    "underlying_relation": "事物范围 → 限定在家/国内部 → 不向外延伸。",
+    "synonyms": [
+      {
+        "word": "home",
+        "chinese": "家的"
+      },
+      {
+        "word": "local",
+        "chinese": "本地的"
+      },
+      {
+        "word": "national",
+        "chinese": "国家的"
+      }
+    ]
+  },
+  {
+    "id": "read_measure",
+    "rank": 8,
+    "tier": 1,
+    "word": "measure",
+    "phonetic": "/ˈmeʒə(r)/",
+    "pos": "v.",
+    "chinese": "测量",
+    "core_state": "用某种标准去衡量一个事物的具体数值或程度，得出一个可比较的结果。",
+    "underlying_relation": "事物 → 用标准衡量 → 得出可比较的具体数值。",
+    "synonyms": [
+      {
+        "word": "calculate",
+        "chinese": "计算"
+      },
+      {
+        "word": "assess",
+        "chinese": "评估"
+      },
+      {
+        "word": "evaluate",
+        "chinese": "评价"
+      }
+    ]
+  },
+  {
+    "id": "read_trait",
+    "rank": 9,
+    "tier": 1,
+    "word": "trait",
+    "phonetic": "/treɪt/",
+    "pos": "n.",
+    "chinese": "特性，特征",
+    "core_state": "一个人或事物身上稳定存在、能把它跟别的区分开来的具体特点。",
+    "underlying_relation": "人/事物 → 稳定存在的具体特点 → 区分于其他的标志。",
+    "synonyms": [
+      {
+        "word": "characteristic",
+        "chinese": "特征"
+      },
+      {
+        "word": "feature",
+        "chinese": "特点"
+      },
+      {
+        "word": "property",
+        "chinese": "属性"
+      }
+    ]
+  },
+  {
+    "id": "read_coin",
+    "rank": 10,
+    "tier": 1,
+    "word": "coin",
+    "phonetic": "/kɒɪn/",
+    "pos": "v.",
+    "chinese": "创造（新词）",
+    "core_state": "一个原本不存在的词语或说法，被某人第一次想出来并开始使用。",
+    "underlying_relation": "不存在的词语 → 被第一次想出来 → 开始被使用(新造)。",
+    "synonyms": [
+      {
+        "word": "first used",
+        "chinese": "首次使用"
+      },
+      {
+        "word": "invent",
+        "chinese": "发明"
+      }
+    ]
+  },
+  {
+    "id": "read_artificial",
+    "rank": 11,
+    "tier": 1,
+    "word": "artificial",
+    "phonetic": "/ˌɑːtɪˈfɪʃl/",
+    "pos": "adj.",
+    "chinese": "人造的，仿造的",
+    "core_state": "某个东西不是自然形成的，而是人为制造出来模仿自然本该有的样子。",
+    "underlying_relation": "人为制造 → 模仿自然本该有的样子 → 呈现人工痕迹。",
+    "synonyms": [
+      {
+        "word": "synthetic",
+        "chinese": "合成的"
+      },
+      {
+        "word": "man-made",
+        "chinese": "人造的"
+      }
+    ]
+  },
+  {
+    "id": "read_prompt",
+    "rank": 12,
+    "tier": 1,
+    "word": "prompt",
+    "phonetic": "/prɒmpt/",
+    "pos": "v.",
+    "chinese": "促进，激起",
+    "core_state": "一个外部因素直接触发了某个反应或行动，让它立刻发生。",
+    "underlying_relation": "外部因素 → 直接触发 → 反应/行动立刻发生。",
+    "synonyms": [
+      {
+        "word": "initiate",
+        "chinese": "发起"
+      },
+      {
+        "word": "immediately",
+        "chinese": "立即（表相关用法）"
+      }
+    ]
+  },
+  {
+    "id": "read_exchange",
+    "rank": 13,
+    "tier": 1,
+    "word": "exchange",
+    "phonetic": "/ɪksˈtʃeɪndʒ/",
+    "pos": "v.",
+    "chinese": "交换",
+    "core_state": "双方各自把自己拥有的东西给对方，同时收到对方给的东西，位置互换。",
+    "underlying_relation": "双方各自拥有的东西 → 互相给予对方 → 位置互换。",
+    "synonyms": [
+      {
+        "word": "share",
+        "chinese": "分享"
+      },
+      {
+        "word": "apply A to B",
+        "chinese": "把A用到B上（表相关用法）"
+      }
+    ]
+  },
+  {
+    "id": "read_underlie",
+    "rank": 14,
+    "tier": 1,
+    "word": "underlie",
+    "phonetic": "/ˌʌndəˈlaɪ/",
+    "pos": "v.",
+    "chinese": "成为……基础",
+    "core_state": "一个看不见的东西藏在表面现象下方，是支撑这个表面现象存在的根本原因。",
+    "underlying_relation": "表面现象 ← 看不见的东西藏在下方支撑 → 根本原因(基础)。",
+    "synonyms": [
+      {
+        "word": "based on",
+        "chinese": "基于"
+      },
+      {
+        "word": "ground",
+        "chinese": "基础"
+      },
+      {
+        "word": "root",
+        "chinese": "根源"
+      }
+    ]
+  },
+  {
+    "id": "read_ignore",
+    "rank": 15,
+    "tier": 1,
+    "word": "ignore",
+    "phonetic": "/ɪɡˈnɔː(r)/",
+    "pos": "v.",
+    "chinese": "忽视，不顾",
+    "core_state": "一个明明存在、应该被注意到的事物，被故意或无意地不去理会。",
+    "underlying_relation": "明明存在的事物 → 故意/无意不理会 → 被忽视。",
+    "synonyms": [
+      {
+        "word": "neglect",
+        "chinese": "忽视"
+      },
+      {
+        "word": "overlook",
+        "chinese": "忽略"
+      },
+      {
+        "word": "underestimate",
+        "chinese": "低估"
+      }
+    ]
+  },
+  {
+    "id": "read_fertiliser",
+    "rank": 16,
+    "tier": 1,
+    "word": "fertiliser",
+    "phonetic": "/ˈfɜːtəlaɪzə(r)/",
+    "pos": "n.",
+    "chinese": "化肥，肥料",
+    "core_state": "一种被加入土壤的物质，用来给土壤补充养分，让作物长得更好。",
+    "underlying_relation": "土壤(缺养分) + 加入物质 → 补充养分 → 作物长得更好。",
+    "synonyms": [
+      {
+        "word": "chemical",
+        "chinese": "化学的（相关词）"
+      },
+      {
+        "word": "toxic",
+        "chinese": "有毒的（相关词）"
+      },
+      {
+        "word": "unnatural",
+        "chinese": "非天然的（相关词）"
+      }
+    ]
+  },
+  {
+    "id": "read_that",
+    "rank": 17,
+    "tier": 1,
+    "word": "that",
+    "phonetic": "/ðæt/",
+    "pos": "pron.",
+    "chinese": "那；那个（*指代是雅思阅读重要考点）",
+    "core_state": "用来替代前面已经提到过的某个具体事物，避免重复说同一个词。",
+    "underlying_relation": "前面提到的事物 → 用这个词替代 → 避免重复(指代关系)。",
+    "synonyms": [
+      {
+        "word": "this",
+        "chinese": "这个"
+      },
+      {
+        "word": "it",
+        "chinese": "它"
+      },
+      {
+        "word": "they",
+        "chinese": "他们"
+      },
+      {
+        "word": "those",
+        "chinese": "那些"
+      },
+      {
+        "word": "these",
+        "chinese": "这些"
+      },
+      {
+        "word": "such",
+        "chinese": "这样的"
+      }
+    ]
+  },
+  {
+    "id": "read_and",
+    "rank": 18,
+    "tier": 1,
+    "word": "and",
+    "phonetic": "/ænd/",
+    "pos": "conj.",
+    "chinese": "和，而且（*并列结构是雅思阅读重要考点）",
+    "core_state": "把两个或多个地位相同、可以并列存在的内容连接在一起，表示同时具备。",
+    "underlying_relation": "内容A + 内容B → 地位相同并列连接 → 同时具备两者。",
+    "synonyms": [
+      {
+        "word": "or",
+        "chinese": "或者"
+      },
+      {
+        "word": "as well as",
+        "chinese": "以及"
+      },
+      {
+        "word": "both…and",
+        "chinese": "两者都"
+      },
+      {
+        "word": "not only…but also",
+        "chinese": "不仅…而且"
+      },
+      {
+        "word": "other than",
+        "chinese": "除了"
+      },
+      {
+        "word": "in addition",
+        "chinese": "此外"
+      },
+      {
+        "word": "besides",
+        "chinese": "此外"
+      },
+      {
+        "word": "on the one hand…on the other hand",
+        "chinese": "一方面…另一方面"
+      },
+      {
+        "word": "neither…nor",
+        "chinese": "既不…也不"
+      }
+    ]
+  },
+  {
+    "id": "read_rather_than",
+    "rank": 19,
+    "tier": 1,
+    "word": "rather than",
+    "phonetic": "/ˈrɑːðə(r) ðæn/",
+    "pos": "phr.",
+    "chinese": "而非，不是（*转折结构是雅思阅读重要考点）",
+    "core_state": "在两个选项之间，明确地选中前一个而排除后一个，形成对比。",
+    "underlying_relation": "选项A vs 选项B → 明确选中A排除B → 形成对比转折关系。",
+    "synonyms": [
+      {
+        "word": "but",
+        "chinese": "但是"
+      },
+      {
+        "word": "yet",
+        "chinese": "然而"
+      },
+      {
+        "word": "however",
+        "chinese": "然而"
+      },
+      {
+        "word": "whereas",
+        "chinese": "然而"
+      },
+      {
+        "word": "nonetheless",
+        "chinese": "尽管如此"
+      },
+      {
+        "word": "nevertheless",
+        "chinese": "尽管如此"
+      },
+      {
+        "word": "although",
+        "chinese": "尽管"
+      },
+      {
+        "word": "notwithstanding",
+        "chinese": "尽管"
+      },
+      {
+        "word": "though",
+        "chinese": "尽管"
+      },
+      {
+        "word": "instead",
+        "chinese": "反而"
+      }
+    ]
+  },
+  {
+    "id": "read_thanks_to",
+    "rank": 20,
+    "tier": 1,
+    "word": "thanks to",
+    "phonetic": "/θæŋks tuː/",
+    "pos": "phr.",
+    "chinese": "由于，幸亏（*因果关系是雅思阅读重要考点）",
+    "core_state": "一个结果的出现，能够追溯到前面某个具体的原因，原因和结果之间形成了因果链条。",
+    "underlying_relation": "具体原因 → 因果链条 → 导致结果出现。",
+    "synonyms": [
+      {
+        "word": "stem from",
+        "chinese": "源于"
+      },
+      {
+        "word": "derive",
+        "chinese": "源自"
+      },
+      {
+        "word": "owing to",
+        "chinese": "由于"
+      },
+      {
+        "word": "due to",
+        "chinese": "由于"
+      },
+      {
+        "word": "according to",
+        "chinese": "根据"
+      },
+      {
+        "word": "because of",
+        "chinese": "因为"
+      },
+      {
+        "word": "on account of",
+        "chinese": "因为"
+      },
+      {
+        "word": "as a result of",
+        "chinese": "由于…的结果"
+      },
+      {
+        "word": "leading to",
+        "chinese": "导致"
+      },
+      {
+        "word": "because",
+        "chinese": "因为"
+      },
+      {
+        "word": "since",
+        "chinese": "由于"
+      },
+      {
+        "word": "for",
+        "chinese": "因为"
+      },
+      {
+        "word": "in that",
+        "chinese": "因为"
+      },
+      {
+        "word": "as",
+        "chinese": "因为"
+      },
+      {
+        "word": "therefore",
+        "chinese": "因此"
+      },
+      {
+        "word": "hence",
+        "chinese": "因此"
+      }
+    ]
+  }
+]
