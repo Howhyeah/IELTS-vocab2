@@ -1278,5 +1278,1813 @@
     "chinese": "免税店",
     "listenCategory": "关于\"钱\"",
     "listenCategoryOrder": 5
+  },
+  {
+    "id": "listen_6_catalogue",
+    "word": "catalogue",
+    "phonetic": "/ˈkætəlɒɡ/",
+    "chinese": "目录",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_interview",
+    "word": "interview",
+    "phonetic": "/ˈɪntəvjuː/",
+    "chinese": "采访，面试",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_newsletter",
+    "word": "newsletter",
+    "phonetic": "/ˈnjuːzletə(r)/",
+    "chinese": "简讯",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_competition",
+    "word": "competition",
+    "phonetic": "/ˌkɒmpəˈtɪʃn/",
+    "chinese": "竞争，比赛",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_tv_program",
+    "word": "TV program",
+    "phonetic": "/tiːˈviː ˈprəʊɡræm/",
+    "chinese": "电视节目",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_strategies",
+    "word": "strategies",
+    "phonetic": "/ˈstrætədʒiz/",
+    "chinese": "策略",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_research_method",
+    "word": "research method",
+    "phonetic": "/rɪˈsɜːtʃ ˈmeθəd/",
+    "chinese": "研究方法",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_entertainment_industry",
+    "word": "entertainment industry",
+    "phonetic": "/ˌentəˈteɪnmənt ˈɪndəstri/",
+    "chinese": "娱乐产业",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_leadership",
+    "word": "leadership",
+    "phonetic": "/ˈliːdəʃɪp/",
+    "chinese": "领导力",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_management",
+    "word": "management",
+    "phonetic": "/ˈmænɪdʒmənt/",
+    "chinese": "管理",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_display",
+    "word": "display",
+    "phonetic": "/dɪˈspleɪ/",
+    "chinese": "展示",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_products",
+    "word": "products",
+    "phonetic": "/ˈprɒdʌkts/",
+    "chinese": "产品",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_customer",
+    "word": "customer",
+    "phonetic": "/ˈkʌstəmə(r)/",
+    "chinese": "顾客",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_special_offer",
+    "word": "special offer",
+    "phonetic": "/ˈspeʃl ˈɒfə(r)/",
+    "chinese": "特价优惠",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_collecting_data",
+    "word": "collecting data",
+    "phonetic": "/kəˈlektɪŋ ˈdeɪtə/",
+    "chinese": "收集数据",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_questionnaire",
+    "word": "questionnaire",
+    "phonetic": "/ˌkwestʃəˈneə(r)/",
+    "chinese": "调查问卷",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_survey",
+    "word": "survey",
+    "phonetic": "/ˈsɜːveɪ/",
+    "chinese": "调查",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_mass_media",
+    "word": "mass media",
+    "phonetic": "/mæs ˈmiːdiə/",
+    "chinese": "大众媒体",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_statistic",
+    "word": "statistic",
+    "phonetic": "/stəˈtɪstɪk/",
+    "chinese": "统计数据",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_profit_margin",
+    "word": "profit margin",
+    "phonetic": "/ˈprɒfɪt ˈmɑːdʒɪn/",
+    "chinese": "利润率",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_poll",
+    "word": "poll",
+    "phonetic": "/pəʊl/",
+    "chinese": "民意调查",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_business_card",
+    "word": "business card",
+    "phonetic": "/ˈbɪznəs kɑːd/",
+    "chinese": "名片",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_training",
+    "word": "training",
+    "phonetic": "/ˈtreɪnɪŋ/",
+    "chinese": "培训",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_trainee",
+    "word": "trainee",
+    "phonetic": "/ˌtreɪˈniː/",
+    "chinese": "培训生",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_merchandise",
+    "word": "merchandise",
+    "phonetic": "/ˈmɜːtʃəndaɪz/",
+    "chinese": "商品",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_manufacture",
+    "word": "manufacture",
+    "phonetic": "/ˌmænjuˈfæktʃə(r)/",
+    "chinese": "制造",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_6_recruitment",
+    "word": "recruitment",
+    "phonetic": "/rɪˈkruːtmənt/",
+    "chinese": "招聘",
+    "listenCategory": "市场",
+    "listenCategoryOrder": 6
+  },
+  {
+    "id": "listen_7_yoga",
+    "word": "yoga",
+    "phonetic": "/ˈjəʊɡə/",
+    "chinese": "瑜伽",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_tai-chi",
+    "word": "tai-chi",
+    "phonetic": "/ˌtaɪ ˈtʃiː/",
+    "chinese": "太极",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_keep-fit",
+    "word": "keep-fit",
+    "phonetic": "/kiːp fɪt/",
+    "chinese": "健身",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_salad_bar",
+    "word": "salad bar",
+    "phonetic": "/ˈsæləd bɑː(r)/",
+    "chinese": "沙拉吧",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_vegetarian",
+    "word": "vegetarian",
+    "phonetic": "/ˌvedʒəˈteəriən/",
+    "chinese": "素食者",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_outdoor_activities",
+    "word": "outdoor activities",
+    "phonetic": "/ˈaʊtdɔː(r) ækˈtɪvətiz/",
+    "chinese": "户外活动",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_leisure_time",
+    "word": "leisure time",
+    "phonetic": "/ˈleʒə(r) taɪm/",
+    "chinese": "休闲时间",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_disease",
+    "word": "disease",
+    "phonetic": "/dɪˈziːz/",
+    "chinese": "疾病",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_meal",
+    "word": "meal",
+    "phonetic": "/miːl/",
+    "chinese": "一餐",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_protein",
+    "word": "protein",
+    "phonetic": "/ˈprəʊtiːn/",
+    "chinese": "蛋白质",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_balanced_diet",
+    "word": "balanced diet",
+    "phonetic": "/ˈbælənst ˈdaɪət/",
+    "chinese": "均衡饮食",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_food_pyramid",
+    "word": "food pyramid",
+    "phonetic": "/fuːd ˈpɪrəmɪd/",
+    "chinese": "食物金字塔",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_vitamin",
+    "word": "vitamin",
+    "phonetic": "/ˈvɪtəmɪn/",
+    "chinese": "维生素",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_carbohydrates",
+    "word": "carbohydrates",
+    "phonetic": "/ˌkɑːbəʊˈhaɪdreɪts/",
+    "chinese": "碳水化合物",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_rice",
+    "word": "rice",
+    "phonetic": "/raɪs/",
+    "chinese": "米饭",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_pasta",
+    "word": "pasta",
+    "phonetic": "/ˈpæstə/",
+    "chinese": "意面",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_potatoes",
+    "word": "potatoes",
+    "phonetic": "/pəˈteɪtəʊz/",
+    "chinese": "土豆",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_pizza",
+    "word": "pizza",
+    "phonetic": "/ˈpiːtsə/",
+    "chinese": "比萨",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_tomatoes",
+    "word": "tomatoes",
+    "phonetic": "/təˈmɑːtəʊz/",
+    "chinese": "番茄",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_bread",
+    "word": "bread",
+    "phonetic": "/bred/",
+    "chinese": "面包",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_cereals",
+    "word": "cereals",
+    "phonetic": "/ˈsɪəriəlz/",
+    "chinese": "谷物",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_minerals",
+    "word": "minerals",
+    "phonetic": "/ˈmɪnərəlz/",
+    "chinese": "矿物质",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_zinc",
+    "word": "zinc",
+    "phonetic": "/zɪŋk/",
+    "chinese": "锌",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_meat",
+    "word": "meat",
+    "phonetic": "/miːt/",
+    "chinese": "肉类",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_seafood",
+    "word": "seafood",
+    "phonetic": "/ˈsiːfuːd/",
+    "chinese": "海鲜",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_eggs",
+    "word": "eggs",
+    "phonetic": "/eɡz/",
+    "chinese": "鸡蛋",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_beans",
+    "word": "beans",
+    "phonetic": "/biːnz/",
+    "chinese": "豆类",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_milk",
+    "word": "milk",
+    "phonetic": "/mɪlk/",
+    "chinese": "牛奶",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_cheese",
+    "word": "cheese",
+    "phonetic": "/tʃiːz/",
+    "chinese": "奶酪",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_yoghurt",
+    "word": "yoghurt",
+    "phonetic": "/ˈjɒɡət/",
+    "chinese": "酸奶",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_fruit",
+    "word": "fruit",
+    "phonetic": "/fruːt/",
+    "chinese": "水果",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_vegetables",
+    "word": "vegetables",
+    "phonetic": "/ˈvedʒtəblz/",
+    "chinese": "蔬菜",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_citrus_fruits",
+    "word": "citrus fruits",
+    "phonetic": "/ˈsɪtrəs fruːts/",
+    "chinese": "柑橘类水果",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_green_pepper",
+    "word": "green pepper",
+    "phonetic": "/ɡriːn ˈpepə(r)/",
+    "chinese": "青椒",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_blackcurrant",
+    "word": "blackcurrant",
+    "phonetic": "/blækˈkʌrənt/",
+    "chinese": "黑加仑",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_nuts",
+    "word": "nuts",
+    "phonetic": "/nʌts/",
+    "chinese": "坚果",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_egg_yolk",
+    "word": "egg yolk",
+    "phonetic": "/eɡ jəʊk/",
+    "chinese": "蛋黄",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_liver",
+    "word": "liver",
+    "phonetic": "/ˈlɪvə(r)/",
+    "chinese": "肝脏",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_medicine_treatment",
+    "word": "medicine treatment",
+    "phonetic": "/ˈmedsn ˈtriːtmənt/",
+    "chinese": "药物治疗",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_remedy",
+    "word": "remedy",
+    "phonetic": "/ˈremədi/",
+    "chinese": "治疗方法",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_nursing_care",
+    "word": "nursing care",
+    "phonetic": "/ˈnɜːsɪŋ keə(r)/",
+    "chinese": "护理",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_nursery",
+    "word": "nursery",
+    "phonetic": "/ˈnɜːsəri/",
+    "chinese": "托儿所",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_7_regular_exercise",
+    "word": "regular exercise",
+    "phonetic": "/ˈreɡjələ(r) ˈeksəsaɪz/",
+    "chinese": "定期锻炼",
+    "listenCategory": "健康",
+    "listenCategoryOrder": 7
+  },
+  {
+    "id": "listen_8_field",
+    "word": "field",
+    "phonetic": "/fiːld/",
+    "chinese": "田野",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_footbridge",
+    "word": "footbridge",
+    "phonetic": "/ˈfʊtbrɪdʒ/",
+    "chinese": "天桥",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_environment",
+    "word": "environment",
+    "phonetic": "/ɪnˈvaɪrənmənt/",
+    "chinese": "环境",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_waterfall",
+    "word": "waterfall",
+    "phonetic": "/ˈwɔːtəfɔːl/",
+    "chinese": "瀑布",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_river",
+    "word": "river",
+    "phonetic": "/ˈrɪvə(r)/",
+    "chinese": "河流",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_mountain",
+    "word": "mountain",
+    "phonetic": "/ˈmaʊntən/",
+    "chinese": "山",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_forest",
+    "word": "forest",
+    "phonetic": "/ˈfɒrɪst/",
+    "chinese": "森林",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_village",
+    "word": "village",
+    "phonetic": "/ˈvɪlɪdʒ/",
+    "chinese": "村庄",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_coast",
+    "word": "coast",
+    "phonetic": "/kəʊst/",
+    "chinese": "海岸",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_reef",
+    "word": "reef",
+    "phonetic": "/riːf/",
+    "chinese": "礁",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_lake",
+    "word": "lake",
+    "phonetic": "/leɪk/",
+    "chinese": "湖",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_valley",
+    "word": "valley",
+    "phonetic": "/ˈvæli/",
+    "chinese": "山谷",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_hill",
+    "word": "hill",
+    "phonetic": "/hɪl/",
+    "chinese": "丘陵",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_cliff",
+    "word": "cliff",
+    "phonetic": "/klɪf/",
+    "chinese": "悬崖",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_island",
+    "word": "island",
+    "phonetic": "/ˈaɪlənd/",
+    "chinese": "岛",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_peninsula",
+    "word": "peninsula",
+    "phonetic": "/pəˈnɪnsjələ/",
+    "chinese": "半岛",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_earthquake",
+    "word": "earthquake",
+    "phonetic": "/ˈɜːθkweɪk/",
+    "chinese": "地震",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_avalanche",
+    "word": "avalanche",
+    "phonetic": "/ˈævəlɑːnʃ/",
+    "chinese": "雪崩",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_tornado",
+    "word": "tornado",
+    "phonetic": "/tɔːˈneɪdəʊ/",
+    "chinese": "龙卷风",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_typhoon",
+    "word": "typhoon",
+    "phonetic": "/taɪˈfuːn/",
+    "chinese": "台风",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_desertification",
+    "word": "desertification",
+    "phonetic": "/dɪˌzɜːtɪfɪˈkeɪʃn/",
+    "chinese": "沙漠化",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_volcano",
+    "word": "volcano",
+    "phonetic": "/vɒlˈkeɪnəʊ/",
+    "chinese": "火山",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_disaster",
+    "word": "disaster",
+    "phonetic": "/dɪˈzɑːstə(r)/",
+    "chinese": "灾难",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_catastrophe",
+    "word": "catastrophe",
+    "phonetic": "/kəˈtæstrəfi/",
+    "chinese": "大灾难",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_erosion",
+    "word": "erosion",
+    "phonetic": "/ɪˈrəʊʒn/",
+    "chinese": "侵蚀",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_landslides",
+    "word": "landslides",
+    "phonetic": "/ˈlændslaɪdz/",
+    "chinese": "山崩",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_storm",
+    "word": "storm",
+    "phonetic": "/stɔːm/",
+    "chinese": "风暴",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_flood",
+    "word": "flood",
+    "phonetic": "/flʌd/",
+    "chinese": "洪水",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_hurricane",
+    "word": "hurricane",
+    "phonetic": "/ˈhʌrɪkən/",
+    "chinese": "飓风",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_pond",
+    "word": "pond",
+    "phonetic": "/pɒnd/",
+    "chinese": "池塘",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_jungle",
+    "word": "jungle",
+    "phonetic": "/ˈdʒʌŋɡl/",
+    "chinese": "丛林",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_oasis",
+    "word": "oasis",
+    "phonetic": "/əʊˈeɪsɪs/",
+    "chinese": "绿洲",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_dam",
+    "word": "dam",
+    "phonetic": "/dæm/",
+    "chinese": "水坝",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_8_canyon",
+    "word": "canyon",
+    "phonetic": "/ˈkænjən/",
+    "chinese": "峡谷",
+    "listenCategory": "自然",
+    "listenCategoryOrder": 8
+  },
+  {
+    "id": "listen_9_greenhouse_effect",
+    "word": "greenhouse effect",
+    "phonetic": "/ˈɡriːnhaʊs ɪˈfekt/",
+    "chinese": "温室效应",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_acid_rain",
+    "word": "acid rain",
+    "phonetic": "/ˈæsɪd reɪn/",
+    "chinese": "酸雨",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_global_warming",
+    "word": "global warming",
+    "phonetic": "/ˈɡləʊbl ˈwɔːmɪŋ/",
+    "chinese": "全球变暖",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_carbon_dioxide",
+    "word": "carbon dioxide",
+    "phonetic": "/ˈkɑːbən daɪˈɒksaɪd/",
+    "chinese": "二氧化碳",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_burning_fossil",
+    "word": "burning fossil",
+    "phonetic": "/ˈbɜːnɪŋ ˈfɒsl/",
+    "chinese": "燃烧化石燃料",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_exhaust_fumes",
+    "word": "exhaust fumes",
+    "phonetic": "/ɪɡˈzɔːst fjuːmz/",
+    "chinese": "废气",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_deforestation",
+    "word": "deforestation",
+    "phonetic": "/diːˌfɒrɪˈsteɪʃn/",
+    "chinese": "森林砍伐",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_nitrogen_oxide",
+    "word": "nitrogen oxide",
+    "phonetic": "/ˈnaɪtrədʒən ˈɒksaɪd/",
+    "chinese": "氮氧化物",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_smog",
+    "word": "smog",
+    "phonetic": "/smɒɡ/",
+    "chinese": "烟雾",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_climate",
+    "word": "climate",
+    "phonetic": "/ˈklaɪmət/",
+    "chinese": "气候",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_pollution",
+    "word": "pollution",
+    "phonetic": "/pəˈluːʃn/",
+    "chinese": "污染",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_temperature",
+    "word": "temperature",
+    "phonetic": "/ˈtemprətʃə(r)/",
+    "chinese": "温度",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_power_plants",
+    "word": "power plants",
+    "phonetic": "/ˈpaʊə(r) plɑːnts/",
+    "chinese": "发电厂",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_landfill",
+    "word": "landfill",
+    "phonetic": "/ˈlændfɪl/",
+    "chinese": "垃圾填埋场",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_cattle",
+    "word": "cattle",
+    "phonetic": "/ˈkætl/",
+    "chinese": "牛",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_wind_turbine",
+    "word": "wind turbine",
+    "phonetic": "/wɪnd ˈtɜːbaɪn/",
+    "chinese": "风力发电机",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_solar_power",
+    "word": "solar power",
+    "phonetic": "/ˈsəʊlə(r) ˈpaʊə(r)/",
+    "chinese": "太阳能",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_hydroelectric_power",
+    "word": "hydroelectric power",
+    "phonetic": "/ˌhaɪdrəʊɪˈlektrɪk ˈpaʊə(r)/",
+    "chinese": "水力发电",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_renewable",
+    "word": "renewable",
+    "phonetic": "/rɪˈnjuːəbl/",
+    "chinese": "可再生的",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_source_of_energy",
+    "word": "source of energy",
+    "phonetic": "/sɔːs əv ˈenədʒi/",
+    "chinese": "能源",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_reliable",
+    "word": "reliable",
+    "phonetic": "/rɪˈlaɪəbl/",
+    "chinese": "可靠的",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_solar_panels",
+    "word": "solar panels",
+    "phonetic": "/ˈsəʊlə(r) ˈpænlz/",
+    "chinese": "太阳能板",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_environmentally_friendly",
+    "word": "environmentally friendly",
+    "phonetic": "/ɪnˌvaɪrənˈmentəli ˈfrendli/",
+    "chinese": "环保的",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_oxygen",
+    "word": "oxygen",
+    "phonetic": "/ˈɒksɪdʒən/",
+    "chinese": "氧气",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_chemical-free",
+    "word": "chemical-free",
+    "phonetic": "/ˈkemɪkl friː/",
+    "chinese": "无化学物质的",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_desert",
+    "word": "desert",
+    "phonetic": "/ˈdezət/",
+    "chinese": "沙漠",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_degradation",
+    "word": "degradation",
+    "phonetic": "/ˌdeɡrəˈdeɪʃn/",
+    "chinese": "退化",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_vegetation",
+    "word": "vegetation",
+    "phonetic": "/ˌvedʒəˈteɪʃn/",
+    "chinese": "植被",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_sea_level",
+    "word": "sea level",
+    "phonetic": "/siː ˈlevl/",
+    "chinese": "海平面",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_ocean_currents",
+    "word": "ocean currents",
+    "phonetic": "/ˈəʊʃn ˈkʌrənts/",
+    "chinese": "洋流",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_soil_conditioner",
+    "word": "soil conditioner",
+    "phonetic": "/sɒɪl kənˈdɪʃənə(r)/",
+    "chinese": "土壤改良剂",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_coal",
+    "word": "coal",
+    "phonetic": "/kəʊl/",
+    "chinese": "煤",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_fossil_fuels",
+    "word": "fossil fuels",
+    "phonetic": "/ˈfɒsl fjuːəlz/",
+    "chinese": "化石燃料",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_firewood",
+    "word": "firewood",
+    "phonetic": "/ˈfaɪəwʊd/",
+    "chinese": "木柴",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_drought",
+    "word": "drought",
+    "phonetic": "/draʊt/",
+    "chinese": "干旱",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_9_contaminated",
+    "word": "contaminated",
+    "phonetic": "/kənˈtæmɪneɪtɪd/",
+    "chinese": "被污染的",
+    "listenCategory": "环境",
+    "listenCategoryOrder": 9
+  },
+  {
+    "id": "listen_10_birds_of_prey",
+    "word": "birds of prey",
+    "phonetic": "/bɜːdz əv preɪ/",
+    "chinese": "猛禽",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_seabirds",
+    "word": "seabirds",
+    "phonetic": "/ˈsiːbɜːdz/",
+    "chinese": "海鸟",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_poultry_and_game",
+    "word": "poultry and game",
+    "phonetic": "/ˈpəʊltri ənd ɡeɪm/",
+    "chinese": "家禽和野味",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_mammals",
+    "word": "mammals",
+    "phonetic": "/ˈmæmlz/",
+    "chinese": "哺乳动物",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_cetacean",
+    "word": "cetacean",
+    "phonetic": "/sɪˈteɪʃn/",
+    "chinese": "鲸类",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_whale",
+    "word": "whale",
+    "phonetic": "/weɪl/",
+    "chinese": "鲸",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_primates",
+    "word": "primates",
+    "phonetic": "/ˈpraɪmeɪts/",
+    "chinese": "灵长类动物",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_rodents",
+    "word": "rodents",
+    "phonetic": "/ˈrəʊdnts/",
+    "chinese": "啮齿动物",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_fish",
+    "word": "fish",
+    "phonetic": "/fɪʃ/",
+    "chinese": "鱼",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_amphibian",
+    "word": "amphibian",
+    "phonetic": "/æmˈfɪbiən/",
+    "chinese": "两栖动物",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_reptile",
+    "word": "reptile",
+    "phonetic": "/ˈreptaɪl/",
+    "chinese": "爬行动物",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_insects",
+    "word": "insects",
+    "phonetic": "/ˈɪnsekts/",
+    "chinese": "昆虫",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_octopus",
+    "word": "octopus",
+    "phonetic": "/ˈɒktəpəs/",
+    "chinese": "章鱼",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_phylum",
+    "word": "phylum",
+    "phonetic": "/ˈfaɪləm/",
+    "chinese": "门（生物分类）",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_class",
+    "word": "class",
+    "phonetic": "/klɑːs/",
+    "chinese": "纲（生物分类）",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_order",
+    "word": "order",
+    "phonetic": "/ˈɔːdə(r)/",
+    "chinese": "目（生物分类）",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_family",
+    "word": "family",
+    "phonetic": "/ˈfæməli/",
+    "chinese": "科（生物分类）",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_genus",
+    "word": "genus",
+    "phonetic": "/ˈdʒiːnəs/",
+    "chinese": "属（生物分类）",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_species",
+    "word": "species",
+    "phonetic": "/ˈspiːʃiːz/",
+    "chinese": "种（生物分类）",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_livestock",
+    "word": "livestock",
+    "phonetic": "/ˈlaɪvstɒk/",
+    "chinese": "家畜",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_creature",
+    "word": "creature",
+    "phonetic": "/ˈkriːtʃə(r)/",
+    "chinese": "生物",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_lion",
+    "word": "lion",
+    "phonetic": "/ˈlaɪən/",
+    "chinese": "狮子",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_penguin",
+    "word": "penguin",
+    "phonetic": "/ˈpeŋɡwɪn/",
+    "chinese": "企鹅",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_mushroom",
+    "word": "mushroom",
+    "phonetic": "/ˈmʌʃrʊm/",
+    "chinese": "蘑菇",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_fungus",
+    "word": "fungus",
+    "phonetic": "/ˈfʌŋɡəs/",
+    "chinese": "真菌",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_leaves",
+    "word": "leaves",
+    "phonetic": "/liːvz/",
+    "chinese": "叶子",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_seed",
+    "word": "seed",
+    "phonetic": "/siːd/",
+    "chinese": "种子",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_core",
+    "word": "core",
+    "phonetic": "/kɔː(r)/",
+    "chinese": "果核",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_bark",
+    "word": "bark",
+    "phonetic": "/bɑːk/",
+    "chinese": "树皮",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_trunk",
+    "word": "trunk",
+    "phonetic": "/trʌŋk/",
+    "chinese": "树干",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_twig",
+    "word": "twig",
+    "phonetic": "/twɪɡ/",
+    "chinese": "细枝",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_branch",
+    "word": "branch",
+    "phonetic": "/brɑːntʃ/",
+    "chinese": "树枝",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_flower",
+    "word": "flower",
+    "phonetic": "/ˈflaʊə(r)/",
+    "chinese": "花",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_stem",
+    "word": "stem",
+    "phonetic": "/stem/",
+    "chinese": "茎",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_roots",
+    "word": "roots",
+    "phonetic": "/ruːts/",
+    "chinese": "根",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_cluster",
+    "word": "cluster",
+    "phonetic": "/ˈklʌstə(r)/",
+    "chinese": "簇，群",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_10_fertilizer",
+    "word": "fertilizer",
+    "phonetic": "/ˈfɜːtəlaɪzə(r)/",
+    "chinese": "肥料",
+    "listenCategory": "动物",
+    "listenCategoryOrder": 10
+  },
+  {
+    "id": "listen_11_south_america",
+    "word": "South America",
+    "phonetic": "/saʊθ əˈmerɪkə/",
+    "chinese": "南美洲",
+    "listenCategory": "洲",
+    "listenCategoryOrder": 11
+  },
+  {
+    "id": "listen_11_north_america",
+    "word": "North America",
+    "phonetic": "/nɔːθ əˈmerɪkə/",
+    "chinese": "北美洲",
+    "listenCategory": "洲",
+    "listenCategoryOrder": 11
+  },
+  {
+    "id": "listen_11_africa",
+    "word": "Africa",
+    "phonetic": "/ˈæfrɪkə/",
+    "chinese": "非洲",
+    "listenCategory": "洲",
+    "listenCategoryOrder": 11
+  },
+  {
+    "id": "listen_11_asia",
+    "word": "Asia",
+    "phonetic": "/ˈeɪʒə/",
+    "chinese": "亚洲",
+    "listenCategory": "洲",
+    "listenCategoryOrder": 11
+  },
+  {
+    "id": "listen_11_europe",
+    "word": "Europe",
+    "phonetic": "/ˈjʊərəp/",
+    "chinese": "欧洲",
+    "listenCategory": "洲",
+    "listenCategoryOrder": 11
+  },
+  {
+    "id": "listen_11_australia",
+    "word": "Australia",
+    "phonetic": "/ɒˈstreɪliə/",
+    "chinese": "澳洲",
+    "listenCategory": "洲",
+    "listenCategoryOrder": 11
+  },
+  {
+    "id": "listen_11_antarctica",
+    "word": "Antarctica",
+    "phonetic": "/ænˈtɑːktɪkə/",
+    "chinese": "南极洲",
+    "listenCategory": "洲",
+    "listenCategoryOrder": 11
+  },
+  {
+    "id": "listen_12_egypt",
+    "word": "Egypt",
+    "phonetic": "/ˈiːdʒɪpt/",
+    "chinese": "埃及",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_mexico",
+    "word": "Mexico",
+    "phonetic": "/ˈmeksɪkəʊ/",
+    "chinese": "墨西哥",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_france",
+    "word": "France",
+    "phonetic": "/frɑːns/",
+    "chinese": "法国",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_indonesia",
+    "word": "Indonesia",
+    "phonetic": "/ˌɪndəˈniːziə/",
+    "chinese": "印度尼西亚",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_turkey",
+    "word": "Turkey",
+    "phonetic": "/ˈtɜːki/",
+    "chinese": "土耳其",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_england",
+    "word": "England",
+    "phonetic": "/ˈɪŋɡlənd/",
+    "chinese": "英格兰",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_germany",
+    "word": "Germany",
+    "phonetic": "/ˈdʒɜːməni/",
+    "chinese": "德国",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_china",
+    "word": "China",
+    "phonetic": "/ˈtʃaɪnə/",
+    "chinese": "中国",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_greece",
+    "word": "Greece",
+    "phonetic": "/ɡriːs/",
+    "chinese": "希腊",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_brazil",
+    "word": "Brazil",
+    "phonetic": "/brəˈzɪl/",
+    "chinese": "巴西",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_india",
+    "word": "India",
+    "phonetic": "/ˈɪndiə/",
+    "chinese": "印度",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_north_korea",
+    "word": "North Korea",
+    "phonetic": "/nɔːθ kəˈriːə/",
+    "chinese": "朝鲜",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_malaysia",
+    "word": "Malaysia",
+    "phonetic": "/məˈleɪziə/",
+    "chinese": "马来西亚",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_new_zealand",
+    "word": "New Zealand",
+    "phonetic": "/njuː ˈziːlənd/",
+    "chinese": "新西兰",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_nigeria",
+    "word": "Nigeria",
+    "phonetic": "/naɪˈdʒɪəriə/",
+    "chinese": "尼日利亚",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_pakistan",
+    "word": "Pakistan",
+    "phonetic": "/ˈpɑːkɪstɑːn/",
+    "chinese": "巴基斯坦",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_singapore",
+    "word": "Singapore",
+    "phonetic": "/ˈsɪŋəpɔː(r)/",
+    "chinese": "新加坡",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_switzerland",
+    "word": "Switzerland",
+    "phonetic": "/ˈswɪtsələnd/",
+    "chinese": "瑞士",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_united_kingdom",
+    "word": "United Kingdom",
+    "phonetic": "/juˈnaɪtɪd ˈkɪŋdəm/",
+    "chinese": "英国",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_italy",
+    "word": "Italy",
+    "phonetic": "/ˈɪtəli/",
+    "chinese": "意大利",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_the_dominican_republic",
+    "word": "the Dominican republic",
+    "phonetic": "/ðə dəˈmɪnɪkən rɪˈpʌblɪk/",
+    "chinese": "多米尼加共和国",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_the_philippines",
+    "word": "the Philippines",
+    "phonetic": "/ðə ˈfɪlɪpiːnz/",
+    "chinese": "菲律宾",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_12_denmark",
+    "word": "Denmark",
+    "phonetic": "/ˈdenmɑːk/",
+    "chinese": "丹麦",
+    "listenCategory": "国家",
+    "listenCategoryOrder": 12
+  },
+  {
+    "id": "listen_13_linguistics",
+    "word": "linguistics",
+    "phonetic": "/lɪŋˈɡwɪstɪks/",
+    "chinese": "语言学",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_bilingual",
+    "word": "bilingual",
+    "phonetic": "/baɪˈlɪŋɡwəl/",
+    "chinese": "双语的",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_trilingual",
+    "word": "trilingual",
+    "phonetic": "/traɪˈlɪŋɡwəl/",
+    "chinese": "三语的",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_polyglot",
+    "word": "polyglot",
+    "phonetic": "/ˈpɒliɡlɒt/",
+    "chinese": "通晓多种语言的人",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_portuguese",
+    "word": "Portuguese",
+    "phonetic": "/ˌpɔːtʃuˈɡiːz/",
+    "chinese": "葡萄牙语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_mandarin",
+    "word": "Mandarin",
+    "phonetic": "/ˈmændərɪn/",
+    "chinese": "普通话",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_bengali",
+    "word": "Bengali",
+    "phonetic": "/beŋˈɡɔːli/",
+    "chinese": "孟加拉语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_chinese",
+    "word": "Chinese",
+    "phonetic": "/tʃaɪˈniːz/",
+    "chinese": "中文",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_hindi",
+    "word": "Hindi",
+    "phonetic": "/ˈhɪndi/",
+    "chinese": "印地语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_russian",
+    "word": "Russian",
+    "phonetic": "/ˈrʌʃn/",
+    "chinese": "俄语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_japanese",
+    "word": "Japanese",
+    "phonetic": "/ˌdʒæpəˈniːz/",
+    "chinese": "日语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_german",
+    "word": "German",
+    "phonetic": "/ˈdʒɜːmən/",
+    "chinese": "德语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_punjabi",
+    "word": "Punjabi",
+    "phonetic": "/pʌnˈdʒɑːbi/",
+    "chinese": "旁遮普语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_thai",
+    "word": "Thai",
+    "phonetic": "/taɪ/",
+    "chinese": "泰语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_persian",
+    "word": "Persian",
+    "phonetic": "/ˈpɜːʃn/",
+    "chinese": "波斯语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_filipino",
+    "word": "Filipino",
+    "phonetic": "/ˌfɪlɪˈpiːnəʊ/",
+    "chinese": "菲律宾语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_french",
+    "word": "French",
+    "phonetic": "/frentʃ/",
+    "chinese": "法语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_italian",
+    "word": "Italian",
+    "phonetic": "/ɪˈtæliən/",
+    "chinese": "意大利语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
+  },
+  {
+    "id": "listen_13_greek",
+    "word": "Greek",
+    "phonetic": "/ɡriːk/",
+    "chinese": "希腊语",
+    "listenCategory": "语言",
+    "listenCategoryOrder": 13
   }
 ]
