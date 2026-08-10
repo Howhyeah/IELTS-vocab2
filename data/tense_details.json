@@ -1,6 +1,8 @@
 {
   "tense_01": {
     "timelineDesc": "把动作看成规律、事实或稳定状态，不把镜头放进某一次过程。",
+    "refLabel": "NOW",
+    "refPosition": 50,
     "dotPosition": 50,
     "sentences": {
       "affirmative": "I prepare quotations every day.",
@@ -37,8 +39,541 @@
     "collocations": "always, usually, often, sometimes, never, every day, on Mondays；状态动词：know, believe, own, belong, need。",
     "confusion": "today 只是时间范围：说习惯用一般现在；说此刻过程用现在进行；说今天已有成果用现在完成。"
   },
+  "tense_02": {
+    "timelineDesc": "动作正在现在附近展开；它是临时过程，不是稳定规律。",
+    "refLabel": "NOW",
+    "refPosition": 50,
+    "dotPosition": 50,
+    "sentences": {
+      "affirmative": "I am preparing a quotation now.",
+      "negative": "I am not working at the office today.",
+      "question": "Are you meeting the buyer tomorrow?",
+      "passive": "The goods are being checked."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "此刻正在发生",
+        "explain": "说话时动作正在进行。",
+        "example": "She is talking to a customer now. 她正在和客户谈。"
+      },
+      {
+        "num": 2,
+        "title": "当前阶段的临时状态",
+        "explain": "不一定此秒发生，但目前持续。",
+        "example": "I'm working from home this week. 我本周居家办公。"
+      },
+      {
+        "num": 3,
+        "title": "变化与趋势",
+        "explain": "状态正在逐渐变化。",
+        "example": "Prices are rising. 价格正在上涨。"
+      },
+      {
+        "num": 4,
+        "title": "已落实的未来安排",
+        "explain": "时间、对象等通常已确认。",
+        "example": "I'm meeting the supplier at ten. 我十点要见供应商。"
+      }
+    ],
+    "collocations": "now, right now, at the moment, currently, this week；Look! / Listen!；always + doing 可表达反复且带情绪。",
+    "confusion": "I work from home = 长期/习惯；I am working from home this week = 本周临时状态。"
+  },
+  "tense_03": {
+    "timelineDesc": "动作在过去发生，但结果、经历或未结束的时间范围仍连接现在。",
+    "refLabel": "NOW",
+    "refPosition": 50,
+    "barStart": 20,
+    "barEnd": 50,
+    "sentences": {
+      "affirmative": "I have sent the quotation.",
+      "negative": "I have not received a reply yet.",
+      "question": "Have you checked it?",
+      "passive": "The order has been approved."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "已完成，结果在现在",
+        "explain": "动作结束；现在能看到结果。",
+        "example": "I have finished the report. 报告已完成，现在可看。"
+      },
+      {
+        "num": 2,
+        "title": "人生经历",
+        "explain": "不说具体过去时间，关注是否经历过。",
+        "example": "Have you ever visited London? 你去过伦敦吗？"
+      },
+      {
+        "num": 3,
+        "title": "未结束时间范围",
+        "explain": "today / this week 仍未结束。",
+        "example": "I have sent three emails today. 今天已发三封。"
+      },
+      {
+        "num": 4,
+        "title": "从过去延续至今的状态",
+        "explain": "状态动词常配 since / for。",
+        "example": "I have known her for years. 我认识她很多年了。"
+      }
+    ],
+    "collocations": "already, yet, just, ever, never, so far, up to now, recently, since, for, this week。",
+    "confusion": "yesterday / last week 是已结束的过去时间，用一般过去；so far / today 常连接现在。"
+  },
+  "tense_04": {
+    "timelineDesc": "从过去持续到现在，镜头追踪过程、时长或刚停下留下的痕迹。",
+    "refLabel": "NOW",
+    "refPosition": 50,
+    "barStart": 15,
+    "barEnd": 50,
+    "sentences": {
+      "affirmative": "I have been preparing quotations since nine.",
+      "negative": "I have not been sleeping well lately.",
+      "question": "How long have you been waiting?",
+      "passive": "通常改写主动，避免笨重被动。"
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "持续到现在",
+        "explain": "动作仍在继续，突出持续过程。",
+        "example": "I have been studying since nine. 我从9点一直学到现在。"
+      },
+      {
+        "num": 2,
+        "title": "刚停下但有现时证据",
+        "explain": "动作可能刚结束，痕迹仍明显。",
+        "example": "It has been raining. 地面湿，刚才一直在下雨。"
+      },
+      {
+        "num": 3,
+        "title": "一段时间内反复发生",
+        "explain": "不是一次完成，而是反复活动。",
+        "example": "She has been calling all morning. 她一上午一直在打电话。"
+      },
+      {
+        "num": 4,
+        "title": "解释当前状态",
+        "explain": "当前疲惫、凌乱等由持续动作造成。",
+        "example": "I'm tired because I've been working. 我因一直工作而累。"
+      }
+    ],
+    "collocations": "since, for, all day, all morning, lately, recently, how long；常与 still / yet 的未完成语境相呼应。",
+    "confusion": "have done 看成果/数量；have been doing 看过程/时长。两种信息可在同一段中并存。"
+  },
+  "tense_06": {
+    "timelineDesc": "站在过去某一时刻，看到当时正在展开的背景过程。",
+    "refLabel": "8 PM",
+    "refPosition": 50,
+    "barStart": 20,
+    "barEnd": 50,
+    "sentences": {
+      "affirmative": "I was writing when she called.",
+      "negative": "I was not using the computer then.",
+      "question": "Were you waiting at ten?",
+      "passive": "The goods were being checked."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "过去某时正在进行",
+        "explain": "把镜头停在过去时间点。",
+        "example": "At eight, I was studying. 8点时我正在学习。"
+      },
+      {
+        "num": 2,
+        "title": "背景动作被打断",
+        "explain": "长过程用进行时；短事件用一般过去时。",
+        "example": "I was writing when he called. 他来电时我正在写。"
+      },
+      {
+        "num": 3,
+        "title": "两个动作同时进行",
+        "explain": "while 常连接平行过程。",
+        "example": "She was talking while I was taking notes. 她说话时，我在记。"
+      },
+      {
+        "num": 4,
+        "title": "委婉说明原本想法",
+        "explain": "I was hoping/wondering 降低直接感。",
+        "example": "I was hoping you could help. 我本想请您帮忙。"
+      }
+    ],
+    "collocations": "at 8 yesterday, at that moment, while, when, all evening；背景描述常用。",
+    "confusion": "长背景常用 was doing；插入的短事件常用 did：I was writing when she called。"
+  },
+  "tense_07": {
+    "timelineDesc": "两个过去动作中，先发生的动作退到更早一层：过去之前的过去。",
+    "refLabel": "PAST POINT",
+    "refPosition": 50,
+    "barStart": 15,
+    "barEnd": 33,
+    "sentences": {
+      "affirmative": "I had sent it before she called.",
+      "negative": "I had not seen the new price list.",
+      "question": "Had the meeting started?",
+      "passive": "The goods had been shipped."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "早于另一过去事件",
+        "explain": "先发生用 had done，后发生用过去时。",
+        "example": "The meeting had started when I arrived. 我到时会已开始。"
+      },
+      {
+        "num": 2,
+        "title": "解释过去结果",
+        "explain": "此前事件造成当时状态。",
+        "example": "She was upset because she had lost the file. 她因丢文件而难过。"
+      },
+      {
+        "num": 3,
+        "title": "过去视角中的经历",
+        "explain": "到那个过去点为止是否经历过。",
+        "example": "I had never seen it before then. 那以前我从未见过。"
+      },
+      {
+        "num": 4,
+        "title": "虚拟/遗憾结构",
+        "explain": "if only / wish / third conditional 指未成事实。",
+        "example": "If I had known, I would have acted. 若早知，我会行动。"
+      }
+    ],
+    "collocations": "by then, before, after, already, never...before, by the time + 过去时。",
+    "confusion": "过去完成必须依附过去参照点；没有第二个过去时，不要为了「高级」机械使用 had done。"
+  },
+  "tense_08": {
+    "timelineDesc": "到某个过去点之前，动作已经持续一段时间；焦点在此前的过程和时长。",
+    "refLabel": "PAST POINT",
+    "refPosition": 50,
+    "barStart": 12,
+    "barEnd": 40,
+    "sentences": {
+      "affirmative": "She had been talking for an hour.",
+      "negative": "She had not been waiting long.",
+      "question": "How long had you been working?",
+      "passive": "通常改写主动，避免笨重被动。"
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "持续到过去某点",
+        "explain": "突出在那个时刻之前的时长。",
+        "example": "She had been talking for an hour when I arrived. 我到时她已谈1小时。"
+      },
+      {
+        "num": 2,
+        "title": "解释过去状态",
+        "explain": "持续活动造成当时结果。",
+        "example": "He was tired because he had been driving. 他因一直开车而累。"
+      },
+      {
+        "num": 3,
+        "title": "过去之前反复发生",
+        "explain": "在过去参照点前多次进行。",
+        "example": "They had been meeting weekly. 此前他们每周见面。"
+      },
+      {
+        "num": 4,
+        "title": "刚在过去点前停止",
+        "explain": "过程可能已停，但痕迹仍在。",
+        "example": "The road was wet; it had been raining. 路湿，先前一直下雨。"
+      }
+    ],
+    "collocations": "for, since, all day, how long, before, when, by the time；必须有过去参照点。",
+    "confusion": "had done 看过去点前的成果；had been doing 看过去点前持续了多久。"
+  },
+  "tense_10": {
+    "timelineDesc": "把镜头放到未来某时，观察届时正在进行的动作或自然行程。",
+    "refLabel": "10 AM",
+    "refPosition": 60,
+    "barStart": 70,
+    "barEnd": 100,
+    "sentences": {
+      "affirmative": "I will be meeting the supplier at ten.",
+      "negative": "I will not be using the room then.",
+      "question": "Will you be travelling next week?",
+      "passive": "进行被动很笨重，优先改写。"
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "未来某时正在发生",
+        "explain": "未来时间点切入过程内部。",
+        "example": "At ten, I'll be meeting the supplier. 10点时我会在见供应商。"
+      },
+      {
+        "num": 2,
+        "title": "正常安排中的过程",
+        "explain": "强调届时自然会做，不突出临时决定。",
+        "example": "I'll be visiting clients next week. 下周我会拜访客户。"
+      },
+      {
+        "num": 3,
+        "title": "礼貌询问安排",
+        "explain": "询问对方原有计划，压力更小。",
+        "example": "Will you be using the room? 您到时会用会议室吗？"
+      },
+      {
+        "num": 4,
+        "title": "预测正在发展的状态",
+        "explain": "预计未来阶段持续。",
+        "example": "More buyers will be shopping online. 更多买家将在线采购。"
+      }
+    ],
+    "collocations": "at this time tomorrow, at 10 tomorrow, this time next week, all day tomorrow。",
+    "confusion": "I am meeting her at ten 强调已经约好；I will be meeting her at ten 强调届时过程/行程。"
+  },
+  "tense_11": {
+    "timelineDesc": "站在未来截止点回看：动作在那之前已完成或累计到某个数量。",
+    "refLabel": "DEADLINE",
+    "refPosition": 60,
+    "barStart": 60,
+    "barEnd": 78,
+    "sentences": {
+      "affirmative": "I will have finished by Friday.",
+      "negative": "I will not have finished by noon.",
+      "question": "Will you have completed it by then?",
+      "passive": "The goods will have been shipped."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "未来截止前完成",
+        "explain": "关心到某时前是否完成。",
+        "example": "I'll have finished by Friday. 到周五我就完成了。"
+      },
+      {
+        "num": 2,
+        "title": "到未来点累计成果",
+        "explain": "统计届时的数量/成就。",
+        "example": "By June, we'll have served 500 clients. 到6月将服务500位。"
+      },
+      {
+        "num": 3,
+        "title": "按时间推算已发生",
+        "explain": "偶尔用来推测到现在已完成。",
+        "example": "She will have arrived by now. 按理她现在已到。"
+      },
+      {
+        "num": 4,
+        "title": "期限内的被动完成",
+        "explain": "突出事项在截止前被处理。",
+        "example": "The goods will have been shipped by Friday. 周五前会发出。"
+      }
+    ],
+    "collocations": "by, by then, by the time, before, by the end of, within...；by 是不迟于截止点。",
+    "confusion": "by five = 不迟于5点，常看完成；at five = 正在5点那个时刻，常看当时状态/过程。"
+  },
+  "tense_12": {
+    "timelineDesc": "到未来某点时，动作将已经持续多久；重点是累计时长而非完成数量。",
+    "refLabel": "FUTURE POINT",
+    "refPosition": 50,
+    "barStart": 44,
+    "barEnd": 78,
+    "sentences": {
+      "affirmative": "By June, I will have been studying for six months.",
+      "negative": "I will not have been working there for a year.",
+      "question": "How long will you have been waiting?",
+      "passive": "极少使用，优先换主语或拆句。"
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "累计到未来的时长",
+        "explain": "动作通常还会继续。",
+        "example": "By June, I'll have been studying for six months. 到6月将学满半年。"
+      },
+      {
+        "num": 2,
+        "title": "解释未来状态",
+        "explain": "持续过程将造成未来结果。",
+        "example": "I'll be tired; I'll have been working all day. 届时会因工作一天而累。"
+      },
+      {
+        "num": 3,
+        "title": "持续的工作/项目",
+        "explain": "突出项目持续而非交付成果。",
+        "example": "Next year, we'll have been exporting for a decade. 明年出口满10年。"
+      },
+      {
+        "num": 4,
+        "title": "持续到截止点附近",
+        "explain": "结合 by + 未来点 + for + 时长。",
+        "example": "By noon, she'll have been waiting for three hours. 中午时她将等3小时。"
+      }
+    ],
+    "collocations": "by + 未来时间, for + 时长, by then, by the time；常同时出现截止点和持续时长。",
+    "confusion": "will have done 看届时成果；will have been doing 看届时已经持续的过程。"
+  },
+  "tense_13": {
+    "timelineDesc": "站在过去看当时尚未发生的未来；常用于转述过去的计划、承诺或预测。",
+    "refLabel": "PAST VIEW",
+    "refPosition": 50,
+    "dotPosition": 60,
+    "sentences": {
+      "affirmative": "She said she would call.",
+      "negative": "She said she would not delay.",
+      "question": "Would the plan work?",
+      "passive": "The order would be approved later."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "转述过去的未来",
+        "explain": "will 在过去报道语境常后移为 would。",
+        "example": "She said she would call. 她说她会打来。"
+      },
+      {
+        "num": 2,
+        "title": "过去的预测/预期",
+        "explain": "从当时看，后来会发生。",
+        "example": "I knew the plan would work. 我当时知道计划会奏效。"
+      },
+      {
+        "num": 3,
+        "title": "过去的意愿或拒绝",
+        "explain": "would / wouldn't 可表当时意愿。",
+        "example": "He wouldn't agree. 他当时不肯同意。"
+      },
+      {
+        "num": 4,
+        "title": "条件结果",
+        "explain": "would + V 也用于现在/未来虚拟。",
+        "example": "I would go if I had time. 若有时间我会去。"
+      }
+    ],
+    "collocations": "said, thought, knew, promised, expected + would；the next day, later, soon。",
+    "confusion": "would 还可表示虚拟、过去习惯和礼貌；看到 would 不能自动判断为过去将来。"
+  },
+  "tense_14": {
+    "timelineDesc": "站在过去，想象后来某一时刻动作会正在进行。",
+    "refLabel": "PAST VIEW",
+    "refPosition": 50,
+    "barStart": 55,
+    "barEnd": 80,
+    "sentences": {
+      "affirmative": "I thought she would be working at ten.",
+      "negative": "I knew he would not be travelling.",
+      "question": "Would they be waiting then?",
+      "passive": "形式过重，真实表达通常改写。"
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "过去预计的未来过程",
+        "explain": "当时预计后来某时正在发生。",
+        "example": "I thought she would be working at ten. 我以为她10点会在工作。"
+      },
+      {
+        "num": 2,
+        "title": "转述将来进行时",
+        "explain": "will be doing 后移为 would be doing。",
+        "example": "He said he would be travelling the next day. 他说次日会在旅行。"
+      },
+      {
+        "num": 3,
+        "title": "过去计划中的自然行程",
+        "explain": "突出当时安排里的过程。",
+        "example": "We knew we would be meeting buyers all day. 我们知道会见一天买家。"
+      },
+      {
+        "num": 4,
+        "title": "条件下的进行过程",
+        "explain": "在假设条件下届时会正在做。",
+        "example": "Without the delay, I would be flying now. 若没延误我现在会在飞。"
+      }
+    ],
+    "collocations": "thought/said/knew + would be doing；at that later time, the next day, the following week。",
+    "confusion": "was doing = 当时正在做；would be doing = 从更早的过去看，后来会正在做。"
+  },
+  "tense_15": {
+    "timelineDesc": "站在过去，预计某个后来截止点之前已经完成；也常表达未实现的过去结果。",
+    "refLabel": "LATER DEADLINE",
+    "refPosition": 50,
+    "barStart": 55,
+    "barEnd": 72,
+    "sentences": {
+      "affirmative": "I thought she would have finished by Friday.",
+      "negative": "I thought she would not have left.",
+      "question": "Would the goods have arrived by then?",
+      "passive": "The order would have been approved."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "过去预计后来已完成",
+        "explain": "当时对后续截止结果的预期。",
+        "example": "I thought she would have finished by Friday. 我以为她周五前会完成。"
+      },
+      {
+        "num": 2,
+        "title": "转述将来完成时",
+        "explain": "will have done 后移为 would have done。",
+        "example": "He said the goods would have arrived by then. 他说届时货会到。"
+      },
+      {
+        "num": 3,
+        "title": "与事实相反的过去结果",
+        "explain": "第三条件句/遗憾中非常见。",
+        "example": "I would have helped if I had known. 若早知我会帮。"
+      },
+      {
+        "num": 4,
+        "title": "过去结果的推测",
+        "explain": "在特定语境中表本会发生但未发生。",
+        "example": "Without the error, we would have shipped on time. 若无错误本会准时发。"
+      }
+    ],
+    "collocations": "thought/expected/said + would have done；by then / by Friday；if + had done。",
+    "confusion": "在转述中不说明结果是否兑现；在 if + had done 中，would have done 通常表示事实没有发生。"
+  },
+  "tense_16": {
+    "timelineDesc": "站在过去，预计到后来某点，动作已经持续一段时间；真实使用频率很低。",
+    "refLabel": "LATER POINT",
+    "refPosition": 50,
+    "barStart": 42,
+    "barEnd": 72,
+    "sentences": {
+      "affirmative": "I knew I would have been working there for a year.",
+      "negative": "I would not have been waiting long.",
+      "question": "How long would she have been working?",
+      "passive": "不用刻意构造，优先改写。"
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "过去预计后来的累计时长",
+        "explain": "从过去看，到后来会持续多久。",
+        "example": "I knew that by June I would have been working there for a year. 我知道到6月会工作满一年。"
+      },
+      {
+        "num": 2,
+        "title": "转述完成进行时",
+        "explain": "will have been doing 后移。",
+        "example": "She said she would have been studying for six months by then. 她说届时学满半年。"
+      },
+      {
+        "num": 3,
+        "title": "假设中的持续结果",
+        "explain": "描述若条件成立本会持续的过程。",
+        "example": "Without the move, I would have been working there for ten years. 若没搬走就工作10年了。"
+      },
+      {
+        "num": 4,
+        "title": "解释假设状态",
+        "explain": "说明本来会因持续活动形成的状态。",
+        "example": "I would have been feeling exhausted. 我本会一直感到筋疲力尽。"
+      }
+    ],
+    "collocations": "would have been doing + for/since；by then / by + 后来时间；常依赖明确的过去视角。",
+    "confusion": "它只是「过去视角 + 后来截止点 + 持续时长」的组合。理解逻辑即可，不必主动追求复杂表达。"
+  },
   "tense_05": {
     "timelineDesc": "动作被放进一个已经结束的过去时间盒子，与现在不再连接。",
+    "refLabel": "NOW",
+    "refPosition": 50,
     "dotPosition": 20,
     "sentences": {
       "affirmative": "I sent the quotation yesterday.",
@@ -77,6 +612,8 @@
   },
   "tense_09": {
     "timelineDesc": "从现在对未来作临时决定、承诺、主观判断或中性陈述。",
+    "refLabel": "NOW",
+    "refPosition": 50,
     "dotPosition": 75,
     "sentences": {
       "affirmative": "I will send it tonight.",
