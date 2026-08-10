@@ -1276,18 +1276,6 @@
             <div class="search-results" id="searchResults"></div>
         </div>
 
-        <div class="continue-card">
-            <div class="continue-eyebrow">Continue Learning</div>
-            <div class="continue-eyebrow-cn">今日继续</div>
-            <div class="continue-word-row">
-                <span class="continue-word" id="continueWordText">—</span>
-                <button class="continue-speak-btn" id="continueSpeakBtn" onclick="playContinueWord()">🔊</button>
-            </div>
-            <div class="continue-chinese" id="continueChineseText">正在加载学习进度…</div>
-            <div class="continue-badge" id="continueBadge">📚</div><br>
-            <button class="continue-btn" onclick="scrollToFlashcard()">继续学习 →</button>
-        </div>
-
         <div class="progress-card">
             <div class="progress-stats">
                 <div class="progress-stat"><div class="num" style="color:#172A45" id="totalWords">0</div><div class="lbl">总词汇</div></div>
@@ -1301,6 +1289,18 @@
                 </svg>
                 <div class="progress-ring-text" id="progressRingText">0%</div>
             </div>
+        </div>
+
+        <div class="continue-card">
+            <div class="continue-eyebrow">Continue Learning</div>
+            <div class="continue-eyebrow-cn">今日继续</div>
+            <div class="continue-word-row">
+                <span class="continue-word" id="continueWordText">—</span>
+                <button class="continue-speak-btn" id="continueSpeakBtn" onclick="playContinueWord()">🔊</button>
+            </div>
+            <div class="continue-chinese" id="continueChineseText">正在加载学习进度…</div>
+            <div class="continue-badge" id="continueBadge">📚</div><br>
+            <button class="continue-btn" onclick="scrollToFlashcard()">继续学习 →</button>
         </div>
 
         <div class="worlds-header">
@@ -1334,9 +1334,14 @@
                 </div>
                 <div class="world-arrow">→</div>
             </div>
-            <div class="world-card placeholder">
-                <div style="font-size:28px;margin-bottom:6px;">✨</div>
-                <div class="world-title-cn">更多世界<br>敬请期待</div>
+            <div class="world-card" style="background:linear-gradient(135deg,#C97850,#e0a173)" onclick="openGrammar()">
+                <div class="world-deco">✒️</div>
+                <div>
+                    <div class="world-title-en">Grammar Studio</div>
+                    <div class="world-title-cn">语法工坊</div>
+                    <div class="world-features">句型结构<br>语法规则<br>实战练习</div>
+                </div>
+                <div class="world-arrow">→</div>
             </div>
         </div>
 
@@ -1375,25 +1380,34 @@
         </div>
         <input type="file" id="importFileInput" accept=".json,application/json" style="display:none" onchange="importData(event)">
 
-        <div class="category-tabs" id="flashcardSection">
-            <div class="tab active" data-cat="all" style="--tab-color:#1c2b45" onclick="switchCategory('all')">全部</div>
-            <div class="tab" data-cat="A" style="--tab-color:#1a7568" onclick="switchCategory('A')">🎯 核心状态词</div>
-            <div class="tab" data-cat="S" style="--tab-color:#bd6535" onclick="switchCategory('S')">🧭 空间关系词</div>
-            <div class="tab" data-cat="R" style="--tab-color:#2f4f9e" onclick="switchCategory('R')">🌳 词根词族</div>
-            <div class="tab" data-cat="C" style="--tab-color:#71508f" onclick="switchCategory('C')">🔗 固定搭配</div>
-            <div class="tab" data-cat="I" style="--tab-color:#c99a3e" onclick="switchCategory('I')">👁️ 识别词</div>
-        </div>
-
-        <div id="wordCardContainer">
-            <div class="loading">加载中...</div>
-        </div>
-
         <div class="version-footer" id="versionFooter">v1.1.0 · 更新于 2026-07-31</div>
         <div class="page-bottom-spacer"></div>
     </div>
 
+    <!-- 单词学习模块:改成独立满屏弹窗,不再占首页空间;从"继续学习"或底部导航"学习/背单词"进入 -->
+    <div id="vocabModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-head">
+                <button class="modal-close" onclick="closeVocab()">←</button>
+                <h2 style="font-size:16px;">📖 背单词</h2>
+                <button class="modal-close" onclick="openRecords()">☰</button>
+            </div>
+            <div class="category-tabs" id="flashcardSection">
+                <div class="tab active" data-cat="all" style="--tab-color:#1c2b45" onclick="switchCategory('all')">全部</div>
+                <div class="tab" data-cat="A" style="--tab-color:#1a7568" onclick="switchCategory('A')">🎯 核心状态词</div>
+                <div class="tab" data-cat="S" style="--tab-color:#bd6535" onclick="switchCategory('S')">🧭 空间关系词</div>
+                <div class="tab" data-cat="R" style="--tab-color:#2f4f9e" onclick="switchCategory('R')">🌳 词根词族</div>
+                <div class="tab" data-cat="C" style="--tab-color:#71508f" onclick="switchCategory('C')">🔗 固定搭配</div>
+                <div class="tab" data-cat="I" style="--tab-color:#c99a3e" onclick="switchCategory('I')">👁️ 识别词</div>
+            </div>
+            <div id="wordCardContainer" class="records-list">
+                <div class="loading">加载中...</div>
+            </div>
+        </div>
+    </div>
+
     <div class="bottom-nav">
-        <button class="bnav-item active" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+        <button class="bnav-item active" onclick="closeAllModalsAndGoHome()">
             <span class="bnav-icon">🏠</span>首页
         </button>
         <button class="bnav-item" onclick="scrollToFlashcard()">
@@ -1478,6 +1492,17 @@
         </div>
     </div>
 
+    <!-- 语法工坊弹窗(框架已搭好,等具体内容资料上传后再填充) -->
+    <div id="grammarModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h2 class="modal-title-fit">✒️ Grammar Studio · 语法工坊</h2>
+                <button class="modal-close" onclick="closeGrammar()">✕</button>
+            </div>
+            <div id="grammarContent" class="records-list"></div>
+        </div>
+    </div>
+
     <script>
         // 注册Service Worker（网络优先策略，见sw.js，保证内容永远最新）
         if ('serviceWorker' in navigator) {
@@ -1549,7 +1574,7 @@
         // 用MutationObserver统一监听所有弹窗内容容器:只要内容发生变化(不管是哪个函数改的),
         // 自动把滚动位置重置回顶部,不用在每个渲染函数里单独处理
         function setupScrollResetObservers() {
-            const ids = ['recordsList', 'drillContent', 'listeningContent', 'readingContent', 'tenseDetailContent'];
+            const ids = ['recordsList', 'drillContent', 'listeningContent', 'readingContent', 'tenseDetailContent', 'grammarContent', 'wordCardContainer'];
             ids.forEach(id => {
                 const el = document.getElementById(id);
                 if (!el) return;
@@ -2587,10 +2612,18 @@
             const word = filteredWords[currentIndex];
             if (word) playPronunciation(displayName(word), document.getElementById('continueSpeakBtn'));
         }
-        // 点"继续学习"或底部导航"学习/背单词",平滑滚动到单词卡片区域
-        function scrollToFlashcard() {
-            const el = document.getElementById('flashcardSection');
-            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // 点"继续学习"或底部导航"学习/背单词",打开独立的满屏单词学习弹窗
+        function scrollToFlashcard() { openVocab(); }
+        function openVocab() {
+            document.getElementById('vocabModal').classList.add('show');
+        }
+        function closeVocab() {
+            document.getElementById('vocabModal').classList.remove('show');
+        }
+        // "首页"按钮:关掉当前所有可能开着的满屏弹窗,回到真正的首页
+        function closeAllModalsAndGoHome() {
+            document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('show'));
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         function toggleMoreTools() {
             const panel = document.getElementById('moreToolsPanel');
@@ -3227,6 +3260,20 @@
             html += `<div class="trecall-tip">${tenseExtra.recallTip}</div>`;
             html += '</div>';
             container.innerHTML = html;
+        }
+
+        // ===== ✒️ 语法工坊:框架已搭好,等具体资料上传后再填充实际内容 =====
+        function openGrammar() {
+            document.getElementById('grammarModal').classList.add('show');
+            document.getElementById('grammarContent').innerHTML = `
+                <div class="records-empty">
+                    📚 语法工坊内容正在整理中<br><br>
+                    句型结构 / 语法规则 / 实战练习<br>敬请期待
+                </div>
+            `;
+        }
+        function closeGrammar() {
+            document.getElementById('grammarModal').classList.remove('show');
         }
 
         window.onload = function () {
