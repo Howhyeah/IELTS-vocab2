@@ -1238,6 +1238,20 @@
                 .replace(/>/g, '&gt;');
         }
 
+        // 用MutationObserver统一监听所有弹窗内容容器:只要内容发生变化(不管是哪个函数改的),
+        // 自动把滚动位置重置回顶部,不用在每个渲染函数里单独处理
+        function setupScrollResetObservers() {
+            const ids = ['recordsList', 'drillContent', 'listeningContent', 'readingContent', 'tenseMapContent', 'tenseDetailContent'];
+            ids.forEach(id => {
+                const el = document.getElementById(id);
+                if (!el) return;
+                const observer = new MutationObserver(() => {
+                    el.scrollTop = 0;
+                });
+                observer.observe(el, { childList: true });
+            });
+        }
+
         function displayName(w) {
             return w.word || w.phrase || w.root || '';
         }
@@ -2605,19 +2619,23 @@
                 container.innerHTML = `<div class="records-empty">时态数据还没有上传</div>`;
                 return;
             }
-            // 按"现在/过去/将来/过去看将来"分4组,每组内部一般在左列,进行在右列(2列布局)
+            // 按"现在/过去/将来/过去看将来"分4组,每组内2行:第1行(一般|进行) 第2行(完成|完成进行),共16格
             const groups = ['现在', '过去', '将来', '过去看将来'];
+            const rowPairs = [['一般', '进行'], ['完成', '完成进行']];
             let gridHtml = '<div class="tmap-grid">';
             groups.forEach(g => {
-                const items = tenseMatrix.filter(t => t.category === g && (t.type === '一般' || t.type === '进行'));
-                items.forEach(t => {
-                    const isSelected = t.id === selectedId;
-                    gridHtml += `
-                        <div class="tmap-cell ${isSelected ? 'tmap-selected' : ''}" data-tid="${t.id}" onclick="renderTenseMap(this.dataset.tid)">
-                            <div class="tmap-name">${t.nameZh}</div>
-                            <div class="tmap-formula">${t.formula}</div>
-                        </div>
-                    `;
+                rowPairs.forEach(pair => {
+                    pair.forEach(type => {
+                        const t = tenseMatrix.find(x => x.category === g && x.type === type);
+                        if (!t) return;
+                        const isSelected = t.id === selectedId;
+                        gridHtml += `
+                            <div class="tmap-cell ${isSelected ? 'tmap-selected' : ''}" data-tid="${t.id}" onclick="renderTenseMap(this.dataset.tid)">
+                                <div class="tmap-name">${t.nameZh}</div>
+                                <div class="tmap-formula">${t.formula}</div>
+                            </div>
+                        `;
+                    });
                 });
             });
             gridHtml += '</div>';
@@ -2870,7 +2888,10 @@
             container.innerHTML = html;
         }
 
-        window.onload = init;
+        window.onload = function () {
+            init();
+            setupScrollResetObservers();
+        };
     </script>
 </body>
 </html>
