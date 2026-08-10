@@ -12,11 +12,243 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #f5f2ea;
+            background: #F8F5EF;
             min-height: 100vh;
             padding: 15px;
+            color: #172A45;
         }
         .container { max-width: 800px; margin: 0 auto; }
+
+        /* ===== Header 品牌区 ===== */
+        .header-brand {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 6px 4px 20px;
+        }
+        .header-brand-text .eyebrow {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: #B28A5A;
+            font-weight: 600;
+        }
+        .header-brand-text .mastery {
+            font-family: Georgia, 'Times New Roman', serif;
+            font-size: 34px;
+            font-weight: 700;
+            color: #172A45;
+            line-height: 1.15;
+            margin: 2px 0 6px;
+        }
+        .header-brand-text .subtitle {
+            font-size: 13px;
+            color: #687386;
+        }
+        .header-icons { display: flex; gap: 10px; }
+        .header-icon-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            border: none;
+            font-size: 16px;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+            cursor: pointer;
+        }
+
+        /* ===== Continue Learning 卡片 ===== */
+        .continue-card {
+            background: linear-gradient(135deg, #172A45 0%, #24405f 100%);
+            border-radius: 26px;
+            padding: 22px;
+            margin-bottom: 16px;
+            color: white;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(23,42,69,0.25);
+        }
+        .continue-card::before {
+            content: '';
+            position: absolute;
+            right: -30px; top: -30px;
+            width: 160px; height: 160px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.05);
+        }
+        .continue-eyebrow { font-size: 12px; color: #d8b98a; font-weight: 600; letter-spacing: 1px; }
+        .continue-eyebrow-cn { font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 2px; }
+        .continue-word-row { display: flex; align-items: center; gap: 10px; margin: 12px 0 6px; }
+        .continue-word { font-size: 32px; font-weight: 700; font-family: Georgia, serif; }
+        .continue-speak-btn {
+            width: 34px; height: 34px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.15);
+            border: none;
+            color: white;
+            font-size: 14px;
+        }
+        .continue-chinese { font-size: 14px; color: rgba(255,255,255,0.8); margin-bottom: 14px; }
+        .continue-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.12);
+            font-size: 11px;
+            padding: 4px 10px;
+            border-radius: 10px;
+            margin-bottom: 14px;
+        }
+        .continue-btn {
+            background: #B28A5A;
+            color: white;
+            border: none;
+            padding: 11px 22px;
+            border-radius: 22px;
+            font-size: 13.5px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        /* ===== Progress 进度卡片 ===== */
+        .progress-card {
+            background: white;
+            border-radius: 22px;
+            padding: 18px 20px;
+            margin-bottom: 28px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .progress-stats { display: flex; gap: 18px; }
+        .progress-stat { text-align: center; }
+        .progress-stat .num { font-size: 22px; font-weight: 700; }
+        .progress-stat .lbl { font-size: 10.5px; color: #687386; margin-top: 2px; }
+        .progress-ring-wrap { position: relative; width: 54px; height: 54px; flex-shrink: 0; }
+        .progress-ring-wrap svg { transform: rotate(-90deg); }
+        .progress-ring-text {
+            position: absolute; inset: 0;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 12px; font-weight: 700; color: #172A45;
+        }
+
+        /* ===== Explore Worlds ===== */
+        .worlds-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 14px;
+            padding: 0 2px;
+        }
+        .worlds-header .title-en { font-family: Georgia, serif; font-size: 19px; font-weight: 700; color: #172A45; }
+        .worlds-header .title-cn { font-size: 12px; color: #687386; margin-left: 6px; }
+        .worlds-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 13px;
+            margin-bottom: 28px;
+        }
+        .world-card {
+            border-radius: 24px;
+            padding: 16px;
+            min-height: 168px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            color: white;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+        }
+        .world-card:active { transform: scale(0.98); }
+        .world-deco {
+            position: absolute;
+            right: -18px; bottom: -18px;
+            font-size: 90px;
+            opacity: 0.18;
+            line-height: 1;
+        }
+        .world-title-en { font-family: Georgia, serif; font-size: 17px; font-weight: 700; }
+        .world-title-cn { font-size: 12px; opacity: 0.85; margin-top: 1px; }
+        .world-features { font-size: 10.5px; opacity: 0.75; line-height: 1.6; margin-top: 8px; }
+        .world-arrow {
+            width: 30px; height: 30px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.2);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 13px;
+            margin-top: 10px;
+            align-self: flex-start;
+        }
+        .world-card.placeholder {
+            background: #ECE7DC;
+            color: #9a927f;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .world-card.placeholder .world-title-cn { font-size: 13px; opacity: 1; }
+
+        /* ===== Quick Access ===== */
+        .quickaccess-card {
+            background: white;
+            border-radius: 20px;
+            padding: 16px 8px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.04);
+        }
+        .quickaccess-header { font-size: 12px; color: #687386; padding: 0 12px 12px; }
+        .quickaccess-header .en { font-family: Georgia, serif; font-weight: 700; color: #172A45; font-size: 14px; margin-right: 6px; }
+        .quickaccess-row {
+            display: flex;
+            justify-content: space-around;
+        }
+        .qa-item { text-align: center; cursor: pointer; flex: 1; }
+        .qa-icon {
+            width: 44px; height: 44px;
+            border-radius: 14px;
+            background: #F8F5EF;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 18px;
+            margin: 0 auto 6px;
+        }
+        .qa-label { font-size: 10.5px; color: #444; }
+
+        /* ===== Bottom Navigation ===== */
+        .bottom-nav {
+            position: fixed;
+            left: 0; right: 0; bottom: 0;
+            background: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 0 calc(10px + env(safe-area-inset-bottom));
+            box-shadow: 0 -4px 20px rgba(0,0,0,0.06);
+            z-index: 1500;
+        }
+        .bnav-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3px;
+            font-size: 10px;
+            color: #9099a8;
+            background: none;
+            border: none;
+        }
+        .bnav-item.center {
+            background: #172A45;
+            color: white;
+            width: 52px; height: 52px;
+            border-radius: 50%;
+            justify-content: center;
+            margin-top: -22px;
+            box-shadow: 0 6px 16px rgba(23,42,69,0.35);
+        }
+        .bnav-item.center .bnav-icon { font-size: 20px; }
+        .bnav-icon { font-size: 17px; }
+        .bnav-item.active { color: #172A45; font-weight: bold; }
+        .page-bottom-spacer { height: 90px; }
+
         .status-bar {
             background: white;
             border-radius: 15px;
@@ -1027,67 +1259,123 @@
 </head>
 <body>
     <div class="container">
-        <div class="status-bar">
-            <h1>📚 雅思词汇真经</h1>
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-number" id="totalWords">0</div>
-                    <div class="stat-label">总词汇</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" id="learnedWords">0</div>
-                    <div class="stat-label">已背单词</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number" id="streakDays">0</div>
-                    <div class="stat-label">连续打卡</div>
-                </div>
+
+        <div class="header-brand">
+            <div class="header-brand-text">
+                <div class="eyebrow">IELTS VOCAB</div>
+                <div class="mastery">Mastery</div>
+                <div class="subtitle">每天进步一点点，词汇更进一步</div>
             </div>
-            <div class="checkin-status" id="checkinStatus"></div>
+            <div class="header-icons">
+                <button class="header-icon-btn" onclick="document.getElementById('searchInput').focus()">🔍</button>
+            </div>
         </div>
 
-        <div class="search-section">
-            <input class="search-input" type="text" id="searchInput" placeholder="🔍 搜索单词（英文或中文都可以）" oninput="onSearchInput(event)">
+        <div class="search-section" style="margin-bottom:18px;">
+            <input class="search-input" type="text" id="searchInput" placeholder="搜索单词（英文或中文都可以）" oninput="onSearchInput(event)" style="box-shadow:0 4px 16px rgba(0,0,0,0.05);">
             <div class="search-results" id="searchResults"></div>
         </div>
 
-        <div class="function-grid">
-            <div class="function-item" style="--accent-bg:#eef1ff" onclick="openRecords()">
-                <div class="function-icon">📖</div>
-                <div class="function-label">学习记录</div>
+        <div class="continue-card">
+            <div class="continue-eyebrow">Continue Learning</div>
+            <div class="continue-eyebrow-cn">今日继续</div>
+            <div class="continue-word-row">
+                <span class="continue-word" id="continueWordText">—</span>
+                <button class="continue-speak-btn" id="continueSpeakBtn" onclick="playContinueWord()">🔊</button>
             </div>
-            <div class="function-item" style="--accent-bg:#fff1e8" onclick="openDrill()">
-                <div class="function-icon">🔥</div>
-                <div class="function-label">强记模式</div>
+            <div class="continue-chinese" id="continueChineseText">正在加载学习进度…</div>
+            <div class="continue-badge" id="continueBadge">📚</div><br>
+            <button class="continue-btn" onclick="scrollToFlashcard()">继续学习 →</button>
+        </div>
+
+        <div class="progress-card">
+            <div class="progress-stats">
+                <div class="progress-stat"><div class="num" style="color:#172A45" id="totalWords">0</div><div class="lbl">总词汇</div></div>
+                <div class="progress-stat"><div class="num" style="color:#3f9d6b" id="learnedWords">0</div><div class="lbl">已掌握</div></div>
+                <div class="progress-stat"><div class="num" style="color:#B28A5A" id="streakDays">0</div><div class="lbl">连续学习 <span id="checkinStatus" style="font-size:9px;"></span></div></div>
             </div>
-            <div class="function-item" style="--accent-bg:#e3f8fa" onclick="openListening()">
-                <div class="function-icon">🎧</div>
-                <div class="function-label">听力语料库</div>
+            <div class="progress-ring-wrap">
+                <svg width="54" height="54">
+                    <circle cx="27" cy="27" r="23" fill="none" stroke="#F0EBE0" stroke-width="6"></circle>
+                    <circle id="progressRingCircle" cx="27" cy="27" r="23" fill="none" stroke="#B28A5A" stroke-width="6" stroke-linecap="round" stroke-dasharray="144.5" stroke-dashoffset="144.5"></circle>
+                </svg>
+                <div class="progress-ring-text" id="progressRingText">0%</div>
             </div>
-            <div class="function-item" style="--accent-bg:#f3ecff" onclick="openReading()">
-                <div class="function-icon">📚</div>
-                <div class="function-label">阅读词库</div>
+        </div>
+
+        <div class="worlds-header">
+            <div><span class="title-en">Explore Worlds</span><span class="title-cn">探索学习世界</span></div>
+        </div>
+        <div class="worlds-grid">
+            <div class="world-card" style="background:linear-gradient(135deg,#17324D,#2c4a68)" onclick="openReading()">
+                <div class="world-deco">📖</div>
+                <div>
+                    <div class="world-title-en">Reading World</div>
+                    <div class="world-title-cn">阅读世界</div>
+                    <div class="world-features">文章精读<br>长难句解析<br>词汇应用</div>
+                </div>
+                <div class="world-arrow">→</div>
             </div>
-            <div class="function-item" style="--accent-bg:#eef3ee" onclick="exportData()">
-                <div class="function-icon">⬆️</div>
-                <div class="function-label">导出记录</div>
+            <div class="world-card" style="background:linear-gradient(135deg,#4D9D9A,#6cb3b0)" onclick="openListening()">
+                <div class="world-deco">🎧</div>
+                <div>
+                    <div class="world-title-en">Listening Lab</div>
+                    <div class="world-title-cn">听力空间</div>
+                    <div class="world-features">精听训练<br>跟读练习<br>真实语料</div>
+                </div>
+                <div class="world-arrow">→</div>
             </div>
-            <div class="function-item" style="--accent-bg:#eef3ee" onclick="document.getElementById('importFileInput').click()">
-                <div class="function-icon">⬇️</div>
-                <div class="function-label">导入记录</div>
+            <div class="world-card" style="background:linear-gradient(135deg,#71866B,#8a9c82)" onclick="openTenseDetail()">
+                <div class="world-deco">🕰️</div>
+                <div>
+                    <div class="world-title-en">Tense Journey</div>
+                    <div class="world-title-cn">时态之旅</div>
+                    <div class="world-features">时态地图<br>时态详解<br>对比学习</div>
+                </div>
+                <div class="world-arrow">→</div>
             </div>
-            <div class="function-item" style="--accent-bg:#f0efe8" onclick="openTenseMap()">
-                <div class="function-icon">🕐</div>
-                <div class="function-label">时态地图</div>
+            <div class="world-card placeholder">
+                <div style="font-size:28px;margin-bottom:6px;">✨</div>
+                <div class="world-title-cn">更多世界<br>敬请期待</div>
             </div>
-            <div class="function-item" style="--accent-bg:#e8ecf5" onclick="openTenseDetail()">
-                <div class="function-icon">📘</div>
-                <div class="function-label">时态详解</div>
+        </div>
+
+        <div class="quickaccess-card">
+            <div class="quickaccess-header"><span class="en">Quick Access</span>常用功能</div>
+            <div class="quickaccess-row">
+                <div class="qa-item" onclick="openRecords()">
+                    <div class="qa-icon">📖</div>
+                    <div class="qa-label">学习记录</div>
+                </div>
+                <div class="qa-item" onclick="openDrill()">
+                    <div class="qa-icon">🔥</div>
+                    <div class="qa-label">强记模式</div>
+                </div>
+                <div class="qa-item" onclick="openRecords(); setTimeout(function(){showRecordTab('fuzzy')}, 50)">
+                    <div class="qa-icon">🌀</div>
+                    <div class="qa-label">模糊记忆</div>
+                </div>
+                <div class="qa-item" onclick="toggleMoreTools()">
+                    <div class="qa-icon">•••</div>
+                    <div class="qa-label">更多工具</div>
+                </div>
+            </div>
+            <div id="moreToolsPanel" style="display:none; margin-top:14px; padding-top:14px; border-top:1px solid #f0ebe0;">
+                <div class="quickaccess-row">
+                    <div class="qa-item" onclick="exportData()">
+                        <div class="qa-icon">⬆️</div>
+                        <div class="qa-label">导出记录</div>
+                    </div>
+                    <div class="qa-item" onclick="document.getElementById('importFileInput').click()">
+                        <div class="qa-icon">⬇️</div>
+                        <div class="qa-label">导入记录</div>
+                    </div>
+                </div>
             </div>
         </div>
         <input type="file" id="importFileInput" accept=".json,application/json" style="display:none" onchange="importData(event)">
 
-        <div class="category-tabs">
+        <div class="category-tabs" id="flashcardSection">
             <div class="tab active" data-cat="all" style="--tab-color:#1c2b45" onclick="switchCategory('all')">全部</div>
             <div class="tab" data-cat="A" style="--tab-color:#1a7568" onclick="switchCategory('A')">🎯 核心状态词</div>
             <div class="tab" data-cat="S" style="--tab-color:#bd6535" onclick="switchCategory('S')">🧭 空间关系词</div>
@@ -1101,6 +1389,25 @@
         </div>
 
         <div class="version-footer" id="versionFooter">v1.1.0 · 更新于 2026-07-31</div>
+        <div class="page-bottom-spacer"></div>
+    </div>
+
+    <div class="bottom-nav">
+        <button class="bnav-item active" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+            <span class="bnav-icon">🏠</span>首页
+        </button>
+        <button class="bnav-item" onclick="scrollToFlashcard()">
+            <span class="bnav-icon">📖</span>学习
+        </button>
+        <button class="bnav-item center" onclick="scrollToFlashcard()">
+            <span class="bnav-icon">🪶</span>
+        </button>
+        <button class="bnav-item" onclick="openRecords(); setTimeout(function(){showRecordTab('review')}, 50)">
+            <span class="bnav-icon">🔁</span>复习
+        </button>
+        <button class="bnav-item" onclick="openRecords()">
+            <span class="bnav-icon">👤</span>我的
+        </button>
     </div>
 
     <!-- 学习记录弹窗 -->
@@ -1154,25 +1461,16 @@
     </div>
 
     <!-- 时态地图弹窗 -->
-    <div id="tenseMapModal" class="modal-overlay">
-        <div class="modal-box">
-            <div class="modal-head">
-                <h2 class="modal-title-fit">🕐 English Tense Map</h2>
-                <button class="modal-close" onclick="closeTenseMap()">✕</button>
-            </div>
-            <div id="tenseMapContent" class="records-list"></div>
-        </div>
-    </div>
-
-    <!-- 时态详解弹窗 -->
+    <!-- 时态之旅弹窗(合并了原来的时态地图+时态详解,4个子标签) -->
     <div id="tenseDetailModal" class="modal-overlay">
         <div class="modal-box">
             <div class="modal-head">
-                <h2 class="modal-title-fit" id="tenseDetailTitle">📘 时态详解</h2>
+                <h2 class="modal-title-fit" id="tenseDetailTitle">🕰️ Tense Journey · 时态之旅</h2>
                 <button class="modal-close" onclick="closeTenseDetail()">✕</button>
             </div>
             <div class="tense-subtabs">
-                <button class="tense-subtab active" data-subtab="matrix" onclick="switchTenseSubtab('matrix')">矩阵总览</button>
+                <button class="tense-subtab active" data-subtab="map" onclick="switchTenseSubtab('map')">时态地图</button>
+                <button class="tense-subtab" data-subtab="matrix" onclick="switchTenseSubtab('matrix')">矩阵总览</button>
                 <button class="tense-subtab" data-subtab="compare" onclick="switchTenseSubtab('compare')">辨析与语法</button>
                 <button class="tense-subtab" data-subtab="recall" onclick="switchTenseSubtab('recall')">每日速记</button>
             </div>
@@ -1251,7 +1549,7 @@
         // 用MutationObserver统一监听所有弹窗内容容器:只要内容发生变化(不管是哪个函数改的),
         // 自动把滚动位置重置回顶部,不用在每个渲染函数里单独处理
         function setupScrollResetObservers() {
-            const ids = ['recordsList', 'drillContent', 'listeningContent', 'readingContent', 'tenseMapContent', 'tenseDetailContent'];
+            const ids = ['recordsList', 'drillContent', 'listeningContent', 'readingContent', 'tenseDetailContent'];
             ids.forEach(id => {
                 const el = document.getElementById(id);
                 if (!el) return;
@@ -1854,6 +2152,7 @@
 
             loadWord();
             savePosition();
+            updateContinueCard();
         }
 
         function loadWord() {
@@ -2267,9 +2566,46 @@
 
             const checkins = loadCheckins();
             const t = todayStr();
-            document.getElementById('checkinStatus').textContent = checkins[t] ? '✅ 今日已打卡' : '';
+            document.getElementById('checkinStatus').textContent = checkins[t] ? '✅' : '';
 
             updateTabCounts();
+            updateContinueCard();
+            updateProgressRing(knownCount);
+        }
+
+        // Continue Learning卡片:显示当前正在看的单词
+        function updateContinueCard() {
+            const word = filteredWords[currentIndex];
+            if (!word) return;
+            const name = displayName(word);
+            document.getElementById('continueWordText').textContent = name;
+            document.getElementById('continueChineseText').textContent = word.chinese || '';
+            const catLabels = { A: '🎯 核心状态词', S: '🧭 空间关系词', R: '🌳 词根词族', C: '🔗 固定搭配', I: '👁️ 识别词' };
+            document.getElementById('continueBadge').textContent = catLabels[word.category] || '📚';
+        }
+        function playContinueWord() {
+            const word = filteredWords[currentIndex];
+            if (word) playPronunciation(displayName(word), document.getElementById('continueSpeakBtn'));
+        }
+        // 点"继续学习"或底部导航"学习/背单词",平滑滚动到单词卡片区域
+        function scrollToFlashcard() {
+            const el = document.getElementById('flashcardSection');
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        function toggleMoreTools() {
+            const panel = document.getElementById('moreToolsPanel');
+            panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+        }
+        // 今日进度环:以"今天新标记为认识的词数/20"做一个简单的每日目标参照,超过20封顶100%
+        function updateProgressRing(knownCount) {
+            const records = loadRecords();
+            const t = todayStr();
+            const todayCount = Object.values(records).filter(r => r.status === 'know' && r.firstLearnedDate === t).length;
+            const pct = Math.min(100, Math.round((todayCount / 20) * 100));
+            const circle = document.getElementById('progressRingCircle');
+            const circumference = 144.5;
+            circle.style.strokeDashoffset = circumference - (circumference * pct / 100);
+            document.getElementById('progressRingText').textContent = pct + '%';
         }
 
         // ===== 导出/导入学习记录（用于换域名/换设备时保住数据） =====
@@ -2616,15 +2952,8 @@
         }
 
         // ---- 时态地图(2列×8行,点格子只显示这一条注释) ----
-        function openTenseMap() {
-            document.getElementById('tenseMapModal').classList.add('show');
-            renderTenseMap(null);
-        }
-        function closeTenseMap() {
-            document.getElementById('tenseMapModal').classList.remove('show');
-        }
         function renderTenseMap(selectedId) {
-            const container = document.getElementById('tenseMapContent');
+            const container = document.getElementById('tenseDetailContent');
             if (tenseMatrix.length === 0) {
                 container.innerHTML = `<div class="records-empty">时态数据还没有上传</div>`;
                 return;
@@ -2671,11 +3000,10 @@
             container.innerHTML = gridHtml + descHtml;
         }
 
-        // ---- 时态详解(矩阵总览 / 辨析与语法 / 每日速记 三个子标签) ----
+        // ---- 时态之旅:地图 / 矩阵总览 / 辨析与语法 / 每日速记 四个子标签,统一一个弹窗 ----
         function openTenseDetail() {
             document.getElementById('tenseDetailModal').classList.add('show');
-            document.getElementById('tenseDetailTitle').textContent = '📘 时态详解';
-            switchTenseSubtab('matrix');
+            switchTenseSubtab('map');
         }
         function closeTenseDetail() {
             document.getElementById('tenseDetailModal').classList.remove('show');
@@ -2684,8 +3012,9 @@
             document.querySelectorAll('.tense-subtab').forEach(el => {
                 el.classList.toggle('active', el.dataset.subtab === tab);
             });
-            document.getElementById('tenseDetailTitle').textContent = '📘 时态详解';
-            if (tab === 'matrix') renderTenseMatrix();
+            document.getElementById('tenseDetailTitle').textContent = '🕰️ Tense Journey · 时态之旅';
+            if (tab === 'map') renderTenseMap(null);
+            else if (tab === 'matrix') renderTenseMatrix();
             else if (tab === 'compare') renderTenseCompare();
             else if (tab === 'recall') renderTenseRecall();
         }
