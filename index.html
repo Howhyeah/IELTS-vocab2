@@ -53,6 +53,369 @@
             padding-bottom: 10px;
             border-bottom: 1px solid #f0f0f0;
         }
+
+        /* ===== 时态地图 ===== */
+        .tmap-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .tmap-cell {
+            background: #f8f9fa;
+            border: 2px solid transparent;
+            border-radius: 12px;
+            padding: 10px 8px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .tmap-cell.tmap-selected {
+            border-color: #4a90d9;
+            background: #eef6ff;
+        }
+        .tmap-name { font-size: 13px; font-weight: bold; color: #333; }
+        .tmap-formula { font-size: 11px; color: #888; margin-top: 2px; }
+        .tmap-desc-box {
+            background: #fafafa;
+            border: 2px solid #ccc;
+            border-radius: 14px;
+            padding: 16px;
+        }
+        .tmap-desc-title { font-size: 15px; font-weight: bold; margin-bottom: 8px; }
+        .tmap-desc-text { font-size: 14px; color: #444; line-height: 1.6; margin-bottom: 8px; }
+        .tmap-desc-clue { font-size: 12.5px; color: #888; }
+
+        /* ===== 时态详解:子标签 ===== */
+        .tense-subtabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        .tense-subtab {
+            flex: 1;
+            padding: 9px 0;
+            background: #f0f0f0;
+            border: none;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #666;
+        }
+        .tense-subtab.active { background: #2c3e5c; color: white; }
+
+        /* ===== 4×4矩阵总览 ===== */
+        .tmatrix-wrap { margin-bottom: 16px; }
+        .tmatrix-header-row {
+            display: grid;
+            grid-template-columns: 50px 1fr 1fr 1fr 1fr;
+            gap: 4px;
+            margin-bottom: 4px;
+        }
+        .tmatrix-corner { background: transparent; }
+        .tmatrix-col-head {
+            background: #1c2b45;
+            color: white;
+            font-size: 11px;
+            text-align: center;
+            padding: 8px 2px;
+            border-radius: 6px;
+            line-height: 1.5;
+        }
+        .tmatrix-col-head span { font-size: 9px; opacity: 0.75; font-weight: normal; }
+        .tmatrix-body-row {
+            display: grid;
+            grid-template-columns: 50px 1fr 1fr 1fr 1fr;
+            gap: 4px;
+            margin-bottom: 4px;
+        }
+        .tmatrix-row-head {
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            writing-mode: vertical-rl;
+            padding: 6px 0;
+        }
+        .tmatrix-cell {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 8px;
+            padding: 6px 4px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .tmatrix-num {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            line-height: 16px;
+            border-radius: 50%;
+            color: white;
+            font-size: 9px;
+            font-weight: bold;
+        }
+        .tmatrix-name { font-size: 10.5px; font-weight: bold; color: #333; margin-top: 3px; }
+        .tmatrix-formula { font-size: 8.5px; color: #999; margin-top: 1px; }
+        .tmatrix-mastery {
+            display: inline-block;
+            font-size: 8px;
+            padding: 1px 5px;
+            border-radius: 6px;
+            margin-top: 4px;
+        }
+        .tmatrix-note {
+            background: #fdf6ea;
+            border: 1px solid #ecd9b0;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 12.5px;
+            color: #7a6a3f;
+            line-height: 1.6;
+        }
+
+        /* ===== 时态详情页 ===== */
+        .tdetail-header {
+            border-radius: 14px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 14px;
+        }
+        .tdetail-num-circle {
+            width: 40px;
+            height: 40px;
+            border: 2px solid rgba(255,255,255,0.6);
+            border-radius: 50%;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        .tdetail-names { flex: 1; }
+        .tdetail-name-zh { color: white; font-size: 18px; font-weight: bold; }
+        .tdetail-name-en { color: rgba(255,255,255,0.85); font-size: 12.5px; margin-top: 2px; }
+        .tdetail-mastery-pill {
+            background: rgba(255,255,255,0.25);
+            color: white;
+            font-size: 11px;
+            padding: 4px 10px;
+            border-radius: 12px;
+            white-space: nowrap;
+        }
+        .tdetail-timeline-box {
+            background: white;
+            border: 1.5px solid #ddd;
+            border-radius: 12px;
+            padding: 14px;
+            margin-bottom: 16px;
+        }
+        .tdetail-timeline-label { font-size: 12px; font-weight: bold; margin-bottom: 6px; }
+        .tdetail-timeline-desc { font-size: 13px; color: #444; line-height: 1.5; margin-bottom: 12px; }
+        .tdetail-timeline-bar { position: relative; height: 3px; background: #ddd; margin: 10px 4px; }
+        .tdetail-timeline-track { position: absolute; width: 100%; height: 100%; background: #ddd; }
+        .tdetail-timeline-dot {
+            position: absolute;
+            top: 50%;
+            width: 11px;
+            height: 11px;
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .tdetail-timeline-now {
+            position: absolute;
+            top: -8px;
+            width: 1.5px;
+            height: 19px;
+            background: #333;
+        }
+        .tdetail-timeline-marks {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            color: #999;
+            margin-top: 4px;
+        }
+        .tdetail-now-mark { font-weight: bold; color: #333; }
+        .tdetail-section-title { font-size: 14.5px; font-weight: bold; color: #333; margin: 16px 0 10px; }
+        .tdetail-sentence-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+        .tdetail-sentence-card {
+            background: white;
+            border: 1px solid #e5e5e5;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .tdetail-tag {
+            display: inline-block;
+            color: white;
+            font-size: 10.5px;
+            padding: 2px 9px;
+            border-radius: 9px;
+            margin-bottom: 6px;
+        }
+        .tdetail-sentence-text { font-size: 12.5px; color: #333; line-height: 1.4; }
+        .tdetail-scenario-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+        }
+        .tdetail-scenario-card {
+            background: white;
+            border: 1px solid #e5e5e5;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .tdetail-scenario-head { display: flex; align-items: center; gap: 6px; margin-bottom: 6px; }
+        .tdetail-num-badge {
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            border-radius: 50%;
+            color: white;
+            font-size: 10px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        .tdetail-scenario-title { font-size: 12px; font-weight: bold; }
+        .tdetail-scenario-explain { font-size: 11px; color: #888; margin-bottom: 5px; line-height: 1.4; }
+        .tdetail-scenario-example { font-size: 12px; color: #333; line-height: 1.4; }
+        .tdetail-bottom-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            margin-top: 10px;
+        }
+        .tdetail-collo-card, .tdetail-confusion-card {
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .tdetail-collo-card { background: white; border: 1px solid #e5e5e5; }
+        .tdetail-confusion-card { background: #fdf6ea; border: 1px solid #ecd9b0; }
+        .tdetail-collo-title { font-size: 12px; font-weight: bold; margin-bottom: 6px; }
+        .tdetail-confusion-title { font-size: 12px; font-weight: bold; color: #a3742e; margin-bottom: 6px; }
+        .tdetail-collo-text, .tdetail-confusion-text { font-size: 11.5px; color: #555; line-height: 1.5; }
+
+        /* ===== 未来表达选择 ===== */
+        .tfuture-card {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            border: 1.5px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 8px;
+        }
+        .tfuture-num {
+            width: 22px;
+            height: 22px;
+            line-height: 22px;
+            border-radius: 50%;
+            color: white;
+            font-size: 11px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+        .tfuture-body { flex: 1; }
+        .tfuture-title { font-size: 11.5px; font-weight: bold; }
+        .tfuture-formula { font-size: 12.5px; font-weight: bold; color: #333; margin-top: 2px; }
+        .tfuture-example { font-size: 11px; color: #666; text-align: right; max-width: 40%; }
+        .tdetail-note-box {
+            background: #fdf6ea;
+            border: 1px solid #ecd9b0;
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 11.5px;
+            color: #7a6a3f;
+            line-height: 1.5;
+            margin-top: 8px;
+        }
+
+        /* ===== 高频辨析 ===== */
+        .tcompare-card {
+            background: white;
+            border: 1px solid #e5e5e5;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 8px;
+        }
+        .tcompare-title { font-size: 12.5px; font-weight: bold; margin-bottom: 8px; }
+        .tcompare-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+        .tcompare-label { font-size: 10px; color: #999; margin-bottom: 3px; }
+        .tcompare-example { font-size: 11.5px; color: #333; }
+
+        /* ===== 时态联动语法 ===== */
+        .tgrammar-card {
+            background: white;
+            border-left: 4px solid #ccc;
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-bottom: 8px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+        }
+        .tgrammar-title { font-size: 12.5px; font-weight: bold; margin-bottom: 4px; }
+        .tgrammar-desc { font-size: 11.5px; color: #555; margin-bottom: 4px; line-height: 1.4; }
+        .tgrammar-example { font-size: 11px; color: #888; }
+
+        /* ===== 每日速记(深藏青特殊页) ===== */
+        .trecall-page {
+            background: #1c2b45;
+            border-radius: 14px;
+            padding: 16px;
+            margin: -4px;
+        }
+        .trecall-title { color: white; font-size: 17px; font-weight: bold; }
+        .trecall-subtitle { color: rgba(255,255,255,0.5); font-size: 10.5px; margin-bottom: 14px; letter-spacing: 1px; }
+        .trecall-pill-card {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 8px;
+        }
+        .trecall-pill {
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+            padding: 5px 12px;
+            border-radius: 14px;
+            flex-shrink: 0;
+        }
+        .trecall-pill-desc { color: rgba(255,255,255,0.85); font-size: 11.5px; line-height: 1.4; }
+        .trecall-pill-formula { color: white; font-size: 12px; font-weight: bold; margin-top: 3px; }
+        .trecall-questions-box {
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            padding: 12px;
+            margin-top: 8px;
+        }
+        .trecall-questions-title { color: #d9a441; font-size: 12px; font-weight: bold; margin-bottom: 8px; }
+        .trecall-question { color: rgba(255,255,255,0.85); font-size: 11.5px; line-height: 1.7; }
+        .trecall-tip {
+            background: #fdf6ea;
+            border: 1px solid #ecd9b0;
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 11.5px;
+            color: #7a6a3f;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+
         .stat-label {
             font-size: 12px;
             color: #666;
@@ -696,6 +1059,14 @@
                 <div class="function-icon">⬇️</div>
                 <div class="function-label">导入记录</div>
             </div>
+            <div class="function-item" style="--accent-bg:#f0efe8" onclick="openTenseMap()">
+                <div class="function-icon">🕐</div>
+                <div class="function-label">时态地图</div>
+            </div>
+            <div class="function-item" style="--accent-bg:#e8ecf5" onclick="openTenseDetail()">
+                <div class="function-icon">📘</div>
+                <div class="function-label">时态详解</div>
+            </div>
         </div>
         <input type="file" id="importFileInput" accept=".json,application/json" style="display:none" onchange="importData(event)">
 
@@ -762,6 +1133,33 @@
                 <button class="modal-close" onclick="closeReading()">✕</button>
             </div>
             <div id="readingContent" class="records-list"></div>
+        </div>
+    </div>
+
+    <!-- 时态地图弹窗 -->
+    <div id="tenseMapModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h2 class="modal-title-fit">🕐 English Tense Map</h2>
+                <button class="modal-close" onclick="closeTenseMap()">✕</button>
+            </div>
+            <div id="tenseMapContent" class="records-list"></div>
+        </div>
+    </div>
+
+    <!-- 时态详解弹窗 -->
+    <div id="tenseDetailModal" class="modal-overlay">
+        <div class="modal-box">
+            <div class="modal-head">
+                <h2 class="modal-title-fit" id="tenseDetailTitle">📘 时态详解</h2>
+                <button class="modal-close" onclick="closeTenseDetail()">✕</button>
+            </div>
+            <div class="tense-subtabs">
+                <button class="tense-subtab active" data-subtab="matrix" onclick="switchTenseSubtab('matrix')">矩阵总览</button>
+                <button class="tense-subtab" data-subtab="compare" onclick="switchTenseSubtab('compare')">辨析与语法</button>
+                <button class="tense-subtab" data-subtab="recall" onclick="switchTenseSubtab('recall')">每日速记</button>
+            </div>
+            <div id="tenseDetailContent" class="records-list"></div>
         </div>
     </div>
 
@@ -1371,6 +1769,7 @@
                 // 听力/阅读词汇单独加载，就算这两个文件还没上传或缺失，也不影响主词库正常运行
                 try { allListeningWords = await fetch('data/listening_words.json').then(r => r.json()); } catch (e) { allListeningWords = []; }
                 try { allReadingWords = await fetch('data/reading_words.json').then(r => r.json()); } catch (e) { allReadingWords = []; }
+                await loadTenseData();
 
                 const fullList = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
                 mainBankTotal = fullList.length;
@@ -2172,6 +2571,293 @@
             saveRecords(records);
             updateStats();
             readingNext();
+        }
+
+        // ===== 🕐 时态地图 + 📘 时态详解：颜色严格按PDF原文件(现在=墨绿/过去=红棕/将来=蓝/过去看将来=紫) =====
+        let tenseMatrix = [];
+        let tenseDetails = {};
+        let tenseExtra = {};
+
+        async function loadTenseData() {
+            try { tenseMatrix = await fetch('data/tense_matrix.json').then(r => r.json()); } catch (e) { tenseMatrix = []; }
+            try { tenseDetails = await fetch('data/tense_details.json').then(r => r.json()); } catch (e) { tenseDetails = {}; }
+            try { tenseExtra = await fetch('data/tense_extra.json').then(r => r.json()); } catch (e) { tenseExtra = {}; }
+        }
+
+        // ---- 时态地图(2列×8行,点格子只显示这一条注释) ----
+        function openTenseMap() {
+            document.getElementById('tenseMapModal').classList.add('show');
+            renderTenseMap(null);
+        }
+        function closeTenseMap() {
+            document.getElementById('tenseMapModal').classList.remove('show');
+        }
+        function renderTenseMap(selectedId) {
+            const container = document.getElementById('tenseMapContent');
+            if (tenseMatrix.length === 0) {
+                container.innerHTML = `<div class="records-empty">时态数据还没有上传</div>`;
+                return;
+            }
+            // 按"现在/过去/将来/过去看将来"分4组,每组内部一般在左列,进行在右列(2列布局)
+            const groups = ['现在', '过去', '将来', '过去看将来'];
+            let gridHtml = '<div class="tmap-grid">';
+            groups.forEach(g => {
+                const items = tenseMatrix.filter(t => t.category === g && (t.type === '一般' || t.type === '进行'));
+                items.forEach(t => {
+                    const isSelected = t.id === selectedId;
+                    gridHtml += `
+                        <div class="tmap-cell ${isSelected ? 'tmap-selected' : ''}" data-tid="${t.id}" onclick="renderTenseMap(this.dataset.tid)">
+                            <div class="tmap-name">${t.nameZh}</div>
+                            <div class="tmap-formula">${t.formula}</div>
+                        </div>
+                    `;
+                });
+            });
+            gridHtml += '</div>';
+
+            let descHtml = '';
+            if (selectedId) {
+                const t = tenseMatrix.find(x => x.id === selectedId);
+                if (t) {
+                    descHtml = `
+                        <div class="tmap-desc-box" style="border-color:${t.categoryColor}">
+                            <div class="tmap-desc-title" style="color:${t.categoryColor}">${t.nameZh} · ${t.nameEn}</div>
+                            <div class="tmap-desc-text">${t.oneLiner}</div>
+                            <div class="tmap-desc-clue">线索：${t.clue}</div>
+                        </div>
+                    `;
+                }
+            } else {
+                descHtml = `<div class="records-empty">点击上方任意时态查看说明</div>`;
+            }
+
+            container.innerHTML = gridHtml + descHtml;
+        }
+
+        // ---- 时态详解(矩阵总览 / 辨析与语法 / 每日速记 三个子标签) ----
+        function openTenseDetail() {
+            document.getElementById('tenseDetailModal').classList.add('show');
+            document.getElementById('tenseDetailTitle').textContent = '📘 时态详解';
+            switchTenseSubtab('matrix');
+        }
+        function closeTenseDetail() {
+            document.getElementById('tenseDetailModal').classList.remove('show');
+        }
+        function switchTenseSubtab(tab) {
+            document.querySelectorAll('.tense-subtab').forEach(el => {
+                el.classList.toggle('active', el.dataset.subtab === tab);
+            });
+            document.getElementById('tenseDetailTitle').textContent = '📘 时态详解';
+            if (tab === 'matrix') renderTenseMatrix();
+            else if (tab === 'compare') renderTenseCompare();
+            else if (tab === 'recall') renderTenseRecall();
+        }
+
+        // 4×4矩阵总览
+        function renderTenseMatrix() {
+            const container = document.getElementById('tenseDetailContent');
+            if (tenseMatrix.length === 0) {
+                container.innerHTML = `<div class="records-empty">时态数据还没有上传</div>`;
+                return;
+            }
+            const rows = [
+                { name: '现在', color: '#1a7568' },
+                { name: '过去', color: '#bd6535' },
+                { name: '将来', color: '#2f4f9e' },
+                { name: '过去看将来', color: '#71508f' }
+            ];
+            let html = '<div class="tmatrix-wrap">';
+            html += `
+                <div class="tmatrix-header-row">
+                    <div class="tmatrix-corner"></div>
+                    <div class="tmatrix-col-head">一般<br><span>整体/事实</span></div>
+                    <div class="tmatrix-col-head">进行<br><span>过程展开</span></div>
+                    <div class="tmatrix-col-head">完成<br><span>此前完成</span></div>
+                    <div class="tmatrix-col-head">完成进行<br><span>此前持续</span></div>
+                </div>
+            `;
+            rows.forEach(row => {
+                html += '<div class="tmatrix-body-row">';
+                html += `<div class="tmatrix-row-head" style="background:${row.color}">${row.name}</div>`;
+                ['一般', '进行', '完成', '完成进行'].forEach(type => {
+                    const t = tenseMatrix.find(x => x.category === row.name && x.type === type);
+                    if (!t) { html += '<div class="tmatrix-cell"></div>'; return; }
+                    html += `
+                        <div class="tmatrix-cell" onclick="openTenseDetailPage('${t.id}')">
+                            <div class="tmatrix-num" style="background:${row.color}">${t.num}</div>
+                            <div class="tmatrix-name">${t.nameZh}</div>
+                            <div class="tmatrix-formula">${t.formula}</div>
+                            <div class="tmatrix-mastery" style="background:${row.color}1a;color:${row.color}">${t.mastery}</div>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+            });
+            html += '</div>';
+            html += `<div class="tmatrix-note">四种动作状态只记一句：一般 = 整体；进行 = 正在展开；完成 = 截止前已有结果；完成进行 = 截止前已经持续。</div>`;
+            container.innerHTML = html;
+        }
+
+        // 时态详情页(点矩阵格子进来)
+        function openTenseDetailPage(id) {
+            const t = tenseMatrix.find(x => x.id === id);
+            if (!t) return;
+            document.getElementById('tenseDetailTitle').textContent = `${t.nameZh}`;
+            const d = tenseDetails[id];
+            const container = document.getElementById('tenseDetailContent');
+
+            if (!d) {
+                container.innerHTML = `
+                    <button class="back-to-list-btn" onclick="switchTenseSubtab('matrix')">◀ 返回矩阵</button>
+                    <div class="records-empty">这个时态的详细内容还在整理中，敬请期待</div>
+                `;
+                return;
+            }
+
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="switchTenseSubtab('matrix')">◀ 返回矩阵</button>
+                <div class="tdetail-header" style="background:${t.categoryColor}">
+                    <div class="tdetail-num-circle">${t.num}</div>
+                    <div class="tdetail-names">
+                        <div class="tdetail-name-zh">${t.nameZh}</div>
+                        <div class="tdetail-name-en">${t.nameEn}</div>
+                    </div>
+                    <div class="tdetail-mastery-pill">${t.mastery}</div>
+                </div>
+                <div class="tdetail-timeline-box" style="border-color:${t.categoryColor}">
+                    <div class="tdetail-timeline-label" style="color:${t.categoryColor}">时间画面</div>
+                    <div class="tdetail-timeline-desc">${d.timelineDesc}</div>
+                    <div class="tdetail-timeline-bar">
+                        <div class="tdetail-timeline-track"></div>
+                        <div class="tdetail-timeline-dot" style="left:${d.dotPosition}%;background:${t.categoryColor}"></div>
+                        <div class="tdetail-timeline-now" style="left:50%"></div>
+                    </div>
+                    <div class="tdetail-timeline-marks">
+                        <span>PAST</span><span class="tdetail-now-mark">NOW</span><span>FUTURE</span>
+                    </div>
+                </div>
+                <div class="tdetail-section-title">完整句型｜先会变形，再谈使用</div>
+                <div class="tdetail-sentence-grid">
+                    <div class="tdetail-sentence-card">
+                        <span class="tdetail-tag" style="background:${t.categoryColor}">肯定</span>
+                        <div class="tdetail-sentence-text">${d.sentences.affirmative}</div>
+                    </div>
+                    <div class="tdetail-sentence-card">
+                        <span class="tdetail-tag" style="background:${t.categoryColor}">否定</span>
+                        <div class="tdetail-sentence-text">${d.sentences.negative}</div>
+                    </div>
+                    <div class="tdetail-sentence-card">
+                        <span class="tdetail-tag" style="background:${t.categoryColor}">疑问</span>
+                        <div class="tdetail-sentence-text">${d.sentences.question}</div>
+                    </div>
+                    <div class="tdetail-sentence-card">
+                        <span class="tdetail-tag" style="background:${t.categoryColor}">被动</span>
+                        <div class="tdetail-sentence-text">${d.sentences.passive}</div>
+                    </div>
+                </div>
+                <div class="tdetail-section-title">什么时候用｜用真实场景记</div>
+                <div class="tdetail-scenario-grid">
+                    ${d.scenarios.map(s => `
+                        <div class="tdetail-scenario-card">
+                            <div class="tdetail-scenario-head">
+                                <span class="tdetail-num-badge" style="background:${t.categoryColor}">${s.num}</span>
+                                <span class="tdetail-scenario-title" style="color:${t.categoryColor}">${s.title}</span>
+                            </div>
+                            <div class="tdetail-scenario-explain">${s.explain}</div>
+                            <div class="tdetail-scenario-example">${s.example}</div>
+                        </div>
+                    `).join('')}
+                </div>
+                <div class="tdetail-bottom-grid">
+                    <div class="tdetail-collo-card">
+                        <div class="tdetail-collo-title" style="color:${t.categoryColor}">惯用词 / 搭配</div>
+                        <div class="tdetail-collo-text">${d.collocations}</div>
+                    </div>
+                    <div class="tdetail-confusion-card">
+                        <div class="tdetail-confusion-title">别和它混</div>
+                        <div class="tdetail-confusion-text">${d.confusion}</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // 辨析与语法(合并页20未来表达选择+页21高频辨析+页22语法联动)
+        function renderTenseCompare() {
+            const container = document.getElementById('tenseDetailContent');
+            if (!tenseExtra.comparePairs) {
+                container.innerHTML = `<div class="records-empty">数据还没有上传</div>`;
+                return;
+            }
+            let html = '';
+
+            html += `<div class="tdetail-section-title">未来表达选择图｜未来从哪里来？</div>`;
+            html += tenseExtra.futureChoices.map(f => `
+                <div class="tfuture-card" style="border-color:${f.color}">
+                    <span class="tfuture-num" style="background:${f.color}">${f.num}</span>
+                    <div class="tfuture-body">
+                        <div class="tfuture-title" style="color:${f.color}">${f.title}</div>
+                        <div class="tfuture-formula">${f.formula}</div>
+                    </div>
+                    <div class="tfuture-example">${f.example}</div>
+                </div>
+            `).join('');
+            html += `<div class="tdetail-note-box">${tenseExtra.futureNote}</div>`;
+
+            html += `<div class="tdetail-section-title" style="margin-top:24px;">高频辨析｜不背定义，只看镜头焦点</div>`;
+            html += tenseExtra.comparePairs.map(p => `
+                <div class="tcompare-card">
+                    <div class="tcompare-title" style="color:${p.color}">${p.num}. ${p.title}</div>
+                    <div class="tcompare-cols">
+                        <div class="tcompare-col">
+                            <div class="tcompare-label">${p.left.label}</div>
+                            <div class="tcompare-example">${p.left.example}</div>
+                        </div>
+                        <div class="tcompare-col">
+                            <div class="tcompare-label">${p.right.label}</div>
+                            <div class="tcompare-example">${p.right.example}</div>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+
+            html += `<div class="tdetail-section-title" style="margin-top:24px;">时态联动速查｜不是新时态，却决定句子是否正确</div>`;
+            html += tenseExtra.grammarLinks.map(g => `
+                <div class="tgrammar-card" style="border-left-color:${g.color}">
+                    <div class="tgrammar-title" style="color:${g.color}">${g.title}</div>
+                    <div class="tgrammar-desc">${g.desc}</div>
+                    <div class="tgrammar-example">${g.example}</div>
+                </div>
+            `).join('');
+
+            container.innerHTML = html;
+        }
+
+        // 每日速记(深藏青底色特殊页,复刻原PDF最后一页)
+        function renderTenseRecall() {
+            const container = document.getElementById('tenseDetailContent');
+            if (!tenseExtra.recallPills) {
+                container.innerHTML = `<div class="records-empty">数据还没有上传</div>`;
+                return;
+            }
+            let html = '<div class="trecall-page">';
+            html += `<div class="trecall-title">每天忘记时，只翻这一页</div>`;
+            html += `<div class="trecall-subtitle">ONE-PAGE DAILY RECALL</div>`;
+            html += tenseExtra.recallPills.map(p => `
+                <div class="trecall-pill-card">
+                    <span class="trecall-pill" style="background:${p.color}">${p.label}</span>
+                    <div class="trecall-pill-body">
+                        <div class="trecall-pill-desc">${p.desc}</div>
+                        <div class="trecall-pill-formula">${p.formula}</div>
+                    </div>
+                </div>
+            `).join('');
+            html += `<div class="trecall-questions-box">
+                <div class="trecall-questions-title">四问定位</div>
+                ${tenseExtra.recallQuestions.map((q, i) => `<div class="trecall-question">${i+1}. ${q}</div>`).join('')}
+            </div>`;
+            html += `<div class="trecall-tip">${tenseExtra.recallTip}</div>`;
+            html += '</div>';
+            container.innerHTML = html;
         }
 
         window.onload = init;
