@@ -1,0 +1,116 @@
+{
+  "tense_01": {
+    "timelineDesc": "把动作看成规律、事实或稳定状态，不把镜头放进某一次过程。",
+    "dotPosition": 50,
+    "sentences": {
+      "affirmative": "I prepare quotations every day.",
+      "negative": "I do not prepare them on Sundays.",
+      "question": "Do you prepare them yourself?",
+      "passive": "Quotations are checked daily."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "习惯与规律",
+        "explain": "反复发生；问的是「通常怎样」。",
+        "example": "I check emails every morning. 我每天早晨查邮件。"
+      },
+      {
+        "num": 2,
+        "title": "事实与长期状态",
+        "explain": "客观事实、身份、拥有、看法。",
+        "example": "Water boils at 100°C. 水在100°C沸腾。"
+      },
+      {
+        "num": 3,
+        "title": "固定时刻表",
+        "explain": "公共日程、课程、航班等已固定。",
+        "example": "The train leaves at eight tomorrow. 火车明早8点发车。"
+      },
+      {
+        "num": 4,
+        "title": "时间/条件从句表未来",
+        "explain": "when / if / until 后不用 will。",
+        "example": "I'll call you when I arrive. 我到了就给你电话。"
+      }
+    ],
+    "collocations": "always, usually, often, sometimes, never, every day, on Mondays；状态动词：know, believe, own, belong, need。",
+    "confusion": "today 只是时间范围：说习惯用一般现在；说此刻过程用现在进行；说今天已有成果用现在完成。"
+  },
+  "tense_05": {
+    "timelineDesc": "动作被放进一个已经结束的过去时间盒子，与现在不再连接。",
+    "dotPosition": 20,
+    "sentences": {
+      "affirmative": "I sent the quotation yesterday.",
+      "negative": "I did not call the buyer.",
+      "question": "Did the customer reply?",
+      "passive": "The order was approved yesterday."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "过去已完成事件",
+        "explain": "有明确过去时间，和现在断开。",
+        "example": "I sent the quotation yesterday. 我昨天发了报价。"
+      },
+      {
+        "num": 2,
+        "title": "过去事件序列",
+        "explain": "按发生顺序推进叙事。",
+        "example": "She opened the file and called me. 她打开文件后打给我。"
+      },
+      {
+        "num": 3,
+        "title": "过去习惯或状态",
+        "explain": "过去反复/长期如此，现在未必。",
+        "example": "I worked there for five years. 我曾在那里工作5年。"
+      },
+      {
+        "num": 4,
+        "title": "礼貌弱化",
+        "explain": "I wanted / wondered 让请求更委婉。",
+        "example": "I wondered if you could help. 不知您能否帮忙。"
+      }
+    ],
+    "collocations": "yesterday, last week, ago, in 2024, when I was..., then；明确结束的过去时间。",
+    "confusion": "I worked there for five years 通常表示已离开；I have worked there for five years 通常表示仍在。"
+  },
+  "tense_09": {
+    "timelineDesc": "从现在对未来作临时决定、承诺、主观判断或中性陈述。",
+    "dotPosition": 75,
+    "sentences": {
+      "affirmative": "I will send it tonight.",
+      "negative": "I will not change the price.",
+      "question": "Will the buyer accept it?",
+      "passive": "The order will be approved tomorrow."
+    },
+    "scenarios": [
+      {
+        "num": 1,
+        "title": "临时决定",
+        "explain": "说话当下才决定。",
+        "example": "The phone is ringing. I'll answer it. 电话响了，我来接。"
+      },
+      {
+        "num": 2,
+        "title": "主观预测",
+        "explain": "判断来自观点，不强调眼前证据。",
+        "example": "I think sales will improve. 我认为销量会改善。"
+      },
+      {
+        "num": 3,
+        "title": "承诺、提议、请求",
+        "explain": "用will表意愿。",
+        "example": "I'll send it tonight. 我今晚一定发。"
+      },
+      {
+        "num": 4,
+        "title": "中性未来事实",
+        "explain": "陈述未来会发生的事。",
+        "example": "The event will take place in May. 活动将在5月举行。"
+      }
+    ],
+    "collocations": "I think, probably, perhaps, maybe, I promise；tomorrow / next week只说明未来，不自动决定结构。",
+    "confusion": "will 不是所有未来的默认答案：已有打算、落实安排和固定时刻表各有更自然的表达。"
+  }
+}
