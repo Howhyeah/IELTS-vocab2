@@ -1,0 +1,205 @@
+{
+  "futureChoices": [
+    {
+      "num": 1,
+      "title": "说话时才决定/承诺",
+      "formula": "will + V",
+      "example": "The phone is ringing. I'll answer it.",
+      "color": "#2f4f9e"
+    },
+    {
+      "num": 2,
+      "title": "早已有打算",
+      "formula": "be going to + V",
+      "example": "I'm going to study tonight.",
+      "color": "#1a7568"
+    },
+    {
+      "num": 3,
+      "title": "眼前证据预测",
+      "formula": "be going to + V",
+      "example": "Look at the clouds. It's going to rain.",
+      "color": "#1a7568"
+    },
+    {
+      "num": 4,
+      "title": "个人安排已落实",
+      "formula": "am/is/are doing",
+      "example": "I'm meeting the supplier at ten.",
+      "color": "#71508f"
+    },
+    {
+      "num": 5,
+      "title": "固定时刻表",
+      "formula": "一般现在时",
+      "example": "The train leaves at eight.",
+      "color": "#bd6535"
+    },
+    {
+      "num": 6,
+      "title": "未来某时的过程",
+      "formula": "will be doing",
+      "example": "At ten, I'll be meeting the buyer.",
+      "color": "#2f4f9e"
+    },
+    {
+      "num": 7,
+      "title": "马上发生/正式安排",
+      "formula": "be about to / be due to / be to",
+      "example": "The meeting is about to start.",
+      "color": "#c99a3e"
+    }
+  ],
+  "futureNote": "未来时间/条件从句：when / if / as soon as / until 后通常用一般现在时。I'll call you when I arrive. 不说 when I will arrive。",
+  "comparePairs": [
+    {
+      "num": 1,
+      "title": "一般过去 vs 现在完成",
+      "left": {
+        "label": "过去时间已结束",
+        "example": "I sent it yesterday."
+      },
+      "right": {
+        "label": "结果连接现在",
+        "example": "I have sent it, so check your inbox."
+      },
+      "color": "#1a7568"
+    },
+    {
+      "num": 2,
+      "title": "现在完成 vs 完成进行",
+      "left": {
+        "label": "成果/数量",
+        "example": "I have written three reports."
+      },
+      "right": {
+        "label": "过程/时长",
+        "example": "I have been writing for two hours."
+      },
+      "color": "#bd6535"
+    },
+    {
+      "num": 3,
+      "title": "过去进行 vs 过去完成进行",
+      "left": {
+        "label": "过去某时正在做",
+        "example": "I was working at eight."
+      },
+      "right": {
+        "label": "到过去某时已持续",
+        "example": "I had been working for two hours by eight."
+      },
+      "color": "#2f4f9e"
+    },
+    {
+      "num": 4,
+      "title": "过去完成 vs 一般过去",
+      "left": {
+        "label": "更早发生",
+        "example": "I had sent it before she called."
+      },
+      "right": {
+        "label": "随后发生",
+        "example": "She called me at noon."
+      },
+      "color": "#71508f"
+    },
+    {
+      "num": 5,
+      "title": "现在进行表未来 vs 将来进行",
+      "left": {
+        "label": "安排已落实",
+        "example": "I'm meeting her at ten."
+      },
+      "right": {
+        "label": "届时过程/行程",
+        "example": "I'll be meeting her at ten."
+      },
+      "color": "#2f4f9e"
+    },
+    {
+      "num": 6,
+      "title": "by vs at",
+      "left": {
+        "label": "不迟于截止点",
+        "example": "I'll finish by five."
+      },
+      "right": {
+        "label": "正处于那个时刻",
+        "example": "I'll be working at five."
+      },
+      "color": "#c99a3e"
+    }
+  ],
+  "grammarLinks": [
+    {
+      "title": "主被动",
+      "color": "#1a7568",
+      "desc": "先定时态，再把 be 放进该时态，最后加 done。",
+      "example": "is checked · was being checked · has been checked · will have been checked"
+    },
+    {
+      "title": "过去情态判断",
+      "color": "#bd6535",
+      "desc": "现在判断过去发生了什么。",
+      "example": "must have done 一定做了 · can't have done 不可能做了 · should have done 本应做"
+    },
+    {
+      "title": "状态动词",
+      "color": "#2f4f9e",
+      "desc": "know / own / belong / need 等通常不使用进行时。语义变成动作时可例外。",
+      "example": "I think = 我认为；I'm thinking about it = 我正在考虑"
+    },
+    {
+      "title": "时间与条件从句",
+      "color": "#71508f",
+      "desc": "谈未来时，从句通常用一般现在时，主句再表达未来。",
+      "example": "I'll call when I arrive. · If it rains, we'll stay inside."
+    },
+    {
+      "title": "间接引语",
+      "color": "#2f4f9e",
+      "desc": "过去转述常后移：will → would；have done → had done。事实仍成立时可不后移。",
+      "example": "She said she would call. · He said the Earth goes around the Sun."
+    },
+    {
+      "title": "条件句 / 虚拟",
+      "color": "#c99a3e",
+      "desc": "真实可能：if + 一般现在；现在虚拟：if + 过去式；过去虚拟：if + had done。",
+      "example": "If I had known, I would have acted.（事实：当时不知道，也没行动）"
+    }
+  ],
+  "recallPills": [
+    {
+      "label": "一般",
+      "color": "#1a7568",
+      "desc": "动作是整体、事实、习惯或完整事件",
+      "formula": "do / did / will do / would do"
+    },
+    {
+      "label": "进行",
+      "color": "#bd6535",
+      "desc": "镜头在动作内部，看到过程正在展开",
+      "formula": "be doing"
+    },
+    {
+      "label": "完成",
+      "color": "#2f4f9e",
+      "desc": "站在截止点回看，之前已有结果",
+      "formula": "have done"
+    },
+    {
+      "label": "完成进行",
+      "color": "#71508f",
+      "desc": "站在截止点回看，之前已经持续",
+      "formula": "have been doing"
+    }
+  ],
+  "recallQuestions": [
+    "我站在现在、过去、未来，还是过去看后来？",
+    "我看的是整体、过程、此前完成，还是此前持续？",
+    "我要强调成果数量，还是过程时长？",
+    "主语做动作，还是承受动作？"
+  ],
+  "recallTip": "准确的时态不是「背出名字」，而是让听者清楚：事情发生在哪里、进行到哪一步、与哪个时间点相连。"
+}
