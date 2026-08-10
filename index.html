@@ -219,6 +219,11 @@
         .tdetail-timeline-desc { font-size: 13px; color: #444; line-height: 1.5; margin-bottom: 12px; }
         .tdetail-timeline-bar { position: relative; height: 3px; background: #ddd; margin: 10px 4px; }
         .tdetail-timeline-track { position: absolute; width: 100%; height: 100%; background: #ddd; }
+        .tdetail-timeline-highlight {
+            position: absolute;
+            height: 100%;
+            border-radius: 2px;
+        }
         .tdetail-timeline-dot {
             position: absolute;
             top: 50%;
@@ -235,11 +240,13 @@
             background: #333;
         }
         .tdetail-timeline-marks {
+            position: relative;
             display: flex;
             justify-content: space-between;
             font-size: 10px;
             color: #999;
             margin-top: 4px;
+            height: 14px;
         }
         .tdetail-now-mark { font-weight: bold; color: #333; }
         .tdetail-section-title { font-size: 14.5px; font-weight: bold; color: #333; margin: 16px 0 10px; }
@@ -2729,11 +2736,14 @@
                     <div class="tdetail-timeline-desc">${d.timelineDesc}</div>
                     <div class="tdetail-timeline-bar">
                         <div class="tdetail-timeline-track"></div>
-                        <div class="tdetail-timeline-dot" style="left:${d.dotPosition}%;background:${t.categoryColor}"></div>
-                        <div class="tdetail-timeline-now" style="left:50%"></div>
+                        ${d.barStart !== undefined ? `<div class="tdetail-timeline-highlight" style="left:${d.barStart}%;width:${d.barEnd - d.barStart}%;background:${t.categoryColor}"></div>` : ''}
+                        ${d.dotPosition !== undefined ? `<div class="tdetail-timeline-dot" style="left:${d.dotPosition}%;background:${t.categoryColor}"></div>` : ''}
+                        <div class="tdetail-timeline-now" style="left:${d.refPosition !== undefined ? d.refPosition : 50}%"></div>
                     </div>
                     <div class="tdetail-timeline-marks">
-                        <span>PAST</span><span class="tdetail-now-mark">NOW</span><span>FUTURE</span>
+                        <span>PAST</span>
+                        <span class="tdetail-now-mark" style="position:absolute;left:${d.refPosition !== undefined ? d.refPosition : 50}%;transform:translateX(-50%)">${d.refLabel || 'NOW'}</span>
+                        <span>FUTURE</span>
                     </div>
                 </div>
                 <div class="tdetail-section-title">完整句型｜先会变形，再谈使用</div>
