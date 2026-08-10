@@ -12,7 +12,7 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #f5f2ea;
             min-height: 100vh;
             padding: 15px;
         }
@@ -22,10 +22,10 @@
             border-radius: 15px;
             padding: 20px;
             margin-bottom: 15px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
         }
         .status-bar h1 {
-            color: #667eea;
+            color: #1c2b45;
             font-size: 24px;
             text-align: center;
             margin-bottom: 15px;
@@ -55,11 +55,22 @@
         }
 
         /* ===== 时态地图 ===== */
-        .tmap-grid {
+        .tmap-grid-v2 {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 8px;
+            grid-template-columns: 42px 1fr 1fr;
+            gap: 6px;
             margin-bottom: 16px;
+        }
+        .tmap-catlabel {
+            grid-row: span 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: bold;
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            letter-spacing: 2px;
         }
         .tmap-cell {
             background: #f8f9fa;
@@ -446,7 +457,7 @@
             border-radius: 14px;
             font-size: 15px;
             background: white;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
             box-sizing: border-box;
         }
         .search-results {
@@ -539,15 +550,15 @@
         .tab {
             padding: 10px 20px;
             background: white;
-            border: 2px solid #667eea;
+            border: 2px solid var(--tab-color, #1c2b45);
             border-radius: 20px;
             cursor: pointer;
             white-space: nowrap;
             font-size: 14px;
-            color: #667eea;
+            color: var(--tab-color, #1c2b45);
         }
         .tab.active {
-            background: #667eea;
+            background: var(--tab-color, #1c2b45);
             color: white;
         }
         .word-card {
@@ -555,7 +566,7 @@
             border-radius: 15px;
             padding: 25px;
             margin-bottom: 20px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.06);
         }
         .word-header {
             text-align: center;
@@ -774,22 +785,21 @@
         .modal-overlay {
             position: fixed;
             inset: 0;
-            background: rgba(0,0,0,0.5);
+            background: #f5f2ea;
             display: none;
-            align-items: flex-end;
-            justify-content: center;
             z-index: 2000;
         }
-        .modal-overlay.show { display: flex; }
+        .modal-overlay.show { display: block; }
         .modal-box {
-            background: white;
-            border-radius: 20px 20px 0 0;
+            background: #f5f2ea;
             width: 100%;
-            max-width: 800px;
-            max-height: 80vh;
+            height: 100vh;
+            max-width: 100%;
+            max-height: 100vh;
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 16px;
+            box-sizing: border-box;
         }
         .modal-head {
             display: flex;
@@ -1078,12 +1088,12 @@
         <input type="file" id="importFileInput" accept=".json,application/json" style="display:none" onchange="importData(event)">
 
         <div class="category-tabs">
-            <div class="tab active" data-cat="all" onclick="switchCategory('all')">全部</div>
-            <div class="tab" data-cat="A" onclick="switchCategory('A')">🎯 核心状态词</div>
-            <div class="tab" data-cat="S" onclick="switchCategory('S')">🧭 空间关系词</div>
-            <div class="tab" data-cat="R" onclick="switchCategory('R')">🌳 词根词族</div>
-            <div class="tab" data-cat="C" onclick="switchCategory('C')">🔗 固定搭配</div>
-            <div class="tab" data-cat="I" onclick="switchCategory('I')">👁️ 识别词</div>
+            <div class="tab active" data-cat="all" style="--tab-color:#1c2b45" onclick="switchCategory('all')">全部</div>
+            <div class="tab" data-cat="A" style="--tab-color:#1a7568" onclick="switchCategory('A')">🎯 核心状态词</div>
+            <div class="tab" data-cat="S" style="--tab-color:#bd6535" onclick="switchCategory('S')">🧭 空间关系词</div>
+            <div class="tab" data-cat="R" style="--tab-color:#2f4f9e" onclick="switchCategory('R')">🌳 词根词族</div>
+            <div class="tab" data-cat="C" style="--tab-color:#71508f" onclick="switchCategory('C')">🔗 固定搭配</div>
+            <div class="tab" data-cat="I" style="--tab-color:#c99a3e" onclick="switchCategory('I')">👁️ 识别词</div>
         </div>
 
         <div id="wordCardContainer">
@@ -2619,15 +2629,17 @@
                 container.innerHTML = `<div class="records-empty">时态数据还没有上传</div>`;
                 return;
             }
-            // 按"现在/过去/将来/过去看将来"分4组,每组内2行:第1行(一般|进行) 第2行(完成|完成进行),共16格
+            // 严格按截图布局:每个时间大类占2行×2列,左侧一列显示分类名(跨2行)
             const groups = ['现在', '过去', '将来', '过去看将来'];
             const rowPairs = [['一般', '进行'], ['完成', '完成进行']];
-            let gridHtml = '<div class="tmap-grid">';
+            let gridHtml = '<div class="tmap-grid-v2">';
             groups.forEach(g => {
+                const catColor = tenseMatrix.find(x => x.category === g).categoryColor;
+                gridHtml += `<div class="tmap-catlabel" style="color:${catColor}">${g}</div>`;
                 rowPairs.forEach(pair => {
                     pair.forEach(type => {
                         const t = tenseMatrix.find(x => x.category === g && x.type === type);
-                        if (!t) return;
+                        if (!t) { gridHtml += '<div></div>'; return; }
                         const isSelected = t.id === selectedId;
                         gridHtml += `
                             <div class="tmap-cell ${isSelected ? 'tmap-selected' : ''}" data-tid="${t.id}" onclick="renderTenseMap(this.dataset.tid)">
