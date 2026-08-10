@@ -878,6 +878,122 @@
             font-family: 'Courier New', monospace;
         }
         .scenes-section { margin-top: 20px; }
+
+        /* ===== 新版单词卡片样式(按截图设计) ===== */
+        .cs-chinese-top {
+            text-align: center;
+            font-size: 17px;
+            color: #333;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        .cs-section-label {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11px;
+            font-weight: bold;
+            color: #999;
+            letter-spacing: 0.5px;
+            margin: 18px 0 8px;
+        }
+        .cs-dot { width: 6px; height: 6px; border-radius: 50%; background: #1a7568; display: inline-block; }
+        .cs-box {
+            background: #eef3ee;
+            border-radius: 14px;
+            padding: 16px;
+        }
+        .cs-journey {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+        }
+        .cs-journey-step { text-align: center; width: 74px; }
+        .cs-journey-icon {
+            width: 40px; height: 40px;
+            border-radius: 50%;
+            background: white;
+            border: 1.5px solid #cdd8cd;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 17px;
+            margin: 0 auto 4px;
+        }
+        .cs-journey-label { font-size: 10px; color: #666; line-height: 1.3; }
+        .cs-journey-arrow { color: #a8b3a8; font-size: 13px; margin: 0 -2px; padding-bottom: 20px; }
+        .cs-sentence {
+            font-size: 14.5px;
+            color: #333;
+            line-height: 1.7;
+            text-align: center;
+        }
+        .cs-scenes-box {
+            background: white;
+            border: 1px solid #eee;
+            border-radius: 14px;
+            padding: 6px 14px;
+        }
+        .cs-scene-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 0;
+            border-bottom: 1px solid #f2f2f2;
+        }
+        .cs-scene-row:last-of-type { border-bottom: none; }
+        .cs-scene-emoji { font-size: 18px; flex-shrink: 0; }
+        .cs-scene-phrase { font-size: 14px; font-weight: 600; color: #333; flex: 1; }
+        .cs-scene-short { font-size: 12px; color: #888; text-align: right; flex-shrink: 0; max-width: 40%; }
+        .cs-samecore {
+            background: #eef3ee;
+            border-radius: 10px;
+            padding: 10px 12px;
+            margin: 10px 0;
+            font-size: 12px;
+            color: #556655;
+            line-height: 1.6;
+        }
+        .cs-collo-box {
+            background: #eef1fa;
+            border-radius: 14px;
+            padding: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .cs-collo-tag {
+            background: white;
+            color: #4a5a8a;
+            padding: 6px 13px;
+            border-radius: 14px;
+            font-size: 12.5px;
+            border: 1px solid #d5dcf0;
+        }
+        .cs-syn-box {
+            background: #f7efe6;
+            border-radius: 14px;
+            padding: 12px 14px;
+        }
+        .cs-syn-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 6px 0;
+        }
+        .cs-syn-word { font-size: 14px; font-weight: 600; color: #333; }
+        .cs-syn-chinese { font-size: 12.5px; color: #888; flex: 1; }
+        .cs-syn-more { font-size: 11.5px; color: #a06a3a; white-space: nowrap; cursor: pointer; }
+        .cs-syn-extra { display: none; border-top: 1px solid #e8d9c4; margin-top: 4px; padding-top: 4px; }
+        .cs-syn-extra.show { display: block; }
+        .skip-link {
+            text-align: center;
+            color: #999;
+            font-size: 13px;
+            margin-top: 14px;
+            cursor: pointer;
+        }
         .section-title {
             font-size: 16px;
             color: #667eea;
@@ -2218,21 +2334,109 @@
             `;
         }
 
+        // 把"A → B → C"这种底层关系文字拆成2-4段短标签,配一组固定图标(❓模糊起点/🔍查证过程/🎯锁定结果/✅完成),
+        // 做成"核心状态"区域顶部的小流程图。图标是通用序列,不是逐词定制(227+个词逐个手工配图标不现实)
+        const RELATION_STEP_ICONS = ['❓', '🔍', '🎯', '✅'];
+        function parseRelationSteps(relationText) {
+            if (!relationText) return [];
+            const clean = relationText.replace(/<[^>]+>/g, ''); // 去掉红色箭头span标签,只留纯文字
+            const parts = clean.split('→').map(s => s.trim()).filter(s => s);
+            return parts.slice(0, 4).map((p, i) => {
+                let label = p.replace(/[。；;]+$/, '');
+                const breakMatch = label.match(/^(.{2,10}?)[、，,]/);
+                if (breakMatch) label = breakMatch[1];
+                else if (label.length > 9) label = label.slice(0, 9) + '…';
+                return { icon: RELATION_STEP_ICONS[i] || '➡️', label };
+            });
+        }
+
+        // 核心状态区:图标流程图 + 完整母句,只在有母义状态字段时调用
+        function coreStateJourneyHtml(word, stateText) {
+            const steps = parseRelationSteps(word.underlying_relation);
+            let journeyHtml = '';
+            if (steps.length > 0) {
+                journeyHtml = `
+                    <div class="cs-journey">
+                        ${steps.map((s, i) => `
+                            ${i > 0 ? '<div class="cs-journey-arrow">┈┈┈›</div>' : ''}
+                            <div class="cs-journey-step">
+                                <div class="cs-journey-icon">${s.icon}</div>
+                                <div class="cs-journey-label">${s.label}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+            return `
+                <div class="cs-section-label"><span class="cs-dot"></span>CORE STATE 核心状态</div>
+                <div class="cs-box">
+                    ${journeyHtml}
+                    <div class="cs-sentence">${stateText}</div>
+                </div>
+            `;
+        }
+
+        // 场景延伸区(新样式):图标+英文短语,右侧配简短中文标签(取note字段｜后半段,不编造新内容)
+        function scenesJourneyHtml(scenes, word) {
+            if (!scenes || scenes.length === 0) return '';
+            const rows = scenes.map(s => {
+                const parts = (s.note || '').split('｜');
+                const shortLabel = parts.length > 1 ? parts[1] : parts[0];
+                return `
+                    <div class="cs-scene-row">
+                        <span class="cs-scene-emoji">${s.emoji}</span>
+                        <span class="cs-scene-phrase">${s.phrase}</span>
+                        <span class="cs-scene-short">${shortLabel}</span>
+                    </div>
+                `;
+            }).join('');
+            const sameCoreText = word.underlying_relation ? word.underlying_relation.replace(/<[^>]+>/g, '') : '';
+            return `
+                <div class="cs-section-label"><span class="cs-dot" style="background:#8a8f7a"></span>SCENES 场景延伸</div>
+                <div class="cs-scenes-box">
+                    ${rows}
+                    ${sameCoreText ? `<div class="cs-samecore"><b>SAME CORE 同一个底层状态：</b>${sameCoreText}</div>` : ''}
+                </div>
+            `;
+        }
+
+        // 雅思搭配区(新样式):加背景色框突出
+        function collocationsBoxHtml(collocations) {
+            if (!collocations || collocations.length === 0) return '';
+            return `
+                <div class="cs-section-label"><span class="cs-dot" style="background:#6a7fb0"></span>IELTS 搭配</div>
+                <div class="cs-collo-box">
+                    ${collocations.map(c => `<span class="cs-collo-tag">${c}</span>`).join('')}
+                </div>
+            `;
+        }
+
         // 主词库里跟阅读词库重复的词,额外补了"雅思阅读真题命题替换词"这条信息;
         // 只有带这个字段的词才会显示这一块,不影响其他词的卡片结构
         function readingSynonymsHtml(word) {
             if (!word.reading_synonyms || word.reading_synonyms.length === 0) return '';
+            const syns = word.reading_synonyms;
+            const first = syns[0];
+            const rest = syns.slice(1);
+            const uid = 'syn_' + word.id;
             return `
-                <div class="scenes-section">
-                    <div class="section-title">📝 雅思阅读真题命题替换词</div>
-                    ${word.reading_synonyms.map(s => `
-                        <div class="scene-item">
-                            <div class="scene-content">
-                                <div class="scene-phrase">${s.word}<button class="speak-btn" style="width:24px;height:24px;font-size:10px;margin-left:6px;vertical-align:middle;" onclick="playPronunciation('${s.word.replace(/'/g, "\\'")}', this)">🔊</button></div>
-                                <div class="scene-note">${s.chinese}</div>
-                            </div>
+                <div class="cs-section-label"><span class="cs-dot" style="background:#a06a3a"></span>替换词</div>
+                <div class="cs-syn-box">
+                    <div class="cs-syn-row">
+                        <span class="cs-syn-word">${first.word}<button class="speak-btn" style="width:22px;height:22px;font-size:9px;margin-left:6px;vertical-align:middle;" onclick="playPronunciation('${first.word.replace(/'/g, "\\'")}', this)">🔊</button></span>
+                        <span class="cs-syn-chinese">${first.chinese}</span>
+                        ${rest.length > 0 ? `<span class="cs-syn-more" onclick="document.getElementById('${uid}').classList.toggle('show')">更多替换词(${rest.length}) ›</span>` : ''}
+                    </div>
+                    ${rest.length > 0 ? `
+                        <div id="${uid}" class="cs-syn-extra">
+                            ${rest.map(s => `
+                                <div class="cs-syn-row">
+                                    <span class="cs-syn-word">${s.word}<button class="speak-btn" style="width:22px;height:22px;font-size:9px;margin-left:6px;vertical-align:middle;" onclick="playPronunciation('${s.word.replace(/'/g, "\\'")}', this)">🔊</button></span>
+                                    <span class="cs-syn-chinese">${s.chinese}</span>
+                                </div>
+                            `).join('')}
                         </div>
-                    `).join('')}
+                    ` : ''}
                 </div>
             `;
         }
@@ -2274,10 +2478,10 @@
             return `
                 <div class="action-buttons">
                     <button class="btn btn-know" onclick="markWord('know')">✓ 认识</button>
-                    <button class="btn btn-fuzzy" onclick="markWord('fuzzy')">🌀 模糊</button>
+                    <button class="btn btn-fuzzy" onclick="markWord('fuzzy')">◎ 模糊</button>
                     <button class="btn btn-unknown" onclick="markWord('unknown')">✗ 不认识</button>
-                    <button class="btn btn-skip" onclick="markWord('skip')">→ 跳过</button>
                 </div>
+                <div class="skip-link" onclick="markWord('skip')">跳过此词 →</div>
             `;
         }
 
@@ -2303,33 +2507,11 @@
                     <div class="word-header">
                         <div class="word-title">${word.word}<button class="speak-btn" onclick="playPronunciation('${word.word}', this)">🔊</button></div>
                         <div class="phonetic">${word.phonetic} ${word.pos}</div>
+                        <div class="cs-chinese-top">${word.chinese}</div>
                     </div>
-                    <div class="core-state-section">
-                        <span class="core-icon">${word.core_emoji}</span>
-                        <div class="core-state-title">核心状态</div>
-                        <div class="core-state-text">${word.core_state}</div>
-                        ${renderUnderlyingRelation(word)}
-                    </div>
-                    <div class="scenes-section">
-                        <div class="section-title">📍 场景延伸</div>
-                        ${word.scenes.map(s => `
-                            <div class="scene-item">
-                                <div class="scene-emoji">${s.emoji}</div>
-                                <div class="scene-content">
-                                    <div class="scene-phrase">${s.phrase}</div>
-                                    <div class="scene-note">${s.note}</div>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                    <div class="section-title">🔗 雅思搭配</div>
-                    <div class="collocations">
-                        ${word.collocations.map(c => `<span class="collocation-tag">${c}</span>`).join('')}
-                    </div>
-                    <div class="chinese-check">
-                        <div class="chinese-label">💡 中文核对</div>
-                        <div>${word.chinese}</div>
-                    </div>
+                    ${coreStateJourneyHtml(word, word.core_state)}
+                    ${scenesJourneyHtml(word.scenes, word)}
+                    ${collocationsBoxHtml(word.collocations)}
                     ${readingSynonymsHtml(word)}
                     ${actionButtonsHtml(mode)}
                 </div>
@@ -2337,38 +2519,17 @@
         }
 
         function renderRootFamily(word, mode) {
+            const membersAsScenes = word.members.map(m => ({ phrase: m.word, emoji: m.emoji, note: m.note }));
             return `
                 <div class="word-card">
                     ${topBarHtml('🌳 词根词族', mode)}
                     <div class="word-header">
                         <div class="word-title">${word.root}</div>
+                        <div class="cs-chinese-top">${word.chinese}</div>
                     </div>
-                    <div class="core-state-section">
-                        <span class="core-icon">${word.core_emoji}</span>
-                        <div class="core-state-title">核心画面</div>
-                        <div class="core-state-text">${word.core_image}</div>
-                        ${renderUnderlyingRelation(word)}
-                    </div>
-                    <div class="scenes-section">
-                        <div class="section-title">📚 词族成员</div>
-                        ${word.members.map(m => `
-                            <div class="scene-item">
-                                <div class="scene-emoji">${m.emoji}</div>
-                                <div class="scene-content">
-                                    <div class="scene-phrase">${m.word}<button class="speak-btn" style="width:28px;height:28px;font-size:13px;" onclick="playPronunciation('${m.word}', this)">🔊</button></div>
-                                    <div class="scene-note">${m.note}</div>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                    <div class="section-title">🔗 高频搭配</div>
-                    <div class="collocations">
-                        ${word.collocations.map(c => `<span class="collocation-tag">${c}</span>`).join('')}
-                    </div>
-                    <div class="chinese-check">
-                        <div class="chinese-label">💡 中文核对</div>
-                        <div>${word.chinese}</div>
-                    </div>
+                    ${coreStateJourneyHtml(word, word.core_image)}
+                    ${scenesJourneyHtml(membersAsScenes, word)}
+                    ${collocationsBoxHtml(word.collocations)}
                     ${readingSynonymsHtml(word)}
                     ${actionButtonsHtml(mode)}
                 </div>
@@ -2381,33 +2542,12 @@
                     ${topBarHtml('🔗 固定搭配', mode)}
                     <div class="word-header">
                         <div class="word-title">${word.phrase}<button class="speak-btn" onclick="playPronunciation('${word.phrase}', this)">🔊</button></div>
+                        <div class="cs-chinese-top">${word.chinese}</div>
                     </div>
-                    <div class="core-state-section">
-                        <span class="core-icon">${word.core_emoji}</span>
-                        <div class="core-state-title">核心关系</div>
-                        <div class="core-state-text">${word.core_relation}</div>
-                        ${renderUnderlyingRelation(word)}
-                    </div>
-                    <div class="scenes-section">
-                        <div class="section-title">📍 场景延伸</div>
-                        ${word.scenes.map(s => `
-                            <div class="scene-item">
-                                <div class="scene-emoji">${s.emoji}</div>
-                                <div class="scene-content">
-                                    <div class="scene-phrase">${s.phrase}</div>
-                                    <div class="scene-note">${s.note}</div>
-                                </div>
-                            </div>
-                        `).join('')}
-                    </div>
-                    <div class="section-title">🔗 相关搭配</div>
-                    <div class="collocations">
-                        ${word.collocations.map(c => `<span class="collocation-tag">${c}</span>`).join('')}
-                    </div>
-                    <div class="chinese-check">
-                        <div class="chinese-label">💡 中文核对</div>
-                        <div>${word.chinese}</div>
-                    </div>
+                    ${coreStateJourneyHtml(word, word.core_relation)}
+                    ${scenesJourneyHtml(word.scenes, word)}
+                    ${collocationsBoxHtml(word.collocations)}
+                    ${readingSynonymsHtml(word)}
                     ${actionButtonsHtml(mode)}
                 </div>
             `;
