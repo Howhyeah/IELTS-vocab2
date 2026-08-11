@@ -39,7 +39,32 @@
       "S",
       "W"
     ],
-    "underlying_relation": "空间一端（入口）→ 穿越内部 → 空间另一端（出口）。"
+    "underlying_relation": "空间一端（入口）→ 穿越内部 → 空间另一端（出口）。",
+    "journey_steps": [
+      {
+        "icon": "🚪",
+        "label": "入口"
+      },
+      {
+        "icon": "➡️",
+        "label": "穿越内部"
+      },
+      {
+        "icon": "🚪",
+        "label": "出口"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从一端钻进去，穿过中间，从另一端出来」这个穿越过程。",
+    "reading_synonyms": [
+      {
+        "word": "via",
+        "chinese": "经由"
+      },
+      {
+        "word": "by way of",
+        "chinese": "通过，经由"
+      }
+    ]
   },
   {
     "id": "across",
@@ -81,7 +106,32 @@
       "S",
       "W"
     ],
-    "underlying_relation": "这一边 → 横向跨越宽度 → 正对面的另一边。"
+    "underlying_relation": "这一边 → 横向跨越宽度 → 正对面的另一边。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "这一边"
+      },
+      {
+        "icon": "↔️",
+        "label": "横向跨越"
+      },
+      {
+        "icon": "📍",
+        "label": "正对面另一边"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从这一边横着挪到正对面那一边」。",
+    "reading_synonyms": [
+      {
+        "word": "over",
+        "chinese": "越过"
+      },
+      {
+        "word": "spanning",
+        "chinese": "横跨"
+      }
+    ]
   },
   {
     "id": "beyond",
@@ -123,7 +173,32 @@
       "S",
       "W"
     ],
-    "underlying_relation": "边界线内（范围）→ 越过边界 → 边界外更远处。"
+    "underlying_relation": "边界线内（范围）→ 越过边界 → 边界外更远处。",
+    "journey_steps": [
+      {
+        "icon": "🚧",
+        "label": "边界线内范围"
+      },
+      {
+        "icon": "➡️",
+        "label": "越过边界"
+      },
+      {
+        "icon": "🌫️",
+        "label": "边界外更远处"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「已经超出了那条线规定的范围，到了更远的地方」。",
+    "reading_synonyms": [
+      {
+        "word": "past",
+        "chinese": "超过"
+      },
+      {
+        "word": "exceeding",
+        "chinese": "超出"
+      }
+    ]
   },
   {
     "id": "within",
@@ -165,7 +240,32 @@
       "S",
       "W"
     ],
-    "underlying_relation": "边界范围 → 东西处于内部 → 未越出边界。"
+    "underlying_relation": "边界范围 → 东西处于内部 → 未越出边界。",
+    "journey_steps": [
+      {
+        "icon": "🔲",
+        "label": "边界范围"
+      },
+      {
+        "icon": "📍",
+        "label": "处于内部"
+      },
+      {
+        "icon": "✅",
+        "label": "未越出边界"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「老老实实待在边界里头，没有出界」。",
+    "reading_synonyms": [
+      {
+        "word": "inside",
+        "chinese": "在…内"
+      },
+      {
+        "word": "enclosed by",
+        "chinese": "被…包围"
+      }
+    ]
   },
   {
     "id": "against",
@@ -207,7 +307,32 @@
       "S",
       "W"
     ],
-    "underlying_relation": "力/面A ↔ 力/面B → 正面相对顶住 → 对抵/对抗关系。"
+    "underlying_relation": "力/面A ↔ 力/面B → 正面相对顶住 → 对抵/对抗关系。",
+    "journey_steps": [
+      {
+        "icon": "⬅️",
+        "label": "力/面A"
+      },
+      {
+        "icon": "🤜",
+        "label": "正面相对顶住"
+      },
+      {
+        "icon": "➡️",
+        "label": "对抵对抗"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「两边顶头对上」，可以是对抗关系，也可以是身体靠在上面的依靠关系。",
+    "reading_synonyms": [
+      {
+        "word": "opposing",
+        "chinese": "反对的"
+      },
+      {
+        "word": "in opposition to",
+        "chinese": "与…对立"
+      }
+    ]
   },
   {
     "id": "towards",
@@ -249,7 +374,32 @@
       "S",
       "W"
     ],
-    "underlying_relation": "出发点 → 朝目标方向移动 → 逐渐接近目标（未必到达）。"
+    "underlying_relation": "出发点 → 朝目标方向移动 → 逐渐接近目标（未必到达）。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "出发点"
+      },
+      {
+        "icon": "➡️",
+        "label": "朝目标方向移动"
+      },
+      {
+        "icon": "🎯",
+        "label": "逐渐接近未必到达"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「朝着一个目标的方向在靠近，但还没必然到达」。",
+    "reading_synonyms": [
+      {
+        "word": "in the direction of",
+        "chinese": "朝…方向"
+      },
+      {
+        "word": "heading for",
+        "chinese": "朝…前进"
+      }
+    ]
   },
   {
     "id": "underlying",
@@ -291,7 +441,32 @@
       "S",
       "W"
     ],
-    "underlying_relation": "表层现象（可见）← 下方隐藏的东西支撑/引发 → 隐藏的东西本身不可见。"
+    "underlying_relation": "表层现象（可见）← 下方隐藏的东西支撑/引发 → 隐藏的东西本身不可见。",
+    "journey_steps": [
+      {
+        "icon": "👁️",
+        "label": "表层现象可见"
+      },
+      {
+        "icon": "🕳️",
+        "label": "下方隐藏的东西"
+      },
+      {
+        "icon": "🔒",
+        "label": "支撑但不可见"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「藏在表面现象下面，是那个支撑一切但自己不出面的东西」。",
+    "reading_synonyms": [
+      {
+        "word": "fundamental",
+        "chinese": "根本的"
+      },
+      {
+        "word": "underneath",
+        "chinese": "在…之下"
+      }
+    ]
   },
   {
     "id": "overall",
@@ -333,6 +508,31 @@
       "S",
       "W"
     ],
-    "underlying_relation": "各个局部部分 → 全部汇总合并 → 形成一个整体视角。"
+    "underlying_relation": "各个局部部分 → 全部汇总合并 → 形成一个整体视角。",
+    "journey_steps": [
+      {
+        "icon": "🧩",
+        "label": "各个局部部分"
+      },
+      {
+        "icon": "➕",
+        "label": "全部汇总合并"
+      },
+      {
+        "icon": "🖼️",
+        "label": "形成整体视角"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把所有零散部分拼一起看的整体视角」，不是只盯着某一处局部。",
+    "reading_synonyms": [
+      {
+        "word": "in general",
+        "chinese": "总体上"
+      },
+      {
+        "word": "on the whole",
+        "chinese": "总体而言"
+      }
+    ]
   }
 ]
