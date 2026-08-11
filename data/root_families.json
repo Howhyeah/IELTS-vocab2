@@ -48,7 +48,32 @@
       "infrastructure investment"
     ],
     "chinese": "结构；建造；建设；重建；基础设施；破坏；指导",
-    "underlying_relation": "分散的部件 → 按顺序搭建组合 → 形成稳固的整体结构。"
+    "underlying_relation": "分散的部件 → 按顺序搭建组合 → 形成稳固的整体结构。",
+    "journey_steps": [
+      {
+        "icon": "🧱",
+        "label": "分散的部件"
+      },
+      {
+        "icon": "🏗️",
+        "label": "按顺序搭建"
+      },
+      {
+        "icon": "🏛️",
+        "label": "形成稳固结构"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「把零件一块块搭起来变成一个稳固的东西」，搭建是construct，拆掉是destruct，把知识「搭」进脑子是instruct。",
+    "reading_synonyms": [
+      {
+        "word": "build",
+        "chinese": "建造"
+      },
+      {
+        "word": "assemble",
+        "chinese": "组装，搭建"
+      }
+    ]
   },
   {
     "id": "spect",
@@ -99,7 +124,32 @@
       "career prospects"
     ],
     "chinese": "检查；尊重；前景；视角；壮观；光谱；推测",
-    "underlying_relation": "视线 → 投向对象 → 获取关于对象的信息或态度（检查/尊重/推测等）。"
+    "underlying_relation": "视线 → 投向对象 → 获取关于对象的信息或态度（检查/尊重/推测等）。",
+    "journey_steps": [
+      {
+        "icon": "👁️",
+        "label": "视线"
+      },
+      {
+        "icon": "🎯",
+        "label": "投向对象"
+      },
+      {
+        "icon": "💭",
+        "label": "获取信息或态度"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「视线看向某个对象」这个动作，仔细看是inspect(检查)，抬头看是respect(尊重)，往前看是prospect(前景)。",
+    "reading_synonyms": [
+      {
+        "word": "view",
+        "chinese": "看待"
+      },
+      {
+        "word": "observe",
+        "chinese": "观察"
+      }
+    ]
   },
   {
     "id": "port",
@@ -150,7 +200,32 @@
       "support system"
     ],
     "chinese": "运输；出口；进口；支持；便携的；投资组合；报告",
-    "underlying_relation": "东西在起点 → 被搬运携带 → 到达终点（或反向：由内向外/外向内搬运）。"
+    "underlying_relation": "东西在起点 → 被搬运携带 → 到达终点（或反向：由内向外/外向内搬运）。",
+    "journey_steps": [
+      {
+        "icon": "📦",
+        "label": "东西在起点"
+      },
+      {
+        "icon": "🚚",
+        "label": "被搬运携带"
+      },
+      {
+        "icon": "📍",
+        "label": "到达终点"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「把东西从一处搬到另一处」，往外搬是export，往里搬是import，随身带着走是portable。",
+    "reading_synonyms": [
+      {
+        "word": "carry",
+        "chinese": "携带"
+      },
+      {
+        "word": "transfer",
+        "chinese": "运送，转移"
+      }
+    ]
   },
   {
     "id": "bio",
@@ -196,7 +271,32 @@
       "antibiotic resistance"
     ],
     "chinese": "生物学；传记；生物多样性；抗生素；共生；可生物降解的",
-    "underlying_relation": "生命体本身 → 被研究/记录/对抗 → 衍生出与生命相关的各类词义。"
+    "underlying_relation": "生命体本身 → 被研究/记录/对抗 → 衍生出与生命相关的各类词义。",
+    "journey_steps": [
+      {
+        "icon": "🌱",
+        "label": "生命体本身"
+      },
+      {
+        "icon": "🔬",
+        "label": "被研究/记录"
+      },
+      {
+        "icon": "📚",
+        "label": "衍生生命相关词义"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都围绕「生命」这个核心：研究生命是biology，记录生命历程是biography，对抗微生物是antibiotic。",
+    "reading_synonyms": [
+      {
+        "word": "life-related",
+        "chinese": "与生命相关的"
+      },
+      {
+        "word": "organic",
+        "chinese": "有机的，生物的"
+      }
+    ]
   },
   {
     "id": "cycle",
@@ -237,7 +337,32 @@
       "tropical cyclone"
     ],
     "chinese": "自行车；回收；生命周期；气旋；百科全书",
-    "underlying_relation": "起点 → 绕行一圈 → 回到起点，持续往复。"
+    "underlying_relation": "起点 → 绕行一圈 → 回到起点，持续往复。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "起点"
+      },
+      {
+        "icon": "🔄",
+        "label": "绕行一圈"
+      },
+      {
+        "icon": "📍",
+        "label": "回到起点持续往复"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「转一圈回到原点，然后再转」这个循环动作，两个轮子转的是bicycle，转回来再用一遍是recycle。",
+    "reading_synonyms": [
+      {
+        "word": "rotation",
+        "chinese": "轮转"
+      },
+      {
+        "word": "loop",
+        "chinese": "循环"
+      }
+    ]
   },
   {
     "id": "form",
@@ -293,7 +418,32 @@
       "transform society"
     ],
     "chinese": "形成；正式的；格式；公式；转变；改革；遵守；变形",
-    "underlying_relation": "无形的材料 → 被模具塑造 → 形成固定的形状或格式。"
+    "underlying_relation": "无形的材料 → 被模具塑造 → 形成固定的形状或格式。",
+    "journey_steps": [
+      {
+        "icon": "🌫️",
+        "label": "无形的材料"
+      },
+      {
+        "icon": "🧊",
+        "label": "被模具塑造"
+      },
+      {
+        "icon": "📐",
+        "label": "形成固定形状格式"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「把没有固定形状的东西塑造成一个固定样子」，塑造成新样子是transform，塑造回原样是reform。",
+    "reading_synonyms": [
+      {
+        "word": "shape",
+        "chinese": "塑造"
+      },
+      {
+        "word": "mold",
+        "chinese": "塑造，造型"
+      }
+    ]
   },
   {
     "id": "press",
@@ -349,7 +499,32 @@
       "express opinion"
     ],
     "chinese": "按压；压力；压缩；使沮丧；表达；使印象深刻；压迫；压制",
-    "underlying_relation": "外部压力 → 持续施加在物体上 → 物体形态或状态因压力而改变。"
+    "underlying_relation": "外部压力 → 持续施加在物体上 → 物体形态或状态因压力而改变。",
+    "journey_steps": [
+      {
+        "icon": "👇",
+        "label": "外部压力"
+      },
+      {
+        "icon": "⬇️",
+        "label": "持续施加"
+      },
+      {
+        "icon": "💢",
+        "label": "物体因压力改变"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「压」这个动作：压紧是compress，情绪被压下去是depress，压出来表达是express。",
+    "reading_synonyms": [
+      {
+        "word": "push down",
+        "chinese": "压下"
+      },
+      {
+        "word": "apply pressure",
+        "chinese": "施加压力"
+      }
+    ]
   },
   {
     "id": "migrate",
@@ -396,10 +571,29 @@
     ],
     "chinese": "迁移；移民；移入；移出；移民；迁徙的",
     "underlying_relation": "原居住地 → 主体整体移动 → 新居住地（跟随季节/条件变化）。",
+    "journey_steps": [
+      {
+        "icon": "🏠",
+        "label": "原居住地"
+      },
+      {
+        "icon": "✈️",
+        "label": "主体整体移动"
+      },
+      {
+        "icon": "🏡",
+        "label": "新居住地"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「整体挪去一个新地方长期待着」，往里迁是immigrate，往外迁是emigrate。",
     "reading_synonyms": [
       {
-        "word": "move",
-        "chinese": "移动"
+        "word": "relocate",
+        "chinese": "迁移，重新安置"
+      },
+      {
+        "word": "resettle",
+        "chinese": "重新安家"
       }
     ]
   },
@@ -442,7 +636,32 @@
       "educational system"
     ],
     "chinese": "教育；教育；教育者；教育的；未受教育的",
-    "underlying_relation": "学习者内在潜能 → 被引导带出 → 转化为外显的知识或能力。"
+    "underlying_relation": "学习者内在潜能 → 被引导带出 → 转化为外显的知识或能力。",
+    "journey_steps": [
+      {
+        "icon": "🌱",
+        "label": "学习者内在潜能"
+      },
+      {
+        "icon": "👆",
+        "label": "被引导带出"
+      },
+      {
+        "icon": "💡",
+        "label": "转化为知识能力"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「把一个人本来就有的潜能引导出来」，这是educate最原始的词根含义。",
+    "reading_synonyms": [
+      {
+        "word": "teach",
+        "chinese": "教导"
+      },
+      {
+        "word": "cultivate ability",
+        "chinese": "培养能力"
+      }
+    ]
   },
   {
     "id": "tract",
@@ -493,6 +712,31 @@
       "extract information"
     ],
     "chinese": "吸引；有吸引力的；合同；提取；分散注意力；减去；拖拉机",
-    "underlying_relation": "静止的物体 → 被一股拉力拽动 → 移向拉力方向（或被抽取出来）。"
+    "underlying_relation": "静止的物体 → 被一股拉力拽动 → 移向拉力方向（或被抽取出来）。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "静止的物体"
+      },
+      {
+        "icon": "🪢",
+        "label": "被一股拉力拽动"
+      },
+      {
+        "icon": "➡️",
+        "label": "移向拉力方向"
+      }
+    ],
+    "same_core_insight": "不同衍生词，本质都在讲「拉」这个动作：吸引人靠近是attract，抽取出来是extract，拉走注意力是distract。",
+    "reading_synonyms": [
+      {
+        "word": "pull",
+        "chinese": "拉"
+      },
+      {
+        "word": "drag",
+        "chinese": "拖拉"
+      }
+    ]
   }
 ]
