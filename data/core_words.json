@@ -890,14 +890,33 @@
     "underlying_relation": "坚固的东西 + 持续不断的微小外力（水流/风/怀疑）→ 反复摩擦冲刷 → 东西被一点点磨掉、削弱。",
     "reading_synonyms": [
       {
-        "word": "rust",
-        "chinese": "生锈"
+        "word": "wear away",
+        "chinese": "磨损"
       },
       {
-        "word": "damage",
-        "chinese": "损害"
+        "word": "diminish",
+        "chinese": "减少"
+      },
+      {
+        "word": "undermine",
+        "chinese": "削弱"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🪨",
+        "label": "坚固完整"
+      },
+      {
+        "icon": "💧",
+        "label": "持续摩擦冲刷"
+      },
+      {
+        "icon": "🕳️",
+        "label": "磨损削减"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一点一点磨，磨到东西越来越少」，不管磨的是海岸线还是信心。"
   },
   {
     "id": "thaw",
@@ -938,7 +957,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "冻结/僵硬状态 + 温度回升 → 逐渐软化/松动 → 恢复流动/温暖状态。"
+    "underlying_relation": "冻结/僵硬状态 + 温度回升 → 逐渐软化/松动 → 恢复流动/温暖状态。",
+    "journey_steps": [
+      {
+        "icon": "🧊",
+        "label": "冻结僵硬"
+      },
+      {
+        "icon": "🌡️",
+        "label": "温度回升"
+      },
+      {
+        "icon": "💧",
+        "label": "软化流动"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本冻住的东西，因为暖起来而重新能动了」。",
+    "reading_synonyms": [
+      {
+        "word": "melt",
+        "chinese": "融化"
+      },
+      {
+        "word": "soften",
+        "chinese": "软化"
+      },
+      {
+        "word": "warm up",
+        "chinese": "变暖"
+      }
+    ]
   },
   {
     "id": "chill",
@@ -979,7 +1027,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "热/紧绷状态 → 温度或情绪下降 → 冷静/放松状态。"
+    "underlying_relation": "热/紧绷状态 → 温度或情绪下降 → 冷静/放松状态。",
+    "journey_steps": [
+      {
+        "icon": "🔥",
+        "label": "热烈紧绷"
+      },
+      {
+        "icon": "⬇️",
+        "label": "温度/情绪下降"
+      },
+      {
+        "icon": "😌",
+        "label": "冷静放松"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从热变冷、从紧张变放松」这同一个降温过程。",
+    "reading_synonyms": [
+      {
+        "word": "cool down",
+        "chinese": "冷却"
+      },
+      {
+        "word": "relax",
+        "chinese": "放松"
+      },
+      {
+        "word": "calm",
+        "chinese": "平静"
+      }
+    ]
   },
   {
     "id": "freeze",
@@ -1023,10 +1100,33 @@
     "underlying_relation": "流动/活动状态 → 温度骤降或受到冲击 → 瞬间固定不动，完全停止。",
     "reading_synonyms": [
       {
-        "word": "chill",
-        "chinese": "冷却"
+        "word": "halt",
+        "chinese": "停止"
+      },
+      {
+        "word": "immobilize",
+        "chinese": "使固定"
+      },
+      {
+        "word": "fix",
+        "chinese": "固定"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🌊",
+        "label": "流动活动"
+      },
+      {
+        "icon": "⚡",
+        "label": "突然骤降冲击"
+      },
+      {
+        "icon": "🧊",
+        "label": "完全固定"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本在动的东西，突然彻底不动了」。"
   },
   {
     "id": "frigid",
@@ -1067,7 +1167,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "环境/态度 → 温度极低，无回应 → 靠近者感受不到暖意，如被拒于千里之外。"
+    "underlying_relation": "环境/态度 → 温度极低，无回应 → 靠近者感受不到暖意，如被拒于千里之外。",
+    "journey_steps": [
+      {
+        "icon": "🥶",
+        "label": "极度寒冷"
+      },
+      {
+        "icon": "🚫",
+        "label": "无回应无暖意"
+      },
+      {
+        "icon": "🧊",
+        "label": "拒人千里"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「靠近了也感受不到一丝暖意」，不管是天气还是态度。",
+    "reading_synonyms": [
+      {
+        "word": "icy",
+        "chinese": "冰冷的"
+      },
+      {
+        "word": "cold",
+        "chinese": "冷漠的"
+      },
+      {
+        "word": "freezing",
+        "chinese": "严寒的"
+      }
+    ]
   },
   {
     "id": "tremble",
@@ -1108,7 +1237,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "内在的害怕/寒冷/虚弱 → 身体失去稳定控制 → 产生细小快速的不自主抖动。"
+    "underlying_relation": "内在的害怕/寒冷/虚弱 → 身体失去稳定控制 → 产生细小快速的不自主抖动。",
+    "journey_steps": [
+      {
+        "icon": "😨",
+        "label": "害怕/寒冷/虚弱"
+      },
+      {
+        "icon": "🌀",
+        "label": "失去稳定控制"
+      },
+      {
+        "icon": "〜",
+        "label": "不自主抖动"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「身体因为内在的害怕或虚弱，控制不住地抖」。",
+    "reading_synonyms": [
+      {
+        "word": "shake",
+        "chinese": "颤抖"
+      },
+      {
+        "word": "quiver",
+        "chinese": "颤动"
+      },
+      {
+        "word": "quake",
+        "chinese": "震动"
+      }
+    ]
   },
   {
     "id": "shiver",
@@ -1149,7 +1307,32 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "寒冷侵入身体 → 身体自动快速抖动（生热反应）→ 持续到暖意恢复为止。"
+    "underlying_relation": "寒冷侵入身体 → 身体自动快速抖动（生热反应）→ 持续到暖意恢复为止。",
+    "journey_steps": [
+      {
+        "icon": "🥶",
+        "label": "寒冷侵入"
+      },
+      {
+        "icon": "〜",
+        "label": "自动快速抖动"
+      },
+      {
+        "icon": "🔥",
+        "label": "生热保暖"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「身体靠抖动来对抗寒冷，抖到暖回来为止」，跟tremble不同：这里专门指冷。",
+    "reading_synonyms": [
+      {
+        "word": "quake",
+        "chinese": "发抖"
+      },
+      {
+        "word": "quiver",
+        "chinese": "颤动"
+      }
+    ]
   },
   {
     "id": "stormy",
@@ -1190,7 +1373,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "平静状态 → 大量对抗性力量同时涌入碰撞 → 剧烈动荡、随时爆发的紧张局面。"
+    "underlying_relation": "平静状态 → 大量对抗性力量同时涌入碰撞 → 剧烈动荡、随时爆发的紧张局面。",
+    "journey_steps": [
+      {
+        "icon": "😌",
+        "label": "平静状态"
+      },
+      {
+        "icon": "💥",
+        "label": "对抗力量涌入碰撞"
+      },
+      {
+        "icon": "⚡",
+        "label": "随时爆发"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「平静被打破，变得随时可能爆发冲突」。",
+    "reading_synonyms": [
+      {
+        "word": "turbulent",
+        "chinese": "动荡的"
+      },
+      {
+        "word": "volatile",
+        "chinese": "不稳定的"
+      },
+      {
+        "word": "tumultuous",
+        "chinese": "骚动的"
+      }
+    ]
   },
   {
     "id": "sprinkle",
@@ -1231,7 +1443,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "大量细小颗粒/水滴 → 轻轻分散撒落 → 表面留下稀疏点状痕迹（非整片覆盖）。"
+    "underlying_relation": "大量细小颗粒/水滴 → 轻轻分散撒落 → 表面留下稀疏点状痕迹（非整片覆盖）。",
+    "journey_steps": [
+      {
+        "icon": "💧",
+        "label": "细小颗粒/水滴"
+      },
+      {
+        "icon": "🤏",
+        "label": "轻轻分散撒落"
+      },
+      {
+        "icon": "⚬",
+        "label": "点状稀疏痕迹"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「轻轻撒一点点，留下的是稀疏的点，不是整片盖住」。",
+    "reading_synonyms": [
+      {
+        "word": "scatter",
+        "chinese": "散布"
+      },
+      {
+        "word": "dust",
+        "chinese": "撒粉状物"
+      },
+      {
+        "word": "spatter",
+        "chinese": "点缀"
+      }
+    ]
   },
   {
     "id": "forecast",
@@ -1273,7 +1514,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "当前迹象/数据 → 向前推算 → 尚未发生的事被提前说出来。"
+    "underlying_relation": "当前迹象/数据 → 向前推算 → 尚未发生的事被提前说出来。",
+    "journey_steps": [
+      {
+        "icon": "📊",
+        "label": "当前迹象数据"
+      },
+      {
+        "icon": "➡️",
+        "label": "向前推算"
+      },
+      {
+        "icon": "🔮",
+        "label": "未发生的事被说出来"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「看着现在的线索，往前推算还没发生的事」。",
+    "reading_synonyms": [
+      {
+        "word": "predict",
+        "chinese": "预测"
+      },
+      {
+        "word": "project",
+        "chinese": "预测，推测"
+      },
+      {
+        "word": "anticipate",
+        "chinese": "预料"
+      }
+    ]
   },
   {
     "id": "peak",
@@ -1318,10 +1588,33 @@
     "underlying_relation": "持续上升过程 → 到达最高点 → 无法再往上（即将转向下降或停滞）。",
     "reading_synonyms": [
       {
-        "word": "top",
-        "chinese": "顶部"
+        "word": "summit",
+        "chinese": "顶峰"
+      },
+      {
+        "word": "climax",
+        "chinese": "高潮"
+      },
+      {
+        "word": "zenith",
+        "chinese": "顶点"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "📈",
+        "label": "持续上升"
+      },
+      {
+        "icon": "🏔️",
+        "label": "到达最高点"
+      },
+      {
+        "icon": "🚫",
+        "label": "无法再高"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一路往上冲，冲到了现在能到的最高点」。"
   },
   {
     "id": "mount",
@@ -1362,7 +1655,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "较低位置/数量 → 持续向上攀爬/累积 → 到达更高位置/数量。"
+    "underlying_relation": "较低位置/数量 → 持续向上攀爬/累积 → 到达更高位置/数量。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "较低位置/数量"
+      },
+      {
+        "icon": "🧗",
+        "label": "持续攀爬累积"
+      },
+      {
+        "icon": "⛰️",
+        "label": "更高位置/数量"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一步步往上爬或往上堆」，不管是爬山、骑马还是压力累积。",
+    "reading_synonyms": [
+      {
+        "word": "climb",
+        "chinese": "攀登"
+      },
+      {
+        "word": "accumulate",
+        "chinese": "累积"
+      },
+      {
+        "word": "increase",
+        "chinese": "增加"
+      }
+    ]
   },
   {
     "id": "range",
@@ -1407,10 +1729,33 @@
     "underlying_relation": "起点 ←…中间所有可能值…→ 终点 = 整个连续跨度构成「范围」。",
     "reading_synonyms": [
       {
+        "word": "span",
+        "chinese": "跨度"
+      },
+      {
         "word": "scope",
         "chinese": "范围"
+      },
+      {
+        "word": "spectrum",
+        "chinese": "范围，系列"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "起点"
+      },
+      {
+        "icon": "〜〜〜",
+        "label": "中间所有可能值"
+      },
+      {
+        "icon": "📍",
+        "label": "终点"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从一头到另一头，中间全部都算在内」，形成一个跨度。"
   },
   {
     "id": "slope",
@@ -1451,7 +1796,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "倾斜角度的表面 → 重力作用 → 东西自然向下滑动。"
+    "underlying_relation": "倾斜角度的表面 → 重力作用 → 东西自然向下滑动。",
+    "journey_steps": [
+      {
+        "icon": "📐",
+        "label": "倾斜角度表面"
+      },
+      {
+        "icon": "⬇️",
+        "label": "重力作用"
+      },
+      {
+        "icon": "🛷",
+        "label": "自然向下滑"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一个歪着的面，东西放上去就会自己往下滑」。",
+    "reading_synonyms": [
+      {
+        "word": "incline",
+        "chinese": "斜坡"
+      },
+      {
+        "word": "gradient",
+        "chinese": "坡度"
+      },
+      {
+        "word": "tilt",
+        "chinese": "倾斜"
+      }
+    ]
   },
   {
     "id": "overlook",
@@ -1492,7 +1866,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "视线 → 从高处俯视或从上方掠过而不聚焦 → 看到全景，但漏掉了具体细节。"
+    "underlying_relation": "视线 → 从高处俯视或从上方掠过而不聚焦 → 看到全景，但漏掉了具体细节。",
+    "journey_steps": [
+      {
+        "icon": "👁️",
+        "label": "视线从高处"
+      },
+      {
+        "icon": "〜",
+        "label": "掠过不聚焦"
+      },
+      {
+        "icon": "❌",
+        "label": "漏掉细节"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「视线扫过去了，但没真正落下来看清细节」。",
+    "reading_synonyms": [
+      {
+        "word": "neglect",
+        "chinese": "忽视"
+      },
+      {
+        "word": "miss",
+        "chinese": "错过"
+      },
+      {
+        "word": "disregard",
+        "chinese": "不顾，忽视"
+      }
+    ]
   },
   {
     "id": "inevitable",
@@ -1534,7 +1937,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "所有可能路径 → 全部汇聚 → 唯一结果（无法绕开）。"
+    "underlying_relation": "所有可能路径 → 全部汇聚 → 唯一结果（无法绕开）。",
+    "journey_steps": [
+      {
+        "icon": "🔀",
+        "label": "所有可能路径"
+      },
+      {
+        "icon": "➡️",
+        "label": "全部汇聚"
+      },
+      {
+        "icon": "🎯",
+        "label": "唯一结果"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不管走哪条路，最后都会走到同一个结果，躲不掉」。",
+    "reading_synonyms": [
+      {
+        "word": "unavoidable",
+        "chinese": "不可避免的"
+      },
+      {
+        "word": "inescapable",
+        "chinese": "不可逃避的"
+      },
+      {
+        "word": "certain",
+        "chinese": "必然的"
+      }
+    ]
   },
   {
     "id": "irreversible",
@@ -1575,7 +2007,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "原状态 → 越过临界点变化 → 无法退回原状态（单向门）。"
+    "underlying_relation": "原状态 → 越过临界点变化 → 无法退回原状态（单向门）。",
+    "journey_steps": [
+      {
+        "icon": "🚪",
+        "label": "原状态"
+      },
+      {
+        "icon": "⚡",
+        "label": "越过临界点"
+      },
+      {
+        "icon": "🚫",
+        "label": "无法退回"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「过了这道门就回不去了」，是一趟单向旅程。",
+    "reading_synonyms": [
+      {
+        "word": "permanent",
+        "chinese": "永久的"
+      },
+      {
+        "word": "irrevocable",
+        "chinese": "不可逆转的"
+      },
+      {
+        "word": "final",
+        "chinese": "最终的，不可更改的"
+      }
+    ]
   },
   {
     "id": "irregularly",
@@ -1616,7 +2077,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "反复发生的事 → 间隔时间忽长忽短 → 无法预测下一次何时发生。"
+    "underlying_relation": "反复发生的事 → 间隔时间忽长忽短 → 无法预测下一次何时发生。",
+    "journey_steps": [
+      {
+        "icon": "🔁",
+        "label": "反复发生"
+      },
+      {
+        "icon": "〜",
+        "label": "间隔忽长忽短"
+      },
+      {
+        "icon": "❓",
+        "label": "无法预测"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「同一件事反复出现，但节奏乱七八糟猜不到」。",
+    "reading_synonyms": [
+      {
+        "word": "sporadically",
+        "chinese": "间歇地，零星地"
+      },
+      {
+        "word": "erratically",
+        "chinese": "不规律地"
+      },
+      {
+        "word": "inconsistently",
+        "chinese": "不一致地"
+      }
+    ]
   },
   {
     "id": "inappropriate",
@@ -1661,10 +2151,33 @@
     "underlying_relation": "场合的性质/要求 ≠ 放入的行为/事物性质 → 不匹配 → 显得突兀、不合适。",
     "reading_synonyms": [
       {
-        "word": "hard",
-        "chinese": "困难的"
+        "word": "unsuitable",
+        "chinese": "不合适的"
+      },
+      {
+        "word": "improper",
+        "chinese": "不恰当的"
+      },
+      {
+        "word": "unfitting",
+        "chinese": "不合适的"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎭",
+        "label": "场合的性质"
+      },
+      {
+        "icon": "❌",
+        "label": "跟事物不匹配"
+      },
+      {
+        "icon": "😬",
+        "label": "格格不入"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「这个东西/行为跟当下这个场合不对味，放错地方了」。"
   },
   {
     "id": "abnormal",
@@ -1705,7 +2218,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "标准/常见模式（多数样本聚集处）→ 这一个明显偏离 → 落在预期范围之外。"
+    "underlying_relation": "标准/常见模式（多数样本聚集处）→ 这一个明显偏离 → 落在预期范围之外。",
+    "journey_steps": [
+      {
+        "icon": "📊",
+        "label": "标准/常见模式"
+      },
+      {
+        "icon": "↗️",
+        "label": "明显偏离"
+      },
+      {
+        "icon": "⚠️",
+        "label": "落在预期外"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「大多数都这样，就它不一样，跳出了正常范围」。",
+    "reading_synonyms": [
+      {
+        "word": "unusual",
+        "chinese": "不寻常的"
+      },
+      {
+        "word": "irregular",
+        "chinese": "不规则的"
+      },
+      {
+        "word": "atypical",
+        "chinese": "非典型的"
+      }
+    ]
   },
   {
     "id": "muddy",
@@ -1746,7 +2288,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "清澈液体/坚实地面 + 混入泥土 → 变得浑浊、黏软。"
+    "underlying_relation": "清澈液体/坚实地面 + 混入泥土 → 变得浑浊、黏软。",
+    "journey_steps": [
+      {
+        "icon": "💧",
+        "label": "清澈/坚实"
+      },
+      {
+        "icon": "🟤",
+        "label": "混入泥土"
+      },
+      {
+        "icon": "🌫️",
+        "label": "浑浊黏软"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「干净或坚实的东西，被泥搅和进去，变得又浑又黏」。",
+    "reading_synonyms": [
+      {
+        "word": "murky",
+        "chinese": "浑浊的"
+      },
+      {
+        "word": "unclear",
+        "chinese": "不清晰的"
+      },
+      {
+        "word": "turbid",
+        "chinese": "混浊的"
+      }
+    ]
   },
   {
     "id": "rural",
@@ -1788,7 +2359,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "开阔土地 + 低人口密度 + 农业为主 → 乡村性质（对比城市的密集建筑）。"
+    "underlying_relation": "开阔土地 + 低人口密度 + 农业为主 → 乡村性质（对比城市的密集建筑）。",
+    "journey_steps": [
+      {
+        "icon": "🌾",
+        "label": "开阔农田"
+      },
+      {
+        "icon": "🏘️",
+        "label": "稀疏聚落"
+      },
+      {
+        "icon": "🏙️",
+        "label": "对比密集城市"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「地广人稀、以农业为主」，跟拥挤的城市正好相反。",
+    "reading_synonyms": [
+      {
+        "word": "agricultural",
+        "chinese": "农业的"
+      },
+      {
+        "word": "countryside",
+        "chinese": "乡村的"
+      },
+      {
+        "word": "pastoral",
+        "chinese": "乡村的，田园的"
+      }
+    ]
   },
   {
     "id": "remote",
@@ -1830,7 +2430,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "中心点 ← 长距离间隔 → 目标点（远端），需跨越距离才能触及。"
+    "underlying_relation": "中心点 ← 长距离间隔 → 目标点（远端），需跨越距离才能触及。",
+    "journey_steps": [
+      {
+        "icon": "🏠",
+        "label": "中心/主要位置"
+      },
+      {
+        "icon": "〜〜〜",
+        "label": "长距离间隔"
+      },
+      {
+        "icon": "📍",
+        "label": "远端目标点"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「离中心很远，要跨过一大段距离才够得着」。",
+    "reading_synonyms": [
+      {
+        "word": "distant",
+        "chinese": "遥远的"
+      },
+      {
+        "word": "isolated",
+        "chinese": "隔离的，孤立的"
+      },
+      {
+        "word": "far-flung",
+        "chinese": "遥远的"
+      }
+    ]
   },
   {
     "id": "desolate",
@@ -1871,7 +2500,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "潜在的生机/人烟 → 完全抽离消失 → 只剩空荡荒芜。"
+    "underlying_relation": "潜在的生机/人烟 → 完全抽离消失 → 只剩空荡荒芜。",
+    "journey_steps": [
+      {
+        "icon": "🏚️",
+        "label": "潜在生机人烟"
+      },
+      {
+        "icon": "🌪️",
+        "label": "完全抽离消失"
+      },
+      {
+        "icon": "🏜️",
+        "label": "空荡荒芜"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本可能热闹的地方，现在一点生气都没了」。",
+    "reading_synonyms": [
+      {
+        "word": "deserted",
+        "chinese": "荒废的"
+      },
+      {
+        "word": "barren",
+        "chinese": "贫瘠的，荒芜的"
+      },
+      {
+        "word": "abandoned",
+        "chinese": "被遗弃的"
+      }
+    ]
   },
   {
     "id": "distant",
@@ -1912,7 +2570,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "两点之间 → 较大间隔（空间/情感）→ 联系变弱变模糊。"
+    "underlying_relation": "两点之间 → 较大间隔（空间/情感）→ 联系变弱变模糊。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "两个点"
+      },
+      {
+        "icon": "〜〜〜",
+        "label": "较大间隔"
+      },
+      {
+        "icon": "🌫️",
+        "label": "联系变弱模糊"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「两者之间隔得太远，不管是空间还是感情，联系都淡了」，跟remote不同：这里强调两点间的疏离感。",
+    "reading_synonyms": [
+      {
+        "word": "far",
+        "chinese": "远的"
+      },
+      {
+        "word": "distanced",
+        "chinese": "疏远的"
+      },
+      {
+        "word": "removed",
+        "chinese": "脱离的，遥远的"
+      }
+    ]
   },
   {
     "id": "adjacent",
