@@ -2640,7 +2640,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "物体A｜物体B → 中间无间隔 → 边界紧贴（相邻）。"
+    "underlying_relation": "物体A｜物体B → 中间无间隔 → 边界紧贴（相邻）。",
+    "journey_steps": [
+      {
+        "icon": "⬜",
+        "label": "物体A"
+      },
+      {
+        "icon": "0️⃣",
+        "label": "无间隔"
+      },
+      {
+        "icon": "⬜",
+        "label": "物体B紧贴"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「两个东西紧贴着排，中间不留一点缝」。",
+    "reading_synonyms": [
+      {
+        "word": "neighboring",
+        "chinese": "邻近的"
+      },
+      {
+        "word": "bordering",
+        "chinese": "接壤的"
+      },
+      {
+        "word": "next to",
+        "chinese": "紧邻"
+      }
+    ]
   },
   {
     "id": "toxic",
@@ -2682,7 +2711,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "物质内含有害成分 → 接触/摄入生物体 → 造成损害（中毒）。"
+    "underlying_relation": "物质内含有害成分 → 接触/摄入生物体 → 造成损害（中毒）。",
+    "journey_steps": [
+      {
+        "icon": "☠️",
+        "label": "内含有害成分"
+      },
+      {
+        "icon": "👃",
+        "label": "接触/摄入"
+      },
+      {
+        "icon": "💔",
+        "label": "造成损害"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「里面藏着会伤人的东西，一碰或一吃就出事」。",
+    "reading_synonyms": [
+      {
+        "word": "poisonous",
+        "chinese": "有毒的"
+      },
+      {
+        "word": "harmful",
+        "chinese": "有害的"
+      },
+      {
+        "word": "noxious",
+        "chinese": "有毒的，有害的"
+      }
+    ]
   },
   {
     "id": "pollute",
@@ -2724,7 +2782,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "干净环境 + 引入有害物质 → 环境变得污浊、不再纯净。"
+    "underlying_relation": "干净环境 + 引入有害物质 → 环境变得污浊、不再纯净。",
+    "journey_steps": [
+      {
+        "icon": "🌿",
+        "label": "干净环境"
+      },
+      {
+        "icon": "☠️",
+        "label": "引入有害物质"
+      },
+      {
+        "icon": "🏭",
+        "label": "变得污浊"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把脏东西加进原本干净的环境里」，强调的是「从外部引入」这个动作，对象是大环境。",
+    "reading_synonyms": [
+      {
+        "word": "contaminate",
+        "chinese": "污染"
+      },
+      {
+        "word": "taint",
+        "chinese": "污染"
+      },
+      {
+        "word": "foul",
+        "chinese": "弄脏"
+      }
+    ]
   },
   {
     "id": "contaminate",
@@ -2765,7 +2852,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "纯净物质/样本 + 接触外来异质物 → 混入不该有的成分 → 不再纯净安全。"
+    "underlying_relation": "纯净物质/样本 + 接触外来异质物 → 混入不该有的成分 → 不再纯净安全。",
+    "journey_steps": [
+      {
+        "icon": "🧪",
+        "label": "纯净物质/样本"
+      },
+      {
+        "icon": "🦠",
+        "label": "混入外来异质"
+      },
+      {
+        "icon": "⚠️",
+        "label": "不再纯净安全"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本来干净安全的东西，混进了不该有的成分」，跟pollute的区别：这里更强调「混入具体物质/样本」，pollute强调「污染大环境」。",
+    "reading_synonyms": [
+      {
+        "word": "infect",
+        "chinese": "感染"
+      },
+      {
+        "word": "taint",
+        "chinese": "污染，玷污"
+      },
+      {
+        "word": "adulterate",
+        "chinese": "掺假"
+      }
+    ]
   },
   {
     "id": "border",
@@ -2806,7 +2922,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "区域A｜（边界线）｜区域B → 边界线两侧分属不同区域。"
+    "underlying_relation": "区域A｜（边界线）｜区域B → 边界线两侧分属不同区域。",
+    "journey_steps": [
+      {
+        "icon": "🟦",
+        "label": "区域A"
+      },
+      {
+        "icon": "➖",
+        "label": "边界线"
+      },
+      {
+        "icon": "🟨",
+        "label": "区域B"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一条线，线这边是一个区域，线那边是另一个区域」。",
+    "reading_synonyms": [
+      {
+        "word": "boundary",
+        "chinese": "边界"
+      },
+      {
+        "word": "frontier",
+        "chinese": "边境"
+      },
+      {
+        "word": "edge",
+        "chinese": "边缘"
+      }
+    ]
   },
   {
     "id": "margin",
@@ -2847,7 +2992,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "核心主体 + 周边留出的余量 → 余量本身即「margin」（缓冲/利润/边缘空间）。"
+    "underlying_relation": "核心主体 + 周边留出的余量 → 余量本身即「margin」（缓冲/利润/边缘空间）。",
+    "journey_steps": [
+      {
+        "icon": "⬛",
+        "label": "核心主体"
+      },
+      {
+        "icon": "⬜",
+        "label": "周边留出余量"
+      },
+      {
+        "icon": "📏",
+        "label": "缓冲/剩余"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「核心之外多留的那一圈空间」，可能是页边空白，也可能是利润余量。",
+    "reading_synonyms": [
+      {
+        "word": "buffer",
+        "chinese": "缓冲"
+      },
+      {
+        "word": "allowance",
+        "chinese": "余量"
+      },
+      {
+        "word": "leeway",
+        "chinese": "余地"
+      }
+    ]
   },
   {
     "id": "fringe",
@@ -2888,7 +3062,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "主体核心 → 边缘处松散延伸垂挂 → 形成外围附属的一层（非核心）。"
+    "underlying_relation": "主体核心 → 边缘处松散延伸垂挂 → 形成外围附属的一层（非核心）。",
+    "journey_steps": [
+      {
+        "icon": "⬛",
+        "label": "主体核心"
+      },
+      {
+        "icon": "〜",
+        "label": "边缘松散垂挂"
+      },
+      {
+        "icon": "🎗️",
+        "label": "外围附属"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「挂在主体边上、松松垂着的那一层」，不是核心部分；跟margin不同：margin是留出的空间，fringe是垂挂延伸的边角。",
+    "reading_synonyms": [
+      {
+        "word": "edge",
+        "chinese": "边缘"
+      },
+      {
+        "word": "periphery",
+        "chinese": "外围"
+      },
+      {
+        "word": "border",
+        "chinese": "边缘"
+      }
+    ]
   },
   {
     "id": "crack",
@@ -2929,7 +3132,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "完整表面 → 出现断裂线 → 连续性被打破（裂缝，或引申为破解障碍）。"
+    "underlying_relation": "完整表面 → 出现断裂线 → 连续性被打破（裂缝，或引申为破解障碍）。",
+    "journey_steps": [
+      {
+        "icon": "⬜",
+        "label": "完整表面"
+      },
+      {
+        "icon": "⚡",
+        "label": "出现断裂线"
+      },
+      {
+        "icon": "💔",
+        "label": "连续性打破"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本一整块的东西，裂开了一条线」，不管是蛋壳裂开还是密码被破解。",
+    "reading_synonyms": [
+      {
+        "word": "break",
+        "chinese": "破裂"
+      },
+      {
+        "word": "split",
+        "chinese": "裂开"
+      },
+      {
+        "word": "fracture",
+        "chinese": "裂缝"
+      }
+    ]
   },
   {
     "id": "gap",
@@ -2971,7 +3203,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "东西A｜空隙（缺口）｜东西B → 中间未被填满 → 形成差距/缺口。"
+    "underlying_relation": "东西A｜空隙（缺口）｜东西B → 中间未被填满 → 形成差距/缺口。",
+    "journey_steps": [
+      {
+        "icon": "⬜",
+        "label": "东西A"
+      },
+      {
+        "icon": "⬛",
+        "label": "空隙未填满"
+      },
+      {
+        "icon": "⬜",
+        "label": "东西B"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「两边中间缺了一块，没填满」，不管是牙缝还是收入差距。",
+    "reading_synonyms": [
+      {
+        "word": "gulf",
+        "chinese": "差距"
+      },
+      {
+        "word": "void",
+        "chinese": "空白"
+      },
+      {
+        "word": "interval",
+        "chinese": "间隔"
+      }
+    ]
   },
   {
     "id": "splendid",
@@ -3012,7 +3273,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "事物本身 → 散发耀眼气势 → 引发赞叹和惊艳感。"
+    "underlying_relation": "事物本身 → 散发耀眼气势 → 引发赞叹和惊艳感。",
+    "journey_steps": [
+      {
+        "icon": "✨",
+        "label": "事物本身"
+      },
+      {
+        "icon": "😲",
+        "label": "散发耀眼气势"
+      },
+      {
+        "icon": "👏",
+        "label": "引发赞叹"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一眼看上去就觉得耀眼、忍不住赞叹」的那种美好。",
+    "reading_synonyms": [
+      {
+        "word": "magnificent",
+        "chinese": "壮丽的"
+      },
+      {
+        "word": "superb",
+        "chinese": "极好的"
+      },
+      {
+        "word": "glorious",
+        "chinese": "壮丽的，光荣的"
+      }
+    ]
   },
   {
     "id": "grand",
@@ -3053,7 +3343,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "各个部分 → 汇聚成一个规模宏大的整体 → 呈现出庄严的气势。"
+    "underlying_relation": "各个部分 → 汇聚成一个规模宏大的整体 → 呈现出庄严的气势。",
+    "journey_steps": [
+      {
+        "icon": "🧩",
+        "label": "各个部分"
+      },
+      {
+        "icon": "➕",
+        "label": "汇聚成整体"
+      },
+      {
+        "icon": "🏛️",
+        "label": "规模宏大庄严"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把各部分汇聚成一个大而庄重的整体」，强调规模和分量感，不是单纯好看。",
+    "reading_synonyms": [
+      {
+        "word": "majestic",
+        "chinese": "庄严的"
+      },
+      {
+        "word": "imposing",
+        "chinese": "壮观的，令人印象深刻的"
+      },
+      {
+        "word": "stately",
+        "chinese": "庄严的"
+      }
+    ]
   },
   {
     "id": "magnificent",
@@ -3094,7 +3413,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "事物的美感/规模 → 达到震撼级别 → 令人心生敬畏。"
+    "underlying_relation": "事物的美感/规模 → 达到震撼级别 → 令人心生敬畏。",
+    "journey_steps": [
+      {
+        "icon": "🏰",
+        "label": "事物的美感/规模"
+      },
+      {
+        "icon": "😳",
+        "label": "达到震撼级别"
+      },
+      {
+        "icon": "🙏",
+        "label": "令人敬畏"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「美到、大到让人心生敬畏」，程度比splendid更强烈震撼。",
+    "reading_synonyms": [
+      {
+        "word": "spectacular",
+        "chinese": "壮观的"
+      },
+      {
+        "word": "awe-inspiring",
+        "chinese": "令人敬畏的"
+      },
+      {
+        "word": "stunning",
+        "chinese": "令人惊叹的"
+      }
+    ]
   },
   {
     "id": "dramatic",
@@ -3139,10 +3487,33 @@
     "underlying_relation": "变化/事件 → 幅度力度突然增强 → 效果强烈到像戏剧场面，引人注目。",
     "reading_synonyms": [
       {
+        "word": "drastic",
+        "chinese": "激烈的"
+      },
+      {
         "word": "striking",
-        "chinese": "显著的"
+        "chinese": "显著的，惹人注目的"
+      },
+      {
+        "word": "sudden",
+        "chinese": "突然的"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "📊",
+        "label": "变化/事件"
+      },
+      {
+        "icon": "⚡",
+        "label": "幅度力度突然增强"
+      },
+      {
+        "icon": "🎭",
+        "label": "戏剧化引人注目"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「变化大到、突然到像戏剧场面」，重点在「变化的剧烈」而不是「美」。"
   },
   {
     "id": "barren",
@@ -3183,7 +3554,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "土地缺乏养分/条件 → 无法支撑生长 → 保持空荡不毛。"
+    "underlying_relation": "土地缺乏养分/条件 → 无法支撑生长 → 保持空荡不毛。",
+    "journey_steps": [
+      {
+        "icon": "🏜️",
+        "label": "土地缺乏养分"
+      },
+      {
+        "icon": "🚫",
+        "label": "无法支撑生长"
+      },
+      {
+        "icon": "∅",
+        "label": "保持空荡"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「缺了养分/条件，什么都长不出来」，土地是这样，脑子想不出点子也是这样。",
+    "reading_synonyms": [
+      {
+        "word": "infertile",
+        "chinese": "不肥沃的"
+      },
+      {
+        "word": "unproductive",
+        "chinese": "不产出的"
+      },
+      {
+        "word": "sterile",
+        "chinese": "不孕的，贫瘠的"
+      }
+    ]
   },
   {
     "id": "fertile",
@@ -3224,7 +3624,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "土地富含养分 → 强力支撑生长 → 产出丰富茂盛。"
+    "underlying_relation": "土地富含养分 → 强力支撑生长 → 产出丰富茂盛。",
+    "journey_steps": [
+      {
+        "icon": "🌱",
+        "label": "土地富含养分"
+      },
+      {
+        "icon": "💪",
+        "label": "强力支撑生长"
+      },
+      {
+        "icon": "🌾",
+        "label": "产出丰富"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「养分/条件足够，让东西茂盛地长出来」，跟barren正好相反。",
+    "reading_synonyms": [
+      {
+        "word": "productive",
+        "chinese": "高产的"
+      },
+      {
+        "word": "fruitful",
+        "chinese": "富有成效的"
+      },
+      {
+        "word": "rich",
+        "chinese": "肥沃的，富饶的"
+      }
+    ]
   },
   {
     "id": "fertilise",
@@ -3265,7 +3694,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "缺乏养分/繁殖条件的东西 + 主动加入养分/繁殖物质 → 触发生长/繁殖。"
+    "underlying_relation": "缺乏养分/繁殖条件的东西 + 主动加入养分/繁殖物质 → 触发生长/繁殖。",
+    "journey_steps": [
+      {
+        "icon": "🚫",
+        "label": "缺乏养分/繁殖条件"
+      },
+      {
+        "icon": "➕",
+        "label": "主动加入养分物"
+      },
+      {
+        "icon": "🌸",
+        "label": "触发生长繁殖"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「主动加点东西进去，去启动一个生长或繁殖的过程」，是fertile这个状态的「主动制造」版本。",
+    "reading_synonyms": [
+      {
+        "word": "enrich",
+        "chinese": "使富足，使肥沃"
+      },
+      {
+        "word": "pollinate",
+        "chinese": "授粉"
+      },
+      {
+        "word": "nourish",
+        "chinese": "滋养"
+      }
+    ]
   },
   {
     "id": "evaporate",
@@ -3306,7 +3764,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "液体 + 受热 → 转变成气体 → 分散消失（看不见摸不着）。"
+    "underlying_relation": "液体 + 受热 → 转变成气体 → 分散消失（看不见摸不着）。",
+    "journey_steps": [
+      {
+        "icon": "💧",
+        "label": "液体"
+      },
+      {
+        "icon": "🔥",
+        "label": "受热"
+      },
+      {
+        "icon": "💨",
+        "label": "转变气体分散消失"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「看得见的东西受热之后，变成看不见的、散开消失了」。",
+    "reading_synonyms": [
+      {
+        "word": "vaporize",
+        "chinese": "蒸发，汽化"
+      },
+      {
+        "word": "disappear",
+        "chinese": "消失"
+      },
+      {
+        "word": "dissipate",
+        "chinese": "消散"
+      }
+    ]
   },
   {
     "id": "cycle",
@@ -3348,7 +3835,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "起点 → 依次经过各阶段 → 回到起点 → 重新开始（循环往复）。"
+    "underlying_relation": "起点 → 依次经过各阶段 → 回到起点 → 重新开始（循环往复）。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "起点"
+      },
+      {
+        "icon": "🔄",
+        "label": "依次经过各阶段"
+      },
+      {
+        "icon": "📍",
+        "label": "回到起点重新开始"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「走一圈，又回到最初的地方，然后再走一圈」，强调「循环闭环」这个结构。",
+    "reading_synonyms": [
+      {
+        "word": "rotation",
+        "chinese": "轮转"
+      },
+      {
+        "word": "loop",
+        "chinese": "循环"
+      },
+      {
+        "word": "sequence",
+        "chinese": "顺序，连续"
+      }
+    ]
   },
   {
     "id": "precipitate",
@@ -3389,7 +3905,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "悬浮/稳定状态 → 突然失衡 → 猝然坠落或触发（无缓冲过程）。"
+    "underlying_relation": "悬浮/稳定状态 → 突然失衡 → 猝然坠落或触发（无缓冲过程）。",
+    "journey_steps": [
+      {
+        "icon": "⚖️",
+        "label": "悬浮/稳定状态"
+      },
+      {
+        "icon": "💥",
+        "label": "突然失衡"
+      },
+      {
+        "icon": "⬇️",
+        "label": "猝然坠落/触发"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本稳着的东西，突然一下子失衡跌下来或被引爆」，重点是「没有缓冲、猝然发生」。",
+    "reading_synonyms": [
+      {
+        "word": "trigger",
+        "chinese": "触发"
+      },
+      {
+        "word": "hasten",
+        "chinese": "加速"
+      },
+      {
+        "word": "induce",
+        "chinese": "引发"
+      }
+    ]
   },
   {
     "id": "circulate",
@@ -3430,7 +3975,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "系统内的东西 → 持续在各节点间流动传递 → 不断绕行循环（不停留在一处）。"
+    "underlying_relation": "系统内的东西 → 持续在各节点间流动传递 → 不断绕行循环（不停留在一处）。",
+    "journey_steps": [
+      {
+        "icon": "🔵",
+        "label": "系统内的东西"
+      },
+      {
+        "icon": "➰",
+        "label": "持续在节点间流动"
+      },
+      {
+        "icon": "🔁",
+        "label": "不断绕行不停留"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「在一个封闭的网络里不停流转，不会停在一处」，血液、消息、货币都是这个逻辑。",
+    "reading_synonyms": [
+      {
+        "word": "flow",
+        "chinese": "流动"
+      },
+      {
+        "word": "spread",
+        "chinese": "传播，散布"
+      },
+      {
+        "word": "distribute",
+        "chinese": "分配，分布"
+      }
+    ]
   },
   {
     "id": "drip",
@@ -3471,7 +4045,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "液体 → 分离成一滴一滴 → 间隔性往下落（非连续流）。"
+    "underlying_relation": "液体 → 分离成一滴一滴 → 间隔性往下落（非连续流）。",
+    "journey_steps": [
+      {
+        "icon": "💧",
+        "label": "液体"
+      },
+      {
+        "icon": "⚫",
+        "label": "分离成一滴一滴"
+      },
+      {
+        "icon": "⏱️",
+        "label": "间隔性往下落"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不是一股流下来，是一滴一滴、断断续续地掉」，强调「分离成独立的滴」这个特征。",
+    "reading_synonyms": [
+      {
+        "word": "trickle",
+        "chinese": "滴，细流"
+      },
+      {
+        "word": "leak",
+        "chinese": "渗漏"
+      },
+      {
+        "word": "dribble",
+        "chinese": "滴下"
+      }
+    ]
   },
   {
     "id": "drain",
@@ -3512,7 +4115,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "容器内的液体/资源 → 经出口持续流出 → 容器逐渐变空（耗尽）。"
+    "underlying_relation": "容器内的液体/资源 → 经出口持续流出 → 容器逐渐变空（耗尽）。",
+    "journey_steps": [
+      {
+        "icon": "🪣",
+        "label": "容器内液体/资源"
+      },
+      {
+        "icon": "🕳️",
+        "label": "经出口持续流出"
+      },
+      {
+        "icon": "∅",
+        "label": "逐渐变空耗尽"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「有个出口，东西不断从那里流走，直到全空」，不管流走的是水还是精力。",
+    "reading_synonyms": [
+      {
+        "word": "deplete",
+        "chinese": "耗尽"
+      },
+      {
+        "word": "exhaust",
+        "chinese": "耗尽"
+      },
+      {
+        "word": "empty",
+        "chinese": "倒空，排空"
+      }
+    ]
   },
   {
     "id": "drown",
@@ -3553,7 +4185,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "主体 + 液体持续上涨盖过头顶 → 完全被淹没 → 无法呼吸/运作。"
+    "underlying_relation": "主体 + 液体持续上涨盖过头顶 → 完全被淹没 → 无法呼吸/运作。",
+    "journey_steps": [
+      {
+        "icon": "🧍",
+        "label": "主体"
+      },
+      {
+        "icon": "🌊",
+        "label": "液体上涨盖过头顶"
+      },
+      {
+        "icon": "😵",
+        "label": "完全淹没无法运作"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「被什么东西完全盖过、压过头顶，喘不过气」，可以是真的水，也可以是声音或悲伤。",
+    "reading_synonyms": [
+      {
+        "word": "submerge",
+        "chinese": "淹没，浸没"
+      },
+      {
+        "word": "overwhelm",
+        "chinese": "淹没，压垮"
+      },
+      {
+        "word": "engulf",
+        "chinese": "吞没"
+      }
+    ]
   },
   {
     "id": "blow",
@@ -3594,7 +4255,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "蓄积的力量 → 突然释放向外 → 冲击/推动目标（吹动或打击）。"
+    "underlying_relation": "蓄积的力量 → 突然释放向外 → 冲击/推动目标（吹动或打击）。",
+    "journey_steps": [
+      {
+        "icon": "💨",
+        "label": "蓄积的力量"
+      },
+      {
+        "icon": "💥",
+        "label": "突然释放向外"
+      },
+      {
+        "icon": "🎯",
+        "label": "冲击/推动目标"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一股力气突然往外冲出去，撞上或推动了什么」，可以是风吹，也可以是打击。",
+    "reading_synonyms": [
+      {
+        "word": "gust",
+        "chinese": "一阵风"
+      },
+      {
+        "word": "strike",
+        "chinese": "打击"
+      },
+      {
+        "word": "burst",
+        "chinese": "爆裂，冲出"
+      }
+    ]
   },
   {
     "id": "puff",
@@ -3635,7 +4325,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "内部气体 → 短促轻微地喷出一下 → 一小股（非持续气流）。"
+    "underlying_relation": "内部气体 → 短促轻微地喷出一下 → 一小股（非持续气流）。",
+    "journey_steps": [
+      {
+        "icon": "💨",
+        "label": "内部气体"
+      },
+      {
+        "icon": "🫧",
+        "label": "短促轻微喷出一下"
+      },
+      {
+        "icon": "☁️",
+        "label": "一小股非持续"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「就喷那么一下下，一小股，不是持续不断的气流」，跟blow的区别：blow是猛烈持续的冲击力，puff是短促轻微的一下。",
+    "reading_synonyms": [
+      {
+        "word": "gasp",
+        "chinese": "喘息，喘气"
+      },
+      {
+        "word": "whiff",
+        "chinese": "一股，一阵"
+      },
+      {
+        "word": "waft",
+        "chinese": "飘荡，飘出一阵"
+      }
+    ]
   },
   {
     "id": "gush",
