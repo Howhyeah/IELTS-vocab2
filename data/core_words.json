@@ -39,7 +39,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "已有状态 ×（损耗/时间/压力想让它变）→ 持续施力顶住 → 状态不变。一旦停止施力，状态就会滑向改变。"
+    "underlying_relation": "已有状态 ×（损耗/时间/压力想让它变）→ 持续施力顶住 → 状态不变。一旦停止施力，状态就会滑向改变。",
+    "journey_steps": [
+      {
+        "icon": "🎯",
+        "label": "已有状态"
+      },
+      {
+        "icon": "💪",
+        "label": "持续施力顶住"
+      },
+      {
+        "icon": "⚖️",
+        "label": "维持不变"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「用力顶住」，不让已有的状态往坏的方向滑。",
+    "reading_synonyms": [
+      {
+        "word": "preserve",
+        "chinese": "保存，维护"
+      },
+      {
+        "word": "uphold",
+        "chinese": "维护，支持"
+      },
+      {
+        "word": "keep up",
+        "chinese": "保持"
+      }
+    ]
   },
   {
     "id": "sustain",
@@ -81,7 +110,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "外部重量/负荷 → 压在主体上 → 主体持续承受不垮 → 重量/负荷得以继续存在（或主体因此受损）。区别于maintain：sustain强调「承受」这个动作本身，不是「主动出力对抗」。"
+    "underlying_relation": "外部重量/负荷 → 压在主体上 → 主体持续承受不垮 → 重量/负荷得以继续存在（或主体因此受损）。区别于maintain：sustain强调「承受」这个动作本身，不是「主动出力对抗」。",
+    "journey_steps": [
+      {
+        "icon": "⬇️",
+        "label": "重压向下"
+      },
+      {
+        "icon": "💪",
+        "label": "撑住不垮"
+      },
+      {
+        "icon": "⏳",
+        "label": "持续运作"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「扛住一个持续存在的负担」，让它不垮掉、能继续下去。",
+    "reading_synonyms": [
+      {
+        "word": "bear",
+        "chinese": "承受，承担"
+      },
+      {
+        "word": "undergo",
+        "chinese": "经历，遭受"
+      },
+      {
+        "word": "withstand",
+        "chinese": "承受住"
+      }
+    ]
   },
   {
     "id": "decline",
@@ -123,7 +181,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "峰值/被提供的位置 → 逐渐远离/向下移动 → 离原位置越来越远（下降或拒绝）。下降和拒绝共享同一个「主动远离」的方向感。"
+    "underlying_relation": "峰值/被提供的位置 → 逐渐远离/向下移动 → 离原位置越来越远（下降或拒绝）。下降和拒绝共享同一个「主动远离」的方向感。",
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "处于高位"
+      },
+      {
+        "icon": "↘️",
+        "label": "主动远离"
+      },
+      {
+        "icon": "📉",
+        "label": "下降或拒绝"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「主动往下/往外走」，不管是数量下滑还是拒绝接受。",
+    "reading_synonyms": [
+      {
+        "word": "decrease",
+        "chinese": "减少"
+      },
+      {
+        "word": "refuse",
+        "chinese": "拒绝"
+      },
+      {
+        "word": "drop",
+        "chinese": "下降"
+      }
+    ]
   },
   {
     "id": "consume",
@@ -165,7 +252,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "东西存在（有）→ 进入消耗过程（燃烧/摄入/使用）→ 被吸收耗尽 → 东西消失（没有）。是「有」变成「没有」的单向不可逆过程。"
+    "underlying_relation": "东西存在（有）→ 进入消耗过程（燃烧/摄入/使用）→ 被吸收耗尽 → 东西消失（没有）。是「有」变成「没有」的单向不可逆过程。",
+    "journey_steps": [
+      {
+        "icon": "📦",
+        "label": "东西存在"
+      },
+      {
+        "icon": "🔥",
+        "label": "投入消耗"
+      },
+      {
+        "icon": "💨",
+        "label": "耗尽消失"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是把「原本存在的东西」一步步吃光耗尽，从有变没有。",
+    "reading_synonyms": [
+      {
+        "word": "use up",
+        "chinese": "用完，耗尽"
+      },
+      {
+        "word": "deplete",
+        "chinese": "耗尽"
+      },
+      {
+        "word": "ingest",
+        "chinese": "摄入"
+      }
+    ]
   },
   {
     "id": "release",
@@ -207,7 +323,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "东西被约束（手抓住/门关着/压力压着）→ 约束解除 → 东西向外自由流出/移动。"
+    "underlying_relation": "东西被约束（手抓住/门关着/压力压着）→ 约束解除 → 东西向外自由流出/移动。",
+    "journey_steps": [
+      {
+        "icon": "🔒",
+        "label": "受限锁住"
+      },
+      {
+        "icon": "💥",
+        "label": "突然松开"
+      },
+      {
+        "icon": "🕊️",
+        "label": "自由流出"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是把「被压制的东西」放开，让它自由地跑出去。",
+    "reading_synonyms": [
+      {
+        "word": "free",
+        "chinese": "释放，使自由"
+      },
+      {
+        "word": "publish",
+        "chinese": "发布，出版"
+      },
+      {
+        "word": "let out",
+        "chinese": "放出"
+      }
+    ]
   },
   {
     "id": "conduct",
@@ -249,7 +394,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "过程/能量/群体（待推进的东西）→ 主导者引导路径 → 沿路径顺畅通过或完成。"
+    "underlying_relation": "过程/能量/群体（待推进的东西）→ 主导者引导路径 → 沿路径顺畅通过或完成。",
+    "journey_steps": [
+      {
+        "icon": "⚡",
+        "label": "过程待引导"
+      },
+      {
+        "icon": "🪄",
+        "label": "主导者引导"
+      },
+      {
+        "icon": "✅",
+        "label": "顺畅完成"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是有个「主导者」带着一个过程或能量，沿着路径顺利跑到底。",
+    "reading_synonyms": [
+      {
+        "word": "carry out",
+        "chinese": "执行，进行"
+      },
+      {
+        "word": "direct",
+        "chinese": "指导，指挥"
+      },
+      {
+        "word": "lead",
+        "chinese": "引导，带领"
+      }
+    ]
   },
   {
     "id": "issue",
@@ -291,7 +465,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "来源内部（潜藏的内容/问题）→ 被推送/发布出来 → 进入公众视野，需要被处理或关注。"
+    "underlying_relation": "来源内部（潜藏的内容/问题）→ 被推送/发布出来 → 进入公众视野，需要被处理或关注。",
+    "journey_steps": [
+      {
+        "icon": "🗄️",
+        "label": "来源内部"
+      },
+      {
+        "icon": "📤",
+        "label": "推送发布"
+      },
+      {
+        "icon": "👀",
+        "label": "进入公众视野"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从内部推出来，让大家看到、必须面对」。",
+    "reading_synonyms": [
+      {
+        "word": "publish",
+        "chinese": "发布，出版"
+      },
+      {
+        "word": "release",
+        "chinese": "发布"
+      },
+      {
+        "word": "distribute",
+        "chinese": "分发"
+      }
+    ]
   },
   {
     "id": "available",
@@ -333,7 +536,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "需要方 → 伸手去够 → 中间无阻碍 → 立刻能够到、能使用。"
+    "underlying_relation": "需要方 → 伸手去够 → 中间无阻碍 → 立刻能够到、能使用。",
+    "journey_steps": [
+      {
+        "icon": "🙋",
+        "label": "需要方伸手"
+      },
+      {
+        "icon": "🚫",
+        "label": "中间无阻碍"
+      },
+      {
+        "icon": "✅",
+        "label": "立刻能用"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「伸手就能拿到、随时能用」，中间没有任何阻隔。",
+    "reading_synonyms": [
+      {
+        "word": "accessible",
+        "chinese": "可获得的，易接近的"
+      },
+      {
+        "word": "obtainable",
+        "chinese": "可获得的"
+      },
+      {
+        "word": "on hand",
+        "chinese": "手边可用的"
+      }
+    ]
   },
   {
     "id": "deteriorate",
@@ -374,7 +606,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "较好状态 ×（时间流逝，无人阻止）→ 持续变差 → 越来越糟的状态。（跟maintain正好相反：这里没有力去顶住衰退）"
+    "underlying_relation": "较好状态 ×（时间流逝，无人阻止）→ 持续变差 → 越来越糟的状态。（跟maintain正好相反：这里没有力去顶住衰退）",
+    "journey_steps": [
+      {
+        "icon": "🙂",
+        "label": "原本还不错"
+      },
+      {
+        "icon": "⏳",
+        "label": "无人阻止"
+      },
+      {
+        "icon": "😷",
+        "label": "变差破损"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「没人拦着，让状态自然而然变得更糟」。",
+    "reading_synonyms": [
+      {
+        "word": "worsen",
+        "chinese": "恶化"
+      },
+      {
+        "word": "decline",
+        "chinese": "衰退"
+      },
+      {
+        "word": "degenerate",
+        "chinese": "退化，恶化"
+      }
+    ]
   },
   {
     "id": "aggravate",
@@ -415,7 +676,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "已有的不好状态 + 额外刺激/负担 → 叠加 → 状态比原来更严重。"
+    "underlying_relation": "已有的不好状态 + 额外刺激/负担 → 叠加 → 状态比原来更严重。",
+    "journey_steps": [
+      {
+        "icon": "😣",
+        "label": "已有不好状态"
+      },
+      {
+        "icon": "➕",
+        "label": "叠加额外刺激"
+      },
+      {
+        "icon": "😫",
+        "label": "更严重"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「在已经不好的情况上，又加了一把火」。",
+    "reading_synonyms": [
+      {
+        "word": "worsen",
+        "chinese": "使恶化"
+      },
+      {
+        "word": "intensify",
+        "chinese": "加剧"
+      },
+      {
+        "word": "exacerbate",
+        "chinese": "使恶化，加重"
+      }
+    ]
   },
   {
     "id": "degrade",
@@ -456,7 +746,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "较高位置/等级 → 被向下拉/剥夺 → 落到较低位置/等级，价值降低。"
+    "underlying_relation": "较高位置/等级 → 被向下拉/剥夺 → 落到较低位置/等级，价值降低。",
+    "journey_steps": [
+      {
+        "icon": "⬆️",
+        "label": "较高位置"
+      },
+      {
+        "icon": "⬇️",
+        "label": "被向下拉"
+      },
+      {
+        "icon": "🔽",
+        "label": "落到低层级"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是把「原本高的东西」硬拉低，掉了价值或身份。",
+    "reading_synonyms": [
+      {
+        "word": "downgrade",
+        "chinese": "降级"
+      },
+      {
+        "word": "debase",
+        "chinese": "贬低"
+      },
+      {
+        "word": "demean",
+        "chinese": "贬低，使卑下"
+      }
+    ]
   },
   {
     "id": "upgrade",
@@ -498,7 +817,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "较低层级/旧版本 → 被替换/提升 → 更高层级/新版本。"
+    "underlying_relation": "较低层级/旧版本 → 被替换/提升 → 更高层级/新版本。",
+    "journey_steps": [
+      {
+        "icon": "🔽",
+        "label": "较低/旧版本"
+      },
+      {
+        "icon": "🔄",
+        "label": "被替换提升"
+      },
+      {
+        "icon": "⬆️",
+        "label": "更高/新版本"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是把「旧的、低级的东西」换成更好、更高级的版本。",
+    "reading_synonyms": [
+      {
+        "word": "improve",
+        "chinese": "改善，提升"
+      },
+      {
+        "word": "enhance",
+        "chinese": "提升，增强"
+      },
+      {
+        "word": "modernize",
+        "chinese": "使现代化"
+      }
+    ]
   },
   {
     "id": "erode",
