@@ -33,7 +33,32 @@
       "contribute to problem"
     ],
     "chinese": "导致；促成；贡献",
-    "underlying_relation": "个体贡献 → 汇入更大整体/结果 → 促成整体结果的形成。"
+    "underlying_relation": "个体贡献 → 汇入更大整体/结果 → 促成整体结果的形成。",
+    "journey_steps": [
+      {
+        "icon": "💧",
+        "label": "个体贡献"
+      },
+      {
+        "icon": "🌊",
+        "label": "汇入更大整体"
+      },
+      {
+        "icon": "🎯",
+        "label": "促成整体结果"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「小的一份汇进大的整体，一起促成了这个结果」，像水滴汇入大海。",
+    "reading_synonyms": [
+      {
+        "word": "help bring about",
+        "chinese": "帮助促成"
+      },
+      {
+        "word": "play a part in",
+        "chinese": "在…中起作用"
+      }
+    ]
   },
   {
     "id": "result_in",
@@ -69,7 +94,32 @@
       "result in improvement"
     ],
     "chinese": "导致；结果是",
-    "underlying_relation": "原因（种子）→ 生长发展过程 → 结果（大树）呈现。"
+    "underlying_relation": "原因（种子）→ 生长发展过程 → 结果（大树）呈现。",
+    "journey_steps": [
+      {
+        "icon": "🌰",
+        "label": "原因(种子)"
+      },
+      {
+        "icon": "🌳",
+        "label": "生长发展过程"
+      },
+      {
+        "icon": "🍎",
+        "label": "结果呈现"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原因像种子一样，经过发展最终长成一个结果」，是「原因→结果」的正向推进。",
+    "reading_synonyms": [
+      {
+        "word": "lead to",
+        "chinese": "导致"
+      },
+      {
+        "word": "cause",
+        "chinese": "造成"
+      }
+    ]
   },
   {
     "id": "result_from",
@@ -105,7 +155,32 @@
       "result from environment"
     ],
     "chinese": "源于；由...造成",
-    "underlying_relation": "结果（果实）← 追溯来源 ← 原因（花朵/根源）。"
+    "underlying_relation": "结果（果实）← 追溯来源 ← 原因（花朵/根源）。",
+    "journey_steps": [
+      {
+        "icon": "🍎",
+        "label": "结果(果实)"
+      },
+      {
+        "icon": "⏪",
+        "label": "追溯来源"
+      },
+      {
+        "icon": "🌸",
+        "label": "原因(花朵/根源)"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「果实反过来追溯到它的花朵源头」，跟result in方向相反：这里是「结果←原因」的反向追溯。",
+    "reading_synonyms": [
+      {
+        "word": "stem from",
+        "chinese": "源自"
+      },
+      {
+        "word": "be caused by",
+        "chinese": "由…造成"
+      }
+    ]
   },
   {
     "id": "be_exposed_to",
@@ -141,7 +216,32 @@
       "be exposed to culture"
     ],
     "chinese": "暴露于；接触",
-    "underlying_relation": "主体 → 失去屏障保护 → 直接接触外部影响源。"
+    "underlying_relation": "主体 → 失去屏障保护 → 直接接触外部影响源。",
+    "journey_steps": [
+      {
+        "icon": "🛡️",
+        "label": "主体有屏障"
+      },
+      {
+        "icon": "➡️",
+        "label": "失去屏障"
+      },
+      {
+        "icon": "☀️",
+        "label": "直接接触外部影响源"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本的保护罩没了，直接跟外部的东西碰上」，像皮肤直接晒在阳光下。",
+    "reading_synonyms": [
+      {
+        "word": "be subjected to",
+        "chinese": "遭受，经受"
+      },
+      {
+        "word": "be open to",
+        "chinese": "暴露于，易受"
+      }
+    ]
   },
   {
     "id": "be_responsible_for",
@@ -177,7 +277,32 @@
       "be responsible for results"
     ],
     "chinese": "对...负责",
-    "underlying_relation": "主体被赋予职责 → 对象的结果好坏 → 归属到主体身上承担。"
+    "underlying_relation": "主体被赋予职责 → 对象的结果好坏 → 归属到主体身上承担。",
+    "journey_steps": [
+      {
+        "icon": "👨‍✈️",
+        "label": "主体被赋予职责"
+      },
+      {
+        "icon": "⚖️",
+        "label": "对象结果好坏"
+      },
+      {
+        "icon": "📋",
+        "label": "归属主体承担"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「这件事的好坏结果，最终都要算在这个主体头上」，像船长要为整船负责。",
+    "reading_synonyms": [
+      {
+        "word": "be in charge of",
+        "chinese": "负责，主管"
+      },
+      {
+        "word": "be accountable for",
+        "chinese": "对…负责"
+      }
+    ]
   },
   {
     "id": "be_associated_with",
@@ -213,7 +338,32 @@
       "be associated with stress"
     ],
     "chinese": "与...相关",
-    "underlying_relation": "事物A ←链接→ 事物B → 两者产生关联（非因果，只是相关）。"
+    "underlying_relation": "事物A ←链接→ 事物B → 两者产生关联（非因果，只是相关）。",
+    "journey_steps": [
+      {
+        "icon": "🔵",
+        "label": "事物A"
+      },
+      {
+        "icon": "🔗",
+        "label": "链接"
+      },
+      {
+        "icon": "🔴",
+        "label": "产生关联(非因果)"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「两个东西像链条一样连在一起」，只是有关联，不代表谁导致了谁。",
+    "reading_synonyms": [
+      {
+        "word": "be linked to",
+        "chinese": "与…相关联"
+      },
+      {
+        "word": "be connected with",
+        "chinese": "与…有联系"
+      }
+    ]
   },
   {
     "id": "have_access_to",
@@ -249,7 +399,32 @@
       "have access to data"
     ],
     "chinese": "获得；使用",
-    "underlying_relation": "需求方 → 拿到钥匙/权限 → 打开通往资源的门。"
+    "underlying_relation": "需求方 → 拿到钥匙/权限 → 打开通往资源的门。",
+    "journey_steps": [
+      {
+        "icon": "🙋",
+        "label": "需求方"
+      },
+      {
+        "icon": "🔑",
+        "label": "拿到钥匙/权限"
+      },
+      {
+        "icon": "🚪",
+        "label": "打开通往资源的门"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「拿到了那把能打开资源大门的钥匙」，重点是「获得使用权」这个资格。",
+    "reading_synonyms": [
+      {
+        "word": "be able to obtain",
+        "chinese": "能够获得"
+      },
+      {
+        "word": "have the right to use",
+        "chinese": "有使用权"
+      }
+    ]
   },
   {
     "id": "in_response_to",
@@ -285,7 +460,32 @@
       "in response to criticism"
     ],
     "chinese": "回应；应对",
-    "underlying_relation": "外部刺激/声音 → 触发 → 主体给出对应的回应动作。"
+    "underlying_relation": "外部刺激/声音 → 触发 → 主体给出对应的回应动作。",
+    "journey_steps": [
+      {
+        "icon": "📢",
+        "label": "外部刺激/声音"
+      },
+      {
+        "icon": "⚡",
+        "label": "触发"
+      },
+      {
+        "icon": "🔁",
+        "label": "主体给出回应"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「外面先发出声音，这边给出对应的回声」这个一来一回的过程。",
+    "reading_synonyms": [
+      {
+        "word": "as a reaction to",
+        "chinese": "作为对…的反应"
+      },
+      {
+        "word": "responding to",
+        "chinese": "回应…"
+      }
+    ]
   },
   {
     "id": "in_terms_of",
@@ -321,7 +521,32 @@
       "in terms of development"
     ],
     "chinese": "就...而言；从...角度",
-    "underlying_relation": "同一个事物 → 切换观察角度 → 呈现出该角度下的特定面貌。"
+    "underlying_relation": "同一个事物 → 切换观察角度 → 呈现出该角度下的特定面貌。",
+    "journey_steps": [
+      {
+        "icon": "🎲",
+        "label": "同一个事物"
+      },
+      {
+        "icon": "🔄",
+        "label": "切换观察角度"
+      },
+      {
+        "icon": "👓",
+        "label": "呈现该角度的面貌"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「换一个角度去看同一个事物」，呈现出的是那个角度专属的一面，不是事物的全部。",
+    "reading_synonyms": [
+      {
+        "word": "with regard to",
+        "chinese": "关于，就…而言"
+      },
+      {
+        "word": "from the perspective of",
+        "chinese": "从…的角度看"
+      }
+    ]
   },
   {
     "id": "have_impact_on",
@@ -357,6 +582,31 @@
       "have impact on future"
     ],
     "chinese": "对...有影响",
-    "underlying_relation": "一个动作/事件（投入的石头）→ 波及扩散 → 影响到周边的对象。"
+    "underlying_relation": "一个动作/事件（投入的石头）→ 波及扩散 → 影响到周边的对象。",
+    "journey_steps": [
+      {
+        "icon": "🪨",
+        "label": "投入的石头(事件)"
+      },
+      {
+        "icon": "〜",
+        "label": "波及扩散"
+      },
+      {
+        "icon": "🎯",
+        "label": "影响周边对象"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一个动作像石头投入水中，涟漪一圈圈扩散出去影响周围」。",
+    "reading_synonyms": [
+      {
+        "word": "affect",
+        "chinese": "影响"
+      },
+      {
+        "word": "influence",
+        "chinese": "影响"
+      }
+    ]
   }
 ]
