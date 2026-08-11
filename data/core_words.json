@@ -4395,7 +4395,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "大量液体/情绪 → 阻拦突然消失 → 猛烈持续地涌出。"
+    "underlying_relation": "大量液体/情绪 → 阻拦突然消失 → 猛烈持续地涌出。",
+    "journey_steps": [
+      {
+        "icon": "🚧",
+        "label": "阻拦存在"
+      },
+      {
+        "icon": "💥",
+        "label": "阻拦突然消失"
+      },
+      {
+        "icon": "🌊",
+        "label": "猛烈持续涌出"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本挡着的东西突然没了，大量的东西一下子冲出来」。",
+    "reading_synonyms": [
+      {
+        "word": "surge",
+        "chinese": "涌出，激增"
+      },
+      {
+        "word": "spurt",
+        "chinese": "喷出"
+      },
+      {
+        "word": "flow forcefully",
+        "chinese": "猛烈流出"
+      }
+    ]
   },
   {
     "id": "dense",
@@ -4436,7 +4465,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "大量单位 → 挤入较小空间 → 单位间几乎无空隙（密集）。"
+    "underlying_relation": "大量单位 → 挤入较小空间 → 单位间几乎无空隙（密集）。",
+    "journey_steps": [
+      {
+        "icon": "🔵",
+        "label": "大量单位"
+      },
+      {
+        "icon": "📦",
+        "label": "挤入较小空间"
+      },
+      {
+        "icon": "🈵",
+        "label": "几乎无空隙"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「东西挤得特别紧，中间几乎没有缝」。",
+    "reading_synonyms": [
+      {
+        "word": "compact",
+        "chinese": "紧密的"
+      },
+      {
+        "word": "thick",
+        "chinese": "浓密的"
+      },
+      {
+        "word": "crowded",
+        "chinese": "拥挤的"
+      }
+    ]
   },
   {
     "id": "intensity",
@@ -4477,7 +4535,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "力量/能量 → 集中程度不同 → 强度高低（越集中越强烈）。"
+    "underlying_relation": "力量/能量 → 集中程度不同 → 强度高低（越集中越强烈）。",
+    "journey_steps": [
+      {
+        "icon": "⚡",
+        "label": "力量/能量"
+      },
+      {
+        "icon": "🔍",
+        "label": "集中程度"
+      },
+      {
+        "icon": "📊",
+        "label": "强度高低"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是在衡量「这股力量有多集中、多猛」这一个程度指标。",
+    "reading_synonyms": [
+      {
+        "word": "strength",
+        "chinese": "强度"
+      },
+      {
+        "word": "intensiveness",
+        "chinese": "强烈程度"
+      },
+      {
+        "word": "magnitude",
+        "chinese": "量级，强度"
+      }
+    ]
   },
   {
     "id": "intensive",
@@ -4519,7 +4606,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "有限时间/范围 + 大量精力集中投入 → 短时间内高强度效果。"
+    "underlying_relation": "有限时间/范围 + 大量精力集中投入 → 短时间内高强度效果。",
+    "journey_steps": [
+      {
+        "icon": "⏳",
+        "label": "有限时间范围"
+      },
+      {
+        "icon": "💪",
+        "label": "集中投入大量精力"
+      },
+      {
+        "icon": "🚀",
+        "label": "短时间高强度"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「在很短的时间/范围里，把力气一次性砸进去」，跟intensity不同：这里是形容「做事方式」，不是衡量强度本身。",
+    "reading_synonyms": [
+      {
+        "word": "concentrated",
+        "chinese": "集中的"
+      },
+      {
+        "word": "thorough",
+        "chinese": "彻底的"
+      },
+      {
+        "word": "rigorous",
+        "chinese": "严格的，密集的"
+      }
+    ]
   },
   {
     "id": "emerge",
@@ -4561,7 +4677,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "隐藏/水下的东西 → 逐渐向外显露 → 进入可见范围。"
+    "underlying_relation": "隐藏/水下的东西 → 逐渐向外显露 → 进入可见范围。",
+    "journey_steps": [
+      {
+        "icon": "🫥",
+        "label": "隐藏/水下"
+      },
+      {
+        "icon": "⬆️",
+        "label": "逐渐向外显露"
+      },
+      {
+        "icon": "👁️",
+        "label": "进入可见范围"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本藏着看不见的东西，慢慢露出来能被看到了」。",
+    "reading_synonyms": [
+      {
+        "word": "appear",
+        "chinese": "出现"
+      },
+      {
+        "word": "surface",
+        "chinese": "浮现，露出"
+      },
+      {
+        "word": "come out",
+        "chinese": "出现"
+      }
+    ]
   },
   {
     "id": "flash",
@@ -4602,7 +4747,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "无 → 极短暂强烈出现 → 迅速消失（一闪而过）。"
+    "underlying_relation": "无 → 极短暂强烈出现 → 迅速消失（一闪而过）。",
+    "journey_steps": [
+      {
+        "icon": "💡",
+        "label": "瞬间出现"
+      },
+      {
+        "icon": "⚡",
+        "label": "极短暂强烈"
+      },
+      {
+        "icon": "💨",
+        "label": "迅速消失"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一下子出现，还没看清就又没了」，强调「极短暂」这个时间特征。",
+    "reading_synonyms": [
+      {
+        "word": "glimpse",
+        "chinese": "一瞥"
+      },
+      {
+        "word": "flicker",
+        "chinese": "闪烁"
+      },
+      {
+        "word": "momentary",
+        "chinese": "瞬间的"
+      }
+    ]
   },
   {
     "id": "float",
@@ -4643,7 +4817,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "物体 + 液体/空气浮力支撑 → 悬停在表面附近（不沉不猛升）。"
+    "underlying_relation": "物体 + 液体/空气浮力支撑 → 悬停在表面附近（不沉不猛升）。",
+    "journey_steps": [
+      {
+        "icon": "🌊",
+        "label": "液体/空气"
+      },
+      {
+        "icon": "⚖️",
+        "label": "浮力支撑"
+      },
+      {
+        "icon": "🎈",
+        "label": "悬停不沉不升"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不上不下地悬着，既不沉底也不用力往上冲」。",
+    "reading_synonyms": [
+      {
+        "word": "drift",
+        "chinese": "漂浮，漂流"
+      },
+      {
+        "word": "hover",
+        "chinese": "悬停"
+      },
+      {
+        "word": "buoy",
+        "chinese": "浮起"
+      }
+    ]
   },
   {
     "id": "surrounding",
@@ -4687,14 +4890,33 @@
     "underlying_relation": "中心点 → 四周各方向都有事物环绕 → 形成包围圈。",
     "reading_synonyms": [
       {
-        "word": "setting",
-        "chinese": "环境"
+        "word": "neighboring",
+        "chinese": "周边的"
       },
       {
-        "word": "environment",
-        "chinese": "环境"
+        "word": "adjacent",
+        "chinese": "邻近的"
+      },
+      {
+        "word": "nearby",
+        "chinese": "附近的"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "中心点"
+      },
+      {
+        "icon": "🔄",
+        "label": "四周环绕"
+      },
+      {
+        "icon": "⭕",
+        "label": "形成包围圈"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从四面八方把一个中心包起来」。"
   },
   {
     "id": "condition",
@@ -4736,7 +4958,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "具体前提/环境因素 → 决定事情能否发生/处于何种状态 → 前提本身即为「条件」。"
+    "underlying_relation": "具体前提/环境因素 → 决定事情能否发生/处于何种状态 → 前提本身即为「条件」。",
+    "journey_steps": [
+      {
+        "icon": "🧩",
+        "label": "具体前提因素"
+      },
+      {
+        "icon": "➡️",
+        "label": "决定能否发生"
+      },
+      {
+        "icon": "📋",
+        "label": "构成条件状况"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「决定一件事能不能发生、处于什么状态」的那个具体前提。",
+    "reading_synonyms": [
+      {
+        "word": "requirement",
+        "chinese": "要求，条件"
+      },
+      {
+        "word": "prerequisite",
+        "chinese": "前提条件"
+      },
+      {
+        "word": "state",
+        "chinese": "状态"
+      }
+    ]
   },
   {
     "id": "situation",
@@ -4778,7 +5029,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "多个当下因素 → 综合叠加 → 形成整体处境/局面。"
+    "underlying_relation": "多个当下因素 → 综合叠加 → 形成整体处境/局面。",
+    "journey_steps": [
+      {
+        "icon": "🧩",
+        "label": "多个当下因素"
+      },
+      {
+        "icon": "➕",
+        "label": "综合叠加"
+      },
+      {
+        "icon": "🖼️",
+        "label": "整体处境局面"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「很多因素加在一起，形成的这个当下整体局面」，跟condition不同：condition是单个前提，situation是综合处境。",
+    "reading_synonyms": [
+      {
+        "word": "circumstance",
+        "chinese": "情况，处境"
+      },
+      {
+        "word": "scenario",
+        "chinese": "情景"
+      },
+      {
+        "word": "state of affairs",
+        "chinese": "事态"
+      }
+    ]
   },
   {
     "id": "natural",
@@ -4820,7 +5100,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "原本的样子 → 无人为干预/改造 → 保持天然本色。"
+    "underlying_relation": "原本的样子 → 无人为干预/改造 → 保持天然本色。",
+    "journey_steps": [
+      {
+        "icon": "🌿",
+        "label": "原本样子"
+      },
+      {
+        "icon": "🚫",
+        "label": "无人为干预"
+      },
+      {
+        "icon": "✅",
+        "label": "保持天然本色"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「保持它本来就有的样子，没被人插手改造过」。",
+    "reading_synonyms": [
+      {
+        "word": "innate",
+        "chinese": "天生的"
+      },
+      {
+        "word": "inherent",
+        "chinese": "内在的，固有的"
+      },
+      {
+        "word": "genuine",
+        "chinese": "真实的，天然的"
+      }
+    ]
   },
   {
     "id": "artificial",
@@ -4862,7 +5171,36 @@
       "A",
       "W"
     ],
-    "underlying_relation": "人为制造/改造 → 模仿/替代自然本该有的东西 → 呈现出人工痕迹。"
+    "underlying_relation": "人为制造/改造 → 模仿/替代自然本该有的东西 → 呈现出人工痕迹。",
+    "journey_steps": [
+      {
+        "icon": "🏭",
+        "label": "人为制造"
+      },
+      {
+        "icon": "🎭",
+        "label": "模仿/替代自然"
+      },
+      {
+        "icon": "🤖",
+        "label": "呈现人工痕迹"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「人做出来的东西，用来假装成或替代本该自然存在的东西」。",
+    "reading_synonyms": [
+      {
+        "word": "man-made",
+        "chinese": "人造的"
+      },
+      {
+        "word": "fake",
+        "chinese": "假的"
+      },
+      {
+        "word": "synthetic",
+        "chinese": "合成的"
+      }
+    ]
   },
   {
     "id": "synthetic",
@@ -4903,7 +5241,36 @@
     "tags": [
       "A"
     ],
-    "underlying_relation": "多种独立成分 → 人工合并融合 → 生成自然界不存在的新材料。"
+    "underlying_relation": "多种独立成分 → 人工合并融合 → 生成自然界不存在的新材料。",
+    "journey_steps": [
+      {
+        "icon": "🧪",
+        "label": "多种独立成分"
+      },
+      {
+        "icon": "⚗️",
+        "label": "人工合并融合"
+      },
+      {
+        "icon": "🆕",
+        "label": "自然不存在的新材料"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把几种独立的化学成分人工拼到一起，造出自然界原本没有的东西」，比artificial更强调「化学合成」这个具体过程。",
+    "reading_synonyms": [
+      {
+        "word": "man-made",
+        "chinese": "人造的"
+      },
+      {
+        "word": "chemical",
+        "chinese": "化学合成的"
+      },
+      {
+        "word": "manufactured",
+        "chinese": "人工制造的"
+      }
+    ]
   },
   {
     "id": "destructive",
@@ -4945,6 +5312,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💣",
+        "label": "内在破坏能力"
+      },
+      {
+        "icon": "🎯",
+        "label": "作用于目标"
+      },
+      {
+        "icon": "💥",
+        "label": "目标受损毁坏"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「自带一种一发作就会毁东西的能力，损坏是必然结果」。",
+    "reading_synonyms": [
+      {
+        "word": "damaging",
+        "chinese": "有破坏性的"
+      },
+      {
+        "word": "harmful",
+        "chinese": "有害的"
+      },
+      {
+        "word": "devastating",
+        "chinese": "毁灭性的"
+      }
     ]
   },
   {
@@ -4987,6 +5383,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🛡️",
+        "label": "安全状态"
+      },
+      {
+        "icon": "🔓",
+        "label": "外部行为介入"
+      },
+      {
+        "icon": "⚠️",
+        "label": "转为危险境地"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「让原本安全的东西暴露在可能受伤害的危险里」，通常指生命/生存安全。",
+    "reading_synonyms": [
+      {
+        "word": "threaten",
+        "chinese": "威胁"
+      },
+      {
+        "word": "imperil",
+        "chinese": "使陷入危险"
+      },
+      {
+        "word": "risk",
+        "chinese": "冒…的风险"
+      }
     ]
   },
   {
@@ -5029,6 +5454,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎯",
+        "label": "稳固有把握的东西"
+      },
+      {
+        "icon": "🎲",
+        "label": "冒险行为介入"
+      },
+      {
+        "icon": "⚠️",
+        "label": "面临失去落空风险"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「因为一个冒险的举动，让本来稳的机会/地位可能打水漂」，跟endanger不同：这里针对的是机会、地位这类「已握在手里的好处」，不是生命安全。",
+    "reading_synonyms": [
+      {
+        "word": "risk",
+        "chinese": "使受风险"
+      },
+      {
+        "word": "compromise",
+        "chinese": "危及，损害"
+      },
+      {
+        "word": "imperil",
+        "chinese": "使陷入危险"
+      }
     ]
   },
   {
@@ -5071,6 +5525,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🌋",
+        "label": "内部积压压力"
+      },
+      {
+        "icon": "💥",
+        "label": "冲破外层束缚"
+      },
+      {
+        "icon": "🔥",
+        "label": "猛烈向外喷出"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「压了很久的东西，突然冲破限制猛地喷出来」，不管是火山还是情绪。",
+    "reading_synonyms": [
+      {
+        "word": "explode",
+        "chinese": "爆炸，爆发"
+      },
+      {
+        "word": "burst out",
+        "chinese": "突然爆发"
+      },
+      {
+        "word": "blow up",
+        "chinese": "爆发"
+      }
     ]
   },
   {
@@ -5113,6 +5596,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "↔️",
+        "label": "较宽范围"
+      },
+      {
+        "icon": "🤏",
+        "label": "持续压缩限制"
+      },
+      {
+        "icon": "➡️",
+        "label": "范围变窄选择少"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本宽的东西被一点点压缩，可选的空间越来越小」。",
+    "reading_synonyms": [
+      {
+        "word": "restrict",
+        "chinese": "限制"
+      },
+      {
+        "word": "limit",
+        "chinese": "限制"
+      },
+      {
+        "word": "confine",
+        "chinese": "限制，局限"
+      }
     ]
   },
   {
@@ -5158,14 +5670,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "fair",
-        "chinese": "公平的"
+        "word": "identical",
+        "chinese": "相同的"
+      },
+      {
+        "word": "equivalent",
+        "chinese": "等同的"
       },
       {
         "word": "even",
         "chinese": "均等的"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "⚖️",
+        "label": "对象A↔B"
+      },
+      {
+        "icon": "🔍",
+        "label": "对比衡量"
+      },
+      {
+        "icon": "➖",
+        "label": "水平完全一致"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「两边放在天平上一比，谁都不比谁高」。"
   },
   {
     "id": "moderate",
@@ -5207,6 +5738,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔥",
+        "label": "极端状态"
+      },
+      {
+        "icon": "🎛️",
+        "label": "调节拉回"
+      },
+      {
+        "icon": "😐",
+        "label": "中间温和水平"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把偏激、极端的东西往中间拉，落到不温不火的水平」。",
+    "reading_synonyms": [
+      {
+        "word": "temperate",
+        "chinese": "温和的"
+      },
+      {
+        "word": "mild",
+        "chinese": "温和的"
+      },
+      {
+        "word": "reasonable",
+        "chinese": "适度的，合理的"
+      }
     ]
   },
   {
@@ -5249,6 +5809,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🧊",
+        "label": "低温状态"
+      },
+      {
+        "icon": "🔥",
+        "label": "持续注入热量"
+      },
+      {
+        "icon": "☀️",
+        "label": "转为暖的状态"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「热量一点点加进去，从冷变暖」的这个升温过程。",
+    "reading_synonyms": [
+      {
+        "word": "heat up",
+        "chinese": "加热"
+      },
+      {
+        "word": "thaw",
+        "chinese": "解冻，变暖"
+      },
+      {
+        "word": "cozy",
+        "chinese": "温暖舒适的"
+      }
     ]
   },
   {
@@ -5291,6 +5880,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "起点"
+      },
+      {
+        "icon": "➡️",
+        "label": "连续朝一个方向流动"
+      },
+      {
+        "icon": "〜",
+        "label": "持续的流"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「像水流一样，连续不断地往一个方向去」，不管流动的是水还是人群。",
+    "reading_synonyms": [
+      {
+        "word": "flow",
+        "chinese": "流动"
+      },
+      {
+        "word": "current",
+        "chinese": "流，潮流"
+      },
+      {
+        "word": "procession",
+        "chinese": "行列，队伍"
+      }
     ]
   },
   {
@@ -5333,6 +5951,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🪣",
+        "label": "液体聚集"
+      },
+      {
+        "icon": "📤",
+        "label": "突然大量倾泻"
+      },
+      {
+        "icon": "🌧️",
+        "label": "持续猛烈流出"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不受控地一下子倒出大量液体」，跟stream不同：pour强调「量大、猛」，stream强调「持续细流」。",
+    "reading_synonyms": [
+      {
+        "word": "gush",
+        "chinese": "涌出"
+      },
+      {
+        "word": "cascade",
+        "chinese": "倾泻"
+      },
+      {
+        "word": "flood",
+        "chinese": "涌入，充满"
+      }
     ]
   },
   {
@@ -5375,6 +6022,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎲",
+        "label": "混杂的一堆事物"
+      },
+      {
+        "icon": "🔍",
+        "label": "依特征拆分"
+      },
+      {
+        "icon": "📦",
+        "label": "分别归入类别"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把一堆杂乱的东西，按共同特征分别放进对应的箱子」。",
+    "reading_synonyms": [
+      {
+        "word": "categorize",
+        "chinese": "分类"
+      },
+      {
+        "word": "sort",
+        "chinese": "分类，整理"
+      },
+      {
+        "word": "group",
+        "chinese": "归类"
+      }
     ]
   },
   {
@@ -5422,8 +6098,31 @@
       {
         "word": "develop",
         "chinese": "发展"
+      },
+      {
+        "word": "progress",
+        "chinese": "演进，进展"
+      },
+      {
+        "word": "transform",
+        "chinese": "转变"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🐣",
+        "label": "简单原始形态"
+      },
+      {
+        "icon": "⏳",
+        "label": "长时间微小改变"
+      },
+      {
+        "icon": "🦅",
+        "label": "复杂/不同新形态"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「靠长期一点一滴的小改变，慢慢从简单变成复杂」。"
   },
   {
     "id": "fluctuate",
@@ -5465,6 +6164,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📊",
+        "label": "中间水平"
+      },
+      {
+        "icon": "〜",
+        "label": "反复上下摆动"
+      },
+      {
+        "icon": "↕️",
+        "label": "持续起伏不定"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不是一路往一个方向走，而是围着中间反复上上下下」。",
+    "reading_synonyms": [
+      {
+        "word": "vary",
+        "chinese": "变化"
+      },
+      {
+        "word": "oscillate",
+        "chinese": "波动，振荡"
+      },
+      {
+        "word": "swing",
+        "chinese": "摆动"
+      }
     ]
   },
   {
@@ -5507,6 +6235,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🏜️",
+        "label": "荒芜/粗糙状态"
+      },
+      {
+        "icon": "💧",
+        "label": "持续用心照料"
+      },
+      {
+        "icon": "🌳",
+        "label": "变肥沃成熟深厚"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「花心思持续投入照料，让一片荒地或一种能力慢慢变得深厚」，可以种地，也可以是培养关系或才能。",
+    "reading_synonyms": [
+      {
+        "word": "nurture",
+        "chinese": "培养，滋养"
+      },
+      {
+        "word": "foster",
+        "chinese": "培养，促进"
+      },
+      {
+        "word": "develop",
+        "chinese": "培养，发展"
+      }
     ]
   },
   {
@@ -5549,6 +6306,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🏴",
+        "label": "荒废/被占用"
+      },
+      {
+        "icon": "✊",
+        "label": "主动争取改造"
+      },
+      {
+        "icon": "🏳️",
+        "label": "重新拿回恢复可用"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「主动把原本失去或被占用的东西，重新争取回来自己手里」。",
+    "reading_synonyms": [
+      {
+        "word": "recover",
+        "chinese": "恢复，取回"
+      },
+      {
+        "word": "regain",
+        "chinese": "重新获得"
+      },
+      {
+        "word": "retrieve",
+        "chinese": "取回，恢复"
+      }
     ]
   },
   {
@@ -5591,6 +6377,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🧱",
+        "label": "持续施加的压力"
+      },
+      {
+        "icon": "😩",
+        "label": "抵抗力耗尽"
+      },
+      {
+        "icon": "🤲",
+        "label": "让步/产出成果"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「扛不住压力最终松手」，也可以反过来理解成「投入努力换来产出」，是同一个「压力→结果」逻辑的两面。",
+    "reading_synonyms": [
+      {
+        "word": "surrender",
+        "chinese": "屈服，投降"
+      },
+      {
+        "word": "produce",
+        "chinese": "产出"
+      },
+      {
+        "word": "submit",
+        "chinese": "屈服，服从"
+      }
     ]
   },
   {
@@ -5633,6 +6448,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🌰",
+        "label": "休眠种子"
+      },
+      {
+        "icon": "☀️",
+        "label": "合适条件触发"
+      },
+      {
+        "icon": "🌱",
+        "label": "长出嫩芽"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本看不出生命迹象的东西，遇到合适条件突然开始发育」。",
+    "reading_synonyms": [
+      {
+        "word": "sprout",
+        "chinese": "发芽"
+      },
+      {
+        "word": "emerge",
+        "chinese": "萌发，出现"
+      },
+      {
+        "word": "develop",
+        "chinese": "发育"
+      }
     ]
   },
   {
@@ -5675,6 +6519,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🟢",
+        "label": "生涩未成熟"
+      },
+      {
+        "icon": "⏳",
+        "label": "时间积累"
+      },
+      {
+        "icon": "🍎",
+        "label": "饱满成熟可用"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「靠时间的积累，从生涩慢慢变得饱满、可以用了」。",
+    "reading_synonyms": [
+      {
+        "word": "mature",
+        "chinese": "成熟"
+      },
+      {
+        "word": "develop fully",
+        "chinese": "完全成熟"
+      },
+      {
+        "word": "mellow",
+        "chinese": "变得成熟柔和"
+      }
     ]
   },
   {
@@ -5717,6 +6590,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🌿",
+        "label": "鲜活饱满状态"
+      },
+      {
+        "icon": "🚫",
+        "label": "缺乏持续供给"
+      },
+      {
+        "icon": "🥀",
+        "label": "干瘪失去生机"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「因为缺水/缺活力，慢慢干瘪下去、失去生机」，跟decompose不同：wither是自然枯萎，decompose是被微生物拆解分解。",
+    "reading_synonyms": [
+      {
+        "word": "shrivel",
+        "chinese": "枯萎，皱缩"
+      },
+      {
+        "word": "dry up",
+        "chinese": "干枯"
+      },
+      {
+        "word": "fade",
+        "chinese": "衰退，凋零"
+      }
     ]
   },
   {
@@ -5759,6 +6661,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🍂",
+        "label": "完整有机体"
+      },
+      {
+        "icon": "🦠",
+        "label": "微生物持续作用"
+      },
+      {
+        "icon": "🌍",
+        "label": "拆解融入环境"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「靠微生物一点点把完整的东西拆解成简单成分，最后融进环境里」。",
+    "reading_synonyms": [
+      {
+        "word": "decay",
+        "chinese": "腐烂，腐朽"
+      },
+      {
+        "word": "rot",
+        "chinese": "腐烂"
+      },
+      {
+        "word": "break down",
+        "chinese": "分解"
+      }
     ]
   },
   {
@@ -5801,6 +6732,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💧",
+        "label": "外部物质/信息"
+      },
+      {
+        "icon": "⬇️",
+        "label": "被主体吸入"
+      },
+      {
+        "icon": "🧽",
+        "label": "融入主体不再独立"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「外面的东西被吸进去，变成里面的一部分，不再是独立的外在东西」。",
+    "reading_synonyms": [
+      {
+        "word": "soak up",
+        "chinese": "吸收"
+      },
+      {
+        "word": "take in",
+        "chinese": "吸收，摄入"
+      },
+      {
+        "word": "assimilate",
+        "chinese": "吸收，同化"
+      }
     ]
   },
   {
@@ -5843,6 +6803,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📏",
+        "label": "设定的上限线"
+      },
+      {
+        "icon": "⬆️",
+        "label": "数值越过这条线"
+      },
+      {
+        "icon": "🚫",
+        "label": "落在允许范围外"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「数值冲过了那条画好的线，跑到规定范围外面去了」。",
+    "reading_synonyms": [
+      {
+        "word": "surpass",
+        "chinese": "超过"
+      },
+      {
+        "word": "go beyond",
+        "chinese": "超出"
+      },
+      {
+        "word": "outstrip",
+        "chinese": "超过，超越"
+      }
     ]
   },
   {
@@ -5885,6 +6874,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "⬅️",
+        "label": "力量A一个方向"
+      },
+      {
+        "icon": "➡️",
+        "label": "力量B相反方向"
+      },
+      {
+        "icon": "⚖️",
+        "label": "相互抵消达到平衡"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「专门找一个反方向的力量去抵消另一个，让两边最终打平」。",
+    "reading_synonyms": [
+      {
+        "word": "offset",
+        "chinese": "抵消"
+      },
+      {
+        "word": "balance out",
+        "chinese": "相互抵消，平衡"
+      },
+      {
+        "word": "neutralize",
+        "chinese": "抵消，中和"
+      }
     ]
   },
   {
@@ -5927,6 +6945,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "✅",
+        "label": "良好状态"
+      },
+      {
+        "icon": "🛡️",
+        "label": "主动保护措施"
+      },
+      {
+        "icon": "🔒",
+        "label": "持续维持原样"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「主动采取保护手段，不让一个好状态随时间损坏或消失」，跟maintain不同：maintain是顶住外力压力不让变，preserve更强调「预防性的保护措施」。",
+    "reading_synonyms": [
+      {
+        "word": "conserve",
+        "chinese": "保存，节约"
+      },
+      {
+        "word": "protect",
+        "chinese": "保护"
+      },
+      {
+        "word": "safeguard",
+        "chinese": "保护，捍卫"
+      }
     ]
   },
   {
@@ -5969,6 +7016,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔥",
+        "label": "活跃燃烧/存在"
+      },
+      {
+        "icon": "💦",
+        "label": "外力强行压制"
+      },
+      {
+        "icon": "⚫",
+        "label": "彻底停止熄灭"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「用外力把还在活跃的东西彻底压灭」，可以是真的火，也可以是希望。",
+    "reading_synonyms": [
+      {
+        "word": "put out",
+        "chinese": "熄灭"
+      },
+      {
+        "word": "douse",
+        "chinese": "浇灭"
+      },
+      {
+        "word": "quench",
+        "chinese": "熄灭，扑灭"
+      }
     ]
   },
   {
@@ -6011,6 +7087,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🏛️",
+        "label": "稳固的结构/地位"
+      },
+      {
+        "icon": "🕳️",
+        "label": "底部支撑暗中削弱"
+      },
+      {
+        "icon": "⚠️",
+        "label": "根基动摇未垮"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「表面看着还没事，但底下的支撑已经被偷偷挖空了」。",
+    "reading_synonyms": [
+      {
+        "word": "weaken",
+        "chinese": "削弱"
+      },
+      {
+        "word": "erode",
+        "chinese": "侵蚀，削弱"
+      },
+      {
+        "word": "sabotage",
+        "chinese": "蓄意破坏"
+      }
     ]
   },
   {
@@ -6053,6 +7158,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🚧",
+        "label": "受保护的边界线"
+      },
+      {
+        "icon": "👣",
+        "label": "行为直接跨越侵入"
+      },
+      {
+        "icon": "💔",
+        "label": "边界被打破"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一条本该被尊重的线，被直接踩过去、闯进去了」。",
+    "reading_synonyms": [
+      {
+        "word": "violate",
+        "chinese": "违反"
+      },
+      {
+        "word": "breach",
+        "chinese": "违反，破坏"
+      },
+      {
+        "word": "trespass",
+        "chinese": "侵犯，侵入"
+      }
     ]
   },
   {
