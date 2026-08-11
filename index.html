@@ -1785,12 +1785,13 @@
 
             loadWord();
             savePosition();
+            updateContinueCard();
 
             document.getElementById('searchInput').value = '';
             document.getElementById('searchResults').classList.remove('show');
             document.getElementById('searchResults').innerHTML = '';
 
-            document.getElementById('wordCardContainer').scrollIntoView({ behavior: 'smooth' });
+            openVocab();
         }
 
         // 点击搜索结果外部区域时，收起搜索结果列表
@@ -2362,8 +2363,12 @@
         }
 
         // 核心状态区:图标流程图 + 完整母句,只在有母义状态字段时调用
+        // 优先用手工逐词设计的journey_steps字段(数据里预先写好的{icon,label}数组);
+        // 还没处理到的词才用自动拆解兜底,保证全部词随时能显示,不会因为还没做完批次而空白
         function coreStateJourneyHtml(word, stateText) {
-            const steps = parseRelationSteps(word.underlying_relation);
+            const steps = (word.journey_steps && word.journey_steps.length > 0)
+                ? word.journey_steps
+                : parseRelationSteps(word.underlying_relation);
             let journeyHtml = '';
             if (steps.length > 0) {
                 journeyHtml = `
@@ -2387,9 +2392,7 @@
             `;
         }
 
-        // 场景延伸区(新样式):图标+英文短语,右侧配简短中文标签(取note字段｜后半段,不编造新内容)
-        // 从底层关系的首尾两段,自动生成一句"本质都是把X转化为Y"式的精炼总结,
-        // 比直接复述整句底层关系更接近"一眼看透"的效果(完全手工精修253个词的洞察句是后续可以做的更精细版本)
+        // 兜底方案:还没手工处理到的词,自动拆解底层关系文字(不够精准,但保证不空白)
         function generateSameCoreInsight(relationText) {
             if (!relationText) return '';
             const clean = relationText.replace(/<[^>]+>/g, '');
@@ -2420,7 +2423,8 @@
                     </div>
                 `;
             }).join('');
-            const sameCoreText = generateSameCoreInsight(word.underlying_relation);
+            // 优先用手工写好的洞察句,没有才兜底自动生成
+            const sameCoreText = word.same_core_insight || generateSameCoreInsight(word.underlying_relation);
             return `
                 <div class="cs-section-label"><span class="cs-dot" style="background:#8a8f7a"></span>SCENES 场景延伸</div>
                 <div class="cs-scenes-box">
