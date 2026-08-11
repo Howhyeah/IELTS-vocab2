@@ -10069,6 +10069,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "❓",
+        "label": "未证实的说法"
+      },
+      {
+        "icon": "🔍",
+        "label": "拿去跟事实核对"
+      },
+      {
+        "icon": "✅",
+        "label": "证实为真"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把一个还没定论的说法，拿去跟事实对一下，对上了就是真的」。",
+    "reading_synonyms": [
+      {
+        "word": "verify",
+        "chinese": "核实"
+      },
+      {
+        "word": "validate",
+        "chinese": "证实"
+      },
+      {
+        "word": "substantiate",
+        "chinese": "证实，证明"
+      }
     ]
   },
   {
@@ -10111,6 +10140,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💭",
+        "label": "抽象观点/能力"
+      },
+      {
+        "icon": "🎬",
+        "label": "具体行动摆出来"
+      },
+      {
+        "icon": "👀",
+        "label": "让人亲眼看到信服"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把说不清的东西，用实际行动摆出来，让人一看就信」。",
+    "reading_synonyms": [
+      {
+        "word": "show",
+        "chinese": "展示"
+      },
+      {
+        "word": "illustrate",
+        "chinese": "说明，阐明"
+      },
+      {
+        "word": "prove",
+        "chinese": "证明"
+      }
     ]
   },
   {
@@ -10156,10 +10214,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "obvious",
-        "chinese": "明显的"
+        "word": "show itself",
+        "chinese": "显现"
+      },
+      {
+        "word": "appear",
+        "chinese": "出现"
+      },
+      {
+        "word": "become evident",
+        "chinese": "变得明显"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🫥",
+        "label": "内在品质藏着"
+      },
+      {
+        "icon": "⬆️",
+        "label": "开始从外表显露"
+      },
+      {
+        "icon": "👁️",
+        "label": "变得可见"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「藏在里面的东西，开始从外表冒出来让人看见」。"
   },
   {
     "id": "determine",
@@ -10207,7 +10288,22 @@
         "word": "decide",
         "chinese": "决定"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "❓",
+        "label": "模糊/多种可能"
+      },
+      {
+        "icon": "🔍",
+        "label": "查证·判断"
+      },
+      {
+        "icon": "🎯",
+        "label": "锁定结果"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都在把「可能性」收束为「确定结果」。"
   },
   {
     "id": "resolve",
@@ -10249,6 +10345,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🌀",
+        "label": "纠结/混乱/冲突"
+      },
+      {
+        "icon": "🧹",
+        "label": "经过处理理清"
+      },
+      {
+        "icon": "✅",
+        "label": "冲突消失稳定"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把一团乱的局面理顺，冲突消失变稳定」，跟determine不同：determine是从模糊到确定一个结论，resolve是从混乱冲突到理清稳定。",
+    "reading_synonyms": [
+      {
+        "word": "settle",
+        "chinese": "解决"
+      },
+      {
+        "word": "sort out",
+        "chinese": "解决，理清"
+      },
+      {
+        "word": "solve",
+        "chinese": "解决"
+      }
     ]
   },
   {
@@ -10291,6 +10416,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🚩",
+        "label": "远方的目标"
+      },
+      {
+        "icon": "🏃",
+        "label": "持续努力行动"
+      },
+      {
+        "icon": "🏆",
+        "label": "最终到达实现"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「盯着一个远处的目标，一直努力，最后真的够到了」。",
+    "reading_synonyms": [
+      {
+        "word": "attain",
+        "chinese": "达到，实现"
+      },
+      {
+        "word": "accomplish",
+        "chinese": "完成，实现"
+      },
+      {
+        "word": "fulfill",
+        "chinese": "实现"
+      }
     ]
   },
   {
@@ -10336,10 +10490,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "offer",
-        "chinese": "提供"
+        "word": "award",
+        "chinese": "授予"
+      },
+      {
+        "word": "bestow",
+        "chinese": "赋予，授予"
+      },
+      {
+        "word": "give",
+        "chinese": "给予"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🙋",
+        "label": "请求方提出请求"
+      },
+      {
+        "icon": "🤔",
+        "label": "权力方考虑"
+      },
+      {
+        "icon": "🎁",
+        "label": "正式交出所请求"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一方开口要，有权的一方点头把东西正式给出去」。"
   },
   {
     "id": "appreciate",
@@ -10381,6 +10558,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💎",
+        "label": "价值可能被忽视"
+      },
+      {
+        "icon": "👁️",
+        "label": "被充分认识到"
+      },
+      {
+        "icon": "❤️",
+        "label": "产生珍惜感激"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本没在意的价值，突然真正看懂了，因此心生珍惜」。",
+    "reading_synonyms": [
+      {
+        "word": "value",
+        "chinese": "重视，珍视"
+      },
+      {
+        "word": "cherish",
+        "chinese": "珍惜"
+      },
+      {
+        "word": "recognize the worth of",
+        "chinese": "认识到…的价值"
+      }
     ]
   },
   {
@@ -10423,6 +10629,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📏",
+        "label": "真实规模程度"
+      },
+      {
+        "icon": "⬇️",
+        "label": "判断值落在下方"
+      },
+      {
+        "icon": "🔽",
+        "label": "判断结果偏小"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「猜的数比实际的小，看轻了它真实的分量」。",
+    "reading_synonyms": [
+      {
+        "word": "undervalue",
+        "chinese": "低估价值"
+      },
+      {
+        "word": "belittle",
+        "chinese": "轻视"
+      },
+      {
+        "word": "underrate",
+        "chinese": "低估"
+      }
     ]
   },
   {
@@ -10465,6 +10700,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📏",
+        "label": "真实规模程度"
+      },
+      {
+        "icon": "⬆️",
+        "label": "判断值超出上方"
+      },
+      {
+        "icon": "🔼",
+        "label": "判断结果偏大"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「猜的数比实际的大，把它看得比真实分量更重」，跟underestimate正好相反。",
+    "reading_synonyms": [
+      {
+        "word": "overrate",
+        "chinese": "评价过高"
+      },
+      {
+        "word": "overvalue",
+        "chinese": "估价过高"
+      },
+      {
+        "word": "exaggerate",
+        "chinese": "夸大"
+      }
     ]
   },
   {
@@ -10507,6 +10771,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📜",
+        "label": "通用方法/规则"
+      },
+      {
+        "icon": "🎯",
+        "label": "用在具体场合"
+      },
+      {
+        "icon": "⚙️",
+        "label": "实际发挥作用"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把一个通用的东西，拿去用在一个具体的地方，让它真正起作用」。",
+    "reading_synonyms": [
+      {
+        "word": "use",
+        "chinese": "使用"
+      },
+      {
+        "word": "employ",
+        "chinese": "运用"
+      },
+      {
+        "word": "put into practice",
+        "chinese": "付诸实践"
+      }
     ]
   },
   {
@@ -10549,6 +10842,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📦",
+        "label": "已有旧方法"
+      },
+      {
+        "icon": "💡",
+        "label": "主动创造新方法"
+      },
+      {
+        "icon": "🆕",
+        "label": "替代原本做法"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不满足于旧方法，主动搞出一个从没见过的新做法」。",
+    "reading_synonyms": [
+      {
+        "word": "create",
+        "chinese": "创造"
+      },
+      {
+        "word": "pioneer",
+        "chinese": "开创"
+      },
+      {
+        "word": "introduce new methods",
+        "chinese": "引入新方法"
+      }
     ]
   },
   {
@@ -10591,6 +10913,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "❓",
+        "label": "具体需求/问题"
+      },
+      {
+        "icon": "🧠",
+        "label": "从零动脑设计"
+      },
+      {
+        "icon": "🛠️",
+        "label": "专门解决的方法"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「盯着一个具体问题，从零开始想出一套专门对付它的办法」。",
+    "reading_synonyms": [
+      {
+        "word": "design",
+        "chinese": "设计"
+      },
+      {
+        "word": "formulate",
+        "chinese": "制定，构想"
+      },
+      {
+        "word": "work out",
+        "chinese": "想出，制定"
+      }
     ]
   },
   {
@@ -10633,6 +10984,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🫥",
+        "label": "不为人知的事物"
+      },
+      {
+        "icon": "🔍",
+        "label": "主动探寻/偶然机会"
+      },
+      {
+        "icon": "💡",
+        "label": "第一次被知道"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本没人知道的东西，第一次被找到、被知道」。",
+    "reading_synonyms": [
+      {
+        "word": "find",
+        "chinese": "发现"
+      },
+      {
+        "word": "uncover",
+        "chinese": "发现，揭露"
+      },
+      {
+        "word": "come across",
+        "chinese": "偶然发现"
+      }
     ]
   },
   {
@@ -10678,10 +11058,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "expose",
-        "chinese": "揭露"
+        "word": "reveal",
+        "chinese": "透露"
+      },
+      {
+        "word": "divulge",
+        "chinese": "泄露"
+      },
+      {
+        "word": "make known",
+        "chinese": "使人知道"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔒",
+        "label": "被保密的信息"
+      },
+      {
+        "icon": "🗣️",
+        "label": "持有者主动说出"
+      },
+      {
+        "icon": "👂",
+        "label": "原本不知道的人得知"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本来捂着的秘密，持有者自己主动开口说出去」，跟discover不同：discover是第一次被发现，disclose是持有者主动选择说出。"
   },
   {
     "id": "expose",
@@ -10723,6 +11126,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🛡️",
+        "label": "遮挡层"
+      },
+      {
+        "icon": "➡️",
+        "label": "被移开"
+      },
+      {
+        "icon": "⚠️",
+        "label": "直接暴露不受保护"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本盖着的东西被拿掉，直接晒在外面没了保护」，跟disclose不同：expose更强调「移开遮挡物」这个物理/被动过程。",
+    "reading_synonyms": [
+      {
+        "word": "uncover",
+        "chinese": "揭露"
+      },
+      {
+        "word": "bare",
+        "chinese": "使暴露"
+      },
+      {
+        "word": "lay bare",
+        "chinese": "揭露，暴露"
+      }
     ]
   },
   {
@@ -10769,9 +11201,32 @@
     "reading_synonyms": [
       {
         "word": "focus",
-        "chinese": "专注"
+        "chinese": "集中"
+      },
+      {
+        "word": "centralize",
+        "chinese": "集中化"
+      },
+      {
+        "word": "intensify",
+        "chinese": "加强，浓缩"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "〜",
+        "label": "分散的注意力/物质"
+      },
+      {
+        "icon": "🎯",
+        "label": "收拢聚集到一点"
+      },
+      {
+        "icon": "🔥",
+        "label": "密度强度大幅提高"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把原本散着的东西，收到一个点上，让那个点变得特别浓/特别强」。"
   },
   {
     "id": "assess",
@@ -10813,6 +11268,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔍",
+        "label": "事物价值质量程度"
+      },
+      {
+        "icon": "📊",
+        "label": "运用标准判断"
+      },
+      {
+        "icon": "📋",
+        "label": "给出衡量结果"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「拿一套标准去打量一个东西，最后给出一个判断结果」。",
+    "reading_synonyms": [
+      {
+        "word": "evaluate",
+        "chinese": "评估"
+      },
+      {
+        "word": "appraise",
+        "chinese": "评价，鉴定"
+      },
+      {
+        "word": "judge",
+        "chinese": "判断，评判"
+      }
     ]
   },
   {
@@ -10858,10 +11342,33 @@
     ],
     "reading_synonyms": [
       {
+        "word": "build up",
+        "chinese": "积累"
+      },
+      {
+        "word": "amass",
+        "chinese": "积聚"
+      },
+      {
         "word": "gather",
         "chinese": "聚集"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔵",
+        "label": "少量的东西"
+      },
+      {
+        "icon": "➕",
+        "label": "时间反复叠加"
+      },
+      {
+        "icon": "🏔️",
+        "label": "变成庞大总量"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一点一点地攒，攒的时间久了就成了一大堆」。"
   },
   {
     "id": "attach",
@@ -10903,6 +11410,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔵",
+        "label": "独立分开的东西"
+      },
+      {
+        "icon": "🔗",
+        "label": "连接固定到另一物"
+      },
+      {
+        "icon": "🈴",
+        "label": "连成一体"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把原本分开的两个东西接到一起，从此一起走」。",
+    "reading_synonyms": [
+      {
+        "word": "fasten",
+        "chinese": "固定，系牢"
+      },
+      {
+        "word": "connect",
+        "chinese": "连接"
+      },
+      {
+        "word": "affix",
+        "chinese": "附加，粘贴"
+      }
     ]
   },
   {
@@ -10945,6 +11481,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🧍",
+        "label": "人/物"
+      },
+      {
+        "icon": "🏠",
+        "label": "天然正当归属"
+      },
+      {
+        "icon": "✅",
+        "label": "应该存在的地方"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「这个东西天生就该在这个位置/群体里，那里才是它的归属」。",
+    "reading_synonyms": [
+      {
+        "word": "be part of",
+        "chinese": "属于…的一部分"
+      },
+      {
+        "word": "be a member of",
+        "chinese": "是…的成员"
+      },
+      {
+        "word": "pertain to",
+        "chinese": "属于，关于"
+      }
     ]
   },
   {
@@ -10987,6 +11552,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💨",
+        "label": "分散稀薄"
+      },
+      {
+        "icon": "🤏",
+        "label": "压缩收拢"
+      },
+      {
+        "icon": "🧊",
+        "label": "更紧密体积缩小"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把散开、稀薄的东西压紧收拢，体积或篇幅一下子变小」。",
+    "reading_synonyms": [
+      {
+        "word": "compress",
+        "chinese": "压缩"
+      },
+      {
+        "word": "shorten",
+        "chinese": "缩短"
+      },
+      {
+        "word": "summarize",
+        "chinese": "概括，浓缩"
+      }
     ]
   },
   {
@@ -11029,6 +11623,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🪨",
+        "label": "带杂质/粗糙"
+      },
+      {
+        "icon": "🔄",
+        "label": "反复处理去杂质"
+      },
+      {
+        "icon": "💎",
+        "label": "更纯净精致"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「反复打磨去掉杂质，让东西变得更纯、更精致」，重点在「提升品质」。",
+    "reading_synonyms": [
+      {
+        "word": "purify",
+        "chinese": "提纯"
+      },
+      {
+        "word": "polish",
+        "chinese": "打磨，润色"
+      },
+      {
+        "word": "perfect",
+        "chinese": "使完美"
+      }
     ]
   },
   {
@@ -11071,6 +11694,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🕸️",
+        "label": "复杂结构层层叠叠"
+      },
+      {
+        "icon": "✂️",
+        "label": "去掉多余环节"
+      },
+      {
+        "icon": "➡️",
+        "label": "步骤更少易懂"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把层层叠叠的复杂结构剪掉多余部分，变得简单好懂」，跟refine不同：refine是去杂质提升品质，simplify是减步骤降低复杂度。",
+    "reading_synonyms": [
+      {
+        "word": "streamline",
+        "chinese": "简化，使精简"
+      },
+      {
+        "word": "clarify",
+        "chinese": "使清晰"
+      },
+      {
+        "word": "reduce complexity",
+        "chinese": "降低复杂度"
+      }
     ]
   },
   {
@@ -11113,6 +11765,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🌫️",
+        "label": "混合物"
+      },
+      {
+        "icon": "🚧",
+        "label": "经选择性屏障"
+      },
+      {
+        "icon": "✅",
+        "label": "符合条件通过"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「设一道只让符合条件的东西过关的关卡，其他的挡在外面」。",
+    "reading_synonyms": [
+      {
+        "word": "screen",
+        "chinese": "筛选"
+      },
+      {
+        "word": "sift",
+        "chinese": "筛选，过滤"
+      },
+      {
+        "word": "sort out",
+        "chinese": "过滤，挑选出"
+      }
     ]
   },
   {
@@ -11155,6 +11836,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🚧",
+        "label": "存在障碍进行艰难"
+      },
+      {
+        "icon": "🧹",
+        "label": "障碍被移除减少"
+      },
+      {
+        "icon": "✅",
+        "label": "更容易顺利进行"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把挡路的障碍搬走或减少，让原本难办的事变得顺畅」。",
+    "reading_synonyms": [
+      {
+        "word": "ease",
+        "chinese": "使容易"
+      },
+      {
+        "word": "enable",
+        "chinese": "使能够"
+      },
+      {
+        "word": "smooth the way for",
+        "chinese": "为…铺平道路"
+      }
     ]
   },
   {
@@ -11197,6 +11907,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔵",
+        "label": "原类别/形态A"
+      },
+      {
+        "icon": "🔄",
+        "label": "经过转化过程"
+      },
+      {
+        "icon": "🔺",
+        "label": "变成截然不同的B"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「彻底从一种类别/形态，变成另一种完全不同的类别/形态」。",
+    "reading_synonyms": [
+      {
+        "word": "transform",
+        "chinese": "转变"
+      },
+      {
+        "word": "change into",
+        "chinese": "变成"
+      },
+      {
+        "word": "turn into",
+        "chinese": "变成"
+      }
     ]
   },
   {
@@ -11239,6 +11978,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎨",
+        "label": "某个具体特征"
+      },
+      {
+        "icon": "🖌️",
+        "label": "局部调整改变"
+      },
+      {
+        "icon": "✅",
+        "label": "整体本质身份不变"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「只改动局部的某个特征，整体身份没变」，跟convert不同：convert是彻底变成另一类，alter只是局部调整。",
+    "reading_synonyms": [
+      {
+        "word": "modify",
+        "chinese": "修改"
+      },
+      {
+        "word": "adjust",
+        "chinese": "调整"
+      },
+      {
+        "word": "tweak",
+        "chinese": "小幅调整"
+      }
     ]
   },
   {
@@ -11281,6 +12049,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "原位置/状态"
+      },
+      {
+        "icon": "➡️",
+        "label": "整体移动"
+      },
+      {
+        "icon": "📍",
+        "label": "新位置未分裂"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「整体一起挪到另一个位置或状态，没有分裂，只是换了地方」。",
+    "reading_synonyms": [
+      {
+        "word": "move",
+        "chinese": "移动"
+      },
+      {
+        "word": "transition",
+        "chinese": "过渡，转变"
+      },
+      {
+        "word": "switch",
+        "chinese": "转换"
+      }
     ]
   },
   {
@@ -11323,6 +12120,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔧",
+        "label": "原本为旧环境设计"
+      },
+      {
+        "icon": "🔄",
+        "label": "修改调整"
+      },
+      {
+        "icon": "🆕",
+        "label": "适应新环境/用途"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本不是为这个新环境准备的，经过调整后变得能适应了」。",
+    "reading_synonyms": [
+      {
+        "word": "adjust to",
+        "chinese": "适应"
+      },
+      {
+        "word": "modify for",
+        "chinese": "为…而修改"
+      },
+      {
+        "word": "acclimatize",
+        "chinese": "使适应（环境）"
+      }
     ]
   },
   {
@@ -11365,6 +12191,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🗺️",
+        "label": "模糊笼统大范围"
+      },
+      {
+        "icon": "🔍",
+        "label": "精确查找"
+      },
+      {
+        "icon": "📍",
+        "label": "找出确切点"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从一个大而模糊的范围里，精确地揪出那个具体的点」。",
+    "reading_synonyms": [
+      {
+        "word": "identify precisely",
+        "chinese": "精确识别"
+      },
+      {
+        "word": "locate exactly",
+        "chinese": "精确定位"
+      },
+      {
+        "word": "determine exactly",
+        "chinese": "精确确定"
+      }
     ]
   },
   {
@@ -11410,10 +12265,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "receive",
-        "chinese": "接收"
+        "word": "receive from",
+        "chinese": "从…那里继承"
+      },
+      {
+        "word": "succeed to",
+        "chinese": "继承（职位等）"
+      },
+      {
+        "word": "come into",
+        "chinese": "继承得到"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "👴",
+        "label": "前人拥有的东西"
+      },
+      {
+        "icon": "➡️",
+        "label": "通过传承自动转移"
+      },
+      {
+        "icon": "🧍",
+        "label": "后人新获得"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不是自己争取来的，是前人传下来自动落在自己身上的」。"
   },
   {
     "id": "thrive",
@@ -11455,6 +12333,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "☀️",
+        "label": "适宜条件"
+      },
+      {
+        "icon": "💪",
+        "label": "充满活力壮大"
+      },
+      {
+        "icon": "🌳",
+        "label": "蓬勃发展"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不只是活着，是在合适条件下越长越旺、越过越好」。",
+    "reading_synonyms": [
+      {
+        "word": "flourish",
+        "chinese": "繁荣，兴旺"
+      },
+      {
+        "word": "prosper",
+        "chinese": "兴旺，繁荣"
+      },
+      {
+        "word": "boom",
+        "chinese": "蓬勃发展"
+      }
     ]
   },
   {
@@ -11502,8 +12409,31 @@
       {
         "word": "allocate",
         "chinese": "分配"
+      },
+      {
+        "word": "designate",
+        "chinese": "指定"
+      },
+      {
+        "word": "appoint",
+        "chinese": "任命，指定"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "👥",
+        "label": "一群可选对象"
+      },
+      {
+        "icon": "👆",
+        "label": "挑出特定一个"
+      },
+      {
+        "icon": "📋",
+        "label": "正式指定承担任务"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从一堆可选项里挑一个出来，正式派给它一个任务」。"
   },
   {
     "id": "translate",
@@ -11545,6 +12475,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🗣️",
+        "label": "意思用语言A表达"
+      },
+      {
+        "icon": "🔄",
+        "label": "转换"
+      },
+      {
+        "icon": "💬",
+        "label": "用语言B重新表达"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「同一个意思，换一种语言重新说出来，核心不变」。",
+    "reading_synonyms": [
+      {
+        "word": "convert language",
+        "chinese": "转换语言"
+      },
+      {
+        "word": "render",
+        "chinese": "翻译，表达"
+      },
+      {
+        "word": "interpret",
+        "chinese": "口译，翻译"
+      }
     ]
   },
   {
@@ -11587,6 +12546,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📄",
+        "label": "原始话语/数据不带说明"
+      },
+      {
+        "icon": "🧠",
+        "label": "主动理解加工"
+      },
+      {
+        "icon": "💡",
+        "label": "赋予具体意义"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「给一段本身没有说明的东西，加上自己的理解，赋予它一个意义」，跟translate不同：translate是换语言说同一个意思，interpret是主动给出理解。",
+    "reading_synonyms": [
+      {
+        "word": "explain",
+        "chinese": "解释"
+      },
+      {
+        "word": "make sense of",
+        "chinese": "理解，弄懂"
+      },
+      {
+        "word": "read into",
+        "chinese": "解读出"
+      }
     ]
   },
   {
@@ -11629,6 +12617,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔐",
+        "label": "编码/难辨认信息"
+      },
+      {
+        "icon": "🔓",
+        "label": "系统性破解努力"
+      },
+      {
+        "icon": "💡",
+        "label": "隐藏含义搞清楚"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「专门针对加密或难懂的东西，一点点破解出藏在里面的真实意思」，比interpret更强调「破解」这个动作。",
+    "reading_synonyms": [
+      {
+        "word": "decode",
+        "chinese": "解码"
+      },
+      {
+        "word": "crack",
+        "chinese": "破解"
+      },
+      {
+        "word": "unravel",
+        "chinese": "解开，弄清"
+      }
     ]
   },
   {
@@ -11671,6 +12688,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💭",
+        "label": "意思只存在一方脑海"
+      },
+      {
+        "icon": "📡",
+        "label": "媒介传递跨越距离"
+      },
+      {
+        "icon": "👂",
+        "label": "另一方接收到"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一个意思从一个人脑子里，跨过距离传到另一个人那里」。",
+    "reading_synonyms": [
+      {
+        "word": "convey",
+        "chinese": "传达"
+      },
+      {
+        "word": "transmit",
+        "chinese": "传递"
+      },
+      {
+        "word": "get across",
+        "chinese": "使理解，传达"
+      }
     ]
   },
   {
@@ -11713,6 +12759,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "↔️",
+        "label": "两方立场不同"
+      },
+      {
+        "icon": "🗣️",
+        "label": "反复来回商谈"
+      },
+      {
+        "icon": "🤝",
+        "label": "双方接受的中间结果"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「两边各自有要求，来回谈，最后谈出一个都能接受的中间点」。",
+    "reading_synonyms": [
+      {
+        "word": "bargain",
+        "chinese": "议价，谈判"
+      },
+      {
+        "word": "mediate",
+        "chinese": "调解，斡旋"
+      },
+      {
+        "word": "hammer out an agreement",
+        "chinese": "艰难达成协议"
+      }
     ]
   },
   {
@@ -11755,6 +12830,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "信息/观念源头"
+      },
+      {
+        "icon": "📢",
+        "label": "主动散布"
+      },
+      {
+        "icon": "🌐",
+        "label": "扩散到广泛人群"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一个信息从一个源头，主动撒出去，让尽可能多的人知道」，跟communicate不同：communicate通常是一对一传递意思，disseminate是一对多主动散布。",
+    "reading_synonyms": [
+      {
+        "word": "spread",
+        "chinese": "传播"
+      },
+      {
+        "word": "distribute",
+        "chinese": "分发，散布"
+      },
+      {
+        "word": "propagate",
+        "chinese": "传播，宣传"
+      }
     ]
   },
   {
@@ -11800,10 +12904,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "join",
+        "word": "take part in",
         "chinese": "参加"
+      },
+      {
+        "word": "engage in",
+        "chinese": "参与"
+      },
+      {
+        "word": "get involved in",
+        "chinese": "参与到…中"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🚪",
+        "label": "群体活动之外的人"
+      },
+      {
+        "icon": "➡️",
+        "label": "主动加入"
+      },
+      {
+        "icon": "🙋",
+        "label": "成为积极参与部分"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本站在外面看，主动跨进去成为其中一份子」。"
   },
   {
     "id": "simulate",
@@ -11845,6 +12972,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "⚠️",
+        "label": "真实情况有风险"
+      },
+      {
+        "icon": "🎭",
+        "label": "人为制造相似条件"
+      },
+      {
+        "icon": "🧪",
+        "label": "用于测试练习"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「造一个跟真的很像的假环境，代替真实情况来试」。",
+    "reading_synonyms": [
+      {
+        "word": "mimic",
+        "chinese": "模仿"
+      },
+      {
+        "word": "replicate",
+        "chinese": "复制，重现"
+      },
+      {
+        "word": "emulate",
+        "chinese": "仿效"
+      }
     ]
   },
   {
@@ -11887,6 +13043,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🚫",
+        "label": "没有提前准备"
+      },
+      {
+        "icon": "💡",
+        "label": "现场临时创造"
+      },
+      {
+        "icon": "✅",
+        "label": "应对需要的方案"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「事先啥都没准备，当场现想出一个能用的办法」。",
+    "reading_synonyms": [
+      {
+        "word": "extemporize",
+        "chinese": "即兴创作"
+      },
+      {
+        "word": "ad-lib",
+        "chinese": "即兴发挥"
+      },
+      {
+        "word": "wing it",
+        "chinese": "即兴应付"
+      }
     ]
   },
   {
@@ -11929,6 +13114,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🛥️",
+        "label": "无自主施力"
+      },
+      {
+        "icon": "🌊",
+        "label": "被外部力量带动"
+      },
+      {
+        "icon": "❓",
+        "label": "移动无固定目标"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「自己不使劲，被外力（水流/风/情势）慢慢带着走，没有目的地」。",
+    "reading_synonyms": [
+      {
+        "word": "float aimlessly",
+        "chinese": "无目的漂浮"
+      },
+      {
+        "word": "wander",
+        "chinese": "漂泊，游荡"
+      },
+      {
+        "word": "meander",
+        "chinese": "漫游，蜿蜒"
+      }
     ]
   },
   {
@@ -11971,6 +13185,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "原状态"
+      },
+      {
+        "icon": "💥",
+        "label": "突然剧烈冲下/冲入"
+      },
+      {
+        "icon": "🕳️",
+        "label": "瞬间跌入另一状态"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「毫不犹豫地一头冲下去或冲进去」，强调「突然、剧烈、没有缓冲」。",
+    "reading_synonyms": [
+      {
+        "word": "plummet",
+        "chinese": "骤降"
+      },
+      {
+        "word": "dive",
+        "chinese": "猛冲，跳入"
+      },
+      {
+        "word": "nosedive",
+        "chinese": "急速下降"
+      }
     ]
   },
   {
@@ -12013,6 +13256,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🚪",
+        "label": "应该离开的时刻"
+      },
+      {
+        "icon": "🚫",
+        "label": "不情愿继续留存"
+      },
+      {
+        "icon": "⏰",
+        "label": "比预期更久"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本该走的时候没走，赖着多留了一会儿」。",
+    "reading_synonyms": [
+      {
+        "word": "remain",
+        "chinese": "停留，逗留"
+      },
+      {
+        "word": "stay on",
+        "chinese": "继续留下"
+      },
+      {
+        "word": "persist",
+        "chinese": "持续存在"
+      }
     ]
   },
   {
@@ -12055,6 +13327,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🏃",
+        "label": "应同步的对象"
+      },
+      {
+        "icon": "🐢",
+        "label": "速度比参照物慢"
+      },
+      {
+        "icon": "📉",
+        "label": "落后差距拉大"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本该跟大家一起走，结果越走越慢，被落在后面」。",
+    "reading_synonyms": [
+      {
+        "word": "fall behind",
+        "chinese": "落后"
+      },
+      {
+        "word": "trail",
+        "chinese": "跟在后面，落后"
+      },
+      {
+        "word": "delay",
+        "chinese": "延迟"
+      }
     ]
   },
   {
@@ -12097,6 +13398,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📍",
+        "label": "起点"
+      },
+      {
+        "icon": "➡️",
+        "label": "连续覆盖整片区域"
+      },
+      {
+        "icon": "🏁",
+        "label": "到达另一端不留死角"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「从一头扫到另一头，整片全覆盖，不留任何空隙」。",
+    "reading_synonyms": [
+      {
+        "word": "cover",
+        "chinese": "覆盖"
+      },
+      {
+        "word": "scan across",
+        "chinese": "扫过"
+      },
+      {
+        "word": "engulf",
+        "chinese": "吞没，笼罩"
+      }
     ]
   },
   {
@@ -12139,6 +13469,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "1️⃣",
+        "label": "原本只有一份"
+      },
+      {
+        "icon": "🖨️",
+        "label": "复制过程"
+      },
+      {
+        "icon": "2️⃣",
+        "label": "多出完全相同副本"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原来就一份，复制出一份跟它长得一模一样的」。",
+    "reading_synonyms": [
+      {
+        "word": "copy",
+        "chinese": "复制"
+      },
+      {
+        "word": "replicate",
+        "chinese": "复制，重现"
+      },
+      {
+        "word": "reproduce",
+        "chinese": "再生产，复制"
+      }
     ]
   },
   {
@@ -12181,6 +13540,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🔵",
+        "label": "两个独立的东西"
+      },
+      {
+        "icon": "🔥",
+        "label": "高温/强力作用"
+      },
+      {
+        "icon": "🟣",
+        "label": "融合成一体不可分"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本各自独立的两个东西，被高温或强力弄得边界消失，粘成一个再分不开」。",
+    "reading_synonyms": [
+      {
+        "word": "merge",
+        "chinese": "合并"
+      },
+      {
+        "word": "blend",
+        "chinese": "融合"
+      },
+      {
+        "word": "combine",
+        "chinese": "结合，融合"
+      }
     ]
   },
   {
@@ -12223,6 +13611,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🪨",
+        "label": "松散原材料"
+      },
+      {
+        "icon": "🔨",
+        "label": "高温反复锤打"
+      },
+      {
+        "icon": "⚔️",
+        "label": "坚固成型的东西"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「用高温和反复锤打，把一块松散的材料硬生生打成坚固成型的东西」。",
+    "reading_synonyms": [
+      {
+        "word": "shape",
+        "chinese": "塑造，锻造"
+      },
+      {
+        "word": "hammer into shape",
+        "chinese": "锤打成型"
+      },
+      {
+        "word": "mold",
+        "chinese": "塑造，锻造"
+      }
     ]
   },
   {
@@ -12265,6 +13682,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "⚙️",
+        "label": "直接摩擦的表面"
+      },
+      {
+        "icon": "💧",
+        "label": "加入顺滑物质"
+      },
+      {
+        "icon": "✅",
+        "label": "摩擦减小运转顺畅"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「给两个磨得难受的表面之间抹点顺滑的东西，让它们不再硬碰硬」。",
+    "reading_synonyms": [
+      {
+        "word": "grease",
+        "chinese": "涂润滑油"
+      },
+      {
+        "word": "oil",
+        "chinese": "加油润滑"
+      },
+      {
+        "word": "smooth",
+        "chinese": "使顺滑"
+      }
     ]
   },
   {
@@ -12307,6 +13753,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "〜",
+        "label": "多根分离的细线"
+      },
+      {
+        "icon": "✖️",
+        "label": "经纬交错穿插"
+      },
+      {
+        "icon": "🧵",
+        "label": "结构紧密的整体"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把好几根散开的线，按经纬交错的方式穿在一起，织成一片拆不开的整体」。",
+    "reading_synonyms": [
+      {
+        "word": "interlace",
+        "chinese": "交织"
+      },
+      {
+        "word": "knit",
+        "chinese": "编织"
+      },
+      {
+        "word": "intertwine",
+        "chinese": "交织，缠绕"
+      }
     ]
   },
   {
@@ -12349,6 +13824,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "⚠️",
+        "label": "可能失控的系统"
+      },
+      {
+        "icon": "📏",
+        "label": "持续规则监管"
+      },
+      {
+        "icon": "✅",
+        "label": "约束在合理范围"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「靠持续的规则盯着，不让一个可能失控的系统超出合理范围」。",
+    "reading_synonyms": [
+      {
+        "word": "control",
+        "chinese": "控制"
+      },
+      {
+        "word": "supervise",
+        "chinese": "监管"
+      },
+      {
+        "word": "govern",
+        "chinese": "管理，规范"
+      }
     ]
   },
   {
@@ -12391,6 +13895,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "👑",
+        "label": "拥有权力的主体"
+      },
+      {
+        "icon": "🧭",
+        "label": "持续引导决定方向"
+      },
+      {
+        "icon": "🏛️",
+        "label": "群体按此方向运作"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一个有权的主体持续定方向，其他人都跟着这个方向走」，跟regulate不同：regulate是用规则防止失控，govern是主动决定整体走向。",
+    "reading_synonyms": [
+      {
+        "word": "rule",
+        "chinese": "统治，治理"
+      },
+      {
+        "word": "administer",
+        "chinese": "管理，治理"
+      },
+      {
+        "word": "run",
+        "chinese": "经营，管理"
+      }
     ]
   },
   {
@@ -12433,6 +13966,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "⚖️",
+        "label": "多方共存局面"
+      },
+      {
+        "icon": "💪",
+        "label": "一方力量远超其他"
+      },
+      {
+        "icon": "👑",
+        "label": "压倒性占主导"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一堆人/势力里，有一个的力量大到把其他都比下去了」。",
+    "reading_synonyms": [
+      {
+        "word": "control",
+        "chinese": "控制，主导"
+      },
+      {
+        "word": "prevail over",
+        "chinese": "胜过，主宰"
+      },
+      {
+        "word": "overshadow",
+        "chinese": "使黯然失色"
+      }
     ]
   },
   {
@@ -12475,6 +14037,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💭",
+        "label": "外部因素"
+      },
+      {
+        "icon": "🌊",
+        "label": "潜移默化渗透"
+      },
+      {
+        "icon": "🔄",
+        "label": "想法行为悄悄改变"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不靠强制，而是悄悄渗透进去，慢慢改变对方的想法或行为」，跟dominate不同：dominate是力量压倒性占上风，influence是柔性渗透式的改变。",
+    "reading_synonyms": [
+      {
+        "word": "affect",
+        "chinese": "影响"
+      },
+      {
+        "word": "shape",
+        "chinese": "塑造，影响"
+      },
+      {
+        "word": "sway",
+        "chinese": "影响，左右"
+      }
     ]
   },
   {
@@ -12517,6 +14108,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💭",
+        "label": "内心想法/私下事实"
+      },
+      {
+        "icon": "📢",
+        "label": "当众正式说出"
+      },
+      {
+        "icon": "📜",
+        "label": "成为公开确定事实"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本只是私下知道的事，正式当众说出来，从此成了公开的事实」。",
+    "reading_synonyms": [
+      {
+        "word": "announce",
+        "chinese": "宣布"
+      },
+      {
+        "word": "proclaim",
+        "chinese": "宣告，声明"
+      },
+      {
+        "word": "state officially",
+        "chinese": "正式声明"
+      }
     ]
   },
   {
@@ -12559,6 +14179,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🌫️",
+        "label": "模糊/容易误解"
+      },
+      {
+        "icon": "💬",
+        "label": "补充说明"
+      },
+      {
+        "icon": "💡",
+        "label": "变得清晰无歧义"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本让人摸不清的说法，补一句话说明，一下子就懂了」。",
+    "reading_synonyms": [
+      {
+        "word": "explain clearly",
+        "chinese": "清楚解释"
+      },
+      {
+        "word": "elucidate",
+        "chinese": "阐明"
+      },
+      {
+        "word": "spell out",
+        "chinese": "详细说明"
+      }
     ]
   },
   {
@@ -12601,6 +14250,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "😟",
+        "label": "信心不足不想行动"
+      },
+      {
+        "icon": "🤗",
+        "label": "外部支持鼓舞"
+      },
+      {
+        "icon": "💪",
+        "label": "勇气提升愿行动"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本来没信心不想动的人，被外部的鼓励一撑，胆子和动力就上来了」。",
+    "reading_synonyms": [
+      {
+        "word": "motivate",
+        "chinese": "激励"
+      },
+      {
+        "word": "inspire confidence in",
+        "chinese": "激发信心"
+      },
+      {
+        "word": "boost morale",
+        "chinese": "提振士气"
+      }
     ]
   },
   {
@@ -12643,6 +14321,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📄",
+        "label": "纸面计划未发生"
+      },
+      {
+        "icon": "🚀",
+        "label": "正式付诸实践"
+      },
+      {
+        "icon": "⚙️",
+        "label": "现实中真正运作"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把停在纸上的计划，正式推到现实里让它真的运转起来」。",
+    "reading_synonyms": [
+      {
+        "word": "carry out",
+        "chinese": "执行"
+      },
+      {
+        "word": "put into effect",
+        "chinese": "付诸实施"
+      },
+      {
+        "word": "execute",
+        "chinese": "执行，实施"
+      }
     ]
   },
   {
@@ -12688,10 +14395,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "surveillance",
-        "chinese": "监视"
+        "word": "track",
+        "chinese": "跟踪"
+      },
+      {
+        "word": "observe",
+        "chinese": "观察"
+      },
+      {
+        "word": "keep an eye on",
+        "chinese": "密切关注"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "📈",
+        "label": "持续变化的对象"
+      },
+      {
+        "icon": "👁️",
+        "label": "不间断观察记录"
+      },
+      {
+        "icon": "📊",
+        "label": "掌握每步变化"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不是看一次结果就完事，是一直盯着，记录它每一步怎么变的」。"
   },
   {
     "id": "donate",
@@ -12737,9 +14467,32 @@
     "reading_synonyms": [
       {
         "word": "contribute",
-        "chinese": "贡献"
+        "chinese": "捐助，贡献"
+      },
+      {
+        "word": "give freely",
+        "chinese": "无偿给予"
+      },
+      {
+        "word": "gift",
+        "chinese": "赠送"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎁",
+        "label": "拥有的有价值东西"
+      },
+      {
+        "icon": "🤲",
+        "label": "主动无偿给出"
+      },
+      {
+        "icon": "❤️",
+        "label": "不期待回报"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把自己有价值的东西白给出去，不图任何回报」。"
   },
   {
     "id": "afford",
@@ -12781,6 +14534,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💰",
+        "label": "现有资源"
+      },
+      {
+        "icon": "✅",
+        "label": "足够覆盖花费"
+      },
+      {
+        "icon": "😌",
+        "label": "不造成负担"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「手里的资源够花这笔钱/时间，不会因此吃紧」。",
+    "reading_synonyms": [
+      {
+        "word": "be able to pay for",
+        "chinese": "能负担得起"
+      },
+      {
+        "word": "manage financially",
+        "chinese": "财务上应付得来"
+      },
+      {
+        "word": "have the means for",
+        "chinese": "有能力负担"
+      }
     ]
   },
   {
@@ -12823,6 +14605,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "👊",
+        "label": "一方"
+      },
+      {
+        "icon": "➡️",
+        "label": "强行加到另一方身上"
+      },
+      {
+        "icon": "🚫",
+        "label": "对方无选择余地"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一方硬生生把规则或负担压到另一方头上，对方没得选」。",
+    "reading_synonyms": [
+      {
+        "word": "force upon",
+        "chinese": "强加于"
+      },
+      {
+        "word": "inflict",
+        "chinese": "施加，强加"
+      },
+      {
+        "word": "levy",
+        "chinese": "征收，强加"
+      }
     ]
   },
   {
@@ -12865,6 +14676,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🏔️",
+        "label": "数量可观的东西"
+      },
+      {
+        "icon": "⏳",
+        "label": "时间持续缩小"
+      },
+      {
+        "icon": "🔻",
+        "label": "变得非常稀少"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本来还挺多的东西，随着时间一点点变少，最后变得稀稀拉拉」。",
+    "reading_synonyms": [
+      {
+        "word": "decrease gradually",
+        "chinese": "逐渐减少"
+      },
+      {
+        "word": "diminish",
+        "chinese": "减少"
+      },
+      {
+        "word": "shrink",
+        "chinese": "萎缩，缩减"
+      }
     ]
   },
   {
@@ -12907,6 +14747,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🟡",
+        "label": "较轻局面"
+      },
+      {
+        "icon": "⬆️",
+        "label": "一步步不断加剧"
+      },
+      {
+        "icon": "🔴",
+        "label": "升级到失控规模"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本来还不严重的事，一步步越闹越大，最后升级到收不住」。",
+    "reading_synonyms": [
+      {
+        "word": "intensify",
+        "chinese": "加剧"
+      },
+      {
+        "word": "worsen",
+        "chinese": "恶化"
+      },
+      {
+        "word": "aggravate",
+        "chinese": "使加重，使恶化"
+      }
     ]
   },
   {
@@ -12949,6 +14818,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "⭕",
+        "label": "原本边界"
+      },
+      {
+        "icon": "↔️",
+        "label": "向外持续扩展"
+      },
+      {
+        "icon": "🔵",
+        "label": "占据更大空间"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原来的边界往外持续撑大，占的空间明显变多了」。",
+    "reading_synonyms": [
+      {
+        "word": "enlarge",
+        "chinese": "扩大"
+      },
+      {
+        "word": "extend",
+        "chinese": "延伸，扩展"
+      },
+      {
+        "word": "grow larger",
+        "chinese": "变得更大"
+      }
     ]
   },
   {
@@ -12991,6 +14889,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🧍",
+        "label": "无法独立维持"
+      },
+      {
+        "icon": "🤝",
+        "label": "依附另一方支撑"
+      },
+      {
+        "icon": "⚠️",
+        "label": "支撑撤走则不行"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「自己撑不住，得靠另一方支着，那个支撑一撤自己就不行了」。",
+    "reading_synonyms": [
+      {
+        "word": "depend on",
+        "chinese": "依赖"
+      },
+      {
+        "word": "count on",
+        "chinese": "依靠，指望"
+      },
+      {
+        "word": "lean on",
+        "chinese": "依赖，靠"
+      }
     ]
   },
   {
@@ -13033,6 +14960,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💪",
+        "label": "付出实际努力"
+      },
+      {
+        "icon": "➡️",
+        "label": "作为直接结果"
+      },
+      {
+        "icon": "💰",
+        "label": "获得相应回报"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「靠自己实际的付出换来的回报，不是白得的」。",
+    "reading_synonyms": [
+      {
+        "word": "gain through effort",
+        "chinese": "靠努力获得"
+      },
+      {
+        "word": "obtain by work",
+        "chinese": "靠工作获得"
+      },
+      {
+        "word": "merit",
+        "chinese": "应得，值得"
+      }
     ]
   },
   {
@@ -13075,6 +15031,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💼",
+        "label": "现在担任的职位"
+      },
+      {
+        "icon": "✋",
+        "label": "主动放弃离开"
+      },
+      {
+        "icon": "🚪",
+        "label": "非被迫，自己走"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「自己主动决定不干了，从位置上走的人是自己」。",
+    "reading_synonyms": [
+      {
+        "word": "step down",
+        "chinese": "辞职，卸任"
+      },
+      {
+        "word": "quit",
+        "chinese": "辞职"
+      },
+      {
+        "word": "give up a position",
+        "chinese": "放弃职位"
+      }
     ]
   },
   {
@@ -13117,6 +15102,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "💼",
+        "label": "任职的人"
+      },
+      {
+        "icon": "⚡",
+        "label": "被权力方强行终止"
+      },
+      {
+        "icon": "🚪",
+        "label": "被迫离开非自愿"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不是自己想走，是被上面的人赶走的」，跟resign方向正好相反：resign是自己主动走，dismiss是被别人赶走。",
+    "reading_synonyms": [
+      {
+        "word": "fire",
+        "chinese": "解雇"
+      },
+      {
+        "word": "sack",
+        "chinese": "开除"
+      },
+      {
+        "word": "terminate employment",
+        "chinese": "终止雇用"
+      }
     ]
   },
   {
@@ -13159,6 +15173,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📄",
+        "label": "纸面上的规则"
+      },
+      {
+        "icon": "💪",
+        "label": "实际行动+权力手段"
+      },
+      {
+        "icon": "✅",
+        "label": "真正被遵守执行"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「不让规则只停在纸上，用实际手段逼着人真的照着做」。",
+    "reading_synonyms": [
+      {
+        "word": "implement strictly",
+        "chinese": "严格执行"
+      },
+      {
+        "word": "impose compliance",
+        "chinese": "强制遵守"
+      },
+      {
+        "word": "uphold the law",
+        "chinese": "维护法律"
+      }
     ]
   },
   {
@@ -13204,10 +15247,33 @@
     ],
     "reading_synonyms": [
       {
-        "word": "influence",
-        "chinese": "影响"
+        "word": "convince",
+        "chinese": "说服"
+      },
+      {
+        "word": "talk into",
+        "chinese": "说服做某事"
+      },
+      {
+        "word": "win over",
+        "chinese": "争取到，说服"
       }
-    ]
+    ],
+    "journey_steps": [
+      {
+        "icon": "❌",
+        "label": "不同想法/立场"
+      },
+      {
+        "icon": "🗣️",
+        "label": "持续说理劝说"
+      },
+      {
+        "icon": "✅",
+        "label": "内心打动转变同意"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「对方原本不这么想，靠不断说理把他的心说动，最后同意了」。"
   },
   {
     "id": "justify",
@@ -13249,6 +15315,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "❓",
+        "label": "看似不合理的行为"
+      },
+      {
+        "icon": "📋",
+        "label": "给出充分理由"
+      },
+      {
+        "icon": "✅",
+        "label": "显得合理可接受"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「给一个看起来说不过去的事，找出足够的理由，让它变得说得过去」。",
+    "reading_synonyms": [
+      {
+        "word": "rationalize",
+        "chinese": "使合理化"
+      },
+      {
+        "word": "account for",
+        "chinese": "解释，说明理由"
+      },
+      {
+        "word": "defend",
+        "chinese": "辩护，为…作解释"
+      }
     ]
   },
   {
@@ -13291,6 +15386,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🏃",
+        "label": "原本自由活动"
+      },
+      {
+        "icon": "🚧",
+        "label": "被限制在固定边界"
+      },
+      {
+        "icon": "🔒",
+        "label": "无法超出边界"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本能到处活动的，被划了一条线圈住，出不了这个范围」。",
+    "reading_synonyms": [
+      {
+        "word": "restrict",
+        "chinese": "限制"
+      },
+      {
+        "word": "limit",
+        "chinese": "局限"
+      },
+      {
+        "word": "enclose",
+        "chinese": "围住，圈住"
+      }
     ]
   },
   {
@@ -13333,6 +15457,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎭",
+        "label": "虚假信息"
+      },
+      {
+        "icon": "🎨",
+        "label": "故意包装成真实"
+      },
+      {
+        "icon": "❌",
+        "label": "对方做出错误判断"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「故意把假的东西装扮成真的，让对方信了假象因此判断错」。",
+    "reading_synonyms": [
+      {
+        "word": "mislead",
+        "chinese": "误导"
+      },
+      {
+        "word": "trick",
+        "chinese": "欺骗，耍花招"
+      },
+      {
+        "word": "delude",
+        "chinese": "欺骗，蒙蔽"
+      }
     ]
   },
   {
@@ -13375,6 +15528,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "⚔️",
+        "label": "两个对立冲突方"
+      },
+      {
+        "icon": "🕊️",
+        "label": "调和过程"
+      },
+      {
+        "icon": "🤝",
+        "label": "重回和睦冲突消失"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本吵翻了的两边，经过调和又重新和好了」。",
+    "reading_synonyms": [
+      {
+        "word": "resolve conflict",
+        "chinese": "解决冲突"
+      },
+      {
+        "word": "make peace",
+        "chinese": "和解"
+      },
+      {
+        "word": "harmonize",
+        "chinese": "使和谐，调和"
+      }
     ]
   },
   {
@@ -13417,6 +15599,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "➡️",
+        "label": "原方向前进的力/物体"
+      },
+      {
+        "icon": "🛡️",
+        "label": "碰到阻碍"
+      },
+      {
+        "icon": "↗️",
+        "label": "改变路径转向"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本朝一个方向走，撞上东西后被弹开，改道往别处去了」。",
+    "reading_synonyms": [
+      {
+        "word": "divert",
+        "chinese": "使转向"
+      },
+      {
+        "word": "redirect",
+        "chinese": "重新引导"
+      },
+      {
+        "word": "ward off",
+        "chinese": "挡开，避开"
+      }
     ]
   },
   {
@@ -13459,6 +15670,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📦",
+        "label": "集中放置的资源/力量"
+      },
+      {
+        "icon": "🗺️",
+        "label": "策略安排"
+      },
+      {
+        "icon": "📍",
+        "label": "分散到具体位置"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「把原本堆在一起的资源，按计划分散布置到该去的位置，准备派上用场」。",
+    "reading_synonyms": [
+      {
+        "word": "station",
+        "chinese": "部署，安置"
+      },
+      {
+        "word": "position strategically",
+        "chinese": "战略性布置"
+      },
+      {
+        "word": "mobilize",
+        "chinese": "调动，部署"
+      }
     ]
   },
   {
@@ -13501,6 +15741,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎯",
+        "label": "不在手里的东西"
+      },
+      {
+        "icon": "⚡",
+        "label": "快速有力动作"
+      },
+      {
+        "icon": "✊",
+        "label": "突然抓住控制住"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「一个动作又快又狠，一下子把东西抓过来控制住，不给对方反应的机会」。",
+    "reading_synonyms": [
+      {
+        "word": "grab",
+        "chinese": "抓住"
+      },
+      {
+        "word": "snatch",
+        "chinese": "夺取"
+      },
+      {
+        "word": "capture",
+        "chinese": "捕获，占领"
+      }
     ]
   },
   {
@@ -13543,6 +15812,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎯",
+        "label": "尚未到手的目标"
+      },
+      {
+        "icon": "🏃",
+        "label": "持续投入努力追赶"
+      },
+      {
+        "icon": "〜",
+        "label": "目标始终在前持续追"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「目标一直在前面，人一直在后面追，没有停下来的时候」。",
+    "reading_synonyms": [
+      {
+        "word": "chase",
+        "chinese": "追逐"
+      },
+      {
+        "word": "go after",
+        "chinese": "追求"
+      },
+      {
+        "word": "strive for",
+        "chinese": "努力争取"
+      }
     ]
   },
   {
@@ -13585,6 +15883,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🎁",
+        "label": "原本拥有的东西"
+      },
+      {
+        "icon": "✋",
+        "label": "外力强行拿走"
+      },
+      {
+        "icon": "🚫",
+        "label": "从此不再拥有"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「原本手里有的东西，被外力硬生生拿走，从有变没有」。",
+    "reading_synonyms": [
+      {
+        "word": "deny access to",
+        "chinese": "剥夺获取的权利"
+      },
+      {
+        "word": "strip of",
+        "chinese": "剥夺"
+      },
+      {
+        "word": "take away",
+        "chinese": "拿走，剥夺"
+      }
     ]
   },
   {
@@ -13627,6 +15954,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "🤝",
+        "label": "被托付的信任"
+      },
+      {
+        "icon": "🔪",
+        "label": "关键时刻反过来损害"
+      },
+      {
+        "icon": "💔",
+        "label": "信任被辜负"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「本来被信任托付了，关键时刻却反过来伤害对方，辜负了这份信任」，跟deceive不同：deceive是用假信息骗人误判，betray是辜负已经给出的信任本身。",
+    "reading_synonyms": [
+      {
+        "word": "double-cross",
+        "chinese": "出卖，背叛"
+      },
+      {
+        "word": "sell out",
+        "chinese": "出卖"
+      },
+      {
+        "word": "stab in the back",
+        "chinese": "背后中伤，背叛"
+      }
     ]
   },
   {
@@ -13669,6 +16025,35 @@
     "tags": [
       "A",
       "W"
+    ],
+    "journey_steps": [
+      {
+        "icon": "📜",
+        "label": "被认为成立的说法"
+      },
+      {
+        "icon": "⚔️",
+        "label": "提出相反证据"
+      },
+      {
+        "icon": "❌",
+        "label": "证明其错误不成立"
+      }
+    ],
+    "same_core_insight": "不同场景，本质都是「拿出反证或逻辑漏洞，把一个原本被当真的说法给推翻」。",
+    "reading_synonyms": [
+      {
+        "word": "disprove",
+        "chinese": "反驳，证明有误"
+      },
+      {
+        "word": "rebut",
+        "chinese": "反驳"
+      },
+      {
+        "word": "contradict",
+        "chinese": "反驳，与…矛盾"
+      }
     ]
   }
 ]
