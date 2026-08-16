@@ -328,26 +328,55 @@
         .tmap-desc-text { font-size: 14px; color: #444; line-height: 1.6; margin-bottom: 8px; }
         .tmap-desc-clue { font-size: 12.5px; color: #888; }
 
-        /* ===== Grammar Studio 语法工坊 (Terracotta焦糖色系) ===== */
-        .gs-map-header { text-align: center; margin-bottom: 18px; }
-        .gs-map-title { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: #172A45; }
-        .gs-map-subtitle { font-size: 12.5px; color: #687386; margin-top: 2px; }
-        .gs-map-tagline { font-size: 11.5px; color: #a3a3a3; margin-top: 4px; }
-        .gs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
-        .gs-grid-card {
-            background: white; border-left: 4px solid #ccc; border-radius: 14px;
-            padding: 12px 12px 10px; position: relative; min-height: 128px; cursor: pointer;
-            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        /* ===== Grammar Studio 语法工坊 (莫兰迪暖调,按真实手机宽度校准字号) ===== */
+        .gs-header { margin-bottom: 14px; }
+        .gs-eyebrow { font-size: 10px; letter-spacing: 2px; color: #B28A5A; font-weight: 700; }
+        .gs-title-row { display: flex; align-items: center; gap: 6px; margin-top: 3px; }
+        .gs-title { font-family: Georgia, serif; font-size: 24px; font-weight: 700; color: #1a1a1a; }
+        .gs-tagline { font-size: 10.5px; color: #687386; margin-top: 3px; }
+
+        .gs-toprow { display: flex; gap: 10px; margin-bottom: 18px; }
+        .gs-continue-card {
+            flex: 1.5; background: linear-gradient(135deg,#F4EDE0,#EDE3D0); border-radius: 18px; padding: 13px;
+            position: relative; overflow: hidden; min-height: 155px;
         }
-        .gs-grid-num { font-size: 10.5px; font-weight: bold; }
-        .gs-grid-title-en { font-size: 13px; font-weight: bold; color: #172A45; margin-top: 2px; font-family: Georgia, serif; }
-        .gs-grid-title-cn { font-size: 11.5px; color: #444; }
-        .gs-grid-sub { font-size: 10px; color: #999; margin-top: 3px; line-height: 1.4; }
-        .gs-grid-icon { position: absolute; right: 10px; bottom: 26px; font-size: 26px; opacity: 0.85; }
-        .gs-grid-progress-wrap { display: flex; align-items: center; gap: 6px; position: absolute; left: 12px; right: 12px; bottom: 10px; }
-        .gs-grid-progress-bar { flex: 1; height: 4px; background: #eee; border-radius: 2px; overflow: hidden; }
-        .gs-grid-progress-fill { height: 100%; border-radius: 2px; }
-        .gs-grid-progress-text { font-size: 10px; font-weight: bold; }
+        .gs-continue-eyebrow { font-size: 9px; color: #B28A5A; font-weight: 700; letter-spacing: 0.5px; }
+        .gs-continue-title { font-family: Georgia, serif; font-size: 13.5px; font-weight: 700; color: #172A45; margin-top: 5px; }
+        .gs-continue-sub { font-size: 9.5px; color: #555; margin-top: 7px; }
+        .gs-continue-formula { font-family: Georgia, serif; font-size: 13px; font-weight: 700; color: #172A45; margin-top: 2px; }
+        .gs-continue-status { font-size: 9px; color: #888; margin-top: 7px; }
+        .gs-continue-btn { display: inline-block; background: #2f5240; color: white; padding: 7px 14px; border-radius: 16px; font-size: 10px; font-weight: 700; margin-top: 10px; cursor: pointer; }
+        .gs-continue-illus { position: absolute; right: -14px; bottom: -14px; width: 105px; height: 105px; }
+
+        .gs-level-card { flex: 1; background: white; border-radius: 18px; padding: 13px 11px; box-shadow: 0 4px 16px rgba(0,0,0,0.05); }
+        .gs-level-label { font-size: 8.5px; color: #687386; }
+        .gs-level-pct { font-family: Georgia, serif; font-size: 21px; font-weight: 700; color: #172A45; margin: 4px 0 1px; }
+        .gs-level-pct-label { font-size: 8px; color: #999; margin-bottom: 9px; }
+        .gs-level-row { display: flex; justify-content: space-between; align-items: center; font-size: 8.5px; color: #666; margin-bottom: 5px; }
+        .gs-level-bar { flex: 1; height: 4px; border-radius: 2px; background: #eee; margin: 0 6px; overflow: hidden; }
+        .gs-level-bar-fill { height: 100%; border-radius: 2px; }
+
+        .gs-map-section-title { display: flex; align-items: baseline; gap: 6px; }
+        .gs-map-section-en { font-family: Georgia, serif; font-size: 15px; font-weight: 700; color: #172A45; }
+        .gs-map-section-cn { font-size: 10.5px; color: #444; }
+        .gs-map-section-tag { font-size: 9.5px; color: #999; margin-bottom: 12px; }
+
+        .gs-grid { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+        .gs-card {
+            border-radius: 12px; padding: 9px 8px; position: relative; min-height: 138px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.07); cursor: pointer;
+            width: calc(33.333% - 6px); box-sizing: border-box; overflow: hidden;
+        }
+        .gs-card-num { font-size: 9.5px; font-weight: 900; }
+        .gs-card-title-en { font-family: Georgia, serif; font-size: 11px; font-weight: 900; margin-top: 3px; line-height: 1.15; }
+        .gs-card-title-cn { font-size: 9.5px; font-weight: 800; }
+        .gs-card-sub { font-size: 8px; font-weight: 600; margin-top: 4px; line-height: 1.35; }
+        .gs-card-bg-icon { position: absolute; right: -8px; bottom: 18px; width: 34px; height: 34px; opacity: 0.22; }
+        .gs-card-progress-wrap { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; position: absolute; left: 8px; right: 8px; bottom: 8px; }
+        .gs-card-progress-bar { width: 100%; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; overflow: hidden; }
+        .gs-card-progress-fill { height: 100%; border-radius: 2px; }
+        .gs-card-progress-text { font-size: 8.5px; font-weight: 900; }
+
         .gs-diag-box { background: #FBF0E8; border: 1px solid #F0D2B6; border-radius: 14px; padding: 14px; margin-top: 8px; }
         .gs-diag-box-small { margin-top: 16px; }
         .gs-diag-title { font-size: 12px; font-weight: bold; color: #A0522D; margin-bottom: 8px; }
@@ -3547,34 +3576,88 @@
                 container.innerHTML = `<div class="records-empty">语法数据还没有上传</div>`;
                 return;
             }
+            // 卡片配色(莫兰迪加深饱和版,跟Continue卡片暖调呼应) + SVG线条图标
             const cardMeta = [
-                { icon: '📐', color: '#172A45' },
-                { icon: '👥', color: '#3f9d6b' },
-                { icon: '⚙️', color: '#C97850' },
-                { icon: '🕸️', color: '#4D9D9A' },
-                { icon: '🗜️', color: '#8a6fb0' },
-                { icon: '🎚️', color: '#a06a3a' }
+                { color: '#0f1d33', bg1: '#d5dbe8', bg2: '#c2cbdf', subColor: '#28344a',
+                  icon: '<path d="M5,30 L30,10 M8,32 L34,14 M30,10 L34,14" stroke="COLOR" stroke-width="2.2" fill="none" stroke-linecap="round"/><rect x="4" y="24" width="14" height="10" stroke="COLOR" stroke-width="1.8" fill="none"/>' },
+                { color: '#265c40', bg1: '#cde3d5', bg2: '#b7d5c1', subColor: '#1e4530',
+                  icon: '<circle cx="14" cy="12" r="6" fill="COLOR"/><circle cx="27" cy="14" r="5" fill="COLOR" opacity="0.6"/><path d="M4,34 Q4,22 14,22 Q24,22 24,34 Z" fill="COLOR"/><path d="M20,34 Q20,24 27,24 Q34,24 34,34 Z" fill="COLOR" opacity="0.6"/>' },
+                { color: '#a04f26', bg1: '#f0cdb2', bg2: '#e8ba97', subColor: '#7a3a18',
+                  icon: '<circle cx="16" cy="18" r="9" fill="none" stroke="COLOR" stroke-width="2.5"/><circle cx="16" cy="18" r="3" fill="COLOR"/><circle cx="29" cy="26" r="6" fill="none" stroke="COLOR" stroke-width="2" opacity="0.7"/><circle cx="29" cy="26" r="2" fill="COLOR" opacity="0.7"/>' },
+                { color: '#215f5c', bg1: '#c3e0dd', bg2: '#aad2cd', subColor: '#164541',
+                  icon: '<circle cx="8" cy="10" r="3.5" fill="COLOR"/><circle cx="32" cy="10" r="3.5" fill="COLOR"/><circle cx="20" cy="30" r="3.5" fill="COLOR"/><line x1="8" y1="10" x2="32" y2="10" stroke="COLOR" stroke-width="1.5"/><line x1="8" y1="10" x2="20" y2="30" stroke="COLOR" stroke-width="1.5"/><line x1="32" y1="10" x2="20" y2="30" stroke="COLOR" stroke-width="1.5"/>' },
+                { color: '#5c3f85', bg1: '#ddd0ec', bg2: '#cbb8e2', subColor: '#432d63',
+                  icon: '<path d="M4,20 L16,20 M4,15 L10,20 L4,25" stroke="COLOR" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M36,20 L24,20 M36,15 L30,20 L36,25" stroke="COLOR" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>' },
+                { color: '#7a4a15', bg1: '#ecd7ba', bg2: '#e2c39d', subColor: '#5c3810',
+                  icon: '<line x1="10" y1="6" x2="10" y2="34" stroke="COLOR" stroke-width="2"/><line x1="20" y1="6" x2="20" y2="34" stroke="COLOR" stroke-width="2"/><line x1="30" y1="6" x2="30" y2="34" stroke="COLOR" stroke-width="2"/><circle cx="10" cy="14" r="3" fill="COLOR"/><circle cx="20" cy="24" r="3" fill="COLOR"/><circle cx="30" cy="10" r="3" fill="COLOR"/>' }
             ];
+
+            // Continue Learning: 目前固定按Module 1展示(还没有语法学习进度跟踪系统,后续可接入真实进度)
             let html = `
-                <div class="gs-map-header">
-                    <div class="gs-map-title">Sentence Assembly Map</div>
-                    <div class="gs-map-subtitle">英语句子组装地图</div>
-                    <div class="gs-map-tagline">六步造出能运行的英语</div>
+                <div class="gs-header">
+                    <div>
+                        <div class="gs-eyebrow">IELTS GRAMMAR</div>
+                        <div class="gs-title-row"><span class="gs-title">Grammar Studio</span> 🌿</div>
+                        <div class="gs-tagline">把零散规则，组装成真正能输出的英语</div>
+                    </div>
                 </div>
+
+                <div class="gs-toprow">
+                    <div class="gs-continue-card">
+                        <div class="gs-continue-eyebrow">CONTINUE｜继续学习</div>
+                        <div class="gs-continue-title">Module 1 · 句子骨架</div>
+                        <div class="gs-continue-sub">你正在学习：</div>
+                        <div class="gs-continue-formula">S + V + O + OC</div>
+                        <div class="gs-continue-status">当前：D2 · 输出训练</div>
+                        <div class="gs-continue-btn" onclick="openGrammarMatrix('M1')">继续学习 →</div>
+                        <svg class="gs-continue-illus" viewBox="0 0 200 200">
+                            <defs><linearGradient id="pgLeaf" x1="0" y1="0" x2="0" y2="1">
+                                <stop offset="0%" stop-color="#6f8a5e"/><stop offset="100%" stop-color="#4f6a42"/>
+                            </linearGradient></defs>
+                            <path d="M120,120 L112,150 L148,150 L140,120 Z" fill="#a67c52"/>
+                            <path d="M130,120 Q100,80 95,40 Q125,65 132,95 Q138,60 165,35 Q160,80 130,120 Z" fill="url(#pgLeaf)"/>
+                            <path d="M20,150 Q60,130 100,150 L100,175 Q60,158 20,175 Z" fill="#F5F0E6" stroke="#B28A5A" stroke-width="1.5"/>
+                            <path d="M100,150 Q140,130 180,150 L180,175 Q140,158 100,175 Z" fill="#EDE6D6" stroke="#B28A5A" stroke-width="1.5"/>
+                            <line x1="35" y1="152" x2="90" y2="142" stroke="#c9bfa8" stroke-width="1.2"/>
+                            <line x1="35" y1="160" x2="90" y2="150" stroke="#c9bfa8" stroke-width="1.2"/>
+                            <line x1="110" y1="142" x2="165" y2="152" stroke="#c9bfa8" stroke-width="1.2"/>
+                            <line x1="110" y1="150" x2="165" y2="160" stroke="#c9bfa8" stroke-width="1.2"/>
+                            <path d="M60,148 L150,120" stroke="#2f5240" stroke-width="3" stroke-linecap="round"/>
+                            <path d="M150,120 L158,116 L154,124 Z" fill="#c9a84a"/>
+                        </svg>
+                    </div>
+                    <div class="gs-level-card">
+                        <div class="gs-level-label">GRAMMAR LEVEL｜语法能力</div>
+                        <div class="gs-level-pct">28%</div>
+                        <div class="gs-level-pct-label">整体掌握</div>
+                        <div class="gs-level-row"><span>理解</span><div class="gs-level-bar"><div class="gs-level-bar-fill" style="width:55%;background:#3f7a5c;"></div></div></div>
+                        <div class="gs-level-row"><span>识别</span><div class="gs-level-bar"><div class="gs-level-bar-fill" style="width:40%;background:#2f4f9e;"></div></div></div>
+                        <div class="gs-level-row"><span>造句</span><div class="gs-level-bar"><div class="gs-level-bar-fill" style="width:18%;background:#B28A5A;"></div></div></div>
+                        <div class="gs-level-row"><span>输出</span><div class="gs-level-bar"><div class="gs-level-bar-fill" style="width:8%;background:#C97850;"></div></div></div>
+                    </div>
+                </div>
+
+                <div class="gs-map-section-title">
+                    <span class="gs-map-section-en">Sentence Assembly Map</span>
+                    <span class="gs-map-section-cn">英语句子组装地图</span>
+                </div>
+                <div class="gs-map-section-tag">六步造出能运行的英语</div>
+
                 <div class="gs-grid">
             `;
             grammarMap.forEach((stage, i) => {
-                const meta = cardMeta[i] || cardMeta[0];
+                const m = cardMeta[i] || cardMeta[0];
+                const iconSvg = m.icon.split('COLOR').join(m.color);
                 html += `
-                    <div class="gs-grid-card" style="border-left-color:${meta.color}" onclick="openGrammarMatrix('${stage.matrixIds[0]}')">
-                        <div class="gs-grid-num" style="color:${meta.color}">${stage.num}</div>
-                        <div class="gs-grid-title-en">${stage.title}</div>
-                        <div class="gs-grid-title-cn">${stage.titleCn}</div>
-                        <div class="gs-grid-sub">${stage.subtitle}</div>
-                        <div class="gs-grid-icon">${meta.icon}</div>
-                        <div class="gs-grid-progress-wrap">
-                            <div class="gs-grid-progress-bar"><div class="gs-grid-progress-fill" style="width:${stage.progress}%;background:${meta.color}"></div></div>
-                            <div class="gs-grid-progress-text" style="color:${meta.color}">${stage.progress}%</div>
+                    <div class="gs-card" style="background:linear-gradient(150deg,${m.bg1},${m.bg2})" onclick="openGrammarMatrix('${stage.matrixIds[0]}')">
+                        <div class="gs-card-num" style="color:${m.color}">${stage.num}</div>
+                        <div class="gs-card-title-en" style="color:${m.color}">${stage.title}</div>
+                        <div class="gs-card-title-cn" style="color:${m.color}">${stage.titleCn}</div>
+                        <div class="gs-card-sub" style="color:${m.subColor}">${stage.subtitle}</div>
+                        <svg class="gs-card-bg-icon" viewBox="0 0 40 40">${iconSvg}</svg>
+                        <div class="gs-card-progress-wrap">
+                            <div class="gs-card-progress-bar"><div class="gs-card-progress-fill" style="width:${stage.progress}%;background:${m.color}"></div></div>
+                            <div class="gs-card-progress-text" style="color:${m.color}">${stage.progress}%</div>
                         </div>
                     </div>
                 `;
