@@ -328,6 +328,75 @@
         .tmap-desc-text { font-size: 14px; color: #444; line-height: 1.6; margin-bottom: 8px; }
         .tmap-desc-clue { font-size: 12.5px; color: #888; }
 
+        /* ===== Grammar Studio 语法工坊 (Terracotta焦糖色系) ===== */
+        .gs-map-title { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: #172A45; text-align: center; }
+        .gs-map-subtitle { font-size: 12.5px; color: #687386; text-align: center; margin-bottom: 20px; }
+        .gs-map-timeline { position: relative; padding-left: 22px; margin-bottom: 20px; }
+        .gs-map-timeline::before { content: ''; position: absolute; left: 5px; top: 8px; bottom: 8px; width: 2px; background: #F0D2B6; }
+        .gs-map-item { position: relative; margin-bottom: 16px; cursor: pointer; }
+        .gs-map-dot { position: absolute; left: -22px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #C97850; border: 2px solid white; box-shadow: 0 0 0 2px #C97850; }
+        .gs-map-item-body { background: white; border-radius: 14px; padding: 12px 14px; box-shadow: 0 3px 12px rgba(0,0,0,0.05); }
+        .gs-map-item-title { font-size: 14.5px; font-weight: bold; color: #172A45; }
+        .gs-map-item-sub { font-size: 12px; color: #687386; margin-top: 2px; }
+        .gs-diag-box { background: #FBF0E8; border: 1px solid #F0D2B6; border-radius: 14px; padding: 14px; margin-top: 8px; }
+        .gs-diag-box-small { margin-top: 16px; }
+        .gs-diag-title { font-size: 12px; font-weight: bold; color: #A0522D; margin-bottom: 8px; }
+        .gs-diag-row { display: flex; justify-content: space-between; font-size: 12.5px; color: #555; padding: 5px 0; border-bottom: 1px dashed #F0D2B6; }
+        .gs-diag-row:last-child { border-bottom: none; }
+        .gs-diag-arrow { color: #C97850; font-weight: bold; }
+
+        .gs-matrix-current { background: linear-gradient(145deg, #C97850, #E2AE87); border-radius: 22px; padding: 20px; color: white; margin-bottom: 16px; }
+        .gs-matrix-current-days { font-size: 11px; opacity: 0.8; letter-spacing: 1px; }
+        .gs-matrix-current-title { font-family: Georgia, serif; font-size: 22px; font-weight: 700; margin-top: 4px; }
+        .gs-matrix-current-sub { font-size: 13px; opacity: 0.9; margin-top: 2px; margin-bottom: 14px; }
+        .gs-matrix-block { background: rgba(255,255,255,0.18); border-radius: 12px; padding: 12px; margin-bottom: 8px; }
+        .gs-matrix-block-label { font-size: 10.5px; opacity: 0.8; margin-bottom: 4px; }
+        .gs-matrix-block-text { font-size: 13px; line-height: 1.6; }
+        .gs-mono { font-family: 'Courier New', monospace; }
+        .gs-matrix-status { font-size: 12px; opacity: 0.85; margin: 8px 0 14px; }
+        .gs-start-btn { width: 100%; background: white; color: #C97850; border: none; padding: 13px; border-radius: 22px; font-size: 14.5px; font-weight: bold; }
+        .gs-coming-soon { text-align: center; background: rgba(255,255,255,0.15); border-radius: 12px; padding: 12px; font-size: 12.5px; }
+        .gs-matrix-others-label { font-size: 11px; color: #999; margin: 4px 0 8px; font-weight: bold; }
+        .gs-matrix-others { margin-bottom: 8px; }
+        .gs-matrix-mini { display: flex; align-items: center; gap: 8px; padding: 8px 10px; border-radius: 10px; cursor: pointer; }
+        .gs-matrix-mini-active { background: #FBF0E8; }
+        .gs-matrix-mini-id { font-size: 11px; font-weight: bold; color: #C97850; width: 28px; }
+        .gs-matrix-mini-title { flex: 1; font-size: 12.5px; color: #444; }
+        .gs-matrix-mini-status { font-size: 12px; color: #aaa; }
+
+        .gs-lesson-header { background: linear-gradient(135deg, #C97850, #E2AE87); border-radius: 20px; padding: 18px; color: white; margin-bottom: 16px; }
+        .gs-lesson-code { font-size: 11px; opacity: 0.8; }
+        .gs-lesson-title { font-family: Georgia, serif; font-size: 24px; font-weight: 700; margin-top: 4px; }
+        .gs-lesson-titlecn { font-size: 13px; opacity: 0.9; margin-top: 2px; }
+        .gs-section-label { font-size: 13px; font-weight: bold; color: #A0522D; margin: 18px 0 8px; padding-left: 8px; border-left: 3px solid #C97850; }
+        .gs-box { background: white; border-radius: 16px; padding: 14px; margin-bottom: 4px; box-shadow: 0 3px 10px rgba(0,0,0,0.04); }
+        .gs-para { font-size: 13px; color: #333; line-height: 1.7; margin-bottom: 10px; }
+        .gs-note { color: #888; font-size: 12px; }
+        .gs-fingerprint-box { background: #FBF0E8; border-radius: 10px; padding: 10px 12px; font-family: 'Courier New', monospace; font-size: 14px; color: #A0522D; font-weight: bold; margin-bottom: 10px; }
+        .gs-fingerprint-cn { font-family: -apple-system, sans-serif; font-size: 11.5px; color: #a3742e; font-weight: normal; margin-top: 4px; }
+        .gs-relation-diagram { font-family: 'Courier New', monospace; font-size: 13px; color: #172A45; background: #F8F5EF; border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; white-space: pre; }
+        .gs-anchor-box { background: #EEF3EE; border-radius: 10px; padding: 10px 12px; font-size: 12.5px; color: #4a5a4a; line-height: 1.6; margin: 10px 0; }
+        .gs-pattern-label { font-size: 12px; font-weight: bold; color: #172A45; margin: 10px 0 4px; }
+        .gs-step { font-size: 12.5px; color: #444; line-height: 1.7; margin-bottom: 6px; padding-left: 10px; border-left: 2px solid #F0D2B6; }
+        .gs-error-wrong { font-size: 12.5px; color: #b03030; margin-bottom: 3px; }
+        .gs-error-right { font-size: 12.5px; color: #2e7d4f; margin-bottom: 3px; }
+
+        .gs-example { background: #FAFAF8; border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; border: 1px solid #eee; }
+        .gs-example-en { font-size: 13.5px; color: #172A45; font-weight: 600; }
+        .gs-example-cn { font-size: 12px; color: #666; margin-top: 3px; }
+        .gs-example-struct { display: inline-block; font-family: 'Courier New', monospace; font-size: 10.5px; color: #C97850; background: #FBF0E8; padding: 2px 7px; border-radius: 6px; margin-top: 6px; }
+        .gs-example-relation { font-size: 11px; color: #999; margin-top: 4px; line-height: 1.5; }
+        .gs-hl { background: #F5D9A0; color: #7a4a10; padding: 1px 3px; border-radius: 4px; font-weight: bold; }
+
+        .gs-example-numbered { display: flex; gap: 8px; margin-bottom: 10px; }
+        .gs-example-num { flex-shrink: 0; width: 20px; height: 20px; border-radius: 50%; background: #C97850; color: white; font-size: 10px; display: flex; align-items: center; justify-content: center; margin-top: 2px; }
+        .gs-example-numbered .gs-example { flex: 1; margin-bottom: 0; }
+
+        .gs-final-box { background: linear-gradient(135deg, #172A45, #24405f); border-radius: 18px; padding: 18px; color: white; }
+        .gs-final-line { font-family: 'Courier New', monospace; font-size: 12.5px; margin-bottom: 8px; opacity: 0.9; }
+        .gs-final-chain { font-size: 12px; background: rgba(255,255,255,0.1); border-radius: 10px; padding: 10px; margin: 10px 0; line-height: 1.6; }
+        .gs-final-anchor { font-size: 12.5px; opacity: 0.85; line-height: 1.7; }
+
         /* ===== 时态详解:子标签 ===== */
         .tense-subtabs {
             display: flex;
@@ -2248,6 +2317,7 @@
                 try { allListeningWords = await fetch('data/listening_words.json').then(r => r.json()); } catch (e) { allListeningWords = []; }
                 try { allReadingWords = await fetch('data/reading_words.json').then(r => r.json()); } catch (e) { allReadingWords = []; }
                 await loadTenseData();
+                await loadGrammarData();
 
                 const fullList = [...allWords.A, ...allWords.S, ...allWords.R, ...allWords.C, ...allWords.I];
                 mainBankTotal = fullList.length;
@@ -3436,18 +3506,277 @@
             container.innerHTML = html;
         }
 
-        // ===== ✒️ 语法工坊:框架已搭好,等具体资料上传后再填充实际内容 =====
+        // ===== ✒️ 语法工坊:地图 → 矩阵定位 → 课程详情 三层导航 =====
+        let grammarMap = [];
+        let grammarMatrix = [];
+        let grammarDiagnosis = [];
+        let grammarLessons = {}; // {M1: {...完整课程内容}}, 还没做的模块没有key
+
+        async function loadGrammarData() {
+            try { grammarMap = await fetch('data/grammar_map.json').then(r => r.json()); } catch (e) { grammarMap = []; }
+            try { grammarMatrix = await fetch('data/grammar_matrix.json').then(r => r.json()); } catch (e) { grammarMatrix = []; }
+            try { grammarDiagnosis = await fetch('data/grammar_diagnosis.json').then(r => r.json()); } catch (e) { grammarDiagnosis = []; }
+            try { grammarLessons['M1'] = await fetch('data/grammar_lesson_m1.json').then(r => r.json()); } catch (e) {}
+        }
+
         function openGrammar() {
             document.getElementById('grammarModal').classList.add('show');
-            document.getElementById('grammarContent').innerHTML = `
-                <div class="records-empty">
-                    📚 语法工坊内容正在整理中<br><br>
-                    句型结构 / 语法规则 / 实战练习<br>敬请期待
-                </div>
-            `;
+            renderGrammarMap();
         }
         function closeGrammar() {
             document.getElementById('grammarModal').classList.remove('show');
+        }
+
+        // ---- 第1层:语法地图(6大阶段纵向时间线) ----
+        function renderGrammarMap() {
+            const container = document.getElementById('grammarContent');
+            if (grammarMap.length === 0) {
+                container.innerHTML = `<div class="records-empty">语法数据还没有上传</div>`;
+                return;
+            }
+            let html = `
+                <div class="gs-map-title">Sentence Assembly Map</div>
+                <div class="gs-map-subtitle">英语句子组装地图</div>
+                <div class="gs-map-timeline">
+            `;
+            grammarMap.forEach(stage => {
+                html += `
+                    <div class="gs-map-item" onclick="openGrammarMatrix('${stage.matrixIds[0]}')">
+                        <div class="gs-map-dot"></div>
+                        <div class="gs-map-item-body">
+                            <div class="gs-map-item-title">${stage.num} ${stage.titleCn}</div>
+                            <div class="gs-map-item-sub">${stage.subtitle}</div>
+                        </div>
+                    </div>
+                `;
+            });
+            html += `</div>`;
+
+            html += `<div class="gs-diag-box"><div class="gs-diag-title">一眼诊断｜一句话哪里错，就回到哪一层</div>`;
+            grammarDiagnosis.forEach(d => {
+                html += `<div class="gs-diag-row"><span>${d.problem}</span><span class="gs-diag-arrow">→ ${d.target}</span></div>`;
+            });
+            html += `</div>`;
+
+            container.innerHTML = html;
+        }
+
+        // ---- 第2层:矩阵定位(放大当前步骤,其余折叠) ----
+        function openGrammarMatrix(currentId) {
+            const container = document.getElementById('grammarContent');
+            const current = grammarMatrix.find(m => m.id === currentId);
+            if (!current) return;
+
+            let html = `<button class="back-to-list-btn" onclick="renderGrammarMap()">◀ 返回地图</button>`;
+
+            html += `
+                <div class="gs-matrix-current">
+                    <div class="gs-matrix-current-days">${current.days}</div>
+                    <div class="gs-matrix-current-title">${current.id}｜${current.title}</div>
+                    <div class="gs-matrix-current-sub">${current.subtitle}</div>
+                    <div class="gs-matrix-block">
+                        <div class="gs-matrix-block-label">句型指纹</div>
+                        <div class="gs-matrix-block-text gs-mono">${current.fingerprint.replace(/\n/g, '<br>')}</div>
+                    </div>
+                    <div class="gs-matrix-block">
+                        <div class="gs-matrix-block-label">学完能控制</div>
+                        <div class="gs-matrix-block-text">${current.outcome}</div>
+                    </div>
+                    <div class="gs-matrix-status">当前状态：${current.status}</div>
+                    ${current.hasLesson
+                        ? `<button class="gs-start-btn" onclick="openGrammarLesson('${current.id}')">立即学习 →</button>`
+                        : `<div class="gs-coming-soon">内容整理中，敬请期待</div>`}
+                </div>
+            `;
+
+            html += `<div class="gs-matrix-others-label">完整10步路径</div><div class="gs-matrix-others">`;
+            grammarMatrix.forEach(m => {
+                const isCurrent = m.id === currentId;
+                html += `
+                    <div class="gs-matrix-mini ${isCurrent ? 'gs-matrix-mini-active' : ''}" onclick="openGrammarMatrix('${m.id}')">
+                        <span class="gs-matrix-mini-id">${m.id}</span>
+                        <span class="gs-matrix-mini-title">${m.title}</span>
+                        <span class="gs-matrix-mini-status">${m.status === '未开始' ? '○' : (m.progress >= 90 ? '●' : '◐')}</span>
+                    </div>
+                `;
+            });
+            html += `</div>`;
+
+            html += `<div class="gs-diag-box gs-diag-box-small"><div class="gs-diag-title">一眼诊断</div>`;
+            grammarDiagnosis.forEach(d => {
+                html += `<div class="gs-diag-row"><span>${d.problem}</span><span class="gs-diag-arrow">→ ${d.target}</span></div>`;
+            });
+            html += `</div>`;
+
+            container.innerHTML = html;
+        }
+
+        // ---- 第3层:课程详情(满屏,母版内容按板块展示) ----
+        function ghl(text, hlList, hlListCn) {
+            // 给英文/中文句子里标注的关键词组加粗+背景色高亮
+            if (!hlList) return text;
+            let result = text;
+            hlList.forEach(phrase => {
+                result = result.replace(phrase, `<mark class="gs-hl">${phrase}</mark>`);
+            });
+            return result;
+        }
+        function gsExampleHtml(e) {
+            if (!e) return '';
+            const enHtml = ghl(e.en, e.hl_en);
+            const cnHtml = e.hl_cn ? ghl(e.cn, e.hl_cn) : e.cn;
+            return `
+                <div class="gs-example">
+                    <div class="gs-example-en">${enHtml}</div>
+                    <div class="gs-example-cn">${cnHtml}</div>
+                    ${e.structure ? `<div class="gs-example-struct">${e.structure}</div>` : ''}
+                    ${e.relation ? `<div class="gs-example-relation">${e.relation}</div>` : ''}
+                </div>
+            `;
+        }
+
+        function openGrammarLesson(id) {
+            const l = grammarLessons[id];
+            const container = document.getElementById('grammarContent');
+            if (!l) {
+                container.innerHTML = `<div class="records-empty">这个模块的课程内容还在整理中</div>`;
+                return;
+            }
+
+            let html = `<button class="back-to-list-btn" onclick="openGrammarMatrix('${id}')">◀ 返回矩阵</button>`;
+
+            // 顶部标题区
+            html += `
+                <div class="gs-lesson-header">
+                    <div class="gs-lesson-code">${l.pageCode}｜${l.system}</div>
+                    <div class="gs-lesson-title">${l.title}</div>
+                    <div class="gs-lesson-titlecn">${l.titleCn}</div>
+                </div>
+            `;
+
+            // 快速唤醒区
+            const qr = l.quickRecall;
+            html += `
+                <div class="gs-section-label">快速唤醒</div>
+                <div class="gs-box">
+                    <div class="gs-para"><b>这个语法解决什么问题：</b>${qr.problem}</div>
+                    <div class="gs-para"><b>核心母义：</b>${qr.coreState}</div>
+                    <div class="gs-fingerprint-box">${qr.fingerprint}<div class="gs-fingerprint-cn">${qr.fingerprintCn}</div></div>
+                    <div class="gs-relation-diagram">${qr.relationDiagram.replace(/\n/g, '<br>')}</div>
+                    <div class="gs-para gs-note">${qr.relationNote}</div>
+                    <div class="gs-para"><b>一句话判断：</b>${qr.judgeRule}</div>
+                    ${gsExampleHtml(qr.example)}
+                    <div class="gs-anchor-box"><b>记忆锚点：</b>${qr.memoryAnchor}</div>
+                    <div class="gs-para"><b>最短恢复路径：</b>${qr.shortestPath}</div>
+                </div>
+            `;
+
+            // 结构生成
+            const sg = l.structGen;
+            html += `
+                <div class="gs-section-label">结构生成</div>
+                <div class="gs-box">
+                    <div class="gs-para">${sg.intro}</div>
+                    <div class="gs-para">${sg.roles}</div>
+                    ${gsExampleHtml(sg.mainExample)}
+                    <div class="gs-para gs-note">${sg.note}</div>
+                </div>
+            `;
+
+            // 动词插槽
+            const vs = l.verbSlots;
+            html += `<div class="gs-section-label">${vs.title}</div><div class="gs-box"><div class="gs-para">${vs.intro}</div>`;
+            vs.items.forEach(item => {
+                html += `<div class="gs-pattern-label">${item.pattern}</div>${gsExampleHtml(item.example)}`;
+            });
+            html += `<div class="gs-para gs-note">${vs.conclusion}</div></div>`;
+
+            // 三幅关系图
+            const tm = l.threeMaps;
+            html += `
+                <div class="gs-section-label">判断路径｜三幅关系图</div>
+                <div class="gs-box">
+                    <div class="gs-pattern-label">${tm.arrow.label}｜${tm.arrow.formula}</div>
+                    ${gsExampleHtml(tm.arrow.example)}
+                    <div class="gs-pattern-label">${tm.equal.label}</div>
+                    ${gsExampleHtml(tm.equal.sc)}
+                    ${gsExampleHtml(tm.equal.oc)}
+                    <div class="gs-pattern-label">${tm.bridge.label}</div>
+                    ${gsExampleHtml(tm.bridge.ex1)}
+                    ${gsExampleHtml(tm.bridge.ex2)}
+                    <div class="gs-para gs-note">${tm.boundary}</div>
+                    ${gsExampleHtml(tm.boundaryExample)}
+                </div>
+            `;
+
+            // 宾补类型
+            const oc = l.ocTypes;
+            html += `<div class="gs-section-label">${oc.title}</div><div class="gs-box"><div class="gs-para">${oc.intro}</div>`;
+            oc.groups.forEach(g => {
+                html += `<div class="gs-pattern-label">${g.type}</div>`;
+                g.examples.forEach(e => html += gsExampleHtml(e));
+            });
+            html += `<div class="gs-para gs-note">${oc.conclusion}</div></div>`;
+
+            // 判断路径步骤
+            const jp = l.judgePath;
+            html += `<div class="gs-section-label">${jp.title}</div><div class="gs-box">`;
+            jp.steps.forEach(s => html += `<div class="gs-step">${s}</div>`);
+            html += `<div class="gs-anchor-box">${jp.mnemonic}</div></div>`;
+
+            // 易混对比
+            const cf = l.confusions;
+            html += `<div class="gs-section-label">${cf.title}</div>`;
+            cf.items.forEach(item => {
+                html += `<div class="gs-box"><div class="gs-pattern-label">${item.label}</div>`;
+                html += gsExampleHtml(item.ex1) + gsExampleHtml(item.ex2);
+                if (item.tip) html += `<div class="gs-para gs-note">${item.tip}</div>`;
+                html += `</div>`;
+            });
+
+            // to结构
+            const ts = l.toStructure;
+            html += `<div class="gs-section-label">${ts.title}</div><div class="gs-box"><div class="gs-para">${ts.intro}</div>`;
+            ts.types.forEach(t => {
+                html += `<div class="gs-pattern-label">${t.type}</div>${gsExampleHtml(t.example)}`;
+            });
+            ts.whoExecutes.forEach(w => {
+                html += `<div class="gs-pattern-label">${w.pattern}</div>${gsExampleHtml(w.example)}`;
+            });
+            html += `</div>`;
+
+            // 高频错误
+            const ce = l.commonErrors;
+            html += `<div class="gs-section-label">${ce.title}</div><div class="gs-box">`;
+            ce.items.forEach(item => {
+                html += `<div class="gs-error-wrong">❌ ${item.wrong}</div>`;
+                item.right.forEach(r => html += `<div class="gs-error-right">✅ ${r.en}｜${r.cn}</div>`);
+                html += `<div class="gs-para gs-note">${item.reason}</div>`;
+            });
+            html += `<div class="gs-anchor-box">拼写锚点：${ce.spellingAnchor}</div></div>`;
+
+            // 核心例句库
+            const cex = l.coreExamples;
+            html += `<div class="gs-section-label">${cex.title}</div><div class="gs-box gs-example-grid">`;
+            cex.items.forEach((e, i) => {
+                html += `<div class="gs-example-numbered"><span class="gs-example-num">${i + 1}</span>${gsExampleHtml(e)}</div>`;
+            });
+            html += `</div>`;
+
+            // 记忆锚点收尾
+            const fm = l.finalMemory;
+            html += `
+                <div class="gs-section-label">${fm.title}</div>
+                <div class="gs-final-box">
+                    ${fm.structOverview.map(s => `<div class="gs-final-line">${s}</div>`).join('')}
+                    <div class="gs-final-chain">${fm.judgeChain}</div>
+                    <div class="gs-final-anchor">${fm.anchor}</div>
+                </div>
+            `;
+
+            html += `<div style="height:20px;"></div>`;
+
+            container.innerHTML = html;
         }
 
         window.onload = function () {
