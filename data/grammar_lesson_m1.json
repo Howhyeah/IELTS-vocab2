@@ -1,0 +1,803 @@
+{
+  "id": "M1",
+  "pageCode": "M1｜D2",
+  "system": "Sentence Frame｜句子骨架",
+  "title": "S + V + O + OC",
+  "titleCn": "主谓宾宾补",
+  "subject": "谓语、宾语与宾语补足语",
+  "quickRecall": {
+    "problem": "一句话不只可以表达「谁做了什么」，还可以继续说明：这个动作让宾语变成了什么、处于什么状态，或者接下来做什么。",
+    "coreState": "谓语是整句话的关系控制器。动词决定自己后面需要打开几个「插槽」；宾语承接动作或关系，宾语补足语继续说明宾语的状态、身份、结果或后续动作。",
+    "fingerprint": "S + V + O + OC",
+    "fingerprintCn": "主语 + 谓语动词 + 宾语 + 宾语补足语",
+    "relationDiagram": "S → V → O\n　　　　O = OC",
+    "relationNote": "这里的「O = OC」不是说宾语和宾补是同一种东西，而是表示：宾补正在对宾语作进一步说明。",
+    "judgeRule": "去掉最后一部分后，如果「宾语怎么样、是什么或做什么」的关键信息没有说完，并且最后一部分描述的是宾语，那么它就是宾语补足语。",
+    "example": {
+      "en": "We consider him talented.",
+      "cn": "我们认为他很有才华。",
+      "structure": "S+V+O+OC",
+      "relation": "him = talented：talented描述的是him，因此talented是宾语补足语。",
+      "hl_en": [
+        "We",
+        "consider",
+        "him",
+        "talented"
+      ],
+      "hl_cn": [
+        "我们",
+        "认为",
+        "他",
+        "很有才华"
+      ]
+    },
+    "memoryAnchor": "不要看见动词后面有两个成分，就机械地数成「两个宾语」。先抓住谓语动词，再看动词打开了什么插槽；如果后一个成分是在说明前面的宾语，就建立「O = OC」的关系。",
+    "shortestPath": "找V → 看动词模板 → 找直接O → 问最后一部分描述谁 → 能与O建立说明关系，就是OC → 最后再处理介词短语。"
+  },
+  "structGen": {
+    "title": "从零理解：一句英语句子是怎样建立起来的",
+    "intro": "英语句子的第一层不是背成分名称，而是完成一次表达：我们先提出正在谈论的人或事物，再对它作出一个判断或陈述。",
+    "roles": "主语S：正在谈谁或什么。谓语部分：对主语说了什么。",
+    "mainExample": {
+      "en": "Digital technology has transformed education.",
+      "cn": "数字技术已经改变了教育。",
+      "structure": "S+V+O",
+      "relation": "谓语动词 = has transformed；完整谓语 = has transformed education。",
+      "hl_en": [
+        "Digital technology",
+        "has transformed",
+        "education"
+      ],
+      "hl_cn": [
+        "数字技术",
+        "已经改变了",
+        "教育"
+      ]
+    },
+    "note": "谓语动词负责承载时态、否定、疑问、语态等核心语法信息；但一个完整谓语部分还可能包含宾语、补语和其他必要成分。"
+  },
+  "verbSlots": {
+    "title": "动词决定插槽：不能只看单词数量",
+    "intro": "不同动词像不同型号的发动机。动词一旦被选中，它会决定后面需要什么结构。判断句型时，不能只从左到右数名词，而要先确认动词的使用模板。",
+    "items": [
+      {
+        "pattern": "SV｜主语 + 谓语",
+        "example": {
+          "en": "Inequality persists.",
+          "cn": "不平等持续存在。",
+          "structure": "SV",
+          "relation": "persist本身可以把「持续存在」说完整，不需要宾语或补语。",
+          "hl_en": [
+            "Inequality",
+            "persists"
+          ],
+          "hl_cn": [
+            "不平等",
+            "持续存在"
+          ]
+        }
+      },
+      {
+        "pattern": "SVC｜主语 + 系动词 + 主语补足语",
+        "example": {
+          "en": "Resources remain limited.",
+          "cn": "资源仍然有限。",
+          "structure": "SVC",
+          "relation": "remain不是把动作施加给limited；limited是在说明Resources的状态。关系：Resources = limited。",
+          "hl_en": [
+            "Resources",
+            "remain limited"
+          ],
+          "hl_cn": [
+            "资源",
+            "仍然有限"
+          ]
+        }
+      },
+      {
+        "pattern": "SVO｜主语 + 谓语 + 宾语",
+        "example": {
+          "en": "Technology facilitates learning.",
+          "cn": "技术促进学习。",
+          "structure": "SVO",
+          "relation": "learning是facilitates直接作用的对象。关系：Technology → facilitates → learning。",
+          "hl_en": [
+            "facilitates learning"
+          ],
+          "hl_cn": [
+            "促进学习"
+          ]
+        }
+      },
+      {
+        "pattern": "SVOO｜主语 + 谓语 + 间接宾语 + 直接宾语",
+        "example": {
+          "en": "The teacher gave the students guidance.",
+          "cn": "老师给了学生指导。",
+          "structure": "SVOO",
+          "relation": "the students是接受者，guidance是被给予的事物。the students ≠ guidance，因此这里不是宾语补足语。",
+          "hl_en": [
+            "gave the students guidance"
+          ],
+          "hl_cn": [
+            "给了学生指导"
+          ]
+        }
+      },
+      {
+        "pattern": "SVOC｜主语 + 谓语 + 宾语 + 宾语补足语",
+        "example": {
+          "en": "Platforms make learning convenient.",
+          "cn": "平台使学习更便利。",
+          "structure": "SVOC",
+          "relation": "learning是make直接影响的对象；convenient说明learning最终处于什么状态。关系：learning = convenient。",
+          "hl_en": [
+            "make learning convenient"
+          ],
+          "hl_cn": [
+            "使学习更便利"
+          ]
+        }
+      }
+    ],
+    "conclusion": "真正的核心不是记住五种缩写，而是理解：动词选择了什么关系，后面的成分分别在这段关系里承担什么职责。"
+  },
+  "threeMaps": {
+    "title": "三幅关系图：箭头、等号、桥梁",
+    "arrow": {
+      "label": "箭头＝动作指向宾语",
+      "formula": "S → V → O",
+      "example": {
+        "en": "Schools support students.",
+        "cn": "学校帮助学生。",
+        "structure": "S→V→O",
+        "relation": "support的动作直接指向students，所以students是宾语。",
+        "hl_en": [
+          "support students"
+        ],
+        "hl_cn": [
+          "帮助学生"
+        ]
+      }
+    },
+    "equal": {
+      "label": "等号＝补语说明状态或身份",
+      "sc": {
+        "en": "Learning becomes accessible.",
+        "cn": "学习变得更容易获得。",
+        "structure": "S=C",
+        "relation": "accessible说明Learning的状态，所以它是主语补足语。",
+        "hl_en": [
+          "becomes accessible"
+        ],
+        "hl_cn": [
+          "变得更容易获得"
+        ]
+      },
+      "oc": {
+        "en": "Technology makes education accessible.",
+        "cn": "技术使教育更容易获得。",
+        "structure": "O=OC",
+        "relation": "education是宾语，accessible说明education发生后的状态，所以它是宾语补足语。",
+        "hl_en": [
+          "makes education accessible"
+        ],
+        "hl_cn": [
+          "使教育更容易获得"
+        ]
+      }
+    },
+    "bridge": {
+      "label": "桥梁＝介词把成分连接起来",
+      "ex1": {
+        "en": "Students benefit from online courses.",
+        "cn": "学生从网课中受益。",
+        "structure": "S+V+prep+O",
+        "relation": "from把benefit与online courses连接起来。",
+        "hl_en": [
+          "benefit from",
+          "online courses"
+        ],
+        "hl_cn": [
+          "受益",
+          "网课"
+        ]
+      },
+      "ex2": {
+        "en": "Schools provide students with support.",
+        "cn": "学校为学生提供支持。",
+        "structure": "provide sb with sth",
+        "relation": "with把students与support连接在provide sb with sth这个固定结构中。students ≠ support，所以with support不是宾补。",
+        "hl_en": [
+          "provide students with support"
+        ],
+        "hl_cn": [
+          "为学生提供支持"
+        ]
+      }
+    },
+    "boundary": "重要边界：介词短语是一种「外形」，它在句子里的职责要根据意义判断。",
+    "boundaryExample": {
+      "en": "The teacher kept the students in the classroom.",
+      "cn": "老师让学生们留在教室里。",
+      "structure": "S+V+O+OC(介词短语)",
+      "relation": "in the classroom说明the students所处的位置，因此在这个句子里，它承担宾语补足语的作用。所以不能机械地说「介词短语一定不是宾补」，必须回到核心问题：它是否在说明宾语。",
+      "hl_en": [
+        "kept the students in the classroom"
+      ],
+      "hl_cn": [
+        "让学生们留在教室里"
+      ]
+    }
+  },
+  "ocTypes": {
+    "title": "宾语补足语到底在补充什么",
+    "intro": "宾语补足语通常补充说明宾语的四类信息：状态、身份/结果、正在发生的动作、即将或被要求执行的动作。",
+    "groups": [
+      {
+        "type": "形容词：说明宾语的状态",
+        "examples": [
+          {
+            "en": "Platforms make learning convenient.",
+            "cn": "平台使学习变得便利。",
+            "structure": "O=OC",
+            "relation": "learning = convenient",
+            "hl_en": [
+              "make learning convenient"
+            ],
+            "hl_cn": [
+              "使学习变得便利"
+            ]
+          },
+          {
+            "en": "Technology makes education accessible.",
+            "cn": "技术使教育更容易获得。",
+            "structure": "O=OC",
+            "relation": "education = accessible",
+            "hl_en": [
+              "makes education accessible"
+            ],
+            "hl_cn": [
+              "使教育更容易获得"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "名词：说明宾语的身份或结果",
+        "examples": [
+          {
+            "en": "She made the project a success.",
+            "cn": "她使这个项目取得了成功。",
+            "structure": "O=OC",
+            "relation": "the project = a success",
+            "hl_en": [
+              "made the project a success"
+            ],
+            "hl_cn": [
+              "使这个项目取得了成功"
+            ]
+          },
+          {
+            "en": "We elected her chairperson.",
+            "cn": "我们选举她担任主席。",
+            "structure": "O=OC",
+            "relation": "her = chairperson",
+            "hl_en": [
+              "elected her chairperson"
+            ],
+            "hl_cn": [
+              "选举她担任主席"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "to do：说明宾语接下来执行的动作",
+        "examples": [
+          {
+            "en": "Technology enables students to access resources.",
+            "cn": "技术使学生能够获取资源。",
+            "structure": "O=OC(to do)",
+            "relation": "students是宾语，也是access resources这个动作的执行者。",
+            "hl_en": [
+              "enables students to access resources"
+            ],
+            "hl_cn": [
+              "使学生能够获取资源"
+            ]
+          },
+          {
+            "en": "Schools encourage students to participate.",
+            "cn": "学校鼓励学生参与。",
+            "structure": "O=OC(to do)",
+            "relation": "students是宾语，也是participate的执行者。",
+            "hl_en": [
+              "encourage students to participate"
+            ],
+            "hl_cn": [
+              "鼓励学生参与"
+            ]
+          }
+        ]
+      },
+      {
+        "type": "do / doing / done：说明动作关系",
+        "examples": [
+          {
+            "en": "The teacher made the students think independently.",
+            "cn": "老师让学生独立思考。",
+            "structure": "O=OC(do)",
+            "relation": "students执行think；在make sb do结构中使用动词原形。",
+            "hl_en": [
+              "think independently"
+            ],
+            "hl_cn": [
+              "独立思考"
+            ]
+          },
+          {
+            "en": "We saw the students discussing the problem.",
+            "cn": "我们看见学生们正在讨论这个问题。",
+            "structure": "O=OC(doing)",
+            "relation": "students正在执行discussing所表示的动作。",
+            "hl_en": null,
+            "hl_cn": null
+          },
+          {
+            "en": "We found the door locked.",
+            "cn": "我们发现门锁着。",
+            "structure": "O=OC(done)",
+            "relation": "the door承受lock这个动作，并处于locked的状态。",
+            "hl_en": null,
+            "hl_cn": null
+          }
+        ]
+      }
+    ],
+    "conclusion": "本页首先要掌握的不是一次背完宾补的所有外形，而是抓住不变的底层关系：最后一部分始终在补充说明宾语。"
+  },
+  "judgePath": {
+    "title": "SVOC的完整判断路径",
+    "steps": [
+      "第一步：找真正的谓语动词V。先排除非谓语动词和介词，不要一看到动词外形就当作主句谓语。",
+      "第二步：确认动词模板。问自己：这个动词通常只需要宾语，还是还需要说明宾语的状态、身份或动作？",
+      "第三步：找动作直接作用的对象O。问：动词直接影响、认为、命名、要求或使谁/什么发生变化？",
+      "第四步：检查最后一部分描述谁。如果最后一部分描述主语，就是主语补足语；如果描述宾语，就是宾语补足语。",
+      "第五步：建立关系。能形成「O处于OC状态」「O是OC身份」或「O执行/承受OC动作」，就是宾补关系。",
+      "第六步：最后判断介词短语。不要因为一个介词短语放在宾语后面，就自动把它当作宾补或状语；先判断它在意义上是否说明宾语。"
+    ],
+    "mnemonic": "先抓V，不数词；动词决定插槽；找出直接O；再问C描述谁；O与C能建立说明关系，才是宾补。"
+  },
+  "confusions": {
+    "title": "最容易混淆的结构",
+    "items": [
+      {
+        "label": "SVOO双宾语 vs SVOC宾语＋宾补",
+        "ex1": {
+          "en": "She gave him a book.",
+          "cn": "她给了他一本书。",
+          "structure": "SVOO",
+          "relation": "him是接受者，a book是被给予的东西。him ≠ a book，所以是双宾语。",
+          "hl_en": null,
+          "hl_cn": null
+        },
+        "ex2": {
+          "en": "They considered him a good leader.",
+          "cn": "他们认为他是一位好领导。",
+          "structure": "SVOC",
+          "relation": "him = a good leader，所以是宾语＋宾补。",
+          "hl_en": [
+            "considered him a good leader"
+          ],
+          "hl_cn": [
+            "认为他是一位好领导"
+          ]
+        },
+        "tip": "快速区别：两个成分分别是「人＋物」，通常考虑双宾语；后一个成分在重新说明前一个宾语，考虑宾补。"
+      },
+      {
+        "label": "SVC主系表 vs SVOC主谓宾宾补",
+        "ex1": {
+          "en": "Education becomes accessible.",
+          "cn": "教育变得更容易获得。",
+          "structure": "SVC",
+          "relation": "Education = accessible；accessible描述主语，所以是SVC。",
+          "hl_en": null,
+          "hl_cn": null
+        },
+        "ex2": {
+          "en": "Technology makes education accessible.",
+          "cn": "技术使教育变得更容易获得。",
+          "structure": "SVOC",
+          "relation": "education = accessible；accessible描述宾语，所以是SVOC。",
+          "hl_en": [
+            "makes education accessible"
+          ],
+          "hl_cn": [
+            "使教育变得更容易获得"
+          ]
+        },
+        "tip": "区别不在于有没有形容词，而在于形容词描述的是主语还是宾语。"
+      },
+      {
+        "label": "宾语后的修饰语 vs 宾语补足语",
+        "ex1": {
+          "en": "I bought a book on education.",
+          "cn": "我买了一本关于教育的书。",
+          "structure": "SVO(修饰语)",
+          "relation": "on education修饰book，帮助限定「哪一本书」，但不是buy造成book处于某种状态。",
+          "hl_en": null,
+          "hl_cn": null
+        },
+        "ex2": {
+          "en": "I found the book useful.",
+          "cn": "我发现这本书很有用。",
+          "structure": "SVOC",
+          "relation": "useful是对the book作出的判断：the book = useful，因此是宾补。",
+          "hl_en": null,
+          "hl_cn": null
+        },
+        "tip": null
+      }
+    ]
+  },
+  "toStructure": {
+    "title": "to结构：先判断to后面接什么",
+    "intro": "看到to时，不要立即认定它是不定式标志。先看to后面的形式和整个短语的职责。",
+    "types": [
+      {
+        "type": "to + 名词：to是介词",
+        "example": {
+          "en": "access to education",
+          "cn": "接受教育的机会",
+          "structure": "介词",
+          "relation": "这里access是名词，to education说明「通向/获得什么的机会」。",
+          "hl_en": [
+            "access to education"
+          ],
+          "hl_cn": [
+            "接受教育的机会"
+          ]
+        }
+      },
+      {
+        "type": "to + doing：to是介词",
+        "example": {
+          "en": "contribute to improving quality",
+          "cn": "有助于提高质量",
+          "structure": "介词",
+          "relation": "contribute to中的to是介词，所以后面用名词或动名词doing。",
+          "hl_en": [
+            "contribute to improving quality"
+          ],
+          "hl_cn": [
+            "有助于提高质量"
+          ]
+        }
+      },
+      {
+        "type": "to + 动词原形：to是不定式标志",
+        "example": {
+          "en": "aim to reduce inequality",
+          "cn": "旨在减少不平等",
+          "structure": "不定式",
+          "relation": "to reduce是不定式。",
+          "hl_en": [
+            "aim to reduce inequality"
+          ],
+          "hl_cn": [
+            "旨在减少不平等"
+          ]
+        }
+      }
+    ],
+    "whoExecutes": [
+      {
+        "pattern": "S + V + to do（主语执行）",
+        "example": {
+          "en": "Schools aim to reduce inequality.",
+          "cn": "学校旨在减少不平等。",
+          "structure": "S+V+to do",
+          "relation": "reduce的执行者是Schools。",
+          "hl_en": [
+            "aim to reduce inequality"
+          ],
+          "hl_cn": [
+            "旨在减少不平等"
+          ]
+        }
+      },
+      {
+        "pattern": "S + V + O + to do（宾语执行）",
+        "example": {
+          "en": "Technology enables students to access resources.",
+          "cn": "技术使学生能够获取资源。",
+          "structure": "S+V+O+to do",
+          "relation": "access的执行者是students；to access resources补充说明宾语students接下来能够做什么，因此它属于宾语补足语。",
+          "hl_en": [
+            "enables students to access resources"
+          ],
+          "hl_cn": [
+            "使学生能够获取资源"
+          ]
+        }
+      }
+    ]
+  },
+  "commonErrors": {
+    "title": "高频错误及真正错因",
+    "items": [
+      {
+        "wrong": "Resources remain lack.",
+        "right": [
+          {
+            "en": "Resources remain limited.",
+            "cn": "资源仍然有限。",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          },
+          {
+            "en": "Schools still lack resources.",
+            "cn": "学校仍然缺乏资源。",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          }
+        ],
+        "reason": "remain是系动词，后面需要描述状态的补语；lack通常作为实义动词直接带宾语。不能把两个不同动词模板硬拼在一起。"
+      },
+      {
+        "wrong": "Resources are remain essential.",
+        "right": [
+          {
+            "en": "Resources are essential.",
+            "cn": "资源是必要的。",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          },
+          {
+            "en": "Resources remain essential.",
+            "cn": "资源仍然是必要的。",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          }
+        ],
+        "reason": "are与remain都可以充当这个句子的系动词，不能同时占据同一个谓语位置。"
+      },
+      {
+        "wrong": "Students can access to resources.",
+        "right": [
+          {
+            "en": "Students can access resources.",
+            "cn": "学生可以获取资源。",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          },
+          {
+            "en": "Students have access to resources.",
+            "cn": "学生有机会获取资源。",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          }
+        ],
+        "reason": "access作动词时直接接宾语，不加to；access作名词时常使用have access to sth。"
+      },
+      {
+        "wrong": "disadvantage students",
+        "right": [
+          {
+            "en": "disadvantaged students",
+            "cn": "弱势学生",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          }
+        ],
+        "reason": "disadvantage可作名词或动词；disadvantaged是形容词，表示处于不利地位的。"
+      },
+      {
+        "wrong": "混淆who与which",
+        "right": [
+          {
+            "en": "students who live in rural areas",
+            "cn": "生活在农村地区的学生",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          },
+          {
+            "en": "resources which are available online",
+            "cn": "可以在线获取的资源",
+            "structure": null,
+            "relation": null,
+            "hl_en": null,
+            "hl_cn": null
+          }
+        ],
+        "reason": "通常用who指人，用which指事物。"
+      }
+    ],
+    "spellingAnchor": "access：两个c、两个s。"
+  },
+  "coreExamples": {
+    "title": "核心例句库｜按结构理解，不按中文死背",
+    "items": [
+      {
+        "en": "Digital technology has transformed education.",
+        "cn": "数字技术已经改变了教育。",
+        "structure": "S+V+O",
+        "relation": "technology → transform → education",
+        "hl_en": [
+          "Digital technology",
+          "has transformed",
+          "education"
+        ],
+        "hl_cn": [
+          "数字技术",
+          "已经改变了",
+          "教育"
+        ]
+      },
+      {
+        "en": "Inequality persists.",
+        "cn": "不平等持续存在。",
+        "structure": "S+V",
+        "relation": "persist不需要额外宾语。",
+        "hl_en": [
+          "Inequality",
+          "persists"
+        ],
+        "hl_cn": [
+          "不平等",
+          "持续存在"
+        ]
+      },
+      {
+        "en": "Resources remain limited.",
+        "cn": "资源仍然有限。",
+        "structure": "S+V+C",
+        "relation": "Resources = limited",
+        "hl_en": [
+          "Resources remain limited"
+        ],
+        "hl_cn": [
+          "资源仍然有限"
+        ]
+      },
+      {
+        "en": "Technology facilitates learning.",
+        "cn": "技术促进学习。",
+        "structure": "S+V+O",
+        "relation": "Technology → facilitates → learning",
+        "hl_en": [
+          "facilitates learning"
+        ],
+        "hl_cn": [
+          "促进学习"
+        ]
+      },
+      {
+        "en": "Platforms make learning convenient.",
+        "cn": "平台使学习更便利。",
+        "structure": "S+V+O+OC",
+        "relation": "learning = convenient",
+        "hl_en": [
+          "make learning convenient"
+        ],
+        "hl_cn": [
+          "使学习更便利"
+        ]
+      },
+      {
+        "en": "Technology makes education accessible.",
+        "cn": "技术使教育更容易获得。",
+        "structure": "S+V+O+OC",
+        "relation": "education = accessible",
+        "hl_en": [
+          "makes education accessible"
+        ],
+        "hl_cn": [
+          "使教育更容易获得"
+        ]
+      },
+      {
+        "en": "We consider him talented.",
+        "cn": "我们认为他很有才华。",
+        "structure": "S+V+O+OC",
+        "relation": "him = talented",
+        "hl_en": [
+          "consider him talented"
+        ],
+        "hl_cn": [
+          "认为他很有才华"
+        ]
+      },
+      {
+        "en": "She made the project a success.",
+        "cn": "她使这个项目取得了成功。",
+        "structure": "S+V+O+OC",
+        "relation": "the project = a success",
+        "hl_en": [
+          "made the project a success"
+        ],
+        "hl_cn": [
+          "使这个项目取得了成功"
+        ]
+      },
+      {
+        "en": "Technology enables students to access resources.",
+        "cn": "技术使学生能够获取资源。",
+        "structure": "S+V+O+OC",
+        "relation": "students执行to access resources",
+        "hl_en": [
+          "enables students to access resources"
+        ],
+        "hl_cn": [
+          "使学生能够获取资源"
+        ]
+      },
+      {
+        "en": "Students benefit from online courses.",
+        "cn": "学生从网课中受益。",
+        "structure": "S+V+介词短语",
+        "relation": "from是连接benefit与online courses的介词桥梁。",
+        "hl_en": [
+          "benefit from online courses"
+        ],
+        "hl_cn": [
+          "从网课中受益"
+        ]
+      },
+      {
+        "en": "Schools provide students with support.",
+        "cn": "学校为学生提供支持。",
+        "structure": "provide sb with sth",
+        "relation": "students ≠ support；with support不是宾补。",
+        "hl_en": [
+          "provide students with support"
+        ],
+        "hl_cn": [
+          "为学生提供支持"
+        ]
+      },
+      {
+        "en": "Schools aim to reduce inequality.",
+        "cn": "学校旨在减少不平等。",
+        "structure": "S+V+to do",
+        "relation": "Schools执行reduce。",
+        "hl_en": [
+          "aim to reduce inequality"
+        ],
+        "hl_cn": [
+          "旨在减少不平等"
+        ]
+      }
+    ]
+  },
+  "finalMemory": {
+    "title": "最终结构总览 & 判断链",
+    "structOverview": [
+      "SV：Inequality persists.",
+      "SVC：Resources remain limited.｜S = C",
+      "SVO：Technology facilitates learning.｜S → V → O",
+      "SVOO：The teacher gave the students guidance.｜人 ≠ 物",
+      "SVOC：Platforms make learning convenient.｜O = OC"
+    ],
+    "judgeChain": "找V → 看动词模板 → 找直接O → 问后面成分描述谁 → 建立箭头/等号/桥梁关系 → 确认句型。",
+    "anchor": "不要把英语句型理解成固定位置上的字母排列。真正决定句子结构的是动词建立了什么关系；宾补的灵魂，就是把宾语没有说完的状态、身份、结果或动作补充完整。"
+  }
+}
