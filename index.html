@@ -473,6 +473,75 @@
         .ws-module-arrow { font-size: 20px; color: #ccc; flex-shrink: 0; }
         .ws-module-placeholder { border-radius: 18px; padding: 36px 20px; text-align: center; }
 
+        /* ===== Writing子模块通用样式 ===== */
+        .ws-page-title { font-family: Georgia, serif; font-size: 21px; font-weight: 700; color: #172A45; margin-bottom: 2px; }
+        .ws-page-title-cn { font-size: 13px; color: #687386; font-weight: normal; margin-left: 8px; font-family: -apple-system, sans-serif; }
+        .ws-page-sub { font-size: 12px; color: #747B84; margin-bottom: 16px; }
+        .ws-content-card { background: white; border-radius: 16px; padding: 16px; margin-bottom: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.04); }
+        .ws-content-empty { text-align: center; color: #999; font-size: 12.5px; line-height: 1.8; padding: 14px 0; }
+
+        /* Writing Map纵向能力地图 */
+        .wmap-root { background: #172A45; color: white; text-align: center; padding: 12px; border-radius: 12px; font-weight: bold; font-size: 13px; letter-spacing: 1px; }
+        .wmap-arrow { text-align: center; color: #ccc; font-size: 18px; padding: 4px 0; }
+        .wmap-split { display: flex; gap: 10px; }
+        .wmap-split-item { flex: 1; border-radius: 14px; padding: 16px; text-align: center; cursor: pointer; }
+        .wmap-split-en { font-family: Georgia, serif; font-weight: bold; font-size: 14px; }
+        .wmap-split-cn { font-size: 11.5px; margin-top: 2px; }
+        .wmap-node { border-radius: 14px; padding: 14px 16px; cursor: pointer; }
+        .wmap-node-title { font-weight: bold; font-size: 13px; }
+        .wmap-node-sub { font-size: 11px; opacity: 0.8; margin-top: 3px; }
+        .wmap-node-status { font-size: 10px; margin-top: 6px; opacity: 0.7; }
+        .wmap-target { background: #F4E3D7; color: #8F432D; text-align: center; padding: 14px; border-radius: 12px; font-weight: bold; font-size: 14px; }
+
+        /* Task 1 Lab图表卡片 */
+        .ws-filter-row { display: flex; gap: 8px; overflow-x: auto; margin-bottom: 14px; padding-bottom: 2px; }
+        .ws-filter-chip { flex-shrink: 0; padding: 7px 14px; border-radius: 16px; background: white; border: 1px solid #eee; font-size: 11.5px; color: #666; white-space: nowrap; cursor: pointer; }
+        .ws-filter-chip.active { background: #172A45; border-color: #172A45; color: white; }
+        .ws-chart-grid { display: flex; flex-wrap: wrap; }
+        .ws-chart-card { width: calc(50% - 5px); background: white; border-radius: 14px; padding: 14px; margin-bottom: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.04); box-sizing: border-box; }
+        .ws-chart-card:nth-child(odd) { margin-right: 10px; }
+        .ws-chart-en { font-family: Georgia, serif; font-weight: bold; font-size: 13.5px; }
+        .ws-chart-cn { font-size: 11.5px; color: #444; margin-top: 1px; }
+        .ws-chart-progress { font-size: 10px; color: #999; margin-top: 8px; }
+
+        /* Task1步骤条(圆点式) */
+        .ws-stepper { display: flex; gap: 4px; margin: 12px 0 4px; }
+        .ws-step-dot { flex: 1; height: 4px; border-radius: 2px; background: #eee; }
+        .ws-step-dot.active { background: #4D8C85; }
+        .ws-stepper-labels { display: flex; justify-content: space-between; font-size: 8.5px; color: #999; margin-bottom: 14px; }
+        .ws-stepper-labels span { flex: 1; text-align: center; }
+
+        /* Task2步骤条(圆圈式) */
+        .ws-stepper-line { display: flex; align-items: center; margin: 14px 0 16px; }
+        .ws-stepper-item { display: flex; flex-direction: column; align-items: center; }
+        .ws-stepper-circle { width: 12px; height: 12px; border-radius: 50%; background: #eee; }
+        .ws-stepper-circle.active { background: #B85F3D; }
+        .ws-stepper-text { font-size: 9px; color: #666; margin-top: 4px; white-space: nowrap; }
+        .ws-stepper-connector { flex: 1; height: 1.5px; background: #eee; margin: 0 2px; margin-bottom: 16px; }
+        .ws-step-actions { display: flex; gap: 10px; margin-top: 12px; }
+        .ws-step-btn-secondary { flex: 1; background: #F4F2ED; color: #666; border: none; padding: 12px; border-radius: 20px; font-size: 12.5px; font-weight: 600; }
+        .ws-step-btn-primary { flex: 1; background: #172A45; color: white; border: none; padding: 12px; border-radius: 20px; font-size: 12.5px; font-weight: 600; cursor: pointer; }
+
+        /* Sentence Builder */
+        .ws-subfeature-title { font-size: 13.5px; font-weight: bold; color: #172A45; margin-bottom: 4px; }
+        .ws-subfeature-desc { font-size: 11.5px; color: #888; margin-bottom: 10px; }
+        .ws-fake-input { background: #F8F5EF; border-radius: 10px; padding: 12px; font-size: 12px; color: #aaa; }
+        .ws-level-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+        .ws-level-tag { font-size: 10.5px; padding: 5px 10px; border-radius: 10px; background: #F4F2ED; color: #555; }
+        .ws-level-tag-gold { background: #FFF5E7; color: #B85F3D; border: 1px solid #E2AE87; }
+
+        /* Writing Coach */
+        .ws-tab-row { display: flex; gap: 8px; margin-bottom: 14px; }
+        .ws-tab { flex: 1; text-align: center; padding: 9px; background: #F4F2ED; border-radius: 12px; font-size: 12.5px; font-weight: 600; color: #666; cursor: pointer; }
+        .ws-tab.active { background: #994C3A; color: white; }
+        .ws-band-card { background: linear-gradient(135deg,#994C3A,#b8654e); border-radius: 16px; padding: 18px; text-align: center; color: white; margin-bottom: 10px; }
+        .ws-band-label { font-size: 11px; opacity: 0.85; }
+        .ws-band-score { font-family: Georgia, serif; font-size: 28px; font-weight: 700; margin-top: 4px; }
+        .ws-radar-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 11px; color: #444; }
+        .ws-radar-row span { width: 100px; flex-shrink: 0; }
+        .ws-radar-bar { flex: 1; height: 6px; background: #F4F2ED; border-radius: 3px; overflow: hidden; }
+        .ws-radar-fill { height: 100%; border-radius: 3px; }
+
         /* ===== 时态详解:子标签 ===== */
         .tense-subtabs {
             display: flex;
@@ -3698,18 +3767,296 @@
 
         // 每个模块内部完整页面(审题/观点/论证链/句子升级等)是下一阶段的工作量,这里先做占位跳转
         function openWritingModule(id) {
-            const m = writingModules.find(x => x.id === id);
-            if (!m) return;
+            const routes = {
+                wmap: renderWritingMap,
+                task1: renderTask1Lab,
+                task2: renderTask2Studio,
+                sentence: renderSentenceBuilder,
+                argument: renderArgumentBank,
+                coach: renderWritingCoach
+            };
+            if (routes[id]) routes[id]();
+        }
+
+        // ========== 01 Writing Map｜写作地图 ==========
+        function renderWritingMap() {
             const container = document.getElementById('writingContent');
             container.innerHTML = `
                 <button class="back-to-list-btn" onclick="renderWritingHome()">◀ 返回</button>
-                <div class="ws-module-placeholder" style="background:${m.color}1a;">
-                    <div style="font-size:32px;margin-bottom:10px;">${m.icon}</div>
-                    <div style="color:${m.color};font-weight:bold;font-size:16px;">${m.en}</div>
-                    <div style="color:${m.color};font-size:13px;margin-top:2px;">${m.cn}</div>
-                    <div style="color:#888;font-size:12px;margin-top:14px;line-height:1.6;">${m.desc}<br><br>内容正在整理中，敬请期待</div>
+                <div class="ws-page-title">Writing Map<span class="ws-page-title-cn">写作地图</span></div>
+                <div class="ws-page-sub">IELTS Academic Writing｜完整写作能力路径</div>
+
+                <div class="wmap-root">IELTS ACADEMIC WRITING</div>
+                <div class="wmap-arrow">↓</div>
+                <div class="wmap-split">
+                    <div class="wmap-split-item" style="background:#4D8C851a;color:#4D8C85" onclick="openWritingModule('task1')">
+                        <div class="wmap-split-en">TASK 1</div><div class="wmap-split-cn">图表写作</div>
+                    </div>
+                    <div class="wmap-split-item" style="background:#B85F3D1a;color:#B85F3D" onclick="openWritingModule('task2')">
+                        <div class="wmap-split-en">TASK 2</div><div class="wmap-split-cn">议论文</div>
+                    </div>
+                </div>
+                <div class="wmap-arrow">↓</div>
+                <div class="wmap-node" style="background:#25745E1a;color:#25745E" onclick="openWritingModule('sentence')">
+                    <div class="wmap-node-title">LANGUAGE SYSTEM｜语言系统</div>
+                    <div class="wmap-node-sub">词汇 · 句型 · 语法</div>
+                    <div class="wmap-node-status">not_started</div>
+                </div>
+                <div class="wmap-arrow">↓</div>
+                <div class="wmap-node" style="background:#99752a1a;color:#8a6a1f">
+                    <div class="wmap-node-title">PRACTICE｜练习与应用</div>
+                    <div class="wmap-node-status">locked</div>
+                </div>
+                <div class="wmap-arrow">↓</div>
+                <div class="wmap-node" style="background:#5a5a5a1a;color:#5a5a5a">
+                    <div class="wmap-node-title">AI DIAGNOSIS｜智能诊断</div>
+                    <div class="wmap-node-status">locked</div>
+                </div>
+                <div class="wmap-arrow">↓</div>
+                <div class="wmap-target">TARGET｜Band 7+</div>
+            `;
+        }
+
+        // ========== 02 Task 1 Lab｜小作文实验室 ==========
+        const task1Charts = [
+            { id: 'line', en: 'Line Graph', cn: '折线图', type: 'dynamic' },
+            { id: 'bar', en: 'Bar Chart', cn: '柱状图', type: 'dynamic' },
+            { id: 'pie', en: 'Pie Chart', cn: '饼图', type: 'static' },
+            { id: 'table', en: 'Table', cn: '表格', type: 'static' },
+            { id: 'process', en: 'Process', cn: '流程图', type: 'process' },
+            { id: 'map', en: 'Map', cn: '地图', type: 'process' },
+            { id: 'mixed', en: 'Mixed Charts', cn: '混合图表', type: 'dynamic' }
+        ];
+        function renderTask1Lab() {
+            const container = document.getElementById('writingContent');
+            let html = `
+                <button class="back-to-list-btn" onclick="renderWritingHome()">◀ 返回</button>
+                <div class="ws-page-title" style="color:#4D8C85">Task 1 Lab<span class="ws-page-title-cn">小作文实验室</span></div>
+                <div class="ws-page-sub">图表识别与信息表达</div>
+                <div class="ws-filter-row">
+                    <span class="ws-filter-chip active">全部图表</span>
+                    <span class="ws-filter-chip">动态图表</span>
+                    <span class="ws-filter-chip">静态图表</span>
+                    <span class="ws-filter-chip">流程/地图</span>
+                </div>
+                <div class="ws-chart-grid">
+            `;
+            task1Charts.forEach(c => {
+                html += `
+                    <div class="ws-chart-card" onclick="openTask1Chart('${c.id}')">
+                        <div class="ws-chart-en" style="color:#4D8C85">${c.en}</div>
+                        <div class="ws-chart-cn">${c.cn}</div>
+                        <div class="ws-chart-progress">0% · 0/8课时</div>
+                    </div>
+                `;
+            });
+            html += `</div>`;
+            container.innerHTML = html;
+        }
+        const task1Steps = ['图表识别', '信息筛选', '找主要特征', 'Overview', '信息分组', 'Details', 'Language', 'Practice'];
+        function openTask1Chart(chartId) {
+            const chart = task1Charts.find(c => c.id === chartId);
+            const container = document.getElementById('writingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderTask1Lab()">◀ 返回Task 1 Lab</button>
+                <div class="ws-page-title" style="color:#4D8C85">${chart.en}<span class="ws-page-title-cn">${chart.cn}</span></div>
+                <div class="ws-stepper">
+                    ${task1Steps.map((s, i) => `<div class="ws-step-dot ${i === 0 ? 'active' : ''}"></div>`).join('')}
+                </div>
+                <div class="ws-stepper-labels">${task1Steps.map(s => `<span>${s}</span>`).join('')}</div>
+                <div class="ws-content-card">
+                    <div class="ws-content-empty">📊 ${task1Steps[0]}内容正在整理中<br><br>敬请期待</div>
                 </div>
             `;
+        }
+
+        // ========== 03 Task 2 Studio｜大作文工作室 ==========
+        const task2Types = [
+            { id: 'opinion', en: 'Opinion Essay', cn: '同意 / 不同意' },
+            { id: 'discussion', en: 'Discussion Essay', cn: '讨论双方观点' },
+            { id: 'adv', en: 'Advantages & Disadvantages', cn: '利弊分析' },
+            { id: 'problem', en: 'Problems & Solutions', cn: '问题与方案' },
+            { id: 'twopart', en: 'Two-part Questions', cn: '双问句型' },
+            { id: 'mixed', en: 'Mixed / Hybrid', cn: '混合题型' }
+        ];
+        function renderTask2Studio() {
+            const container = document.getElementById('writingContent');
+            let html = `
+                <button class="back-to-list-btn" onclick="renderWritingHome()">◀ 返回</button>
+                <div class="ws-page-title" style="color:#B85F3D">Task 2 Studio<span class="ws-page-title-cn">大作文工作室</span></div>
+                <div class="ws-page-sub">观点 · 论证 · 段落 · 结构</div>
+                <div class="ws-modules">
+            `;
+            task2Types.forEach(t => {
+                html += `
+                    <div class="ws-module-row" onclick="openTask2Type('${t.id}')">
+                        <div class="ws-module-icon" style="background:#B85F3D1a;color:#B85F3D">✍️</div>
+                        <div class="ws-module-body">
+                            <div class="ws-module-en" style="color:#B85F3D">${t.en}</div>
+                            <div class="ws-module-cn">${t.cn}</div>
+                        </div>
+                        <div class="ws-module-arrow">›</div>
+                    </div>
+                `;
+            });
+            html += `</div>`;
+            container.innerHTML = html;
+        }
+        // Opinion Essay作为标准模板(文件明确要求),其余题型复用同一套6步流程
+        const task2Steps = ['审题', '观点', '立场', '结构', '段落', '写作'];
+        function openTask2Type(typeId) {
+            const type = task2Types.find(t => t.id === typeId);
+            const container = document.getElementById('writingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderTask2Studio()">◀ 返回Task 2 Studio</button>
+                <div class="ws-page-title" style="color:#B85F3D">${type.en}<span class="ws-page-title-cn">${type.cn}</span></div>
+                <div class="ws-stepper-line">
+                    ${task2Steps.map((s, i) => `
+                        <div class="ws-stepper-item">
+                            <div class="ws-stepper-circle ${i === 0 ? 'active' : ''}"></div>
+                            <div class="ws-stepper-text">${s}</div>
+                        </div>
+                        ${i < task2Steps.length - 1 ? '<div class="ws-stepper-connector"></div>' : ''}
+                    `).join('')}
+                </div>
+                <div class="ws-content-card">
+                    <div class="ws-content-empty">✍️ ${task2Steps[0]}阶段内容正在整理中<br><br>敬请期待</div>
+                </div>
+                <div class="ws-step-actions">
+                    <button class="ws-step-btn-secondary">上一阶段</button>
+                    <button class="ws-step-btn-primary">下一阶段</button>
+                </div>
+            `;
+        }
+
+        // ========== 04 Sentence Builder｜句子工坊 ==========
+        const sentenceFunctions = ['表达观点', '原因', '结果', '比较/对比', '举例', '让步/转折', '条件', '问题→影响', '解决方案', '趋势/数据', '强调/限定', '更多'];
+        function renderSentenceBuilder() {
+            const container = document.getElementById('writingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderWritingHome()">◀ 返回</button>
+                <div class="ws-page-title" style="color:#25745E">Sentence Builder<span class="ws-page-title-cn">句子工坊</span></div>
+                <div class="ws-page-sub">把想法变成地道的雅思句子</div>
+                <div class="ws-filter-row">
+                    ${sentenceFunctions.map((f, i) => `<span class="ws-filter-chip ${i === 0 ? 'active' : ''}" style="${i === 0 ? 'background:#25745E;border-color:#25745E' : ''}">${f}</span>`).join('')}
+                </div>
+
+                <div class="ws-content-card" style="margin-top:14px;">
+                    <div class="ws-subfeature-title">💡 思路输入</div>
+                    <div class="ws-subfeature-desc">输入你的想法，看看如何用英语表达</div>
+                    <div class="ws-fake-input">输入你的想法…</div>
+                    <button class="ws-step-btn-primary" style="background:#25745E;margin-top:10px;">生成句子思路 →</button>
+                </div>
+
+                <div class="ws-content-card">
+                    <div class="ws-subfeature-title">句子升级 Sentence Upgrade</div>
+                    <div class="ws-level-tags">
+                        <span class="ws-level-tag">Level 1 基础</span>
+                        <span class="ws-level-tag">Level 2 进阶</span>
+                        <span class="ws-level-tag">Level 3 地道</span>
+                        <span class="ws-level-tag ws-level-tag-gold">Level 4 高阶</span>
+                    </div>
+                    <div class="ws-content-empty" style="padding:16px 0 4px;">内容正在整理中</div>
+                </div>
+
+                <div class="ws-modules">
+                    <div class="ws-module-row" onclick="showToast('积木模式开发中')">
+                        <div class="ws-module-icon" style="background:#25745E1a;color:#25745E">🧱</div>
+                        <div class="ws-module-body"><div class="ws-module-en" style="color:#25745E">Build Mode</div><div class="ws-module-cn">积木模式</div></div>
+                        <div class="ws-module-arrow">›</div>
+                    </div>
+                    <div class="ws-module-row" onclick="showToast('句子手术室开发中')">
+                        <div class="ws-module-icon" style="background:#25745E1a;color:#25745E">🩺</div>
+                        <div class="ws-module-body"><div class="ws-module-en" style="color:#25745E">Sentence Clinic</div><div class="ws-module-cn">句子手术室</div></div>
+                        <div class="ws-module-arrow">›</div>
+                    </div>
+                    <div class="ws-module-row" onclick="showToast('功能句型库开发中')">
+                        <div class="ws-module-icon" style="background:#25745E1a;color:#25745E">📚</div>
+                        <div class="ws-module-body"><div class="ws-module-en" style="color:#25745E">Pattern Library</div><div class="ws-module-cn">功能句型库</div></div>
+                        <div class="ws-module-arrow">›</div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // ========== 05 Argument Bank｜论证库 ==========
+        const argumentTopics = ['Education 教育', 'Environment 环境', 'Technology 科技', 'Work 工作', 'Government 政府', 'Society 社会', 'Health 健康', 'Crime 犯罪', 'Media 媒体', 'Transport 交通', 'Globalisation 全球化', 'Culture 文化', 'More 更多'];
+        function renderArgumentBank() {
+            const container = document.getElementById('writingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderWritingHome()">◀ 返回</button>
+                <div class="ws-page-title" style="color:#397765">Argument Bank<span class="ws-page-title-cn">论证库</span></div>
+                <div class="ws-page-sub">从观点到论证，构建你的写作思维</div>
+                <div class="ws-fake-input" style="margin-bottom:10px;">🔍 搜索话题 / 关键词</div>
+                <div class="ws-filter-row">
+                    ${argumentTopics.map((t, i) => `<span class="ws-filter-chip ${i === 0 ? 'active' : ''}" style="${i === 0 ? 'background:#397765;border-color:#397765' : ''}" onclick="openArgumentTopic('${t}')">${t}</span>`).join('')}
+                </div>
+                <div class="ws-content-card" style="margin-top:14px;">
+                    <div class="ws-content-empty">💭 选择一个话题查看子主题<br><br>内容正在整理中</div>
+                </div>
+            `;
+        }
+        function openArgumentTopic(topic) {
+            const container = document.getElementById('writingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderArgumentBank()">◀ 返回论证库</button>
+                <div class="ws-page-title" style="color:#397765;font-size:18px;">${topic}</div>
+                <div class="ws-content-card">
+                    <div class="ws-content-empty">
+                        QUESTION 题目 → ARGUMENT ANGLES 论证角度<br><br>
+                        Access 教育机会 / Cost 成本 / Quality 教学质量 / Social 社会发展<br><br>
+                        点击任意角度进入 ARGUMENT CHAIN 论证链：<br>
+                        CLAIM 观点 → WHY 原因 → HOW 机制 → EXAMPLE 例子 → RESULT 结果<br><br>
+                        内容正在整理中，敬请期待
+                    </div>
+                </div>
+                <div class="ws-step-actions">
+                    <button class="ws-step-btn-primary" style="background:#397765;width:100%;" onclick="showToast('句子工坊内容整理中')">Send to Sentence Builder →</button>
+                </div>
+            `;
+        }
+
+        // ========== 06 Writing Coach｜写作教练 ==========
+        function renderWritingCoach() {
+            const container = document.getElementById('writingContent');
+            container.innerHTML = `
+                <button class="back-to-list-btn" onclick="renderWritingHome()">◀ 返回</button>
+                <div class="ws-page-title" style="color:#994C3A">Writing Coach<span class="ws-page-title-cn">写作教练</span></div>
+                <div class="ws-tab-row">
+                    <span class="ws-tab active" onclick="switchCoachTab('practice')">我的练习</span>
+                    <span class="ws-tab" onclick="switchCoachTab('report')">诊断报告</span>
+                </div>
+                <div id="coachTabContent">
+                    <div class="ws-content-card">
+                        <div class="ws-content-empty">Task 1 · Task 2 · 计时写作 · 非计时练习<br><br>练习记录正在整理中</div>
+                    </div>
+                </div>
+            `;
+        }
+        function switchCoachTab(tab) {
+            document.querySelectorAll('.ws-tab').forEach(el => el.classList.remove('active'));
+            event.target.classList.add('active');
+            const el = document.getElementById('coachTabContent');
+            if (tab === 'practice') {
+                el.innerHTML = `<div class="ws-content-card"><div class="ws-content-empty">Task 1 · Task 2 · 计时写作 · 非计时练习<br><br>练习记录正在整理中</div></div>`;
+            } else {
+                el.innerHTML = `
+                    <div class="ws-band-card">
+                        <div class="ws-band-label">Estimated Band</div>
+                        <div class="ws-band-score">6.0–6.5</div>
+                    </div>
+                    <div class="ws-content-card">
+                        <div class="ws-radar-row"><span>Task Response</span><div class="ws-radar-bar"><div class="ws-radar-fill" style="width:55%;background:#994C3A"></div></div></div>
+                        <div class="ws-radar-row"><span>Coherence &amp; Cohesion</span><div class="ws-radar-bar"><div class="ws-radar-fill" style="width:60%;background:#994C3A"></div></div></div>
+                        <div class="ws-radar-row"><span>Lexical Resource</span><div class="ws-radar-bar"><div class="ws-radar-fill" style="width:48%;background:#994C3A"></div></div></div>
+                        <div class="ws-radar-row"><span>Grammatical Range</span><div class="ws-radar-bar"><div class="ws-radar-fill" style="width:52%;background:#994C3A"></div></div></div>
+                    </div>
+                    <div class="ws-content-card">
+                        <div class="ws-subfeature-title">TOP PRIORITIES 优先改进</div>
+                        <div class="ws-content-empty" style="padding:10px 0;">内容正在整理中</div>
+                    </div>
+                `;
+            }
         }
 
 
