@@ -1,0 +1,102 @@
+[
+  {
+    "num": "01",
+    "title": "Sentence Frame",
+    "titleCn": "句子骨架",
+    "subtitle": "搭好主谓宾补的基本车架",
+    "module": "模块1",
+    "days": "D1-D3",
+    "matrixIds": [
+      "M1"
+    ],
+    "fingerprint": "S+V｜S+V+SC｜S+V+O｜S+V+O+O｜S+V+O+OC｜There be+N｜Aux+S+V...?",
+    "content": "谓语/宾语/补语/状语；五种基本句型；否定与疑问；It/There；完整句、标点和并列。",
+    "outcome": "先搭主干再加细节，不再靠「主语后面的动词」猜结构。",
+    "status": "文字40/50｜D2待复测",
+    "progress": 40
+  },
+  {
+    "num": "02",
+    "title": "Noun System",
+    "titleCn": "名词系统",
+    "subtitle": "装入明确的人、事物与概念",
+    "module": "模块2",
+    "days": "D4-D6",
+    "matrixIds": [
+      "M2"
+    ],
+    "fingerprint": "Det+(Adj)+N+(后置修饰)｜a/an/the/零冠词+N｜one/many/much+N｜S(sg/pl)+V(sg/pl)｜one of+Ns+V(sg)",
+    "content": "可数/不可数；单复数；a/an/the/零冠词；限定词；代词指代；主谓一致；形容词/副词位置。",
+    "outcome": "名词边界清楚，单数名词不「裸奔」，主谓形式一致。",
+    "status": "未开始",
+    "progress": 0
+  },
+  {
+    "num": "03",
+    "title": "Verb Engine",
+    "titleCn": "动词发动机",
+    "subtitle": "装上控制时间与状态的发动机",
+    "module": "模块3-4",
+    "days": "D7-D12",
+    "matrixIds": [
+      "M3",
+      "M4"
+    ],
+    "fingerprint": "S+[modal]+[have]+[be]+V｜S+be+V-ed｜S+V+to do/doing｜S+V+O+to do",
+    "content": "16时态与参照点；情态及情态完成式；主动/被动；使役/感官；have/get sth done；wish/if only；转述与动词搭配。",
+    "outcome": "先定时间、立场和焦点，再一次性搭好动词链。",
+    "status": "16时态识别≈96%｜输出待迁移",
+    "progress": 75
+  },
+  {
+    "num": "04",
+    "title": "Logic Network",
+    "titleCn": "从句与逻辑",
+    "subtitle": "接通句子之间的线路",
+    "module": "模块5-7",
+    "days": "D13-D21",
+    "matrixIds": [
+      "M5",
+      "M6",
+      "M7"
+    ],
+    "fingerprint": "Clause+and/but+Clause｜Although+Clause, Clause｜If+Clause, Clause｜N+who/which/that+V...｜V+that/wh-/whether+Clause",
+    "content": "因果/转折/让步/条件/目的；限定与非限定定语从句；主语/宾语/表语从句；间接疑问；逗号与分号。",
+    "outcome": "形成「观点→原因→例子→结果」，并知道从句在主句里占哪个插槽。",
+    "status": "未开始",
+    "progress": 0
+  },
+  {
+    "num": "05",
+    "title": "Sentence Compressor",
+    "titleCn": "句子压缩器",
+    "subtitle": "把次要从句改装成简洁部件",
+    "module": "模块8",
+    "days": "D22-D24",
+    "matrixIds": [
+      "M8"
+    ],
+    "fingerprint": "N+V-ing/V-ed...｜To do..., S+V｜Having done..., S+V｜S+be+V-ed",
+    "content": "不定式、动名词、现在/过去分词；关系从句缩减；客观被动；逻辑主语；悬垂修饰和残句。",
+    "outcome": "句子更紧凑，但主干和动作执行者仍一眼可见。",
+    "status": "未开始",
+    "progress": 0
+  },
+  {
+    "num": "06",
+    "title": "Expression Tuning",
+    "titleCn": "高阶表达调校",
+    "subtitle": "完成整车调校并投入真实表达",
+    "module": "模块9-10",
+    "days": "D25-D30",
+    "matrixIds": [
+      "M9",
+      "M10"
+    ],
+    "fingerprint": "A+be+more...than+B｜It may be argued that+Clause｜What...is...｜Not only+Aux+S+V...",
+    "content": "比较/倍数；hedging；名词化；平行；强调句与安全倒装；同位语；省略/替代；正式写作与生活口语切换。",
+    "outcome": "150词重大错误≤4，能在Task 2与口语中稳定选择「最清楚且够复杂」的结构。",
+    "status": "未开始",
+    "progress": 0
+  }
+]
