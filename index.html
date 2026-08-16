@@ -542,6 +542,20 @@
         .ws-radar-bar { flex: 1; height: 6px; background: #F4F2ED; border-radius: 3px; overflow: hidden; }
         .ws-radar-fill { height: 100%; border-radius: 3px; }
 
+        /* Argument Chain论证链 */
+        .argchain-node { background: white; border-radius: 14px; padding: 14px 16px; box-shadow: 0 3px 10px rgba(0,0,0,0.04); border-left: 4px solid #397765; }
+        .argchain-node-label { font-family: Georgia, serif; font-weight: bold; font-size: 13px; color: #397765; }
+        .argchain-node-cn { font-size: 11px; color: #888; font-weight: normal; margin-left: 8px; font-family: -apple-system, sans-serif; }
+        .argchain-node-content { font-size: 12px; color: #999; margin-top: 6px; }
+        .argchain-arrow { text-align: center; color: #ccc; font-size: 14px; padding: 4px 0; }
+        .argchain-note { background: #F4F2ED; border-radius: 10px; padding: 10px 12px; font-size: 10.5px; color: #888; margin: 12px 0 18px; }
+        .argchain-note-label { font-weight: bold; color: #666; }
+        .ws-section-label { font-size: 12px; font-weight: bold; color: #397765; margin-bottom: 8px; }
+        .ws-lang-tabs { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; }
+        .ws-lang-tab-card { background: white; border-radius: 12px; padding: 12px 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+        .ws-lang-tab-title { font-family: Georgia, serif; font-weight: bold; font-size: 11.5px; color: #172A45; }
+        .ws-lang-tab-cn { font-size: 10.5px; color: #888; }
+
         /* ===== 时态详解:子标签 ===== */
         .tense-subtabs {
             display: flex;
@@ -3996,24 +4010,89 @@
                 </div>
             `;
         }
+        const argumentAngles = [
+            { id: 'access', en: 'Access', cn: '教育机会' },
+            { id: 'cost', en: 'Cost', cn: '成本' },
+            { id: 'quality', en: 'Quality', cn: '教学质量' },
+            { id: 'social', en: 'Social', cn: '社会发展' },
+            { id: 'balanced', en: 'Balanced View', cn: '平衡观点' }
+        ];
         function openArgumentTopic(topic) {
             const container = document.getElementById('writingContent');
             container.innerHTML = `
                 <button class="back-to-list-btn" onclick="renderArgumentBank()">◀ 返回论证库</button>
                 <div class="ws-page-title" style="color:#397765;font-size:18px;">${topic}</div>
                 <div class="ws-content-card">
-                    <div class="ws-content-empty">
-                        QUESTION 题目 → ARGUMENT ANGLES 论证角度<br><br>
-                        Access 教育机会 / Cost 成本 / Quality 教学质量 / Social 社会发展<br><br>
-                        点击任意角度进入 ARGUMENT CHAIN 论证链：<br>
-                        CLAIM 观点 → WHY 原因 → HOW 机制 → EXAMPLE 例子 → RESULT 结果<br><br>
-                        内容正在整理中，敬请期待
-                    </div>
+                    <div class="ws-subfeature-title">QUESTION 题目</div>
+                    <div class="ws-content-empty" style="padding:6px 0 12px;text-align:left;">具体题目内容正在整理中</div>
+                    <div class="ws-subfeature-title">ARGUMENT ANGLES 论证角度</div>
                 </div>
-                <div class="ws-step-actions">
-                    <button class="ws-step-btn-primary" style="background:#397765;width:100%;" onclick="showToast('句子工坊内容整理中')">Send to Sentence Builder →</button>
+                <div class="ws-modules">
+                    ${argumentAngles.map(a => `
+                        <div class="ws-module-row" onclick="openArgumentChain('${topic}', '${a.en}')">
+                            <div class="ws-module-icon" style="background:#3977651a;color:#397765">💭</div>
+                            <div class="ws-module-body">
+                                <div class="ws-module-en" style="color:#397765">${a.en}</div>
+                                <div class="ws-module-cn">${a.cn}</div>
+                            </div>
+                            <div class="ws-module-arrow">›</div>
+                        </div>
+                    `).join('')}
                 </div>
             `;
+        }
+
+        // ARGUMENT CHAIN｜论证链:5节点可视化+底部语言资源区
+        const argumentChainNodes = [
+            { key: 'claim', label: 'CLAIM', cn: '观点' },
+            { key: 'why', label: 'WHY', cn: '原因' },
+            { key: 'how', label: 'HOW', cn: '机制' },
+            { key: 'example', label: 'EXAMPLE', cn: '例子' },
+            { key: 'result', label: 'RESULT', cn: '结果' }
+        ];
+        function openArgumentChain(topic, angle) {
+            const container = document.getElementById('writingContent');
+            let html = `
+                <button class="back-to-list-btn" onclick="openArgumentTopic('${topic}')">◀ 返回${topic}</button>
+                <div class="ws-page-title" style="color:#397765;font-size:17px;">ARGUMENT CHAIN<span class="ws-page-title-cn">论证链</span></div>
+                <div class="ws-page-sub">${topic} · ${angle}</div>
+            `;
+            argumentChainNodes.forEach((n, i) => {
+                html += `
+                    <div class="argchain-node">
+                        <div class="argchain-node-label">${n.label}<span class="argchain-node-cn">${n.cn}</span></div>
+                        <div class="argchain-node-content">内容正在整理中</div>
+                    </div>
+                `;
+                if (i < argumentChainNodes.length - 1) html += `<div class="argchain-arrow">↓</div>`;
+            });
+            html += `
+                <div class="argchain-note">
+                    <span class="argchain-note-label">预留字段：</span>counter_argument（反方观点）· limitation（局限性）
+                </div>
+
+                <div class="ws-section-label">LANGUAGE RESOURCES｜语言资源</div>
+                <div class="ws-lang-tabs">
+                    <div class="ws-lang-tab-card">
+                        <div class="ws-lang-tab-title">WORDS</div>
+                        <div class="ws-lang-tab-cn">核心词汇</div>
+                        <div class="ws-content-empty" style="padding:8px 0;">待补充</div>
+                    </div>
+                    <div class="ws-lang-tab-card">
+                        <div class="ws-lang-tab-title">COLLOCATIONS</div>
+                        <div class="ws-lang-tab-cn">固定搭配</div>
+                        <div class="ws-content-empty" style="padding:8px 0;">待补充</div>
+                    </div>
+                    <div class="ws-lang-tab-card">
+                        <div class="ws-lang-tab-title">SENTENCE PATTERNS</div>
+                        <div class="ws-lang-tab-cn">可用句型</div>
+                        <div class="ws-content-empty" style="padding:8px 0;">待补充</div>
+                    </div>
+                </div>
+
+                <button class="ws-step-btn-primary" style="background:#397765;width:100%;margin-top:10px;" onclick="showToast('句子工坊内容整理中')">Send to Sentence Builder →</button>
+            `;
+            container.innerHTML = html;
         }
 
         // ========== 06 Writing Coach｜写作教练 ==========
