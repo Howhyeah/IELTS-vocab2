@@ -329,21 +329,34 @@
         .tmap-desc-clue { font-size: 12.5px; color: #888; }
 
         /* ===== Grammar Studio 语法工坊 (Terracotta焦糖色系) ===== */
-        .gs-map-title { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: #172A45; text-align: center; }
-        .gs-map-subtitle { font-size: 12.5px; color: #687386; text-align: center; margin-bottom: 20px; }
-        .gs-map-timeline { position: relative; padding-left: 22px; margin-bottom: 20px; }
-        .gs-map-timeline::before { content: ''; position: absolute; left: 5px; top: 8px; bottom: 8px; width: 2px; background: #F0D2B6; }
-        .gs-map-item { position: relative; margin-bottom: 16px; cursor: pointer; }
-        .gs-map-dot { position: absolute; left: -22px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #C97850; border: 2px solid white; box-shadow: 0 0 0 2px #C97850; }
-        .gs-map-item-body { background: white; border-radius: 14px; padding: 12px 14px; box-shadow: 0 3px 12px rgba(0,0,0,0.05); }
-        .gs-map-item-title { font-size: 14.5px; font-weight: bold; color: #172A45; }
-        .gs-map-item-sub { font-size: 12px; color: #687386; margin-top: 2px; }
+        .gs-map-header { text-align: center; margin-bottom: 18px; }
+        .gs-map-title { font-family: Georgia, serif; font-size: 20px; font-weight: 700; color: #172A45; }
+        .gs-map-subtitle { font-size: 12.5px; color: #687386; margin-top: 2px; }
+        .gs-map-tagline { font-size: 11.5px; color: #a3a3a3; margin-top: 4px; }
+        .gs-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 18px; }
+        .gs-grid-card {
+            background: white; border-left: 4px solid #ccc; border-radius: 14px;
+            padding: 12px 12px 10px; position: relative; min-height: 128px; cursor: pointer;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+        }
+        .gs-grid-num { font-size: 10.5px; font-weight: bold; }
+        .gs-grid-title-en { font-size: 13px; font-weight: bold; color: #172A45; margin-top: 2px; font-family: Georgia, serif; }
+        .gs-grid-title-cn { font-size: 11.5px; color: #444; }
+        .gs-grid-sub { font-size: 10px; color: #999; margin-top: 3px; line-height: 1.4; }
+        .gs-grid-icon { position: absolute; right: 10px; bottom: 26px; font-size: 26px; opacity: 0.85; }
+        .gs-grid-progress-wrap { display: flex; align-items: center; gap: 6px; position: absolute; left: 12px; right: 12px; bottom: 10px; }
+        .gs-grid-progress-bar { flex: 1; height: 4px; background: #eee; border-radius: 2px; overflow: hidden; }
+        .gs-grid-progress-fill { height: 100%; border-radius: 2px; }
+        .gs-grid-progress-text { font-size: 10px; font-weight: bold; }
         .gs-diag-box { background: #FBF0E8; border: 1px solid #F0D2B6; border-radius: 14px; padding: 14px; margin-top: 8px; }
         .gs-diag-box-small { margin-top: 16px; }
         .gs-diag-title { font-size: 12px; font-weight: bold; color: #A0522D; margin-bottom: 8px; }
-        .gs-diag-row { display: flex; justify-content: space-between; font-size: 12.5px; color: #555; padding: 5px 0; border-bottom: 1px dashed #F0D2B6; }
+        .gs-diag-row { display: flex; align-items: center; gap: 8px; font-size: 12px; color: #555; padding: 6px 0; border-bottom: 1px dashed #F0D2B6; }
         .gs-diag-row:last-child { border-bottom: none; }
-        .gs-diag-arrow { color: #C97850; font-weight: bold; }
+        .gs-diag-icon { font-size: 14px; flex-shrink: 0; }
+        .gs-diag-text { flex: 1; }
+        .gs-diag-arrow { color: #C97850; font-weight: bold; font-size: 11px; }
+        .gs-diagnose-btn { width: 100%; background: #3f7a5c; color: white; border: none; padding: 13px; border-radius: 22px; font-size: 14px; font-weight: bold; margin-top: 12px; }
 
         .gs-matrix-current { background: linear-gradient(145deg, #C97850, #E2AE87); border-radius: 22px; padding: 20px; color: white; margin-bottom: 16px; }
         .gs-matrix-current-days { font-size: 11px; opacity: 0.8; letter-spacing: 1px; }
@@ -3534,28 +3547,52 @@
                 container.innerHTML = `<div class="records-empty">语法数据还没有上传</div>`;
                 return;
             }
+            const cardMeta = [
+                { icon: '📐', color: '#172A45' },
+                { icon: '👥', color: '#3f9d6b' },
+                { icon: '⚙️', color: '#C97850' },
+                { icon: '🕸️', color: '#4D9D9A' },
+                { icon: '🗜️', color: '#8a6fb0' },
+                { icon: '🎚️', color: '#a06a3a' }
+            ];
             let html = `
-                <div class="gs-map-title">Sentence Assembly Map</div>
-                <div class="gs-map-subtitle">英语句子组装地图</div>
-                <div class="gs-map-timeline">
+                <div class="gs-map-header">
+                    <div class="gs-map-title">Sentence Assembly Map</div>
+                    <div class="gs-map-subtitle">英语句子组装地图</div>
+                    <div class="gs-map-tagline">六步造出能运行的英语</div>
+                </div>
+                <div class="gs-grid">
             `;
-            grammarMap.forEach(stage => {
+            grammarMap.forEach((stage, i) => {
+                const meta = cardMeta[i] || cardMeta[0];
                 html += `
-                    <div class="gs-map-item" onclick="openGrammarMatrix('${stage.matrixIds[0]}')">
-                        <div class="gs-map-dot"></div>
-                        <div class="gs-map-item-body">
-                            <div class="gs-map-item-title">${stage.num} ${stage.titleCn}</div>
-                            <div class="gs-map-item-sub">${stage.subtitle}</div>
+                    <div class="gs-grid-card" style="border-left-color:${meta.color}" onclick="openGrammarMatrix('${stage.matrixIds[0]}')">
+                        <div class="gs-grid-num" style="color:${meta.color}">${stage.num}</div>
+                        <div class="gs-grid-title-en">${stage.title}</div>
+                        <div class="gs-grid-title-cn">${stage.titleCn}</div>
+                        <div class="gs-grid-sub">${stage.subtitle}</div>
+                        <div class="gs-grid-icon">${meta.icon}</div>
+                        <div class="gs-grid-progress-wrap">
+                            <div class="gs-grid-progress-bar"><div class="gs-grid-progress-fill" style="width:${stage.progress}%;background:${meta.color}"></div></div>
+                            <div class="gs-grid-progress-text" style="color:${meta.color}">${stage.progress}%</div>
                         </div>
                     </div>
                 `;
             });
             html += `</div>`;
 
+            const diagIcons = ['📄', '🔤', '🕐', '🔗', '📊'];
             html += `<div class="gs-diag-box"><div class="gs-diag-title">一眼诊断｜一句话哪里错，就回到哪一层</div>`;
-            grammarDiagnosis.forEach(d => {
-                html += `<div class="gs-diag-row"><span>${d.problem}</span><span class="gs-diag-arrow">→ ${d.target}</span></div>`;
+            grammarDiagnosis.forEach((d, i) => {
+                html += `
+                    <div class="gs-diag-row">
+                        <span class="gs-diag-icon">${diagIcons[i] || '📌'}</span>
+                        <span class="gs-diag-text">${d.problem}</span>
+                        <span class="gs-diag-arrow">→ ${d.target}</span>
+                    </div>
+                `;
             });
+            html += `<button class="gs-diagnose-btn" onclick="showToast('诊断功能正在开发中')">开始诊断 →</button>`;
             html += `</div>`;
 
             container.innerHTML = html;
