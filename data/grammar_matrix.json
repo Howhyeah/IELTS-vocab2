@@ -1,0 +1,112 @@
+[
+  {
+    "id": "M1",
+    "days": "D1-3",
+    "title": "句子骨架",
+    "subtitle": "搭基本车架",
+    "fingerprint": "S+V｜S+V+SC｜S+V+O\nS+V+O+O｜S+V+O+OC\nThere be+N｜Aux+S+V...?｜It+be+adj+to do/that...",
+    "outcome": "认出谓语、宾语、补语；无双谓语/残句。",
+    "status": "文字40/50；D2+口述待完成",
+    "progress": 40,
+    "hasLesson": true
+  },
+  {
+    "id": "M2",
+    "days": "D4-6",
+    "title": "名词系统",
+    "subtitle": "装入人/事物/概念",
+    "fingerprint": "Det+(Adj)+N+(后置修饰)\na/an/the/零冠词+N｜one/many/much+N\nS(sg/pl)+V(sg/pl)｜one of+Ns+V(sg)",
+    "outcome": "冠词、数、一致和指代稳定；名词不「裸奔」。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  },
+  {
+    "id": "M3",
+    "days": "D7-9",
+    "title": "时态系统",
+    "subtitle": "设定时间与视角",
+    "fingerprint": "S+[aux]+V：do / be doing / have done / have been doing\n过去｜现在｜将来｜过去将来\nBy+参照点, S+will/would have done",
+    "outcome": "先定时间线，再选事实/过程/结果/持续。",
+    "status": "识别≈96%；输出约75-80%",
+    "progress": 85,
+    "hasLesson": false
+  },
+  {
+    "id": "M4",
+    "days": "D10-12",
+    "title": "动词链",
+    "subtitle": "控制立场与焦点",
+    "fingerprint": "S+modal+(have)+V｜S+be+V-ed\nS+V+to do/doing｜S+V+O+to do\nmake/let+O+do｜have/get+O+V-ed｜wish+过去式",
+    "outcome": "控制情态、被动、非谓语、使役、愿望与转述。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  },
+  {
+    "id": "M5",
+    "days": "D13-15",
+    "title": "并列与逻辑",
+    "subtitle": "连接平行观点",
+    "fingerprint": "Clause+and/but/so+Clause\nClause because Clause｜Because of+N, Clause\nAlthough+Clause, Clause｜Despite+N, Clause",
+    "outcome": "连接单位匹配；无逗号粘连；形成观点链。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  },
+  {
+    "id": "M6",
+    "days": "D16-18",
+    "title": "状语与条件",
+    "subtitle": "安装背景条件",
+    "fingerprint": "When/Because/Although+Clause, Clause\nIf+现在, will+V｜If+过去, would+V\nIf+had done, would have done｜so that+Clause",
+    "outcome": "控制时间、原因、让步、目的及真实/虚拟条件。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  },
+  {
+    "id": "M7",
+    "days": "D19-21",
+    "title": "从句插槽",
+    "subtitle": "扩展名词或观点",
+    "fingerprint": "N+who/which/that+V...\nThat/What/Whether+Clause+V｜V+that/wh-+Clause\nCould you tell me+wh-+S+V...?（间接疑问）",
+    "outcome": "看出从句修饰谁/占何成分；能主动造复杂句。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  },
+  {
+    "id": "M8",
+    "days": "D22-24",
+    "title": "句子压缩",
+    "subtitle": "精简次要结构",
+    "fingerprint": "N+V-ing/V-ed...｜To do..., S+V\nDoing/Done..., S+V｜Having done..., S+V\nClause → participle phrase｜S+be+V-ed",
+    "outcome": "压缩后主干仍清楚；动作执行者不悬垂。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  },
+  {
+    "id": "M9",
+    "days": "D25-27",
+    "title": "高阶表达",
+    "subtitle": "调校语气与焦点",
+    "fingerprint": "A+be+more...than+B｜twice as...as\nIt may be argued that+Clause｜What...is...\nNot only+Aux+S+V...｜N, apposition, ...",
+    "outcome": "控制比较、hedging、名词化、强调、倒装与语域。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  },
+  {
+    "id": "M10",
+    "days": "D28-30",
+    "title": "整车上路",
+    "subtitle": "综合真实输出",
+    "fingerprint": "简单骨架 → 从句扩展 → 非谓语压缩 → 语气校准\n写作：claim+reason+example+result\n口语：answer+reason+detail+reflection",
+    "outcome": "跨主题调用；150词重大错≤4；总评≥81/100。",
+    "status": "未开始",
+    "progress": 0,
+    "hasLesson": false
+  }
+]
