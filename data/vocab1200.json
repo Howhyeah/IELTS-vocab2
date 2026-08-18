@@ -710,5 +710,5257 @@
         "core": true
       }
     ]
+  },
+  {
+    "id": "ch03",
+    "title": "金融市场与投资",
+    "words": [
+      {
+        "id": "vocab1200_101",
+        "no": 101,
+        "en": "financial market",
+        "cn": "金融市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_102",
+        "no": 102,
+        "en": "capital market",
+        "cn": "资本市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_103",
+        "no": 103,
+        "en": "money market",
+        "cn": "货币市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_104",
+        "no": 104,
+        "en": "stock market",
+        "cn": "股票市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_105",
+        "no": 105,
+        "en": "equity",
+        "cn": "权益/股票",
+        "core": true
+      },
+      {
+        "id": "vocab1200_106",
+        "no": 106,
+        "en": "share",
+        "cn": "股份/股票",
+        "core": false
+      },
+      {
+        "id": "vocab1200_107",
+        "no": 107,
+        "en": "common stock",
+        "cn": "普通股",
+        "core": false
+      },
+      {
+        "id": "vocab1200_108",
+        "no": 108,
+        "en": "preferred stock",
+        "cn": "优先股",
+        "core": false
+      },
+      {
+        "id": "vocab1200_109",
+        "no": 109,
+        "en": "market capitalization",
+        "cn": "市值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_110",
+        "no": 110,
+        "en": "large cap",
+        "cn": "大盘股",
+        "core": false
+      },
+      {
+        "id": "vocab1200_111",
+        "no": 111,
+        "en": "mid cap",
+        "cn": "中盘股",
+        "core": false
+      },
+      {
+        "id": "vocab1200_112",
+        "no": 112,
+        "en": "small cap",
+        "cn": "小盘股",
+        "core": false
+      },
+      {
+        "id": "vocab1200_113",
+        "no": 113,
+        "en": "index",
+        "cn": "指数",
+        "core": true
+      },
+      {
+        "id": "vocab1200_114",
+        "no": 114,
+        "en": "broad-based index",
+        "cn": "宽基指数",
+        "core": true
+      },
+      {
+        "id": "vocab1200_115",
+        "no": 115,
+        "en": "sector index",
+        "cn": "行业指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_116",
+        "no": 116,
+        "en": "index fund",
+        "cn": "指数基金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_117",
+        "no": 117,
+        "en": "exchange-traded fund (ETF)",
+        "cn": "交易型开放式指数基金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_118",
+        "no": 118,
+        "en": "mutual fund",
+        "cn": "共同基金/公募基金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_119",
+        "no": 119,
+        "en": "active fund",
+        "cn": "主动基金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_120",
+        "no": 120,
+        "en": "passive fund",
+        "cn": "被动基金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_121",
+        "no": 121,
+        "en": "portfolio",
+        "cn": "投资组合",
+        "core": true
+      },
+      {
+        "id": "vocab1200_122",
+        "no": 122,
+        "en": "asset allocation",
+        "cn": "资产配置",
+        "core": true
+      },
+      {
+        "id": "vocab1200_123",
+        "no": 123,
+        "en": "diversification",
+        "cn": "分散投资",
+        "core": true
+      },
+      {
+        "id": "vocab1200_124",
+        "no": 124,
+        "en": "rebalancing",
+        "cn": "再平衡",
+        "core": false
+      },
+      {
+        "id": "vocab1200_125",
+        "no": 125,
+        "en": "risk appetite",
+        "cn": "风险偏好",
+        "core": true
+      },
+      {
+        "id": "vocab1200_126",
+        "no": 126,
+        "en": "risk aversion",
+        "cn": "风险厌恶",
+        "core": false
+      },
+      {
+        "id": "vocab1200_127",
+        "no": 127,
+        "en": "volatility",
+        "cn": "波动率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_128",
+        "no": 128,
+        "en": "drawdown",
+        "cn": "回撤",
+        "core": true
+      },
+      {
+        "id": "vocab1200_129",
+        "no": 129,
+        "en": "maximum drawdown",
+        "cn": "最大回撤",
+        "core": false
+      },
+      {
+        "id": "vocab1200_130",
+        "no": 130,
+        "en": "return",
+        "cn": "收益率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_131",
+        "no": 131,
+        "en": "total return",
+        "cn": "总回报",
+        "core": false
+      },
+      {
+        "id": "vocab1200_132",
+        "no": 132,
+        "en": "annualized return",
+        "cn": "年化收益率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_133",
+        "no": 133,
+        "en": "compound return",
+        "cn": "复合收益",
+        "core": false
+      },
+      {
+        "id": "vocab1200_134",
+        "no": 134,
+        "en": "capital gain",
+        "cn": "资本利得",
+        "core": true
+      },
+      {
+        "id": "vocab1200_135",
+        "no": 135,
+        "en": "dividend",
+        "cn": "股息/分红",
+        "core": true
+      },
+      {
+        "id": "vocab1200_136",
+        "no": 136,
+        "en": "dividend yield",
+        "cn": "股息率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_137",
+        "no": 137,
+        "en": "valuation",
+        "cn": "估值",
+        "core": true
+      },
+      {
+        "id": "vocab1200_138",
+        "no": 138,
+        "en": "price-to-earnings ratio (P/E)",
+        "cn": "市盈率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_139",
+        "no": 139,
+        "en": "price-to-book ratio (P/B)",
+        "cn": "市净率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_140",
+        "no": 140,
+        "en": "earnings per share (EPS)",
+        "cn": "每股收益",
+        "core": false
+      },
+      {
+        "id": "vocab1200_141",
+        "no": 141,
+        "en": "market sentiment",
+        "cn": "市场情绪",
+        "core": true
+      },
+      {
+        "id": "vocab1200_142",
+        "no": 142,
+        "en": "bull market",
+        "cn": "牛市",
+        "core": true
+      },
+      {
+        "id": "vocab1200_143",
+        "no": 143,
+        "en": "bear market",
+        "cn": "熊市",
+        "core": true
+      },
+      {
+        "id": "vocab1200_144",
+        "no": 144,
+        "en": "correction",
+        "cn": "市场回调",
+        "core": true
+      },
+      {
+        "id": "vocab1200_145",
+        "no": 145,
+        "en": "rally",
+        "cn": "反弹/上涨行情",
+        "core": false
+      },
+      {
+        "id": "vocab1200_146",
+        "no": 146,
+        "en": "sell-off",
+        "cn": "抛售",
+        "core": false
+      },
+      {
+        "id": "vocab1200_147",
+        "no": 147,
+        "en": "liquidity premium",
+        "cn": "流动性溢价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_148",
+        "no": 148,
+        "en": "risk premium",
+        "cn": "风险溢价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_149",
+        "no": 149,
+        "en": "safe-haven asset",
+        "cn": "避险资产",
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "ch04",
+    "title": "银行、信贷、债券与公司融资",
+    "words": [
+      {
+        "id": "vocab1200_150",
+        "no": 150,
+        "en": "bank deposit",
+        "cn": "银行存款",
+        "core": true
+      },
+      {
+        "id": "vocab1200_151",
+        "no": 151,
+        "en": "time deposit",
+        "cn": "定期存款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_152",
+        "no": 152,
+        "en": "certificate of deposit (CD)",
+        "cn": "存单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_153",
+        "no": 153,
+        "en": "deposit rate",
+        "cn": "存款利率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_154",
+        "no": 154,
+        "en": "loan",
+        "cn": "贷款",
+        "core": true
+      },
+      {
+        "id": "vocab1200_155",
+        "no": 155,
+        "en": "lending",
+        "cn": "放贷",
+        "core": false
+      },
+      {
+        "id": "vocab1200_156",
+        "no": 156,
+        "en": "credit",
+        "cn": "信贷",
+        "core": true
+      },
+      {
+        "id": "vocab1200_157",
+        "no": 157,
+        "en": "credit line",
+        "cn": "授信额度",
+        "core": false
+      },
+      {
+        "id": "vocab1200_158",
+        "no": 158,
+        "en": "mortgage",
+        "cn": "按揭贷款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_159",
+        "no": 159,
+        "en": "consumer loan",
+        "cn": "消费贷款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_160",
+        "no": 160,
+        "en": "corporate loan",
+        "cn": "企业贷款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_161",
+        "no": 161,
+        "en": "non-performing loan (NPL)",
+        "cn": "不良贷款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_162",
+        "no": 162,
+        "en": "default",
+        "cn": "违约",
+        "core": true
+      },
+      {
+        "id": "vocab1200_163",
+        "no": 163,
+        "en": "credit risk",
+        "cn": "信用风险",
+        "core": true
+      },
+      {
+        "id": "vocab1200_164",
+        "no": 164,
+        "en": "credit rating",
+        "cn": "信用评级",
+        "core": true
+      },
+      {
+        "id": "vocab1200_165",
+        "no": 165,
+        "en": "investment grade",
+        "cn": "投资级",
+        "core": false
+      },
+      {
+        "id": "vocab1200_166",
+        "no": 166,
+        "en": "high-yield bond",
+        "cn": "高收益债",
+        "core": false
+      },
+      {
+        "id": "vocab1200_167",
+        "no": 167,
+        "en": "bond",
+        "cn": "债券",
+        "core": true
+      },
+      {
+        "id": "vocab1200_168",
+        "no": 168,
+        "en": "government bond",
+        "cn": "政府债券",
+        "core": true
+      },
+      {
+        "id": "vocab1200_169",
+        "no": 169,
+        "en": "sovereign bond",
+        "cn": "主权债券",
+        "core": false
+      },
+      {
+        "id": "vocab1200_170",
+        "no": 170,
+        "en": "Treasury bond",
+        "cn": "美国国债/国债",
+        "core": false
+      },
+      {
+        "id": "vocab1200_171",
+        "no": 171,
+        "en": "municipal bond",
+        "cn": "市政债券",
+        "core": false
+      },
+      {
+        "id": "vocab1200_172",
+        "no": 172,
+        "en": "corporate bond",
+        "cn": "公司债",
+        "core": true
+      },
+      {
+        "id": "vocab1200_173",
+        "no": 173,
+        "en": "financial bond",
+        "cn": "金融债",
+        "core": false
+      },
+      {
+        "id": "vocab1200_174",
+        "no": 174,
+        "en": "policy bank bond",
+        "cn": "政策性金融债",
+        "core": false
+      },
+      {
+        "id": "vocab1200_175",
+        "no": 175,
+        "en": "coupon",
+        "cn": "票息",
+        "core": false
+      },
+      {
+        "id": "vocab1200_176",
+        "no": 176,
+        "en": "coupon rate",
+        "cn": "票面利率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_177",
+        "no": 177,
+        "en": "face value",
+        "cn": "面值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_178",
+        "no": 178,
+        "en": "maturity",
+        "cn": "到期日/期限",
+        "core": true
+      },
+      {
+        "id": "vocab1200_179",
+        "no": 179,
+        "en": "yield",
+        "cn": "收益率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_180",
+        "no": 180,
+        "en": "yield to maturity (YTM)",
+        "cn": "到期收益率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_181",
+        "no": 181,
+        "en": "yield to worst (YTW)",
+        "cn": "最差到期收益率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_182",
+        "no": 182,
+        "en": "duration",
+        "cn": "久期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_183",
+        "no": 183,
+        "en": "modified duration",
+        "cn": "修正久期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_184",
+        "no": 184,
+        "en": "convexity",
+        "cn": "凸性",
+        "core": false
+      },
+      {
+        "id": "vocab1200_185",
+        "no": 185,
+        "en": "credit spread",
+        "cn": "信用利差",
+        "core": false
+      },
+      {
+        "id": "vocab1200_186",
+        "no": 186,
+        "en": "spread widening",
+        "cn": "利差走阔",
+        "core": false
+      },
+      {
+        "id": "vocab1200_187",
+        "no": 187,
+        "en": "spread tightening",
+        "cn": "利差收窄",
+        "core": false
+      },
+      {
+        "id": "vocab1200_188",
+        "no": 188,
+        "en": "bond price",
+        "cn": "债券价格",
+        "core": false
+      },
+      {
+        "id": "vocab1200_189",
+        "no": 189,
+        "en": "refinancing",
+        "cn": "再融资",
+        "core": false
+      },
+      {
+        "id": "vocab1200_190",
+        "no": 190,
+        "en": "debt issuance",
+        "cn": "债券发行",
+        "core": false
+      },
+      {
+        "id": "vocab1200_191",
+        "no": 191,
+        "en": "debt servicing",
+        "cn": "偿债",
+        "core": false
+      },
+      {
+        "id": "vocab1200_192",
+        "no": 192,
+        "en": "leverage",
+        "cn": "杠杆",
+        "core": true
+      },
+      {
+        "id": "vocab1200_193",
+        "no": 193,
+        "en": "debt-to-equity ratio",
+        "cn": "资产负债率/债务权益比",
+        "core": false
+      },
+      {
+        "id": "vocab1200_194",
+        "no": 194,
+        "en": "cash flow",
+        "cn": "现金流",
+        "core": true
+      },
+      {
+        "id": "vocab1200_195",
+        "no": 195,
+        "en": "free cash flow",
+        "cn": "自由现金流",
+        "core": false
+      },
+      {
+        "id": "vocab1200_196",
+        "no": 196,
+        "en": "working capital",
+        "cn": "营运资本",
+        "core": true
+      },
+      {
+        "id": "vocab1200_197",
+        "no": 197,
+        "en": "capital expenditure (CAPEX)",
+        "cn": "资本支出",
+        "core": false
+      },
+      {
+        "id": "vocab1200_198",
+        "no": 198,
+        "en": "operating expenditure (OPEX)",
+        "cn": "运营支出",
+        "core": false
+      },
+      {
+        "id": "vocab1200_199",
+        "no": 199,
+        "en": "financing cost",
+        "cn": "融资成本",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch06",
+    "title": "物流、运输与供应链",
+    "words": [
+      {
+        "id": "vocab1200_250",
+        "no": 250,
+        "en": "supply chain",
+        "cn": "供应链",
+        "core": true
+      },
+      {
+        "id": "vocab1200_251",
+        "no": 251,
+        "en": "global supply chain",
+        "cn": "全球供应链",
+        "core": true
+      },
+      {
+        "id": "vocab1200_252",
+        "no": 252,
+        "en": "supply chain resilience",
+        "cn": "供应链韧性",
+        "core": true
+      },
+      {
+        "id": "vocab1200_253",
+        "no": 253,
+        "en": "supply chain disruption",
+        "cn": "供应链中断",
+        "core": true
+      },
+      {
+        "id": "vocab1200_254",
+        "no": 254,
+        "en": "procurement",
+        "cn": "采购",
+        "core": true
+      },
+      {
+        "id": "vocab1200_255",
+        "no": 255,
+        "en": "sourcing",
+        "cn": "寻源/采购",
+        "core": false
+      },
+      {
+        "id": "vocab1200_256",
+        "no": 256,
+        "en": "supplier",
+        "cn": "供应商",
+        "core": true
+      },
+      {
+        "id": "vocab1200_257",
+        "no": 257,
+        "en": "vendor",
+        "cn": "供货商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_258",
+        "no": 258,
+        "en": "manufacturer",
+        "cn": "制造商",
+        "core": true
+      },
+      {
+        "id": "vocab1200_259",
+        "no": 259,
+        "en": "factory",
+        "cn": "工厂",
+        "core": false
+      },
+      {
+        "id": "vocab1200_260",
+        "no": 260,
+        "en": "original equipment manufacturer (O...",
+        "cn": "原始设备制造商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_261",
+        "no": 261,
+        "en": "original design manufacturer (ODM)",
+        "cn": "原始设计制造商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_262",
+        "no": 262,
+        "en": "contract manufacturing",
+        "cn": "合同制造",
+        "core": false
+      },
+      {
+        "id": "vocab1200_263",
+        "no": 263,
+        "en": "outsourcing",
+        "cn": "外包",
+        "core": true
+      },
+      {
+        "id": "vocab1200_264",
+        "no": 264,
+        "en": "offshoring",
+        "cn": "离岸外包",
+        "core": true
+      },
+      {
+        "id": "vocab1200_265",
+        "no": 265,
+        "en": "nearshoring",
+        "cn": "近岸外包",
+        "core": false
+      },
+      {
+        "id": "vocab1200_266",
+        "no": 266,
+        "en": "reshoring",
+        "cn": "回流本土",
+        "core": false
+      },
+      {
+        "id": "vocab1200_267",
+        "no": 267,
+        "en": "inventory",
+        "cn": "库存",
+        "core": true
+      },
+      {
+        "id": "vocab1200_268",
+        "no": 268,
+        "en": "stockout",
+        "cn": "缺货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_269",
+        "no": 269,
+        "en": "safety stock",
+        "cn": "安全库存",
+        "core": false
+      },
+      {
+        "id": "vocab1200_270",
+        "no": 270,
+        "en": "lead time",
+        "cn": "交付周期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_271",
+        "no": 271,
+        "en": "order cycle",
+        "cn": "订单周期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_272",
+        "no": 272,
+        "en": "forecast",
+        "cn": "预测",
+        "core": false
+      },
+      {
+        "id": "vocab1200_273",
+        "no": 273,
+        "en": "demand planning",
+        "cn": "需求计划",
+        "core": false
+      },
+      {
+        "id": "vocab1200_274",
+        "no": 274,
+        "en": "capacity planning",
+        "cn": "产能规划",
+        "core": false
+      },
+      {
+        "id": "vocab1200_275",
+        "no": 275,
+        "en": "logistics",
+        "cn": "物流",
+        "core": true
+      },
+      {
+        "id": "vocab1200_276",
+        "no": 276,
+        "en": "freight",
+        "cn": "货运",
+        "core": true
+      },
+      {
+        "id": "vocab1200_277",
+        "no": 277,
+        "en": "cargo",
+        "cn": "货物",
+        "core": true
+      },
+      {
+        "id": "vocab1200_278",
+        "no": 278,
+        "en": "shipment",
+        "cn": "货运批次/发运",
+        "core": true
+      },
+      {
+        "id": "vocab1200_279",
+        "no": 279,
+        "en": "shipping",
+        "cn": "海运/运输",
+        "core": false
+      },
+      {
+        "id": "vocab1200_280",
+        "no": 280,
+        "en": "ocean freight",
+        "cn": "海运",
+        "core": false
+      },
+      {
+        "id": "vocab1200_281",
+        "no": 281,
+        "en": "air freight",
+        "cn": "空运",
+        "core": false
+      },
+      {
+        "id": "vocab1200_282",
+        "no": 282,
+        "en": "rail freight",
+        "cn": "铁路货运",
+        "core": false
+      },
+      {
+        "id": "vocab1200_283",
+        "no": 283,
+        "en": "road freight",
+        "cn": "公路货运",
+        "core": false
+      },
+      {
+        "id": "vocab1200_284",
+        "no": 284,
+        "en": "multimodal transport",
+        "cn": "多式联运",
+        "core": false
+      },
+      {
+        "id": "vocab1200_285",
+        "no": 285,
+        "en": "container",
+        "cn": "集装箱",
+        "core": true
+      },
+      {
+        "id": "vocab1200_286",
+        "no": 286,
+        "en": "containerization",
+        "cn": "集装箱化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_287",
+        "no": 287,
+        "en": "port",
+        "cn": "港口",
+        "core": true
+      },
+      {
+        "id": "vocab1200_288",
+        "no": 288,
+        "en": "terminal",
+        "cn": "码头/货运站",
+        "core": false
+      },
+      {
+        "id": "vocab1200_289",
+        "no": 289,
+        "en": "warehouse",
+        "cn": "仓库",
+        "core": true
+      },
+      {
+        "id": "vocab1200_290",
+        "no": 290,
+        "en": "distribution center",
+        "cn": "配送中心",
+        "core": true
+      },
+      {
+        "id": "vocab1200_291",
+        "no": 291,
+        "en": "last-mile delivery",
+        "cn": "最后一公里配送",
+        "core": false
+      },
+      {
+        "id": "vocab1200_292",
+        "no": 292,
+        "en": "bill of lading (B/L)",
+        "cn": "提单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_293",
+        "no": 293,
+        "en": "air waybill (AWB)",
+        "cn": "航空运单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_294",
+        "no": 294,
+        "en": "freight forwarder",
+        "cn": "货运代理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_295",
+        "no": 295,
+        "en": "carrier",
+        "cn": "承运人",
+        "core": false
+      },
+      {
+        "id": "vocab1200_296",
+        "no": 296,
+        "en": "consignee",
+        "cn": "收货人",
+        "core": false
+      },
+      {
+        "id": "vocab1200_297",
+        "no": 297,
+        "en": "shipper",
+        "cn": "托运人",
+        "core": false
+      },
+      {
+        "id": "vocab1200_298",
+        "no": 298,
+        "en": "demurrage",
+        "cn": "滞箱费/滞期费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_299",
+        "no": 299,
+        "en": "detention charge",
+        "cn": "滞箱/用箱超期费",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch07",
+    "title": "跨境支付、结算、合规与风险",
+    "words": [
+      {
+        "id": "vocab1200_300",
+        "no": 300,
+        "en": "cross-border payment",
+        "cn": "跨境支付",
+        "core": true
+      },
+      {
+        "id": "vocab1200_301",
+        "no": 301,
+        "en": "international settlement",
+        "cn": "国际结算",
+        "core": true
+      },
+      {
+        "id": "vocab1200_302",
+        "no": 302,
+        "en": "payment gateway",
+        "cn": "支付网关",
+        "core": false
+      },
+      {
+        "id": "vocab1200_303",
+        "no": 303,
+        "en": "merchant acquiring",
+        "cn": "商户收单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_304",
+        "no": 304,
+        "en": "payment processor",
+        "cn": "支付处理商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_305",
+        "no": 305,
+        "en": "remittance",
+        "cn": "汇款",
+        "core": true
+      },
+      {
+        "id": "vocab1200_306",
+        "no": 306,
+        "en": "wire transfer",
+        "cn": "电汇",
+        "core": false
+      },
+      {
+        "id": "vocab1200_307",
+        "no": 307,
+        "en": "bank transfer",
+        "cn": "银行转账",
+        "core": false
+      },
+      {
+        "id": "vocab1200_308",
+        "no": 308,
+        "en": "SWIFT",
+        "cn": "环球银行金融电信协会",
+        "core": false
+      },
+      {
+        "id": "vocab1200_309",
+        "no": 309,
+        "en": "correspondent bank",
+        "cn": "代理行",
+        "core": false
+      },
+      {
+        "id": "vocab1200_310",
+        "no": 310,
+        "en": "clearing",
+        "cn": "清算",
+        "core": false
+      },
+      {
+        "id": "vocab1200_311",
+        "no": 311,
+        "en": "settlement",
+        "cn": "结算",
+        "core": false
+      },
+      {
+        "id": "vocab1200_312",
+        "no": 312,
+        "en": "settlement cycle",
+        "cn": "结算周期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_313",
+        "no": 313,
+        "en": "letter of credit (L/C)",
+        "cn": "信用证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_314",
+        "no": 314,
+        "en": "documentary collection",
+        "cn": "跟单托收",
+        "core": false
+      },
+      {
+        "id": "vocab1200_315",
+        "no": 315,
+        "en": "documents against payment (D/P)",
+        "cn": "付款交单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_316",
+        "no": 316,
+        "en": "documents against acceptance (D/A)",
+        "cn": "承兑交单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_317",
+        "no": 317,
+        "en": "open account",
+        "cn": "赊账交易",
+        "core": false
+      },
+      {
+        "id": "vocab1200_318",
+        "no": 318,
+        "en": "advance payment",
+        "cn": "预付款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_319",
+        "no": 319,
+        "en": "escrow",
+        "cn": "第三方托管",
+        "core": false
+      },
+      {
+        "id": "vocab1200_320",
+        "no": 320,
+        "en": "payment term",
+        "cn": "付款条件",
+        "core": false
+      },
+      {
+        "id": "vocab1200_321",
+        "no": 321,
+        "en": "trade finance",
+        "cn": "贸易融资",
+        "core": true
+      },
+      {
+        "id": "vocab1200_322",
+        "no": 322,
+        "en": "supply chain finance",
+        "cn": "供应链金融",
+        "core": false
+      },
+      {
+        "id": "vocab1200_323",
+        "no": 323,
+        "en": "factoring",
+        "cn": "保理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_324",
+        "no": 324,
+        "en": "forfaiting",
+        "cn": "福费廷",
+        "core": false
+      },
+      {
+        "id": "vocab1200_325",
+        "no": 325,
+        "en": "export credit insurance",
+        "cn": "出口信用保险",
+        "core": false
+      },
+      {
+        "id": "vocab1200_326",
+        "no": 326,
+        "en": "foreign exchange risk",
+        "cn": "汇率风险",
+        "core": true
+      },
+      {
+        "id": "vocab1200_327",
+        "no": 327,
+        "en": "counterparty risk",
+        "cn": "交易对手风险",
+        "core": false
+      },
+      {
+        "id": "vocab1200_328",
+        "no": 328,
+        "en": "settlement risk",
+        "cn": "结算风险",
+        "core": false
+      },
+      {
+        "id": "vocab1200_329",
+        "no": 329,
+        "en": "country risk",
+        "cn": "国家风险",
+        "core": false
+      },
+      {
+        "id": "vocab1200_330",
+        "no": 330,
+        "en": "political risk",
+        "cn": "政治风险",
+        "core": true
+      },
+      {
+        "id": "vocab1200_331",
+        "no": 331,
+        "en": "compliance",
+        "cn": "合规",
+        "core": true
+      },
+      {
+        "id": "vocab1200_332",
+        "no": 332,
+        "en": "regulation",
+        "cn": "监管",
+        "core": true
+      },
+      {
+        "id": "vocab1200_333",
+        "no": 333,
+        "en": "regulatory requirement",
+        "cn": "监管要求",
+        "core": false
+      },
+      {
+        "id": "vocab1200_334",
+        "no": 334,
+        "en": "know your customer (KYC)",
+        "cn": "了解你的客户",
+        "core": false
+      },
+      {
+        "id": "vocab1200_335",
+        "no": 335,
+        "en": "anti-money laundering (AML)",
+        "cn": "反洗钱",
+        "core": false
+      },
+      {
+        "id": "vocab1200_336",
+        "no": 336,
+        "en": "counter-terrorist financing (CTF)",
+        "cn": "反恐融资",
+        "core": false
+      },
+      {
+        "id": "vocab1200_337",
+        "no": 337,
+        "en": "sanctions screening",
+        "cn": "制裁筛查",
+        "core": false
+      },
+      {
+        "id": "vocab1200_338",
+        "no": 338,
+        "en": "beneficial owner",
+        "cn": "最终受益所有人",
+        "core": false
+      },
+      {
+        "id": "vocab1200_339",
+        "no": 339,
+        "en": "due diligence",
+        "cn": "尽职调查",
+        "core": true
+      },
+      {
+        "id": "vocab1200_340",
+        "no": 340,
+        "en": "enhanced due diligence (EDD)",
+        "cn": "强化尽调",
+        "core": false
+      },
+      {
+        "id": "vocab1200_341",
+        "no": 341,
+        "en": "source of funds",
+        "cn": "资金来源",
+        "core": true
+      },
+      {
+        "id": "vocab1200_342",
+        "no": 342,
+        "en": "source of wealth",
+        "cn": "财富来源",
+        "core": true
+      },
+      {
+        "id": "vocab1200_343",
+        "no": 343,
+        "en": "tax residency",
+        "cn": "税务居民身份",
+        "core": false
+      },
+      {
+        "id": "vocab1200_344",
+        "no": 344,
+        "en": "withholding tax",
+        "cn": "预提税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_345",
+        "no": 345,
+        "en": "double taxation",
+        "cn": "双重征税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_346",
+        "no": 346,
+        "en": "tax treaty",
+        "cn": "税收协定",
+        "core": true
+      },
+      {
+        "id": "vocab1200_347",
+        "no": 347,
+        "en": "foreign account",
+        "cn": "境外账户",
+        "core": false
+      },
+      {
+        "id": "vocab1200_348",
+        "no": 348,
+        "en": "capital restriction",
+        "cn": "资本限制",
+        "core": false
+      },
+      {
+        "id": "vocab1200_349",
+        "no": 349,
+        "en": "QDII",
+        "cn": "合格境内机构投资者",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch08",
+    "title": "消费市场、零售与品牌",
+    "words": [
+      {
+        "id": "vocab1200_350",
+        "no": 350,
+        "en": "consumer market",
+        "cn": "消费市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_351",
+        "no": 351,
+        "en": "consumer demand",
+        "cn": "消费需求",
+        "core": true
+      },
+      {
+        "id": "vocab1200_352",
+        "no": 352,
+        "en": "consumer confidence",
+        "cn": "消费者信心",
+        "core": true
+      },
+      {
+        "id": "vocab1200_353",
+        "no": 353,
+        "en": "consumer behavior",
+        "cn": "消费者行为",
+        "core": true
+      },
+      {
+        "id": "vocab1200_354",
+        "no": 354,
+        "en": "consumer preference",
+        "cn": "消费者偏好",
+        "core": true
+      },
+      {
+        "id": "vocab1200_355",
+        "no": 355,
+        "en": "purchasing decision",
+        "cn": "购买决策",
+        "core": false
+      },
+      {
+        "id": "vocab1200_356",
+        "no": 356,
+        "en": "purchasing power",
+        "cn": "购买力",
+        "core": true
+      },
+      {
+        "id": "vocab1200_357",
+        "no": 357,
+        "en": "discretionary spending",
+        "cn": "可选消费支出",
+        "core": false
+      },
+      {
+        "id": "vocab1200_358",
+        "no": 358,
+        "en": "essential spending",
+        "cn": "刚性消费支出",
+        "core": false
+      },
+      {
+        "id": "vocab1200_359",
+        "no": 359,
+        "en": "retail",
+        "cn": "零售",
+        "core": true
+      },
+      {
+        "id": "vocab1200_360",
+        "no": 360,
+        "en": "wholesale",
+        "cn": "批发",
+        "core": true
+      },
+      {
+        "id": "vocab1200_361",
+        "no": 361,
+        "en": "retailer",
+        "cn": "零售商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_362",
+        "no": 362,
+        "en": "wholesaler",
+        "cn": "批发商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_363",
+        "no": 363,
+        "en": "distribution",
+        "cn": "分销",
+        "core": true
+      },
+      {
+        "id": "vocab1200_364",
+        "no": 364,
+        "en": "distributor",
+        "cn": "分销商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_365",
+        "no": 365,
+        "en": "dealer",
+        "cn": "经销商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_366",
+        "no": 366,
+        "en": "agent",
+        "cn": "代理商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_367",
+        "no": 367,
+        "en": "channel",
+        "cn": "渠道",
+        "core": false
+      },
+      {
+        "id": "vocab1200_368",
+        "no": 368,
+        "en": "sales channel",
+        "cn": "销售渠道",
+        "core": false
+      },
+      {
+        "id": "vocab1200_369",
+        "no": 369,
+        "en": "omnichannel",
+        "cn": "全渠道",
+        "core": false
+      },
+      {
+        "id": "vocab1200_370",
+        "no": 370,
+        "en": "offline retail",
+        "cn": "线下零售",
+        "core": false
+      },
+      {
+        "id": "vocab1200_371",
+        "no": 371,
+        "en": "online retail",
+        "cn": "线上零售",
+        "core": false
+      },
+      {
+        "id": "vocab1200_372",
+        "no": 372,
+        "en": "market share",
+        "cn": "市场份额",
+        "core": true
+      },
+      {
+        "id": "vocab1200_373",
+        "no": 373,
+        "en": "market size",
+        "cn": "市场规模",
+        "core": true
+      },
+      {
+        "id": "vocab1200_374",
+        "no": 374,
+        "en": "market penetration",
+        "cn": "市场渗透率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_375",
+        "no": 375,
+        "en": "target market",
+        "cn": "目标市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_376",
+        "no": 376,
+        "en": "market segment",
+        "cn": "细分市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_377",
+        "no": 377,
+        "en": "customer segment",
+        "cn": "客户群体",
+        "core": false
+      },
+      {
+        "id": "vocab1200_378",
+        "no": 378,
+        "en": "premium market",
+        "cn": "高端市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_379",
+        "no": 379,
+        "en": "mass market",
+        "cn": "大众市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_380",
+        "no": 380,
+        "en": "brand",
+        "cn": "品牌",
+        "core": true
+      },
+      {
+        "id": "vocab1200_381",
+        "no": 381,
+        "en": "brand awareness",
+        "cn": "品牌认知度",
+        "core": false
+      },
+      {
+        "id": "vocab1200_382",
+        "no": 382,
+        "en": "brand loyalty",
+        "cn": "品牌忠诚度",
+        "core": false
+      },
+      {
+        "id": "vocab1200_383",
+        "no": 383,
+        "en": "brand positioning",
+        "cn": "品牌定位",
+        "core": false
+      },
+      {
+        "id": "vocab1200_384",
+        "no": 384,
+        "en": "pricing",
+        "cn": "定价",
+        "core": true
+      },
+      {
+        "id": "vocab1200_385",
+        "no": 385,
+        "en": "price sensitivity",
+        "cn": "价格敏感度",
+        "core": false
+      },
+      {
+        "id": "vocab1200_386",
+        "no": 386,
+        "en": "discount",
+        "cn": "折扣",
+        "core": false
+      },
+      {
+        "id": "vocab1200_387",
+        "no": 387,
+        "en": "promotion",
+        "cn": "促销",
+        "core": true
+      },
+      {
+        "id": "vocab1200_388",
+        "no": 388,
+        "en": "gross merchandise value (GMV)",
+        "cn": "商品交易总额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_389",
+        "no": 389,
+        "en": "average selling price (ASP)",
+        "cn": "平均售价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_390",
+        "no": 390,
+        "en": "average order value (AOV)",
+        "cn": "平均订单金额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_391",
+        "no": 391,
+        "en": "conversion rate",
+        "cn": "转化率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_392",
+        "no": 392,
+        "en": "customer acquisition cost (CAC)",
+        "cn": "获客成本",
+        "core": false
+      },
+      {
+        "id": "vocab1200_393",
+        "no": 393,
+        "en": "customer lifetime value (CLV)",
+        "cn": "客户终身价值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_394",
+        "no": 394,
+        "en": "repeat purchase rate",
+        "cn": "复购率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_395",
+        "no": 395,
+        "en": "churn rate",
+        "cn": "流失率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_396",
+        "no": 396,
+        "en": "inventory turnover",
+        "cn": "库存周转率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_397",
+        "no": 397,
+        "en": "same-store sales",
+        "cn": "同店销售额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_398",
+        "no": 398,
+        "en": "private label",
+        "cn": "自有品牌",
+        "core": false
+      },
+      {
+        "id": "vocab1200_399",
+        "no": 399,
+        "en": "consumer staple",
+        "cn": "必需消费品",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch09",
+    "title": "数字经济、电商与金融科技",
+    "words": [
+      {
+        "id": "vocab1200_400",
+        "no": 400,
+        "en": "digital economy",
+        "cn": "数字经济",
+        "core": true
+      },
+      {
+        "id": "vocab1200_401",
+        "no": 401,
+        "en": "e-commerce",
+        "cn": "电子商务",
+        "core": true
+      },
+      {
+        "id": "vocab1200_402",
+        "no": 402,
+        "en": "cross-border e-commerce",
+        "cn": "跨境电商",
+        "core": true
+      },
+      {
+        "id": "vocab1200_403",
+        "no": 403,
+        "en": "marketplace",
+        "cn": "电商平台/交易市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_404",
+        "no": 404,
+        "en": "platform economy",
+        "cn": "平台经济",
+        "core": true
+      },
+      {
+        "id": "vocab1200_405",
+        "no": 405,
+        "en": "digital platform",
+        "cn": "数字平台",
+        "core": false
+      },
+      {
+        "id": "vocab1200_406",
+        "no": 406,
+        "en": "direct-to-consumer (DTC)",
+        "cn": "品牌直面消费者",
+        "core": false
+      },
+      {
+        "id": "vocab1200_407",
+        "no": 407,
+        "en": "business-to-business (B2B)",
+        "cn": "企业对企业",
+        "core": false
+      },
+      {
+        "id": "vocab1200_408",
+        "no": 408,
+        "en": "business-to-consumer (B2C)",
+        "cn": "企业对消费者",
+        "core": false
+      },
+      {
+        "id": "vocab1200_409",
+        "no": 409,
+        "en": "consumer-to-consumer (C2C)",
+        "cn": "消费者对消费者",
+        "core": false
+      },
+      {
+        "id": "vocab1200_410",
+        "no": 410,
+        "en": "social commerce",
+        "cn": "社交电商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_411",
+        "no": 411,
+        "en": "live commerce",
+        "cn": "直播电商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_412",
+        "no": 412,
+        "en": "mobile commerce",
+        "cn": "移动电商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_413",
+        "no": 413,
+        "en": "digital payment",
+        "cn": "数字支付",
+        "core": true
+      },
+      {
+        "id": "vocab1200_414",
+        "no": 414,
+        "en": "mobile payment",
+        "cn": "移动支付",
+        "core": false
+      },
+      {
+        "id": "vocab1200_415",
+        "no": 415,
+        "en": "digital wallet",
+        "cn": "数字钱包",
+        "core": false
+      },
+      {
+        "id": "vocab1200_416",
+        "no": 416,
+        "en": "electronic money (e-money)",
+        "cn": "电子货币",
+        "core": false
+      },
+      {
+        "id": "vocab1200_417",
+        "no": 417,
+        "en": "fintech",
+        "cn": "金融科技",
+        "core": true
+      },
+      {
+        "id": "vocab1200_418",
+        "no": 418,
+        "en": "neobank",
+        "cn": "数字银行",
+        "core": false
+      },
+      {
+        "id": "vocab1200_419",
+        "no": 419,
+        "en": "open banking",
+        "cn": "开放银行",
+        "core": false
+      },
+      {
+        "id": "vocab1200_420",
+        "no": 420,
+        "en": "embedded finance",
+        "cn": "嵌入式金融",
+        "core": false
+      },
+      {
+        "id": "vocab1200_421",
+        "no": 421,
+        "en": "buy now, pay later (BNPL)",
+        "cn": "先买后付",
+        "core": false
+      },
+      {
+        "id": "vocab1200_422",
+        "no": 422,
+        "en": "payment tokenization",
+        "cn": "支付令牌化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_423",
+        "no": 423,
+        "en": "two-factor authentication (2FA)",
+        "cn": "双因素认证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_424",
+        "no": 424,
+        "en": "biometric authentication",
+        "cn": "生物识别认证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_425",
+        "no": 425,
+        "en": "fraud detection",
+        "cn": "欺诈检测",
+        "core": false
+      },
+      {
+        "id": "vocab1200_426",
+        "no": 426,
+        "en": "chargeback",
+        "cn": "拒付/退单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_427",
+        "no": 427,
+        "en": "payment dispute",
+        "cn": "支付争议",
+        "core": false
+      },
+      {
+        "id": "vocab1200_428",
+        "no": 428,
+        "en": "data privacy",
+        "cn": "数据隐私",
+        "core": true
+      },
+      {
+        "id": "vocab1200_429",
+        "no": 429,
+        "en": "data localization",
+        "cn": "数据本地化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_430",
+        "no": 430,
+        "en": "cybersecurity",
+        "cn": "网络安全",
+        "core": true
+      },
+      {
+        "id": "vocab1200_431",
+        "no": 431,
+        "en": "digital identity",
+        "cn": "数字身份",
+        "core": false
+      },
+      {
+        "id": "vocab1200_432",
+        "no": 432,
+        "en": "cloud computing",
+        "cn": "云计算",
+        "core": false
+      },
+      {
+        "id": "vocab1200_433",
+        "no": 433,
+        "en": "artificial intelligence (AI)",
+        "cn": "人工智能",
+        "core": true
+      },
+      {
+        "id": "vocab1200_434",
+        "no": 434,
+        "en": "machine learning",
+        "cn": "机器学习",
+        "core": false
+      },
+      {
+        "id": "vocab1200_435",
+        "no": 435,
+        "en": "automation",
+        "cn": "自动化",
+        "core": true
+      },
+      {
+        "id": "vocab1200_436",
+        "no": 436,
+        "en": "big data",
+        "cn": "大数据",
+        "core": true
+      },
+      {
+        "id": "vocab1200_437",
+        "no": 437,
+        "en": "algorithm",
+        "cn": "算法",
+        "core": false
+      },
+      {
+        "id": "vocab1200_438",
+        "no": 438,
+        "en": "recommendation engine",
+        "cn": "推荐引擎",
+        "core": false
+      },
+      {
+        "id": "vocab1200_439",
+        "no": 439,
+        "en": "digital advertising",
+        "cn": "数字广告",
+        "core": false
+      },
+      {
+        "id": "vocab1200_440",
+        "no": 440,
+        "en": "search advertising",
+        "cn": "搜索广告",
+        "core": false
+      },
+      {
+        "id": "vocab1200_441",
+        "no": 441,
+        "en": "affiliate marketing",
+        "cn": "联盟营销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_442",
+        "no": 442,
+        "en": "influencer marketing",
+        "cn": "达人营销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_443",
+        "no": 443,
+        "en": "customer relationship management ...",
+        "cn": "客户关系管理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_444",
+        "no": 444,
+        "en": "enterprise resource planning (ERP)",
+        "cn": "企业资源计划",
+        "core": false
+      },
+      {
+        "id": "vocab1200_445",
+        "no": 445,
+        "en": "application programming interface (...",
+        "cn": "应用程序编程接口",
+        "core": false
+      },
+      {
+        "id": "vocab1200_446",
+        "no": 446,
+        "en": "software as a service (SaaS)",
+        "cn": "软件即服务",
+        "core": false
+      },
+      {
+        "id": "vocab1200_447",
+        "no": 447,
+        "en": "digital transformation",
+        "cn": "数字化转型",
+        "core": true
+      },
+      {
+        "id": "vocab1200_448",
+        "no": 448,
+        "en": "network effect",
+        "cn": "网络效应",
+        "core": false
+      },
+      {
+        "id": "vocab1200_449",
+        "no": 449,
+        "en": "scalability",
+        "cn": "可扩展性",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch10",
+    "title": "全球经济、发展、政策与可持续市场",
+    "words": [
+      {
+        "id": "vocab1200_450",
+        "no": 450,
+        "en": "global economy",
+        "cn": "全球经济",
+        "core": true
+      },
+      {
+        "id": "vocab1200_451",
+        "no": 451,
+        "en": "globalization",
+        "cn": "全球化",
+        "core": true
+      },
+      {
+        "id": "vocab1200_452",
+        "no": 452,
+        "en": "economic integration",
+        "cn": "经济一体化",
+        "core": true
+      },
+      {
+        "id": "vocab1200_453",
+        "no": 453,
+        "en": "regional economy",
+        "cn": "区域经济",
+        "core": false
+      },
+      {
+        "id": "vocab1200_454",
+        "no": 454,
+        "en": "developed economy",
+        "cn": "发达经济体",
+        "core": true
+      },
+      {
+        "id": "vocab1200_455",
+        "no": 455,
+        "en": "emerging market",
+        "cn": "新兴市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_456",
+        "no": 456,
+        "en": "developing country",
+        "cn": "发展中国家",
+        "core": true
+      },
+      {
+        "id": "vocab1200_457",
+        "no": 457,
+        "en": "low-income country",
+        "cn": "低收入国家",
+        "core": true
+      },
+      {
+        "id": "vocab1200_458",
+        "no": 458,
+        "en": "middle-income country",
+        "cn": "中等收入国家",
+        "core": false
+      },
+      {
+        "id": "vocab1200_459",
+        "no": 459,
+        "en": "high-income country",
+        "cn": "高收入国家",
+        "core": true
+      },
+      {
+        "id": "vocab1200_460",
+        "no": 460,
+        "en": "World Trade Organization (WTO)",
+        "cn": "世界贸易组织",
+        "core": false
+      },
+      {
+        "id": "vocab1200_461",
+        "no": 461,
+        "en": "International Monetary Fund (IMF)",
+        "cn": "国际货币基金组织",
+        "core": false
+      },
+      {
+        "id": "vocab1200_462",
+        "no": 462,
+        "en": "World Bank",
+        "cn": "世界银行",
+        "core": false
+      },
+      {
+        "id": "vocab1200_463",
+        "no": 463,
+        "en": "Organisation for Economic Co-opera...",
+        "cn": "经济合作与发展组织",
+        "core": false
+      },
+      {
+        "id": "vocab1200_464",
+        "no": 464,
+        "en": "Asian Development Bank (ADB)",
+        "cn": "亚洲开发银行",
+        "core": false
+      },
+      {
+        "id": "vocab1200_465",
+        "no": 465,
+        "en": "Belt and Road Initiative (BRI)",
+        "cn": "一带一路倡议",
+        "core": false
+      },
+      {
+        "id": "vocab1200_466",
+        "no": 466,
+        "en": "economic aid",
+        "cn": "经济援助",
+        "core": true
+      },
+      {
+        "id": "vocab1200_467",
+        "no": 467,
+        "en": "foreign aid",
+        "cn": "对外援助",
+        "core": true
+      },
+      {
+        "id": "vocab1200_468",
+        "no": 468,
+        "en": "development assistance",
+        "cn": "发展援助",
+        "core": true
+      },
+      {
+        "id": "vocab1200_469",
+        "no": 469,
+        "en": "structural reform",
+        "cn": "结构性改革",
+        "core": true
+      },
+      {
+        "id": "vocab1200_470",
+        "no": 470,
+        "en": "industrial policy",
+        "cn": "产业政策",
+        "core": true
+      },
+      {
+        "id": "vocab1200_471",
+        "no": 471,
+        "en": "trade policy",
+        "cn": "贸易政策",
+        "core": true
+      },
+      {
+        "id": "vocab1200_472",
+        "no": 472,
+        "en": "competition policy",
+        "cn": "竞争政策",
+        "core": true
+      },
+      {
+        "id": "vocab1200_473",
+        "no": 473,
+        "en": "consumer policy",
+        "cn": "消费者政策",
+        "core": false
+      },
+      {
+        "id": "vocab1200_474",
+        "no": 474,
+        "en": "financial stability",
+        "cn": "金融稳定",
+        "core": true
+      },
+      {
+        "id": "vocab1200_475",
+        "no": 475,
+        "en": "economic stability",
+        "cn": "经济稳定",
+        "core": true
+      },
+      {
+        "id": "vocab1200_476",
+        "no": 476,
+        "en": "sustainable growth",
+        "cn": "可持续增长",
+        "core": true
+      },
+      {
+        "id": "vocab1200_477",
+        "no": 477,
+        "en": "inclusive growth",
+        "cn": "包容性增长",
+        "core": true
+      },
+      {
+        "id": "vocab1200_478",
+        "no": 478,
+        "en": "green economy",
+        "cn": "绿色经济",
+        "core": true
+      },
+      {
+        "id": "vocab1200_479",
+        "no": 479,
+        "en": "circular economy",
+        "cn": "循环经济",
+        "core": true
+      },
+      {
+        "id": "vocab1200_480",
+        "no": 480,
+        "en": "sharing economy",
+        "cn": "共享经济",
+        "core": false
+      },
+      {
+        "id": "vocab1200_481",
+        "no": 481,
+        "en": "informal economy",
+        "cn": "非正规经济",
+        "core": false
+      },
+      {
+        "id": "vocab1200_482",
+        "no": 482,
+        "en": "economic resilience",
+        "cn": "经济韧性",
+        "core": true
+      },
+      {
+        "id": "vocab1200_483",
+        "no": 483,
+        "en": "energy transition",
+        "cn": "能源转型",
+        "core": true
+      },
+      {
+        "id": "vocab1200_484",
+        "no": 484,
+        "en": "carbon neutrality",
+        "cn": "碳中和",
+        "core": true
+      },
+      {
+        "id": "vocab1200_485",
+        "no": 485,
+        "en": "net zero",
+        "cn": "净零排放",
+        "core": false
+      },
+      {
+        "id": "vocab1200_486",
+        "no": 486,
+        "en": "carbon price",
+        "cn": "碳价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_487",
+        "no": 487,
+        "en": "carbon market",
+        "cn": "碳市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_488",
+        "no": 488,
+        "en": "emissions trading system (ETS)",
+        "cn": "碳排放交易体系",
+        "core": false
+      },
+      {
+        "id": "vocab1200_489",
+        "no": 489,
+        "en": "environmental, social and governan...",
+        "cn": "环境、社会与治理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_490",
+        "no": 490,
+        "en": "green finance",
+        "cn": "绿色金融",
+        "core": true
+      },
+      {
+        "id": "vocab1200_491",
+        "no": 491,
+        "en": "sustainable finance",
+        "cn": "可持续金融",
+        "core": true
+      },
+      {
+        "id": "vocab1200_492",
+        "no": 492,
+        "en": "green bond",
+        "cn": "绿色债券",
+        "core": false
+      },
+      {
+        "id": "vocab1200_493",
+        "no": 493,
+        "en": "climate risk",
+        "cn": "气候风险",
+        "core": true
+      },
+      {
+        "id": "vocab1200_494",
+        "no": 494,
+        "en": "transition risk",
+        "cn": "转型风险",
+        "core": false
+      },
+      {
+        "id": "vocab1200_495",
+        "no": 495,
+        "en": "commodity",
+        "cn": "大宗商品",
+        "core": true
+      },
+      {
+        "id": "vocab1200_496",
+        "no": 496,
+        "en": "raw material",
+        "cn": "原材料",
+        "core": true
+      },
+      {
+        "id": "vocab1200_497",
+        "no": 497,
+        "en": "oil price",
+        "cn": "石油价格",
+        "core": true
+      },
+      {
+        "id": "vocab1200_498",
+        "no": 498,
+        "en": "energy price",
+        "cn": "能源价格",
+        "core": true
+      },
+      {
+        "id": "vocab1200_499",
+        "no": 499,
+        "en": "food price",
+        "cn": "食品价格",
+        "core": true
+      },
+      {
+        "id": "vocab1200_500",
+        "no": 500,
+        "en": "economic outlook",
+        "cn": "经济前景",
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "ch11",
+    "title": "企业财报、估值与股票分析",
+    "words": [
+      {
+        "id": "vocab1200_501",
+        "no": 501,
+        "en": "revenue",
+        "cn": "营业收入",
+        "core": true
+      },
+      {
+        "id": "vocab1200_502",
+        "no": 502,
+        "en": "sales growth",
+        "cn": "销售增长",
+        "core": true
+      },
+      {
+        "id": "vocab1200_503",
+        "no": 503,
+        "en": "organic growth",
+        "cn": "内生增长",
+        "core": false
+      },
+      {
+        "id": "vocab1200_504",
+        "no": 504,
+        "en": "earnings",
+        "cn": "盈利",
+        "core": true
+      },
+      {
+        "id": "vocab1200_505",
+        "no": 505,
+        "en": "net income",
+        "cn": "净利润",
+        "core": true
+      },
+      {
+        "id": "vocab1200_506",
+        "no": 506,
+        "en": "operating income",
+        "cn": "营业利润",
+        "core": true
+      },
+      {
+        "id": "vocab1200_507",
+        "no": 507,
+        "en": "gross profit",
+        "cn": "毛利润",
+        "core": true
+      },
+      {
+        "id": "vocab1200_508",
+        "no": 508,
+        "en": "gross margin",
+        "cn": "毛利率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_509",
+        "no": 509,
+        "en": "operating margin",
+        "cn": "营业利润率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_510",
+        "no": 510,
+        "en": "net margin",
+        "cn": "净利率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_511",
+        "no": 511,
+        "en": "EBIT",
+        "cn": "息税前利润",
+        "core": false
+      },
+      {
+        "id": "vocab1200_512",
+        "no": 512,
+        "en": "EBITDA",
+        "cn": "息税折旧摊销前利润",
+        "core": false
+      },
+      {
+        "id": "vocab1200_513",
+        "no": 513,
+        "en": "adjusted earnings",
+        "cn": "调整后利润",
+        "core": false
+      },
+      {
+        "id": "vocab1200_514",
+        "no": 514,
+        "en": "guidance",
+        "cn": "业绩指引",
+        "core": true
+      },
+      {
+        "id": "vocab1200_515",
+        "no": 515,
+        "en": "earnings guidance",
+        "cn": "盈利指引",
+        "core": false
+      },
+      {
+        "id": "vocab1200_516",
+        "no": 516,
+        "en": "earnings call",
+        "cn": "业绩电话会",
+        "core": false
+      },
+      {
+        "id": "vocab1200_517",
+        "no": 517,
+        "en": "earnings season",
+        "cn": "财报季",
+        "core": false
+      },
+      {
+        "id": "vocab1200_518",
+        "no": 518,
+        "en": "quarterly report",
+        "cn": "季度报告",
+        "core": true
+      },
+      {
+        "id": "vocab1200_519",
+        "no": 519,
+        "en": "annual report",
+        "cn": "年度报告",
+        "core": true
+      },
+      {
+        "id": "vocab1200_520",
+        "no": 520,
+        "en": "balance sheet",
+        "cn": "资产负债表",
+        "core": true
+      },
+      {
+        "id": "vocab1200_521",
+        "no": 521,
+        "en": "income statement",
+        "cn": "利润表",
+        "core": true
+      },
+      {
+        "id": "vocab1200_522",
+        "no": 522,
+        "en": "cash flow statement",
+        "cn": "现金流量表",
+        "core": true
+      },
+      {
+        "id": "vocab1200_523",
+        "no": 523,
+        "en": "asset",
+        "cn": "资产",
+        "core": true
+      },
+      {
+        "id": "vocab1200_524",
+        "no": 524,
+        "en": "liability",
+        "cn": "负债",
+        "core": true
+      },
+      {
+        "id": "vocab1200_525",
+        "no": 525,
+        "en": "shareholders' equity",
+        "cn": "股东权益",
+        "core": true
+      },
+      {
+        "id": "vocab1200_526",
+        "no": 526,
+        "en": "accounts receivable",
+        "cn": "应收账款",
+        "core": true
+      },
+      {
+        "id": "vocab1200_527",
+        "no": 527,
+        "en": "accounts payable",
+        "cn": "应付账款",
+        "core": true
+      },
+      {
+        "id": "vocab1200_528",
+        "no": 528,
+        "en": "inventory write-down",
+        "cn": "存货减值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_529",
+        "no": 529,
+        "en": "impairment",
+        "cn": "减值",
+        "core": true
+      },
+      {
+        "id": "vocab1200_530",
+        "no": 530,
+        "en": "goodwill",
+        "cn": "商誉",
+        "core": false
+      },
+      {
+        "id": "vocab1200_531",
+        "no": 531,
+        "en": "depreciation",
+        "cn": "折旧",
+        "core": true
+      },
+      {
+        "id": "vocab1200_532",
+        "no": 532,
+        "en": "amortization",
+        "cn": "摊销",
+        "core": true
+      },
+      {
+        "id": "vocab1200_533",
+        "no": 533,
+        "en": "deferred revenue",
+        "cn": "递延收入",
+        "core": false
+      },
+      {
+        "id": "vocab1200_534",
+        "no": 534,
+        "en": "deferred tax",
+        "cn": "递延所得税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_535",
+        "no": 535,
+        "en": "provision",
+        "cn": "拨备/预计负债",
+        "core": false
+      },
+      {
+        "id": "vocab1200_536",
+        "no": 536,
+        "en": "backlog",
+        "cn": "在手订单",
+        "core": true
+      },
+      {
+        "id": "vocab1200_537",
+        "no": 537,
+        "en": "order book",
+        "cn": "订单簿",
+        "core": false
+      },
+      {
+        "id": "vocab1200_538",
+        "no": 538,
+        "en": "book-to-bill ratio",
+        "cn": "订单出货比",
+        "core": false
+      },
+      {
+        "id": "vocab1200_539",
+        "no": 539,
+        "en": "same-store sales growth",
+        "cn": "同店销售增长",
+        "core": false
+      },
+      {
+        "id": "vocab1200_540",
+        "no": 540,
+        "en": "unit economics",
+        "cn": "单位经济模型",
+        "core": false
+      },
+      {
+        "id": "vocab1200_541",
+        "no": 541,
+        "en": "return on equity (ROE)",
+        "cn": "净资产收益率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_542",
+        "no": 542,
+        "en": "return on assets (ROA)",
+        "cn": "总资产收益率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_543",
+        "no": 543,
+        "en": "return on invested capital ...",
+        "cn": "投入资本回报率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_544",
+        "no": 544,
+        "en": "asset turnover",
+        "cn": "总资产周转率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_545",
+        "no": 545,
+        "en": "inventory days",
+        "cn": "存货周转天数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_546",
+        "no": 546,
+        "en": "receivable days",
+        "cn": "应收账款周转天数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_547",
+        "no": 547,
+        "en": "payable days",
+        "cn": "应付账款周转天数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_548",
+        "no": 548,
+        "en": "cash conversion cycle",
+        "cn": "现金转换周期",
+        "core": true
+      },
+      {
+        "id": "vocab1200_549",
+        "no": 549,
+        "en": "debt maturity",
+        "cn": "债务到期期限",
+        "core": false
+      },
+      {
+        "id": "vocab1200_550",
+        "no": 550,
+        "en": "interest coverage ratio",
+        "cn": "利息保障倍数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_551",
+        "no": 551,
+        "en": "enterprise value (EV)",
+        "cn": "企业价值",
+        "core": true
+      },
+      {
+        "id": "vocab1200_552",
+        "no": 552,
+        "en": "EV/EBITDA",
+        "cn": "企业价值倍数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_553",
+        "no": 553,
+        "en": "price-to-sales ratio (P/S)",
+        "cn": "市销率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_554",
+        "no": 554,
+        "en": "price-to-free-cash-flow ratio",
+        "cn": "市现率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_555",
+        "no": 555,
+        "en": "PEG ratio",
+        "cn": "市盈增长比",
+        "core": false
+      },
+      {
+        "id": "vocab1200_556",
+        "no": 556,
+        "en": "forward P/E",
+        "cn": "预期市盈率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_557",
+        "no": 557,
+        "en": "trailing P/E",
+        "cn": "滚动市盈率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_558",
+        "no": 558,
+        "en": "fair value",
+        "cn": "公允价值",
+        "core": true
+      },
+      {
+        "id": "vocab1200_559",
+        "no": 559,
+        "en": "intrinsic value",
+        "cn": "内在价值",
+        "core": true
+      },
+      {
+        "id": "vocab1200_560",
+        "no": 560,
+        "en": "margin of safety",
+        "cn": "安全边际",
+        "core": true
+      },
+      {
+        "id": "vocab1200_561",
+        "no": 561,
+        "en": "consensus estimate",
+        "cn": "一致预期",
+        "core": true
+      },
+      {
+        "id": "vocab1200_562",
+        "no": 562,
+        "en": "analyst estimate",
+        "cn": "分析师预期",
+        "core": true
+      },
+      {
+        "id": "vocab1200_563",
+        "no": 563,
+        "en": "earnings surprise",
+        "cn": "盈利超预期/低于预期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_564",
+        "no": 564,
+        "en": "revenue beat",
+        "cn": "营收超预期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_565",
+        "no": 565,
+        "en": "earnings miss",
+        "cn": "盈利不及预期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_566",
+        "no": 566,
+        "en": "upgrade",
+        "cn": "上调评级",
+        "core": false
+      },
+      {
+        "id": "vocab1200_567",
+        "no": 567,
+        "en": "downgrade",
+        "cn": "下调评级",
+        "core": false
+      },
+      {
+        "id": "vocab1200_568",
+        "no": 568,
+        "en": "price target",
+        "cn": "目标价",
+        "core": true
+      },
+      {
+        "id": "vocab1200_569",
+        "no": 569,
+        "en": "overweight rating",
+        "cn": "增持评级",
+        "core": false
+      },
+      {
+        "id": "vocab1200_570",
+        "no": 570,
+        "en": "underweight rating",
+        "cn": "减持评级",
+        "core": false
+      },
+      {
+        "id": "vocab1200_571",
+        "no": 571,
+        "en": "buyback",
+        "cn": "股份回购",
+        "core": true
+      },
+      {
+        "id": "vocab1200_572",
+        "no": 572,
+        "en": "share dilution",
+        "cn": "股权稀释",
+        "core": true
+      },
+      {
+        "id": "vocab1200_573",
+        "no": 573,
+        "en": "secondary offering",
+        "cn": "增发",
+        "core": false
+      },
+      {
+        "id": "vocab1200_574",
+        "no": 574,
+        "en": "stock split",
+        "cn": "股票拆分",
+        "core": false
+      },
+      {
+        "id": "vocab1200_575",
+        "no": 575,
+        "en": "insider ownership",
+        "cn": "内部人持股",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch13",
+    "title": "能源、大宗商品与全球资源市场",
+    "words": [
+      {
+        "id": "vocab1200_651",
+        "no": 651,
+        "en": "commodity market",
+        "cn": "大宗商品市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_652",
+        "no": 652,
+        "en": "commodity index",
+        "cn": "大宗商品指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_653",
+        "no": 653,
+        "en": "spot price",
+        "cn": "现货价格",
+        "core": true
+      },
+      {
+        "id": "vocab1200_654",
+        "no": 654,
+        "en": "futures price",
+        "cn": "期货价格",
+        "core": true
+      },
+      {
+        "id": "vocab1200_655",
+        "no": 655,
+        "en": "forward curve",
+        "cn": "远期曲线",
+        "core": false
+      },
+      {
+        "id": "vocab1200_656",
+        "no": 656,
+        "en": "contango",
+        "cn": "期货升水结构",
+        "core": false
+      },
+      {
+        "id": "vocab1200_657",
+        "no": 657,
+        "en": "backwardation",
+        "cn": "期货贴水结构",
+        "core": false
+      },
+      {
+        "id": "vocab1200_658",
+        "no": 658,
+        "en": "inventory level",
+        "cn": "库存水平",
+        "core": true
+      },
+      {
+        "id": "vocab1200_659",
+        "no": 659,
+        "en": "strategic reserve",
+        "cn": "战略储备",
+        "core": false
+      },
+      {
+        "id": "vocab1200_660",
+        "no": 660,
+        "en": "supply shock",
+        "cn": "供给冲击",
+        "core": true
+      },
+      {
+        "id": "vocab1200_661",
+        "no": 661,
+        "en": "demand shock",
+        "cn": "需求冲击",
+        "core": true
+      },
+      {
+        "id": "vocab1200_662",
+        "no": 662,
+        "en": "oil market",
+        "cn": "石油市场",
+        "core": true
+      },
+      {
+        "id": "vocab1200_663",
+        "no": 663,
+        "en": "crude oil",
+        "cn": "原油",
+        "core": true
+      },
+      {
+        "id": "vocab1200_664",
+        "no": 664,
+        "en": "Brent crude",
+        "cn": "布伦特原油",
+        "core": false
+      },
+      {
+        "id": "vocab1200_665",
+        "no": 665,
+        "en": "West Texas Intermediate (...",
+        "cn": "西德克萨斯中质原油",
+        "core": false
+      },
+      {
+        "id": "vocab1200_666",
+        "no": 666,
+        "en": "OPEC",
+        "cn": "石油输出国组织",
+        "core": false
+      },
+      {
+        "id": "vocab1200_667",
+        "no": 667,
+        "en": "OPEC+",
+        "cn": "欧佩克+",
+        "core": false
+      },
+      {
+        "id": "vocab1200_668",
+        "no": 668,
+        "en": "production quota",
+        "cn": "产量配额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_669",
+        "no": 669,
+        "en": "output cut",
+        "cn": "减产",
+        "core": false
+      },
+      {
+        "id": "vocab1200_670",
+        "no": 670,
+        "en": "spare capacity",
+        "cn": "闲置产能",
+        "core": false
+      },
+      {
+        "id": "vocab1200_671",
+        "no": 671,
+        "en": "refinery",
+        "cn": "炼油厂",
+        "core": false
+      },
+      {
+        "id": "vocab1200_672",
+        "no": 672,
+        "en": "refining margin",
+        "cn": "炼油利润",
+        "core": false
+      },
+      {
+        "id": "vocab1200_673",
+        "no": 673,
+        "en": "crack spread",
+        "cn": "裂解价差",
+        "core": false
+      },
+      {
+        "id": "vocab1200_674",
+        "no": 674,
+        "en": "natural gas",
+        "cn": "天然气",
+        "core": true
+      },
+      {
+        "id": "vocab1200_675",
+        "no": 675,
+        "en": "liquefied natural gas (LNG)",
+        "cn": "液化天然气",
+        "core": false
+      },
+      {
+        "id": "vocab1200_676",
+        "no": 676,
+        "en": "pipeline gas",
+        "cn": "管道天然气",
+        "core": false
+      },
+      {
+        "id": "vocab1200_677",
+        "no": 677,
+        "en": "gas storage",
+        "cn": "天然气库存",
+        "core": false
+      },
+      {
+        "id": "vocab1200_678",
+        "no": 678,
+        "en": "thermal coal",
+        "cn": "动力煤",
+        "core": false
+      },
+      {
+        "id": "vocab1200_679",
+        "no": 679,
+        "en": "coking coal",
+        "cn": "焦煤",
+        "core": false
+      },
+      {
+        "id": "vocab1200_680",
+        "no": 680,
+        "en": "iron ore",
+        "cn": "铁矿石",
+        "core": true
+      },
+      {
+        "id": "vocab1200_681",
+        "no": 681,
+        "en": "steel",
+        "cn": "钢铁",
+        "core": false
+      },
+      {
+        "id": "vocab1200_682",
+        "no": 682,
+        "en": "copper",
+        "cn": "铜",
+        "core": true
+      },
+      {
+        "id": "vocab1200_683",
+        "no": 683,
+        "en": "aluminum",
+        "cn": "铝",
+        "core": false
+      },
+      {
+        "id": "vocab1200_684",
+        "no": 684,
+        "en": "nickel",
+        "cn": "镍",
+        "core": false
+      },
+      {
+        "id": "vocab1200_685",
+        "no": 685,
+        "en": "lithium",
+        "cn": "锂",
+        "core": true
+      },
+      {
+        "id": "vocab1200_686",
+        "no": 686,
+        "en": "cobalt",
+        "cn": "钴",
+        "core": false
+      },
+      {
+        "id": "vocab1200_687",
+        "no": 687,
+        "en": "rare earth",
+        "cn": "稀土",
+        "core": true
+      },
+      {
+        "id": "vocab1200_688",
+        "no": 688,
+        "en": "precious metal",
+        "cn": "贵金属",
+        "core": false
+      },
+      {
+        "id": "vocab1200_689",
+        "no": 689,
+        "en": "gold",
+        "cn": "黄金",
+        "core": true
+      },
+      {
+        "id": "vocab1200_690",
+        "no": 690,
+        "en": "silver",
+        "cn": "白银",
+        "core": false
+      },
+      {
+        "id": "vocab1200_691",
+        "no": 691,
+        "en": "platinum",
+        "cn": "铂金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_692",
+        "no": 692,
+        "en": "palladium",
+        "cn": "钯",
+        "core": false
+      },
+      {
+        "id": "vocab1200_693",
+        "no": 693,
+        "en": "safe-haven demand",
+        "cn": "避险需求",
+        "core": true
+      },
+      {
+        "id": "vocab1200_694",
+        "no": 694,
+        "en": "real yield",
+        "cn": "实际收益率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_695",
+        "no": 695,
+        "en": "dollar index (DXY)",
+        "cn": "美元指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_696",
+        "no": 696,
+        "en": "agricultural commodity",
+        "cn": "农产品大宗商品",
+        "core": true
+      },
+      {
+        "id": "vocab1200_697",
+        "no": 697,
+        "en": "wheat",
+        "cn": "小麦",
+        "core": false
+      },
+      {
+        "id": "vocab1200_698",
+        "no": 698,
+        "en": "corn",
+        "cn": "玉米",
+        "core": false
+      },
+      {
+        "id": "vocab1200_699",
+        "no": 699,
+        "en": "soybean",
+        "cn": "大豆",
+        "core": false
+      },
+      {
+        "id": "vocab1200_700",
+        "no": 700,
+        "en": "sugar",
+        "cn": "糖",
+        "core": false
+      },
+      {
+        "id": "vocab1200_701",
+        "no": 701,
+        "en": "coffee",
+        "cn": "咖啡",
+        "core": false
+      },
+      {
+        "id": "vocab1200_702",
+        "no": 702,
+        "en": "cocoa",
+        "cn": "可可",
+        "core": false
+      },
+      {
+        "id": "vocab1200_703",
+        "no": 703,
+        "en": "freight cost",
+        "cn": "运输成本",
+        "core": true
+      },
+      {
+        "id": "vocab1200_704",
+        "no": 704,
+        "en": "shipping rate",
+        "cn": "海运费率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_705",
+        "no": 705,
+        "en": "Baltic Dry Index (BDI)",
+        "cn": "波罗的海干散货指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_706",
+        "no": 706,
+        "en": "energy security",
+        "cn": "能源安全",
+        "core": true
+      },
+      {
+        "id": "vocab1200_707",
+        "no": 707,
+        "en": "energy independence",
+        "cn": "能源独立",
+        "core": false
+      },
+      {
+        "id": "vocab1200_708",
+        "no": 708,
+        "en": "renewable energy",
+        "cn": "可再生能源",
+        "core": true
+      },
+      {
+        "id": "vocab1200_709",
+        "no": 709,
+        "en": "solar power",
+        "cn": "太阳能",
+        "core": true
+      },
+      {
+        "id": "vocab1200_710",
+        "no": 710,
+        "en": "wind power",
+        "cn": "风能",
+        "core": true
+      },
+      {
+        "id": "vocab1200_711",
+        "no": 711,
+        "en": "hydropower",
+        "cn": "水电",
+        "core": false
+      },
+      {
+        "id": "vocab1200_712",
+        "no": 712,
+        "en": "nuclear power",
+        "cn": "核电",
+        "core": true
+      },
+      {
+        "id": "vocab1200_713",
+        "no": 713,
+        "en": "battery storage",
+        "cn": "电池储能",
+        "core": true
+      },
+      {
+        "id": "vocab1200_714",
+        "no": 714,
+        "en": "grid-scale storage",
+        "cn": "电网级储能",
+        "core": false
+      },
+      {
+        "id": "vocab1200_715",
+        "no": 715,
+        "en": "power grid",
+        "cn": "电网",
+        "core": true
+      },
+      {
+        "id": "vocab1200_716",
+        "no": 716,
+        "en": "transmission line",
+        "cn": "输电线路",
+        "core": false
+      },
+      {
+        "id": "vocab1200_717",
+        "no": 717,
+        "en": "electricity market",
+        "cn": "电力市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_718",
+        "no": 718,
+        "en": "power price",
+        "cn": "电价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_719",
+        "no": 719,
+        "en": "capacity market",
+        "cn": "容量市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_720",
+        "no": 720,
+        "en": "carbon allowance",
+        "cn": "碳排放配额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_721",
+        "no": 721,
+        "en": "carbon credit",
+        "cn": "碳信用",
+        "core": true
+      },
+      {
+        "id": "vocab1200_722",
+        "no": 722,
+        "en": "critical mineral",
+        "cn": "关键矿产",
+        "core": true
+      },
+      {
+        "id": "vocab1200_723",
+        "no": 723,
+        "en": "resource nationalism",
+        "cn": "资源民族主义",
+        "core": false
+      },
+      {
+        "id": "vocab1200_724",
+        "no": 724,
+        "en": "commodity supercycle",
+        "cn": "大宗商品超级周期",
+        "core": true
+      },
+      {
+        "id": "vocab1200_725",
+        "no": 725,
+        "en": "terms of trade",
+        "cn": "贸易条件",
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "ch15",
+    "title": "外贸客户开发、报价与商务谈判",
+    "words": [
+      {
+        "id": "vocab1200_801",
+        "no": 801,
+        "en": "prospect",
+        "cn": "潜在客户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_802",
+        "no": 802,
+        "en": "lead",
+        "cn": "销售线索",
+        "core": true
+      },
+      {
+        "id": "vocab1200_803",
+        "no": 803,
+        "en": "qualified lead",
+        "cn": "合格销售线索",
+        "core": false
+      },
+      {
+        "id": "vocab1200_804",
+        "no": 804,
+        "en": "buyer persona",
+        "cn": "买家画像",
+        "core": false
+      },
+      {
+        "id": "vocab1200_805",
+        "no": 805,
+        "en": "decision maker",
+        "cn": "决策人",
+        "core": true
+      },
+      {
+        "id": "vocab1200_806",
+        "no": 806,
+        "en": "purchasing manager",
+        "cn": "采购经理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_807",
+        "no": 807,
+        "en": "procurement manager",
+        "cn": "采购负责人",
+        "core": false
+      },
+      {
+        "id": "vocab1200_808",
+        "no": 808,
+        "en": "key account",
+        "cn": "大客户",
+        "core": false
+      },
+      {
+        "id": "vocab1200_809",
+        "no": 809,
+        "en": "account management",
+        "cn": "客户管理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_810",
+        "no": 810,
+        "en": "customer development",
+        "cn": "客户开发",
+        "core": true
+      },
+      {
+        "id": "vocab1200_811",
+        "no": 811,
+        "en": "cold outreach",
+        "cn": "冷启动开发",
+        "core": false
+      },
+      {
+        "id": "vocab1200_812",
+        "no": 812,
+        "en": "cold email",
+        "cn": "开发邮件",
+        "core": false
+      },
+      {
+        "id": "vocab1200_813",
+        "no": 813,
+        "en": "follow-up",
+        "cn": "跟进",
+        "core": true
+      },
+      {
+        "id": "vocab1200_814",
+        "no": 814,
+        "en": "response rate",
+        "cn": "回复率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_815",
+        "no": 815,
+        "en": "lead generation",
+        "cn": "获客/线索开发",
+        "core": false
+      },
+      {
+        "id": "vocab1200_816",
+        "no": 816,
+        "en": "sales pipeline",
+        "cn": "销售管道",
+        "core": true
+      },
+      {
+        "id": "vocab1200_817",
+        "no": 817,
+        "en": "sales funnel",
+        "cn": "销售漏斗",
+        "core": true
+      },
+      {
+        "id": "vocab1200_818",
+        "no": 818,
+        "en": "sales opportunity",
+        "cn": "销售机会",
+        "core": false
+      },
+      {
+        "id": "vocab1200_819",
+        "no": 819,
+        "en": "conversion funnel",
+        "cn": "转化漏斗",
+        "core": false
+      },
+      {
+        "id": "vocab1200_820",
+        "no": 820,
+        "en": "customer journey",
+        "cn": "客户旅程",
+        "core": false
+      },
+      {
+        "id": "vocab1200_821",
+        "no": 821,
+        "en": "inquiry",
+        "cn": "询盘",
+        "core": true
+      },
+      {
+        "id": "vocab1200_822",
+        "no": 822,
+        "en": "request for quotation (RFQ)",
+        "cn": "询价请求",
+        "core": false
+      },
+      {
+        "id": "vocab1200_823",
+        "no": 823,
+        "en": "request for proposal (RFP)",
+        "cn": "方案征询",
+        "core": false
+      },
+      {
+        "id": "vocab1200_824",
+        "no": 824,
+        "en": "quotation",
+        "cn": "报价单",
+        "core": true
+      },
+      {
+        "id": "vocab1200_825",
+        "no": 825,
+        "en": "price quote",
+        "cn": "价格报价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_826",
+        "no": 826,
+        "en": "price list",
+        "cn": "价目表",
+        "core": false
+      },
+      {
+        "id": "vocab1200_827",
+        "no": 827,
+        "en": "unit price",
+        "cn": "单价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_828",
+        "no": 828,
+        "en": "target price",
+        "cn": "目标价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_829",
+        "no": 829,
+        "en": "floor price",
+        "cn": "底价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_830",
+        "no": 830,
+        "en": "offer price",
+        "cn": "报盘价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_831",
+        "no": 831,
+        "en": "counteroffer",
+        "cn": "还盘",
+        "core": false
+      },
+      {
+        "id": "vocab1200_832",
+        "no": 832,
+        "en": "price negotiation",
+        "cn": "价格谈判",
+        "core": true
+      },
+      {
+        "id": "vocab1200_833",
+        "no": 833,
+        "en": "commercial negotiation",
+        "cn": "商务谈判",
+        "core": false
+      },
+      {
+        "id": "vocab1200_834",
+        "no": 834,
+        "en": "bargaining power",
+        "cn": "议价能力",
+        "core": true
+      },
+      {
+        "id": "vocab1200_835",
+        "no": 835,
+        "en": "negotiation leverage",
+        "cn": "谈判筹码",
+        "core": false
+      },
+      {
+        "id": "vocab1200_836",
+        "no": 836,
+        "en": "discount rate",
+        "cn": "折扣率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_837",
+        "no": 837,
+        "en": "volume discount",
+        "cn": "批量折扣",
+        "core": false
+      },
+      {
+        "id": "vocab1200_838",
+        "no": 838,
+        "en": "tiered pricing",
+        "cn": "阶梯定价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_839",
+        "no": 839,
+        "en": "minimum order quantity (...",
+        "cn": "最小起订量",
+        "core": false
+      },
+      {
+        "id": "vocab1200_840",
+        "no": 840,
+        "en": "sample order",
+        "cn": "样品单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_841",
+        "no": 841,
+        "en": "trial order",
+        "cn": "试单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_842",
+        "no": 842,
+        "en": "repeat order",
+        "cn": "复购订单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_843",
+        "no": 843,
+        "en": "bulk order",
+        "cn": "大货订单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_844",
+        "no": 844,
+        "en": "purchase order (PO)",
+        "cn": "采购订单",
+        "core": true
+      },
+      {
+        "id": "vocab1200_845",
+        "no": 845,
+        "en": "sales order",
+        "cn": "销售订单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_846",
+        "no": 846,
+        "en": "order confirmation",
+        "cn": "订单确认",
+        "core": false
+      },
+      {
+        "id": "vocab1200_847",
+        "no": 847,
+        "en": "pro forma invoice (PI)",
+        "cn": "形式发票",
+        "core": false
+      },
+      {
+        "id": "vocab1200_848",
+        "no": 848,
+        "en": "commercial invoice",
+        "cn": "商业发票",
+        "core": true
+      },
+      {
+        "id": "vocab1200_849",
+        "no": 849,
+        "en": "packing list",
+        "cn": "装箱单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_850",
+        "no": 850,
+        "en": "product catalog",
+        "cn": "产品目录",
+        "core": true
+      },
+      {
+        "id": "vocab1200_851",
+        "no": 851,
+        "en": "specification",
+        "cn": "规格",
+        "core": true
+      },
+      {
+        "id": "vocab1200_852",
+        "no": 852,
+        "en": "technical specification",
+        "cn": "技术规格",
+        "core": false
+      },
+      {
+        "id": "vocab1200_853",
+        "no": 853,
+        "en": "product sample",
+        "cn": "产品样品",
+        "core": false
+      },
+      {
+        "id": "vocab1200_854",
+        "no": 854,
+        "en": "pre-production sample",
+        "cn": "产前样",
+        "core": false
+      },
+      {
+        "id": "vocab1200_855",
+        "no": 855,
+        "en": "golden sample",
+        "cn": "确认样/金样",
+        "core": false
+      },
+      {
+        "id": "vocab1200_856",
+        "no": 856,
+        "en": "sample approval",
+        "cn": "样品确认",
+        "core": false
+      },
+      {
+        "id": "vocab1200_857",
+        "no": 857,
+        "en": "quality requirement",
+        "cn": "质量要求",
+        "core": true
+      },
+      {
+        "id": "vocab1200_858",
+        "no": 858,
+        "en": "tolerance",
+        "cn": "公差",
+        "core": false
+      },
+      {
+        "id": "vocab1200_859",
+        "no": 859,
+        "en": "customization",
+        "cn": "定制",
+        "core": true
+      },
+      {
+        "id": "vocab1200_860",
+        "no": 860,
+        "en": "private labeling",
+        "cn": "贴牌",
+        "core": false
+      },
+      {
+        "id": "vocab1200_861",
+        "no": 861,
+        "en": "branding requirement",
+        "cn": "品牌要求",
+        "core": false
+      },
+      {
+        "id": "vocab1200_862",
+        "no": 862,
+        "en": "packaging requirement",
+        "cn": "包装要求",
+        "core": false
+      },
+      {
+        "id": "vocab1200_863",
+        "no": 863,
+        "en": "delivery schedule",
+        "cn": "交货计划",
+        "core": true
+      },
+      {
+        "id": "vocab1200_864",
+        "no": 864,
+        "en": "production lead time",
+        "cn": "生产周期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_865",
+        "no": 865,
+        "en": "estimated time of departu...",
+        "cn": "预计离港时间",
+        "core": false
+      },
+      {
+        "id": "vocab1200_866",
+        "no": 866,
+        "en": "estimated time of arrival (...",
+        "cn": "预计到港时间",
+        "core": false
+      },
+      {
+        "id": "vocab1200_867",
+        "no": 867,
+        "en": "payment schedule",
+        "cn": "付款计划",
+        "core": false
+      },
+      {
+        "id": "vocab1200_868",
+        "no": 868,
+        "en": "deposit",
+        "cn": "定金",
+        "core": true
+      },
+      {
+        "id": "vocab1200_869",
+        "no": 869,
+        "en": "balance payment",
+        "cn": "尾款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_870",
+        "no": 870,
+        "en": "payment milestone",
+        "cn": "付款节点",
+        "core": false
+      },
+      {
+        "id": "vocab1200_871",
+        "no": 871,
+        "en": "credit term",
+        "cn": "账期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_872",
+        "no": 872,
+        "en": "net 30",
+        "cn": "30天账期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_873",
+        "no": 873,
+        "en": "net 60",
+        "cn": "60天账期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_874",
+        "no": 874,
+        "en": "exclusive distributor",
+        "cn": "独家经销商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_875",
+        "no": 875,
+        "en": "non-exclusive distributor",
+        "cn": "非独家经销商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_876",
+        "no": 876,
+        "en": "territory",
+        "cn": "销售区域",
+        "core": false
+      },
+      {
+        "id": "vocab1200_877",
+        "no": 877,
+        "en": "minimum annual purchase",
+        "cn": "年度最低采购量",
+        "core": false
+      },
+      {
+        "id": "vocab1200_878",
+        "no": 878,
+        "en": "sales target",
+        "cn": "销售目标",
+        "core": false
+      },
+      {
+        "id": "vocab1200_879",
+        "no": 879,
+        "en": "after-sales service",
+        "cn": "售后服务",
+        "core": false
+      },
+      {
+        "id": "vocab1200_880",
+        "no": 880,
+        "en": "customer retention",
+        "cn": "客户留存",
+        "core": true
+      }
+    ]
+  },
+  {
+    "id": "ch17",
+    "title": "海外营销、渠道、品牌增长与市场研究",
+    "words": [
+      {
+        "id": "vocab1200_960",
+        "no": 960,
+        "en": "market research",
+        "cn": "市场调研",
+        "core": true
+      },
+      {
+        "id": "vocab1200_961",
+        "no": 961,
+        "en": "market intelligence",
+        "cn": "市场情报",
+        "core": false
+      },
+      {
+        "id": "vocab1200_962",
+        "no": 962,
+        "en": "competitive intelligence",
+        "cn": "竞争情报",
+        "core": false
+      },
+      {
+        "id": "vocab1200_963",
+        "no": 963,
+        "en": "competitive landscape",
+        "cn": "竞争格局",
+        "core": true
+      },
+      {
+        "id": "vocab1200_964",
+        "no": 964,
+        "en": "competitor analysis",
+        "cn": "竞品分析",
+        "core": true
+      },
+      {
+        "id": "vocab1200_965",
+        "no": 965,
+        "en": "benchmarking",
+        "cn": "对标分析",
+        "core": false
+      },
+      {
+        "id": "vocab1200_966",
+        "no": 966,
+        "en": "market entry",
+        "cn": "市场进入",
+        "core": true
+      },
+      {
+        "id": "vocab1200_967",
+        "no": 967,
+        "en": "go-to-market strategy (GT...",
+        "cn": "市场进入策略",
+        "core": false
+      },
+      {
+        "id": "vocab1200_968",
+        "no": 968,
+        "en": "market expansion",
+        "cn": "市场扩张",
+        "core": true
+      },
+      {
+        "id": "vocab1200_969",
+        "no": 969,
+        "en": "market opportunity",
+        "cn": "市场机会",
+        "core": true
+      },
+      {
+        "id": "vocab1200_970",
+        "no": 970,
+        "en": "total addressable market (...",
+        "cn": "总可服务市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_971",
+        "no": 971,
+        "en": "serviceable available mar...",
+        "cn": "可服务市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_972",
+        "no": 972,
+        "en": "serviceable obtainable ma...",
+        "cn": "可获取市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_973",
+        "no": 973,
+        "en": "demand forecast",
+        "cn": "需求预测",
+        "core": true
+      },
+      {
+        "id": "vocab1200_974",
+        "no": 974,
+        "en": "market growth rate",
+        "cn": "市场增长率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_975",
+        "no": 975,
+        "en": "category growth",
+        "cn": "品类增长",
+        "core": false
+      },
+      {
+        "id": "vocab1200_976",
+        "no": 976,
+        "en": "consumer insight",
+        "cn": "消费者洞察",
+        "core": true
+      },
+      {
+        "id": "vocab1200_977",
+        "no": 977,
+        "en": "customer insight",
+        "cn": "客户洞察",
+        "core": false
+      },
+      {
+        "id": "vocab1200_978",
+        "no": 978,
+        "en": "pain point",
+        "cn": "痛点",
+        "core": true
+      },
+      {
+        "id": "vocab1200_979",
+        "no": 979,
+        "en": "unmet need",
+        "cn": "未满足需求",
+        "core": false
+      },
+      {
+        "id": "vocab1200_980",
+        "no": 980,
+        "en": "value proposition",
+        "cn": "价值主张",
+        "core": true
+      },
+      {
+        "id": "vocab1200_981",
+        "no": 981,
+        "en": "unique selling proposition ...",
+        "cn": "独特销售主张",
+        "core": false
+      },
+      {
+        "id": "vocab1200_982",
+        "no": 982,
+        "en": "product-market fit",
+        "cn": "产品市场匹配",
+        "core": true
+      },
+      {
+        "id": "vocab1200_983",
+        "no": 983,
+        "en": "brand equity",
+        "cn": "品牌资产",
+        "core": true
+      },
+      {
+        "id": "vocab1200_984",
+        "no": 984,
+        "en": "brand image",
+        "cn": "品牌形象",
+        "core": false
+      },
+      {
+        "id": "vocab1200_985",
+        "no": 985,
+        "en": "brand recognition",
+        "cn": "品牌识别度",
+        "core": false
+      },
+      {
+        "id": "vocab1200_986",
+        "no": 986,
+        "en": "brand trust",
+        "cn": "品牌信任",
+        "core": false
+      },
+      {
+        "id": "vocab1200_987",
+        "no": 987,
+        "en": "brand premium",
+        "cn": "品牌溢价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_988",
+        "no": 988,
+        "en": "premiumization",
+        "cn": "高端化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_989",
+        "no": 989,
+        "en": "localization",
+        "cn": "本地化",
+        "core": true
+      },
+      {
+        "id": "vocab1200_990",
+        "no": 990,
+        "en": "transcreation",
+        "cn": "创译/本地化创作",
+        "core": false
+      },
+      {
+        "id": "vocab1200_991",
+        "no": 991,
+        "en": "cultural adaptation",
+        "cn": "文化适配",
+        "core": false
+      },
+      {
+        "id": "vocab1200_992",
+        "no": 992,
+        "en": "channel strategy",
+        "cn": "渠道策略",
+        "core": true
+      },
+      {
+        "id": "vocab1200_993",
+        "no": 993,
+        "en": "channel partner",
+        "cn": "渠道合作伙伴",
+        "core": false
+      },
+      {
+        "id": "vocab1200_994",
+        "no": 994,
+        "en": "distribution network",
+        "cn": "分销网络",
+        "core": true
+      },
+      {
+        "id": "vocab1200_995",
+        "no": 995,
+        "en": "retail network",
+        "cn": "零售网络",
+        "core": false
+      },
+      {
+        "id": "vocab1200_996",
+        "no": 996,
+        "en": "authorized distributor",
+        "cn": "授权经销商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_997",
+        "no": 997,
+        "en": "reseller",
+        "cn": "转售商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_998",
+        "no": 998,
+        "en": "dealer network",
+        "cn": "经销商网络",
+        "core": false
+      },
+      {
+        "id": "vocab1200_999",
+        "no": 999,
+        "en": "franchise",
+        "cn": "特许经营",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1000",
+        "no": 1000,
+        "en": "franchising",
+        "cn": "特许经营模式",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1001",
+        "no": 1001,
+        "en": "marketplace seller",
+        "cn": "平台卖家",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1002",
+        "no": 1002,
+        "en": "cross-border seller",
+        "cn": "跨境卖家",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1003",
+        "no": 1003,
+        "en": "direct sales",
+        "cn": "直销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1004",
+        "no": 1004,
+        "en": "indirect sales",
+        "cn": "间接销售",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1005",
+        "no": 1005,
+        "en": "wholesale channel",
+        "cn": "批发渠道",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1006",
+        "no": 1006,
+        "en": "retail channel",
+        "cn": "零售渠道",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1007",
+        "no": 1007,
+        "en": "key opinion leader (KOL)",
+        "cn": "关键意见领袖",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1008",
+        "no": 1008,
+        "en": "key opinion consumer (KO...",
+        "cn": "关键意见消费者",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1009",
+        "no": 1009,
+        "en": "creator economy",
+        "cn": "创作者经济",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1010",
+        "no": 1010,
+        "en": "content marketing",
+        "cn": "内容营销",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1011",
+        "no": 1011,
+        "en": "performance marketing",
+        "cn": "效果营销",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1012",
+        "no": 1012,
+        "en": "paid media",
+        "cn": "付费媒体",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1013",
+        "no": 1013,
+        "en": "owned media",
+        "cn": "自有媒体",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1014",
+        "no": 1014,
+        "en": "earned media",
+        "cn": "赢得媒体",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1015",
+        "no": 1015,
+        "en": "search engine optimizatio...",
+        "cn": "搜索引擎优化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1016",
+        "no": 1016,
+        "en": "search engine marketing (...",
+        "cn": "搜索引擎营销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1017",
+        "no": 1017,
+        "en": "cost per click (CPC)",
+        "cn": "单次点击成本",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1018",
+        "no": 1018,
+        "en": "cost per acquisition (CPA)",
+        "cn": "单次获客成本",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1019",
+        "no": 1019,
+        "en": "return on ad spend (ROAS)",
+        "cn": "广告支出回报率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1020",
+        "no": 1020,
+        "en": "impression",
+        "cn": "曝光",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1021",
+        "no": 1021,
+        "en": "click-through rate (CTR)",
+        "cn": "点击率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1022",
+        "no": 1022,
+        "en": "engagement rate",
+        "cn": "互动率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1023",
+        "no": 1023,
+        "en": "reach",
+        "cn": "触达人数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1024",
+        "no": 1024,
+        "en": "traffic source",
+        "cn": "流量来源",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1025",
+        "no": 1025,
+        "en": "landing page",
+        "cn": "落地页",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1026",
+        "no": 1026,
+        "en": "conversion optimization",
+        "cn": "转化优化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1027",
+        "no": 1027,
+        "en": "retargeting",
+        "cn": "再营销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1028",
+        "no": 1028,
+        "en": "remarketing",
+        "cn": "再营销/二次营销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1029",
+        "no": 1029,
+        "en": "email marketing",
+        "cn": "邮件营销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1030",
+        "no": 1030,
+        "en": "marketing automation",
+        "cn": "营销自动化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1031",
+        "no": 1031,
+        "en": "lead nurturing",
+        "cn": "线索培育",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1032",
+        "no": 1032,
+        "en": "customer segmentation",
+        "cn": "客户分群",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1033",
+        "no": 1033,
+        "en": "personalization",
+        "cn": "个性化",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1034",
+        "no": 1034,
+        "en": "loyalty program",
+        "cn": "会员忠诚计划",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1035",
+        "no": 1035,
+        "en": "referral program",
+        "cn": "推荐奖励计划",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1036",
+        "no": 1036,
+        "en": "word of mouth",
+        "cn": "口碑传播",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1037",
+        "no": 1037,
+        "en": "net promoter score (NPS)",
+        "cn": "净推荐值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1038",
+        "no": 1038,
+        "en": "brand lift",
+        "cn": "品牌提升",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1039",
+        "no": 1039,
+        "en": "market share gain",
+        "cn": "市场份额提升",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch18",
+    "title": "基金、ETF、衍生品与投资风险管理",
+    "words": [
+      {
+        "id": "vocab1200_1040",
+        "no": 1040,
+        "en": "fund manager",
+        "cn": "基金经理",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1041",
+        "no": 1041,
+        "en": "asset manager",
+        "cn": "资产管理机构",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1042",
+        "no": 1042,
+        "en": "fund house",
+        "cn": "基金公司",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1043",
+        "no": 1043,
+        "en": "fund mandate",
+        "cn": "基金投资授权范围",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1044",
+        "no": 1044,
+        "en": "fund objective",
+        "cn": "基金投资目标",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1045",
+        "no": 1045,
+        "en": "fund benchmark",
+        "cn": "基金基准",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1046",
+        "no": 1046,
+        "en": "tracking error",
+        "cn": "跟踪误差",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1047",
+        "no": 1047,
+        "en": "tracking difference",
+        "cn": "跟踪差异",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1048",
+        "no": 1048,
+        "en": "expense ratio",
+        "cn": "基金费率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1049",
+        "no": 1049,
+        "en": "management fee",
+        "cn": "管理费",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1050",
+        "no": 1050,
+        "en": "custodian fee",
+        "cn": "托管费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1051",
+        "no": 1051,
+        "en": "sales service fee",
+        "cn": "销售服务费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1052",
+        "no": 1052,
+        "en": "subscription fee",
+        "cn": "申购费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1053",
+        "no": 1053,
+        "en": "redemption fee",
+        "cn": "赎回费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1054",
+        "no": 1054,
+        "en": "fund size",
+        "cn": "基金规模",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1055",
+        "no": 1055,
+        "en": "assets under managemen...",
+        "cn": "资产管理规模",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1056",
+        "no": 1056,
+        "en": "net asset value (NAV)",
+        "cn": "基金净值",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1057",
+        "no": 1057,
+        "en": "premium to NAV",
+        "cn": "相对净值溢价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1058",
+        "no": 1058,
+        "en": "discount to NAV",
+        "cn": "相对净值折价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1059",
+        "no": 1059,
+        "en": "creation unit",
+        "cn": "ETF申购赎回单位",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1060",
+        "no": 1060,
+        "en": "authorized participant (AP)",
+        "cn": "ETF授权参与人",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1061",
+        "no": 1061,
+        "en": "primary market",
+        "cn": "一级市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1062",
+        "no": 1062,
+        "en": "secondary market",
+        "cn": "二级市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1063",
+        "no": 1063,
+        "en": "accumulating ETF",
+        "cn": "累积型ETF",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1064",
+        "no": 1064,
+        "en": "distributing ETF",
+        "cn": "分红型ETF",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1065",
+        "no": 1065,
+        "en": "synthetic ETF",
+        "cn": "合成ETF",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1066",
+        "no": 1066,
+        "en": "physical replication",
+        "cn": "实物复制",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1067",
+        "no": 1067,
+        "en": "full replication",
+        "cn": "完全复制",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1068",
+        "no": 1068,
+        "en": "sampling",
+        "cn": "抽样复制",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1069",
+        "no": 1069,
+        "en": "securities lending",
+        "cn": "证券出借",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1070",
+        "no": 1070,
+        "en": "factor investing",
+        "cn": "因子投资",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1071",
+        "no": 1071,
+        "en": "smart beta",
+        "cn": "聪明贝塔",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1072",
+        "no": 1072,
+        "en": "value factor",
+        "cn": "价值因子",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1073",
+        "no": 1073,
+        "en": "momentum factor",
+        "cn": "动量因子",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1074",
+        "no": 1074,
+        "en": "quality factor",
+        "cn": "质量因子",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1075",
+        "no": 1075,
+        "en": "low-volatility factor",
+        "cn": "低波动因子",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1076",
+        "no": 1076,
+        "en": "size factor",
+        "cn": "规模因子",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1077",
+        "no": 1077,
+        "en": "multi-factor strategy",
+        "cn": "多因子策略",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1078",
+        "no": 1078,
+        "en": "dollar-cost averaging (...",
+        "cn": "定期定额投资",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1079",
+        "no": 1079,
+        "en": "lump-sum investing",
+        "cn": "一次性投资",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1080",
+        "no": 1080,
+        "en": "systematic investing",
+        "cn": "系统化投资",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1081",
+        "no": 1081,
+        "en": "tactical allocation",
+        "cn": "战术资产配置",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1082",
+        "no": 1082,
+        "en": "strategic allocation",
+        "cn": "战略资产配置",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1083",
+        "no": 1083,
+        "en": "risk parity",
+        "cn": "风险平价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1084",
+        "no": 1084,
+        "en": "risk budget",
+        "cn": "风险预算",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1085",
+        "no": 1085,
+        "en": "position sizing",
+        "cn": "仓位管理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1086",
+        "no": 1086,
+        "en": "stop loss",
+        "cn": "止损",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1087",
+        "no": 1087,
+        "en": "take profit",
+        "cn": "止盈",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1088",
+        "no": 1088,
+        "en": "hedging",
+        "cn": "对冲",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1089",
+        "no": 1089,
+        "en": "currency hedging",
+        "cn": "汇率对冲",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1090",
+        "no": 1090,
+        "en": "interest-rate hedging",
+        "cn": "利率对冲",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1091",
+        "no": 1091,
+        "en": "derivative",
+        "cn": "衍生品",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1092",
+        "no": 1092,
+        "en": "futures contract",
+        "cn": "期货合约",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1093",
+        "no": 1093,
+        "en": "forward contract",
+        "cn": "远期合约",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1094",
+        "no": 1094,
+        "en": "option",
+        "cn": "期权",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1095",
+        "no": 1095,
+        "en": "call option",
+        "cn": "看涨期权",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1096",
+        "no": 1096,
+        "en": "put option",
+        "cn": "看跌期权",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1097",
+        "no": 1097,
+        "en": "strike price",
+        "cn": "执行价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1098",
+        "no": 1098,
+        "en": "option premium",
+        "cn": "期权费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1099",
+        "no": 1099,
+        "en": "expiration date",
+        "cn": "到期日",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1100",
+        "no": 1100,
+        "en": "implied volatility",
+        "cn": "隐含波动率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1101",
+        "no": 1101,
+        "en": "realized volatility",
+        "cn": "已实现波动率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1102",
+        "no": 1102,
+        "en": "delta",
+        "cn": "Delta值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1103",
+        "no": 1103,
+        "en": "gamma",
+        "cn": "Gamma值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1104",
+        "no": 1104,
+        "en": "theta",
+        "cn": "Theta值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1105",
+        "no": 1105,
+        "en": "vega",
+        "cn": "Vega值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1106",
+        "no": 1106,
+        "en": "margin requirement",
+        "cn": "保证金要求",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1107",
+        "no": 1107,
+        "en": "margin call",
+        "cn": "追加保证金通知",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1108",
+        "no": 1108,
+        "en": "short selling",
+        "cn": "卖空",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1109",
+        "no": 1109,
+        "en": "short interest",
+        "cn": "空头持仓",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1110",
+        "no": 1110,
+        "en": "long position",
+        "cn": "多头仓位",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1111",
+        "no": 1111,
+        "en": "short position",
+        "cn": "空头仓位",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1112",
+        "no": 1112,
+        "en": "correlation",
+        "cn": "相关性",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1113",
+        "no": 1113,
+        "en": "beta",
+        "cn": "贝塔系数",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1114",
+        "no": 1114,
+        "en": "alpha",
+        "cn": "超额收益",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1115",
+        "no": 1115,
+        "en": "Sharpe ratio",
+        "cn": "夏普比率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1116",
+        "no": 1116,
+        "en": "Sortino ratio",
+        "cn": "索提诺比率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1117",
+        "no": 1117,
+        "en": "value at risk (VaR)",
+        "cn": "风险价值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1118",
+        "no": 1118,
+        "en": "stress test",
+        "cn": "压力测试",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1119",
+        "no": 1119,
+        "en": "scenario analysis",
+        "cn": "情景分析",
+        "core": true
+      }
+    ]
   }
 ]
