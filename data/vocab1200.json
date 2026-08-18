@@ -1417,6 +1417,362 @@
     ]
   },
   {
+    "id": "ch05",
+    "title": "国际贸易、关税与海关",
+    "words": [
+      {
+        "id": "vocab1200_200",
+        "no": 200,
+        "en": "trade",
+        "cn": "贸易",
+        "core": true
+      },
+      {
+        "id": "vocab1200_201",
+        "no": 201,
+        "en": "international trade",
+        "cn": "国际贸易",
+        "core": true
+      },
+      {
+        "id": "vocab1200_202",
+        "no": 202,
+        "en": "domestic trade",
+        "cn": "国内贸易",
+        "core": false
+      },
+      {
+        "id": "vocab1200_203",
+        "no": 203,
+        "en": "global trade",
+        "cn": "全球贸易",
+        "core": true
+      },
+      {
+        "id": "vocab1200_204",
+        "no": 204,
+        "en": "foreign trade",
+        "cn": "对外贸易",
+        "core": true
+      },
+      {
+        "id": "vocab1200_205",
+        "no": 205,
+        "en": "export",
+        "cn": "出口",
+        "core": true
+      },
+      {
+        "id": "vocab1200_206",
+        "no": 206,
+        "en": "import",
+        "cn": "进口",
+        "core": true
+      },
+      {
+        "id": "vocab1200_207",
+        "no": 207,
+        "en": "exporter",
+        "cn": "出口商",
+        "core": true
+      },
+      {
+        "id": "vocab1200_208",
+        "no": 208,
+        "en": "importer",
+        "cn": "进口商",
+        "core": true
+      },
+      {
+        "id": "vocab1200_209",
+        "no": 209,
+        "en": "trade balance",
+        "cn": "贸易差额",
+        "core": true
+      },
+      {
+        "id": "vocab1200_210",
+        "no": 210,
+        "en": "trade surplus",
+        "cn": "贸易顺差",
+        "core": true
+      },
+      {
+        "id": "vocab1200_211",
+        "no": 211,
+        "en": "trade deficit",
+        "cn": "贸易逆差",
+        "core": true
+      },
+      {
+        "id": "vocab1200_212",
+        "no": 212,
+        "en": "free trade",
+        "cn": "自由贸易",
+        "core": true
+      },
+      {
+        "id": "vocab1200_213",
+        "no": 213,
+        "en": "free trade agreement (FTA)",
+        "cn": "自由贸易协定",
+        "core": false
+      },
+      {
+        "id": "vocab1200_214",
+        "no": 214,
+        "en": "bilateral trade",
+        "cn": "双边贸易",
+        "core": true
+      },
+      {
+        "id": "vocab1200_215",
+        "no": 215,
+        "en": "multilateral trade",
+        "cn": "多边贸易",
+        "core": true
+      },
+      {
+        "id": "vocab1200_216",
+        "no": 216,
+        "en": "trade bloc",
+        "cn": "贸易集团",
+        "core": false
+      },
+      {
+        "id": "vocab1200_217",
+        "no": 217,
+        "en": "common market",
+        "cn": "共同市场",
+        "core": false
+      },
+      {
+        "id": "vocab1200_218",
+        "no": 218,
+        "en": "customs union",
+        "cn": "关税同盟",
+        "core": false
+      },
+      {
+        "id": "vocab1200_219",
+        "no": 219,
+        "en": "tariff",
+        "cn": "关税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_220",
+        "no": 220,
+        "en": "import duty",
+        "cn": "进口税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_221",
+        "no": 221,
+        "en": "export duty",
+        "cn": "出口税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_222",
+        "no": 222,
+        "en": "anti-dumping duty",
+        "cn": "反倾销税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_223",
+        "no": 223,
+        "en": "countervailing duty",
+        "cn": "反补贴税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_224",
+        "no": 224,
+        "en": "quota",
+        "cn": "配额",
+        "core": true
+      },
+      {
+        "id": "vocab1200_225",
+        "no": 225,
+        "en": "trade barrier",
+        "cn": "贸易壁垒",
+        "core": true
+      },
+      {
+        "id": "vocab1200_226",
+        "no": 226,
+        "en": "non-tariff barrier",
+        "cn": "非关税壁垒",
+        "core": false
+      },
+      {
+        "id": "vocab1200_227",
+        "no": 227,
+        "en": "protectionism",
+        "cn": "贸易保护主义",
+        "core": true
+      },
+      {
+        "id": "vocab1200_228",
+        "no": 228,
+        "en": "embargo",
+        "cn": "禁运",
+        "core": true
+      },
+      {
+        "id": "vocab1200_229",
+        "no": 229,
+        "en": "sanction",
+        "cn": "制裁",
+        "core": true
+      },
+      {
+        "id": "vocab1200_230",
+        "no": 230,
+        "en": "rules of origin",
+        "cn": "原产地规则",
+        "core": false
+      },
+      {
+        "id": "vocab1200_231",
+        "no": 231,
+        "en": "certificate of origin",
+        "cn": "原产地证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_232",
+        "no": 232,
+        "en": "customs",
+        "cn": "海关",
+        "core": true
+      },
+      {
+        "id": "vocab1200_233",
+        "no": 233,
+        "en": "customs declaration",
+        "cn": "报关",
+        "core": false
+      },
+      {
+        "id": "vocab1200_234",
+        "no": 234,
+        "en": "customs clearance",
+        "cn": "清关",
+        "core": true
+      },
+      {
+        "id": "vocab1200_235",
+        "no": 235,
+        "en": "customs broker",
+        "cn": "报关行/报关代理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_236",
+        "no": 236,
+        "en": "HS code",
+        "cn": "海关商品编码",
+        "core": false
+      },
+      {
+        "id": "vocab1200_237",
+        "no": 237,
+        "en": "commodity code",
+        "cn": "商品编码",
+        "core": false
+      },
+      {
+        "id": "vocab1200_238",
+        "no": 238,
+        "en": "dutiable value",
+        "cn": "完税价格",
+        "core": false
+      },
+      {
+        "id": "vocab1200_239",
+        "no": 239,
+        "en": "bonded zone",
+        "cn": "保税区",
+        "core": false
+      },
+      {
+        "id": "vocab1200_240",
+        "no": 240,
+        "en": "bonded warehouse",
+        "cn": "保税仓",
+        "core": false
+      },
+      {
+        "id": "vocab1200_241",
+        "no": 241,
+        "en": "free trade zone (FTZ)",
+        "cn": "自由贸易区",
+        "core": false
+      },
+      {
+        "id": "vocab1200_242",
+        "no": 242,
+        "en": "export rebate",
+        "cn": "出口退税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_243",
+        "no": 243,
+        "en": "import license",
+        "cn": "进口许可证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_244",
+        "no": 244,
+        "en": "export license",
+        "cn": "出口许可证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_245",
+        "no": 245,
+        "en": "trade remedy",
+        "cn": "贸易救济",
+        "core": false
+      },
+      {
+        "id": "vocab1200_246",
+        "no": 246,
+        "en": "trade compliance",
+        "cn": "贸易合规",
+        "core": true
+      },
+      {
+        "id": "vocab1200_247",
+        "no": 247,
+        "en": "trade facilitation",
+        "cn": "贸易便利化",
+        "core": true
+      },
+      {
+        "id": "vocab1200_248",
+        "no": 248,
+        "en": "most-favored-nation (MFN) treatment",
+        "cn": "最惠国待遇",
+        "core": false
+      },
+      {
+        "id": "vocab1200_249",
+        "no": 249,
+        "en": "preferential tariff",
+        "cn": "优惠关税",
+        "core": false
+      }
+    ]
+  },
+  {
     "id": "ch06",
     "title": "物流、运输与供应链",
     "words": [
@@ -3735,6 +4091,537 @@
     ]
   },
   {
+    "id": "ch12",
+    "title": "AI产业链、半导体与科技资本开支",
+    "words": [
+      {
+        "id": "vocab1200_576",
+        "no": 576,
+        "en": "artificial intelligence in...",
+        "cn": "人工智能基础设施",
+        "core": true
+      },
+      {
+        "id": "vocab1200_577",
+        "no": 577,
+        "en": "AI accelerator",
+        "cn": "AI加速器",
+        "core": false
+      },
+      {
+        "id": "vocab1200_578",
+        "no": 578,
+        "en": "graphics processing unit (...",
+        "cn": "图形处理器",
+        "core": false
+      },
+      {
+        "id": "vocab1200_579",
+        "no": 579,
+        "en": "central processing unit (C...",
+        "cn": "中央处理器",
+        "core": false
+      },
+      {
+        "id": "vocab1200_580",
+        "no": 580,
+        "en": "neural processing unit (NP...",
+        "cn": "神经网络处理器",
+        "core": false
+      },
+      {
+        "id": "vocab1200_581",
+        "no": 581,
+        "en": "application-specific integr...",
+        "cn": "专用集成电路",
+        "core": false
+      },
+      {
+        "id": "vocab1200_582",
+        "no": 582,
+        "en": "semiconductor",
+        "cn": "半导体",
+        "core": true
+      },
+      {
+        "id": "vocab1200_583",
+        "no": 583,
+        "en": "chip",
+        "cn": "芯片",
+        "core": true
+      },
+      {
+        "id": "vocab1200_584",
+        "no": 584,
+        "en": "foundry",
+        "cn": "晶圆代工厂",
+        "core": true
+      },
+      {
+        "id": "vocab1200_585",
+        "no": 585,
+        "en": "fabless",
+        "cn": "无晶圆厂模式",
+        "core": false
+      },
+      {
+        "id": "vocab1200_586",
+        "no": 586,
+        "en": "wafer",
+        "cn": "晶圆",
+        "core": true
+      },
+      {
+        "id": "vocab1200_587",
+        "no": 587,
+        "en": "wafer fabrication",
+        "cn": "晶圆制造",
+        "core": false
+      },
+      {
+        "id": "vocab1200_588",
+        "no": 588,
+        "en": "advanced node",
+        "cn": "先进制程",
+        "core": false
+      },
+      {
+        "id": "vocab1200_589",
+        "no": 589,
+        "en": "process node",
+        "cn": "制程节点",
+        "core": false
+      },
+      {
+        "id": "vocab1200_590",
+        "no": 590,
+        "en": "yield rate",
+        "cn": "良率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_591",
+        "no": 591,
+        "en": "packaging",
+        "cn": "封装",
+        "core": false
+      },
+      {
+        "id": "vocab1200_592",
+        "no": 592,
+        "en": "advanced packaging",
+        "cn": "先进封装",
+        "core": true
+      },
+      {
+        "id": "vocab1200_593",
+        "no": 593,
+        "en": "chiplet",
+        "cn": "芯粒",
+        "core": false
+      },
+      {
+        "id": "vocab1200_594",
+        "no": 594,
+        "en": "interposer",
+        "cn": "中介层",
+        "core": false
+      },
+      {
+        "id": "vocab1200_595",
+        "no": 595,
+        "en": "high-bandwidth memo...",
+        "cn": "高带宽内存",
+        "core": true
+      },
+      {
+        "id": "vocab1200_596",
+        "no": 596,
+        "en": "DRAM",
+        "cn": "动态随机存取存储器",
+        "core": false
+      },
+      {
+        "id": "vocab1200_597",
+        "no": 597,
+        "en": "NAND flash",
+        "cn": "NAND闪存",
+        "core": false
+      },
+      {
+        "id": "vocab1200_598",
+        "no": 598,
+        "en": "memory cycle",
+        "cn": "存储周期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_599",
+        "no": 599,
+        "en": "memory pricing",
+        "cn": "存储价格",
+        "core": false
+      },
+      {
+        "id": "vocab1200_600",
+        "no": 600,
+        "en": "semiconductor cycle",
+        "cn": "半导体周期",
+        "core": true
+      },
+      {
+        "id": "vocab1200_601",
+        "no": 601,
+        "en": "lithography",
+        "cn": "光刻",
+        "core": true
+      },
+      {
+        "id": "vocab1200_602",
+        "no": 602,
+        "en": "extreme ultraviolet lithogr...",
+        "cn": "极紫外光刻",
+        "core": false
+      },
+      {
+        "id": "vocab1200_603",
+        "no": 603,
+        "en": "etching",
+        "cn": "刻蚀",
+        "core": false
+      },
+      {
+        "id": "vocab1200_604",
+        "no": 604,
+        "en": "deposition",
+        "cn": "沉积",
+        "core": false
+      },
+      {
+        "id": "vocab1200_605",
+        "no": 605,
+        "en": "metrology",
+        "cn": "量测",
+        "core": false
+      },
+      {
+        "id": "vocab1200_606",
+        "no": 606,
+        "en": "semiconductor equipm...",
+        "cn": "半导体设备",
+        "core": true
+      },
+      {
+        "id": "vocab1200_607",
+        "no": 607,
+        "en": "electronic design automat...",
+        "cn": "电子设计自动化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_608",
+        "no": 608,
+        "en": "intellectual property core ...",
+        "cn": "IP核",
+        "core": false
+      },
+      {
+        "id": "vocab1200_609",
+        "no": 609,
+        "en": "data center",
+        "cn": "数据中心",
+        "core": true
+      },
+      {
+        "id": "vocab1200_610",
+        "no": 610,
+        "en": "hyperscaler",
+        "cn": "超大规模云服务商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_611",
+        "no": 611,
+        "en": "cloud service provider",
+        "cn": "云服务商",
+        "core": true
+      },
+      {
+        "id": "vocab1200_612",
+        "no": 612,
+        "en": "AI server",
+        "cn": "AI服务器",
+        "core": true
+      },
+      {
+        "id": "vocab1200_613",
+        "no": 613,
+        "en": "server rack",
+        "cn": "服务器机架",
+        "core": false
+      },
+      {
+        "id": "vocab1200_614",
+        "no": 614,
+        "en": "optical module",
+        "cn": "光模块",
+        "core": false
+      },
+      {
+        "id": "vocab1200_615",
+        "no": 615,
+        "en": "optical transceiver",
+        "cn": "光收发器",
+        "core": false
+      },
+      {
+        "id": "vocab1200_616",
+        "no": 616,
+        "en": "silicon photonics",
+        "cn": "硅光子",
+        "core": false
+      },
+      {
+        "id": "vocab1200_617",
+        "no": 617,
+        "en": "co-packaged optics (CPO)",
+        "cn": "共封装光学",
+        "core": false
+      },
+      {
+        "id": "vocab1200_618",
+        "no": 618,
+        "en": "network switch",
+        "cn": "网络交换机",
+        "core": false
+      },
+      {
+        "id": "vocab1200_619",
+        "no": 619,
+        "en": "InfiniBand",
+        "cn": "InfiniBand高速互连",
+        "core": false
+      },
+      {
+        "id": "vocab1200_620",
+        "no": 620,
+        "en": "Ethernet",
+        "cn": "以太网",
+        "core": false
+      },
+      {
+        "id": "vocab1200_621",
+        "no": 621,
+        "en": "bandwidth",
+        "cn": "带宽",
+        "core": true
+      },
+      {
+        "id": "vocab1200_622",
+        "no": 622,
+        "en": "latency",
+        "cn": "延迟",
+        "core": true
+      },
+      {
+        "id": "vocab1200_623",
+        "no": 623,
+        "en": "compute capacity",
+        "cn": "算力",
+        "core": true
+      },
+      {
+        "id": "vocab1200_624",
+        "no": 624,
+        "en": "computing power",
+        "cn": "计算能力",
+        "core": false
+      },
+      {
+        "id": "vocab1200_625",
+        "no": 625,
+        "en": "training workload",
+        "cn": "训练负载",
+        "core": false
+      },
+      {
+        "id": "vocab1200_626",
+        "no": 626,
+        "en": "inference workload",
+        "cn": "推理负载",
+        "core": false
+      },
+      {
+        "id": "vocab1200_627",
+        "no": 627,
+        "en": "foundation model",
+        "cn": "基础模型",
+        "core": true
+      },
+      {
+        "id": "vocab1200_628",
+        "no": 628,
+        "en": "large language model (...",
+        "cn": "大语言模型",
+        "core": true
+      },
+      {
+        "id": "vocab1200_629",
+        "no": 629,
+        "en": "multimodal model",
+        "cn": "多模态模型",
+        "core": false
+      },
+      {
+        "id": "vocab1200_630",
+        "no": 630,
+        "en": "model training",
+        "cn": "模型训练",
+        "core": true
+      },
+      {
+        "id": "vocab1200_631",
+        "no": 631,
+        "en": "inference",
+        "cn": "推理",
+        "core": true
+      },
+      {
+        "id": "vocab1200_632",
+        "no": 632,
+        "en": "token consumption",
+        "cn": "Token消耗",
+        "core": false
+      },
+      {
+        "id": "vocab1200_633",
+        "no": 633,
+        "en": "AI capex",
+        "cn": "AI资本开支",
+        "core": false
+      },
+      {
+        "id": "vocab1200_634",
+        "no": 634,
+        "en": "capital intensity",
+        "cn": "资本密集度",
+        "core": true
+      },
+      {
+        "id": "vocab1200_635",
+        "no": 635,
+        "en": "data-center capex",
+        "cn": "数据中心资本支出",
+        "core": false
+      },
+      {
+        "id": "vocab1200_636",
+        "no": 636,
+        "en": "power consumption",
+        "cn": "电力消耗",
+        "core": true
+      },
+      {
+        "id": "vocab1200_637",
+        "no": 637,
+        "en": "power density",
+        "cn": "功率密度",
+        "core": false
+      },
+      {
+        "id": "vocab1200_638",
+        "no": 638,
+        "en": "liquid cooling",
+        "cn": "液冷",
+        "core": false
+      },
+      {
+        "id": "vocab1200_639",
+        "no": 639,
+        "en": "uninterruptible power sup...",
+        "cn": "不间断电源",
+        "core": false
+      },
+      {
+        "id": "vocab1200_640",
+        "no": 640,
+        "en": "power distribution unit (P...",
+        "cn": "电源分配单元",
+        "core": false
+      },
+      {
+        "id": "vocab1200_641",
+        "no": 641,
+        "en": "grid connection",
+        "cn": "电网接入",
+        "core": false
+      },
+      {
+        "id": "vocab1200_642",
+        "no": 642,
+        "en": "electricity demand",
+        "cn": "电力需求",
+        "core": true
+      },
+      {
+        "id": "vocab1200_643",
+        "no": 643,
+        "en": "AI monetization",
+        "cn": "AI商业化变现",
+        "core": false
+      },
+      {
+        "id": "vocab1200_644",
+        "no": 644,
+        "en": "subscription revenue",
+        "cn": "订阅收入",
+        "core": false
+      },
+      {
+        "id": "vocab1200_645",
+        "no": 645,
+        "en": "cloud revenue",
+        "cn": "云收入",
+        "core": false
+      },
+      {
+        "id": "vocab1200_646",
+        "no": 646,
+        "en": "software margin",
+        "cn": "软件利润率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_647",
+        "no": 647,
+        "en": "infrastructure bottleneck",
+        "cn": "基础设施瓶颈",
+        "core": false
+      },
+      {
+        "id": "vocab1200_648",
+        "no": 648,
+        "en": "supply constraint",
+        "cn": "供应约束",
+        "core": false
+      },
+      {
+        "id": "vocab1200_649",
+        "no": 649,
+        "en": "capacity expansion",
+        "cn": "产能扩张",
+        "core": true
+      },
+      {
+        "id": "vocab1200_650",
+        "no": 650,
+        "en": "technology roadmap",
+        "cn": "技术路线图",
+        "core": true
+      }
+    ]
+  },
+  {
     "id": "ch13",
     "title": "能源、大宗商品与全球资源市场",
     "words": [
@@ -4262,6 +5149,537 @@
         "en": "terms of trade",
         "cn": "贸易条件",
         "core": true
+      }
+    ]
+  },
+  {
+    "id": "ch14",
+    "title": "跨境税务、海外账户与国际财富管理",
+    "words": [
+      {
+        "id": "vocab1200_726",
+        "no": 726,
+        "en": "cross-border taxation",
+        "cn": "跨境税务",
+        "core": true
+      },
+      {
+        "id": "vocab1200_727",
+        "no": 727,
+        "en": "international tax",
+        "cn": "国际税务",
+        "core": true
+      },
+      {
+        "id": "vocab1200_728",
+        "no": 728,
+        "en": "tax jurisdiction",
+        "cn": "税收管辖区",
+        "core": true
+      },
+      {
+        "id": "vocab1200_729",
+        "no": 729,
+        "en": "tax domicile",
+        "cn": "税务住所",
+        "core": false
+      },
+      {
+        "id": "vocab1200_730",
+        "no": 730,
+        "en": "tax residence",
+        "cn": "税务居住地",
+        "core": true
+      },
+      {
+        "id": "vocab1200_731",
+        "no": 731,
+        "en": "tax resident",
+        "cn": "税务居民",
+        "core": true
+      },
+      {
+        "id": "vocab1200_732",
+        "no": 732,
+        "en": "non-resident",
+        "cn": "非居民",
+        "core": false
+      },
+      {
+        "id": "vocab1200_733",
+        "no": 733,
+        "en": "tax identification number ...",
+        "cn": "纳税人识别号",
+        "core": false
+      },
+      {
+        "id": "vocab1200_734",
+        "no": 734,
+        "en": "tax declaration",
+        "cn": "纳税申报",
+        "core": false
+      },
+      {
+        "id": "vocab1200_735",
+        "no": 735,
+        "en": "tax return",
+        "cn": "纳税申报表",
+        "core": false
+      },
+      {
+        "id": "vocab1200_736",
+        "no": 736,
+        "en": "tax liability",
+        "cn": "纳税义务",
+        "core": true
+      },
+      {
+        "id": "vocab1200_737",
+        "no": 737,
+        "en": "income tax",
+        "cn": "所得税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_738",
+        "no": 738,
+        "en": "capital gains tax",
+        "cn": "资本利得税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_739",
+        "no": 739,
+        "en": "dividend tax",
+        "cn": "股息税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_740",
+        "no": 740,
+        "en": "withholding tax",
+        "cn": "预提税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_741",
+        "no": 741,
+        "en": "estate tax",
+        "cn": "遗产税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_742",
+        "no": 742,
+        "en": "inheritance tax",
+        "cn": "继承税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_743",
+        "no": 743,
+        "en": "gift tax",
+        "cn": "赠与税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_744",
+        "no": 744,
+        "en": "wealth tax",
+        "cn": "财富税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_745",
+        "no": 745,
+        "en": "value-added tax (VAT)",
+        "cn": "增值税",
+        "core": true
+      },
+      {
+        "id": "vocab1200_746",
+        "no": 746,
+        "en": "goods and services tax (G...",
+        "cn": "商品和服务税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_747",
+        "no": 747,
+        "en": "tax treaty",
+        "cn": "税收协定",
+        "core": true
+      },
+      {
+        "id": "vocab1200_748",
+        "no": 748,
+        "en": "double tax treaty",
+        "cn": "避免双重征税协定",
+        "core": false
+      },
+      {
+        "id": "vocab1200_749",
+        "no": 749,
+        "en": "tax credit",
+        "cn": "税收抵免",
+        "core": true
+      },
+      {
+        "id": "vocab1200_750",
+        "no": 750,
+        "en": "tax exemption",
+        "cn": "税收豁免",
+        "core": true
+      },
+      {
+        "id": "vocab1200_751",
+        "no": 751,
+        "en": "tax deduction",
+        "cn": "税前扣除",
+        "core": false
+      },
+      {
+        "id": "vocab1200_752",
+        "no": 752,
+        "en": "tax deferral",
+        "cn": "递延纳税",
+        "core": false
+      },
+      {
+        "id": "vocab1200_753",
+        "no": 753,
+        "en": "permanent establishment ...",
+        "cn": "常设机构",
+        "core": false
+      },
+      {
+        "id": "vocab1200_754",
+        "no": 754,
+        "en": "transfer pricing",
+        "cn": "转让定价",
+        "core": true
+      },
+      {
+        "id": "vocab1200_755",
+        "no": 755,
+        "en": "arm's-length principle",
+        "cn": "独立交易原则",
+        "core": false
+      },
+      {
+        "id": "vocab1200_756",
+        "no": 756,
+        "en": "base erosion and profit sh...",
+        "cn": "税基侵蚀和利润转移",
+        "core": false
+      },
+      {
+        "id": "vocab1200_757",
+        "no": 757,
+        "en": "controlled foreign corpora...",
+        "cn": "受控外国公司",
+        "core": false
+      },
+      {
+        "id": "vocab1200_758",
+        "no": 758,
+        "en": "Common Reporting Sta...",
+        "cn": "共同申报准则",
+        "core": true
+      },
+      {
+        "id": "vocab1200_759",
+        "no": 759,
+        "en": "FATCA",
+        "cn": "美国海外账户税收合规法案",
+        "core": false
+      },
+      {
+        "id": "vocab1200_760",
+        "no": 760,
+        "en": "automatic exchange of inf...",
+        "cn": "金融账户涉税信息自动交换",
+        "core": false
+      },
+      {
+        "id": "vocab1200_761",
+        "no": 761,
+        "en": "beneficial ownership",
+        "cn": "受益所有权",
+        "core": true
+      },
+      {
+        "id": "vocab1200_762",
+        "no": 762,
+        "en": "offshore account",
+        "cn": "离岸账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_763",
+        "no": 763,
+        "en": "overseas bank account",
+        "cn": "海外银行账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_764",
+        "no": 764,
+        "en": "multi-currency account",
+        "cn": "多币种账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_765",
+        "no": 765,
+        "en": "foreign currency account",
+        "cn": "外币账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_766",
+        "no": 766,
+        "en": "current account",
+        "cn": "往来账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_767",
+        "no": 767,
+        "en": "savings account",
+        "cn": "储蓄账户",
+        "core": false
+      },
+      {
+        "id": "vocab1200_768",
+        "no": 768,
+        "en": "brokerage account",
+        "cn": "证券账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_769",
+        "no": 769,
+        "en": "custody account",
+        "cn": "托管账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_770",
+        "no": 770,
+        "en": "segregated account",
+        "cn": "客户资产隔离账户",
+        "core": false
+      },
+      {
+        "id": "vocab1200_771",
+        "no": 771,
+        "en": "account opening",
+        "cn": "开户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_772",
+        "no": 772,
+        "en": "proof of address",
+        "cn": "地址证明",
+        "core": false
+      },
+      {
+        "id": "vocab1200_773",
+        "no": 773,
+        "en": "proof of income",
+        "cn": "收入证明",
+        "core": true
+      },
+      {
+        "id": "vocab1200_774",
+        "no": 774,
+        "en": "source of funds",
+        "cn": "资金来源",
+        "core": true
+      },
+      {
+        "id": "vocab1200_775",
+        "no": 775,
+        "en": "source of wealth",
+        "cn": "财富来源",
+        "core": true
+      },
+      {
+        "id": "vocab1200_776",
+        "no": 776,
+        "en": "bank statement",
+        "cn": "银行流水",
+        "core": false
+      },
+      {
+        "id": "vocab1200_777",
+        "no": 777,
+        "en": "compliance review",
+        "cn": "合规审查",
+        "core": true
+      },
+      {
+        "id": "vocab1200_778",
+        "no": 778,
+        "en": "enhanced due diligence",
+        "cn": "强化尽职调查",
+        "core": false
+      },
+      {
+        "id": "vocab1200_779",
+        "no": 779,
+        "en": "sanctions screening",
+        "cn": "制裁筛查",
+        "core": false
+      },
+      {
+        "id": "vocab1200_780",
+        "no": 780,
+        "en": "transaction monitoring",
+        "cn": "交易监控",
+        "core": false
+      },
+      {
+        "id": "vocab1200_781",
+        "no": 781,
+        "en": "foreign remittance",
+        "cn": "境外汇款",
+        "core": true
+      },
+      {
+        "id": "vocab1200_782",
+        "no": 782,
+        "en": "cross-border transfer",
+        "cn": "跨境转账",
+        "core": true
+      },
+      {
+        "id": "vocab1200_783",
+        "no": 783,
+        "en": "foreign exchange quota",
+        "cn": "购汇额度",
+        "core": false
+      },
+      {
+        "id": "vocab1200_784",
+        "no": 784,
+        "en": "capital account convertibil...",
+        "cn": "资本项目可兑换",
+        "core": false
+      },
+      {
+        "id": "vocab1200_785",
+        "no": 785,
+        "en": "capital control",
+        "cn": "资本管制",
+        "core": true
+      },
+      {
+        "id": "vocab1200_786",
+        "no": 786,
+        "en": "investment channel",
+        "cn": "投资渠道",
+        "core": true
+      },
+      {
+        "id": "vocab1200_787",
+        "no": 787,
+        "en": "offshore investment",
+        "cn": "离岸投资",
+        "core": true
+      },
+      {
+        "id": "vocab1200_788",
+        "no": 788,
+        "en": "overseas securities",
+        "cn": "境外证券",
+        "core": true
+      },
+      {
+        "id": "vocab1200_789",
+        "no": 789,
+        "en": "custodian bank",
+        "cn": "托管银行",
+        "core": true
+      },
+      {
+        "id": "vocab1200_790",
+        "no": 790,
+        "en": "broker-dealer",
+        "cn": "证券经纪商",
+        "core": false
+      },
+      {
+        "id": "vocab1200_791",
+        "no": 791,
+        "en": "UCITS ETF",
+        "cn": "UCITS交易型基金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_792",
+        "no": 792,
+        "en": "U.S.-domiciled ETF",
+        "cn": "美国注册ETF",
+        "core": false
+      },
+      {
+        "id": "vocab1200_793",
+        "no": 793,
+        "en": "Ireland-domiciled ETF",
+        "cn": "爱尔兰注册ETF",
+        "core": false
+      },
+      {
+        "id": "vocab1200_794",
+        "no": 794,
+        "en": "accumulating share class",
+        "cn": "累积型份额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_795",
+        "no": 795,
+        "en": "distributing share class",
+        "cn": "分配型份额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_796",
+        "no": 796,
+        "en": "fund domicile",
+        "cn": "基金注册地",
+        "core": false
+      },
+      {
+        "id": "vocab1200_797",
+        "no": 797,
+        "en": "tax efficiency",
+        "cn": "税务效率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_798",
+        "no": 798,
+        "en": "currency exposure",
+        "cn": "货币敞口",
+        "core": true
+      },
+      {
+        "id": "vocab1200_799",
+        "no": 799,
+        "en": "hedged share class",
+        "cn": "汇率对冲份额",
+        "core": false
+      },
+      {
+        "id": "vocab1200_800",
+        "no": 800,
+        "en": "unhedged share class",
+        "cn": "未对冲份额",
+        "core": false
       }
     ]
   },
@@ -4828,6 +6246,565 @@
         "en": "customer retention",
         "cn": "客户留存",
         "core": true
+      }
+    ]
+  },
+  {
+    "id": "ch16",
+    "title": "国际合同、Incoterms、法律与贸易争议",
+    "words": [
+      {
+        "id": "vocab1200_881",
+        "no": 881,
+        "en": "sales contract",
+        "cn": "销售合同",
+        "core": true
+      },
+      {
+        "id": "vocab1200_882",
+        "no": 882,
+        "en": "purchase contract",
+        "cn": "采购合同",
+        "core": false
+      },
+      {
+        "id": "vocab1200_883",
+        "no": 883,
+        "en": "framework agreement",
+        "cn": "框架协议",
+        "core": true
+      },
+      {
+        "id": "vocab1200_884",
+        "no": 884,
+        "en": "distribution agreement",
+        "cn": "经销协议",
+        "core": false
+      },
+      {
+        "id": "vocab1200_885",
+        "no": 885,
+        "en": "agency agreement",
+        "cn": "代理协议",
+        "core": false
+      },
+      {
+        "id": "vocab1200_886",
+        "no": 886,
+        "en": "service agreement",
+        "cn": "服务协议",
+        "core": false
+      },
+      {
+        "id": "vocab1200_887",
+        "no": 887,
+        "en": "non-disclosure agreem...",
+        "cn": "保密协议",
+        "core": true
+      },
+      {
+        "id": "vocab1200_888",
+        "no": 888,
+        "en": "memorandum of understa...",
+        "cn": "谅解备忘录",
+        "core": false
+      },
+      {
+        "id": "vocab1200_889",
+        "no": 889,
+        "en": "term sheet",
+        "cn": "条款清单",
+        "core": false
+      },
+      {
+        "id": "vocab1200_890",
+        "no": 890,
+        "en": "contract clause",
+        "cn": "合同条款",
+        "core": true
+      },
+      {
+        "id": "vocab1200_891",
+        "no": 891,
+        "en": "governing law",
+        "cn": "适用法律",
+        "core": true
+      },
+      {
+        "id": "vocab1200_892",
+        "no": 892,
+        "en": "jurisdiction clause",
+        "cn": "管辖条款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_893",
+        "no": 893,
+        "en": "arbitration",
+        "cn": "仲裁",
+        "core": true
+      },
+      {
+        "id": "vocab1200_894",
+        "no": 894,
+        "en": "arbitration clause",
+        "cn": "仲裁条款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_895",
+        "no": 895,
+        "en": "mediation",
+        "cn": "调解",
+        "core": true
+      },
+      {
+        "id": "vocab1200_896",
+        "no": 896,
+        "en": "litigation",
+        "cn": "诉讼",
+        "core": true
+      },
+      {
+        "id": "vocab1200_897",
+        "no": 897,
+        "en": "dispute resolution",
+        "cn": "争议解决",
+        "core": true
+      },
+      {
+        "id": "vocab1200_898",
+        "no": 898,
+        "en": "breach of contract",
+        "cn": "违约",
+        "core": true
+      },
+      {
+        "id": "vocab1200_899",
+        "no": 899,
+        "en": "material breach",
+        "cn": "重大违约",
+        "core": false
+      },
+      {
+        "id": "vocab1200_900",
+        "no": 900,
+        "en": "remedy",
+        "cn": "救济措施",
+        "core": false
+      },
+      {
+        "id": "vocab1200_901",
+        "no": 901,
+        "en": "damages",
+        "cn": "损害赔偿",
+        "core": true
+      },
+      {
+        "id": "vocab1200_902",
+        "no": 902,
+        "en": "liquidated damages",
+        "cn": "违约金/预定损害赔偿金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_903",
+        "no": 903,
+        "en": "indemnity",
+        "cn": "赔偿保证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_904",
+        "no": 904,
+        "en": "limitation of liability",
+        "cn": "责任限制",
+        "core": false
+      },
+      {
+        "id": "vocab1200_905",
+        "no": 905,
+        "en": "force majeure",
+        "cn": "不可抗力",
+        "core": true
+      },
+      {
+        "id": "vocab1200_906",
+        "no": 906,
+        "en": "termination clause",
+        "cn": "终止条款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_907",
+        "no": 907,
+        "en": "notice period",
+        "cn": "通知期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_908",
+        "no": 908,
+        "en": "renewal",
+        "cn": "续约",
+        "core": false
+      },
+      {
+        "id": "vocab1200_909",
+        "no": 909,
+        "en": "warranty",
+        "cn": "保证/质保",
+        "core": true
+      },
+      {
+        "id": "vocab1200_910",
+        "no": 910,
+        "en": "product liability",
+        "cn": "产品责任",
+        "core": true
+      },
+      {
+        "id": "vocab1200_911",
+        "no": 911,
+        "en": "intellectual property (IP)",
+        "cn": "知识产权",
+        "core": true
+      },
+      {
+        "id": "vocab1200_912",
+        "no": 912,
+        "en": "trademark",
+        "cn": "商标",
+        "core": true
+      },
+      {
+        "id": "vocab1200_913",
+        "no": 913,
+        "en": "patent",
+        "cn": "专利",
+        "core": true
+      },
+      {
+        "id": "vocab1200_914",
+        "no": 914,
+        "en": "copyright",
+        "cn": "著作权",
+        "core": true
+      },
+      {
+        "id": "vocab1200_915",
+        "no": 915,
+        "en": "infringement",
+        "cn": "侵权",
+        "core": true
+      },
+      {
+        "id": "vocab1200_916",
+        "no": 916,
+        "en": "confidential information",
+        "cn": "保密信息",
+        "core": false
+      },
+      {
+        "id": "vocab1200_917",
+        "no": 917,
+        "en": "non-compete clause",
+        "cn": "竞业限制条款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_918",
+        "no": 918,
+        "en": "non-solicitation clause",
+        "cn": "禁止招揽条款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_919",
+        "no": 919,
+        "en": "Incoterms",
+        "cn": "国际贸易术语解释通则",
+        "core": false
+      },
+      {
+        "id": "vocab1200_920",
+        "no": 920,
+        "en": "EXW (Ex Works)",
+        "cn": "工厂交货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_921",
+        "no": 921,
+        "en": "FCA (Free Carrier)",
+        "cn": "货交承运人",
+        "core": false
+      },
+      {
+        "id": "vocab1200_922",
+        "no": 922,
+        "en": "FOB (Free On Board)",
+        "cn": "船上交货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_923",
+        "no": 923,
+        "en": "CFR (Cost and Freight)",
+        "cn": "成本加运费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_924",
+        "no": 924,
+        "en": "CIF (Cost, Insurance and F...",
+        "cn": "成本保险费加运费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_925",
+        "no": 925,
+        "en": "CPT (Carriage Paid To)",
+        "cn": "运费付至",
+        "core": false
+      },
+      {
+        "id": "vocab1200_926",
+        "no": 926,
+        "en": "CIP (Carriage and Insuran...",
+        "cn": "运费和保险费付至",
+        "core": false
+      },
+      {
+        "id": "vocab1200_927",
+        "no": 927,
+        "en": "DAP (Delivered at Place)",
+        "cn": "目的地交货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_928",
+        "no": 928,
+        "en": "DPU (Delivered at Place U...",
+        "cn": "卸货地交货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_929",
+        "no": 929,
+        "en": "DDP (Delivered Duty Paid)",
+        "cn": "完税后交货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_930",
+        "no": 930,
+        "en": "transfer of risk",
+        "cn": "风险转移",
+        "core": true
+      },
+      {
+        "id": "vocab1200_931",
+        "no": 931,
+        "en": "transfer of title",
+        "cn": "所有权转移",
+        "core": false
+      },
+      {
+        "id": "vocab1200_932",
+        "no": 932,
+        "en": "shipping instruction",
+        "cn": "装运指示",
+        "core": false
+      },
+      {
+        "id": "vocab1200_933",
+        "no": 933,
+        "en": "inspection certificate",
+        "cn": "检验证书",
+        "core": false
+      },
+      {
+        "id": "vocab1200_934",
+        "no": 934,
+        "en": "quality certificate",
+        "cn": "质量证书",
+        "core": false
+      },
+      {
+        "id": "vocab1200_935",
+        "no": 935,
+        "en": "phytosanitary certificate",
+        "cn": "植物检疫证书",
+        "core": false
+      },
+      {
+        "id": "vocab1200_936",
+        "no": 936,
+        "en": "health certificate",
+        "cn": "卫生证书",
+        "core": false
+      },
+      {
+        "id": "vocab1200_937",
+        "no": 937,
+        "en": "insurance certificate",
+        "cn": "保险凭证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_938",
+        "no": 938,
+        "en": "marine cargo insurance",
+        "cn": "海运货物保险",
+        "core": false
+      },
+      {
+        "id": "vocab1200_939",
+        "no": 939,
+        "en": "all-risk coverage",
+        "cn": "一切险",
+        "core": false
+      },
+      {
+        "id": "vocab1200_940",
+        "no": 940,
+        "en": "general average",
+        "cn": "共同海损",
+        "core": false
+      },
+      {
+        "id": "vocab1200_941",
+        "no": 941,
+        "en": "particular average",
+        "cn": "单独海损",
+        "core": false
+      },
+      {
+        "id": "vocab1200_942",
+        "no": 942,
+        "en": "claim",
+        "cn": "索赔",
+        "core": true
+      },
+      {
+        "id": "vocab1200_943",
+        "no": 943,
+        "en": "insurance claim",
+        "cn": "保险索赔",
+        "core": false
+      },
+      {
+        "id": "vocab1200_944",
+        "no": 944,
+        "en": "cargo damage",
+        "cn": "货损",
+        "core": false
+      },
+      {
+        "id": "vocab1200_945",
+        "no": 945,
+        "en": "short shipment",
+        "cn": "短装",
+        "core": false
+      },
+      {
+        "id": "vocab1200_946",
+        "no": 946,
+        "en": "over shipment",
+        "cn": "溢装",
+        "core": false
+      },
+      {
+        "id": "vocab1200_947",
+        "no": 947,
+        "en": "late delivery",
+        "cn": "延迟交货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_948",
+        "no": 948,
+        "en": "non-conformity",
+        "cn": "不符合约定",
+        "core": false
+      },
+      {
+        "id": "vocab1200_949",
+        "no": 949,
+        "en": "defective goods",
+        "cn": "瑕疵货物",
+        "core": false
+      },
+      {
+        "id": "vocab1200_950",
+        "no": 950,
+        "en": "inspection",
+        "cn": "检验",
+        "core": true
+      },
+      {
+        "id": "vocab1200_951",
+        "no": 951,
+        "en": "pre-shipment inspection",
+        "cn": "装运前检验",
+        "core": false
+      },
+      {
+        "id": "vocab1200_952",
+        "no": 952,
+        "en": "third-party inspection",
+        "cn": "第三方验货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_953",
+        "no": 953,
+        "en": "acceptance criteria",
+        "cn": "验收标准",
+        "core": false
+      },
+      {
+        "id": "vocab1200_954",
+        "no": 954,
+        "en": "rejection",
+        "cn": "拒收",
+        "core": false
+      },
+      {
+        "id": "vocab1200_955",
+        "no": 955,
+        "en": "recall",
+        "cn": "召回",
+        "core": false
+      },
+      {
+        "id": "vocab1200_956",
+        "no": 956,
+        "en": "compliance certificate",
+        "cn": "合规证书",
+        "core": false
+      },
+      {
+        "id": "vocab1200_957",
+        "no": 957,
+        "en": "product certification",
+        "cn": "产品认证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_958",
+        "no": 958,
+        "en": "CE marking",
+        "cn": "CE认证标志",
+        "core": false
+      },
+      {
+        "id": "vocab1200_959",
+        "no": 959,
+        "en": "technical barrier to trade (...",
+        "cn": "技术性贸易壁垒",
+        "core": false
       }
     ]
   },
@@ -5960,6 +7937,579 @@
         "en": "scenario analysis",
         "cn": "情景分析",
         "core": true
+      }
+    ]
+  },
+  {
+    "id": "ch19",
+    "title": "跨境电商运营、平台规则与国际履约",
+    "words": [
+      {
+        "id": "vocab1200_1120",
+        "no": 1120,
+        "en": "cross-border marketplace",
+        "cn": "跨境电商平台",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1121",
+        "no": 1121,
+        "en": "seller account",
+        "cn": "卖家账户",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1122",
+        "no": 1122,
+        "en": "storefront",
+        "cn": "店铺首页",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1123",
+        "no": 1123,
+        "en": "product listing",
+        "cn": "商品刊登",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1124",
+        "no": 1124,
+        "en": "listing optimization",
+        "cn": "商品Listing优化",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1125",
+        "no": 1125,
+        "en": "product title",
+        "cn": "商品标题",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1126",
+        "no": 1126,
+        "en": "product description",
+        "cn": "商品描述",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1127",
+        "no": 1127,
+        "en": "product attribute",
+        "cn": "商品属性",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1128",
+        "no": 1128,
+        "en": "search keyword",
+        "cn": "搜索关键词",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1129",
+        "no": 1129,
+        "en": "keyword ranking",
+        "cn": "关键词排名",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1130",
+        "no": 1130,
+        "en": "organic traffic",
+        "cn": "自然流量",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1131",
+        "no": 1131,
+        "en": "paid traffic",
+        "cn": "付费流量",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1132",
+        "no": 1132,
+        "en": "platform traffic",
+        "cn": "平台流量",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1133",
+        "no": 1133,
+        "en": "traffic acquisition",
+        "cn": "流量获取",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1134",
+        "no": 1134,
+        "en": "store conversion rate",
+        "cn": "店铺转化率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1135",
+        "no": 1135,
+        "en": "add-to-cart rate",
+        "cn": "加购率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1136",
+        "no": 1136,
+        "en": "checkout conversion",
+        "cn": "结账转化率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1137",
+        "no": 1137,
+        "en": "abandoned cart",
+        "cn": "弃购",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1138",
+        "no": 1138,
+        "en": "cart abandonment rate",
+        "cn": "购物车放弃率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1139",
+        "no": 1139,
+        "en": "order defect rate",
+        "cn": "订单缺陷率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1140",
+        "no": 1140,
+        "en": "late shipment rate",
+        "cn": "迟发率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1141",
+        "no": 1141,
+        "en": "on-time delivery rate",
+        "cn": "准时送达率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1142",
+        "no": 1142,
+        "en": "return rate",
+        "cn": "退货率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1143",
+        "no": 1143,
+        "en": "refund rate",
+        "cn": "退款率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1144",
+        "no": 1144,
+        "en": "cancellation rate",
+        "cn": "取消率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1145",
+        "no": 1145,
+        "en": "seller rating",
+        "cn": "卖家评分",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1146",
+        "no": 1146,
+        "en": "product review",
+        "cn": "商品评价",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1147",
+        "no": 1147,
+        "en": "star rating",
+        "cn": "星级评分",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1148",
+        "no": 1148,
+        "en": "negative review",
+        "cn": "差评",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1149",
+        "no": 1149,
+        "en": "review management",
+        "cn": "评价管理",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1150",
+        "no": 1150,
+        "en": "customer complaint",
+        "cn": "客户投诉",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1151",
+        "no": 1151,
+        "en": "customer service",
+        "cn": "客户服务",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1152",
+        "no": 1152,
+        "en": "service-level agreement (...",
+        "cn": "服务水平协议",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1153",
+        "no": 1153,
+        "en": "platform policy",
+        "cn": "平台政策",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1154",
+        "no": 1154,
+        "en": "account suspension",
+        "cn": "账户停用",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1155",
+        "no": 1155,
+        "en": "account verification",
+        "cn": "账户验证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1156",
+        "no": 1156,
+        "en": "identity verification",
+        "cn": "身份验证",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1157",
+        "no": 1157,
+        "en": "reserve balance",
+        "cn": "平台预留金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1158",
+        "no": 1158,
+        "en": "payout",
+        "cn": "平台打款",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1159",
+        "no": 1159,
+        "en": "settlement account",
+        "cn": "结算账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1160",
+        "no": 1160,
+        "en": "payment hold",
+        "cn": "付款冻结",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1161",
+        "no": 1161,
+        "en": "chargeback rate",
+        "cn": "拒付率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1162",
+        "no": 1162,
+        "en": "fraud prevention",
+        "cn": "欺诈防范",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1163",
+        "no": 1163,
+        "en": "platform commission",
+        "cn": "平台佣金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1164",
+        "no": 1164,
+        "en": "referral fee",
+        "cn": "平台销售佣金",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1165",
+        "no": 1165,
+        "en": "fulfillment fee",
+        "cn": "履约费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1166",
+        "no": 1166,
+        "en": "storage fee",
+        "cn": "仓储费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1167",
+        "no": 1167,
+        "en": "long-term storage fee",
+        "cn": "长期仓储费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1168",
+        "no": 1168,
+        "en": "advertising fee",
+        "cn": "广告费",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1169",
+        "no": 1169,
+        "en": "landed cost",
+        "cn": "落地成本",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1170",
+        "no": 1170,
+        "en": "cross-border fulfillment",
+        "cn": "跨境履约",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1171",
+        "no": 1171,
+        "en": "fulfillment center",
+        "cn": "履约中心",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1172",
+        "no": 1172,
+        "en": "fulfillment by merchant (F...",
+        "cn": "卖家自发货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1173",
+        "no": 1173,
+        "en": "fulfillment by platform",
+        "cn": "平台履约",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1174",
+        "no": 1174,
+        "en": "third-party logistics (3PL)",
+        "cn": "第三方物流",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1175",
+        "no": 1175,
+        "en": "fourth-party logistics (4PL)",
+        "cn": "第四方物流",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1176",
+        "no": 1176,
+        "en": "overseas warehouse",
+        "cn": "海外仓",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1177",
+        "no": 1177,
+        "en": "forward stocking",
+        "cn": "前置备货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1178",
+        "no": 1178,
+        "en": "inventory replenishment",
+        "cn": "库存补货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1179",
+        "no": 1179,
+        "en": "reorder point",
+        "cn": "再订货点",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1180",
+        "no": 1180,
+        "en": "sell-through rate",
+        "cn": "售罄率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1181",
+        "no": 1181,
+        "en": "stock turnover",
+        "cn": "库存周转",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1182",
+        "no": 1182,
+        "en": "slow-moving inventory",
+        "cn": "滞销库存",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1183",
+        "no": 1183,
+        "en": "dead stock",
+        "cn": "呆滞库存",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1184",
+        "no": 1184,
+        "en": "demand spike",
+        "cn": "需求激增",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1185",
+        "no": 1185,
+        "en": "peak season",
+        "cn": "旺季",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1186",
+        "no": 1186,
+        "en": "off season",
+        "cn": "淡季",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1187",
+        "no": 1187,
+        "en": "seasonality",
+        "cn": "季节性",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1188",
+        "no": 1188,
+        "en": "promotion calendar",
+        "cn": "促销日历",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1189",
+        "no": 1189,
+        "en": "shopping festival",
+        "cn": "购物节",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1190",
+        "no": 1190,
+        "en": "flash sale",
+        "cn": "限时促销",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1191",
+        "no": 1191,
+        "en": "coupon",
+        "cn": "优惠券",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1192",
+        "no": 1192,
+        "en": "bundle",
+        "cn": "组合销售",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1193",
+        "no": 1193,
+        "en": "cross-selling",
+        "cn": "交叉销售",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1194",
+        "no": 1194,
+        "en": "upselling",
+        "cn": "向上销售",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1195",
+        "no": 1195,
+        "en": "international return",
+        "cn": "跨境退货",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1196",
+        "no": 1196,
+        "en": "reverse logistics",
+        "cn": "逆向物流",
+        "core": true
+      },
+      {
+        "id": "vocab1200_1197",
+        "no": 1197,
+        "en": "duty drawback",
+        "cn": "退税/关税退还",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1198",
+        "no": 1198,
+        "en": "IOSS",
+        "cn": "欧盟进口一站式方案(IOSS)",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1199",
+        "no": 1199,
+        "en": "marketplace facilitator",
+        "cn": "平台代征税主体",
+        "core": false
+      },
+      {
+        "id": "vocab1200_1200",
+        "no": 1200,
+        "en": "import one-stop shop (IOS...",
+        "cn": "欧盟进口一站式方案",
+        "core": false
       }
     ]
   }
