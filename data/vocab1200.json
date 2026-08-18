@@ -1,0 +1,714 @@
+[
+  {
+    "id": "ch01",
+    "title": "宏观经济与经济指标",
+    "words": [
+      {
+        "id": "vocab1200_1",
+        "no": 1,
+        "en": "economy",
+        "cn": "经济",
+        "core": true
+      },
+      {
+        "id": "vocab1200_2",
+        "no": 2,
+        "en": "economic growth",
+        "cn": "经济增长",
+        "core": true
+      },
+      {
+        "id": "vocab1200_3",
+        "no": 3,
+        "en": "gross domestic product (GDP)",
+        "cn": "国内生产总值",
+        "core": true
+      },
+      {
+        "id": "vocab1200_4",
+        "no": 4,
+        "en": "GDP per capita",
+        "cn": "人均GDP",
+        "core": true
+      },
+      {
+        "id": "vocab1200_5",
+        "no": 5,
+        "en": "real GDP",
+        "cn": "实际GDP",
+        "core": false
+      },
+      {
+        "id": "vocab1200_6",
+        "no": 6,
+        "en": "nominal GDP",
+        "cn": "名义GDP",
+        "core": false
+      },
+      {
+        "id": "vocab1200_7",
+        "no": 7,
+        "en": "economic cycle",
+        "cn": "经济周期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_8",
+        "no": 8,
+        "en": "business cycle",
+        "cn": "商业周期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_9",
+        "no": 9,
+        "en": "expansion",
+        "cn": "扩张期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_10",
+        "no": 10,
+        "en": "contraction",
+        "cn": "收缩期",
+        "core": false
+      },
+      {
+        "id": "vocab1200_11",
+        "no": 11,
+        "en": "recession",
+        "cn": "经济衰退",
+        "core": true
+      },
+      {
+        "id": "vocab1200_12",
+        "no": 12,
+        "en": "depression",
+        "cn": "经济萧条",
+        "core": false
+      },
+      {
+        "id": "vocab1200_13",
+        "no": 13,
+        "en": "recovery",
+        "cn": "经济复苏",
+        "core": true
+      },
+      {
+        "id": "vocab1200_14",
+        "no": 14,
+        "en": "slowdown",
+        "cn": "经济放缓",
+        "core": false
+      },
+      {
+        "id": "vocab1200_15",
+        "no": 15,
+        "en": "soft landing",
+        "cn": "软着陆",
+        "core": false
+      },
+      {
+        "id": "vocab1200_16",
+        "no": 16,
+        "en": "hard landing",
+        "cn": "硬着陆",
+        "core": false
+      },
+      {
+        "id": "vocab1200_17",
+        "no": 17,
+        "en": "inflation",
+        "cn": "通货膨胀",
+        "core": true
+      },
+      {
+        "id": "vocab1200_18",
+        "no": 18,
+        "en": "deflation",
+        "cn": "通货紧缩",
+        "core": true
+      },
+      {
+        "id": "vocab1200_19",
+        "no": 19,
+        "en": "disinflation",
+        "cn": "通胀放缓",
+        "core": false
+      },
+      {
+        "id": "vocab1200_20",
+        "no": 20,
+        "en": "stagflation",
+        "cn": "滞胀",
+        "core": false
+      },
+      {
+        "id": "vocab1200_21",
+        "no": 21,
+        "en": "consumer price index (CPI)",
+        "cn": "消费者价格指数",
+        "core": true
+      },
+      {
+        "id": "vocab1200_22",
+        "no": 22,
+        "en": "producer price index (PPI)",
+        "cn": "生产者价格指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_23",
+        "no": 23,
+        "en": "core inflation",
+        "cn": "核心通胀",
+        "core": false
+      },
+      {
+        "id": "vocab1200_24",
+        "no": 24,
+        "en": "headline inflation",
+        "cn": "总体通胀",
+        "core": false
+      },
+      {
+        "id": "vocab1200_25",
+        "no": 25,
+        "en": "price level",
+        "cn": "价格水平",
+        "core": false
+      },
+      {
+        "id": "vocab1200_26",
+        "no": 26,
+        "en": "purchasing power",
+        "cn": "购买力",
+        "core": true
+      },
+      {
+        "id": "vocab1200_27",
+        "no": 27,
+        "en": "cost of living",
+        "cn": "生活成本",
+        "core": true
+      },
+      {
+        "id": "vocab1200_28",
+        "no": 28,
+        "en": "employment",
+        "cn": "就业",
+        "core": true
+      },
+      {
+        "id": "vocab1200_29",
+        "no": 29,
+        "en": "unemployment",
+        "cn": "失业",
+        "core": true
+      },
+      {
+        "id": "vocab1200_30",
+        "no": 30,
+        "en": "unemployment rate",
+        "cn": "失业率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_31",
+        "no": 31,
+        "en": "labor force",
+        "cn": "劳动力",
+        "core": true
+      },
+      {
+        "id": "vocab1200_32",
+        "no": 32,
+        "en": "labor participation rate",
+        "cn": "劳动参与率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_33",
+        "no": 33,
+        "en": "wage growth",
+        "cn": "工资增长",
+        "core": true
+      },
+      {
+        "id": "vocab1200_34",
+        "no": 34,
+        "en": "productivity",
+        "cn": "生产率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_35",
+        "no": 35,
+        "en": "output",
+        "cn": "产出",
+        "core": false
+      },
+      {
+        "id": "vocab1200_36",
+        "no": 36,
+        "en": "industrial production",
+        "cn": "工业生产",
+        "core": true
+      },
+      {
+        "id": "vocab1200_37",
+        "no": 37,
+        "en": "capacity utilization",
+        "cn": "产能利用率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_38",
+        "no": 38,
+        "en": "manufacturing PMI",
+        "cn": "制造业采购经理指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_39",
+        "no": 39,
+        "en": "services PMI",
+        "cn": "服务业采购经理指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_40",
+        "no": 40,
+        "en": "retail sales",
+        "cn": "零售销售额",
+        "core": true
+      },
+      {
+        "id": "vocab1200_41",
+        "no": 41,
+        "en": "consumer spending",
+        "cn": "消费者支出",
+        "core": true
+      },
+      {
+        "id": "vocab1200_42",
+        "no": 42,
+        "en": "household income",
+        "cn": "家庭收入",
+        "core": true
+      },
+      {
+        "id": "vocab1200_43",
+        "no": 43,
+        "en": "disposable income",
+        "cn": "可支配收入",
+        "core": true
+      },
+      {
+        "id": "vocab1200_44",
+        "no": 44,
+        "en": "savings rate",
+        "cn": "储蓄率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_45",
+        "no": 45,
+        "en": "economic sentiment",
+        "cn": "经济信心",
+        "core": false
+      },
+      {
+        "id": "vocab1200_46",
+        "no": 46,
+        "en": "leading indicator",
+        "cn": "领先指标",
+        "core": false
+      },
+      {
+        "id": "vocab1200_47",
+        "no": 47,
+        "en": "lagging indicator",
+        "cn": "滞后指标",
+        "core": false
+      },
+      {
+        "id": "vocab1200_48",
+        "no": 48,
+        "en": "coincident indicator",
+        "cn": "同步指标",
+        "core": false
+      },
+      {
+        "id": "vocab1200_49",
+        "no": 49,
+        "en": "fiscal policy",
+        "cn": "财政政策",
+        "core": true
+      },
+      {
+        "id": "vocab1200_50",
+        "no": 50,
+        "en": "fiscal stimulus",
+        "cn": "财政刺激",
+        "core": false
+      }
+    ]
+  },
+  {
+    "id": "ch02",
+    "title": "货币政策与外汇",
+    "words": [
+      {
+        "id": "vocab1200_51",
+        "no": 51,
+        "en": "monetary policy",
+        "cn": "货币政策",
+        "core": true
+      },
+      {
+        "id": "vocab1200_52",
+        "no": 52,
+        "en": "central bank",
+        "cn": "中央银行",
+        "core": true
+      },
+      {
+        "id": "vocab1200_53",
+        "no": 53,
+        "en": "policy rate",
+        "cn": "政策利率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_54",
+        "no": 54,
+        "en": "interest rate",
+        "cn": "利率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_55",
+        "no": 55,
+        "en": "benchmark rate",
+        "cn": "基准利率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_56",
+        "no": 56,
+        "en": "rate hike",
+        "cn": "加息",
+        "core": true
+      },
+      {
+        "id": "vocab1200_57",
+        "no": 57,
+        "en": "rate cut",
+        "cn": "降息",
+        "core": true
+      },
+      {
+        "id": "vocab1200_58",
+        "no": 58,
+        "en": "rate pause",
+        "cn": "暂停加息/降息",
+        "core": false
+      },
+      {
+        "id": "vocab1200_59",
+        "no": 59,
+        "en": "tightening",
+        "cn": "货币紧缩",
+        "core": true
+      },
+      {
+        "id": "vocab1200_60",
+        "no": 60,
+        "en": "easing",
+        "cn": "货币宽松",
+        "core": true
+      },
+      {
+        "id": "vocab1200_61",
+        "no": 61,
+        "en": "quantitative easing (QE)",
+        "cn": "量化宽松",
+        "core": false
+      },
+      {
+        "id": "vocab1200_62",
+        "no": 62,
+        "en": "quantitative tightening (QT)",
+        "cn": "量化紧缩",
+        "core": false
+      },
+      {
+        "id": "vocab1200_63",
+        "no": 63,
+        "en": "liquidity",
+        "cn": "流动性",
+        "core": true
+      },
+      {
+        "id": "vocab1200_64",
+        "no": 64,
+        "en": "money supply",
+        "cn": "货币供应量",
+        "core": true
+      },
+      {
+        "id": "vocab1200_65",
+        "no": 65,
+        "en": "M1 money supply",
+        "cn": "M1货币供应量",
+        "core": false
+      },
+      {
+        "id": "vocab1200_66",
+        "no": 66,
+        "en": "M2 money supply",
+        "cn": "M2货币供应量",
+        "core": false
+      },
+      {
+        "id": "vocab1200_67",
+        "no": 67,
+        "en": "reserve requirement ratio (RRR)",
+        "cn": "存款准备金率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_68",
+        "no": 68,
+        "en": "open market operation",
+        "cn": "公开市场操作",
+        "core": false
+      },
+      {
+        "id": "vocab1200_69",
+        "no": 69,
+        "en": "repo rate",
+        "cn": "回购利率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_70",
+        "no": 70,
+        "en": "reverse repo",
+        "cn": "逆回购",
+        "core": false
+      },
+      {
+        "id": "vocab1200_71",
+        "no": 71,
+        "en": "yield curve",
+        "cn": "收益率曲线",
+        "core": true
+      },
+      {
+        "id": "vocab1200_72",
+        "no": 72,
+        "en": "inverted yield curve",
+        "cn": "收益率曲线倒挂",
+        "core": false
+      },
+      {
+        "id": "vocab1200_73",
+        "no": 73,
+        "en": "real interest rate",
+        "cn": "实际利率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_74",
+        "no": 74,
+        "en": "nominal interest rate",
+        "cn": "名义利率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_75",
+        "no": 75,
+        "en": "foreign exchange",
+        "cn": "外汇",
+        "core": true
+      },
+      {
+        "id": "vocab1200_76",
+        "no": 76,
+        "en": "exchange rate",
+        "cn": "汇率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_77",
+        "no": 77,
+        "en": "fixed exchange rate",
+        "cn": "固定汇率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_78",
+        "no": 78,
+        "en": "floating exchange rate",
+        "cn": "浮动汇率",
+        "core": true
+      },
+      {
+        "id": "vocab1200_79",
+        "no": 79,
+        "en": "managed float",
+        "cn": "有管理的浮动汇率",
+        "core": false
+      },
+      {
+        "id": "vocab1200_80",
+        "no": 80,
+        "en": "currency",
+        "cn": "货币",
+        "core": true
+      },
+      {
+        "id": "vocab1200_81",
+        "no": 81,
+        "en": "reserve currency",
+        "cn": "储备货币",
+        "core": true
+      },
+      {
+        "id": "vocab1200_82",
+        "no": 82,
+        "en": "foreign exchange reserves",
+        "cn": "外汇储备",
+        "core": false
+      },
+      {
+        "id": "vocab1200_83",
+        "no": 83,
+        "en": "currency appreciation",
+        "cn": "货币升值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_84",
+        "no": 84,
+        "en": "currency depreciation",
+        "cn": "货币贬值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_85",
+        "no": 85,
+        "en": "devaluation",
+        "cn": "货币贬值（官方调低）",
+        "core": false
+      },
+      {
+        "id": "vocab1200_86",
+        "no": 86,
+        "en": "revaluation",
+        "cn": "货币重估/升值",
+        "core": false
+      },
+      {
+        "id": "vocab1200_87",
+        "no": 87,
+        "en": "currency peg",
+        "cn": "汇率挂钩",
+        "core": true
+      },
+      {
+        "id": "vocab1200_88",
+        "no": 88,
+        "en": "capital flow",
+        "cn": "资本流动",
+        "core": true
+      },
+      {
+        "id": "vocab1200_89",
+        "no": 89,
+        "en": "capital inflow",
+        "cn": "资本流入",
+        "core": true
+      },
+      {
+        "id": "vocab1200_90",
+        "no": 90,
+        "en": "capital outflow",
+        "cn": "资本流出",
+        "core": true
+      },
+      {
+        "id": "vocab1200_91",
+        "no": 91,
+        "en": "hot money",
+        "cn": "热钱",
+        "core": true
+      },
+      {
+        "id": "vocab1200_92",
+        "no": 92,
+        "en": "capital control",
+        "cn": "资本管制",
+        "core": true
+      },
+      {
+        "id": "vocab1200_93",
+        "no": 93,
+        "en": "convertibility",
+        "cn": "可兑换性",
+        "core": false
+      },
+      {
+        "id": "vocab1200_94",
+        "no": 94,
+        "en": "current account",
+        "cn": "经常账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_95",
+        "no": 95,
+        "en": "capital account",
+        "cn": "资本账户",
+        "core": true
+      },
+      {
+        "id": "vocab1200_96",
+        "no": 96,
+        "en": "balance of payments",
+        "cn": "国际收支",
+        "core": true
+      },
+      {
+        "id": "vocab1200_97",
+        "no": 97,
+        "en": "trade-weighted index",
+        "cn": "贸易加权汇率指数",
+        "core": false
+      },
+      {
+        "id": "vocab1200_98",
+        "no": 98,
+        "en": "currency basket",
+        "cn": "货币篮子",
+        "core": true
+      },
+      {
+        "id": "vocab1200_99",
+        "no": 99,
+        "en": "foreign-exchange intervention",
+        "cn": "外汇干预",
+        "core": false
+      },
+      {
+        "id": "vocab1200_100",
+        "no": 100,
+        "en": "currency hedge",
+        "cn": "汇率对冲",
+        "core": true
+      }
+    ]
+  }
+]
